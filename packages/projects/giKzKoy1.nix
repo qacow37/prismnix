@@ -56,6 +56,26 @@ let
             "file" = "suomitiertagger-6.8.0+mc26.3.jar";
             "hash" = "sha512-wQm2aU2ms6OOVZhw3Xm3MGVygYTGu6uus0lsZPxXlGiu8cENuqRtcBatsdST+XgXUscfb457Vmbd5J13Jvbcrg==";
         };
+        _f5QR4QiG = {
+            "id" = "f5QR4QiG";
+            "file" = "suomitiertagger-6.9.0+mc26.3.jar";
+            "hash" = "sha512-V/S5/2S9QVd36GDVx9dqzXHz2iFCUEA5Q9BKNfYA3qz2WMJnhfJ5CSmf4QX2Ngx+pctZVXDq8mITpWr+ivnBtA==";
+        };
+        _NkY0U926 = {
+            "id" = "NkY0U926";
+            "file" = "suomitiertagger-6.9.0+mc26.2.jar";
+            "hash" = "sha512-ttGXwj0BqunLVsaqprPuadjpNBcuK8oIJdAMyCX/nMGA8qSAHQczz8oRxcIp5nq9X/xuU0G0qrM9/qKYeK+JZQ==";
+        };
+        _Rc2bBcei = {
+            "id" = "Rc2bBcei";
+            "file" = "suomitiertagger-6.9.0+mc26.1.jar";
+            "hash" = "sha512-+sk75ezrnCB55np9IFp5Lp79n2JGzhphZJOjUrRSvMTRcLcYyQTCCqC43pPNCv/iIYR2rBYo5tNsXXW3d+vAKw==";
+        };
+        _nk8Ad5uv = {
+            "id" = "nk8Ad5uv";
+            "file" = "suomitiertagger-6.9.0+mc1.21.11.jar";
+            "hash" = "sha512-yT0wi5ptui7UuM90H1ueAsUeIBYD/xTJIMo/xKL7gGei1eMGYc7uVgBasqS9yQBXXeI/+DSMHAhosijJ4xwl3w==";
+        };
     in {
         "qLbHNRhe" = _qLbHNRhe;
         "Uljb6A25" = _Uljb6A25;
@@ -68,12 +88,16 @@ let
         "W0eZxDP1" = _W0eZxDP1;
         "KIWyOV3y" = _KIWyOV3y;
         "sYy8qUuw" = _sYy8qUuw;
-        "fabric-26.2" = _RNLjc7Zp;
-        "fabric-1.21.11" = _KIWyOV3y;
-        "fabric-26.1" = _IF8CjXgi;
+        "f5QR4QiG" = _f5QR4QiG;
+        "NkY0U926" = _NkY0U926;
+        "Rc2bBcei" = _Rc2bBcei;
+        "nk8Ad5uv" = _nk8Ad5uv;
+        "fabric-26.2" = _NkY0U926;
+        "fabric-1.21.11" = _nk8Ad5uv;
+        "fabric-26.1" = _Rc2bBcei;
         "fabric-26.1.1" = _W0eZxDP1;
         "fabric-26.1.2" = _2FOdGC02;
-        "fabric-26.3" = _sYy8qUuw;
+        "fabric-26.3" = _f5QR4QiG;
         "pkg-6.7.0+mc26.2" = _qLbHNRhe;
         "pkg-6.7.0+mc1.21.11" = _Uljb6A25;
         "pkg-6.7.0+mc26.1" = _PaWQ705m;
@@ -85,7 +109,11 @@ let
         "pkg-6.8.0+mc26.1.1" = _W0eZxDP1;
         "pkg-6.8.0+mc1.21.11" = _KIWyOV3y;
         "pkg-6.8.0+mc26.3" = _sYy8qUuw;
-        "default" = _sYy8qUuw;
+        "pkg-6.9.0+mc26.3" = _f5QR4QiG;
+        "pkg-6.9.0+mc26.2" = _NkY0U926;
+        "pkg-6.9.0+mc26.1" = _Rc2bBcei;
+        "pkg-6.9.0+mc1.21.11" = _nk8Ad5uv;
+        "default" = _nk8Ad5uv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "suomi-tier-tagger";

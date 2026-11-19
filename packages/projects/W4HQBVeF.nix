@@ -411,6 +411,11 @@ let
             "file" = "nilcord-5.1+1.21+fabric.jar";
             "hash" = "sha512-TqVEQo06DU1u0JQiTIoDiG3h0N/gYKwiocdq37YOOepheuYuHEqXoE1xS9QdwGRBaLg3cmHzlKIfSYYPyOZm0Q==";
         };
+        _pdLX8dx0 = {
+            "id" = "pdLX8dx0";
+            "file" = "nilcord-2.4.2.2+1.7.10+forge.jar";
+            "hash" = "sha512-kFq+uItoON8Irwkvf2dr18zyiVWGhQyFgVeD+08HyOhjdPFyirKqDarBSgcFiwZFbcwfd9JAopL0ZXbBbfv9Lg==";
+        };
     in {
         "g84ZLvmX" = _g84ZLvmX;
         "v3nDei0T" = _v3nDei0T;
@@ -494,8 +499,9 @@ let
         "2An2Emia" = _2An2Emia;
         "umQm1moG" = _umQm1moG;
         "5KyWt2G8" = _5KyWt2G8;
+        "pdLX8dx0" = _pdLX8dx0;
         "nilloader-1.4.7" = _lbat4KVA;
-        "forge-1.7.10" = _rpG5CRro;
+        "forge-1.7.10" = _pdLX8dx0;
         "forge-1.12.2" = _hZDnOp0r;
         "fabric-1.20" = _lLOOIpLC;
         "fabric-1.20.1" = _lLOOIpLC;
@@ -613,7 +619,8 @@ let
         "pkg-5.1+26.2+neoforge" = _2An2Emia;
         "pkg-5.1+26.3+fabric" = _umQm1moG;
         "pkg-5.1+1.21+fabric" = _5KyWt2G8;
-        "default" = _5KyWt2G8;
+        "pkg-2.4.2.2+1.7.10+forge" = _pdLX8dx0;
+        "default" = _pdLX8dx0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nilcord";

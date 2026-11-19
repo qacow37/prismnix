@@ -136,6 +136,21 @@ let
             "file" = "averagedps-neo-1.21.1-1.2.1.jar";
             "hash" = "sha512-C2k7TECXO9ZcH/V/BbLuj/vtWPG5sG8LI7Ladg8FKFPvEr4hFimGtbavW/A0JXB2X+mOfy7h0pCUrLHqxHaDmg==";
         };
+        _SYknfQ1t = {
+            "id" = "SYknfQ1t";
+            "file" = "averagedps-neo-26.1.2_v1.2.1.jar";
+            "hash" = "sha512-VEcu8XOGu6oHmkNLcUxTcd5Vv/6iaaGWREoYbW9wHUhs514wLGQRjk5aU8M4YgavZIGz5ctA1/88fUztI5MLrg==";
+        };
+        _MRP9xhDw = {
+            "id" = "MRP9xhDw";
+            "file" = "AverageDPS-forge-1.20.1_v1.2.2.jar";
+            "hash" = "sha512-6CUCwpAyqy21uhOJzz/Jk6z/RopIRtz1VuvXTeT0h3F/RpdnczrK3THqizf+zxKkMWst//jtDnJFn6n3Clo1ig==";
+        };
+        _ZJnEFDd6 = {
+            "id" = "ZJnEFDd6";
+            "file" = "AverageDPS-neo-1.21.1_v1.2.2.jar";
+            "hash" = "sha512-qheva8YIFuQ/B8Taolag+r6ta3RiyWbts6V8Iq13T/n37uhE76DuRIDBai/J/2Y0Dr6qnj03vfPreSnKQdEHoQ==";
+        };
     in {
         "O2hoaLFK" = _O2hoaLFK;
         "r4lDmUpO" = _r4lDmUpO;
@@ -164,11 +179,14 @@ let
         "iB82hkRe" = _iB82hkRe;
         "8OXPTXeR" = _8OXPTXeR;
         "4amcRx57" = _4amcRx57;
-        "forge-1.20.1" = _8OXPTXeR;
-        "neoforge-1.21.1" = _4amcRx57;
+        "SYknfQ1t" = _SYknfQ1t;
+        "MRP9xhDw" = _MRP9xhDw;
+        "ZJnEFDd6" = _ZJnEFDd6;
+        "forge-1.20.1" = _MRP9xhDw;
+        "neoforge-1.21.1" = _ZJnEFDd6;
         "neoforge-26.1" = _rpPiwYM2;
         "neoforge-26.1.1" = _rpPiwYM2;
-        "neoforge-26.1.2" = _rpPiwYM2;
+        "neoforge-26.1.2" = _SYknfQ1t;
         "pkg-1.0.0" = _mMVwTicE;
         "pkg-1.0.1" = _xjGPUPal;
         "pkg-1.0.3" = _9r04lbLy;
@@ -187,8 +205,9 @@ let
         "pkg-1.1.8" = _vV7nrqBh;
         "pkg-1" = _rpPiwYM2;
         "pkg-1.2.0" = _iB82hkRe;
-        "pkg-1.2.1" = _4amcRx57;
-        "default" = _4amcRx57;
+        "pkg-1.2.1" = _SYknfQ1t;
+        "pkg-1.2.2" = _ZJnEFDd6;
+        "default" = _ZJnEFDd6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "average-dps";

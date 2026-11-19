@@ -171,6 +171,11 @@ let
             "file" = "simple-health-indicator-11.0.0+26.3.jar";
             "hash" = "sha512-4cjRtcdr4Bp0pdAojG3gOqP6sJaGQ6wHopEOrcBniooG+7l6lRCN797Z9UOA6QIv9YOfRXIe1ybFTvQdKni7DQ==";
         };
+        _vrFxecvn = {
+            "id" = "vrFxecvn";
+            "file" = "simple-health-indicator-12.0.0-beta+26.4.jar";
+            "hash" = "sha512-VLJcd8hHu+dIlU029xtUffFWg2bfQa/NxUExa6qe+MydwSWQfZ6G2qNgjN5pJZ688Xm63qkxtOOqq21yS0RqrA==";
+        };
     in {
         "tg9eLV97" = _tg9eLV97;
         "WUKA6Nnh" = _WUKA6Nnh;
@@ -206,6 +211,7 @@ let
         "FJgOchbD" = _FJgOchbD;
         "rWrUo2S4" = _rWrUo2S4;
         "LYqmjIAP" = _LYqmjIAP;
+        "vrFxecvn" = _vrFxecvn;
         "fabric-1.20" = _1sXOFvIM;
         "fabric-1.20.1" = _1sXOFvIM;
         "fabric-1.20.2" = _A0Cazvk2;
@@ -233,6 +239,7 @@ let
         "fabric-26.2" = _w6Br1RyL;
         "fabric-26.3-snapshot-7" = _rWrUo2S4;
         "fabric-26.3" = _LYqmjIAP;
+        "fabric-26.4-snapshot-10" = _vrFxecvn;
         "pkg-0.1.1" = _tg9eLV97;
         "pkg-0.1.2" = _WUKA6Nnh;
         "pkg-0.1.3" = _u3hXFIZX;
@@ -265,7 +272,8 @@ let
         "pkg-6.0.3+1.21.2" = _FJgOchbD;
         "pkg-11.0.0-beta+26.3" = _rWrUo2S4;
         "pkg-11.0.0+26.3" = _LYqmjIAP;
-        "default" = _LYqmjIAP;
+        "pkg-12.0.0-beta+26.4" = _vrFxecvn;
+        "default" = _vrFxecvn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-health-indicator";

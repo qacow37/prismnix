@@ -26,19 +26,26 @@ let
             "file" = "immersivefixes-1.3.0.jar";
             "hash" = "sha512-Inll0uxtGZI1onsMT4zIByc8t/cZDwhIAvDU1fGHIILiC5oCVXUY++8MOzIJcxi6Q075V9ZI5MfaLVQTkSGj2Q==";
         };
+        _G02cTqoe = {
+            "id" = "G02cTqoe";
+            "file" = "immersivefixes-1.4.0.jar";
+            "hash" = "sha512-AGzmV6dhiUT/riWVPjuIgMoGQfnqjO7IvPbn4JgeJoMgFZkPQv58jysrkTCKm6Pa/1cm+85O8MHufiP+Eq+jNg==";
+        };
     in {
         "CZNSUkuq" = _CZNSUkuq;
         "1qa61apB" = _1qa61apB;
         "zDu4OapF" = _zDu4OapF;
         "9BAinF1s" = _9BAinF1s;
         "zFSb3m8f" = _zFSb3m8f;
-        "forge-1.12.2" = _zFSb3m8f;
+        "G02cTqoe" = _G02cTqoe;
+        "forge-1.12.2" = _G02cTqoe;
         "pkg-1.0.0" = _CZNSUkuq;
         "pkg-1.1.0" = _1qa61apB;
         "pkg-1.1.1" = _zDu4OapF;
         "pkg-1.2.0" = _9BAinF1s;
         "pkg-1.3.0" = _zFSb3m8f;
-        "default" = _zFSb3m8f;
+        "pkg-1.4.0" = _G02cTqoe;
+        "default" = _G02cTqoe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-fixes-old-ie";

@@ -36,6 +36,16 @@ let
             "file" = "champs moves & abilities 1.5.jar";
             "hash" = "sha512-27D1h0FCVzQ/Q+lZjgiotJo0/zW3pTLDfojrWj2iVhh3NgwdQyMjfyMs+J9m2frlN68Czo+Uwd4fCechM1jdvQ==";
         };
+        _dBRUQ6cj = {
+            "id" = "dBRUQ6cj";
+            "file" = "Champs Moves & Abilities 1.51.zip";
+            "hash" = "sha512-/W6Bm1vcV4ICX+8RaPXNxighSVzW4zs5WlkkyvPVa28TqdHfV55eRjFJfCbDOxiDmlF0TWoRNs1NwYicNv5vWw==";
+        };
+        _9krv5XIb = {
+            "id" = "9krv5XIb";
+            "file" = "Champs Moves & Abilities Changes 1.51.jar";
+            "hash" = "sha512-Ez12W2P1wG/GGSOYs1P10DGOxOObhXU0FZFWDkeK0ppPQ2dbwQ5Sr0rhlvzYlPDqKsmaHJSxVaXCBC0TKBL/CQ==";
+        };
     in {
         "B5iNfbeO" = _B5iNfbeO;
         "EHkq6Zdv" = _EHkq6Zdv;
@@ -44,15 +54,18 @@ let
         "zMHWjnGE" = _zMHWjnGE;
         "CNYPLDo8" = _CNYPLDo8;
         "JiEDGpt5" = _JiEDGpt5;
-        "datapack-1.21.1" = _CNYPLDo8;
-        "datapack-1.21" = _CNYPLDo8;
-        "fabric-1.21.1" = _JiEDGpt5;
-        "neoforge-1.21.1" = _JiEDGpt5;
+        "dBRUQ6cj" = _dBRUQ6cj;
+        "9krv5XIb" = _9krv5XIb;
+        "datapack-1.21.1" = _dBRUQ6cj;
+        "datapack-1.21" = _dBRUQ6cj;
+        "fabric-1.21.1" = _9krv5XIb;
+        "neoforge-1.21.1" = _9krv5XIb;
         "pkg-1.0" = _B5iNfbeO;
         "pkg-1.3" = _X8bIT6w1;
         "pkg-1.4" = _zMHWjnGE;
         "pkg-1.5" = _JiEDGpt5;
-        "default" = _JiEDGpt5;
+        "pkg-1.51" = _9krv5XIb;
+        "default" = _9krv5XIb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-updated-champions-abilitiesmoves";

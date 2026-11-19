@@ -821,6 +821,51 @@ let
             "file" = "BandwidthOptimizer-5.10.33.156-neoforge-26.2.jar";
             "hash" = "sha512-3WRugqvLI0DLdWFmvbb7RKoiiaoAAyX6x2HdJiPakBfATq1/wwUeCyEwJprnixEpykZvQKjytMJDVEXDq+2wvQ==";
         };
+        _becDKbV3 = {
+            "id" = "becDKbV3";
+            "file" = "BandwidthOptimizer-5.10.33.160-fabric-1.20.1.jar";
+            "hash" = "sha512-ptvdz3Kq2OfNdoBjlq5aC41wctSLKJhClNaA3D0sKkTprEloJakJuK/WMRSTdSM+spdAoF1pVLx1sJqUE3nyRQ==";
+        };
+        _Dpgk1QgZ = {
+            "id" = "Dpgk1QgZ";
+            "file" = "BandwidthOptimizer-5.10.33.160-fabric-1.21.1.jar";
+            "hash" = "sha512-/M8LhGKSyXWPmhpBs2b9iHMEp4QQjq62sMMV+y+2UthypiHcC1U6LTo7QawQRq1v5ywIqxN6Xs345UPxTUYoTg==";
+        };
+        _ZYaRe7T0 = {
+            "id" = "ZYaRe7T0";
+            "file" = "BandwidthOptimizer-5.10.33.160-fabric-26.1.2.jar";
+            "hash" = "sha512-OLW+bEFk/hZ2Zft+gO01CQrQ/Lm0PF+TQELqlnP5Ek/Bki+rtRBokVo/O74h07bqYOCMuOiwndsY3yTgwLdw4w==";
+        };
+        _qGi4IAPX = {
+            "id" = "qGi4IAPX";
+            "file" = "BandwidthOptimizer-5.10.33.160-fabric-26.2.jar";
+            "hash" = "sha512-Aiu+2dNcXN4mW6snupFMJrryCzCYHfsS+r+baHAT+/HqsInPBVCHhDw6rE+7tqno0bjYKKt2eKhjVOKlmAe5Gg==";
+        };
+        _krQvAoTZ = {
+            "id" = "krQvAoTZ";
+            "file" = "BandwidthOptimizer-5.10.33.160-forge-1.19.2.jar";
+            "hash" = "sha512-G7j/aspRJSs0m9ZTohZiEdZevUEJOE5wVZIsDBUuByP2+eflGHd8AUgy47E/f4RDdTubASeRjPOJBm3JKMalyA==";
+        };
+        _RWhRbxkq = {
+            "id" = "RWhRbxkq";
+            "file" = "BandwidthOptimizer-5.10.33.160-forge-1.20.1.jar";
+            "hash" = "sha512-v8Fy5JTjXhdgsZf3E0uDK8JrgISP0F+PdTf/EGedrT9Mmz5athm8sTa4EU+sHDECWE6g8Op0kDZ+KCuxxiHyMg==";
+        };
+        _KG3s2O55 = {
+            "id" = "KG3s2O55";
+            "file" = "BandwidthOptimizer-5.10.33.160-neoforge-1.21.1.jar";
+            "hash" = "sha512-j9ZbxHwSWRvfWKrZKB2DoHxyqpDEcar5y9n5FqfPO+3HtSQ0Fh3V+gOcznPq/l07tMDnpTWlGslkbd8QNz195w==";
+        };
+        _qVKGsHjv = {
+            "id" = "qVKGsHjv";
+            "file" = "BandwidthOptimizer-5.10.33.160-neoforge-26.1.2.jar";
+            "hash" = "sha512-NR7gw5EhLvKQJyBckg2PK0OSghVR12WykDz3ewtiKwsdwv1gNadLdEZsQ5T9lCzeNW+Bgc2aqtienUUinm9hZw==";
+        };
+        _PoBm975s = {
+            "id" = "PoBm975s";
+            "file" = "BandwidthOptimizer-5.10.33.160-neoforge-26.2.jar";
+            "hash" = "sha512-urGQ4MmHeUFiIHVxu/iPKuFLAwCtoLm/YlWH/Cw5LsSOzzn1dX5bSXgdHR1WmQsQ0NR6/geE3nm0vqzrQOgdhg==";
+        };
     in {
         "ysV5V8I6" = _ysV5V8I6;
         "1dHINxWK" = _1dHINxWK;
@@ -986,17 +1031,26 @@ let
         "P82iX9dd" = _P82iX9dd;
         "IbhRuwTn" = _IbhRuwTn;
         "A1n4epFZ" = _A1n4epFZ;
-        "forge-1.20.1" = _f12TXaRr;
-        "forge-1.19.2" = _AxTnoEFU;
-        "neoforge-1.21.1" = _P82iX9dd;
-        "neoforge-26.1.2" = _IbhRuwTn;
-        "neoforge-26.2" = _A1n4epFZ;
-        "fabric-1.20.1" = _2XkjsuS4;
-        "fabric-1.21.1" = _KIr3qhZB;
-        "fabric-26.1.2" = _t1G5An0Y;
-        "fabric-26.2" = _Dj7UJSeA;
-        "quilt-1.20.1" = _2XkjsuS4;
-        "quilt-1.21.1" = _KIr3qhZB;
+        "becDKbV3" = _becDKbV3;
+        "Dpgk1QgZ" = _Dpgk1QgZ;
+        "ZYaRe7T0" = _ZYaRe7T0;
+        "qGi4IAPX" = _qGi4IAPX;
+        "krQvAoTZ" = _krQvAoTZ;
+        "RWhRbxkq" = _RWhRbxkq;
+        "KG3s2O55" = _KG3s2O55;
+        "qVKGsHjv" = _qVKGsHjv;
+        "PoBm975s" = _PoBm975s;
+        "forge-1.20.1" = _RWhRbxkq;
+        "forge-1.19.2" = _krQvAoTZ;
+        "neoforge-1.21.1" = _KG3s2O55;
+        "neoforge-26.1.2" = _qVKGsHjv;
+        "neoforge-26.2" = _PoBm975s;
+        "fabric-1.20.1" = _becDKbV3;
+        "fabric-1.21.1" = _Dpgk1QgZ;
+        "fabric-26.1.2" = _ZYaRe7T0;
+        "fabric-26.2" = _qGi4IAPX;
+        "quilt-1.20.1" = _becDKbV3;
+        "quilt-1.21.1" = _Dpgk1QgZ;
         "pkg-1.0-SNAPSHOT" = _ysV5V8I6;
         "pkg-1.20.1-1.0-release" = _1dHINxWK;
         "pkg-1.20.1-1.1-release" = _SuMIFFVh;
@@ -1160,7 +1214,16 @@ let
         "pkg-1.21.1-5.10.33.156-neoforge" = _P82iX9dd;
         "pkg-26.1.2-5.10.33.156-neoforge" = _IbhRuwTn;
         "pkg-26.2-5.10.33.156-neoforge" = _A1n4epFZ;
-        "default" = _A1n4epFZ;
+        "pkg-1.20.1-5.10.33.160-fabric" = _becDKbV3;
+        "pkg-1.21.1-5.10.33.160-fabric" = _Dpgk1QgZ;
+        "pkg-26.1.2-5.10.33.160-fabric" = _ZYaRe7T0;
+        "pkg-26.2-5.10.33.160-fabric" = _qGi4IAPX;
+        "pkg-1.19.2-5.10.33.160-forge" = _krQvAoTZ;
+        "pkg-1.20.1-5.10.33.160-forge" = _RWhRbxkq;
+        "pkg-1.21.1-5.10.33.160-neoforge" = _KG3s2O55;
+        "pkg-26.1.2-5.10.33.160-neoforge" = _qVKGsHjv;
+        "pkg-26.2-5.10.33.160-neoforge" = _PoBm975s;
+        "default" = _PoBm975s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bandwidthoptimizer";

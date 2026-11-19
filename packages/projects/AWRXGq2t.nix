@@ -51,6 +51,11 @@ let
             "file" = "immersivefixes-1.8.0.jar";
             "hash" = "sha512-5VS13PY/QNIuTE0Mrzd51U5MrCix5ga5sf9EP1U8VULzjh+tf3Yqtb/0AxC9dRJgy701ogELt2QO/a1nVwgYtA==";
         };
+        _cKoERECC = {
+            "id" = "cKoERECC";
+            "file" = "immersivefixes-1.9.0.jar";
+            "hash" = "sha512-ZA40qkqPXQ7uhlIlKaL7Jwly9HgvcOgnA3vfcr2jFQg7XNlorQFaI5TwS9m7oLqosxtueQlu+SrpsPpAkC/duA==";
+        };
     in {
         "EhWJgdpG" = _EhWJgdpG;
         "avsJloAN" = _avsJloAN;
@@ -62,7 +67,8 @@ let
         "Usc2uYH1" = _Usc2uYH1;
         "I6VsWqb9" = _I6VsWqb9;
         "OaJlmGHG" = _OaJlmGHG;
-        "forge-1.20.1" = _OaJlmGHG;
+        "cKoERECC" = _cKoERECC;
+        "forge-1.20.1" = _cKoERECC;
         "pkg-1.0.0" = _EhWJgdpG;
         "pkg-1.0.1" = _avsJloAN;
         "pkg-1.0.2" = _AiEGyJgq;
@@ -73,7 +79,8 @@ let
         "pkg-1.6.1" = _Usc2uYH1;
         "pkg-1.7.0" = _I6VsWqb9;
         "pkg-1.8.0" = _OaJlmGHG;
-        "default" = _OaJlmGHG;
+        "pkg-1.9.0" = _cKoERECC;
+        "default" = _cKoERECC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-fixes";

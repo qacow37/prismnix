@@ -26,19 +26,26 @@ let
             "file" = "Cuffed-1.21.1-1.0.1-neoforge.jar";
             "hash" = "sha512-fOIzHqrmH2syL+DZj0HPK4DklGwT2K8pqjL+13Me+U2Ll9zMaXzM2UjOK6cSjG0JCWnkP6ESx7lkhRnto+icNA==";
         };
+        _WRSqhFzp = {
+            "id" = "WRSqhFzp";
+            "file" = "Cuffed-1.21.1-1.0.2-neoforge.jar";
+            "hash" = "sha512-JPtErYW94z47Krwdf479aKlG2TqIPkFqNtC4s+oKBO3Mhu3pHmMmgHhws+m3tEPBVLxkuHEeMm5PaMSlfuzVNA==";
+        };
     in {
         "Sz35yFbA" = _Sz35yFbA;
         "rKk6T82f" = _rKk6T82f;
         "1Q0Oe0kl" = _1Q0Oe0kl;
         "lQKHTsDW" = _lQKHTsDW;
         "AoKdVFzl" = _AoKdVFzl;
-        "neoforge-1.21.1" = _AoKdVFzl;
+        "WRSqhFzp" = _WRSqhFzp;
+        "neoforge-1.21.1" = _WRSqhFzp;
         "pkg-1.3.14" = _Sz35yFbA;
         "pkg-1.3.15" = _rKk6T82f;
         "pkg-1.3.16" = _1Q0Oe0kl;
         "pkg-1.0.0" = _lQKHTsDW;
         "pkg-1.0.1" = _AoKdVFzl;
-        "default" = _AoKdVFzl;
+        "pkg-1.0.2" = _WRSqhFzp;
+        "default" = _WRSqhFzp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cuffed-ported";

@@ -61,6 +61,16 @@ let
             "file" = "FiredPots-neoforge-1.21.11-1.1.0.jar";
             "hash" = "sha512-XG/VSXzGBR9pBqLtGOyZ8QSA6D0hU8E3QiRjpwfj7337Ie+koBVcFRw1bTbTK6MxEtn3F9uWmt0XdrqKbWbK3g==";
         };
+        _jEoDFLr0 = {
+            "id" = "jEoDFLr0";
+            "file" = "FiredPots-fabric-26.1-1.2.0.jar";
+            "hash" = "sha512-LiR4qgICMzbtND0GUC4nG/Vn5HS84yiQJQq/tepOK09OcTxmrN18+vaHoYH2EAWyTq2wNsizEbPCWKqziqBZCQ==";
+        };
+        _wHXQewd8 = {
+            "id" = "wHXQewd8";
+            "file" = "FiredPots-neoforge-26.1-1.2.0.jar";
+            "hash" = "sha512-OfrFzVpeViSxbtkzTNopX6fHCkng9KW8I4/99BplMvczkhIso/j//XRo8dctWKNvv64EGGN8lP7eMjCmmMOMxw==";
+        };
     in {
         "afHg2IpY" = _afHg2IpY;
         "I5PAnMGD" = _I5PAnMGD;
@@ -74,23 +84,32 @@ let
         "nvfXx4df" = _nvfXx4df;
         "GuuBksB1" = _GuuBksB1;
         "JnKfWOkC" = _JnKfWOkC;
+        "jEoDFLr0" = _jEoDFLr0;
+        "wHXQewd8" = _wHXQewd8;
         "neoforge-1.21" = _aefQfRss;
         "neoforge-1.21.1" = _aefQfRss;
         "neoforge-1.21.5" = _A4rKQ5ci;
         "neoforge-1.21.6" = _nvfXx4df;
         "neoforge-1.21.7" = _nvfXx4df;
         "neoforge-1.21.11" = _JnKfWOkC;
+        "neoforge-26.1.2" = _wHXQewd8;
+        "neoforge-26.1.1" = _wHXQewd8;
+        "neoforge-26.1" = _wHXQewd8;
         "fabric-1.21" = _P4Lf6sbl;
         "fabric-1.21.1" = _P4Lf6sbl;
         "fabric-1.21.5" = _aKMhbQMo;
         "fabric-1.21.6" = _P1EPVwne;
         "fabric-1.21.7" = _P1EPVwne;
         "fabric-1.21.11" = _GuuBksB1;
+        "fabric-26.1.2" = _jEoDFLr0;
+        "fabric-26.1.1" = _jEoDFLr0;
+        "fabric-26.1" = _jEoDFLr0;
         "pkg-1.0.0" = _I5PAnMGD;
         "pkg-1.0.1" = _lNDHdzgO;
         "pkg-1.0.2" = _A4rKQ5ci;
         "pkg-1.1.0" = _JnKfWOkC;
-        "default" = _JnKfWOkC;
+        "pkg-1.2.0" = _wHXQewd8;
+        "default" = _wHXQewd8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fired-pots";

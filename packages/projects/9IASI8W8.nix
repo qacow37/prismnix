@@ -106,6 +106,16 @@ let
             "file" = "nutritionz-1.1.6.jar";
             "hash" = "sha512-ccPBwspPd7qC3j5dzAwl39v/GchH5Sv12TA8L25hQ7sFTkVYdvhPahPTiPH+F0M9Hmst/UeWsiB82CgVcdEwxg==";
         };
+        _hKsD0BOk = {
+            "id" = "hKsD0BOk";
+            "file" = "nutritionz-fabric-1.1.7+26.3.jar";
+            "hash" = "sha512-yTLxPacMUkeP5Iz9ovIkzxMS0R8MivRF4M7Xttb4xcxZXQT6PDSbfhgPr3rISk+1JAaIP8AWf33EnD0dXPREiA==";
+        };
+        _ZDJEitVz = {
+            "id" = "ZDJEitVz";
+            "file" = "nutritionz-neoforge-1.1.7+26.3.jar";
+            "hash" = "sha512-wbdxDUt/n2VnYbttPgmUaQt5tG3/fGaZwZ6nPIf2K5A11he6cicrjZBjNfGzlah25LWA4nd0mRjIMgzLGm5H7A==";
+        };
     in {
         "85D9wNq4" = _85D9wNq4;
         "OUvz6ajV" = _OUvz6ajV;
@@ -128,8 +138,12 @@ let
         "vmEOXUyJ" = _vmEOXUyJ;
         "SOr0R2h5" = _SOr0R2h5;
         "HWhQCa0g" = _HWhQCa0g;
+        "hKsD0BOk" = _hKsD0BOk;
+        "ZDJEitVz" = _ZDJEitVz;
         "fabric-1.20.1" = _dCQC1z0w;
         "fabric-1.21.1" = _HWhQCa0g;
+        "fabric-26.3" = _hKsD0BOk;
+        "neoforge-26.3" = _ZDJEitVz;
         "pkg-1.0.0" = _85D9wNq4;
         "pkg-1.0.1+1.20.1" = _OUvz6ajV;
         "pkg-1.0.2+1.20.1" = _KRFjKiFH;
@@ -151,7 +165,9 @@ let
         "pkg-1.1.4+1.21.1" = _vmEOXUyJ;
         "pkg-1.1.5+1.21.1" = _SOr0R2h5;
         "pkg-1.1.6+1.21.1" = _HWhQCa0g;
-        "default" = _HWhQCa0g;
+        "pkg-1.1.7+26.3-fabric" = _hKsD0BOk;
+        "pkg-1.1.7+26.3-neoforge" = _ZDJEitVz;
+        "default" = _ZDJEitVz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nutritionz";

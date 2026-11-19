@@ -61,6 +61,16 @@ let
             "file" = "bookofdragons-1.4.1-1.21.1.jar";
             "hash" = "sha512-zgqvH0cbj2g6gnWnr0xKkCgBBJfdqfBcJaS8iFAF3XvHzAsU+xyXK28mR/CNpmcHwPWjV92hAiXcZpNl8ij8Mg==";
         };
+        _uJpUGHKB = {
+            "id" = "uJpUGHKB";
+            "file" = "bookofdragons-1.4.2-1.20.1.jar";
+            "hash" = "sha512-R+HnCghLIaKyXaGulRse3VpMepd7l9QlFfQ3P9W5G9Zdcqn993aVyenN5FQv+QmGUyiZn1Z6azxv9Ygb3ZVTAQ==";
+        };
+        _j1PQ6mlI = {
+            "id" = "j1PQ6mlI";
+            "file" = "bookofdragons-1.4.2-1.21.1.jar";
+            "hash" = "sha512-EzWmhn2igK6/VAqFWk8I/MJ3aDjMcfIfwBrOhvqDoTJsojnFhTznY+Qh+gsmzYohuMhiruMLl7q/Ojp64tPX6w==";
+        };
     in {
         "HDZWo33w" = _HDZWo33w;
         "5aiYIUaG" = _5aiYIUaG;
@@ -74,8 +84,10 @@ let
         "V19mixjo" = _V19mixjo;
         "j609106D" = _j609106D;
         "vMbmodRN" = _vMbmodRN;
-        "forge-1.20.1" = _j609106D;
-        "neoforge-1.21.1" = _vMbmodRN;
+        "uJpUGHKB" = _uJpUGHKB;
+        "j1PQ6mlI" = _j1PQ6mlI;
+        "forge-1.20.1" = _uJpUGHKB;
+        "neoforge-1.21.1" = _j1PQ6mlI;
         "pkg-1.0-1.20.1" = _HDZWo33w;
         "pkg-1.01-1.20.1" = _5aiYIUaG;
         "pkg-1.1-1.20.1" = _v2Ew5Z0H;
@@ -88,7 +100,9 @@ let
         "pkg-1.4-1.21.1" = _V19mixjo;
         "pkg-1.4.1-1.20.1" = _j609106D;
         "pkg-1.4.1-1.21.1" = _vMbmodRN;
-        "default" = _vMbmodRN;
+        "pkg-1.4.2-1.20.1" = _uJpUGHKB;
+        "pkg-1.4.2-1.21.1" = _j1PQ6mlI;
+        "default" = _j1PQ6mlI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "book-of-dragons";

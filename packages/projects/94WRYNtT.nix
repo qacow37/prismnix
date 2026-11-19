@@ -21,16 +21,29 @@ let
             "file" = "faunaengine-1.2+1.21.1-neoforge.jar";
             "hash" = "sha512-4uEu6egyKgfz5bCFmgoWCUwgRsC3k11RGZvRmA2VPytwqv7ASJKF50ddOkiOUYFlCnZ5tpXgoYUrioLEzESPQw==";
         };
+        _98U2IeKC = {
+            "id" = "98U2IeKC";
+            "file" = "faunaengine-1.3+1.20.1-forge.jar";
+            "hash" = "sha512-b6eCaGeqSxFqj+qc8i0BFmdfmifgStmWAMSyHDt7ezzccrAHedqlrQR/7ik/XQZf0jgsoEu58BAll0tG28yAYw==";
+        };
+        _jSD5oqK8 = {
+            "id" = "jSD5oqK8";
+            "file" = "faunaengine-1.3+1.21.1-neoforge.jar";
+            "hash" = "sha512-0tUc+LgiYGZxnLnOWuxEO9RohGZ5d/AUFvNMX5nks3caLeN7O2L/2+mgePY81Vtci2+LdLsILzAqpAYwH3p1bQ==";
+        };
     in {
         "GUq5Tj9C" = _GUq5Tj9C;
         "qRrtFrUq" = _qRrtFrUq;
         "dmH6z5D0" = _dmH6z5D0;
         "nJoo5qQS" = _nJoo5qQS;
-        "neoforge-1.21.1" = _nJoo5qQS;
-        "forge-1.20.1" = _dmH6z5D0;
+        "98U2IeKC" = _98U2IeKC;
+        "jSD5oqK8" = _jSD5oqK8;
+        "neoforge-1.21.1" = _jSD5oqK8;
+        "forge-1.20.1" = _98U2IeKC;
         "pkg-1.0" = _qRrtFrUq;
         "pkg-1.2" = _nJoo5qQS;
-        "default" = _nJoo5qQS;
+        "pkg-1.3" = _jSD5oqK8;
+        "default" = _jSD5oqK8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fauna-engine";

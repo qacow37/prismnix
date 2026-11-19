@@ -1456,6 +1456,16 @@ let
             "file" = "mishanguc-1.6.7-beta.2+mc26.3.jar";
             "hash" = "sha512-73SyVQ15bi8loP499dGfWHx2LNebzQwJOSA5gSe3Rz6Fz+j9o1FBnflTqqTJ6SQM+Kejomk49oHgFPVsn7q9lg==";
         };
+        _DzWpjkUG = {
+            "id" = "DzWpjkUG";
+            "file" = "mishanguc-1.6.7-beta.3+mc26.3.jar";
+            "hash" = "sha512-LLVf+/HSju3qtjaSo3uVY2fk4Q0SUcw9fQ/3IlikFeCx061IyT/K/b599wOOVs/RnXWWYa1KPnkbKfNTGjznHA==";
+        };
+        _Bo8vhfmj = {
+            "id" = "Bo8vhfmj";
+            "file" = "mishanguc-1.6.7-beta.3+mc26.2.jar";
+            "hash" = "sha512-J9sFvtIHrgT5K/ayV56KfOYbQ+Xr6rSUSzwX+vCbhSw4YXepJmPs/ZWGRTn7u+GI2Vq4D6Z+pewin01xrCrNXA==";
+        };
     in {
         "7XAAuCEs" = _7XAAuCEs;
         "eNd8jYRK" = _eNd8jYRK;
@@ -1748,6 +1758,8 @@ let
         "91XQ34tc" = _91XQ34tc;
         "jZaLHN6i" = _jZaLHN6i;
         "VdbtS3yI" = _VdbtS3yI;
+        "DzWpjkUG" = _DzWpjkUG;
+        "Bo8vhfmj" = _Bo8vhfmj;
         "fabric-1.16.5" = _ApcKMiNW;
         "fabric-1.17.1" = _B8fwovbI;
         "fabric-1.18.1" = _wY3ASevW;
@@ -1790,8 +1802,8 @@ let
         "fabric-26.1.1" = _Mi5kuVeq;
         "fabric-26.1" = _Mi5kuVeq;
         "fabric-26.1.2" = _Mi5kuVeq;
-        "fabric-26.3" = _VdbtS3yI;
-        "fabric-26.2" = _jZaLHN6i;
+        "fabric-26.3" = _DzWpjkUG;
+        "fabric-26.2" = _Bo8vhfmj;
         "pkg-0.1.4" = _7XAAuCEs;
         "pkg-0.1.5" = _eNd8jYRK;
         "pkg-0.1.6" = _doqvVenn;
@@ -2082,7 +2094,9 @@ let
         "pkg-1.6.7-beta.1+mc26.3" = _91XQ34tc;
         "pkg-1.6.7-beta.1+mc26.2" = _jZaLHN6i;
         "pkg-1.6.7-beta.2+mc26.3" = _VdbtS3yI;
-        "default" = _VdbtS3yI;
+        "pkg-1.6.7-beta.3+mc26.3" = _DzWpjkUG;
+        "pkg-1.6.7-beta.3+mc26.2" = _Bo8vhfmj;
+        "default" = _Bo8vhfmj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mishang-urban-construction";

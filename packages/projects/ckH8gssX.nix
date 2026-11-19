@@ -31,6 +31,11 @@ let
             "file" = "variantcraftingtables-8.0.jar";
             "hash" = "sha512-LEf+TmJ537x3iajoX/EtG0BSduv67DclLKN3yJH5BOrD9Cork4zvvOzMR6LK8uo34LoLYi/leVXbvdoiAEwjqQ==";
         };
+        _JwOMiDP9 = {
+            "id" = "JwOMiDP9";
+            "file" = "variantcraftingtables-8.1.jar";
+            "hash" = "sha512-Ts9abUF5Z0wq1JKm9Zs5XxytxL372I8LsO3gLRRIKjFkcaUpvl3jiUsv5+pti8UMsUM9rWcC6w3xpu7pKZXJtQ==";
+        };
     in {
         "zjsgjUsC" = _zjsgjUsC;
         "LiuBQq6I" = _LiuBQq6I;
@@ -38,6 +43,7 @@ let
         "S7xb9dl1" = _S7xb9dl1;
         "bg4JHJqY" = _bg4JHJqY;
         "J7pmjcQ2" = _J7pmjcQ2;
+        "JwOMiDP9" = _JwOMiDP9;
         "fabric-1.20" = _S7xb9dl1;
         "fabric-1.20.1" = _S7xb9dl1;
         "fabric-1.20.2" = _kk7sv7aV;
@@ -45,7 +51,7 @@ let
         "fabric-1.20.4" = _kk7sv7aV;
         "fabric-1.21.1" = _bg4JHJqY;
         "fabric-1.21" = _bg4JHJqY;
-        "fabric-26.3" = _J7pmjcQ2;
+        "fabric-26.3" = _JwOMiDP9;
         "quilt-1.20" = _LiuBQq6I;
         "quilt-1.20.1" = _LiuBQq6I;
         "quilt-1.21.1" = _bg4JHJqY;
@@ -57,7 +63,8 @@ let
         "pkg-6.4" = _S7xb9dl1;
         "pkg-7.1" = _bg4JHJqY;
         "pkg-8.0" = _J7pmjcQ2;
-        "default" = _J7pmjcQ2;
+        "pkg-8.1" = _JwOMiDP9;
+        "default" = _JwOMiDP9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "variant-crafting-tables";

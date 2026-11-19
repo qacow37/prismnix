@@ -391,6 +391,11 @@ let
             "file" = "catalyst-all-3.1.6.jar";
             "hash" = "sha512-HiUUUFEY9ibCHoreSn4Kj/DfcBJ6ejv/a0OfAUPvSdD+ZVLn1HXRhnvJEwe4IkP0PwMq6MJMiZdlBqYRmnSVPg==";
         };
+        _BsclKaLK = {
+            "id" = "BsclKaLK";
+            "file" = "catalyst-all-3.2.0.jar";
+            "hash" = "sha512-Fg5leRHbE5onDBCAJP/vVhXRUuMBQCuNL49TIR+vfXpLRtgA57zr9i3LnkVk8IS/cSafKhSptZonN6pZ8QVeiQ==";
+        };
     in {
         "1ZYagGZM" = _1ZYagGZM;
         "mTpsxVtL" = _mTpsxVtL;
@@ -470,7 +475,8 @@ let
         "wV516yBr" = _wV516yBr;
         "fp73tcgV" = _fp73tcgV;
         "tTvJNby0" = _tTvJNby0;
-        "bta-babric-b1.7.3" = _tTvJNby0;
+        "BsclKaLK" = _BsclKaLK;
+        "bta-babric-b1.7.3" = _BsclKaLK;
         "babric-b1.7.3" = _4dKMkJpd;
         "fabric-b1.7.3" = _4dKMkJpd;
         "pkg-1.3.6" = _1ZYagGZM;
@@ -551,7 +557,8 @@ let
         "pkg-3.1.4" = _wV516yBr;
         "pkg-3.1.5" = _fp73tcgV;
         "pkg-3.1.6" = _tTvJNby0;
-        "default" = _tTvJNby0;
+        "pkg-3.2.0" = _BsclKaLK;
+        "default" = _BsclKaLK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "catalyst";

@@ -86,6 +86,26 @@ let
             "file" = "Easy2Trade-v1.21.11.jar";
             "hash" = "sha512-eNZVttrY262DV9JlA8e+JMlu2yGl7bDQBE4MuqwjjMISwGBDZP4pZjmBEAU8p8YFa0w3DkT5grE9teHNyd4e7Q==";
         };
+        _6S4Il7DL = {
+            "id" = "6S4Il7DL";
+            "file" = "Easy2Trade-v1.21.11.jar";
+            "hash" = "sha512-5LptujwxAYpouvaA+8QJCclzNS7xhvOlXurKo43d3mDcbzPpp00bZJC7SXwkdLPLBxHg+40sapEOKzMLOIuDVg==";
+        };
+        _K3n8cRdA = {
+            "id" = "K3n8cRdA";
+            "file" = "Easy2Trade-v26.1.2.jar";
+            "hash" = "sha512-KCtEsdZwcq8LdGN/HuAGh2eYxtdlnVsooJ2Nr5nUypfO8aaQbKRG7fMZ09rAr5cfWopddjzwbgfajYf1bzuwsg==";
+        };
+        _6RxSyYd4 = {
+            "id" = "6RxSyYd4";
+            "file" = "Easy2Trade-v26.2.jar";
+            "hash" = "sha512-aVzZL0yV1Kz30ZRto5pW4CiB3G57ph47Rci2AX5WdHSBvEKNUolpHV77XpDyajJOmd3Euo07mfrJdYvnq2X1jw==";
+        };
+        _RhKbAeoa = {
+            "id" = "RhKbAeoa";
+            "file" = "Easy2Trade-v26.3.jar";
+            "hash" = "sha512-rTKis1WhnvRIQYW7pBlHchxspeM6vi4qvhXVuNK1m7ZF88Lj8QmjTvyU1/Ie669eIn5UcIjqvkP+koJ3mS0/kA==";
+        };
     in {
         "AFk4zoIR" = _AFk4zoIR;
         "pusKZQA2" = _pusKZQA2;
@@ -104,23 +124,27 @@ let
         "HX7ak55t" = _HX7ak55t;
         "3qEWYRNZ" = _3qEWYRNZ;
         "X8ILsGXD" = _X8ILsGXD;
-        "forge-26.1" = _l9nbySif;
-        "forge-26.1.1" = _l9nbySif;
-        "forge-26.1.2" = _l9nbySif;
-        "forge-26.2" = _Gv1xQgQC;
-        "forge-1.21" = _2xMf61XI;
-        "forge-1.21.1" = _2xMf61XI;
-        "forge-1.21.2" = _2xMf61XI;
-        "forge-1.21.3" = _2xMf61XI;
-        "forge-1.21.4" = _2xMf61XI;
-        "forge-1.21.5" = _2xMf61XI;
-        "forge-1.21.6" = _2xMf61XI;
-        "forge-1.21.7" = _2xMf61XI;
-        "forge-1.21.8" = _2xMf61XI;
-        "forge-1.21.9" = _2xMf61XI;
-        "forge-1.21.10" = _2xMf61XI;
-        "forge-1.21.11" = _2xMf61XI;
-        "forge-26.3" = _3ADi70Hc;
+        "6S4Il7DL" = _6S4Il7DL;
+        "K3n8cRdA" = _K3n8cRdA;
+        "6RxSyYd4" = _6RxSyYd4;
+        "RhKbAeoa" = _RhKbAeoa;
+        "forge-26.1" = _K3n8cRdA;
+        "forge-26.1.1" = _K3n8cRdA;
+        "forge-26.1.2" = _K3n8cRdA;
+        "forge-26.2" = _6RxSyYd4;
+        "forge-1.21" = _6S4Il7DL;
+        "forge-1.21.1" = _6S4Il7DL;
+        "forge-1.21.2" = _6S4Il7DL;
+        "forge-1.21.3" = _6S4Il7DL;
+        "forge-1.21.4" = _6S4Il7DL;
+        "forge-1.21.5" = _6S4Il7DL;
+        "forge-1.21.6" = _6S4Il7DL;
+        "forge-1.21.7" = _6S4Il7DL;
+        "forge-1.21.8" = _6S4Il7DL;
+        "forge-1.21.9" = _6S4Il7DL;
+        "forge-1.21.10" = _6S4Il7DL;
+        "forge-1.21.11" = _6S4Il7DL;
+        "forge-26.3" = _RhKbAeoa;
         "fabric-26.1" = _3qEWYRNZ;
         "fabric-26.1.1" = _3qEWYRNZ;
         "fabric-26.1.2" = _3qEWYRNZ;
@@ -146,7 +170,11 @@ let
         "pkg-v26.2" = _HX7ak55t;
         "pkg-v26.1" = _3qEWYRNZ;
         "pkg-v1.21.11" = _X8ILsGXD;
-        "default" = _X8ILsGXD;
+        "pkg-1.21.11" = _6S4Il7DL;
+        "pkg-26.1.2" = _K3n8cRdA;
+        "pkg-26.2" = _6RxSyYd4;
+        "pkg-26.3" = _RhKbAeoa;
+        "default" = _RhKbAeoa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy2trade";

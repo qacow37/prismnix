@@ -171,6 +171,16 @@ let
             "file" = "easyhopper-3.1+mc1.21.1-neoforge.jar";
             "hash" = "sha512-s7ktOecXohF+zepe81RkVpDibnSpfld3GTcJ9MzbXVMDAqhKbvVUk/uLZmieKSIriRY5KDRQyCPSbgUq4pm5+g==";
         };
+        _p9F3Nje6 = {
+            "id" = "p9F3Nje6";
+            "file" = "easyhopper-3.1+mc26.3-fabric.jar";
+            "hash" = "sha512-gKuZr7IhnGuGFruPuGMmXUbvMytBO6KgedEhBA91OWC56W7WrhBgdcVhSBgN719LQ/e+o84wPyMB5/ZP7ZM4TQ==";
+        };
+        _lp0eCYnR = {
+            "id" = "lp0eCYnR";
+            "file" = "easyhopper-3.1+mc26.3-neoforge.jar";
+            "hash" = "sha512-n6Lu6fOD4WOLk+zFds99RhclonZSPEz/3cr5caoqssNVIhRhjS0sQiz9A0SmcdAnaVAj5cBdCquOe4zYg/n+tw==";
+        };
     in {
         "NPE3T3iK" = _NPE3T3iK;
         "xvQnfoi1" = _xvQnfoi1;
@@ -206,6 +216,8 @@ let
         "2XtYFdJC" = _2XtYFdJC;
         "93zlmz92" = _93zlmz92;
         "Exv6XyOx" = _Exv6XyOx;
+        "p9F3Nje6" = _p9F3Nje6;
+        "lp0eCYnR" = _lp0eCYnR;
         "fabric-1.19.4" = _NPE3T3iK;
         "fabric-1.20" = _S78sfBPP;
         "fabric-1.19.2" = _KY8c9sWn;
@@ -231,6 +243,7 @@ let
         "fabric-26.1.1" = _4AMDLNeU;
         "fabric-26.1.2" = _4AMDLNeU;
         "fabric-26.2" = _m0vJE6tc;
+        "fabric-26.3" = _p9F3Nje6;
         "neoforge-1.21.1" = _Exv6XyOx;
         "neoforge-26.1" = _PiMwuaWV;
         "neoforge-26.1.1" = _PiMwuaWV;
@@ -238,6 +251,7 @@ let
         "neoforge-26.2" = _fE8YyVad;
         "neoforge-1.21.11" = _2XtYFdJC;
         "neoforge-1.21" = _Exv6XyOx;
+        "neoforge-26.3" = _lp0eCYnR;
         "pkg-2.4" = _NPE3T3iK;
         "pkg-2.5.1" = _xvQnfoi1;
         "pkg-2.5.2" = _KY8c9sWn;
@@ -270,7 +284,9 @@ let
         "pkg-3.1+mc1.21.11-neoforge" = _2XtYFdJC;
         "pkg-3.1+mc1.21.1-fabric" = _93zlmz92;
         "pkg-3.1+mc1.21.1-neoforge" = _Exv6XyOx;
-        "default" = _Exv6XyOx;
+        "pkg-3.1+mc26.3-fabric" = _p9F3Nje6;
+        "pkg-3.1+mc26.3-neoforge" = _lp0eCYnR;
+        "default" = _lp0eCYnR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easyhopper";

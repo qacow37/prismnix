@@ -1271,6 +1271,36 @@ let
             "file" = "gtnhlib-0.12.4.jar";
             "hash" = "sha512-W/F7jniQbMjSCXhdw809/SU4rxy4bgJLGbBjS/kOnxvOi25E89pz5VbqqvSXKIaARoTh/gxfnvSz5Q+eK3hK7w==";
         };
+        _kLroYrrk = {
+            "id" = "kLroYrrk";
+            "file" = "gtnhlib-0.12.5.jar";
+            "hash" = "sha512-/Ap31yzBbP8UV05/OD8E30lxSZxaKwbJsPBSqqKvKkxybzn4i8hpBEFzqn67e2a+8tGxcrWQKs7Undq0DvgsUQ==";
+        };
+        _DiTukrt0 = {
+            "id" = "DiTukrt0";
+            "file" = "gtnhlib-0.12.6.jar";
+            "hash" = "sha512-pk6DLhv/JZf+pi+by+bFIAIBFA4tJoKXjTGS1gsLkaYXgE1wvI3Upo1nTrD8QZhu+IGGRDFw/MsIklRwUuoRNg==";
+        };
+        _mGoQG3vG = {
+            "id" = "mGoQG3vG";
+            "file" = "gtnhlib-0.12.7.jar";
+            "hash" = "sha512-2nshavAQFOHPqoRzGZJe97jgq+CsYBEVrTBT3UmW2icFhvMjGZSGliK3rRcvTxhGkgIqsLQvu0IVRfpDSMBvYw==";
+        };
+        _kWkBCWTK = {
+            "id" = "kWkBCWTK";
+            "file" = "gtnhlib-0.12.8.jar";
+            "hash" = "sha512-rO3sNDpR5l94crkebvvBjFOWYQmQ5G0+nfnou3j/GUoipU8d0vLFEqc8ifH32y+wvbNOMo+vkYeJHxri95hpsQ==";
+        };
+        _IMnc4Bxs = {
+            "id" = "IMnc4Bxs";
+            "file" = "gtnhlib-0.11.57.jar";
+            "hash" = "sha512-+i3ZDkO1W1hXln+ybNYHypbJjLQhqWdFdGX228JmrBliwbqoZtYCa9VWa6aSqxrKJv7r1UuijIsgstDZOuGgpg==";
+        };
+        _kyNkHlmm = {
+            "id" = "kyNkHlmm";
+            "file" = "gtnhlib-0.12.9.jar";
+            "hash" = "sha512-L2EIHUMQWY1ZZFU0EmQnJ4JdT09j2Z74+JXwVbyn9fn1bzh02xGTQHHIXzaUmwT0ATUE7TcnPM8VN17G40O0Bw==";
+        };
     in {
         "lyEHl5yr" = _lyEHl5yr;
         "Xn4O8qI1" = _Xn4O8qI1;
@@ -1526,7 +1556,13 @@ let
         "pmL21pST" = _pmL21pST;
         "nzW7B2rb" = _nzW7B2rb;
         "NHeKirtA" = _NHeKirtA;
-        "forge-1.7.10" = _NHeKirtA;
+        "kLroYrrk" = _kLroYrrk;
+        "DiTukrt0" = _DiTukrt0;
+        "mGoQG3vG" = _mGoQG3vG;
+        "kWkBCWTK" = _kWkBCWTK;
+        "IMnc4Bxs" = _IMnc4Bxs;
+        "kyNkHlmm" = _kyNkHlmm;
+        "forge-1.7.10" = _kyNkHlmm;
         "pkg-0.0.6" = _lyEHl5yr;
         "pkg-0.0.13" = _Xn4O8qI1;
         "pkg-0.2.1" = _gKLWh1TA;
@@ -1781,7 +1817,13 @@ let
         "pkg-0.12.2" = _pmL21pST;
         "pkg-0.12.3" = _nzW7B2rb;
         "pkg-0.12.4" = _NHeKirtA;
-        "default" = _NHeKirtA;
+        "pkg-0.12.5" = _kLroYrrk;
+        "pkg-0.12.6" = _DiTukrt0;
+        "pkg-0.12.7" = _mGoQG3vG;
+        "pkg-0.12.8" = _kWkBCWTK;
+        "pkg-0.11.57" = _IMnc4Bxs;
+        "pkg-0.12.9" = _kyNkHlmm;
+        "default" = _kyNkHlmm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gtnhlib";

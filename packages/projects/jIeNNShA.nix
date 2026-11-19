@@ -171,6 +171,21 @@ let
             "file" = "dyeaddons-0.4.4+26.3.jar";
             "hash" = "sha512-060WZ3wrCIVMhR8X4neMvnKkpYDKFv10MoKKTKNofHQBmVNl9LWCBIXJLKcEm02gtRG4v/2FM672BDQpUCm7bA==";
         };
+        _Blyp0hei = {
+            "id" = "Blyp0hei";
+            "file" = "dyeaddons-0.5.0+26.1.2.jar";
+            "hash" = "sha512-4mTvHa0gdbJCvT6ujQKQ8oJbG6r9yEzH8K0wOYNgs7xjgg47IXIcckuQG7CbNgpFr0zY5RMPkIh2sry31thoPw==";
+        };
+        _Tr328CrO = {
+            "id" = "Tr328CrO";
+            "file" = "dyeaddons-0.5.0+26.2.jar";
+            "hash" = "sha512-Ajf8TI7s/A42wpmHhjCBUR6obv6ryv19Cdv/Hv6CJOA8r0QRzfbIEZp2KUCPrTVVAokxk113B3PiMgOEr1tMjg==";
+        };
+        _k6BX1Xzb = {
+            "id" = "k6BX1Xzb";
+            "file" = "dyeaddons-0.5.0+26.3.jar";
+            "hash" = "sha512-B9H4xcm/UenDU5/YVsZBeDSYnE3bc3OxohV3ow0pV+jufg/OJ6gQVLLU65Ctc00F8a6AqdgQgt2gw6dPvzmqCg==";
+        };
     in {
         "uGS9UJ6y" = _uGS9UJ6y;
         "WpdgSR5T" = _WpdgSR5T;
@@ -206,10 +221,13 @@ let
         "2I5G7xEK" = _2I5G7xEK;
         "WQ9ZcrIs" = _WQ9ZcrIs;
         "pOuDR744" = _pOuDR744;
-        "fabric-26.1.2" = _2I5G7xEK;
-        "fabric-26.2" = _WQ9ZcrIs;
+        "Blyp0hei" = _Blyp0hei;
+        "Tr328CrO" = _Tr328CrO;
+        "k6BX1Xzb" = _k6BX1Xzb;
+        "fabric-26.1.2" = _Blyp0hei;
+        "fabric-26.2" = _Tr328CrO;
         "fabric-1.21.11" = _Lqy90uXO;
-        "fabric-26.3" = _pOuDR744;
+        "fabric-26.3" = _k6BX1Xzb;
         "pkg-0.0.1" = _uGS9UJ6y;
         "pkg-0.0.2" = _WpdgSR5T;
         "pkg-0.0.3" = _iSUtNKBW;
@@ -244,7 +262,10 @@ let
         "pkg-0.4.4+26.1.2" = _2I5G7xEK;
         "pkg-0.4.4+26.2" = _WQ9ZcrIs;
         "pkg-0.4.4+26.3" = _pOuDR744;
-        "default" = _pOuDR744;
+        "pkg-0.5.0+26.1.2" = _Blyp0hei;
+        "pkg-0.5.0+26.2" = _Tr328CrO;
+        "pkg-0.5.0+26.3" = _k6BX1Xzb;
+        "default" = _k6BX1Xzb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dyeaddons";

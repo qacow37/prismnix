@@ -41,6 +41,16 @@ let
             "file" = "travelerz-1.0.4.jar";
             "hash" = "sha512-PalxPfYf+NuNCT/GCGUfosV4wWFQGrscCsrv5s8az/jxyN7FWDUJmqKha+aD13UbsdByqYYm8mS+0dXusYZmYw==";
         };
+        _AGKaajYk = {
+            "id" = "AGKaajYk";
+            "file" = "travelerz-fabric-1.1.0+26.3.jar";
+            "hash" = "sha512-XhnPKooer/TnGTTlES/onyoCoqHWLWVH0oazhyEot6nKBCPzMJEtM1I3ZGYeZngQNUncVhB/ajHgnnXbwrj5tQ==";
+        };
+        _wEc3nzt2 = {
+            "id" = "wEc3nzt2";
+            "file" = "travelerz-neoforge-1.1.0+26.3.jar";
+            "hash" = "sha512-dhpeOdPn52L1MhIueS4r/13kwoDpMEVEjeKcDvKP4gMcKICMrCHRX5Hl9KTu/lvtQGYpFTawsh5SYR34Jd9dyA==";
+        };
     in {
         "IZt6k3x7" = _IZt6k3x7;
         "E95jXCw9" = _E95jXCw9;
@@ -50,10 +60,14 @@ let
         "14HYaARv" = _14HYaARv;
         "eTDjGgm9" = _eTDjGgm9;
         "7yQXSpN2" = _7yQXSpN2;
+        "AGKaajYk" = _AGKaajYk;
+        "wEc3nzt2" = _wEc3nzt2;
         "fabric-1.20.1" = _E95jXCw9;
         "fabric-1.20.6" = _A0zgT4UY;
         "fabric-1.21" = _Z0nUlNTV;
         "fabric-1.21.1" = _7yQXSpN2;
+        "fabric-26.3" = _AGKaajYk;
+        "neoforge-26.3" = _wEc3nzt2;
         "pkg-1.0.0" = _IZt6k3x7;
         "pkg-1.0.1+1.20.1" = _E95jXCw9;
         "pkg-1.1.1+1.20.6" = _A0zgT4UY;
@@ -62,7 +76,9 @@ let
         "pkg-1.0.2+1.21.1" = _14HYaARv;
         "pkg-1.0.3+1.21.1" = _eTDjGgm9;
         "pkg-1.0.4+1.21.1" = _7yQXSpN2;
-        "default" = _7yQXSpN2;
+        "pkg-1.1.0+26.3-fabric" = _AGKaajYk;
+        "pkg-1.1.0+26.3-neoforge" = _wEc3nzt2;
+        "default" = _wEc3nzt2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "travelerz";

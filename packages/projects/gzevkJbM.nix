@@ -816,6 +816,11 @@ let
             "file" = "photon-neoforge-26.3-26.3.2.11.jar";
             "hash" = "sha512-2Z4J+DwTHLwVQxi2bbjPFqD5Eo8PTy1JR4IFxBDX+TqRD7oC1dV+5tFCi+reNjU94Yal64LFhRNwG0OYTpOp0w==";
         };
+        _AuO2sGZM = {
+            "id" = "AuO2sGZM";
+            "file" = "photon-neoforge-1.21.1-2.2.11.a-all.jar";
+            "hash" = "sha512-yrLQ/vYF4q6CVy4hFI5/4EQg1B1Lg0wgzFfx9YLeAnNJNvDLnRewfDOeYJvGo23tihfBomFPl8SgzNy8l9j04g==";
+        };
     in {
         "AO2V8RIM" = _AO2V8RIM;
         "hsrVC3BW" = _hsrVC3BW;
@@ -980,6 +985,7 @@ let
         "wRYu021a" = _wRYu021a;
         "KD1LZvgX" = _KD1LZvgX;
         "GSmDTZlz" = _GSmDTZlz;
+        "AuO2sGZM" = _AuO2sGZM;
         "fabric-1.19.2" = _WhImODOk;
         "fabric-1.19.4" = _EONlDMwk;
         "fabric-1.20" = _BRYoOoZK;
@@ -988,8 +994,8 @@ let
         "forge-1.19.4" = _hFCJMspl;
         "forge-1.20" = _2U9ouggL;
         "forge-1.20.1" = _a7chTVuf;
-        "neoforge-1.21" = _wSiq87dk;
-        "neoforge-1.21.1" = _wSiq87dk;
+        "neoforge-1.21" = _AuO2sGZM;
+        "neoforge-1.21.1" = _AuO2sGZM;
         "neoforge-26.1.1" = _wRYu021a;
         "neoforge-26.1.2" = _wRYu021a;
         "neoforge-26.2" = _KD1LZvgX;
@@ -1148,7 +1154,8 @@ let
         "pkg-mc26.1.x-26.1.2.11-neoforge" = _wRYu021a;
         "pkg-mc26.2-26.2.2.11-neoforge" = _KD1LZvgX;
         "pkg-mc26.3-26.3.2.11-neoforge" = _GSmDTZlz;
-        "default" = _GSmDTZlz;
+        "pkg-mc1.21.1-2.2.11.a-neoforge" = _AuO2sGZM;
+        "default" = _AuO2sGZM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "photon-editor";

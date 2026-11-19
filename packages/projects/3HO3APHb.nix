@@ -176,6 +176,11 @@ let
             "file" = "neoecoprototype-1.4.10.jar";
             "hash" = "sha512-R5Dd65BGrPYYMybB3kyWiZHHcE5Y3jLlQr8b6lb4yDBBw8MB2VEswsQJRF4L+x6VEHmcQA+OAGijwO3ZcgEN1A==";
         };
+        _w1EfBymQ = {
+            "id" = "w1EfBymQ";
+            "file" = "neoecoprototype-1.4.11.jar";
+            "hash" = "sha512-RZncRefJ4z5I+2i8Llysl+Wx7NcDHolPJMooz5opS9lcm9CAw3oy/dc2MimjRg0JcQHCoMKY45uHKh2G11VMEA==";
+        };
     in {
         "dSpygLmq" = _dSpygLmq;
         "X63UWrBa" = _X63UWrBa;
@@ -212,7 +217,8 @@ let
         "FQxpQVFi" = _FQxpQVFi;
         "yXfWRqNL" = _yXfWRqNL;
         "5TY5jLlV" = _5TY5jLlV;
-        "neoforge-1.21.1" = _5TY5jLlV;
+        "w1EfBymQ" = _w1EfBymQ;
+        "neoforge-1.21.1" = _w1EfBymQ;
         "forge-1.20.1" = _j8yL7zN5;
         "pkg-1.1.0" = _dSpygLmq;
         "pkg-1.1.1" = _X63UWrBa;
@@ -249,7 +255,8 @@ let
         "pkg-1.4.8" = _FQxpQVFi;
         "pkg-1.4.9" = _yXfWRqNL;
         "pkg-1.4.10" = _5TY5jLlV;
-        "default" = _5TY5jLlV;
+        "pkg-1.4.11" = _w1EfBymQ;
+        "default" = _w1EfBymQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neo-eco-prototype";

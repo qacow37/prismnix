@@ -126,6 +126,11 @@ let
             "file" = "TriggerSit-1.0.24.jar";
             "hash" = "sha512-kcBNhtvZqiAeFnPzOg6KdwuPgG3AK5tLezXUemmfQ9kfcdJbKndYy0fNjUWIagqI8eN5XPAuZOM6/RmdFsmoyg==";
         };
+        _pE91psME = {
+            "id" = "pE91psME";
+            "file" = "TriggerSit-1.0.25.jar";
+            "hash" = "sha512-M/tZd/e2hjs9qv+vIY0ZdWNnjYMCU74MtjuduRJEmlEBkUysaQsrm8DRAo78SSyxFyuI5CBX6MeXHGP1JJ81AA==";
+        };
     in {
         "Qv2OHruT" = _Qv2OHruT;
         "aXfr0fuV" = _aXfr0fuV;
@@ -152,6 +157,7 @@ let
         "ksAeJjM8" = _ksAeJjM8;
         "QN74tAwQ" = _QN74tAwQ;
         "WX7l0SE2" = _WX7l0SE2;
+        "pE91psME" = _pE91psME;
         "fabric-1.21.10" = _KfNspZHU;
         "fabric-1.21.11" = _rYHNnYEu;
         "fabric-26.1" = _TJKlokVr;
@@ -168,7 +174,7 @@ let
         "fabric-1.21.8" = _AhZXOUL9;
         "fabric-1.21.9" = _j1ADDDqo;
         "fabric-26.2" = _QN74tAwQ;
-        "fabric-26.3" = _WX7l0SE2;
+        "fabric-26.3" = _pE91psME;
         "pkg-1.0.0" = _Qv2OHruT;
         "pkg-1.0.1" = _aXfr0fuV;
         "pkg-1.0.2" = _KfNspZHU;
@@ -194,7 +200,8 @@ let
         "pkg-1.0.22" = _ksAeJjM8;
         "pkg-1.0.23" = _QN74tAwQ;
         "pkg-1.0.24" = _WX7l0SE2;
-        "default" = _WX7l0SE2;
+        "pkg-1.0.25" = _pE91psME;
+        "default" = _pE91psME;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trigger-sit";

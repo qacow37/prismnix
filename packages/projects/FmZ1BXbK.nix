@@ -51,6 +51,16 @@ let
             "file" = "§6Carryon.zip";
             "hash" = "sha512-tVUTYIixMBqpEvLqCF4azpiBr99wm2NUz5B0vwx9SP635O6cTZBt1tFcWWqfWSLY3JVINL56e58+RokdSfJenA==";
         };
+        _GIFqTJem = {
+            "id" = "GIFqTJem";
+            "file" = "§6Carryon-26.1+.zip";
+            "hash" = "sha512-Yx/swWyMBUZsiBxg8rsIgJ9xuM0Ss1F0jM8bie00druYes8e4fHXu6otw1RFA971DaqUlMqBbVocihaoYMEXpw==";
+        };
+        _XirlVBX5 = {
+            "id" = "XirlVBX5";
+            "file" = "§6Carryon-1.21.4+.zip";
+            "hash" = "sha512-EFJvJ9KXXHeyiPYPLmjjqlORwX+dZ7vboBdngbpneTbb3yg17jO6A1NSFXeZwWc3EaoZ4EE+zEj2rewCL2caiA==";
+        };
     in {
         "PciP5Q2I" = _PciP5Q2I;
         "cYy1kuid" = _cYy1kuid;
@@ -62,18 +72,21 @@ let
         "CRiwTfOe" = _CRiwTfOe;
         "QdYKvGrd" = _QdYKvGrd;
         "jUGLV4Pr" = _jUGLV4Pr;
-        "minecraft-1.21.4" = _QdYKvGrd;
-        "minecraft-1.21.5" = _QdYKvGrd;
-        "minecraft-1.21.6" = _QdYKvGrd;
-        "minecraft-1.21.7" = _QdYKvGrd;
-        "minecraft-1.21.8" = _QdYKvGrd;
-        "minecraft-1.21.9" = _QdYKvGrd;
-        "minecraft-1.21.10" = _QdYKvGrd;
-        "minecraft-1.21.11" = _QdYKvGrd;
-        "minecraft-26.1" = _jUGLV4Pr;
-        "minecraft-26.1.1" = _jUGLV4Pr;
-        "minecraft-26.1.2" = _jUGLV4Pr;
-        "minecraft-26.2" = _jUGLV4Pr;
+        "GIFqTJem" = _GIFqTJem;
+        "XirlVBX5" = _XirlVBX5;
+        "minecraft-1.21.4" = _XirlVBX5;
+        "minecraft-1.21.5" = _XirlVBX5;
+        "minecraft-1.21.6" = _XirlVBX5;
+        "minecraft-1.21.7" = _XirlVBX5;
+        "minecraft-1.21.8" = _XirlVBX5;
+        "minecraft-1.21.9" = _XirlVBX5;
+        "minecraft-1.21.10" = _XirlVBX5;
+        "minecraft-1.21.11" = _XirlVBX5;
+        "minecraft-26.1" = _GIFqTJem;
+        "minecraft-26.1.1" = _GIFqTJem;
+        "minecraft-26.1.2" = _GIFqTJem;
+        "minecraft-26.2" = _GIFqTJem;
+        "minecraft-26.3" = _GIFqTJem;
         "pkg-1.0.0" = _PciP5Q2I;
         "pkg-1.1.0" = _cYy1kuid;
         "pkg-1.1.1" = _AyRhOiih;
@@ -84,7 +97,9 @@ let
         "pkg-1.2.0a" = _CRiwTfOe;
         "pkg-1.2.0b" = _QdYKvGrd;
         "pkg-1.2.1" = _jUGLV4Pr;
-        "default" = _jUGLV4Pr;
+        "pkg-1.2.2-26.1+" = _GIFqTJem;
+        "pkg-1.2.2-1.21.4+" = _XirlVBX5;
+        "default" = _XirlVBX5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carryon";

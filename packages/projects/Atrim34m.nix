@@ -166,6 +166,16 @@ let
             "file" = "fast-smelt-v1.1.2.jar";
             "hash" = "sha512-uoMZK0eE9vXnQl5sNPoTmSsPTOy1/MUPprkkIYgkbL0Zk4itj1aySYn1wvLv+d02vb9/5Gx+m/Ah6Fjv6lmfyA==";
         };
+        _wEh5Z7bt = {
+            "id" = "wEh5Z7bt";
+            "file" = "fast-smelt-v1.3.1-26.3.zip";
+            "hash" = "sha512-NKeH1Ps/e2IRY6kpZNfZwN5D87qoqFMD3k1g8UgzJ3jXTCWUu16OXBpu+uqwWbNGFwGwD6J84dFnspZ9Vnqszw==";
+        };
+        _Tetx8ooK = {
+            "id" = "Tetx8ooK";
+            "file" = "fast-smelt-v1.3.1.jar";
+            "hash" = "sha512-3jdJhkfAX9t3KDMloNoBgHZHJao/2ukDL8rfeuzoomhEWuT9mAyb1lALYyCsYEGsLzeqNARBYymseHjNbu5zpw==";
+        };
     in {
         "YyFjuUAe" = _YyFjuUAe;
         "Y9cxSVix" = _Y9cxSVix;
@@ -200,6 +210,8 @@ let
         "WZS9Glhy" = _WZS9Glhy;
         "FSTpyylK" = _FSTpyylK;
         "hASKKd0q" = _hASKKd0q;
+        "wEh5Z7bt" = _wEh5Z7bt;
+        "Tetx8ooK" = _Tetx8ooK;
         "datapack-1.21.2" = _nT8uMUEq;
         "datapack-1.21.3" = _nT8uMUEq;
         "datapack-1.21.4" = _nT8uMUEq;
@@ -244,7 +256,7 @@ let
         "datapack-26.2-snapshot-2" = _IuYNmfoo;
         "datapack-26.2-snapshot-3" = _IuYNmfoo;
         "datapack-26.2" = _L2W1RXQY;
-        "datapack-26.3" = _FSTpyylK;
+        "datapack-26.3" = _wEh5Z7bt;
         "fabric-1.21.2" = _zYkdgfgX;
         "fabric-1.21.3" = _zYkdgfgX;
         "fabric-1.21.4" = _zYkdgfgX;
@@ -290,7 +302,7 @@ let
         "fabric-26.2-snapshot-4" = _rToZFXiv;
         "fabric-26.2-snapshot-5" = _rToZFXiv;
         "fabric-26.2" = _WZS9Glhy;
-        "fabric-26.3" = _hASKKd0q;
+        "fabric-26.3" = _Tetx8ooK;
         "forge-1.21.2" = _zYkdgfgX;
         "forge-1.21.3" = _zYkdgfgX;
         "forge-1.21.4" = _zYkdgfgX;
@@ -335,7 +347,7 @@ let
         "forge-26.2-snapshot-4" = _rToZFXiv;
         "forge-26.2-snapshot-5" = _rToZFXiv;
         "forge-26.2" = _WZS9Glhy;
-        "forge-26.3" = _hASKKd0q;
+        "forge-26.3" = _Tetx8ooK;
         "neoforge-1.21.2" = _zYkdgfgX;
         "neoforge-1.21.3" = _zYkdgfgX;
         "neoforge-1.21.4" = _zYkdgfgX;
@@ -380,7 +392,7 @@ let
         "neoforge-26.2-snapshot-4" = _rToZFXiv;
         "neoforge-26.2-snapshot-5" = _rToZFXiv;
         "neoforge-26.2" = _WZS9Glhy;
-        "neoforge-26.3" = _hASKKd0q;
+        "neoforge-26.3" = _Tetx8ooK;
         "pkg-v1.0.3" = _YyFjuUAe;
         "pkg-v1.0.3b" = _Y9cxSVix;
         "pkg-25w02a" = _r4e0PRnb;
@@ -414,7 +426,9 @@ let
         "pkg-v1.1.1+mod" = _WZS9Glhy;
         "pkg-v1.1.2" = _FSTpyylK;
         "pkg-v1.1.2+mod" = _hASKKd0q;
-        "default" = _hASKKd0q;
+        "pkg-v1.3.1" = _wEh5Z7bt;
+        "pkg-v1.3.1+mod" = _Tetx8ooK;
+        "default" = _Tetx8ooK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fast-smelt";

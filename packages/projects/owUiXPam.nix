@@ -186,6 +186,16 @@ let
             "file" = "CreeperFirework-fabric-3.0.0.jar";
             "hash" = "sha512-IiAPdFrlAw4hqqzoEhok9uZzvDdb1F6PqCxXc4yVbv5SFUq+DwIA4DEgCel2Q3hihrwwTQfQ1O5DGUu4UG8E2A==";
         };
+        _EXtZjMpn = {
+            "id" = "EXtZjMpn";
+            "file" = "CreeperFirework-neoforge-3.0.0.jar";
+            "hash" = "sha512-JUaVaLesG7S3Few2i0AxWCfvuEO2JH8+jOll1p/ffCKMFiLqbtgCAtqvg4/uRpJK9vY9BYuRIPIWHo/Nx2iC8Q==";
+        };
+        _6924t1tM = {
+            "id" = "6924t1tM";
+            "file" = "CreeperFirework-fabric-3.0.0.jar";
+            "hash" = "sha512-iGZvkEi5EKgY0D7rr7eOcuoP5MSwv53FDc618xZuiWPEQspMj59Aa45Gf4RCWKw72uFPSxoyzh2iouuOguEdVA==";
+        };
     in {
         "UgKtfS1e" = _UgKtfS1e;
         "jrq6JT6B" = _jrq6JT6B;
@@ -224,6 +234,8 @@ let
         "uQS1Lmdf" = _uQS1Lmdf;
         "p6OagA5p" = _p6OagA5p;
         "jxuAaKfb" = _jxuAaKfb;
+        "EXtZjMpn" = _EXtZjMpn;
+        "6924t1tM" = _6924t1tM;
         "forge-1.18.2" = _UgKtfS1e;
         "forge-1.19.2" = _jrq6JT6B;
         "forge-1.19.3" = _L0ASyExp;
@@ -247,6 +259,7 @@ let
         "fabric-1.21.11" = _P03Y0mSB;
         "fabric-26.2" = _6SxVyJU9;
         "fabric-26.1.2" = _jxuAaKfb;
+        "fabric-26.3" = _6924t1tM;
         "quilt-1.19.2" = _neaoByre;
         "quilt-1.19.3" = _t2agcWoQ;
         "quilt-1.19.4" = _jmMT9hiR;
@@ -264,6 +277,7 @@ let
         "neoforge-1.21.11" = _7505EF2s;
         "neoforge-26.2" = _uQS1Lmdf;
         "neoforge-26.1.2" = _p6OagA5p;
+        "neoforge-26.3" = _EXtZjMpn;
         "pkg-1.0.1" = _UgKtfS1e;
         "pkg-1.2.0" = _jrq6JT6B;
         "pkg-1.2.3" = _UZ1fanRx;
@@ -274,8 +288,8 @@ let
         "pkg-2.1.0" = _q8D6sdtk;
         "pkg-2.1.0.b" = _aRMDViVX;
         "pkg-2.2.0" = _VMfAUEIi;
-        "pkg-3.0.0" = _jxuAaKfb;
-        "default" = _jxuAaKfb;
+        "pkg-3.0.0" = _6924t1tM;
+        "default" = _6924t1tM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "creeper-firework";

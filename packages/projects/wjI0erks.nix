@@ -71,6 +71,11 @@ let
             "file" = "fluidloggable-3.1.3-beta.3-mc26.3.jar";
             "hash" = "sha512-WomzjzV5J8cz3KcJQPd9hlodf2lqoYcU/7+OlTJu+3ZzlhgJRn8l4qpxmufI/8MY6rgS3QPoErrU5iEowQne0w==";
         };
+        _bDUChk2w = {
+            "id" = "bDUChk2w";
+            "file" = "fluidloggable-3.1.3-beta.4-mc26.3.jar";
+            "hash" = "sha512-qRUGHMPRILbgrK0L6MPbCyCCjo6j0EF016dlIvRfozL2hq2dhyvI/AsKlpI2Gas2QCDABAGVkxW5UTuWPmz6sQ==";
+        };
     in {
         "uNiPjkf3" = _uNiPjkf3;
         "HaQgtFLq" = _HaQgtFLq;
@@ -86,9 +91,10 @@ let
         "aHIHUAc4" = _aHIHUAc4;
         "k4GYzcQS" = _k4GYzcQS;
         "TBzUPeUt" = _TBzUPeUt;
+        "bDUChk2w" = _bDUChk2w;
         "fabric-1.21.1" = _uNiPjkf3;
         "fabric-26.2" = _pk41tnsA;
-        "fabric-26.3" = _TBzUPeUt;
+        "fabric-26.3" = _bDUChk2w;
         "neoforge-1.21.1" = _HaQgtFLq;
         "pkg-2.0.1-beta.8" = _HaQgtFLq;
         "pkg-3.0.0-beta.6-mc26.2" = _8xA0cS0n;
@@ -103,7 +109,8 @@ let
         "pkg-3.1.3-beta.1-mc26.3" = _aHIHUAc4;
         "pkg-3.1.3-beta.2-mc26.3" = _k4GYzcQS;
         "pkg-3.1.3-beta.3-mc26.3" = _TBzUPeUt;
-        "default" = _TBzUPeUt;
+        "pkg-3.1.3-beta.4-mc26.3" = _bDUChk2w;
+        "default" = _bDUChk2w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fluidloggable";

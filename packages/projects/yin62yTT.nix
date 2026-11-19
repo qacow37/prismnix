@@ -51,6 +51,11 @@ let
             "file" = "cupellation-1.0.8.jar";
             "hash" = "sha512-qzLAoECU7Q8j8lL4ixeFe4FsPr3XJJcFREC0wUa61/NYZiWWsL8WeLIkfasPmy556Lw42GJOkmojkSHoJhwq4Q==";
         };
+        _1N8HJBe3 = {
+            "id" = "1N8HJBe3";
+            "file" = "cupellation-1.0.9.jar";
+            "hash" = "sha512-2NidOirku9xlQ0tvrWh+tEVZBXeVafUhI6wTmaXLR6mXb+tpX0PVnAq/K/5EY0+nzYOjGB6BEvFfAJuL43NXIg==";
+        };
     in {
         "vTTLg0AR" = _vTTLg0AR;
         "dtNrvCXW" = _dtNrvCXW;
@@ -62,7 +67,8 @@ let
         "tGV1PbXC" = _tGV1PbXC;
         "zc0yM3Kg" = _zc0yM3Kg;
         "DxMR7RJO" = _DxMR7RJO;
-        "fabric-1.21.1" = _DxMR7RJO;
+        "1N8HJBe3" = _1N8HJBe3;
+        "fabric-1.21.1" = _1N8HJBe3;
         "pkg-1.0.0" = _vTTLg0AR;
         "pkg-1.0.0+1.21.1" = _dtNrvCXW;
         "pkg-1.0.1+1.21.1" = _SSc5qL1Z;
@@ -73,7 +79,8 @@ let
         "pkg-1.0.6+1.21.1" = _tGV1PbXC;
         "pkg-1.0.7+1.21.1" = _zc0yM3Kg;
         "pkg-1.0.8+1.21.1" = _DxMR7RJO;
-        "default" = _DxMR7RJO;
+        "pkg-1.0.9+1.21.1" = _1N8HJBe3;
+        "default" = _1N8HJBe3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cupellation";

@@ -191,6 +191,16 @@ let
             "file" = "copper_extension-fabric-26.1-1.5.3.jar";
             "hash" = "sha512-cSpbx828if7DAvEiXstH8KKCdJUm47gTcZWQdjKGjx1GusI2HhZySyIPoOpZezfNCWLg6Lcu9Pt1WkMk0sWjsQ==";
         };
+        _3aswI54P = {
+            "id" = "3aswI54P";
+            "file" = "copper_extension-neoforge-26.3-1.5.4.jar";
+            "hash" = "sha512-05762mpO2/n+rmpsadhmt3/4SSWoHNAd72chbuLRXK89730vZzhEme/Fk4XqICnVvi+WQOIHXq/8QsoM5Bqg9g==";
+        };
+        _xad0oPBF = {
+            "id" = "xad0oPBF";
+            "file" = "copper_extension-fabric-26.3-1.5.4.jar";
+            "hash" = "sha512-65hbtBOIZ+t0F4FbaXf8P5wX9bAPEefiWJVyh2at374Y6nwQc68nJxj0/KkU0M5OxecBwn9kz7jNyrdQJEdQiQ==";
+        };
     in {
         "Sf2bfDhg" = _Sf2bfDhg;
         "83Hjoaa8" = _83Hjoaa8;
@@ -230,6 +240,8 @@ let
         "LffVdHfm" = _LffVdHfm;
         "2245KkZo" = _2245KkZo;
         "1kOjHiOb" = _1kOjHiOb;
+        "3aswI54P" = _3aswI54P;
+        "xad0oPBF" = _xad0oPBF;
         "forge-1.20.1" = _Sf2bfDhg;
         "forge-1.20.2" = _l7VL4UMZ;
         "forge-1.20.4" = _T8TdNrIg;
@@ -253,6 +265,7 @@ let
         "neoforge-26.1.1" = _2245KkZo;
         "neoforge-26.1.2" = _2245KkZo;
         "neoforge-26.2" = _2245KkZo;
+        "neoforge-26.3" = _3aswI54P;
         "fabric-1.20.1" = _83Hjoaa8;
         "fabric-1.20.2" = _D2j9YsP9;
         "fabric-1.20.4" = _Zr6sS8qz;
@@ -273,6 +286,7 @@ let
         "fabric-26.1.1" = _1kOjHiOb;
         "fabric-26.1.2" = _1kOjHiOb;
         "fabric-26.2" = _1kOjHiOb;
+        "fabric-26.3" = _xad0oPBF;
         "quilt-1.20.1" = _83Hjoaa8;
         "quilt-1.20.2" = _D2j9YsP9;
         "quilt-1.20.4" = _Zr6sS8qz;
@@ -293,6 +307,7 @@ let
         "quilt-26.1.1" = _1kOjHiOb;
         "quilt-26.1.2" = _1kOjHiOb;
         "quilt-26.2" = _1kOjHiOb;
+        "quilt-26.3" = _xad0oPBF;
         "pkg-1.0.0" = _83Hjoaa8;
         "pkg-1.1.0" = _QrnxuSfr;
         "pkg-1.1.1" = _NMmPm9YX;
@@ -312,7 +327,8 @@ let
         "pkg-1.5.1" = _pWsWKW7V;
         "pkg-1.5.2" = _LffVdHfm;
         "pkg-1.5.3" = _1kOjHiOb;
-        "default" = _1kOjHiOb;
+        "pkg-1.5.4" = _xad0oPBF;
+        "default" = _xad0oPBF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "copper-extension";

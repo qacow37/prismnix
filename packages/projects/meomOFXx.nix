@@ -61,6 +61,11 @@ let
             "file" = "sunflowerdelight-1.21.1-1.0.1n.jar";
             "hash" = "sha512-jqzK7iO1/mzQ+YZdOaHAe0TbKsR3sTERZpI4PdKR4/fijl824nDrpiPytBJWfJeWSVmdZ6Fd/iCdwIt+har5wQ==";
         };
+        _f4DimHhG = {
+            "id" = "f4DimHhG";
+            "file" = "sunflowerdelight-1.21.1-1.0.2n.jar";
+            "hash" = "sha512-gasQUtoeGaT6jTojRXwGpWmHXdvjE9nLMmiZzCxC3tUBlXI8lMDFuzmokHd8x4Mg0F5Ctz0w3uPUGYeAC06uLg==";
+        };
     in {
         "QP9jAGzL" = _QP9jAGzL;
         "SHQYLri0" = _SHQYLri0;
@@ -74,8 +79,9 @@ let
         "vwyShvwJ" = _vwyShvwJ;
         "BjmskG0B" = _BjmskG0B;
         "v48ZRt5P" = _v48ZRt5P;
+        "f4DimHhG" = _f4DimHhG;
         "forge-1.20.1" = _vwyShvwJ;
-        "neoforge-1.21.1" = _v48ZRt5P;
+        "neoforge-1.21.1" = _f4DimHhG;
         "pkg-1.0.0" = _QP9jAGzL;
         "pkg-1.0.1" = _SHQYLri0;
         "pkg-1.0.2" = _yYN2zmxC;
@@ -87,7 +93,8 @@ let
         "pkg-1.0.5.1" = _vwyShvwJ;
         "pkg-1.0.0n" = _BjmskG0B;
         "pkg-1.0.1n" = _v48ZRt5P;
-        "default" = _v48ZRt5P;
+        "pkg-1.0.2n" = _f4DimHhG;
+        "default" = _f4DimHhG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sunflower-delight";

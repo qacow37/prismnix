@@ -91,6 +91,11 @@ let
             "file" = "EntityClearer.jar";
             "hash" = "sha512-AKZ8KuNGNRfqs6jKkp0ml2Z295esWu4b9P0DYOqOSLfm6XEVTj+Fn4s0vKcNaDL47I1lOwBJr0ICNob97W/e1g==";
         };
+        _8MhxKFyU = {
+            "id" = "8MhxKFyU";
+            "file" = "EntityClearer.jar";
+            "hash" = "sha512-t/I+/V+vCXdM0lV9CNhFukDnx3dwXuQLBPqJDqntbAPhlXDiewir0T4ApJlMSsrp9u+R2kdrPabKaMIAKhSfCg==";
+        };
     in {
         "yBjUA7Dy" = _yBjUA7Dy;
         "pnGbqu84" = _pnGbqu84;
@@ -110,6 +115,7 @@ let
         "gNbikTO8" = _gNbikTO8;
         "3cRu1Mj2" = _3cRu1Mj2;
         "G2mhZT01" = _G2mhZT01;
+        "8MhxKFyU" = _8MhxKFyU;
         "paper-1.18.2" = _MvU3iMqr;
         "paper-1.19" = _MvU3iMqr;
         "paper-1.19.1" = _MvU3iMqr;
@@ -123,24 +129,25 @@ let
         "paper-1.20.4" = _MvU3iMqr;
         "paper-1.18" = _MvU3iMqr;
         "paper-1.18.1" = _MvU3iMqr;
-        "paper-1.20.5" = _G2mhZT01;
-        "paper-1.20.6" = _G2mhZT01;
-        "paper-1.21" = _G2mhZT01;
-        "paper-1.21.1" = _G2mhZT01;
-        "paper-1.21.2" = _G2mhZT01;
-        "paper-1.21.3" = _G2mhZT01;
-        "paper-1.21.4" = _G2mhZT01;
-        "paper-1.21.5" = _G2mhZT01;
-        "paper-1.21.6" = _G2mhZT01;
-        "paper-1.21.7" = _G2mhZT01;
-        "paper-1.21.8" = _G2mhZT01;
-        "paper-1.21.9" = _G2mhZT01;
-        "paper-1.21.10" = _G2mhZT01;
-        "paper-1.21.11" = _G2mhZT01;
-        "paper-26.1" = _G2mhZT01;
-        "paper-26.1.1" = _G2mhZT01;
-        "paper-26.1.2" = _G2mhZT01;
-        "paper-26.2" = _G2mhZT01;
+        "paper-1.20.5" = _8MhxKFyU;
+        "paper-1.20.6" = _8MhxKFyU;
+        "paper-1.21" = _8MhxKFyU;
+        "paper-1.21.1" = _8MhxKFyU;
+        "paper-1.21.2" = _8MhxKFyU;
+        "paper-1.21.3" = _8MhxKFyU;
+        "paper-1.21.4" = _8MhxKFyU;
+        "paper-1.21.5" = _8MhxKFyU;
+        "paper-1.21.6" = _8MhxKFyU;
+        "paper-1.21.7" = _8MhxKFyU;
+        "paper-1.21.8" = _8MhxKFyU;
+        "paper-1.21.9" = _8MhxKFyU;
+        "paper-1.21.10" = _8MhxKFyU;
+        "paper-1.21.11" = _8MhxKFyU;
+        "paper-26.1" = _8MhxKFyU;
+        "paper-26.1.1" = _8MhxKFyU;
+        "paper-26.1.2" = _8MhxKFyU;
+        "paper-26.2" = _8MhxKFyU;
+        "paper-26.3" = _8MhxKFyU;
         "spigot-1.18.2" = _MvU3iMqr;
         "spigot-1.19" = _MvU3iMqr;
         "spigot-1.19.1" = _MvU3iMqr;
@@ -180,7 +187,8 @@ let
         "pkg-4.1.1" = _gNbikTO8;
         "pkg-4.1.2" = _3cRu1Mj2;
         "pkg-4.1.3" = _G2mhZT01;
-        "default" = _G2mhZT01;
+        "pkg-4.1.4" = _8MhxKFyU;
+        "default" = _8MhxKFyU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "entityclearer";

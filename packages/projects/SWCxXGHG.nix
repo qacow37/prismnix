@@ -36,6 +36,26 @@ let
             "file" = "bleedingmod-1.6.jar";
             "hash" = "sha512-qxEKEUXzYg8/ZNRiIEJip198VpYBQqrYYQssTp47sR8Df2o4I8/5j9xrVvo7hgrNg1+herGkCWhUAhWq1H3fyg==";
         };
+        _5HymZpTj = {
+            "id" = "5HymZpTj";
+            "file" = "bleedingmod-1.7-mc1.20-1.20.1-1.7.jar";
+            "hash" = "sha512-HrF9uGIAsymFczbS1HyZcJgn54+VLy2d0psRf/1C/wi7UcDcORsjFHkA2EX+929L/FTr9u3ZaeV7Xv3+4yNBZQ==";
+        };
+        _MavyB3Iu = {
+            "id" = "MavyB3Iu";
+            "file" = "bleedingmod-1.7-mc1.21.1-1.7.jar";
+            "hash" = "sha512-hg6WFJYzNXZkeI4eth2ftUJ2BWiCQVAm83TBTuhQJregtooVjwmNivirDtyKiT9FC4/at6mzgiTrAdYaeI7OAQ==";
+        };
+        _XOPMfXF5 = {
+            "id" = "XOPMfXF5";
+            "file" = "bleedingmod-1.7-mc1.19-1.19.2-1.7.jar";
+            "hash" = "sha512-WQ/IHnnDFTz/xi15a9yYsSbqAIbTh5pg7zjt+SuwonOFNspdxXTC938mb1Hd63EpR04IElV0b6LO0HXpaAOAOw==";
+        };
+        _rB8guY9W = {
+            "id" = "rB8guY9W";
+            "file" = "bleedingmod-1.7-mc1.18.2-1.7.jar";
+            "hash" = "sha512-R1io1O4tDQNFOa1hcmeSmBT5vcgEauj1efNb6CgzV9c4G+pUFuzRRdUOkuhoPIdldLKuQXdZtwg5d92LMtBk9w==";
+        };
     in {
         "goale5Ds" = _goale5Ds;
         "4qk28vuo" = _4qk28vuo;
@@ -44,7 +64,17 @@ let
         "1SvlLR9X" = _1SvlLR9X;
         "VCYOFQS3" = _VCYOFQS3;
         "o2Hv57mH" = _o2Hv57mH;
-        "forge-1.20.1" = _o2Hv57mH;
+        "5HymZpTj" = _5HymZpTj;
+        "MavyB3Iu" = _MavyB3Iu;
+        "XOPMfXF5" = _XOPMfXF5;
+        "rB8guY9W" = _rB8guY9W;
+        "forge-1.20.1" = _5HymZpTj;
+        "forge-1.20" = _5HymZpTj;
+        "forge-1.21.1" = _MavyB3Iu;
+        "forge-1.19.2" = _XOPMfXF5;
+        "forge-1.19.1" = _XOPMfXF5;
+        "forge-1.19" = _XOPMfXF5;
+        "forge-1.18.2" = _rB8guY9W;
         "pkg-1.0" = _goale5Ds;
         "pkg-1.1" = _4qk28vuo;
         "pkg-1.2" = _pomx9l3J;
@@ -52,7 +82,8 @@ let
         "pkg-1.4" = _1SvlLR9X;
         "pkg-1.5" = _VCYOFQS3;
         "pkg-1.6" = _o2Hv57mH;
-        "default" = _o2Hv57mH;
+        "pkg-1.7" = _rB8guY9W;
+        "default" = _rB8guY9W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-bleeding";

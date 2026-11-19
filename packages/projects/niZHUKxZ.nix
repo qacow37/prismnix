@@ -251,6 +251,56 @@ let
             "file" = "lightspeed-fabric-26.2-2.0.5+hotfix.jar";
             "hash" = "sha512-ol4guQhMc4toJGqiljMZe2xWBqC8lYnYocnm+IutoLNtucQ5KPXk9LJ8Dwo6n8CgexAM6la41EjsIT0/yqAlGA==";
         };
+        _qXRJQW1V = {
+            "id" = "qXRJQW1V";
+            "file" = "lightspeed-1.20.1-2.0.6.jar";
+            "hash" = "sha512-CiSqmlMXQ4gVv9Gmc7xyi33BBoOZlDMn6DFrgoTWJhO+0b9dJK0nUB3MjNo/sGfONnhqCXkdax56lnkXTjf9Qw==";
+        };
+        _4ezzwccE = {
+            "id" = "4ezzwccE";
+            "file" = "lightspeed-1.21.1-2.0.6.jar";
+            "hash" = "sha512-tcJSQLJNmyeCXCAE/SYDIMbcwYwU4YhVqb7VgRlNcfsGhMAnJH4/Y+/SwQQ1n/L7WAfO0ZBGORoNFfPvfkSaZg==";
+        };
+        _bDADLxWr = {
+            "id" = "bDADLxWr";
+            "file" = "lightspeed-1.21.1-2.0.6hotfix.jar";
+            "hash" = "sha512-C08meSLIbWErZ6JCcpjp9EwIBkL0xJvpSLJ9chV1Ql2gFyUevUVFeaJ1wIRfi9DZviyLi6FU8nabAwHiXhfnRg==";
+        };
+        _PO86AJm9 = {
+            "id" = "PO86AJm9";
+            "file" = "lightspeed-1.20.1-2.0.6hotfix.jar";
+            "hash" = "sha512-rO7RI6gm9gWcbDtOlsqaYJQIt8ShOz6pqDt4x7SVpaCgEZy0b5LvBjHwOLfGoxqVd7DW123PldgRqeQW4wUuvw==";
+        };
+        _WH6TWFZ0 = {
+            "id" = "WH6TWFZ0";
+            "file" = "lightspeed-neoforge-26.1.2-2.0.6hotfix.jar";
+            "hash" = "sha512-dVb1hCxxI8ojeaxNdN5rO9fkgaOlFJtkoNSGKLkPXYkgAJJZUj6wKwbgEFbIaiSe9oqyAb6F1/AjGCLBasZGuw==";
+        };
+        _ZILCwzTs = {
+            "id" = "ZILCwzTs";
+            "file" = "lightspeed-fabric-1.21.1-2.0.6hotfix.jar";
+            "hash" = "sha512-6DYuYzQzUO4bschI1+VK8WsZhe6W4UGIp1fkeFDRvgf1KETb6lOkZ+4Arec4veF9U6QDDTakArylkrf9JhYrNQ==";
+        };
+        _QbHO2HoT = {
+            "id" = "QbHO2HoT";
+            "file" = "lightspeed-fabric-26.2-2.0.6hotfix.jar";
+            "hash" = "sha512-FTyYFzorxvlQ0y6pBp7HmlM5uVgreh9dCz4MeKfgyXPub8oOZGGihvkpfMThIvITzqdN/76NhUcn0YlftygjTQ==";
+        };
+        _Ydpq9kCg = {
+            "id" = "Ydpq9kCg";
+            "file" = "lightspeed-fabric-26.1.2-2.0.6hotfix.jar";
+            "hash" = "sha512-UlIAqeYtaR4tVzV83EGuFoH4VKgqDIP7z8TVSiPzaZSvioxIUMu0jFNRFsa1XTYK9mj54TPqXOpXXevVfX/Fuw==";
+        };
+        _LXJnrxkJ = {
+            "id" = "LXJnrxkJ";
+            "file" = "lightspeed-neoforge-26.2-2.0.6hotfix.jar";
+            "hash" = "sha512-nhcvlS9tBtecDuDhsBjpV7YZ1OZBI8bZL+cSrNTIK9JpZdOh84EabqPEUgwdxdXEy3JC+AyX+pDJn+ESsgSYAQ==";
+        };
+        _aNNkAhlx = {
+            "id" = "aNNkAhlx";
+            "file" = "lightspeed-fabric-1.20.1-2.0.6hotfix.jar";
+            "hash" = "sha512-iM0eW1ZKnXE//P6/h41RqdO1SLf3YXTezDjVTvCxyESdugV7OSSWKWSaF3F3wo4SZRiO2lb7OR4N6pGbaq4dqw==";
+        };
     in {
         "E6Xcqpi7" = _E6Xcqpi7;
         "l6eWpUtK" = _l6eWpUtK;
@@ -302,14 +352,24 @@ let
         "sG6dZZ4I" = _sG6dZZ4I;
         "f7hMlp2t" = _f7hMlp2t;
         "dEPr0pH4" = _dEPr0pH4;
-        "forge-1.20.1" = _ncR5kUCv;
-        "neoforge-1.21.1" = _3lDR3Cp2;
-        "neoforge-26.1.2" = _GtMNVcOF;
-        "neoforge-26.2" = _f7hMlp2t;
-        "fabric-1.20.1" = _mni0W7xS;
-        "fabric-1.21.1" = _oaax43jl;
-        "fabric-26.1.2" = _sG6dZZ4I;
-        "fabric-26.2" = _dEPr0pH4;
+        "qXRJQW1V" = _qXRJQW1V;
+        "4ezzwccE" = _4ezzwccE;
+        "bDADLxWr" = _bDADLxWr;
+        "PO86AJm9" = _PO86AJm9;
+        "WH6TWFZ0" = _WH6TWFZ0;
+        "ZILCwzTs" = _ZILCwzTs;
+        "QbHO2HoT" = _QbHO2HoT;
+        "Ydpq9kCg" = _Ydpq9kCg;
+        "LXJnrxkJ" = _LXJnrxkJ;
+        "aNNkAhlx" = _aNNkAhlx;
+        "forge-1.20.1" = _PO86AJm9;
+        "neoforge-1.21.1" = _bDADLxWr;
+        "neoforge-26.1.2" = _WH6TWFZ0;
+        "neoforge-26.2" = _LXJnrxkJ;
+        "fabric-1.20.1" = _aNNkAhlx;
+        "fabric-1.21.1" = _ZILCwzTs;
+        "fabric-26.1.2" = _Ydpq9kCg;
+        "fabric-26.2" = _QbHO2HoT;
         "pkg-1.20.1-1.1.0" = _E6Xcqpi7;
         "pkg-1.20.1-1.1.1" = _l6eWpUtK;
         "pkg-1.20.1-1.1.2" = _YE18HLLS;
@@ -360,7 +420,17 @@ let
         "pkg-2.0.5+hotfix.fabric.26.1.2" = _sG6dZZ4I;
         "pkg-2.0.5+hotfix.neoforge.26.2" = _f7hMlp2t;
         "pkg-2.0.5+hotfix.fabric.26.2" = _dEPr0pH4;
-        "default" = _dEPr0pH4;
+        "pkg-2.0.6.forge.1.20.1" = _qXRJQW1V;
+        "pkg-2.0.6.neoforge.1.21.1" = _4ezzwccE;
+        "pkg-2.0.6hotfix.neoforge.1.21.1" = _bDADLxWr;
+        "pkg-2.0.6hotfix.forge.1.20.1" = _PO86AJm9;
+        "pkg-2.0.6hotfix.neoforge.26.1.2" = _WH6TWFZ0;
+        "pkg-2.0.6hotfix.fabric.1.21.1" = _ZILCwzTs;
+        "pkg-2.0.6hotfix.fabric.26.2" = _QbHO2HoT;
+        "pkg-2.0.6hotfix.fabric.26.1.2" = _Ydpq9kCg;
+        "pkg-2.0.6hotfix.neoforge.26.2" = _LXJnrxkJ;
+        "pkg-2.0.6hotfix.fabric.1.20.1" = _aNNkAhlx;
+        "default" = _aNNkAhlx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lightspeedre";

@@ -66,6 +66,11 @@ let
             "file" = "Cloudflared-fabric-21.1.3.jar";
             "hash" = "sha512-EXzW76EKLyNIWSCKwYGOBU0JBv2sOyruplCOuTUYlTC9xPZN6uxpYXorPaa6NSJtksyPUL3DV9nrfMVPrZQplg==";
         };
+        _Y2Crnu9N = {
+            "id" = "Y2Crnu9N";
+            "file" = "Cloudflared-1.12.2-12.2.3.1.jar";
+            "hash" = "sha512-SIvg/usDK32n/wRtb/+8giJuNFG1BILKfyelo6aBX1Hacjh8MrdoDPAUY8N5QMFkrjZ1tXreoi7fhV2XkFjMdQ==";
+        };
     in {
         "3REXuT8M" = _3REXuT8M;
         "lZdA6aLn" = _lZdA6aLn;
@@ -80,7 +85,8 @@ let
         "sA3gWWp4" = _sA3gWWp4;
         "eOVQJ3Lj" = _eOVQJ3Lj;
         "vPwKN3gN" = _vPwKN3gN;
-        "forge-1.12.2" = _BTAYN2fR;
+        "Y2Crnu9N" = _Y2Crnu9N;
+        "forge-1.12.2" = _Y2Crnu9N;
         "forge-1.19.2" = _YcYogubN;
         "forge-1.19.3" = _YcYogubN;
         "forge-1.19.4" = _YcYogubN;
@@ -109,7 +115,8 @@ let
         "pkg-12.2.3" = _BTAYN2fR;
         "pkg-19.2.3" = _sA3gWWp4;
         "pkg-21.1.3" = _vPwKN3gN;
-        "default" = _vPwKN3gN;
+        "pkg-12.2.3.1" = _Y2Crnu9N;
+        "default" = _Y2Crnu9N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cloudflared";

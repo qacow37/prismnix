@@ -66,6 +66,11 @@ let
             "file" = "moreartifacts-1.5.5-1.20.1.jar";
             "hash" = "sha512-7FXiDLBBs3ozccVt3tfFe1VaiqHnDj+kARWBdCRDdDdY+AQDDrYoEsTQkTErCpqRW5MNnoKiMIAaMtmT2Mwqkw==";
         };
+        _O1t9CAqc = {
+            "id" = "O1t9CAqc";
+            "file" = "moreartifacts-2.0.0-1.20.1.jar";
+            "hash" = "sha512-udtGi/H6EY++DjYk/QwgEt4f+KfakeDTSuCFoyi1pkIUnu1zdXLjMo+DiB9YhMpn/ITnIGrdXMMJN/h9Fs3KCg==";
+        };
     in {
         "DOlO5lvM" = _DOlO5lvM;
         "pGmlBnoH" = _pGmlBnoH;
@@ -80,7 +85,8 @@ let
         "Sk5yyRHg" = _Sk5yyRHg;
         "b9Pl1ctq" = _b9Pl1ctq;
         "6Fd8VL9U" = _6Fd8VL9U;
-        "forge-1.20.1" = _6Fd8VL9U;
+        "O1t9CAqc" = _O1t9CAqc;
+        "forge-1.20.1" = _O1t9CAqc;
         "pkg-1.0.0" = _DOlO5lvM;
         "pkg-1.2.4" = _pGmlBnoH;
         "pkg-1.2.5-1.20.1-beta" = _BoIT17Ra;
@@ -94,7 +100,8 @@ let
         "pkg-1.4.3" = _Sk5yyRHg;
         "pkg-1.5.0" = _b9Pl1ctq;
         "pkg-1.5.5" = _6Fd8VL9U;
-        "default" = _6Fd8VL9U;
+        "pkg-2.0.0" = _O1t9CAqc;
+        "default" = _O1t9CAqc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-artifacts";

@@ -26,12 +26,18 @@ let
             "file" = "Soviet Gulag Collection 1.21.1-1.21.11.zip";
             "hash" = "sha512-rKWVtH0O9LaJlWt7JBbRXg1muN44Fk2+u1bRd11ffcfzEM7Ra3n77sjEu6hTA50zaAJpQ5TQYY9vLxIlX4Yw8A==";
         };
+        _TGSfE9Zd = {
+            "id" = "TGSfE9Zd";
+            "file" = "SGC 4.1.zip";
+            "hash" = "sha512-QjoygLN4qS2HdGvz95oyrMl3vw40znIHj7FBKt6+QdZWz0S5+uFt3qW5/AKY3CTJh142lC/7zSj9QAQAOs0xYw==";
+        };
     in {
         "GKLBd6qz" = _GKLBd6qz;
         "DTURD6QS" = _DTURD6QS;
         "4jAoCA0F" = _4jAoCA0F;
         "oBFGD0ZI" = _oBFGD0ZI;
         "vkSJ2BXw" = _vkSJ2BXw;
+        "TGSfE9Zd" = _TGSfE9Zd;
         "minecraft-1.20.5" = _GKLBd6qz;
         "minecraft-1.20.6" = _GKLBd6qz;
         "minecraft-1.20.4" = _DTURD6QS;
@@ -51,12 +57,18 @@ let
         "minecraft-1.21.9" = _vkSJ2BXw;
         "minecraft-1.21.10" = _vkSJ2BXw;
         "minecraft-1.21.11" = _vkSJ2BXw;
+        "minecraft-26.1.2" = _TGSfE9Zd;
+        "minecraft-26.1.1" = _TGSfE9Zd;
+        "minecraft-26.1" = _TGSfE9Zd;
+        "minecraft-26.2" = _TGSfE9Zd;
+        "minecraft-26.3" = _TGSfE9Zd;
         "pkg-2.1" = _GKLBd6qz;
         "pkg-2" = _DTURD6QS;
         "pkg-1.2" = _4jAoCA0F;
         "pkg-1.1" = _oBFGD0ZI;
         "pkg-3.1" = _vkSJ2BXw;
-        "default" = _vkSJ2BXw;
+        "pkg-4.1" = _TGSfE9Zd;
+        "default" = _TGSfE9Zd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "soviet-gulag-collection";

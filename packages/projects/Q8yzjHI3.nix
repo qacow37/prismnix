@@ -726,6 +726,16 @@ let
             "file" = "affogatocore-26.3.0.jar";
             "hash" = "sha512-fJ2grM+poAADVXVNBvawoMdvKy2eR6KYciOvXvlbEClS7HFOk/8fScrovxbe5UX/bgoqb7AxkJrz1M/+oBTGnw==";
         };
+        _Jf0LAv8h = {
+            "id" = "Jf0LAv8h";
+            "file" = "affogatocore-26.3.1.jar";
+            "hash" = "sha512-KdTFJEFf+LIxcWr250oWXLpeUWc6d3A5SRrIsf6rs4uJdqsdrMtjm8nqFEbKb/MTnzU/42MVdV/jx2mKqEKD4w==";
+        };
+        _WiIKcOGg = {
+            "id" = "WiIKcOGg";
+            "file" = "affogatocore-26.3.2.jar";
+            "hash" = "sha512-zcVDDUBirene/KlGjJdt9yFbmcSaFAB4K0GgmwLfCzmcHa4AK6i2qDdwv/kCJ1iDoKuFvWl07ncBysMbkhH6/g==";
+        };
     in {
         "4s2SCddN" = _4s2SCddN;
         "B9cJfscj" = _B9cJfscj;
@@ -872,13 +882,15 @@ let
         "cjqWeqK2" = _cjqWeqK2;
         "y4epD65K" = _y4epD65K;
         "bLLXAVEl" = _bLLXAVEl;
+        "Jf0LAv8h" = _Jf0LAv8h;
+        "WiIKcOGg" = _WiIKcOGg;
         "fabric-1.20.1" = _SK18c9Dz;
         "fabric-1.21.1" = _cqHgK0Ag;
         "fabric-1.21.11" = _9k93IlF6;
         "fabric-26.1" = _y4epD65K;
         "fabric-26.1.1" = _y4epD65K;
         "fabric-26.1.2" = _y4epD65K;
-        "fabric-26.3" = _bLLXAVEl;
+        "fabric-26.3" = _WiIKcOGg;
         "pkg-1.0.0" = _4s2SCddN;
         "pkg-1.0.1" = _B9cJfscj;
         "pkg-1.1.0" = _phXOHI9W;
@@ -1024,7 +1036,9 @@ let
         "pkg-26.1.15" = _cjqWeqK2;
         "pkg-26.1.16" = _y4epD65K;
         "pkg-26.3.0" = _bLLXAVEl;
-        "default" = _bLLXAVEl;
+        "pkg-26.3.1" = _Jf0LAv8h;
+        "pkg-26.3.2" = _WiIKcOGg;
+        "default" = _WiIKcOGg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "affogato-core";

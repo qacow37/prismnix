@@ -131,6 +131,16 @@ let
             "file" = "AnimalHusbandry-fabric-0.6.0.jar";
             "hash" = "sha512-QZjxaZxT3gfL7UTgSoxi97e9bDmOdvCrjqXwnKTthyg3UOoggEH4RamHZyphL+xnavherMe5NQgtMLhzHIoo0w==";
         };
+        _M7LgsfRb = {
+            "id" = "M7LgsfRb";
+            "file" = "AnimalHusbandry-neoforge-0.7.0.jar";
+            "hash" = "sha512-pQWJZaMmRy9Hk84P+6bBdE3GYx0DbGV6iFJjCqcO/5CZqGoKpdDF1I9IQrr2j4QVJniA0RF1yVi1AjpbAnCirA==";
+        };
+        _d4IefDWq = {
+            "id" = "d4IefDWq";
+            "file" = "AnimalHusbandry-fabric-0.7.0.jar";
+            "hash" = "sha512-pAszVyMGlBA8I9MyI0Hv/hGBSAn4G7m0JuBaXvXh5rfmMDBylY/OV27mvy52WSyxuoxkqdSLFf3GeoC3LqSRXQ==";
+        };
     in {
         "C1ufbYGW" = _C1ufbYGW;
         "3rTtGQyz" = _3rTtGQyz;
@@ -158,8 +168,10 @@ let
         "ZXPRmEF6" = _ZXPRmEF6;
         "Evazn2xm" = _Evazn2xm;
         "hHfXYn3c" = _hHfXYn3c;
-        "neoforge-1.21.1" = _Evazn2xm;
-        "fabric-1.21.1" = _hHfXYn3c;
+        "M7LgsfRb" = _M7LgsfRb;
+        "d4IefDWq" = _d4IefDWq;
+        "neoforge-1.21.1" = _M7LgsfRb;
+        "fabric-1.21.1" = _d4IefDWq;
         "pkg-0.1" = _3rTtGQyz;
         "pkg-0.1.1" = _tXo2zXiz;
         "pkg-0.1.5" = _Y8jbn3dr;
@@ -173,7 +185,8 @@ let
         "pkg-0.4.2" = _ionAhR7m;
         "pkg-0.5.0" = _ZXPRmEF6;
         "pkg-0.6.0" = _hHfXYn3c;
-        "default" = _hHfXYn3c;
+        "pkg-0.7.0" = _d4IefDWq;
+        "default" = _d4IefDWq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animalhusbandry";

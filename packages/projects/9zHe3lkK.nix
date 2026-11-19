@@ -966,6 +966,181 @@ let
             "file" = "adventureitemnames-neoforge-0.54.0+1.21.1.jar";
             "hash" = "sha512-bSGe1xcjbLxlAH6eWMw9a7tzdQPCGDE8hOIRsRoPBcDx/TZrD8GolNCAZM/NMsBXQy4gIvq+/9XXN9O44e8vcA==";
         };
+        _Pvxvavwe = {
+            "id" = "Pvxvavwe";
+            "file" = "adventureitemnames-fabric-0.57.0+1.21.1.jar";
+            "hash" = "sha512-FesC9ujglMX67x8EVGU2XNwqJZRIRcH6jBEci7sZsxckVciYO7yjYB0Ku3hIYT/K7/OKxOrzV6eAmUq5GISHwA==";
+        };
+        _lk9Kmeq4 = {
+            "id" = "lk9Kmeq4";
+            "file" = "adventureitemnames-fabric-0.57.0+1.20.1.jar";
+            "hash" = "sha512-4m9Hun3IEhr8LksCXQhdUMWs0OuP0M/w80tF9ByxAnLnxr093zDIXQO52ydO9qkGCiO0hIXVkcovKEdfTYRgPQ==";
+        };
+        _3oaUb6nF = {
+            "id" = "3oaUb6nF";
+            "file" = "adventureitemnames-forge-0.57.0+1.21.1.jar";
+            "hash" = "sha512-m6kX3Z+lIw5bG6t4moRrJa3GWW0D9gqmq8qEl2bMyeXIm2KReJb8zKJOd4jpGJOIGYtWo3NAWjWszPNC3FdAiA==";
+        };
+        _6lZb3WNf = {
+            "id" = "6lZb3WNf";
+            "file" = "adventureitemnames-forge-0.57.0+1.20.1.jar";
+            "hash" = "sha512-YJtyQwePhUZM8Q5cnH03aJI9EuELop+OeQy86a/JoqDmIbfhfCeOHd1DtOnOkoxSAv+05FzmY2xC6D55CuVn6w==";
+        };
+        _qKgdxU0d = {
+            "id" = "qKgdxU0d";
+            "file" = "adventureitemnames-neoforge-0.57.0+1.21.1.jar";
+            "hash" = "sha512-2xHm4hLAuiGxxKlg4LE4GESf3c0f89VVPhMngQRljBxR4/6wabjVEdCSWdK9fD+S1u7uY8OmogmO2BMN+zar5Q==";
+        };
+        _7lTHEGRK = {
+            "id" = "7lTHEGRK";
+            "file" = "adventureitemnames-fabric-0.58.0+1.21.1.jar";
+            "hash" = "sha512-WM9SigPT1UXOafEs5uwHOag9u1OepMuQ/jif+PGUP7JUewLl7nr1TQH+2/Gjqj6FiJl5HkKKpOzoMrU0kyMzkw==";
+        };
+        _tWq0WRIl = {
+            "id" = "tWq0WRIl";
+            "file" = "adventureitemnames-fabric-0.58.0+1.20.1.jar";
+            "hash" = "sha512-nzM/132lE7/iE4EPIDTNJ05o8GchP98qgSo6U49FTY00osk2FIr4wGy+Csnp6R7F2HygaxwYix4L9koJPKl/Qw==";
+        };
+        _nmlSKh2f = {
+            "id" = "nmlSKh2f";
+            "file" = "adventureitemnames-forge-0.58.0+1.21.1.jar";
+            "hash" = "sha512-MqsEeW6YCLd0GKkXEQQcurJ1JJ557Qcqr8BDWCtenxs2zoZU0X796jSUzgb9enWjlY04GIL845+yVAb0Kh+/ag==";
+        };
+        _P4fDxYOm = {
+            "id" = "P4fDxYOm";
+            "file" = "adventureitemnames-forge-0.58.0+1.20.1.jar";
+            "hash" = "sha512-5qisleih10M4s9eftEDdG5w3rm7+mKPfL8f9SmFicBADbS6q1fkkh78pRB8xWrBOKLjopg+JIl/52HqipNxBSQ==";
+        };
+        _MGKXf8Jj = {
+            "id" = "MGKXf8Jj";
+            "file" = "adventureitemnames-neoforge-0.58.0+1.21.1.jar";
+            "hash" = "sha512-1K5XM4rz2IFd+J0qkCB4wF2vIKSEskVu0wdYj94WVvHzNo7Bh+axZhfpno+M5M1Mo3KoqZ1swK0Ow7zfQ3kMcA==";
+        };
+        _h74mXWKE = {
+            "id" = "h74mXWKE";
+            "file" = "adventureitemnames-fabric-0.59.0+1.21.1.jar";
+            "hash" = "sha512-HrzQXgOWBijTE8E1LOm/o78PMidTNZuMTAhvAuKPolC7Pu1Ti70S6H6varwjd6Xtxb9z6RbJfRuv9VbVgcyJNA==";
+        };
+        _2DJfnULP = {
+            "id" = "2DJfnULP";
+            "file" = "adventureitemnames-fabric-0.59.0+1.20.1.jar";
+            "hash" = "sha512-YpIPbPyfog8g8Szim4oXmbHS+fJCLj+kQ/nntAXccR6/Dhxg27Q63fL8vggrKiujJ+28pl7sZr3YNm8X4fMv1A==";
+        };
+        _mXhqmlGl = {
+            "id" = "mXhqmlGl";
+            "file" = "adventureitemnames-forge-0.59.0+1.21.1.jar";
+            "hash" = "sha512-ZRg3heFOwuH/hFabYfNRv9GXTcr4pCctQVQodkenLGSfNoynCCcJbao3O38ek/1LWtRP5RmjGRHyTwYm/sDW3g==";
+        };
+        _gADE9vFu = {
+            "id" = "gADE9vFu";
+            "file" = "adventureitemnames-forge-0.59.0+1.20.1.jar";
+            "hash" = "sha512-cZzKzEUzQh8feZJZy1mQMF/r3Vz829gjVDfTS5AM51TUxVTUiykjI5I+ydxdw/c5mT9QTf9PXvsWf01P9kWtDw==";
+        };
+        _yfP8m18R = {
+            "id" = "yfP8m18R";
+            "file" = "adventureitemnames-neoforge-0.59.0+1.21.1.jar";
+            "hash" = "sha512-iBVR0zgrxw/g677oMCXJapfSxQ9R1B2h18mpxW8iXSmF1jyIdPNHM7qlqiXNIl8YhGbmZYgPPgU4hcxJwbmpyw==";
+        };
+        _YaVUdpaC = {
+            "id" = "YaVUdpaC";
+            "file" = "adventureitemnames-fabric-0.60.0+1.21.1.jar";
+            "hash" = "sha512-bqmyhplh3nQ5r4mItwsk4Lo3L0+08+OQiVkCZOXDp4WMkYbiiVosLS2zleI5gyMMA8biOPuXqU6OiXOEusnYkw==";
+        };
+        _gQnTnqDM = {
+            "id" = "gQnTnqDM";
+            "file" = "adventureitemnames-fabric-0.60.0+1.20.1.jar";
+            "hash" = "sha512-QcP1Becho+x6di3rzR/IjnV2Q3tsrlVpFbWDNqrDFl/ZvTyqD0dqZW1Ip0CUltTz2+R48rQtrp6+t9wxiXnQ/g==";
+        };
+        _e7plD4mA = {
+            "id" = "e7plD4mA";
+            "file" = "adventureitemnames-forge-0.60.0+1.21.1.jar";
+            "hash" = "sha512-TDs89IrANQ51mO+eiyLnFrJJ5mA5mOsVCtlAxqnioB7uISwr2PHqPo5E2R4citpKdqDm7SaauxRX3StE3BMFJQ==";
+        };
+        _s7aUt19T = {
+            "id" = "s7aUt19T";
+            "file" = "adventureitemnames-forge-0.60.0+1.20.1.jar";
+            "hash" = "sha512-aScnnAxYUFYoh1+gNY+YCA3vntoKjDGEUwxtuKqjvhPgMF7LwewlS379/JshSYGYmnImaeEyrPQeHpeqUUn4Bg==";
+        };
+        _c2HX2d0j = {
+            "id" = "c2HX2d0j";
+            "file" = "adventureitemnames-neoforge-0.60.0+1.21.1.jar";
+            "hash" = "sha512-iH+ipH5zSOboVjMO3B9uFLBNoBs9KmFuhdkMm6BHkleOAbb9661HrUeZNHYvz9pxymCO9z/euFfCAF7tjpNAoQ==";
+        };
+        _Hf2wIQWo = {
+            "id" = "Hf2wIQWo";
+            "file" = "adventureitemnames-fabric-0.61.0+1.21.1.jar";
+            "hash" = "sha512-jixHvVksmgLSdNrdQwjD6QB5CKlwtKCqbVEkjgElNeKUNjwge8tSPIeMiCUOOmiyTik40RkiKdNcFvDT3e8Djw==";
+        };
+        _C4vZegmA = {
+            "id" = "C4vZegmA";
+            "file" = "adventureitemnames-fabric-0.61.0+1.20.1.jar";
+            "hash" = "sha512-wAeKM0gYBrEfwfSmkWZ5WmujV7RVm6qzkTGWlrxgtJiJ+EIHkPgLCcsH0alL5qZ5D3ku4dUf6uGRiG4kQq2rDA==";
+        };
+        _qLElMoNm = {
+            "id" = "qLElMoNm";
+            "file" = "adventureitemnames-forge-0.61.0+1.21.1.jar";
+            "hash" = "sha512-uWhysiIiT8oaJ9HucOKEiwu1T/5aAw8Aa6yNckUlAAxl2J/Z+/pnN5g6nKV8b6v2Pp800zB0lVtBDtqQcl4PQQ==";
+        };
+        _TSs7b4oC = {
+            "id" = "TSs7b4oC";
+            "file" = "adventureitemnames-forge-0.61.0+1.20.1.jar";
+            "hash" = "sha512-LlPqrvsjXi0UQs8sLEoMbAeClY1AYtHBYXonDfUkceHOdGKoHZ3NsRRBloCnJYAmGQy3ylitLjK5XeWrgUAoLA==";
+        };
+        _DG3NVHjW = {
+            "id" = "DG3NVHjW";
+            "file" = "adventureitemnames-neoforge-0.61.0+1.21.1.jar";
+            "hash" = "sha512-mUPqw9zXBUgxb1jEzRufJm4USdB9Vm5g4ydcgPFZZRU+iQUmePlCbqKKSznuE/YRaHMuFGsd3wadNGXly5R4Lg==";
+        };
+        _j872ZcNA = {
+            "id" = "j872ZcNA";
+            "file" = "adventureitemnames-fabric-0.62.0+1.21.1.jar";
+            "hash" = "sha512-JJGPP0P5v1MdpnofM1EtgSiy4zDSDr1YCc4PCBYkNlRgm2E88PqpTDUj2rhyBFdd03gjD4NPrnWll8fLxFXh6g==";
+        };
+        _Qx0t5GVl = {
+            "id" = "Qx0t5GVl";
+            "file" = "adventureitemnames-fabric-0.62.0+1.20.1.jar";
+            "hash" = "sha512-i9F3MZGFHsD8THtL944+H8yDVvZO45XxeOV5CqreS30EX6YyiTxO361sstHldf6WpXcMFYlJeYg9ssHEErxYQA==";
+        };
+        _MR6arUtm = {
+            "id" = "MR6arUtm";
+            "file" = "adventureitemnames-forge-0.62.0+1.21.1.jar";
+            "hash" = "sha512-ySZwuleFcpLXb3E1+hieOKeZRk7dIKyCPlr7KEs1jnevKOldXQwfWOmct24nxj/svx3qb/YYkXbtzcgH55BfrA==";
+        };
+        _HdBsM8Ir = {
+            "id" = "HdBsM8Ir";
+            "file" = "adventureitemnames-forge-0.62.0+1.20.1.jar";
+            "hash" = "sha512-J3QwFU3+IruacDo5uBoPAToUhK/MHsBNwCcB4h2JMD6isc8/hsmeruNQuRmCLeFh9hqGr/bX6vlWFrhZwPIvxg==";
+        };
+        _ici8LA1V = {
+            "id" = "ici8LA1V";
+            "file" = "adventureitemnames-neoforge-0.62.0+1.21.1.jar";
+            "hash" = "sha512-X82btn7Vx/Oqq3DD2I1P3gZOCR20Iyc0ZSBjm+yRp0eGLAA78M9O2WNLAzM+3HnqzhMEHvy7KimQVSlBGJpwzA==";
+        };
+        _5A2WNNle = {
+            "id" = "5A2WNNle";
+            "file" = "adventureitemnames-fabric-0.63.0+1.21.1.jar";
+            "hash" = "sha512-LpNqVW66e1Ida4YsIu4bpt5y6+GZ7PqC0RNYNMba73AkgF9kj3BN6fTDVMZgfDA8+D2EvqR8skSPdI29dDmCkw==";
+        };
+        _yagXlHGp = {
+            "id" = "yagXlHGp";
+            "file" = "adventureitemnames-fabric-0.63.0+1.20.1.jar";
+            "hash" = "sha512-P8w39yKLfl9lThMkFkyYl36QKbvnEicv4gL7kfCEF8qi/g0z8sjhLoLa+sXOgq52ObIh9XF4kZ5a5S+ueCb/yA==";
+        };
+        _ZXuYLgxV = {
+            "id" = "ZXuYLgxV";
+            "file" = "adventureitemnames-forge-0.63.0+1.21.1.jar";
+            "hash" = "sha512-g/k10Eec7OOsDiNm8AoEQBfT3vFI77dCqhe7dCRmingxSYEFn6sxHGVt2FVwnCtKemBQWhzHHFD1wzRo45ZosQ==";
+        };
+        _O9Eu96mL = {
+            "id" = "O9Eu96mL";
+            "file" = "adventureitemnames-forge-0.63.0+1.20.1.jar";
+            "hash" = "sha512-sc63EN65RYdkfF4LJtECcl+I3q9B0LtL0ip5AHU+/U6WXyu7GgXSfZgXjDqDedaXhdG6Ww1ctl0wusVhZxKq4Q==";
+        };
+        _x8UoraGJ = {
+            "id" = "x8UoraGJ";
+            "file" = "adventureitemnames-neoforge-0.63.0+1.21.1.jar";
+            "hash" = "sha512-i1OnDHd/H8zJpX1ZHlN+9V+kBvGsJ3BVqeXCWccLl3aqXafPRGy7WwlunGkUDxYtLuMFn0JodMWpvhyggJ1CVQ==";
+        };
     in {
         "HVE4b4Us" = _HVE4b4Us;
         "mBBkiZEr" = _mBBkiZEr;
@@ -1160,11 +1335,46 @@ let
         "wiGEqnOv" = _wiGEqnOv;
         "kEJRJV9L" = _kEJRJV9L;
         "WUtj0pWl" = _WUtj0pWl;
-        "neoforge-1.21.1" = _WUtj0pWl;
-        "fabric-1.21.1" = _Kq2fLBtx;
-        "fabric-1.20.1" = _jQTZlesI;
-        "forge-1.21.1" = _wiGEqnOv;
-        "forge-1.20.1" = _kEJRJV9L;
+        "Pvxvavwe" = _Pvxvavwe;
+        "lk9Kmeq4" = _lk9Kmeq4;
+        "3oaUb6nF" = _3oaUb6nF;
+        "6lZb3WNf" = _6lZb3WNf;
+        "qKgdxU0d" = _qKgdxU0d;
+        "7lTHEGRK" = _7lTHEGRK;
+        "tWq0WRIl" = _tWq0WRIl;
+        "nmlSKh2f" = _nmlSKh2f;
+        "P4fDxYOm" = _P4fDxYOm;
+        "MGKXf8Jj" = _MGKXf8Jj;
+        "h74mXWKE" = _h74mXWKE;
+        "2DJfnULP" = _2DJfnULP;
+        "mXhqmlGl" = _mXhqmlGl;
+        "gADE9vFu" = _gADE9vFu;
+        "yfP8m18R" = _yfP8m18R;
+        "YaVUdpaC" = _YaVUdpaC;
+        "gQnTnqDM" = _gQnTnqDM;
+        "e7plD4mA" = _e7plD4mA;
+        "s7aUt19T" = _s7aUt19T;
+        "c2HX2d0j" = _c2HX2d0j;
+        "Hf2wIQWo" = _Hf2wIQWo;
+        "C4vZegmA" = _C4vZegmA;
+        "qLElMoNm" = _qLElMoNm;
+        "TSs7b4oC" = _TSs7b4oC;
+        "DG3NVHjW" = _DG3NVHjW;
+        "j872ZcNA" = _j872ZcNA;
+        "Qx0t5GVl" = _Qx0t5GVl;
+        "MR6arUtm" = _MR6arUtm;
+        "HdBsM8Ir" = _HdBsM8Ir;
+        "ici8LA1V" = _ici8LA1V;
+        "5A2WNNle" = _5A2WNNle;
+        "yagXlHGp" = _yagXlHGp;
+        "ZXuYLgxV" = _ZXuYLgxV;
+        "O9Eu96mL" = _O9Eu96mL;
+        "x8UoraGJ" = _x8UoraGJ;
+        "neoforge-1.21.1" = _x8UoraGJ;
+        "fabric-1.21.1" = _5A2WNNle;
+        "fabric-1.20.1" = _yagXlHGp;
+        "forge-1.21.1" = _ZXuYLgxV;
+        "forge-1.20.1" = _O9Eu96mL;
         "pkg-0.1.0" = _HVE4b4Us;
         "pkg-v0.1.2" = _mBBkiZEr;
         "pkg-v0.1.3" = _Cdy2nn3e;
@@ -1355,7 +1565,42 @@ let
         "pkg-v0.54.0+forge-1.21.1" = _wiGEqnOv;
         "pkg-v0.54.0+forge-1.20.1" = _kEJRJV9L;
         "pkg-v0.54.0+neoforge-1.21.1" = _WUtj0pWl;
-        "default" = _WUtj0pWl;
+        "pkg-v0.57.0+fabric-1.21.1" = _Pvxvavwe;
+        "pkg-v0.57.0+fabric-1.20.1" = _lk9Kmeq4;
+        "pkg-v0.57.0+forge-1.21.1" = _3oaUb6nF;
+        "pkg-v0.57.0+forge-1.20.1" = _6lZb3WNf;
+        "pkg-v0.57.0+neoforge-1.21.1" = _qKgdxU0d;
+        "pkg-v0.58.0+fabric-1.21.1" = _7lTHEGRK;
+        "pkg-v0.58.0+fabric-1.20.1" = _tWq0WRIl;
+        "pkg-v0.58.0+forge-1.21.1" = _nmlSKh2f;
+        "pkg-v0.58.0+forge-1.20.1" = _P4fDxYOm;
+        "pkg-v0.58.0+neoforge-1.21.1" = _MGKXf8Jj;
+        "pkg-v0.59.0+fabric-1.21.1" = _h74mXWKE;
+        "pkg-v0.59.0+fabric-1.20.1" = _2DJfnULP;
+        "pkg-v0.59.0+forge-1.21.1" = _mXhqmlGl;
+        "pkg-v0.59.0+forge-1.20.1" = _gADE9vFu;
+        "pkg-v0.59.0+neoforge-1.21.1" = _yfP8m18R;
+        "pkg-v0.60.0+fabric-1.21.1" = _YaVUdpaC;
+        "pkg-v0.60.0+fabric-1.20.1" = _gQnTnqDM;
+        "pkg-v0.60.0+forge-1.21.1" = _e7plD4mA;
+        "pkg-v0.60.0+forge-1.20.1" = _s7aUt19T;
+        "pkg-v0.60.0+neoforge-1.21.1" = _c2HX2d0j;
+        "pkg-v0.61.0+fabric-1.21.1" = _Hf2wIQWo;
+        "pkg-v0.61.0+fabric-1.20.1" = _C4vZegmA;
+        "pkg-v0.61.0+forge-1.21.1" = _qLElMoNm;
+        "pkg-v0.61.0+forge-1.20.1" = _TSs7b4oC;
+        "pkg-v0.61.0+neoforge-1.21.1" = _DG3NVHjW;
+        "pkg-v0.62.0+fabric-1.21.1" = _j872ZcNA;
+        "pkg-v0.62.0+fabric-1.20.1" = _Qx0t5GVl;
+        "pkg-v0.62.0+forge-1.21.1" = _MR6arUtm;
+        "pkg-v0.62.0+forge-1.20.1" = _HdBsM8Ir;
+        "pkg-v0.62.0+neoforge-1.21.1" = _ici8LA1V;
+        "pkg-v0.63.0+fabric-1.21.1" = _5A2WNNle;
+        "pkg-v0.63.0+fabric-1.20.1" = _yagXlHGp;
+        "pkg-v0.63.0+forge-1.21.1" = _ZXuYLgxV;
+        "pkg-v0.63.0+forge-1.20.1" = _O9Eu96mL;
+        "pkg-v0.63.0+neoforge-1.21.1" = _x8UoraGJ;
+        "default" = _x8UoraGJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "adventureitemnames";

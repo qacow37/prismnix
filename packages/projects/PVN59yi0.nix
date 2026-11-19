@@ -41,6 +41,11 @@ let
             "file" = "deltacalc.jar";
             "hash" = "sha512-T9BXW3Pe/LngsAWM6wcmgFuXzUKuXqDpVZYTn4GWfHro95eTW9/4/9nD6/OjVlcMgWxHN+QNZoDwcniSdRMP+A==";
         };
+        _Rs9qIsS9 = {
+            "id" = "Rs9qIsS9";
+            "file" = "DeltaCalc-3.2.1.jar";
+            "hash" = "sha512-Z1wEI4qw55VZrX29dbUOWhpaLzQJNyPQ/lxzOsPve9GTCa+ohQkAkY1aJgsyDA9Y7Et6m+MktbdnS4nQ5PEMYw==";
+        };
     in {
         "MV4zhH5O" = _MV4zhH5O;
         "PZNn17hP" = _PZNn17hP;
@@ -50,7 +55,8 @@ let
         "klBjCTbr" = _klBjCTbr;
         "dmckdzle" = _dmckdzle;
         "hEeNp3mZ" = _hEeNp3mZ;
-        "fabric-1.21.1" = _hEeNp3mZ;
+        "Rs9qIsS9" = _Rs9qIsS9;
+        "fabric-1.21.1" = _Rs9qIsS9;
         "fabric-1.21.2" = _hEeNp3mZ;
         "fabric-1.21.3" = _hEeNp3mZ;
         "fabric-1.21.4" = _hEeNp3mZ;
@@ -69,7 +75,8 @@ let
         "pkg-3.1.0-deltacalc" = _klBjCTbr;
         "pkg-3.1.1-deltacalc" = _dmckdzle;
         "pkg-3.2.0" = _hEeNp3mZ;
-        "default" = _hEeNp3mZ;
+        "pkg-3.2.1" = _Rs9qIsS9;
+        "default" = _Rs9qIsS9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "delta-calc";

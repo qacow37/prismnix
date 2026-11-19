@@ -121,6 +121,31 @@ let
             "file" = "s1mtraddon-mc1.20.4-1.1-beta1.build.2.jar";
             "hash" = "sha512-e0cqyX98DDzBk0sQ0C4gI3L25mRAMDf+BEpAp2FbZa86KYPboQgZ+aw6UFvqD/CBRk4WyXpSV4xr2jfDO67oIg==";
         };
+        _ZVT0NgE8 = {
+            "id" = "ZVT0NgE8";
+            "file" = "s1mtraddon-mc1.20.1-1.1-beta1.build.4.jar";
+            "hash" = "sha512-3+EMQ28ahizYCMnm3Con01pYMepqwvqCEte/JhkJE1DF4pvzayaneEZuzs2KuiClb67Sw5MF9QFykBs8Krc6yA==";
+        };
+        _DQo6buyA = {
+            "id" = "DQo6buyA";
+            "file" = "s1mtraddon-mc1.20.4-1.1-beta1.build.4.jar";
+            "hash" = "sha512-3fTtitCCQie+MCdrIXnDQQM2nfGnZVuoLa4YU9IVg8wKJpODsKfhkB7QCI/aBi85GLJXYHTsFnG4tve5IKz7iw==";
+        };
+        _6yhw4zlz = {
+            "id" = "6yhw4zlz";
+            "file" = "s1mtraddon-mc1.20.1-1.1-beta1.build.9.jar";
+            "hash" = "sha512-m+umOQ1BjnNbPPc6NokJed2vqaxSK6PFnrIWmyWhemkSD9gTop8U7PJTvCf/E7Sf9VvH6lqlsObrUgW26eMJWg==";
+        };
+        _HmALHe6S = {
+            "id" = "HmALHe6S";
+            "file" = "s1mtraddon-mc1.20.1-1.1-beta1.jar";
+            "hash" = "sha512-2Ve7PihWG9dmw8lcDoYCKY9YWmnSVY+hr6VHUemgmcGZ+bF/BmebnJz9OZm7ZmTlFIbJ4jTiCy1TJS7tlybkfQ==";
+        };
+        _5cPeI1c1 = {
+            "id" = "5cPeI1c1";
+            "file" = "s1mtraddon-mc1.20.4-1.1-beta1.jar";
+            "hash" = "sha512-dHfg1c3LYQOzWiT7A4EILb3Mq8UssU7XeaY458MFi8fEFqF51gzGi/ST3XwdaWQyyblr+tYB8KoVGv9kW9d5Mg==";
+        };
     in {
         "wHXj4V2T" = _wHXj4V2T;
         "qsT3Bp2Q" = _qsT3Bp2Q;
@@ -146,8 +171,13 @@ let
         "TBHij7NC" = _TBHij7NC;
         "AqM0Tsuc" = _AqM0Tsuc;
         "AVJey5rN" = _AVJey5rN;
-        "fabric-1.20.1" = _AqM0Tsuc;
-        "fabric-1.20.4" = _AVJey5rN;
+        "ZVT0NgE8" = _ZVT0NgE8;
+        "DQo6buyA" = _DQo6buyA;
+        "6yhw4zlz" = _6yhw4zlz;
+        "HmALHe6S" = _HmALHe6S;
+        "5cPeI1c1" = _5cPeI1c1;
+        "fabric-1.20.1" = _HmALHe6S;
+        "fabric-1.20.4" = _5cPeI1c1;
         "neoforge-1.21.1" = _Fpem3c8Q;
         "pkg-1.0.0" = _wHXj4V2T;
         "pkg-1.0.2+beta7" = _qsT3Bp2Q;
@@ -173,7 +203,12 @@ let
         "pkg-1.1-beta1.build.1+1.20.4" = _TBHij7NC;
         "pkg-1.1-beta1.build.2" = _AqM0Tsuc;
         "pkg-1.1-beta1.build.2+1.20.4" = _AVJey5rN;
-        "default" = _AVJey5rN;
+        "pkg-1.1-beta1.build.4" = _ZVT0NgE8;
+        "pkg-1.1-beta1.build.4+1.20.4" = _DQo6buyA;
+        "pkg-1.1-beta1.build.9" = _6yhw4zlz;
+        "pkg-1.1-beta1" = _HmALHe6S;
+        "pkg-1.1-beta1+1.20.4" = _5cPeI1c1;
+        "default" = _5cPeI1c1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "s1-mtr-addon";

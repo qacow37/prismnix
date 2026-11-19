@@ -1051,6 +1051,11 @@ let
             "file" = "industrialforegoing-1.21-3.6.39.jar";
             "hash" = "sha512-qKUvDnn+AZ2Ld8xQqLBLNtVTLJL3Xf9RvFKOcPsj62f4qb/TdVHPkWNgJwhvCvTzAQywfxkDsg/DG00Ryz4qAg==";
         };
+        _5AvbNHYU = {
+            "id" = "5AvbNHYU";
+            "file" = "industrial-foregoing-1.20.1-3.5.28.jar";
+            "hash" = "sha512-aKl21zY1bNB8amqfQT//hstuS+bxLZ2lUrW3zUOSnZT4bTccUmWWGWsbE0qd6XpMLGWU8zBSAYaVNF5Pd9RHaQ==";
+        };
     in {
         "uQMXwRUQ" = _uQMXwRUQ;
         "W73vX2vm" = _W73vX2vm;
@@ -1262,6 +1267,7 @@ let
         "os5V2Plx" = _os5V2Plx;
         "5XXYqEMK" = _5XXYqEMK;
         "7otXKx1D" = _7otXKx1D;
+        "5AvbNHYU" = _5AvbNHYU;
         "forge-1.11.2" = _JJ3spJ5m;
         "forge-1.12" = _iBvhcxXv;
         "forge-1.12.1" = _iBvhcxXv;
@@ -1276,7 +1282,7 @@ let
         "forge-1.16.5" = _bXOVIT2t;
         "forge-1.18.2" = _xrK5TYz5;
         "forge-1.19.2" = _fZMC747p;
-        "forge-1.20.1" = _5XXYqEMK;
+        "forge-1.20.1" = _5AvbNHYU;
         "neoforge-1.21" = _7otXKx1D;
         "neoforge-1.21.1" = _7otXKx1D;
         "pkg-0.1.0-BETA" = _uQMXwRUQ;
@@ -1488,7 +1494,8 @@ let
         "pkg-1.21-3.6.38" = _os5V2Plx;
         "pkg-1.20.1-3.5.22" = _5XXYqEMK;
         "pkg-1.21-3.6.39" = _7otXKx1D;
-        "default" = _7otXKx1D;
+        "pkg-1.20.1-3.5.28" = _5AvbNHYU;
+        "default" = _5AvbNHYU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "industrial-foregoing";

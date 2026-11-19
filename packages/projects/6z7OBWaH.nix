@@ -11,13 +11,21 @@ let
             "file" = "waybiggerstacks-1.0.1.jar";
             "hash" = "sha512-a0/ClAsWJdsx92RzijuBXiqI8sgJhN4yJny5rIYFtEWeRsl9iIyblwbIGaWcKuaxIzfTXSmwLNoNEpjPH1nofQ==";
         };
+        _BfNhVb3A = {
+            "id" = "BfNhVb3A";
+            "file" = "waybiggerstacks-1.0.2.jar";
+            "hash" = "sha512-cE16vWu89wLukwIu8S0EEFQTCSelYW+OqRlnfjkmKXpxAyeEM+YuRdcRDi+aYVzVggGLSU0splKlAvoKtsBWWw==";
+        };
     in {
         "VfUXqZip" = _VfUXqZip;
         "v56wXMtg" = _v56wXMtg;
+        "BfNhVb3A" = _BfNhVb3A;
         "fabric-26.2" = _v56wXMtg;
+        "fabric-26.3" = _BfNhVb3A;
         "pkg-1.0.0" = _VfUXqZip;
         "pkg-1.0.1" = _v56wXMtg;
-        "default" = _v56wXMtg;
+        "pkg-1.0.2" = _BfNhVb3A;
+        "default" = _BfNhVb3A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "way-bigger-stacks";

@@ -91,6 +91,16 @@ let
             "file" = "betternightvision-1.0.5+1.8.9-fabric.jar";
             "hash" = "sha512-0iDZFYjiPUfiXCYUDQrohHVdNJbqPP7DLpxWGvZ7CBcV2rRamNFcstEmVl0GyK12qum0K2LAlFuTFcINzhytKQ==";
         };
+        _yRezyV2P = {
+            "id" = "yRezyV2P";
+            "file" = "betternightvision-1.0.7+26.3-fabric.jar";
+            "hash" = "sha512-7BmmUOiRzPDn5626tGmiYqZCCQGM2LFpcW5rCCqwUHwNXb5/KfhsRrZCxk3QJq0P//XOEBewbluabnLv0Ct09Q==";
+        };
+        _7cotWR5F = {
+            "id" = "7cotWR5F";
+            "file" = "betternightvision-1.0.7+26.1-fabric.jar";
+            "hash" = "sha512-+jdcM8K5/zhTRpwZa01/D2VNlNsWa5jig9iDnwRXwpFRfYxy8/UXKEwKG7oTv+5fL7+OL6yji1RuqqwjgLuMTg==";
+        };
     in {
         "rx58K8Ee" = _rx58K8Ee;
         "WLMNCbk8" = _WLMNCbk8;
@@ -110,6 +120,8 @@ let
         "99kKznDa" = _99kKznDa;
         "RwUPIoL8" = _RwUPIoL8;
         "o6Zw4Wkl" = _o6Zw4Wkl;
+        "yRezyV2P" = _yRezyV2P;
+        "7cotWR5F" = _7cotWR5F;
         "forge-1.8.9" = _rx58K8Ee;
         "forge-1.12.2" = _CnhrijR9;
         "fabric-1.19.4" = _xt84Crgt;
@@ -125,10 +137,11 @@ let
         "fabric-1.21.8" = _q3uVhMcQ;
         "fabric-1.21.10" = _q3uVhMcQ;
         "fabric-1.21.11" = _q3uVhMcQ;
-        "fabric-26.1" = _RwUPIoL8;
-        "fabric-26.1.1" = _RwUPIoL8;
-        "fabric-26.1.2" = _RwUPIoL8;
-        "fabric-26.2" = _99kKznDa;
+        "fabric-26.1" = _7cotWR5F;
+        "fabric-26.1.1" = _7cotWR5F;
+        "fabric-26.1.2" = _7cotWR5F;
+        "fabric-26.2" = _yRezyV2P;
+        "fabric-26.3" = _yRezyV2P;
         "neoforge-1.21.1" = _TPxKzpQw;
         "neoforge-1.21.3" = _TPxKzpQw;
         "neoforge-1.21.4" = _TPxKzpQw;
@@ -141,7 +154,8 @@ let
         "pkg-1.0.3" = _RSlSr0Zc;
         "pkg-1.0.4" = _aUL0OTkN;
         "pkg-1.0.5" = _o6Zw4Wkl;
-        "default" = _o6Zw4Wkl;
+        "pkg-1.0.7" = _7cotWR5F;
+        "default" = _7cotWR5F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betternightvision";

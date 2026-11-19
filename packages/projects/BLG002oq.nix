@@ -1136,6 +1136,11 @@ let
             "file" = "BetterCraftables_v8.1.0-pre.1_mc26.3-26.4snap8.zip";
             "hash" = "sha512-AxbTQepjgKjDP63NGO6Erk+4RfTDij1gdUTH1OF6oGkIAHFl4PvKBHQcQNPAT8baNVFhxP/Sz2lNGMgrOnYYqQ==";
         };
+        _MmqMR0HT = {
+            "id" = "MmqMR0HT";
+            "file" = "BetterCraftables_v8.1.0-pre.2_mc26.3-26.4snap9.zip";
+            "hash" = "sha512-h/caawUWlhj+dTzSPVJsGC1JRDLhmOgddDpj8IQr7ZX/hhNIRB2sjfBYsEDNtcxCExbmVBWm/7qIUWwk7x/Oiw==";
+        };
     in {
         "8dyWXSld" = _8dyWXSld;
         "zp2cl57n" = _zp2cl57n;
@@ -1364,6 +1369,7 @@ let
         "F8RnXmMX" = _F8RnXmMX;
         "JQv1gvzc" = _JQv1gvzc;
         "YxdIqob5" = _YxdIqob5;
+        "MmqMR0HT" = _MmqMR0HT;
         "datapack-1.19" = _8dyWXSld;
         "datapack-1.19.1" = _8dyWXSld;
         "datapack-1.19.2" = _8dyWXSld;
@@ -1595,15 +1601,17 @@ let
         "datapack-26.3-rc-1" = _ENalpFwf;
         "datapack-26.3-rc-2" = _ENalpFwf;
         "datapack-26.3-rc-3" = _ENalpFwf;
-        "datapack-26.3" = _YxdIqob5;
+        "datapack-26.3" = _MmqMR0HT;
         "datapack-26.4-snapshot-1" = _JQv1gvzc;
         "datapack-26.4-snapshot-2" = _JQv1gvzc;
         "datapack-26.4-snapshot-3" = _JQv1gvzc;
-        "datapack-26.4-snapshot-4" = _YxdIqob5;
-        "datapack-26.4-snapshot-5" = _YxdIqob5;
-        "datapack-26.4-snapshot-6" = _YxdIqob5;
-        "datapack-26.4-snapshot-7" = _YxdIqob5;
-        "datapack-26.4-snapshot-8" = _YxdIqob5;
+        "datapack-26.4-snapshot-4" = _MmqMR0HT;
+        "datapack-26.4-snapshot-5" = _MmqMR0HT;
+        "datapack-26.4-snapshot-6" = _MmqMR0HT;
+        "datapack-26.4-snapshot-7" = _MmqMR0HT;
+        "datapack-26.4-snapshot-8" = _MmqMR0HT;
+        "datapack-26.4-snapshot-9" = _MmqMR0HT;
+        "datapack-26.4-snapshot-10" = _MmqMR0HT;
         "fabric-1.20" = _gzNwrXUg;
         "fabric-1.20.1" = _gzNwrXUg;
         "fabric-1.20.2" = _52SzIfTy;
@@ -1905,7 +1913,8 @@ let
         "pkg-v8.1.0-beta.4" = _F8RnXmMX;
         "pkg-v8.1.0-beta.5" = _JQv1gvzc;
         "pkg-v8.1.0-pre.1" = _YxdIqob5;
-        "default" = _YxdIqob5;
+        "pkg-v8.1.0-pre.2" = _MmqMR0HT;
+        "default" = _MmqMR0HT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-craftables";

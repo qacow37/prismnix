@@ -131,6 +131,16 @@ let
             "file" = "DungeonRunTracker-1.0.11+26.2.jar";
             "hash" = "sha512-pQpnK4oqDCtLLc1nbGmrOY9xA0ZQZJQkx1ja15lOPkhXA5sHNy24HN1yqI5AkZq8AdI+phJks6PhppcGf5N4RQ==";
         };
+        _qGZdB7zK = {
+            "id" = "qGZdB7zK";
+            "file" = "DungeonRunTracker-1.1.0+26.3.jar";
+            "hash" = "sha512-6+JIeatVKJy5+xdg4rGXFgqJBVQwGQNqYwFm/bZTz0RECsmpJUFEeWh4CRuuF6yfjYDhmlniis3IKWMwdqzp/A==";
+        };
+        _PEBBT91y = {
+            "id" = "PEBBT91y";
+            "file" = "DungeonRunTracker-1.1.0+26.2.jar";
+            "hash" = "sha512-qj98Aze0ySVIh8r8dsZhl53A0THrp4yeFq3xNHHfaZpZ6/Hk35GPmZ+z/51ay3Y3PZkUT72MKeaLdXbgeYA4GQ==";
+        };
     in {
         "InWSDxgf" = _InWSDxgf;
         "xW4XdBRi" = _xW4XdBRi;
@@ -158,9 +168,12 @@ let
         "59SlYlbF" = _59SlYlbF;
         "qs9BmjOn" = _qs9BmjOn;
         "zFfDpU2R" = _zFfDpU2R;
+        "qGZdB7zK" = _qGZdB7zK;
+        "PEBBT91y" = _PEBBT91y;
         "fabric-1.21.11" = _W4JQ3tWp;
         "fabric-26.1.2" = _qs9BmjOn;
-        "fabric-26.2" = _zFfDpU2R;
+        "fabric-26.2" = _PEBBT91y;
+        "fabric-26.3" = _qGZdB7zK;
         "pkg-1.0.0" = _InWSDxgf;
         "pkg-1.0.1" = _xW4XdBRi;
         "pkg-1.0.2+1.21.11" = _PYKrgtSU;
@@ -187,7 +200,9 @@ let
         "pkg-1.0.10+26.2" = _59SlYlbF;
         "pkg-1.0.11+26.1.2" = _qs9BmjOn;
         "pkg-1.0.11+26.2" = _zFfDpU2R;
-        "default" = _zFfDpU2R;
+        "pkg-1.1.0+26.3" = _qGZdB7zK;
+        "pkg-1.1.0+26.2" = _PEBBT91y;
+        "default" = _PEBBT91y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "drt";

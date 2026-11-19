@@ -21,17 +21,24 @@ let
             "file" = "neodymium-btw-0.5.0+lod+BTW3.1.1.jar";
             "hash" = "sha512-Y3HbXDU8h7RfreBE8VjMWW5gRw693xFxyiANY97qshmiUvhlZraXYm/rv31lH9kXadTz439EiCHY5IlSwSM6fw==";
         };
+        _DCk07uun = {
+            "id" = "DCk07uun";
+            "file" = "neodymium-btw-0.5.1+lod+BTW3.1.1.jar";
+            "hash" = "sha512-ZltHpPdrmshFZtVbe7CZ3YbgHnEpIwPg+9A5BTtjhYeiGzobS50rEPzQpZL9x6iep9V++iD1YE0JcqjOT8Vdaw==";
+        };
     in {
         "y9DzkzyM" = _y9DzkzyM;
         "tPQO7TYy" = _tPQO7TYy;
         "jfjwgo3K" = _jfjwgo3K;
         "Xgh8HqMC" = _Xgh8HqMC;
-        "legacy-fabric-1.6.4" = _Xgh8HqMC;
+        "DCk07uun" = _DCk07uun;
+        "legacy-fabric-1.6.4" = _DCk07uun;
         "pkg-0.3.2+BTW3.0.0" = _y9DzkzyM;
         "pkg-0.3.2+BTW3.0.0_Alternative" = _tPQO7TYy;
         "pkg-0.3.3+BTW3.0" = _jfjwgo3K;
         "pkg-0.5.0+LOD+BTW3.1" = _Xgh8HqMC;
-        "default" = _Xgh8HqMC;
+        "pkg-0.5.1+LOD+BTW3.1" = _DCk07uun;
+        "default" = _DCk07uun;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neodymium-btw";

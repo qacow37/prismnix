@@ -141,6 +141,16 @@ let
             "file" = "bountifulbaubles-1.6.5.jar";
             "hash" = "sha512-we+BxwDwxf1bCgoUjQNiCsZDLUIRYoQ3m4loLqlZ9+CE/ngRm/EC0JrhgB/PegCh/K0GzEY9YUdpO6AiD7pA2A==";
         };
+        _mrKb1jK4 = {
+            "id" = "mrKb1jK4";
+            "file" = "bountifulbaubles-1.2.7.jar";
+            "hash" = "sha512-pNtiAhvOiOAYNA4aES+7+c3FQHJ3SNyZSlo4euhzV6GrxOmtcnHdc0O6G1qru8jL6tWzvocjyEWkx41xPKQ0Og==";
+        };
+        _9wq4Sxna = {
+            "id" = "9wq4Sxna";
+            "file" = "bountifulbaubles-1.6.6.jar";
+            "hash" = "sha512-zS29jfQX514H4eB4SMrTeVOEKGYr1pWWchvDxy8n5niOL9SUvWKsxwy/tHSIVPmzNAI775gxETPAJB0uLQJz7A==";
+        };
     in {
         "cWzt5Avm" = _cWzt5Avm;
         "PeB5bkhO" = _PeB5bkhO;
@@ -170,8 +180,10 @@ let
         "G0EZkgMj" = _G0EZkgMj;
         "Btl7Gg6M" = _Btl7Gg6M;
         "DuHybhCh" = _DuHybhCh;
-        "forge-1.20.1" = _DuHybhCh;
-        "neoforge-1.21.1" = _Btl7Gg6M;
+        "mrKb1jK4" = _mrKb1jK4;
+        "9wq4Sxna" = _9wq4Sxna;
+        "forge-1.20.1" = _9wq4Sxna;
+        "neoforge-1.21.1" = _mrKb1jK4;
         "pkg-1.4.4" = _cWzt5Avm;
         "pkg-1.1.5" = _PeB5bkhO;
         "pkg-1.1.6" = _uhfIXv2o;
@@ -200,7 +212,9 @@ let
         "pkg-1.6.4" = _G0EZkgMj;
         "pkg-1.2.6" = _Btl7Gg6M;
         "pkg-1.6.5" = _DuHybhCh;
-        "default" = _DuHybhCh;
+        "pkg-1.2.7" = _mrKb1jK4;
+        "pkg-1.6.6" = _9wq4Sxna;
+        "default" = _9wq4Sxna;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bountifulbaublesreforked";

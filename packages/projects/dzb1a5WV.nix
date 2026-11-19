@@ -376,6 +376,11 @@ let
             "file" = "CreateDragonsPlus-1.11.9.jar";
             "hash" = "sha512-bJ/nss0KNDHPsbXHF/orAxU8dQ9T5Mw5SiKQRHvFKEiJFiewEx9ubbyUfm8MYY5BbTSUL53ZY6Al+a0YwBVxag==";
         };
+        _dvnIbsev = {
+            "id" = "dvnIbsev";
+            "file" = "create-dragons-plus-fabric-1.20.1-1.11.9.jar";
+            "hash" = "sha512-RXwgT82I5uJn6hYqvOpqALdW7OtXJDXuaFaXQ2OwBHtMgZIAHdceKoC7y6IhS5c7ll2VqhZiWp2pZvSX+AFLjg==";
+        };
     in {
         "urJAft2w" = _urJAft2w;
         "f4QdxRKA" = _f4QdxRKA;
@@ -452,10 +457,11 @@ let
         "G8QQJPtF" = _G8QQJPtF;
         "b0u9vk8C" = _b0u9vk8C;
         "eMalpJtP" = _eMalpJtP;
+        "dvnIbsev" = _dvnIbsev;
         "neoforge-1.21.1" = _b0u9vk8C;
         "neoforge-1.20.1" = _OThXqYUr;
         "forge-1.20.1" = _eMalpJtP;
-        "fabric-1.20.1" = _3OLCjra2;
+        "fabric-1.20.1" = _dvnIbsev;
         "fabric-1.21.11" = _SSM9RCjh;
         "fabric-26.1.2" = _i8h6RHHY;
         "pkg-1.0.0" = _urJAft2w;
@@ -524,8 +530,8 @@ let
         "pkg-1.11.7-f" = _keRSbPUW;
         "pkg-1.11.8" = _680pf5xW;
         "pkg-1.11.8b" = _G8QQJPtF;
-        "pkg-1.11.9" = _eMalpJtP;
-        "default" = _eMalpJtP;
+        "pkg-1.11.9" = _dvnIbsev;
+        "default" = _dvnIbsev;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-dragons-plus";

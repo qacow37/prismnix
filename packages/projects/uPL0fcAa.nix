@@ -106,6 +106,11 @@ let
             "file" = "coffee-variants-1.2.0+26.3.jar";
             "hash" = "sha512-pNPDaeeL6R90OCoUrmfImPZ1dbbmKEQXyM2wAV7guvDGd4vhoV1y1TbFmewfSedaJJes3DKsraXy9zRdk1IYcQ==";
         };
+        _67fvTleh = {
+            "id" = "67fvTleh";
+            "file" = "coffeevariants-1.2.0+26.3.jar";
+            "hash" = "sha512-wQ6UWRhaf8eZwgmqoAdPrU4wg/P9iDy2zGKPq5zyfWUDJhYKbFX722paP/2xAdXY+NBc5Y85lPuNIF/e6JqpBw==";
+        };
     in {
         "qHqkuqXv" = _qHqkuqXv;
         "D67EsgzG" = _D67EsgzG;
@@ -128,6 +133,7 @@ let
         "uiv69lpl" = _uiv69lpl;
         "wJZvnT3X" = _wJZvnT3X;
         "act8rFoK" = _act8rFoK;
+        "67fvTleh" = _67fvTleh;
         "fabric-1.21.3" = _qHqkuqXv;
         "fabric-1.21.4" = _GNHqwmDQ;
         "fabric-1.21.5" = _Zy5mx1BQ;
@@ -154,12 +160,13 @@ let
         "neoforge-26.1.1" = _FmRs0bW9;
         "neoforge-26.1.2" = _FmRs0bW9;
         "neoforge-26.2" = _wJZvnT3X;
+        "neoforge-26.3" = _67fvTleh;
         "pkg-1.0.0" = _wJZvnT3X;
         "pkg-1.1.0" = _9fQL5YIe;
         "pkg-1.2.0" = _PfNXhsnO;
         "pkg-1.2.0+26.2" = _uiv69lpl;
-        "pkg-1.2.0+26.3" = _act8rFoK;
-        "default" = _act8rFoK;
+        "pkg-1.2.0+26.3" = _67fvTleh;
+        "default" = _67fvTleh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "coffee-variants";

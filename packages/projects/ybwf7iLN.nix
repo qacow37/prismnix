@@ -141,6 +141,16 @@ let
             "file" = "hierophantics-forge-1.4.0.jar";
             "hash" = "sha512-TphzxDs5Y6sJK7bJySYcNx1XIFHrzwbW4QJtT0518orxOYfXJloBIWWdsLISoP7U6S55Zvm+v5IsNz4+wutslw==";
         };
+        _kGkdH0MJ = {
+            "id" = "kGkdH0MJ";
+            "file" = "hierophantics-forge-1.4.1.jar";
+            "hash" = "sha512-+TIRUuptw6dVqgaLPK8o48yOofF5FldBnAolUZFDlysH+e7BIZxStlTAheX3k78ENTQseNxzlT1u/gB0smxsKw==";
+        };
+        _hpDoUUVf = {
+            "id" = "hpDoUUVf";
+            "file" = "hierophantics-fabric-1.4.1.jar";
+            "hash" = "sha512-eZRMmUosGkFGmivMJEPU5e5wBY0gfcVCdisBTEzfN0GEL40f6qde6fSZpTo36JeKpQS0ojQTpVEMUWq09DxSnQ==";
+        };
     in {
         "yuKyM864" = _yuKyM864;
         "YiDWa8TA" = _YiDWa8TA;
@@ -170,8 +180,10 @@ let
         "KpuLRQQ5" = _KpuLRQQ5;
         "Su9MCaIW" = _Su9MCaIW;
         "B28zRkV6" = _B28zRkV6;
-        "fabric-1.20.1" = _Su9MCaIW;
-        "forge-1.20.1" = _B28zRkV6;
+        "kGkdH0MJ" = _kGkdH0MJ;
+        "hpDoUUVf" = _hpDoUUVf;
+        "fabric-1.20.1" = _hpDoUUVf;
+        "forge-1.20.1" = _kGkdH0MJ;
         "pkg-1.0.0" = _yuKyM864;
         "pkg-1.0.1" = _YiDWa8TA;
         "pkg-1.0.2" = _i0aualpD;
@@ -189,7 +201,8 @@ let
         "pkg-1.3.6" = _jijjelY9;
         "pkg-1.3.7" = _KpuLRQQ5;
         "pkg-1.4.0" = _B28zRkV6;
-        "default" = _B28zRkV6;
+        "pkg-1.4.1" = _hpDoUUVf;
+        "default" = _hpDoUUVf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hierophantics";

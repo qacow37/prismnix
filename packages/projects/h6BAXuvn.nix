@@ -251,6 +251,11 @@ let
             "file" = "fxntstorage-1.3.8+mc-1.21.1-neoforge.jar";
             "hash" = "sha512-dN+PAP8diye77YpN1oZcGt0F+yP6hFlhyXSdXtiDn1KcA1JE0x4R0CgF+FHFHb0ji4xAhvFJ+VGQkwwfJHudUA==";
         };
+        _6LuJGX9g = {
+            "id" = "6LuJGX9g";
+            "file" = "fxntstorage-1.3.9+mc-1.21.1-neoforge.jar";
+            "hash" = "sha512-mCMOJCXKsTsA25bAVoeWmTneeekgOg4z57j+mwV33Z6Q6X28nmtNImnkbDO9pRfgD+rJ9g0e2nH2mnuFoc2J/A==";
+        };
     in {
         "Y6yCBmsS" = _Y6yCBmsS;
         "rJjsqmnN" = _rJjsqmnN;
@@ -302,7 +307,8 @@ let
         "jhKSNezR" = _jhKSNezR;
         "sfqk5eWk" = _sfqk5eWk;
         "cfugvAt6" = _cfugvAt6;
-        "neoforge-1.21.1" = _cfugvAt6;
+        "6LuJGX9g" = _6LuJGX9g;
+        "neoforge-1.21.1" = _6LuJGX9g;
         "forge-1.20.1" = _oSsfZYxj;
         "pkg-1.0.0" = _rJjsqmnN;
         "pkg-1.0.1" = _umQdbPMZ;
@@ -335,7 +341,8 @@ let
         "pkg-1.3.6" = _jhKSNezR;
         "pkg-1.3.7" = _sfqk5eWk;
         "pkg-1.3.8" = _cfugvAt6;
-        "default" = _cfugvAt6;
+        "pkg-1.3.9" = _6LuJGX9g;
+        "default" = _6LuJGX9g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-storage-neo-forge";

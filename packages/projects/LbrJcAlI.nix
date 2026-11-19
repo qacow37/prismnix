@@ -466,6 +466,16 @@ let
             "file" = "mobbattle-26.3-2.8.1-neoforge.jar";
             "hash" = "sha512-rc13cNqzZfBS7TWbjMQ//hubPR3z85pzzCDuR30nBRbW4xuc4WjcBZwK3WNa2tsjUnmaav9HFFzvQHnfV6Re2A==";
         };
+        _GgjYGiuT = {
+            "id" = "GgjYGiuT";
+            "file" = "mobbattle-26.3-2.8.2-fabric.jar";
+            "hash" = "sha512-vUIwXMbTLdeAIKJ4ELXLrOP1IYpEQKHyztl3IgT/+zw70R4ty1/yKCTWhcvqrPteMUeRxh9YzZuNCrlaQvxPoA==";
+        };
+        _jLUSgTd2 = {
+            "id" = "jLUSgTd2";
+            "file" = "mobbattle-26.3-2.8.2-neoforge.jar";
+            "hash" = "sha512-NZFlS/WLaW9H+x/qPdjusxHPG5EJC+4dCK+Tys5l3F4CHvEuiToz/IsJ5efsmI8wWNGR5qUqHZB0VcKxzpanwA==";
+        };
     in {
         "nlJC1nqe" = _nlJC1nqe;
         "9WVMay3J" = _9WVMay3J;
@@ -560,6 +570,8 @@ let
         "yRWVnTaf" = _yRWVnTaf;
         "kzzIgRfb" = _kzzIgRfb;
         "3qi47h8a" = _3qi47h8a;
+        "GgjYGiuT" = _GgjYGiuT;
+        "jLUSgTd2" = _jLUSgTd2;
         "fabric-1.18.2" = _8jsAYc0l;
         "fabric-1.19.4" = _TzqKG5Mn;
         "fabric-1.20.1" = _JDjglwQu;
@@ -568,7 +580,7 @@ let
         "fabric-1.21.1" = _yRWVnTaf;
         "fabric-1.21.5" = _tiMtRpwO;
         "fabric-26.1.2" = _hPB6p0Bj;
-        "fabric-26.3" = _kzzIgRfb;
+        "fabric-26.3" = _GgjYGiuT;
         "forge-1.18.2" = _3zbwxT4m;
         "forge-1.19.4" = _wOV6DfBI;
         "forge-1.20.1" = _JnhxJb0O;
@@ -577,7 +589,7 @@ let
         "neoforge-1.21.1" = _LYSelox1;
         "neoforge-1.21.5" = _rSKIryHM;
         "neoforge-26.1.2" = _1AcKwodn;
-        "neoforge-26.3" = _3qi47h8a;
+        "neoforge-26.3" = _jLUSgTd2;
         "pkg-1.18.2-2.4.4" = _9WVMay3J;
         "pkg-1.19.4-2.4.4" = _B18FvddX;
         "pkg-1.20.1-2.4.4" = _YbH5tq3l;
@@ -651,7 +663,9 @@ let
         "pkg-1.21.1-2.8.1-fabric" = _yRWVnTaf;
         "pkg-26.3-2.8.1-fabric" = _kzzIgRfb;
         "pkg-26.3-2.8.1-neoforge" = _3qi47h8a;
-        "default" = _3qi47h8a;
+        "pkg-26.3-2.8.2-fabric" = _GgjYGiuT;
+        "pkg-26.3-2.8.2-neoforge" = _jLUSgTd2;
+        "default" = _jLUSgTd2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mob-battle-mod";

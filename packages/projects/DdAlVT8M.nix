@@ -6,9 +6,15 @@ let
             "file" = "aeroencasedpipe-1.0.7.jar";
             "hash" = "sha512-1TAEwH3Ad442nYBA8Ny6XMsSb1LK+fCi38S1VYVghdROckIwfE0ObtpM/FurA/LxfPabl4E5f2NJhufveovwkA==";
         };
+        _sTW1HNzB = {
+            "id" = "sTW1HNzB";
+            "file" = "aeroencasedpipe-1.0.8.jar";
+            "hash" = "sha512-4L25RomR1v1jE4kkdvrzn4ZILsMUDEwOl7f4aiLoDEv1vWfTrdfgCKbIdYyiwWOJTk1YFI3p9HCVmfMFDKCmqw==";
+        };
     in {
         "pKFEfjEB" = _pKFEfjEB;
-        "neoforge-1.21.1" = _pKFEfjEB;
+        "sTW1HNzB" = _sTW1HNzB;
+        "neoforge-1.21.1" = _sTW1HNzB;
         "neoforge-1.21.2" = _pKFEfjEB;
         "neoforge-1.21.3" = _pKFEfjEB;
         "neoforge-1.21.4" = _pKFEfjEB;
@@ -20,7 +26,8 @@ let
         "neoforge-1.21.10" = _pKFEfjEB;
         "neoforge-1.21.11" = _pKFEfjEB;
         "pkg-1.0.7" = _pKFEfjEB;
-        "default" = _pKFEfjEB;
+        "pkg-1.0.8" = _sTW1HNzB;
+        "default" = _sTW1HNzB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-aeronautics-encased-fluid-pipes";

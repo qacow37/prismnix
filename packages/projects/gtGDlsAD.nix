@@ -871,6 +871,11 @@ let
             "file" = "modulargolems-3.1.44.jar";
             "hash" = "sha512-9Hm71WkOyM9x+1JHiJ45mgvUChG8G/HQw8hBHv38pl5bjtVpPsm8yAu3oXAW2rP+JUwWuKkJBYsIUFWQJ0n6Lg==";
         };
+        _vTQpTF6S = {
+            "id" = "vTQpTF6S";
+            "file" = "modulargolems-2.7.6.jar";
+            "hash" = "sha512-ct4MUrtZNWaQJjg18fDxGt4G2ZOUyGDzjrykrBvCv4Szu/01d11A5quanvaAKi77LhSVxxDDvZ2F96IcJYpHcw==";
+        };
     in {
         "dc4kYsmc" = _dc4kYsmc;
         "g6KF90zn" = _g6KF90zn;
@@ -1046,10 +1051,11 @@ let
         "QWvQwuTO" = _QWvQwuTO;
         "kz3bsiYD" = _kz3bsiYD;
         "lcKGfUcI" = _lcKGfUcI;
+        "vTQpTF6S" = _vTQpTF6S;
         "forge-1.19.2" = _WwHMaYn2;
         "forge-1.20" = _kTYxiUdx;
-        "forge-1.20.1" = _kz3bsiYD;
-        "neoforge-1.20.1" = _kz3bsiYD;
+        "forge-1.20.1" = _vTQpTF6S;
+        "neoforge-1.20.1" = _vTQpTF6S;
         "neoforge-1.21" = _wOQN0L3r;
         "neoforge-1.21.1" = _lcKGfUcI;
         "neoforge-26.1.2" = _po93hUme;
@@ -1227,7 +1233,8 @@ let
         "pkg-2.7.4" = _QWvQwuTO;
         "pkg-2.7.5" = _kz3bsiYD;
         "pkg-3.1.44" = _lcKGfUcI;
-        "default" = _lcKGfUcI;
+        "pkg-2.7.6" = _vTQpTF6S;
+        "default" = _vTQpTF6S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modular-golems";

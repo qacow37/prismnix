@@ -861,6 +861,11 @@ let
             "file" = "create-enchantment-industry-2.5.4b.jar";
             "hash" = "sha512-+BktpIzPgYIbtcZmYgHghGEah3/D6hiAMaoVxm7ucKTF5khOWiC63eg7zjAJHlB+zoEWihGYT0BqaD9AevD3Wg==";
         };
+        _mtiLMpfe = {
+            "id" = "mtiLMpfe";
+            "file" = "create-enchantment-industry-fabric-1.20.1-2.5.4.jar";
+            "hash" = "sha512-ErbtdsQwaf3/JnbHL4pqDR6qtlnstUTLgD8HePftbw5VD5CEFMe2WUHwzO2oUZmlh9uAzMaTcLhpY9Lq5O2z7Q==";
+        };
     in {
         "zewHKrfA" = _zewHKrfA;
         "WKK6qhS3" = _WKK6qhS3;
@@ -1034,12 +1039,13 @@ let
         "HM5htsU7" = _HM5htsU7;
         "L6VSDdC4" = _L6VSDdC4;
         "fs3kihCQ" = _fs3kihCQ;
+        "mtiLMpfe" = _mtiLMpfe;
         "forge-1.18.2" = _tEKYosCi;
         "forge-1.19.2" = _KA5Gf4rg;
         "forge-1.20.1" = _fs3kihCQ;
         "neoforge-1.20.1" = _rYvEK00i;
         "neoforge-1.21.1" = _L6VSDdC4;
-        "fabric-1.20.1" = _Or9rfT7c;
+        "fabric-1.20.1" = _mtiLMpfe;
         "fabric-1.21.11" = _QXhX9xZw;
         "fabric-26.1.2" = _na3558i9;
         "pkg-1.1.5" = _zewHKrfA;
@@ -1152,9 +1158,9 @@ let
         "pkg-2.5.2-f" = _cDJ7EbT5;
         "pkg-2.5.2-g" = _Or9rfT7c;
         "pkg-2.5.3b" = _ASyjJTVL;
-        "pkg-2.5.4" = _HM5htsU7;
+        "pkg-2.5.4" = _mtiLMpfe;
         "pkg-2.5.4b" = _fs3kihCQ;
-        "default" = _fs3kihCQ;
+        "default" = _mtiLMpfe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-enchantment-industry";

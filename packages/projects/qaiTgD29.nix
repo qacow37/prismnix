@@ -36,6 +36,11 @@ let
             "file" = "Xray Ultimate 1.20.2 v5.0.0.zip";
             "hash" = "sha512-ZwNMJ4zEiVzUkBVE5f9h6GyKgDBxoMJ432yHSgYxi3kBACr22BT2/ek8qTI25zNaqKGRKqAnRoaZ5sw/IE0SfA==";
         };
+        _AOQwbcAC = {
+            "id" = "AOQwbcAC";
+            "file" = "Xray Ultimate 26.X v5.4.0.zip";
+            "hash" = "sha512-yzGOK0kMIPfBqCqB7Z1MT6XO9I5i8GzK+YXSCpVOe3d07APpO5qWTE5ryC3Ip1wyD5IkgUqimL8FfbvtHrGd1g==";
+        };
     in {
         "knPxjKp4" = _knPxjKp4;
         "qumOgfgl" = _qumOgfgl;
@@ -44,6 +49,7 @@ let
         "hTE2Lfiy" = _hTE2Lfiy;
         "m1gBEtk7" = _m1gBEtk7;
         "HzzipaGS" = _HzzipaGS;
+        "AOQwbcAC" = _AOQwbcAC;
         "minecraft-1.21" = _HzzipaGS;
         "minecraft-1.21.1" = _HzzipaGS;
         "minecraft-1.21.2" = _m1gBEtk7;
@@ -60,7 +66,7 @@ let
         "minecraft-26.1.1" = _m1gBEtk7;
         "minecraft-26.1.2" = _m1gBEtk7;
         "minecraft-26.2" = _m1gBEtk7;
-        "minecraft-26.3" = _m1gBEtk7;
+        "minecraft-26.3" = _AOQwbcAC;
         "minecraft-1.15" = _HzzipaGS;
         "minecraft-1.15.1" = _HzzipaGS;
         "minecraft-1.15.2" = _HzzipaGS;
@@ -124,13 +130,13 @@ let
         "minecraft-24w19a" = _HzzipaGS;
         "minecraft-24w19b" = _HzzipaGS;
         "minecraft-24w20a" = _HzzipaGS;
-        "minecraft-26.4-snapshot-1" = _hTE2Lfiy;
-        "minecraft-26.4-snapshot-2" = _hTE2Lfiy;
-        "minecraft-26.4-snapshot-3" = _hTE2Lfiy;
-        "minecraft-26.4-snapshot-4" = _hTE2Lfiy;
-        "minecraft-26.4-snapshot-5" = _hTE2Lfiy;
-        "minecraft-26.4-snapshot-6" = _hTE2Lfiy;
-        "minecraft-26.4-snapshot-7" = _hTE2Lfiy;
+        "minecraft-26.4-snapshot-1" = _AOQwbcAC;
+        "minecraft-26.4-snapshot-2" = _AOQwbcAC;
+        "minecraft-26.4-snapshot-3" = _AOQwbcAC;
+        "minecraft-26.4-snapshot-4" = _AOQwbcAC;
+        "minecraft-26.4-snapshot-5" = _AOQwbcAC;
+        "minecraft-26.4-snapshot-6" = _AOQwbcAC;
+        "minecraft-26.4-snapshot-7" = _AOQwbcAC;
         "minecraft-24w33a" = _m1gBEtk7;
         "minecraft-24w34a" = _m1gBEtk7;
         "minecraft-24w35a" = _m1gBEtk7;
@@ -194,11 +200,14 @@ let
         "minecraft-26.1-snapshot-3" = _m1gBEtk7;
         "minecraft-26.1-snapshot-2" = _m1gBEtk7;
         "minecraft-26.1-snapshot-1" = _m1gBEtk7;
+        "minecraft-26.4-snapshot-10" = _AOQwbcAC;
+        "minecraft-26.4-snapshot-9" = _AOQwbcAC;
+        "minecraft-26.4-snapshot-8" = _AOQwbcAC;
         "pkg-1.0" = _7LGnzTur;
         "pkg-1.0.1" = _qumOgfgl;
-        "pkg-1.1.1" = _m1gBEtk7;
+        "pkg-1.1.1" = _AOQwbcAC;
         "pkg-1.1.0" = _HzzipaGS;
-        "default" = _HzzipaGS;
+        "default" = _AOQwbcAC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fake-xray-ultimate";

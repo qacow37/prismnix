@@ -181,6 +181,11 @@ let
             "file" = "btwr-shared-library-0.9.jar";
             "hash" = "sha512-TdYuc+swtscQIQuvorqcovPdbk6/6hKndbU8ZoCnOGvDpLUyt166iaisNMwGAF31msVjSQRZjtngb3PQZl/U6w==";
         };
+        _n4ehCcy7 = {
+            "id" = "n4ehCcy7";
+            "file" = "btwr-shared-library-0.9.1.jar";
+            "hash" = "sha512-MareRlgYr91vSbmSxCH4ofIJxID3odovVe/wF9qDAOD1H6PLZQQQSEhJTkj+XVfCfiYV6ppi/BrowErIut2wYw==";
+        };
     in {
         "RCwcFYNf" = _RCwcFYNf;
         "vVZxT6rA" = _vVZxT6rA;
@@ -218,7 +223,8 @@ let
         "H7RXs6JV" = _H7RXs6JV;
         "jje11t8Q" = _jje11t8Q;
         "iIUhiY2z" = _iIUhiY2z;
-        "fabric-1.21.1" = _iIUhiY2z;
+        "n4ehCcy7" = _n4ehCcy7;
+        "fabric-1.21.1" = _n4ehCcy7;
         "pkg-0.29-SNAPSHOT" = _RCwcFYNf;
         "pkg-0.32-SNAPSHOT" = _vVZxT6rA;
         "pkg-0.34-SNAPSHOT" = _MJOTjcf7;
@@ -255,7 +261,8 @@ let
         "pkg-0.8.5" = _H7RXs6JV;
         "pkg-0.8.6" = _jje11t8Q;
         "pkg-0.9" = _iIUhiY2z;
-        "default" = _iIUhiY2z;
+        "pkg-0.9.1" = _n4ehCcy7;
+        "default" = _n4ehCcy7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "btwr-shared-library";

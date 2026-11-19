@@ -281,6 +281,11 @@ let
             "file" = "extendedae_plus-1.6.4.jar";
             "hash" = "sha512-KVgymUb0VRLw8LSlpNpB1jlo2ZKxS4BHVQZGPDEGAi6ixmXM85ZSpGp19rUOPmBdpjjxnyYg29+DL5GRBAUdQQ==";
         };
+        _Bm8LwH2q = {
+            "id" = "Bm8LwH2q";
+            "file" = "extendedae_plus-1.6.4.2.jar";
+            "hash" = "sha512-Y4w4mOmCton8pWpthN19YIFyItt9nwnTUAduDWHcfpa5O6UfnTmidvEdeNszuaigHflgEz3w531tRUU2U3bomw==";
+        };
     in {
         "bXiRO9uz" = _bXiRO9uz;
         "wV2W56pB" = _wV2W56pB;
@@ -338,8 +343,9 @@ let
         "574YRdTM" = _574YRdTM;
         "rfBfT1Uq" = _rfBfT1Uq;
         "auasuDQR" = _auasuDQR;
+        "Bm8LwH2q" = _Bm8LwH2q;
         "forge-1.20.1" = _auasuDQR;
-        "neoforge-1.21.1" = _rfBfT1Uq;
+        "neoforge-1.21.1" = _Bm8LwH2q;
         "neoforge-26.1.2" = _W9WXH7F7;
         "pkg-1.0.0" = _bXiRO9uz;
         "pkg-1.1.3" = _wV2W56pB;
@@ -388,7 +394,8 @@ let
         "pkg-1.6.3" = _W9WXH7F7;
         "pkg-1.6.4" = _auasuDQR;
         "pkg-1.6.4.1" = _rfBfT1Uq;
-        "default" = _auasuDQR;
+        "pkg-1.6.4.2" = _Bm8LwH2q;
+        "default" = _Bm8LwH2q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extendedae-plus";

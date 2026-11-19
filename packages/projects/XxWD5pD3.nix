@@ -1806,6 +1806,21 @@ let
             "file" = "appliedenergistics2-19.2.19.jar";
             "hash" = "sha512-NjheucQeGx60YyysKX+bVWD51WwGFiLpnqLh+3T2/zua0J2eMyVH0wo8dVn9RETulTam4a4Sr1fIqIJpMqCbKQ==";
         };
+        _KuBWeko9 = {
+            "id" = "KuBWeko9";
+            "file" = "appliedenergistics2-26.3.2-alpha.jar";
+            "hash" = "sha512-2LRmRbT7xmHbnmzEgATAPM3EnTHKiOLOyWDUHe6bvxyMjvnGluhrsRq7cU/RwkPc7qjhrFlxRFNNnPh8jAUAqQ==";
+        };
+        _mpyl4AMr = {
+            "id" = "mpyl4AMr";
+            "file" = "appliedenergistics2-26.1.14-beta.jar";
+            "hash" = "sha512-hr39GURxFTE05b0FkT7zMZxZf/mk6MrzV7n8pa0Ymc7iNdyPDl7eoqhl6t0Ma+idj/IhCAgUrzJLZNGWQOQ+6w==";
+        };
+        _7Ac6mXbf = {
+            "id" = "7Ac6mXbf";
+            "file" = "appliedenergistics2-19.2.20.jar";
+            "hash" = "sha512-XKq4PU9BNNAWHyIweq9kLGuol1ZJCiFwmGsjbvypzisqqVobqC1IMidwI2m8PKx6qk5F/siFBZ+LXaTw0wIFuQ==";
+        };
     in {
         "OqkivEmV" = _OqkivEmV;
         "DZZbZnbH" = _DZZbZnbH;
@@ -2168,6 +2183,9 @@ let
         "hRMIJ07u" = _hRMIJ07u;
         "QRpVsqDI" = _QRpVsqDI;
         "DxZ2waV0" = _DxZ2waV0;
+        "KuBWeko9" = _KuBWeko9;
+        "mpyl4AMr" = _mpyl4AMr;
+        "7Ac6mXbf" = _7Ac6mXbf;
         "forge-1.18.1" = _LmtoNQhm;
         "forge-1.18.2" = _qBbqV301;
         "forge-1.19" = _aR5tGCcS;
@@ -2189,11 +2207,11 @@ let
         "neoforge-1.20.5" = _tjB3sQ3W;
         "neoforge-1.20.6" = _L3u3Zbmr;
         "neoforge-1.21" = _8hwSVt90;
-        "neoforge-1.21.1" = _DxZ2waV0;
+        "neoforge-1.21.1" = _7Ac6mXbf;
         "neoforge-26.1-snapshot-1" = _85JEIVdn;
-        "neoforge-26.1.2" = _nVSxZcom;
+        "neoforge-26.1.2" = _mpyl4AMr;
         "neoforge-26.2" = _XC5aMAdH;
-        "neoforge-26.3" = _PDPQ4WfW;
+        "neoforge-26.3" = _KuBWeko9;
         "pkg-forge-10.0.0-alpha.6" = _OqkivEmV;
         "pkg-fabric-10.0.0-alpha.8" = _DZZbZnbH;
         "pkg-forge-10.0.0-alpha.7" = _cLm6eoS7;
@@ -2522,7 +2540,10 @@ let
         "pkg-26.3.1-alpha" = _PDPQ4WfW;
         "pkg-15.4.12" = _QRpVsqDI;
         "pkg-19.2.19" = _DxZ2waV0;
-        "default" = _DxZ2waV0;
+        "pkg-26.3.2-alpha" = _KuBWeko9;
+        "pkg-26.1.14-beta" = _mpyl4AMr;
+        "pkg-19.2.20" = _7Ac6mXbf;
+        "default" = _7Ac6mXbf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2";

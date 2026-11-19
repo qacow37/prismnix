@@ -16901,6 +16901,16 @@ let
             "file" = "wynntils-4.2.17-neoforge+MC-1.21.11.jar";
             "hash" = "sha512-78EiAZ2tFEr5tcQurnb+DCOiP9RKb+yoHglDyRL1aqMDCA6JzOesD8GydvxXBEwjAdeBYTpewBofvpMENehjOA==";
         };
+        _Hps2w3Ar = {
+            "id" = "Hps2w3Ar";
+            "file" = "wynntils-4.2.18-neoforge+MC-1.21.11.jar";
+            "hash" = "sha512-+hvY/wmL2Sr/ZW3IhCtr3KlIn3xEFsiZpWcqdIs6O708zEdR4xuVFjPYKd3+iRuBiU3YETQ2Mt1E6bdKzyLvaA==";
+        };
+        _rFyKV858 = {
+            "id" = "rFyKV858";
+            "file" = "wynntils-4.2.18-fabric+MC-1.21.11.jar";
+            "hash" = "sha512-YccXPHlGtOrY/iX/L1FFgxkJvr9BpZqwb8j/0xOhqukq+TwERB7+dYcRajxMWH2LMSGv3NUTHQlLZKwgh5dneQ==";
+        };
     in {
         "bqlWhLUY" = _bqlWhLUY;
         "EhyKGtAM" = _EhyKGtAM;
@@ -20282,6 +20292,8 @@ let
         "qdw8rKjJ" = _qdw8rKjJ;
         "YPpgpMI5" = _YPpgpMI5;
         "QrZNnkYG" = _QrZNnkYG;
+        "Hps2w3Ar" = _Hps2w3Ar;
+        "rFyKV858" = _rFyKV858;
         "forge-1.12.2" = _42Q2H4Qu;
         "forge-1.20.2" = _ww1waI8Y;
         "forge-1.19.3" = _3cYPEina;
@@ -20290,13 +20302,13 @@ let
         "fabric-1.21" = _NcbIp00x;
         "fabric-1.21.1" = _NcbIp00x;
         "fabric-1.21.4" = _XJt5jHxs;
-        "fabric-1.21.11" = _YPpgpMI5;
+        "fabric-1.21.11" = _rFyKV858;
         "fabric-1.19.3" = _wTEVmC4n;
         "fabric-1.19.4" = _qdw8rKjJ;
         "neoforge-1.21" = _QJMkNR1I;
         "neoforge-1.21.1" = _QJMkNR1I;
         "neoforge-1.21.4" = _nLGKpG7x;
-        "neoforge-1.21.11" = _QrZNnkYG;
+        "neoforge-1.21.11" = _Hps2w3Ar;
         "quilt-1.19.3" = _ZFh2eC0A;
         "quilt-1.19.4" = _Py0LtOlc;
         "pkg-v1.12.0" = _bqlWhLUY;
@@ -21582,7 +21594,8 @@ let
         "pkg-v0.0.3-alpha.401" = _DZTWMzRi;
         "pkg-v0.0.3-alpha.402" = _qdw8rKjJ;
         "pkg-v4.2.17" = _QrZNnkYG;
-        "default" = _QrZNnkYG;
+        "pkg-v4.2.18" = _rFyKV858;
+        "default" = _rFyKV858;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wynntils";

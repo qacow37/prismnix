@@ -181,6 +181,11 @@ let
             "file" = "visuality-3.0.0.jar";
             "hash" = "sha512-DCa/kbw02LDkRuysZoOsc86PeNzI2yUNbyjR+/SzuWJ6EVa7zmvURSGRRS1xZu0fUmOO0wtA9lQ311CPaHepxA==";
         };
+        _LedDF3on = {
+            "id" = "LedDF3on";
+            "file" = "visuality-3.0.0.jar";
+            "hash" = "sha512-YNNv8dD5yd3Pk1gugQd8GDnotar7jGr4pINCXbk/DQ5FuTtHVlRfhLZTcub69Qh/SkTnbNyLtdiPnSKXA2/5Dg==";
+        };
     in {
         "rAVdtpDn" = _rAVdtpDn;
         "E1TEIsPu" = _E1TEIsPu;
@@ -218,6 +223,7 @@ let
         "WX1OIBr6" = _WX1OIBr6;
         "mouK8ZkV" = _mouK8ZkV;
         "9dXZfZ5O" = _9dXZfZ5O;
+        "LedDF3on" = _LedDF3on;
         "forge-1.19" = _H3rcn5c0;
         "forge-1.19.1" = _H3rcn5c0;
         "forge-1.19.2" = _H3rcn5c0;
@@ -243,6 +249,7 @@ let
         "neoforge-26.1.2" = _WX1OIBr6;
         "neoforge-26.2" = _mouK8ZkV;
         "neoforge-1.21.11" = _9dXZfZ5O;
+        "neoforge-26.3" = _LedDF3on;
         "pkg-0.6" = _E1TEIsPu;
         "pkg-1.0" = _V86m03RC;
         "pkg-2.0" = _PUk1VPy8;
@@ -256,8 +263,8 @@ let
         "pkg-2.1.0" = _ZBidwV02;
         "pkg-2.1.1" = _Twlr5hJn;
         "pkg-2.2.0" = _XuoohJcp;
-        "pkg-3.0.0" = _9dXZfZ5O;
-        "default" = _9dXZfZ5O;
+        "pkg-3.0.0" = _LedDF3on;
+        "default" = _LedDF3on;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visuality-forge";

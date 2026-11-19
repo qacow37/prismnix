@@ -76,6 +76,16 @@ let
             "file" = "Mandalorian Armor.zip";
             "hash" = "sha512-0lTvmCts2yp7SKW8uZMAzTGd0yYPneJXsyrQv+RiorhP+ffI0g8G4DZsW3a0md2G0gBhi6G6kGvbMetYxj/Q3Q==";
         };
+        _j2GMrNfs = {
+            "id" = "j2GMrNfs";
+            "file" = "Mandalorian Armor.zip";
+            "hash" = "sha512-ux/rUBdHN99RfcmFS4y9XUMY2voSyI/0Jny2YgEdBjS+EjEAhkmySm/uLjLgTDmMJpqwkZkdl3BAypqGUsYBAQ==";
+        };
+        _astiqEkz = {
+            "id" = "astiqEkz";
+            "file" = "Mandalorian Armor.zip";
+            "hash" = "sha512-j7X057d2zmoCphn4Xuw75umZp7eSxXhJsLlNtieUvhLVnrssVCLuaZ7zWiphBhefecT1F/o/WvBlWT4uxWR36A==";
+        };
     in {
         "gFV1p6x3" = _gFV1p6x3;
         "L6tTkDus" = _L6tTkDus;
@@ -92,6 +102,8 @@ let
         "sRJMyO8X" = _sRJMyO8X;
         "x7QVBOTW" = _x7QVBOTW;
         "bJJEuZE8" = _bJJEuZE8;
+        "j2GMrNfs" = _j2GMrNfs;
+        "astiqEkz" = _astiqEkz;
         "minecraft-1.20" = _L6tTkDus;
         "minecraft-1.20.1" = _L6tTkDus;
         "minecraft-1.20.2" = _IUGbHlVd;
@@ -114,12 +126,14 @@ let
         "minecraft-26.1" = _x7QVBOTW;
         "minecraft-26.1.1" = _x7QVBOTW;
         "minecraft-26.1.2" = _x7QVBOTW;
-        "minecraft-26.2" = _bJJEuZE8;
+        "minecraft-26.2" = _j2GMrNfs;
+        "minecraft-26.3" = _astiqEkz;
         "pkg-1.2" = _gFV1p6x3;
         "pkg-1.3" = _tDprSPb8;
         "pkg-1.4" = _PD9usFJ7;
-        "pkg-1.5" = _bJJEuZE8;
-        "default" = _bJJEuZE8;
+        "pkg-1.5" = _j2GMrNfs;
+        "pkg-1.6" = _astiqEkz;
+        "default" = _astiqEkz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mandalorian-armor";

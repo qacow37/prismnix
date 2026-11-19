@@ -96,6 +96,11 @@ let
             "file" = "odyssey-lite-11.0.0+26.3.jar";
             "hash" = "sha512-zQ4G508E+VA8bGZ80iQAmLLlUvPV8bzZA7b4nDZ6/xpwMaTyv8GkSTVXaNfGxsHNWYY6e5fiyLZEY94msspOPQ==";
         };
+        _3jcHO5qT = {
+            "id" = "3jcHO5qT";
+            "file" = "odyssey-lite-12.0.0-beta+26.4.jar";
+            "hash" = "sha512-zMFrIfvr3uTfuTFBxsxU/ovtWMSsz5rN4toB7ZbJ5b+mXQ+DkylJVUHxEggQVJfFcFhRf13ku26Xs799DilsGg==";
+        };
     in {
         "t32Tz7JQ" = _t32Tz7JQ;
         "SXCnWGSm" = _SXCnWGSm;
@@ -116,6 +121,7 @@ let
         "iM0q9PuY" = _iM0q9PuY;
         "7ivGIG2M" = _7ivGIG2M;
         "qbsSLkAS" = _qbsSLkAS;
+        "3jcHO5qT" = _3jcHO5qT;
         "fabric-1.20" = _jTlxCa6J;
         "fabric-1.20.1" = _jTlxCa6J;
         "fabric-1.20.2" = _jTlxCa6J;
@@ -141,6 +147,7 @@ let
         "fabric-26.2-rc-2" = _iM0q9PuY;
         "fabric-26.2" = _7ivGIG2M;
         "fabric-26.3" = _qbsSLkAS;
+        "fabric-26.4-snapshot-10" = _3jcHO5qT;
         "pkg-1.0.0+1.20" = _t32Tz7JQ;
         "pkg-2.0.0+1.20.5" = _SXCnWGSm;
         "pkg-3.0.0+1.21" = _dpz4kzhi;
@@ -160,7 +167,8 @@ let
         "pkg-10.0.0-beta+26.2-rc.2" = _iM0q9PuY;
         "pkg-10.0.0+26.2" = _7ivGIG2M;
         "pkg-11.0.0+26.3" = _qbsSLkAS;
-        "default" = _qbsSLkAS;
+        "pkg-12.0.0-beta+26.4" = _3jcHO5qT;
+        "default" = _3jcHO5qT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "odyssey-lite";

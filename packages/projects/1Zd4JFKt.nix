@@ -81,6 +81,16 @@ let
             "file" = "blessingofpandora-1.7.3fix.jar";
             "hash" = "sha512-tEzY2lqmbHoIulo5dVgEpVeRbdyaF1Zj672q8IhDnHjCP4rBacYE62vQ/TO9thFiiZOfu1u4WOOQXKt4VUgHxQ==";
         };
+        _zM4afYL2 = {
+            "id" = "zM4afYL2";
+            "file" = "blessingofpandora-1.7.5.jar";
+            "hash" = "sha512-m2teFMecEqYagVcbSMunpXD6kQTnkg1T2t6c89XJbIVqo295TCkkaZ+CgWRBzHvSFgo8ygRt3yO9nFXuPztB7A==";
+        };
+        _7cbmBLR2 = {
+            "id" = "7cbmBLR2";
+            "file" = "blessingofpandora-neoforge-1.21.1-1.7.5.jar";
+            "hash" = "sha512-yShr9bpMNyjiImsLwxsqpO5DFUO97ead9EuoJkRStWKTrv69vh39NfMs854JyyLFLbkUabxIylpRrTgwYpHFyw==";
+        };
     in {
         "iEEvJ8nD" = _iEEvJ8nD;
         "1X9PgEse" = _1X9PgEse;
@@ -98,7 +108,10 @@ let
         "frH2sBea" = _frH2sBea;
         "7qC3lJrB" = _7qC3lJrB;
         "y8lU0xp0" = _y8lU0xp0;
-        "forge-1.20.1" = _y8lU0xp0;
+        "zM4afYL2" = _zM4afYL2;
+        "7cbmBLR2" = _7cbmBLR2;
+        "forge-1.20.1" = _zM4afYL2;
+        "neoforge-1.21.1" = _7cbmBLR2;
         "pkg-0.1.0" = _iEEvJ8nD;
         "pkg-0.1.1" = _1X9PgEse;
         "pkg-0.1.2" = _Hkpz3DLf;
@@ -115,7 +128,8 @@ let
         "pkg-1.7.1" = _frH2sBea;
         "pkg-1.7.3" = _7qC3lJrB;
         "pkg-1.7.3fix" = _y8lU0xp0;
-        "default" = _y8lU0xp0;
+        "pkg-1.7.5" = _7cbmBLR2;
+        "default" = _7cbmBLR2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blessingofpandora";

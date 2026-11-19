@@ -1,5 +1,21 @@
 [
     {
+        "minecraft" = "26.4-snapshot-10";
+        "fabric" = "0.20.1";
+        "quilt" = "0.31.0-beta.6";
+        "forge" = null;
+        "neoforge" = null;
+        "liteloader" = null;
+    }
+    {
+        "minecraft" = "26.4-snapshot-9";
+        "fabric" = "0.20.1";
+        "quilt" = "0.31.0-beta.6";
+        "forge" = null;
+        "neoforge" = null;
+        "liteloader" = null;
+    }
+    {
         "minecraft" = "26.4-snapshot-8";
         "fabric" = "0.20.1";
         "quilt" = "0.31.0-beta.6";
@@ -67,8 +83,8 @@
         "minecraft" = "26.3";
         "fabric" = "0.20.1";
         "quilt" = "0.31.0-beta.6";
-        "forge" = "66.1.8";
-        "neoforge" = "26.3.0.110";
+        "forge" = "66.1.9";
+        "neoforge" = "26.3.0.113";
         "liteloader" = null;
     }
     {

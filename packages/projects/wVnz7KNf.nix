@@ -26,19 +26,26 @@ let
             "file" = "sablecleanup-0.3.0.jar";
             "hash" = "sha512-69YGctDt7DrgfwmnJVRmMLRB3G69gtTkRp9H5lcfryFQZZMotQnJCdF1DeKb6occP0GckQGwd5d2oIBzq736vw==";
         };
+        _jSPWQAww = {
+            "id" = "jSPWQAww";
+            "file" = "Sable_Cleanup_0.4.0.jar";
+            "hash" = "sha512-1vt/4lo9IOjEuVlBqtC9LmAAOjorahqDR8UiaMvvofIGYWcvZPtr/2Tjwm4tmH3rlmBz7K1v3WkqV9m5vdVzRw==";
+        };
     in {
         "DFDEJJcK" = _DFDEJJcK;
         "i3ESGvjl" = _i3ESGvjl;
         "kMQl4Jgm" = _kMQl4Jgm;
         "7XIi334i" = _7XIi334i;
         "uRRVItgd" = _uRRVItgd;
-        "neoforge-1.21.1" = _uRRVItgd;
+        "jSPWQAww" = _jSPWQAww;
+        "neoforge-1.21.1" = _jSPWQAww;
         "pkg-0.2.0" = _DFDEJJcK;
         "pkg-0.2.1" = _i3ESGvjl;
         "pkg-0.2.2" = _kMQl4Jgm;
         "pkg-0.2.3" = _7XIi334i;
         "pkg-0.3.0" = _uRRVItgd;
-        "default" = _uRRVItgd;
+        "pkg-0.4.0" = _jSPWQAww;
+        "default" = _jSPWQAww;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sable-cleanup";

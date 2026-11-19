@@ -1411,6 +1411,21 @@ let
             "file" = "avoidlib+26.4-2.2-experimental-1.jar";
             "hash" = "sha512-NLRAKdGjolX/8ECwlIKpJmIcYwPYEzkViHotqph8MQY7YlMs9JCaNOXVgYwO3USizuKrhPEoI0R/1daEuiimpg==";
         };
+        _YZtsaZS3 = {
+            "id" = "YZtsaZS3";
+            "file" = "avoidlib+26.4-2.2-experimental-2.jar";
+            "hash" = "sha512-zJEDFolR1AD52VRneOjtKqNrmbOB0MsJVPobANNvsoszLwmEoQeF13w6Obmwj9mIv7Q1jCDtQFLA7ApzbaTNXQ==";
+        };
+        _TiIEcEPx = {
+            "id" = "TiIEcEPx";
+            "file" = "avoidlib+26.4-2.2-experimental-3.jar";
+            "hash" = "sha512-FksOMwXudJj4ZUFZue/a1kJoMxTaGyqthkcrz8XPi44NDwkSfudhBAY0YZtaEKMwVhjGi49OpZuVrXNHlV2Ibw==";
+        };
+        _iJZRSKS9 = {
+            "id" = "iJZRSKS9";
+            "file" = "avoidlib-2.2-experimental-3.jar";
+            "hash" = "sha512-JIqnODZW43qo9inyRiPdP4lrsQQmno01Hb/Z56Vp7X7+2IHa55ezwala9EzCGxz/sGT5HocjDvBE69udDDt1Sg==";
+        };
     in {
         "MNN5qN02" = _MNN5qN02;
         "6Erv7P5r" = _6Erv7P5r;
@@ -1694,7 +1709,10 @@ let
         "yTWF6eVO" = _yTWF6eVO;
         "D3cgAF3n" = _D3cgAF3n;
         "j4lDeXmX" = _j4lDeXmX;
-        "fabric-1.21.11" = _D3cgAF3n;
+        "YZtsaZS3" = _YZtsaZS3;
+        "TiIEcEPx" = _TiIEcEPx;
+        "iJZRSKS9" = _iJZRSKS9;
+        "fabric-1.21.11" = _iJZRSKS9;
         "fabric-26.1" = _nunYBhjT;
         "fabric-26.1.1" = _nunYBhjT;
         "fabric-26.1.2" = _nunYBhjT;
@@ -1719,6 +1737,8 @@ let
         "fabric-26.4-snapshot-6" = _3E6YhL4r;
         "fabric-26.4-snapshot-7" = _yTWF6eVO;
         "fabric-26.4-snapshot-8" = _j4lDeXmX;
+        "fabric-26.4-snapshot-9" = _YZtsaZS3;
+        "fabric-26.4-snapshot-10" = _TiIEcEPx;
         "neoforge-26.1" = _nunYBhjT;
         "neoforge-26.1.1" = _nunYBhjT;
         "neoforge-26.1.2" = _nunYBhjT;
@@ -1778,7 +1798,9 @@ let
         "pkg-2.1-candidate-1" = _B2gjIPin;
         "pkg-2.1" = _yTWF6eVO;
         "pkg-2.2-experimental-1" = _j4lDeXmX;
-        "default" = _j4lDeXmX;
+        "pkg-2.2-experimental-2" = _YZtsaZS3;
+        "pkg-2.2-experimental-3" = _iJZRSKS9;
+        "default" = _iJZRSKS9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "avoid";

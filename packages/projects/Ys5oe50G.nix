@@ -21,18 +21,25 @@ let
             "file" = "espiritual-magic-1.1.2+Fabric26.3.jar";
             "hash" = "sha512-33JUHig7PSytUMamMwrzlSjwKOlbQ2jE5vjZEVGM45EJaWAfJoIR4Jrx5DrtYSShTZHkKuA3suYeYQECfzC1ig==";
         };
+        _nIY7hH2N = {
+            "id" = "nIY7hH2N";
+            "file" = "espiritual-magic-1.1.3+Fabric26.3.jar";
+            "hash" = "sha512-MMBys97Ak3K341y/aFM0nidniiyhPxTDTSMmcC2ni9qy2Hy2p23H6DfbHFQSVnPTJrxcv9pvPpUXXr0Yb2SIlQ==";
+        };
     in {
         "8DDVDvYZ" = _8DDVDvYZ;
         "yowCKrRK" = _yowCKrRK;
         "4IEyIv5L" = _4IEyIv5L;
         "cY2l9SRC" = _cY2l9SRC;
+        "nIY7hH2N" = _nIY7hH2N;
         "fabric-26.1.2" = _8DDVDvYZ;
-        "fabric-26.3" = _cY2l9SRC;
+        "fabric-26.3" = _nIY7hH2N;
         "pkg-1.0.0" = _8DDVDvYZ;
         "pkg-1.1.0" = _yowCKrRK;
         "pkg-1.1.1" = _4IEyIv5L;
         "pkg-1.1.2" = _cY2l9SRC;
-        "default" = _cY2l9SRC;
+        "pkg-1.1.3+Fabric26.3" = _nIY7hH2N;
+        "default" = _nIY7hH2N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spiritual-magic";

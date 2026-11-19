@@ -1281,6 +1281,91 @@ let
             "file" = "customgun-26.11.35.1-neoforge-26.3.jar";
             "hash" = "sha512-7rQYV7ua3WDOyvbLSe+42QWLlDwyuYRGntuqaEnTrkw9up26cbXxS6/laRBhUFQ8UW1r7k/nYL8qn5PL/SOWHw==";
         };
+        _VswoWJPg = {
+            "id" = "VswoWJPg";
+            "file" = "customgun-26.11.36-forge-1.20.1.jar";
+            "hash" = "sha512-jiZpN99UMesJbAYGy/lbYlqSgu1gqZqI0lRA6Ya6Wegrqb5x1RgTBn2hJWh+ObvHz3bN4qZ7MZZlUeG0QLLl4g==";
+        };
+        _tySfQ9zf = {
+            "id" = "tySfQ9zf";
+            "file" = "customgun-26.11.36-forge-1.20.2.jar";
+            "hash" = "sha512-4bqSHgyuWj1JkoGjiH2tn+2PMi+TSTH0VCJyzZbrBchYbTl0bUHFZUbO7Z/GDy+Es5Kc8ZZIOb2hLclyVw+b1w==";
+        };
+        _sWGA1gG0 = {
+            "id" = "sWGA1gG0";
+            "file" = "customgun-26.11.36-neoforge-1.20.2.jar";
+            "hash" = "sha512-OwtNlBuXlMqHoSc0NJn7p7Xh+4pxlytOxc63c4ITaODGjOTJYcLH6WmZa4pBFj8TLTEFzL+C0kKLrTNQ0IwxIw==";
+        };
+        _EsgQYgKf = {
+            "id" = "EsgQYgKf";
+            "file" = "customgun-26.11.36-forge-1.20.4.jar";
+            "hash" = "sha512-nSGWrRJaSWgcMBg8xwev67MckObcFm+3Y5smDM3vpFKrXVaUl030OJxWPLuOeF3YePVTtUkxNuAJhmitZxfu1w==";
+        };
+        _Vya5Lzgb = {
+            "id" = "Vya5Lzgb";
+            "file" = "customgun-26.11.36-neoforge-1.20.4.jar";
+            "hash" = "sha512-5X4Z8Y1zXzbANxa9LHCJDCEZZQwpJIE44ao2zBO+9iNWuTZ7u1/MO0mbnI/GPGYRiiH7ZEM5M9XV0Cs2dRH+hQ==";
+        };
+        _ejXlOUXt = {
+            "id" = "ejXlOUXt";
+            "file" = "customgun-26.11.36-forge-1.21.1.jar";
+            "hash" = "sha512-xpxy2TjmoZ4+gqt6V3N7YqGcBAeEoUua/xuLPxLurZfWaZCKFclJFUM9wckUmYJ3Fa+8Y0G5vAImfEVrqaP+VQ==";
+        };
+        _gLtMv43Q = {
+            "id" = "gLtMv43Q";
+            "file" = "customgun-26.11.36-neoforge-1.21.1.jar";
+            "hash" = "sha512-tvqSkd96t8kJxfHReRb2rMeoYPGraPWPNJIQlUM90vovDQ0WwjKUY7HeZSllkcnwh2OBL6jPYDnh1NbjOuWGFQ==";
+        };
+        _JomBQgQq = {
+            "id" = "JomBQgQq";
+            "file" = "customgun-26.11.36-neoforge-1.21.4.jar";
+            "hash" = "sha512-3ImhwYX5I5GHp98YbdQCFnnpqEM0u0BGAz8V7gQMo0DD0v4WVo6cnS/PZYv4RfvvGXaobKIY5WitxA3VypDyaw==";
+        };
+        _OD0TdvyZ = {
+            "id" = "OD0TdvyZ";
+            "file" = "customgun-26.11.36-neoforge-1.21.6.jar";
+            "hash" = "sha512-rdd/YSQEVP242Se9rX/vARHw+dxXxMUbsnMkbGyTtXyDZbo4JpUJ7o30eP4ZnREGYMzuvyrTbYiMKR2aVKHpPg==";
+        };
+        _KVrg7vS4 = {
+            "id" = "KVrg7vS4";
+            "file" = "customgun-26.11.36-neoforge-1.21.10.jar";
+            "hash" = "sha512-/oU8BEb8gn/luAPUhs2F0fBQjdHJBULe2R/Ij4CbQBHjRiw8jDJPUrV6hGOW+sMkVFd3CnDZZOZbNfgpm+9t5Q==";
+        };
+        _NbmQ5FpA = {
+            "id" = "NbmQ5FpA";
+            "file" = "customgun-26.11.36-neoforge-1.21.11.jar";
+            "hash" = "sha512-MMFhl/kfIwJB5++KYVrsgz5/8KzTzLofYNDtfyyNBy4pCrxwWP34hL/cLfk1xpMfLeJ8PuUmrGby2tkh8wNy/Q==";
+        };
+        _DBm1dwVT = {
+            "id" = "DBm1dwVT";
+            "file" = "customgun-26.11.36-neoforge-26.1.x.jar";
+            "hash" = "sha512-JO9ud9yUkNw5PVnQiWWLfCpNAjV0m3XJHlFPzjllJoC0eHrwhBEl/q6y5aXA6kpZblH5byl2sszxCJZihTxNlw==";
+        };
+        _90BKxa2u = {
+            "id" = "90BKxa2u";
+            "file" = "customgun-26.11.36-neoforge-26.1.2.jar";
+            "hash" = "sha512-saK9H7BOBmcWEXi7TczyBr3P+n+i+kQ/yWL2hnGuZVpgiMlotK341Awm0tOOU1YB2K/EczRFK9j0wIHUdrD5Gw==";
+        };
+        _NFDyFHzR = {
+            "id" = "NFDyFHzR";
+            "file" = "customgun-26.11.36-neoforge-26.2.jar";
+            "hash" = "sha512-Iwhb9jAD9E/LLQBff2U2iztPk4fdFczx96uUx8culRATB3jLZRiXXsXJGjEXbnzGS3kzVa2ibT2j9UjkxLhC9Q==";
+        };
+        _M8jnkoW3 = {
+            "id" = "M8jnkoW3";
+            "file" = "customgun-26.11.36-neoforge-26.3.jar";
+            "hash" = "sha512-XGtkvlDPmY9sxcVbPZVjIJ50wYOfNDbZXLulvcCmLTXjKp8sLb+/onQvprIWZZo50xj6fN6QOu/m1hA5Q2TwGA==";
+        };
+        _mPyBE8Rk = {
+            "id" = "mPyBE8Rk";
+            "file" = "customgun-26.11.36.1-neoforge-26.2.jar";
+            "hash" = "sha512-+pl3uvmuX9fgvhNES9uFpktZhMPwgl3mBXZ2o0wdPvQRQscM475EhDnifY5ng9l+fL/41yflUL6IymkJJUaZsw==";
+        };
+        _siojrKMd = {
+            "id" = "siojrKMd";
+            "file" = "customgun-26.11.36.1-neoforge-26.3.jar";
+            "hash" = "sha512-3zEx2u7PM6E58vUH8k0qv2t5dYlg0tQvkhgoqyNsLLDWo7ceh0Yqf+C3q8Ffz0Ihwr1SyKeHldQDMudTMxrQtQ==";
+        };
     in {
         "ldsXtOG2" = _ldsXtOG2;
         "624d8wIx" = _624d8wIx;
@@ -1538,22 +1623,39 @@ let
         "jrJX4JBl" = _jrJX4JBl;
         "kSGrNRw2" = _kSGrNRw2;
         "HpL9gUCj" = _HpL9gUCj;
-        "forge-1.20.1" = _jrJX4JBl;
-        "forge-1.20.2" = _75WcYwQF;
-        "forge-1.20.4" = _l547hkdm;
-        "forge-1.21.1" = _WOE1NRQp;
-        "neoforge-1.20.2" = _m8zR68Ro;
-        "neoforge-1.20.4" = _5fbVGPiP;
-        "neoforge-1.21.1" = _kSGrNRw2;
-        "neoforge-1.21.4" = _F5hxxKpE;
-        "neoforge-1.21.6" = _3ewXeio8;
-        "neoforge-1.21.10" = _bWwarkT3;
-        "neoforge-1.21.11" = _7KDuPgTm;
-        "neoforge-26.1" = _YzmNe41z;
-        "neoforge-26.1.1" = _YzmNe41z;
-        "neoforge-26.1.2" = _aRCZ4h2X;
-        "neoforge-26.2" = _KUfPFIUW;
-        "neoforge-26.3" = _HpL9gUCj;
+        "VswoWJPg" = _VswoWJPg;
+        "tySfQ9zf" = _tySfQ9zf;
+        "sWGA1gG0" = _sWGA1gG0;
+        "EsgQYgKf" = _EsgQYgKf;
+        "Vya5Lzgb" = _Vya5Lzgb;
+        "ejXlOUXt" = _ejXlOUXt;
+        "gLtMv43Q" = _gLtMv43Q;
+        "JomBQgQq" = _JomBQgQq;
+        "OD0TdvyZ" = _OD0TdvyZ;
+        "KVrg7vS4" = _KVrg7vS4;
+        "NbmQ5FpA" = _NbmQ5FpA;
+        "DBm1dwVT" = _DBm1dwVT;
+        "90BKxa2u" = _90BKxa2u;
+        "NFDyFHzR" = _NFDyFHzR;
+        "M8jnkoW3" = _M8jnkoW3;
+        "mPyBE8Rk" = _mPyBE8Rk;
+        "siojrKMd" = _siojrKMd;
+        "forge-1.20.1" = _VswoWJPg;
+        "forge-1.20.2" = _tySfQ9zf;
+        "forge-1.20.4" = _EsgQYgKf;
+        "forge-1.21.1" = _ejXlOUXt;
+        "neoforge-1.20.2" = _sWGA1gG0;
+        "neoforge-1.20.4" = _Vya5Lzgb;
+        "neoforge-1.21.1" = _gLtMv43Q;
+        "neoforge-1.21.4" = _JomBQgQq;
+        "neoforge-1.21.6" = _OD0TdvyZ;
+        "neoforge-1.21.10" = _KVrg7vS4;
+        "neoforge-1.21.11" = _NbmQ5FpA;
+        "neoforge-26.1" = _DBm1dwVT;
+        "neoforge-26.1.1" = _DBm1dwVT;
+        "neoforge-26.1.2" = _90BKxa2u;
+        "neoforge-26.2" = _mPyBE8Rk;
+        "neoforge-26.3" = _siojrKMd;
         "pkg-0.0.5" = _FhFLef3n;
         "pkg-0.0.6" = _VtrrNUCe;
         "pkg-0.0.7" = _yXuaUFCV;
@@ -1591,7 +1693,9 @@ let
         "pkg-26.10.34.1" = _zrYjvyFL;
         "pkg-26.11.35" = _WoFcg0WA;
         "pkg-26.11.35.1" = _HpL9gUCj;
-        "default" = _HpL9gUCj;
+        "pkg-26.11.36" = _M8jnkoW3;
+        "pkg-26.11.36.1" = _siojrKMd;
+        "default" = _siojrKMd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-gun-continued";

@@ -431,6 +431,11 @@ let
             "file" = "More Tools and Armor-11.3+26.4-snaphsot-3.jar";
             "hash" = "sha512-ydM9DJ7UWjSTGCkZ/Tvmah0Psqio5zewBJDjekCfreB+AGsbkSg0bSTMvJSljxoVrfD8AGv4SxSNeA4B+qTgeQ==";
         };
+        _q2sygNDp = {
+            "id" = "q2sygNDp";
+            "file" = "More Tools and Armor-11.3+26.4-snaphsot-10.jar";
+            "hash" = "sha512-R9hOuUb4hvdo9AlyKWgQc7WvEBOnUzGrZI6mZptjdTOnZZ5OtXK9bRil+z0OJaEPeFp+itLXrQjn9N+gmfPNZQ==";
+        };
     in {
         "xTbQb7zP" = _xTbQb7zP;
         "oVe5BGs3" = _oVe5BGs3;
@@ -518,6 +523,7 @@ let
         "9T0AzKZm" = _9T0AzKZm;
         "7dvd85Iy" = _7dvd85Iy;
         "9tbB4Bb7" = _9tbB4Bb7;
+        "q2sygNDp" = _q2sygNDp;
         "fabric-1.21.1" = _phgnAYbr;
         "fabric-1.21" = _WpMASVYe;
         "fabric-1.20.5" = _ncJUpJGZ;
@@ -552,6 +558,8 @@ let
         "fabric-26.4-snapshot-1" = _9T0AzKZm;
         "fabric-26.4-snapshot-2" = _7dvd85Iy;
         "fabric-26.4-snapshot-3" = _9tbB4Bb7;
+        "fabric-26.4-snapshot-10" = _q2sygNDp;
+        "fabric-26.4-snapshot-9" = _q2sygNDp;
         "quilt-1.21.1" = _phgnAYbr;
         "quilt-1.21" = _WpMASVYe;
         "quilt-1.20.5" = _ncJUpJGZ;
@@ -663,7 +671,8 @@ let
         "pkg-11.3+26.4-snapshot-1" = _9T0AzKZm;
         "pkg-11.3+26.4-snapshot-2" = _7dvd85Iy;
         "pkg-11.3+26.4-snapshpt-3" = _9tbB4Bb7;
-        "default" = _9tbB4Bb7;
+        "pkg-11.3+26.4-snapshot-10" = _q2sygNDp;
+        "default" = _q2sygNDp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more_tools_and_armor";

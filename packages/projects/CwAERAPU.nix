@@ -31,6 +31,16 @@ let
             "file" = "OreGrids-v2.0.0-mc1.21.9+.zip";
             "hash" = "sha512-tsplZAfQJHtA5KR9VX/TRr+ccmc4AsPPh7m8WbLF8OC9UOHVdyM7Fh/GSdZIVvZp2q85+d8HViUGgtCcxtvL3w==";
         };
+        _L8fDjhjl = {
+            "id" = "L8fDjhjl";
+            "file" = "OreGrids-v2.1.0-mc1.21.9+.zip";
+            "hash" = "sha512-tpf1VqMoe2lhy03sfKgsJ8UjnsZLxd5SaTpUXYUhYl3qaHPDknmGaiwWJkgCQjHk0Oe0tOI1b/hT/CkxEEcpKA==";
+        };
+        _SJdOKpcT = {
+            "id" = "SJdOKpcT";
+            "file" = "OreGrids-v2.1.0-mc1.21-1.21.8.zip";
+            "hash" = "sha512-wcm31vIxrBVy5dv9n94fcuXlgUYM3Uo/i/5kdj1/wMoIBdALi0QDZ1MTWtsr0mpQiX7ovbyf5Dgnwl/mebKqaQ==";
+        };
     in {
         "PKwAPdhS" = _PKwAPdhS;
         "I5PKCUHX" = _I5PKCUHX;
@@ -38,6 +48,8 @@ let
         "eGsPndUC" = _eGsPndUC;
         "QVhHEOvy" = _QVhHEOvy;
         "NBQ4wUz3" = _NBQ4wUz3;
+        "L8fDjhjl" = _L8fDjhjl;
+        "SJdOKpcT" = _SJdOKpcT;
         "minecraft-1.7.2" = _QVhHEOvy;
         "minecraft-1.7.3" = _QVhHEOvy;
         "minecraft-1.7.4" = _QVhHEOvy;
@@ -69,18 +81,18 @@ let
         "minecraft-1.20.4" = _QVhHEOvy;
         "minecraft-1.20.5" = _QVhHEOvy;
         "minecraft-1.20.6" = _QVhHEOvy;
-        "minecraft-1.21" = _QVhHEOvy;
-        "minecraft-1.21.1" = _QVhHEOvy;
-        "minecraft-1.21.2" = _QVhHEOvy;
-        "minecraft-1.21.3" = _QVhHEOvy;
-        "minecraft-1.21.4" = _QVhHEOvy;
-        "minecraft-1.21.5" = _QVhHEOvy;
-        "minecraft-1.21.6" = _QVhHEOvy;
-        "minecraft-1.21.7" = _QVhHEOvy;
-        "minecraft-1.21.8" = _QVhHEOvy;
-        "minecraft-1.21.9" = _NBQ4wUz3;
-        "minecraft-1.21.10" = _NBQ4wUz3;
-        "minecraft-1.21.11" = _NBQ4wUz3;
+        "minecraft-1.21" = _SJdOKpcT;
+        "minecraft-1.21.1" = _SJdOKpcT;
+        "minecraft-1.21.2" = _SJdOKpcT;
+        "minecraft-1.21.3" = _SJdOKpcT;
+        "minecraft-1.21.4" = _SJdOKpcT;
+        "minecraft-1.21.5" = _SJdOKpcT;
+        "minecraft-1.21.6" = _SJdOKpcT;
+        "minecraft-1.21.7" = _SJdOKpcT;
+        "minecraft-1.21.8" = _SJdOKpcT;
+        "minecraft-1.21.9" = _L8fDjhjl;
+        "minecraft-1.21.10" = _L8fDjhjl;
+        "minecraft-1.21.11" = _L8fDjhjl;
         "minecraft-1.8" = _QVhHEOvy;
         "minecraft-1.8.1" = _QVhHEOvy;
         "minecraft-1.8.2" = _QVhHEOvy;
@@ -117,18 +129,20 @@ let
         "minecraft-1.16.1" = _QVhHEOvy;
         "minecraft-1.17" = _QVhHEOvy;
         "minecraft-1.17.1" = _QVhHEOvy;
-        "minecraft-26.1" = _NBQ4wUz3;
-        "minecraft-26.1.1" = _NBQ4wUz3;
-        "minecraft-26.1.2" = _NBQ4wUz3;
-        "minecraft-26.2" = _NBQ4wUz3;
-        "minecraft-26.3" = _NBQ4wUz3;
+        "minecraft-26.1" = _L8fDjhjl;
+        "minecraft-26.1.1" = _L8fDjhjl;
+        "minecraft-26.1.2" = _L8fDjhjl;
+        "minecraft-26.2" = _L8fDjhjl;
+        "minecraft-26.3" = _L8fDjhjl;
         "pkg-1.7.10-1" = _PKwAPdhS;
         "pkg-1.12.2-1" = _I5PKCUHX;
         "pkg-1.16.5-1" = _fjjrMJSo;
         "pkg-1.18.2-1" = _eGsPndUC;
         "pkg-vanilla-1" = _QVhHEOvy;
         "pkg-2.0.0+mc1.21.9" = _NBQ4wUz3;
-        "default" = _NBQ4wUz3;
+        "pkg-2.1.0+mc1.21.9+" = _L8fDjhjl;
+        "pkg-2.1.0+mc1.21-1.21.8" = _SJdOKpcT;
+        "default" = _SJdOKpcT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ore-grids";

@@ -531,6 +531,26 @@ let
             "file" = "saturation_plus-1.4.0-1.19.jar";
             "hash" = "sha512-WlJ/BU1c2wRIBWJqcvl3H1JDLMxtVT8MiYRP0FY8q8gpYviB34m5sGX3J9KhA1T+Y5DL0BBw4ox7DpVrTA7uUQ==";
         };
+        _zpW0meo1 = {
+            "id" = "zpW0meo1";
+            "file" = "saturation_plus-1.4.0-1.20.jar";
+            "hash" = "sha512-uoQac7+jrNbW0mQshFNTI3nXzdaGr+RMT63/uxSdWHCQsvphnvRULq11mC0uVCnvWajt1DapOgDnBl34MSWhTQ==";
+        };
+        _CC7sdDpb = {
+            "id" = "CC7sdDpb";
+            "file" = "saturation_plus-1.4.0-1.20.2.jar";
+            "hash" = "sha512-+4PRMvQ1Owoz939DxttB7uUS2MwVr4WzqJKWiNGg+mHeUbKLXDGLyzWDR7Uer+VfHIOja+jgGb6G1/PUWIqgNQ==";
+        };
+        _9HYa2f58 = {
+            "id" = "9HYa2f58";
+            "file" = "saturation_plus-1.4.0-1.20.5.jar";
+            "hash" = "sha512-P7LfbTp+T2F7/3pDOJlMHOU7UPeOdPsXf783pTF9iJal16aBpZqzXLMsZTu+LyrxcwT9RmRAYEkMOzdMDdCkaw==";
+        };
+        _iKthKUB2 = {
+            "id" = "iKthKUB2";
+            "file" = "saturation_plus-1.4.0-1.21.jar";
+            "hash" = "sha512-JcyFiXXCK9VbfrT+dogKAt3Yi3L/czzNHQznX6+8m4d2npkDCOCjdKnDcx/cIynjUiupSaaBqezeWoVRgSKpAw==";
+        };
     in {
         "Wm188JVi" = _Wm188JVi;
         "TOvM87xE" = _TOvM87xE;
@@ -638,6 +658,10 @@ let
         "aJ4mVcz0" = _aJ4mVcz0;
         "YhKvVmIt" = _YhKvVmIt;
         "jKm2ryXx" = _jKm2ryXx;
+        "zpW0meo1" = _zpW0meo1;
+        "CC7sdDpb" = _CC7sdDpb;
+        "9HYa2f58" = _9HYa2f58;
+        "iKthKUB2" = _iKthKUB2;
         "fabric-1.14.4" = _ysmoDA0m;
         "fabric-1.15" = _5tAw4bo4;
         "fabric-1.15.1" = _5tAw4bo4;
@@ -658,15 +682,15 @@ let
         "fabric-1.19" = _jKm2ryXx;
         "fabric-1.19.1" = _jKm2ryXx;
         "fabric-1.19.2" = _jKm2ryXx;
-        "fabric-1.20" = _hfzmwuqr;
-        "fabric-1.20.1" = _hfzmwuqr;
-        "fabric-1.20.2" = _WZG4flLV;
-        "fabric-1.20.3" = _WZG4flLV;
-        "fabric-1.20.4" = _WZG4flLV;
-        "fabric-1.20.5" = _Fwyd9ytR;
-        "fabric-1.20.6" = _Fwyd9ytR;
-        "fabric-1.21" = _FRwHt99A;
-        "fabric-1.21.1" = _FRwHt99A;
+        "fabric-1.20" = _zpW0meo1;
+        "fabric-1.20.1" = _zpW0meo1;
+        "fabric-1.20.2" = _CC7sdDpb;
+        "fabric-1.20.3" = _CC7sdDpb;
+        "fabric-1.20.4" = _CC7sdDpb;
+        "fabric-1.20.5" = _9HYa2f58;
+        "fabric-1.20.6" = _9HYa2f58;
+        "fabric-1.21" = _iKthKUB2;
+        "fabric-1.21.1" = _iKthKUB2;
         "fabric-1.21.2" = _22caf3Ke;
         "fabric-1.21.3" = _22caf3Ke;
         "fabric-1.21.4" = _22caf3Ke;
@@ -827,7 +851,11 @@ let
         "pkg-1.3.1-neoforge-1.21.11" = _aJ4mVcz0;
         "pkg-1.4.0-1.18" = _YhKvVmIt;
         "pkg-1.4.0-1.19" = _jKm2ryXx;
-        "default" = _jKm2ryXx;
+        "pkg-1.4.0-1.20" = _zpW0meo1;
+        "pkg-1.4.0-1.20.2" = _CC7sdDpb;
+        "pkg-1.4.0-1.20.5" = _9HYa2f58;
+        "pkg-1.4.0-1.21" = _iKthKUB2;
+        "default" = _iKthKUB2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saturation-plus";

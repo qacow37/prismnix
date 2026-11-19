@@ -211,6 +211,26 @@ let
             "file" = "spacecatasb-forge-20.14.0.jar";
             "hash" = "sha512-1igEJn5Ta/Et5gO0w6cVZawyDvPCHhJpJ/oH5Cv83VOwoeP1mgkXoXi7OE+lMtNmDiaNJ43s+jptyhll+xXg0A==";
         };
+        _r6jgyXK1 = {
+            "id" = "r6jgyXK1";
+            "file" = "spacecatasb-neoforge-21.16.1.jar";
+            "hash" = "sha512-36A3so2MZcVXVz3pELVfbSUubKEtvVQvg3wTIC2+rSe/dEvs6w8A7AM6VVr9DG9A+YbBBUy1U7A+K20zBJoEWQ==";
+        };
+        _2WAiuX5g = {
+            "id" = "2WAiuX5g";
+            "file" = "spacecatasb-fabric-21.16.1.jar";
+            "hash" = "sha512-eukYzWpYV4KFDjOQZYaJwexqDF4Xtr8nVbk5EPr4PjPVL/FI/NmkjZ7KM3lraQmY1vWB7LpTcYJb53IBgKL1vQ==";
+        };
+        _hPS7L1fH = {
+            "id" = "hPS7L1fH";
+            "file" = "spacecatasb-neoforge-21.16.1.jar";
+            "hash" = "sha512-ztGxRhWbIJfm3XURM8j7xVnV/FQqwaQtFbQuWAGgzPWjTRshFOm1h5Q+tkdBxoEjMol9GMiUr9gn6ljK6xEDVg==";
+        };
+        _C7jcMOw7 = {
+            "id" = "C7jcMOw7";
+            "file" = "spacecatasb-fabric-21.16.1.jar";
+            "hash" = "sha512-SnUIUfVld3AmnaCdo7KemdoZGsoRIqJ2ad+MtzzCdAlODYmmnDujf7so8Sh8sanJEPNZa4qvy0G8TaWRENA+rw==";
+        };
     in {
         "xSuiDssK" = _xSuiDssK;
         "EHBP3f1b" = _EHBP3f1b;
@@ -254,6 +274,10 @@ let
         "daegDxcu" = _daegDxcu;
         "VMXnQfPe" = _VMXnQfPe;
         "guOAe2lz" = _guOAe2lz;
+        "r6jgyXK1" = _r6jgyXK1;
+        "2WAiuX5g" = _2WAiuX5g;
+        "hPS7L1fH" = _hPS7L1fH;
+        "C7jcMOw7" = _C7jcMOw7;
         "forge-1.16.5" = _9ynPeljU;
         "forge-1.18.2" = _YnxpbDqX;
         "forge-1.19.2" = _daegDxcu;
@@ -268,6 +292,10 @@ let
         "fabric-1.20.2" = _VMXnQfPe;
         "fabric-1.20.4" = _VMXnQfPe;
         "fabric-1.20.3" = _VMXnQfPe;
+        "fabric-1.21.1" = _2WAiuX5g;
+        "fabric-1.21.2" = _C7jcMOw7;
+        "neoforge-1.21.1" = _r6jgyXK1;
+        "neoforge-1.21.2" = _hPS7L1fH;
         "pkg-16.10.1" = _4nIL4rlV;
         "pkg-18.10.1" = _ZhW3z5og;
         "pkg-19.10.1" = _ENs42Kzw;
@@ -289,7 +317,8 @@ let
         "pkg-18.14.0" = _YnxpbDqX;
         "pkg-19.14.0" = _daegDxcu;
         "pkg-20.14.0" = _guOAe2lz;
-        "default" = _guOAe2lz;
+        "pkg-21.16.1" = _C7jcMOw7;
+        "default" = _C7jcMOw7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armor-set-bonuses";

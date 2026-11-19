@@ -36,6 +36,11 @@ let
             "file" = "block_beams-1.2.2.jar";
             "hash" = "sha512-MUFrCkv+WwNS4092hTcGdqZKKKJl/rxAQaCXMO8mu9f2f6wo7+DAmHF0mW4qGpGjM8GVMynkXxMUVDzxmbMCjw==";
         };
+        _YydIvLMe = {
+            "id" = "YydIvLMe";
+            "file" = "block_beams-1.3.0+26.x.jar";
+            "hash" = "sha512-QALemMbYw2i4I/6YLPnC0qSsemueRFUpAqDoycCviwXnA7d8kFzLmZnZQnJruRY9otLa7GHZL/hKnDhK+OsgcA==";
+        };
     in {
         "ld03Oc4h" = _ld03Oc4h;
         "ONB8Zhjt" = _ONB8Zhjt;
@@ -44,6 +49,7 @@ let
         "jHE1ShYk" = _jHE1ShYk;
         "44FBSYdK" = _44FBSYdK;
         "CVojGxHj" = _CVojGxHj;
+        "YydIvLMe" = _YydIvLMe;
         "fabric-1.19.3" = _ld03Oc4h;
         "fabric-1.19.4" = _ld03Oc4h;
         "fabric-1.20" = _cMKyXOPt;
@@ -63,6 +69,11 @@ let
         "fabric-1.21.9" = _CVojGxHj;
         "fabric-1.21.10" = _CVojGxHj;
         "fabric-1.21.11" = _CVojGxHj;
+        "fabric-26.1.2" = _YydIvLMe;
+        "fabric-26.1" = _YydIvLMe;
+        "fabric-26.1.1" = _YydIvLMe;
+        "fabric-26.2" = _YydIvLMe;
+        "fabric-26.3" = _YydIvLMe;
         "quilt-1.19.3" = _ld03Oc4h;
         "quilt-1.19.4" = _ld03Oc4h;
         "quilt-1.20" = _cMKyXOPt;
@@ -80,7 +91,8 @@ let
         "pkg-1.2.0" = _jHE1ShYk;
         "pkg-1.2.1" = _44FBSYdK;
         "pkg-1.2.2" = _CVojGxHj;
-        "default" = _CVojGxHj;
+        "pkg-1.3.0+26.x" = _YydIvLMe;
+        "default" = _YydIvLMe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "block-beams";

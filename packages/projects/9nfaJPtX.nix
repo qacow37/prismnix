@@ -111,6 +111,21 @@ let
             "file" = "irons_lib-26.1.2-2.3.0.jar";
             "hash" = "sha512-v7cAHzT/EUJHvqVtRNuIkUasmgexhxdQYlRKKDEOXwQ8hbYxAdRH0RxZ30WIDxe8JEJPl1W/aSGdON8ggmNs8w==";
         };
+        _GxKHQobH = {
+            "id" = "GxKHQobH";
+            "file" = "irons_lib-1.20.1-2.4.0.jar";
+            "hash" = "sha512-WD2DVCV+OVgxJLYVDGsPAQkme8v72+BGRRFXvFBmUV0OaR+MSld2A0VpJ13YeK0fbpSh9Q0AA300rmqXcmUkLA==";
+        };
+        _26w23ufT = {
+            "id" = "26w23ufT";
+            "file" = "irons_lib-1.21.1-2.4.0.jar";
+            "hash" = "sha512-SNaZbZNb5FxtoQE6STVZ/MeB2ZRmLk1RuL8ghq536A+SgxuIXF9BP9JkC60Vsyq9k1rzJ9qryehJfa4ewSAn7Q==";
+        };
+        _YNGow24p = {
+            "id" = "YNGow24p";
+            "file" = "irons_lib-26.1.2-2.4.0.jar";
+            "hash" = "sha512-lRsTwy9Q43dqA0O13oD8VsNTHkrW7ZWQowFRjAF7og/J9JPyjoyJNYyu2RWmdD2NziHMYmX85qEq0BpXw31nOw==";
+        };
     in {
         "8OL8fkBr" = _8OL8fkBr;
         "HtBJ3Dmt" = _HtBJ3Dmt;
@@ -134,9 +149,12 @@ let
         "IptroA3L" = _IptroA3L;
         "dgH7P81J" = _dgH7P81J;
         "zz8rzpv9" = _zz8rzpv9;
-        "forge-1.20.1" = _IptroA3L;
-        "neoforge-1.21.1" = _dgH7P81J;
-        "neoforge-26.1.2" = _zz8rzpv9;
+        "GxKHQobH" = _GxKHQobH;
+        "26w23ufT" = _26w23ufT;
+        "YNGow24p" = _YNGow24p;
+        "forge-1.20.1" = _GxKHQobH;
+        "neoforge-1.21.1" = _26w23ufT;
+        "neoforge-26.1.2" = _YNGow24p;
         "pkg-1.20.1-1.0.0" = _8OL8fkBr;
         "pkg-1.21.1-1.0.0" = _HtBJ3Dmt;
         "pkg-1.20.1-1.0.1" = _cDcVfrkg;
@@ -159,7 +177,10 @@ let
         "pkg-1.20.1-2.3.0" = _IptroA3L;
         "pkg-1.21.1-2.3.0" = _dgH7P81J;
         "pkg-26.1.2-2.3.0" = _zz8rzpv9;
-        "default" = _zz8rzpv9;
+        "pkg-1.20.1-2.4.0" = _GxKHQobH;
+        "pkg-1.21.1-2.4.0" = _26w23ufT;
+        "pkg-26.1.2-2.4.0" = _YNGow24p;
+        "default" = _YNGow24p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "irons-lib";

@@ -156,6 +156,11 @@ let
             "file" = "MultiBuilderTool-1.21.1-1.1.31.jar";
             "hash" = "sha512-BR+febrc//T12u9ekwT2s17LHNADuLLi/Ofm/fpd8zTU2GUYJ9EdAWLXCH4EYYdSyBnFdSw5xiqwsa6RCQeD/w==";
         };
+        _GcZAHMuw = {
+            "id" = "GcZAHMuw";
+            "file" = "MultiBuilderTool-1.20.1-1.0.30.jar";
+            "hash" = "sha512-WSVkL1CjWUV3C6H/LEJaHzUb9P9AC0fQGmTNHdOoFuMKu4NZzVaJs2zrtbKGkdbV3ixvKDnsVnicAdPIzB25MA==";
+        };
     in {
         "jDD3sBQT" = _jDD3sBQT;
         "i89PKbLr" = _i89PKbLr;
@@ -188,9 +193,10 @@ let
         "HuOQNjU5" = _HuOQNjU5;
         "7vHJEABV" = _7vHJEABV;
         "5vF7os8a" = _5vF7os8a;
+        "GcZAHMuw" = _GcZAHMuw;
         "forge-1.12.2" = _i89PKbLr;
-        "forge-1.20.1" = _eV5qajwu;
-        "neoforge-1.20.1" = _eV5qajwu;
+        "forge-1.20.1" = _GcZAHMuw;
+        "neoforge-1.20.1" = _GcZAHMuw;
         "neoforge-1.21.1" = _5vF7os8a;
         "neoforge-1.21" = _IoN0WykF;
         "neoforge-26.1.2" = _QiTZsv1I;
@@ -224,7 +230,8 @@ let
         "pkg-1.1.29" = _HuOQNjU5;
         "pkg-1.1.30" = _7vHJEABV;
         "pkg-1.1.31" = _5vF7os8a;
-        "default" = _5vF7os8a;
+        "pkg-1.0.30" = _GcZAHMuw;
+        "default" = _GcZAHMuw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "multi-builder-tool";

@@ -471,6 +471,16 @@ let
             "file" = "quad-1.2.17+26.2-fabric.jar";
             "hash" = "sha512-xZoZl4SPsQKr7bx0hdn2x+mlAL8ITDnikZAVNsIzc0Hlv3sZj5z4HQ0tg9tJyEIw5sF8XmUxonsXyOXPT6IL6A==";
         };
+        _gsiBMwI8 = {
+            "id" = "gsiBMwI8";
+            "file" = "quad-1.2.18+26.3-neoforge.jar";
+            "hash" = "sha512-wv+EKIoTk7/DMO6w75dRYJ8L+RMs2vLk52p3ix7wViSSR/1JWLJzfhdfiq9Z1uSWs9LiSFjEoRDe9UfF8oTCMw==";
+        };
+        _WsL17QNx = {
+            "id" = "WsL17QNx";
+            "file" = "quad-1.2.18+26.3-fabric.jar";
+            "hash" = "sha512-Iz300a5BR5ndGe/gMMwxVwp+o+rjilYn/jiwsyWs6vRO/mkxnGLW7OrBAzI3PZO5R+c65mx3266OceIyxiIwiA==";
+        };
     in {
         "6r8Y94mE" = _6r8Y94mE;
         "hIHjDf68" = _hIHjDf68;
@@ -566,6 +576,8 @@ let
         "suWFkmph" = _suWFkmph;
         "OW0C6rpv" = _OW0C6rpv;
         "OXAycuq2" = _OXAycuq2;
+        "gsiBMwI8" = _gsiBMwI8;
+        "WsL17QNx" = _WsL17QNx;
         "fabric-1.20" = _13NoFEPW;
         "fabric-1.20.1" = _13NoFEPW;
         "fabric-1.20.2" = _13NoFEPW;
@@ -597,6 +609,7 @@ let
         "fabric-26.1.1" = _OXAycuq2;
         "fabric-26.1.2" = _OXAycuq2;
         "fabric-26.2" = _OXAycuq2;
+        "fabric-26.3" = _WsL17QNx;
         "quilt-1.20" = _13NoFEPW;
         "quilt-1.20.1" = _13NoFEPW;
         "quilt-1.20.2" = _13NoFEPW;
@@ -628,6 +641,7 @@ let
         "quilt-26.1.1" = _OXAycuq2;
         "quilt-26.1.2" = _OXAycuq2;
         "quilt-26.2" = _OXAycuq2;
+        "quilt-26.3" = _WsL17QNx;
         "forge-1.20" = _oqfADQ4G;
         "forge-1.20.1" = _oqfADQ4G;
         "forge-1.20.2" = _oqfADQ4G;
@@ -663,6 +677,7 @@ let
         "neoforge-26.1.1" = _OW0C6rpv;
         "neoforge-26.1.2" = _OW0C6rpv;
         "neoforge-26.2" = _OW0C6rpv;
+        "neoforge-26.3" = _gsiBMwI8;
         "pkg-1.0.0" = _6r8Y94mE;
         "pkg-1.0.1+1.20.2-Fabric" = _hIHjDf68;
         "pkg-1.0.1+1.20.2-Forge" = _ZGuypLjf;
@@ -757,7 +772,9 @@ let
         "pkg-1.2.15+26.1-Fabric" = _suWFkmph;
         "pkg-1.2.16+26.1-Neo" = _OW0C6rpv;
         "pkg-1.2.17+26.2-Fabric" = _OXAycuq2;
-        "default" = _OXAycuq2;
+        "pkg-1.2.18+26.3-Neo" = _gsiBMwI8;
+        "pkg-1.2.18+26.3-Fabric" = _WsL17QNx;
+        "default" = _WsL17QNx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quad";

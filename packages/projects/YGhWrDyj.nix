@@ -26,24 +26,31 @@ let
             "file" = "VPBRP 64x 05_11_2026.zip";
             "hash" = "sha512-WFrR8mfNwM9tcBSFMW/TIAQEVpIAB2Rq3KYKnvSLRiQJAQ7z58RAqeZBMmdsgHPzVOTdd0y3iWztIVIRvNiVeQ==";
         };
+        _Gt2GhrM9 = {
+            "id" = "Gt2GhrM9";
+            "file" = "VPBRP 64x 18_11_2026.zip";
+            "hash" = "sha512-0Dce2Cz+cqcNknwxR9mjD5Ey0mJpegKvwN00pnC9LdfK0twxomXzANWeJwqtPI6fgm0CFSUcf+XdFYYD69JzoA==";
+        };
     in {
         "Nme5Zv2u" = _Nme5Zv2u;
         "5ShOpaoX" = _5ShOpaoX;
         "nGnAZfRd" = _nGnAZfRd;
         "FvhRYDDK" = _FvhRYDDK;
         "BurVCzoN" = _BurVCzoN;
-        "minecraft-1.21.11" = _BurVCzoN;
-        "minecraft-26.1" = _BurVCzoN;
-        "minecraft-26.1.1" = _BurVCzoN;
-        "minecraft-26.1.2" = _BurVCzoN;
-        "minecraft-26.2" = _BurVCzoN;
-        "minecraft-26.3" = _BurVCzoN;
+        "Gt2GhrM9" = _Gt2GhrM9;
+        "minecraft-1.21.11" = _Gt2GhrM9;
+        "minecraft-26.1" = _Gt2GhrM9;
+        "minecraft-26.1.1" = _Gt2GhrM9;
+        "minecraft-26.1.2" = _Gt2GhrM9;
+        "minecraft-26.2" = _Gt2GhrM9;
+        "minecraft-26.3" = _Gt2GhrM9;
         "pkg-19.10.2026" = _Nme5Zv2u;
         "pkg-23.10.2026" = _5ShOpaoX;
         "pkg-24.10.2026" = _nGnAZfRd;
         "pkg-27.10.2026" = _FvhRYDDK;
         "pkg-05.11.2026" = _BurVCzoN;
-        "default" = _BurVCzoN;
+        "pkg-18.11.2026" = _Gt2GhrM9;
+        "default" = _Gt2GhrM9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vpbrp";

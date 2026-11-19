@@ -41,6 +41,11 @@ let
             "file" = "Bog's UI.zip";
             "hash" = "sha512-mrqBs2vu2043bK2AN66wv2TXvH96qdfjCu4S+pDQ2RNNFPjh/8pIPmiip78k10fG/wCB6S+OI2tmLmB4e9Wehg==";
         };
+        _DteqzcSW = {
+            "id" = "DteqzcSW";
+            "file" = "Bog's UI.zip";
+            "hash" = "sha512-oZeIBG4siL/ezIXPx+DpXdMas7b3a5AuK75D2AFlBvZLLnsKTr09Q3A97YBw+o0PgCqLY43sB5fqjUPlfSo4ow==";
+        };
     in {
         "4oXpdi09" = _4oXpdi09;
         "sLHz6IQZ" = _sLHz6IQZ;
@@ -50,11 +55,12 @@ let
         "HP59hHD8" = _HP59hHD8;
         "Wds46PU7" = _Wds46PU7;
         "fGGMpUND" = _fGGMpUND;
-        "minecraft-26.1" = _fGGMpUND;
-        "minecraft-26.1.1" = _fGGMpUND;
-        "minecraft-26.1.2" = _fGGMpUND;
-        "minecraft-26.2" = _fGGMpUND;
-        "minecraft-26.3" = _fGGMpUND;
+        "DteqzcSW" = _DteqzcSW;
+        "minecraft-26.1" = _DteqzcSW;
+        "minecraft-26.1.1" = _DteqzcSW;
+        "minecraft-26.1.2" = _DteqzcSW;
+        "minecraft-26.2" = _DteqzcSW;
+        "minecraft-26.3" = _DteqzcSW;
         "minecraft-1.21" = _sLHz6IQZ;
         "minecraft-1.21.1" = _sLHz6IQZ;
         "minecraft-1.20" = _HSUMHbw7;
@@ -64,8 +70,8 @@ let
         "pkg-1.2" = _1YnldT4Y;
         "pkg-1.2.1" = _HP59hHD8;
         "pkg-1.2.2" = _Wds46PU7;
-        "pkg-1.2.3" = _fGGMpUND;
-        "default" = _fGGMpUND;
+        "pkg-1.2.3" = _DteqzcSW;
+        "default" = _DteqzcSW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bogs-ui";

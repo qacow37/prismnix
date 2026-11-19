@@ -36,6 +36,21 @@ let
             "file" = "cursed-spawners-1.0.0+1.21.11.jar";
             "hash" = "sha512-h/KhPPBfH/7yg3oSpoX6+wECxm7Aigsthxwobln9fKXx/Jv+JSdIa4U5nCMd08zFs0V69BtzlzMXwK4PfSezqQ==";
         };
+        _pFpi3zNi = {
+            "id" = "pFpi3zNi";
+            "file" = "cursed-spawners-2.0.0+26.1.jar";
+            "hash" = "sha512-SQ3faTj7XdebnvfIPzX2yztnJEJtpa/dYSAPA6eQGL0tC/crd2kklsiF9fX5sV1Id3EBZUT4hNzrMavm5cGJRA==";
+        };
+        _TC0xIfkK = {
+            "id" = "TC0xIfkK";
+            "file" = "cursed-spawners-2.0.0+26.2.jar";
+            "hash" = "sha512-p47ttH4OFMb9DZoHNjd4RBwSXgCC38PCnR0KtnQgWhvH0VWfTHfDGHzcVKbvoEh47yytI6h08cn39O2fjXPzlg==";
+        };
+        _fFRwcAZx = {
+            "id" = "fFRwcAZx";
+            "file" = "cursed-spawners-2.0.0+26.3.jar";
+            "hash" = "sha512-u/F93HGeFskTQMB+G+CFheZ91EwfjegJ1Bt5NPuygVHM4miY84dMZ0cjZ+KT4n95b9F7yymQBImfW+XqU7Lqyw==";
+        };
     in {
         "fcTSl1BC" = _fcTSl1BC;
         "YQEpYLRi" = _YQEpYLRi;
@@ -44,6 +59,9 @@ let
         "5ZtDWVlZ" = _5ZtDWVlZ;
         "hVjJL4Rt" = _hVjJL4Rt;
         "itPhn3cc" = _itPhn3cc;
+        "pFpi3zNi" = _pFpi3zNi;
+        "TC0xIfkK" = _TC0xIfkK;
+        "fFRwcAZx" = _fFRwcAZx;
         "fabric-1.21" = _fcTSl1BC;
         "fabric-1.21.1" = _fcTSl1BC;
         "fabric-1.21.2" = _YQEpYLRi;
@@ -56,6 +74,11 @@ let
         "fabric-1.21.9" = _hVjJL4Rt;
         "fabric-1.21.10" = _hVjJL4Rt;
         "fabric-1.21.11" = _itPhn3cc;
+        "fabric-26.1" = _pFpi3zNi;
+        "fabric-26.1.1" = _pFpi3zNi;
+        "fabric-26.1.2" = _pFpi3zNi;
+        "fabric-26.2" = _TC0xIfkK;
+        "fabric-26.3" = _fFRwcAZx;
         "quilt-1.21" = _fcTSl1BC;
         "quilt-1.21.1" = _fcTSl1BC;
         "quilt-1.21.2" = _YQEpYLRi;
@@ -68,6 +91,11 @@ let
         "quilt-1.21.9" = _hVjJL4Rt;
         "quilt-1.21.10" = _hVjJL4Rt;
         "quilt-1.21.11" = _itPhn3cc;
+        "quilt-26.1" = _pFpi3zNi;
+        "quilt-26.1.1" = _pFpi3zNi;
+        "quilt-26.1.2" = _pFpi3zNi;
+        "quilt-26.2" = _TC0xIfkK;
+        "quilt-26.3" = _fFRwcAZx;
         "pkg-1.0.0+1.21" = _fcTSl1BC;
         "pkg-1.0.0+1.21.3" = _YQEpYLRi;
         "pkg-1.0.0+1.21.4" = _Dmf4STFD;
@@ -75,7 +103,10 @@ let
         "pkg-1.0.0+1.21.7" = _5ZtDWVlZ;
         "pkg-1.0.0+1.21.10" = _hVjJL4Rt;
         "pkg-1.0.0+1.21.11" = _itPhn3cc;
-        "default" = _itPhn3cc;
+        "pkg-2.0.0+26.1" = _pFpi3zNi;
+        "pkg-2.0.0+26.2" = _TC0xIfkK;
+        "pkg-2.0.0+26.3" = _fFRwcAZx;
+        "default" = _fFRwcAZx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cursed-spawners";

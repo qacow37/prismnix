@@ -66,6 +66,11 @@ let
             "file" = "aquila-1.2.5-1.20.1-complete.jar";
             "hash" = "sha512-bu39iMCVR2HL3Z+zKuNjVEzMQhJparJ94dgiPOKRlpnIKkLPUrxihqzrT59udkdjacDKGhhWZ33oHAeEmEwrDw==";
         };
+        _ODIFOZgo = {
+            "id" = "ODIFOZgo";
+            "file" = "aquila-1.3.0-1.20.1-complete.jar";
+            "hash" = "sha512-xDosdJX2wypDo1Nv0W35gT+nbPNK9F23ePgZYzkbgF/PFTDmsi3rDPx1vAPK94s5QtGr2p42GoEz/bHJer+9MQ==";
+        };
     in {
         "aUIJkOrr" = _aUIJkOrr;
         "GAkY9zDg" = _GAkY9zDg;
@@ -80,7 +85,8 @@ let
         "7fwukMcd" = _7fwukMcd;
         "8B1aJqDz" = _8B1aJqDz;
         "vv8xg0pc" = _vv8xg0pc;
-        "fabric-1.20.1" = _vv8xg0pc;
+        "ODIFOZgo" = _ODIFOZgo;
+        "fabric-1.20.1" = _ODIFOZgo;
         "pkg-1.0.3-1.20.1" = _aUIJkOrr;
         "pkg-1.1.0-1.20.1" = _GAkY9zDg;
         "pkg-1.1.1-1.20.1" = _JGffjRbJ;
@@ -94,7 +100,8 @@ let
         "pkg-1.2.3-1.20.1-complete" = _7fwukMcd;
         "pkg-1.2.4-1.20.1-complete" = _8B1aJqDz;
         "pkg-1.2.5-1.20.1-complete" = _vv8xg0pc;
-        "default" = _vv8xg0pc;
+        "pkg-1.3.0-1.20.1-complete" = _ODIFOZgo;
+        "default" = _ODIFOZgo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aquila-complete-edition";

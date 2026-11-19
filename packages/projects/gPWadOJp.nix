@@ -11,14 +11,22 @@ let
             "file" = "leverbuttonlights-1.12.2-3.4.0.jar";
             "hash" = "sha512-5bIScWQ6ApzmEdAJguII6RIDTH21o7RgJUfgAeIf4yAgNYQNozUI1q/sdlLL4VyXhGzeoAkhXb4T7kxdfbBk5w==";
         };
+        _nYcXTl0P = {
+            "id" = "nYcXTl0P";
+            "file" = "Lever-Button-Lights-4.0.1-MC26.3-NeoForge.jar";
+            "hash" = "sha512-PNYmJp8Uk31kshZRyL2ATjFb03vj9Da6DMzjti5ki/9/aJk8+JisNudBfvV7SeKvzS7hEf5JpBlkrfqV2dOujQ==";
+        };
     in {
         "K2Zs7izB" = _K2Zs7izB;
         "e4Ioq1Hk" = _e4Ioq1Hk;
+        "nYcXTl0P" = _nYcXTl0P;
         "forge-1.11.2" = _K2Zs7izB;
         "forge-1.12.2" = _e4Ioq1Hk;
+        "neoforge-26.3" = _nYcXTl0P;
         "pkg-1.3" = _K2Zs7izB;
         "pkg-3.4.0" = _e4Ioq1Hk;
-        "default" = _e4Ioq1Hk;
+        "pkg-4.0.1" = _nYcXTl0P;
+        "default" = _nYcXTl0P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lever-button-lights";

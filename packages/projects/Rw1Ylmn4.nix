@@ -136,6 +136,41 @@ let
             "file" = "stardew_fishing-3.7-26.2.jar";
             "hash" = "sha512-P77DCgdIqUqZwDP3SLmzi0Kcz5DQgsALtxWvCkpXNu1/1odtASxo85QwZK0IWVD4BsSARnokI7Tq4Xks+hO0nA==";
         };
+        _OlessZUE = {
+            "id" = "OlessZUE";
+            "file" = "stardew_fishing-3.8-1.20.1.jar";
+            "hash" = "sha512-UPYFQ6djyMoClA5S1rsjAvCRfaTHf9rpJVA61Z9vNsFqujnbnteY4YkjBy8d9u1GW9a+7aItrkFiP6uQTIz1ZQ==";
+        };
+        _O7sS0wbs = {
+            "id" = "O7sS0wbs";
+            "file" = "stardew_fishing-3.8-1.21.1.jar";
+            "hash" = "sha512-R18BQlaz0Iff124awtFWC+UFKExV7kUal4b4qVNxQX+SFEm4HhidY2MLKoL8FBu7JkBnA2h4tiXYQ6ijEnF/pA==";
+        };
+        _g6lExDYO = {
+            "id" = "g6lExDYO";
+            "file" = "stardew_fishing-3.8-1.21.11.jar";
+            "hash" = "sha512-Vs88A7ob4xpsOgogyDTIi2R5THIEOw3YWvyFyYbU/tWrFtXPqd4pnFcmLFb9RjpU0xFHhElQJLGrHYtFa/nFyg==";
+        };
+        _G9wkJKxM = {
+            "id" = "G9wkJKxM";
+            "file" = "stardew_fishing-3.8-26.1.2.jar";
+            "hash" = "sha512-+5P4IjLN4vWk0TUvk3zrlnzGqkQZvFvecUt4YHvVeqindE3GHXn84QjeFjBEbFpbgG5KxNKoEhOBvcwqFntkEw==";
+        };
+        _z16piZnc = {
+            "id" = "z16piZnc";
+            "file" = "stardew_fishing-3.8-26.2.jar";
+            "hash" = "sha512-SJyRRiZFNrTAqTcEOp1Q8jLKI51MbSfslZoCTf+o8kLWUS4NwdNaKGwJV0oVqB2e5GylctHo9IWcqSEGUF6QtA==";
+        };
+        _nMXkBvgo = {
+            "id" = "nMXkBvgo";
+            "file" = "stardew_fishing-3.8-26.3.jar";
+            "hash" = "sha512-W+4qOjfeY0cadiyXUTEk6PiiwUff7BLbnw9paZeC46bk9ejirmrxsBf8msDxlZslq1xcfp6lJvSWybR3lg8C5Q==";
+        };
+        _yE0jg55A = {
+            "id" = "yE0jg55A";
+            "file" = "stardew_fishing-3.9-1.20.1.jar";
+            "hash" = "sha512-3JNe8zsiBnE4mGvsXtsjmBuAyPMbivkHdvZuPfRFABCtF3+N4ja+QscCOSQgGF+rHvaQT2Hd9in1HwtyO2IH3w==";
+        };
     in {
         "ZDhuRHWG" = _ZDhuRHWG;
         "milYCVLs" = _milYCVLs;
@@ -164,12 +199,20 @@ let
         "Hf52OXjp" = _Hf52OXjp;
         "sKJs0PTx" = _sKJs0PTx;
         "iV0UEx0v" = _iV0UEx0v;
-        "forge-1.20.1" = _UgWzAtGu;
+        "OlessZUE" = _OlessZUE;
+        "O7sS0wbs" = _O7sS0wbs;
+        "g6lExDYO" = _g6lExDYO;
+        "G9wkJKxM" = _G9wkJKxM;
+        "z16piZnc" = _z16piZnc;
+        "nMXkBvgo" = _nMXkBvgo;
+        "yE0jg55A" = _yE0jg55A;
+        "forge-1.20.1" = _yE0jg55A;
         "neoforge-1.20.1" = _5kFpreJS;
-        "neoforge-1.21.1" = _iJkNXCRB;
-        "neoforge-1.21.11" = _Hf52OXjp;
-        "neoforge-26.1.2" = _sKJs0PTx;
-        "neoforge-26.2" = _iV0UEx0v;
+        "neoforge-1.21.1" = _O7sS0wbs;
+        "neoforge-1.21.11" = _g6lExDYO;
+        "neoforge-26.1.2" = _G9wkJKxM;
+        "neoforge-26.2" = _z16piZnc;
+        "neoforge-26.3" = _nMXkBvgo;
         "pkg-1.0" = _ZDhuRHWG;
         "pkg-1.1" = _milYCVLs;
         "pkg-1.2" = _vl6CzghW;
@@ -185,7 +228,9 @@ let
         "pkg-3.5" = _GYEraq0g;
         "pkg-3.6" = _LUKV2pwl;
         "pkg-3.7" = _iV0UEx0v;
-        "default" = _iV0UEx0v;
+        "pkg-3.8" = _nMXkBvgo;
+        "pkg-3.9" = _yE0jg55A;
+        "default" = _yE0jg55A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stardew-fishing";

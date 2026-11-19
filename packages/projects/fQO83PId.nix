@@ -1271,6 +1271,31 @@ let
             "file" = "reliquary-1.21.1-2.0.85.1599.jar";
             "hash" = "sha512-deQDT//wPYWsRkf+9oAuiSEDTeVbqmUMMreCb266RAa2X+3PSoh10a6KO4UDlaSf0K1AWH1g/6Ghxiuz5IwuNw==";
         };
+        _hHQjI50D = {
+            "id" = "hHQjI50D";
+            "file" = "reliquary-26.2-2.0.102.1604.jar";
+            "hash" = "sha512-efChi1+cB1PZeEd+Fh1mChgzCBARvWdTLuxS8m+znwYZC52Wa8A/aMwzO+M4iRRk8KGz4yq55kMQAIxzZxuYCw==";
+        };
+        _dKgyKA3t = {
+            "id" = "dKgyKA3t";
+            "file" = "reliquary-26.1.2-2.0.102.1602.jar";
+            "hash" = "sha512-ErreUNZFJb0p0WFYkgNOaY9l7haVTALGGraMSQXx3eY2BeMIjvy+Yj7jlnVN789rHc82UsWt7QstrAvnX5v8hA==";
+        };
+        _SfiLLeuk = {
+            "id" = "SfiLLeuk";
+            "file" = "reliquary-26.3-2.0.104.1605.jar";
+            "hash" = "sha512-j9OF9DpcXsXXcyYoMEN4xVzvEvaBpzsoQZ/3bo51gu2zRNGfiwO3HXx6dqnfM28t/kMUgKukYqGmPosfWGks8g==";
+        };
+        _rJbWQ2D8 = {
+            "id" = "rJbWQ2D8";
+            "file" = "reliquary-1.20.1-2.0.69.1603.jar";
+            "hash" = "sha512-n4CJZfD5H0cWjlEFv+GNbLpZRjqjaU3pwgZBpfkeOyIWZ2CEskDLNG+QwXfwnW6ZK/LBaUEp86thhl6v50CNPg==";
+        };
+        _bek1JbQD = {
+            "id" = "bek1JbQD";
+            "file" = "reliquary-1.21.1-2.0.86.1601.jar";
+            "hash" = "sha512-y+Mew+RoBm9UhlmhP7eYogwTH64sBeLae7LWiaW9Wghg/Bkr6sSj2ceknLwNj66mNGGek3xXA0cTTWGukZz7cQ==";
+        };
     in {
         "dgdNJAdF" = _dgdNJAdF;
         "F7iOLki0" = _F7iOLki0;
@@ -1526,15 +1551,20 @@ let
         "SzIQCeDn" = _SzIQCeDn;
         "2eJOFxap" = _2eJOFxap;
         "NjITe5sZ" = _NjITe5sZ;
-        "forge-1.20.1" = _zFLW14W9;
+        "hHQjI50D" = _hHQjI50D;
+        "dKgyKA3t" = _dKgyKA3t;
+        "SfiLLeuk" = _SfiLLeuk;
+        "rJbWQ2D8" = _rJbWQ2D8;
+        "bek1JbQD" = _bek1JbQD;
+        "forge-1.20.1" = _rJbWQ2D8;
         "forge-1.8.9" = _kQqo1Ui8;
         "forge-1.10.2" = _aVRfqARk;
         "forge-1.12.2" = _iEa6eLTv;
         "forge-1.16.5" = _UPFWqKbe;
         "forge-1.18.2" = _LbhMjrUe;
         "forge-1.19.2" = _ZYC7gzKd;
-        "neoforge-1.20.1" = _zFLW14W9;
-        "neoforge-1.21.1" = _NjITe5sZ;
+        "neoforge-1.20.1" = _rJbWQ2D8;
+        "neoforge-1.21.1" = _bek1JbQD;
         "neoforge-1.21.4" = _qo46o7sL;
         "neoforge-1.21.5" = _IS2jN6UZ;
         "neoforge-1.21.8" = _2tFwWcWD;
@@ -1542,9 +1572,9 @@ let
         "neoforge-1.21.11" = _40gMkmgJ;
         "neoforge-26.1" = _AzFaSvQn;
         "neoforge-26.1.1" = _AzFaSvQn;
-        "neoforge-26.1.2" = _2eJOFxap;
-        "neoforge-26.2" = _UKx4H9ur;
-        "neoforge-26.3" = _SzIQCeDn;
+        "neoforge-26.1.2" = _dKgyKA3t;
+        "neoforge-26.2" = _hHQjI50D;
+        "neoforge-26.3" = _SfiLLeuk;
         "pkg-1.20.1-2.0.42.1238" = _dgdNJAdF;
         "pkg-1.20.1-2.0.44.1241" = _F7iOLki0;
         "pkg-1.20.1-2.0.44.1243" = _SXFN7gz9;
@@ -1799,7 +1829,12 @@ let
         "pkg-26.3-2.0.103.1600" = _SzIQCeDn;
         "pkg-26.1.2-2.0.101.1598" = _2eJOFxap;
         "pkg-1.21.1-2.0.85.1599" = _NjITe5sZ;
-        "default" = _NjITe5sZ;
+        "pkg-26.2-2.0.102.1604" = _hHQjI50D;
+        "pkg-26.1.2-2.0.102.1602" = _dKgyKA3t;
+        "pkg-26.3-2.0.104.1605" = _SfiLLeuk;
+        "pkg-1.20.1-2.0.69.1603" = _rJbWQ2D8;
+        "pkg-1.21.1-2.0.86.1601" = _bek1JbQD;
+        "default" = _bek1JbQD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reliquary-reincarnations";

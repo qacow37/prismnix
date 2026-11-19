@@ -406,6 +406,16 @@ let
             "file" = "Statues-26.3-0.5.1.jar";
             "hash" = "sha512-I7GZjAPLycw0qvq/nrDJRtie56+hdHwDdqzokDMU325b9ZqZLVObhD62Hz2c47lHOZmy7IHrmyElJOQFvvQ27w==";
         };
+        _f1amTcdv = {
+            "id" = "f1amTcdv";
+            "file" = "Statues-26.3-0.5.2.jar";
+            "hash" = "sha512-hNqW/q4/mARZJtJ245xtkyB2mVSZtBmoDwl4laE3gcQpMdDwheioVA2FS1BUzzGIZw/kXTOmzGoDk90c/am8YQ==";
+        };
+        _EFHUJvfw = {
+            "id" = "EFHUJvfw";
+            "file" = "Statues-26.1.2-0.4.24.jar";
+            "hash" = "sha512-ZIIuMBsk2qVf01TumbrR4PA1IOTDNcoqj38zep0rICY4Bpmyop2qXXJyOsGFbYrjL94KPhGu/X6i6bcOIZgRxg==";
+        };
     in {
         "193TAy3o" = _193TAy3o;
         "2J2tIz3O" = _2J2tIz3O;
@@ -488,6 +498,8 @@ let
         "NqbJxOiA" = _NqbJxOiA;
         "IQGxijqa" = _IQGxijqa;
         "DWGoy8PX" = _DWGoy8PX;
+        "f1amTcdv" = _f1amTcdv;
+        "EFHUJvfw" = _EFHUJvfw;
         "forge-1.18.2" = _193TAy3o;
         "forge-1.18.1" = _2J2tIz3O;
         "forge-1.17.1" = _9zufRF62;
@@ -508,8 +520,8 @@ let
         "neoforge-1.21.8" = _P0u4SMVI;
         "neoforge-1.21.10" = _40dpqUKF;
         "neoforge-1.21.11" = _d8ghFZGs;
-        "neoforge-26.1.2" = _NqbJxOiA;
-        "neoforge-26.3" = _DWGoy8PX;
+        "neoforge-26.1.2" = _EFHUJvfw;
+        "neoforge-26.3" = _f1amTcdv;
         "pkg-0.1.8.1" = _193TAy3o;
         "pkg-0.1.8.0" = _2J2tIz3O;
         "pkg-0.1.7.6" = _9zufRF62;
@@ -577,7 +589,9 @@ let
         "pkg-0.4.23" = _NqbJxOiA;
         "pkg-0.5.0" = _IQGxijqa;
         "pkg-0.5.1" = _DWGoy8PX;
-        "default" = _DWGoy8PX;
+        "pkg-0.5.2" = _f1amTcdv;
+        "pkg-0.4.24" = _EFHUJvfw;
+        "default" = _EFHUJvfw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "statues";

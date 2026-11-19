@@ -11,9 +11,15 @@ let
             "file" = "ServerHomes-1.2.1.jar";
             "hash" = "sha512-qUmTEVvgF5ek0gY70H2VHT1JLDt6ayWISdwgCPuiruFK9IRF4iEGtUg/EV+cmVwlq4lroSDNLRcbbitZd1PIgA==";
         };
+        _6DOlkqP3 = {
+            "id" = "6DOlkqP3";
+            "file" = "ServerHomes-1.2.2.jar";
+            "hash" = "sha512-tgYvnE3jLoViwwQJPQyzvGu8nxJzkpOlFnoh5TrDYkEIThOgj9EfyQ87duHagd8+Dju11u3MwcDExX7at7h57w==";
+        };
     in {
         "8jKberGd" = _8jKberGd;
         "pIWSDnak" = _pIWSDnak;
+        "6DOlkqP3" = _6DOlkqP3;
         "bukkit-1.21" = _8jKberGd;
         "bukkit-1.21.1" = _8jKberGd;
         "bukkit-1.21.2" = _8jKberGd;
@@ -47,7 +53,7 @@ let
         "paper-26.1.1" = _pIWSDnak;
         "paper-26.1.2" = _pIWSDnak;
         "paper-26.2" = _pIWSDnak;
-        "paper-26.3" = _pIWSDnak;
+        "paper-26.3" = _6DOlkqP3;
         "spigot-1.21" = _8jKberGd;
         "spigot-1.21.1" = _8jKberGd;
         "spigot-1.21.2" = _8jKberGd;
@@ -65,14 +71,16 @@ let
         "spigot-26.1.2" = _pIWSDnak;
         "spigot-26.2" = _pIWSDnak;
         "spigot-26.3" = _pIWSDnak;
-        "purpur-26.3" = _pIWSDnak;
+        "purpur-26.3" = _6DOlkqP3;
         "purpur-26.2" = _pIWSDnak;
         "purpur-26.1.2" = _pIWSDnak;
         "purpur-26.1.1" = _pIWSDnak;
         "purpur-26.1" = _pIWSDnak;
+        "folia-26.3" = _6DOlkqP3;
         "pkg-1.0.0" = _8jKberGd;
         "pkg-1.2.1" = _pIWSDnak;
-        "default" = _pIWSDnak;
+        "pkg-1.2.2" = _6DOlkqP3;
+        "default" = _6DOlkqP3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "serverhomes";

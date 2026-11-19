@@ -21,11 +21,17 @@ let
             "file" = "No Explosion Particles.zip";
             "hash" = "sha512-u0hc+/yagtNToU3GMV8pKT+xXgBS0FNBDYSb7H3s2gdYQavJkV6TmoYfOQXZhhm78NIXc5G4lfm/6DCrwtJf0A==";
         };
+        _ZrfwLEEx = {
+            "id" = "ZrfwLEEx";
+            "file" = "No Explosion Particles (6).zip";
+            "hash" = "sha512-u0hc+/yagtNToU3GMV8pKT+xXgBS0FNBDYSb7H3s2gdYQavJkV6TmoYfOQXZhhm78NIXc5G4lfm/6DCrwtJf0A==";
+        };
     in {
         "fTd2sSuL" = _fTd2sSuL;
         "rvQNwUev" = _rvQNwUev;
         "H2gLgN1M" = _H2gLgN1M;
         "X0maLnzw" = _X0maLnzw;
+        "ZrfwLEEx" = _ZrfwLEEx;
         "minecraft-1.20" = _fTd2sSuL;
         "minecraft-1.20.1" = _fTd2sSuL;
         "minecraft-1.20.2" = _fTd2sSuL;
@@ -49,11 +55,13 @@ let
         "minecraft-26.1.1" = _X0maLnzw;
         "minecraft-26.1.2" = _X0maLnzw;
         "minecraft-26.2" = _X0maLnzw;
+        "minecraft-26.3" = _ZrfwLEEx;
         "pkg-1.0.0" = _fTd2sSuL;
         "pkg-1.1.0" = _rvQNwUev;
         "pkg-1.2.0" = _H2gLgN1M;
         "pkg-1.3.0" = _X0maLnzw;
-        "default" = _X0maLnzw;
+        "pkg-1.3.1" = _ZrfwLEEx;
+        "default" = _ZrfwLEEx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-explosion-particles-by-dokzera";

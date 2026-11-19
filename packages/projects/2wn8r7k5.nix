@@ -31,6 +31,11 @@ let
             "file" = "hexic-2.1.1.jar";
             "hash" = "sha512-QVpdywcC7bzEptop6G4NUmsZYzGNILR+MbYKmdddAEL9BFAHbP/zxx2RDpOaVZXyV0lwzZm43AoLXyYaM2vU2w==";
         };
+        _IPoHQL6D = {
+            "id" = "IPoHQL6D";
+            "file" = "hexic-2.2.0+540ca93.jar";
+            "hash" = "sha512-UYfMHtTCCNKFh6clcQat1cZ7IBKdktinV00IMFBASzHBWTiuYRaSf4UqlsErKfJdLsmUSY8fWCr4cBkY2bAtMw==";
+        };
     in {
         "AG7hwInN" = _AG7hwInN;
         "ad9yYcib" = _ad9yYcib;
@@ -38,14 +43,16 @@ let
         "pfhtMKuo" = _pfhtMKuo;
         "9ZRMqrJe" = _9ZRMqrJe;
         "kIBiQuE8" = _kIBiQuE8;
-        "fabric-1.20.1" = _kIBiQuE8;
+        "IPoHQL6D" = _IPoHQL6D;
+        "fabric-1.20.1" = _IPoHQL6D;
         "pkg-1.4.5" = _AG7hwInN;
         "pkg-1.4.6" = _ad9yYcib;
         "pkg-1.4.7-pre.2" = _B0DL1Yf9;
         "pkg-2.0.0" = _pfhtMKuo;
         "pkg-2.1.0" = _9ZRMqrJe;
         "pkg-2.1.1" = _kIBiQuE8;
-        "default" = _kIBiQuE8;
+        "pkg-2.2.0+540ca93" = _IPoHQL6D;
+        "default" = _IPoHQL6D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hexic";

@@ -51,6 +51,11 @@ let
             "file" = "Backrooms -LabPbr-25.zip";
             "hash" = "sha512-+z71auVVFfs3XlI6a5psjKDXiha7hdhOEF7NTKy0fAEF6RX6r2BFfdT0Fx6cjWx0UpQ10+8mvLNwSekl9xoufQ==";
         };
+        _FnGxvQBl = {
+            "id" = "FnGxvQBl";
+            "file" = "Backrooms -LabPbr-26.zip";
+            "hash" = "sha512-kH9SE6f5njH7pBANuQ2ul0BHHHpWuqhktTR9cOpCoXPjsmGFm2wk34dbhz5VIjGJQ2xtUDofDBxWdA1GarXFQA==";
+        };
     in {
         "LMvRU2R5" = _LMvRU2R5;
         "mAbzNQSS" = _mAbzNQSS;
@@ -62,6 +67,7 @@ let
         "6M37uJ9s" = _6M37uJ9s;
         "KmSJjc7D" = _KmSJjc7D;
         "hVHHlgTn" = _hVHHlgTn;
+        "FnGxvQBl" = _FnGxvQBl;
         "minecraft-1.21" = _nYKK6N1i;
         "minecraft-1.21.1" = _nYKK6N1i;
         "minecraft-1.20" = _E116jSpF;
@@ -74,8 +80,9 @@ let
         "minecraft-1.21.2" = _E116jSpF;
         "minecraft-1.21.3" = _E116jSpF;
         "minecraft-1.21.4" = _E116jSpF;
-        "minecraft-26.1.2" = _hVHHlgTn;
-        "minecraft-26.2" = _hVHHlgTn;
+        "minecraft-26.1.2" = _FnGxvQBl;
+        "minecraft-26.2" = _FnGxvQBl;
+        "minecraft-26.3" = _FnGxvQBl;
         "pkg-1.0" = _LMvRU2R5;
         "pkg-1.1" = _mAbzNQSS;
         "pkg-1.2" = _nYKK6N1i;
@@ -86,7 +93,8 @@ let
         "pkg-1.7" = _6M37uJ9s;
         "pkg-1.8" = _KmSJjc7D;
         "pkg-1.8.1" = _hVHHlgTn;
-        "default" = _hVHHlgTn;
+        "pkg-1.9" = _FnGxvQBl;
+        "default" = _FnGxvQBl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "backroomspbr";

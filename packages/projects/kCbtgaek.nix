@@ -111,6 +111,11 @@ let
             "file" = "manual_labour-1.21.1-2.5.3.jar";
             "hash" = "sha512-S4mYvIxhhysGjWYfrYl+DKVZkM59KjtITNU9LdqwT+ZQvd4n4TGsS4al9UsrsWRU/XJQs1sQf0rZDg6S3z2aIw==";
         };
+        _olpyERjC = {
+            "id" = "olpyERjC";
+            "file" = "manual_labour-1.21.1-2.6.0.jar";
+            "hash" = "sha512-lsXwHARVLG9ZKVGIeUkXS7r6OHiNiqRn3a/jZ6LtZWy7gaVIC569WvxTbiJvRLP4tILTPQSbeAmteCrxGAA+qA==";
+        };
     in {
         "IO4PygcP" = _IO4PygcP;
         "a3matl2D" = _a3matl2D;
@@ -134,7 +139,8 @@ let
         "LKYGxFM2" = _LKYGxFM2;
         "JsdhWefE" = _JsdhWefE;
         "Cgp3Cgzp" = _Cgp3Cgzp;
-        "neoforge-1.21.1" = _Cgp3Cgzp;
+        "olpyERjC" = _olpyERjC;
+        "neoforge-1.21.1" = _olpyERjC;
         "pkg-1.0.0-1.21.1" = _IO4PygcP;
         "pkg-1.1.0-1.21.1" = _a3matl2D;
         "pkg-2.0.0-1.21.1" = _c5YN7W6n;
@@ -157,7 +163,8 @@ let
         "pkg-2.5.1-1.21.1" = _LKYGxFM2;
         "pkg-2.5.2-1.21.1" = _JsdhWefE;
         "pkg-2.5.3-1.21.1" = _Cgp3Cgzp;
-        "default" = _Cgp3Cgzp;
+        "pkg-2.6.0-1.21.1" = _olpyERjC;
+        "default" = _olpyERjC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "manual-labour";
