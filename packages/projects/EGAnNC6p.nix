@@ -31,6 +31,16 @@ let
             "file" = "SpearEffects-1.1.0+26.3.jar";
             "hash" = "sha512-iUgnJFO5a8Ch0WID8XkJosXmlM++BG9vEzA8Tg+yCG4uXLY2Zjd423IZZSVH71QBaZyLMlVS15q/tD/m1vJ/Ow==";
         };
+        _OyETGyf5 = {
+            "id" = "OyETGyf5";
+            "file" = "SpearEffects-1.1.3+26.2.jar";
+            "hash" = "sha512-GjhpOiJ5Bwl4Y8NIEvMHzXzIscJ52INIW62K33cwmB8CO/cyYJXqiocvN7u92Kq9BpsUnqD9lvWutWUkmuG02Q==";
+        };
+        _NjdGhHwd = {
+            "id" = "NjdGhHwd";
+            "file" = "SpearEffects-1.1.3+26.3.jar";
+            "hash" = "sha512-5J+F1KBpucKlsoWu7mk23NifOd8xKrvUPPFE5pHnbRVlclCdrT+Jh/ubg1GA5TP969dvj52zTD6PZsCma1NDuw==";
+        };
     in {
         "C1nhArdA" = _C1nhArdA;
         "ZvanGOQH" = _ZvanGOQH;
@@ -38,19 +48,23 @@ let
         "80UWTiSp" = _80UWTiSp;
         "rnnuuLdK" = _rnnuuLdK;
         "3AgGFuun" = _3AgGFuun;
+        "OyETGyf5" = _OyETGyf5;
+        "NjdGhHwd" = _NjdGhHwd;
         "fabric-1.21.11" = _5IE70t8G;
         "fabric-26.1" = _80UWTiSp;
         "fabric-26.1.1" = _80UWTiSp;
         "fabric-26.1.2" = _80UWTiSp;
-        "fabric-26.2" = _rnnuuLdK;
-        "fabric-26.3" = _3AgGFuun;
+        "fabric-26.2" = _OyETGyf5;
+        "fabric-26.3" = _NjdGhHwd;
         "pkg-1.0.0+1.21.11" = _C1nhArdA;
         "pkg-1.0.1+1.21.11" = _ZvanGOQH;
         "pkg-1.1.0+1.21.11" = _5IE70t8G;
         "pkg-1.1.0+26.1-26.1.2" = _80UWTiSp;
         "pkg-1.1.0+26.2" = _rnnuuLdK;
         "pkg-1.1.0+26.3" = _3AgGFuun;
-        "default" = _3AgGFuun;
+        "pkg-1.1.3+26.2" = _OyETGyf5;
+        "pkg-1.1.3+26.3" = _NjdGhHwd;
+        "default" = _NjdGhHwd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spear-effects";

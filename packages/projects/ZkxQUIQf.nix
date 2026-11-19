@@ -91,6 +91,26 @@ let
             "file" = "sodium-fps-step-fix-neoforge-1.0.1-1.21.11.jar";
             "hash" = "sha512-Rf4vl4tIneusyIsAr/Hl8h601jqU2lPqOKRzfRugUacIgnyVHNF0EB/iLJ0jF3Z38auqnG06c1KJmhwKHvmj8w==";
         };
+        _CxDTlq3t = {
+            "id" = "CxDTlq3t";
+            "file" = "sodium-fps-step-fix-fabric-1.0.2-26.3.jar";
+            "hash" = "sha512-sXk0eI86mbifGq84dQVVN8dgDWyUdvuDEk7HOxFQupCPLxWdpG4KjvUXvvmTKwXfo3Lz4sc4QBj/m18A5wNxfg==";
+        };
+        _8mbkcOYf = {
+            "id" = "8mbkcOYf";
+            "file" = "sodium-fps-step-fix-neoforge-1.0.2-26.3.jar";
+            "hash" = "sha512-cK1QzhoqC/qaP3DxxpRoNbQOtWDt0zxmQbnEVWI/gVWGamFm+z35qcDBlha23Ovvb4pQHYNzlQL3RQesP0Jd5Q==";
+        };
+        _YbVOmBHZ = {
+            "id" = "YbVOmBHZ";
+            "file" = "sodium-fps-step-fix-neoforge-1.0.2-26.2.jar";
+            "hash" = "sha512-x505dIbBd6iFlJwjcwQUAT+gEIHwfTYSyQPqbxZwxWk+shrh3bRXdQCTtf8wGjjC33sF4wJZldtBOVZyDe/2ow==";
+        };
+        _ho2f88B6 = {
+            "id" = "ho2f88B6";
+            "file" = "sodium-fps-step-fix-fabric-1.0.2-26.2.jar";
+            "hash" = "sha512-GPHDxyZBqWtRtPGc8e/9yxh2ikmkI9d5x3jrxNOKUrgGvNPRTayTg11nuPxdYTUJyVxuHfKJpOkiVMx+BuIBcA==";
+        };
     in {
         "ub4g0gN8" = _ub4g0gN8;
         "Nd7Sowia" = _Nd7Sowia;
@@ -110,18 +130,22 @@ let
         "RpkP11bl" = _RpkP11bl;
         "UrbcPgZ0" = _UrbcPgZ0;
         "HWbZoleW" = _HWbZoleW;
-        "fabric-26.2" = _Nd7Sowia;
+        "CxDTlq3t" = _CxDTlq3t;
+        "8mbkcOYf" = _8mbkcOYf;
+        "YbVOmBHZ" = _YbVOmBHZ;
+        "ho2f88B6" = _ho2f88B6;
+        "fabric-26.2" = _ho2f88B6;
         "fabric-1.21.1" = _wjaQ6dBO;
         "fabric-1.20.1" = _rffEVXYW;
-        "fabric-26.3" = _6viB4BeW;
+        "fabric-26.3" = _CxDTlq3t;
         "fabric-26.1.1" = _Uh4yiDPX;
         "fabric-26.1.2" = _qOGeiR3J;
         "fabric-26.1" = _trjq6ork;
         "fabric-1.21.10" = _IrwQI58l;
         "fabric-1.21.11" = _RpkP11bl;
         "neoforge-1.21.1" = _srNAjgfk;
-        "neoforge-26.2" = _PGEdLdsx;
-        "neoforge-26.3" = _wlSUxsfj;
+        "neoforge-26.2" = _YbVOmBHZ;
+        "neoforge-26.3" = _8mbkcOYf;
         "neoforge-26.1.1" = _Q7pC9wl4;
         "neoforge-26.1.2" = _XHq33dXR;
         "neoforge-26.1" = _yZmLXkt3;
@@ -137,7 +161,9 @@ let
         "pkg-1.0.1-26.1" = _trjq6ork;
         "pkg-1.0.1-1.21.10" = _UrbcPgZ0;
         "pkg-1.0.1-1.21.11" = _HWbZoleW;
-        "default" = _HWbZoleW;
+        "pkg-1.0.2-26.3" = _8mbkcOYf;
+        "pkg-1.0.2-26.2" = _ho2f88B6;
+        "default" = _ho2f88B6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sodium-fps-step-fix";

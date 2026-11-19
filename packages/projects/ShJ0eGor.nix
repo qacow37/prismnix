@@ -26,20 +26,27 @@ let
             "file" = "chewy_cheeses-1.1.1.jar";
             "hash" = "sha512-PDWO3k7iZPA7F5mFnhza5+/Fv2hLciNA/0n/Lro5Fao9v1oXVkmGfix4X2MBOIP6A4Gpsa06HnKfj/MUjqJ40g==";
         };
+        _sq4ztsE6 = {
+            "id" = "sq4ztsE6";
+            "file" = "chewy_cheeses-1.2.0.jar";
+            "hash" = "sha512-shNX+o9AaydEA1V9s0FA23Mnq+zBZmkSZmnG0k3yW58fmVF40p+4lBtIXTkcP0zBh+2Sdiz7vyeG/1/PxUWdyQ==";
+        };
     in {
         "NnFmp5SP" = _NnFmp5SP;
         "w3rTIYAW" = _w3rTIYAW;
         "weQL6Mga" = _weQL6Mga;
         "QMbWzxFN" = _QMbWzxFN;
         "lYOPTQul" = _lYOPTQul;
+        "sq4ztsE6" = _sq4ztsE6;
         "forge-1.20.1" = _NnFmp5SP;
-        "neoforge-1.21.1" = _lYOPTQul;
+        "neoforge-1.21.1" = _sq4ztsE6;
         "pkg-0.3.1" = _NnFmp5SP;
         "pkg-1.0.0" = _w3rTIYAW;
         "pkg-1.0.1" = _weQL6Mga;
         "pkg-1.1.0" = _QMbWzxFN;
         "pkg-1.1.1" = _lYOPTQul;
-        "default" = _lYOPTQul;
+        "pkg-1.2.0" = _sq4ztsE6;
+        "default" = _sq4ztsE6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chewy-cheeses";

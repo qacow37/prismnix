@@ -46,6 +46,21 @@ let
             "file" = "playabledragons-1.21.1-1.13.0.jar";
             "hash" = "sha512-QQ6juO/5f/3knz45qsE7yNQY45hHs1zf+/Jf6Jzx7UjAnmHmJfBcazTuGbIN+UEg/JyVtSpHHPBtPk6oLhgOFA==";
         };
+        _LcInMXKJ = {
+            "id" = "LcInMXKJ";
+            "file" = "playabledragons-1.21.1-3.0.0.jar";
+            "hash" = "sha512-wZ/VvlK6jj4RRkl+mAwPnAGkGIhRoCA5u5xXLNkNsCVYjfy+K/ShhG5apeFbWjE0XqL9M+sx5EwtztsdXkZYjA==";
+        };
+        _I0HnyFmF = {
+            "id" = "I0HnyFmF";
+            "file" = "playabledragons-1.20.1-3.0.0.jar";
+            "hash" = "sha512-4Mbo4TdmNpLgYgWqYnIgOz613oUGaMuc9FElBywdlg2uYdVSlSOA4blKZvlhqgptHkWOUWiL85R+EzaSx+qn9g==";
+        };
+        _kISpSedS = {
+            "id" = "kISpSedS";
+            "file" = "playabledragons-1.21.1-3.1.0.jar";
+            "hash" = "sha512-Wceze+DYbx/3HrSosNTO3iNbXKgxzMs4lS+s8GuNNrao2teFwyY7aHsOB332CPByjfuuOsEWNIxmds0aTy6Jxg==";
+        };
     in {
         "OPVLX7cV" = _OPVLX7cV;
         "SJ9G4jVS" = _SJ9G4jVS;
@@ -56,13 +71,16 @@ let
         "g5vEbMsi" = _g5vEbMsi;
         "9eMJpW45" = _9eMJpW45;
         "LPAqzVVR" = _LPAqzVVR;
-        "forge-1.20.1" = _9eMJpW45;
-        "forge-1.20.6" = _9eMJpW45;
-        "forge-1.20.5" = _9eMJpW45;
-        "forge-1.20.4" = _9eMJpW45;
-        "forge-1.20.3" = _9eMJpW45;
-        "forge-1.20.2" = _9eMJpW45;
-        "neoforge-1.21.1" = _LPAqzVVR;
+        "LcInMXKJ" = _LcInMXKJ;
+        "I0HnyFmF" = _I0HnyFmF;
+        "kISpSedS" = _kISpSedS;
+        "forge-1.20.1" = _I0HnyFmF;
+        "forge-1.20.6" = _I0HnyFmF;
+        "forge-1.20.5" = _I0HnyFmF;
+        "forge-1.20.4" = _I0HnyFmF;
+        "forge-1.20.3" = _I0HnyFmF;
+        "forge-1.20.2" = _I0HnyFmF;
+        "neoforge-1.21.1" = _kISpSedS;
         "pkg-0.7.1" = _OPVLX7cV;
         "pkg-0.7.3" = _SJ9G4jVS;
         "pkg-0.11.0" = _pKRi6WQE;
@@ -72,7 +90,9 @@ let
         "pkg-2.12.0" = _g5vEbMsi;
         "pkg-2.14.0" = _9eMJpW45;
         "pkg-2.13.0" = _LPAqzVVR;
-        "default" = _LPAqzVVR;
+        "pkg-3.0.0" = _I0HnyFmF;
+        "pkg-3.1.0" = _kISpSedS;
+        "default" = _kISpSedS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bodplayabledragons";

@@ -1081,6 +1081,46 @@ let
             "file" = "SubtleEffects-neoforge-1.21.1-1.15.2-hotfix.1.jar";
             "hash" = "sha512-KYc32966TUzA6SnTMaI5OYvcRADJIwh5TXc8wYq1dkPevMecqNOsdbEptWOfZ6MplTTgMybuydZ66l+N2hf7zw==";
         };
+        _MYSPMJrC = {
+            "id" = "MYSPMJrC";
+            "file" = "SubtleEffects-fabric-1.21.1-1.15.3.jar";
+            "hash" = "sha512-h2mOr9nzJil49rPqhdcywwiBp7VJ136UjwqjNGS+Gvt0s+cu/2Jl8Kme23+wCT0Rd6TnVsFVBJYxP3LXhSyyVQ==";
+        };
+        _1Cj3QYAu = {
+            "id" = "1Cj3QYAu";
+            "file" = "SubtleEffects-neoforge-1.21.1-1.15.3.jar";
+            "hash" = "sha512-zdcNNs0oN8+XthwnawhdFRfjpMBOSVqg2n9Ir5iZAIU/borCSDUdeLBivQi+fLq8CCYpnl06+kTZTzjcTLg7Uw==";
+        };
+        _khCEvi8v = {
+            "id" = "khCEvi8v";
+            "file" = "SubtleEffects-fabric-26.1.2-1.15.3.jar";
+            "hash" = "sha512-PNGcRcY44ctWN1gxY8qA7YqMGDw8F/PNRpkrbo7rBxF21Db6pmKl4WTIHsJ7L5E4iXi4t51mei1K5ZLI3U7YPg==";
+        };
+        _epwZuEkx = {
+            "id" = "epwZuEkx";
+            "file" = "SubtleEffects-neoforge-26.1.2-1.15.3.jar";
+            "hash" = "sha512-jqwOmyCTe3E/pCcqUiaoYJZWsA2aiVCi4vTLK8Ml09Nl1mXEkIDy7bhvdAP7wyn3rGyPjGmHJ4vUpk6BhbOwug==";
+        };
+        _JaXOAmuS = {
+            "id" = "JaXOAmuS";
+            "file" = "SubtleEffects-fabric-26.2-1.15.3.jar";
+            "hash" = "sha512-GHV0CCgxbn3g0Ef0hpxZvrP+NbEjJpYIW+DP7jgpmDn+2DTy0Tw4uuDOl1wOLttMGXU8JLqd8xQhtOdDueevIw==";
+        };
+        _HwY2376j = {
+            "id" = "HwY2376j";
+            "file" = "SubtleEffects-neoforge-26.2-1.15.3.jar";
+            "hash" = "sha512-kiFoEli/CzziVP/NhFkLlK36riPgKn8B4PgWD+/m3s7Tgbt50NJnv7cbbyTpE191VyZ389nUoULwADsbCxUtkQ==";
+        };
+        _igsrd43g = {
+            "id" = "igsrd43g";
+            "file" = "SubtleEffects-fabric-26.3-1.15.3.jar";
+            "hash" = "sha512-j43scFFK+aViLOxdvrRk1cJDUBfYISo69vj5GQcXe5eHXtL7zTYhk/FjIAI8B3PlXNkWSGCI+iYMeH9poUpLTQ==";
+        };
+        _jrMOBGI0 = {
+            "id" = "jrMOBGI0";
+            "file" = "SubtleEffects-neoforge-26.3-1.15.3.jar";
+            "hash" = "sha512-L50Vq49hWCHEInQ6h3Vj/LWFFhAxPTd01sukZO9hFkffu4y/pAYpHTQRNiLokaVs4h8gllJpFDqC15NpXZDnEw==";
+        };
     in {
         "1d1qmFKW" = _1d1qmFKW;
         "obE8lj6k" = _obE8lj6k;
@@ -1298,7 +1338,15 @@ let
         "jgLfCrS1" = _jgLfCrS1;
         "QGgOmwz7" = _QGgOmwz7;
         "w4f4zz6I" = _w4f4zz6I;
-        "fabric-1.21.1" = _QGgOmwz7;
+        "MYSPMJrC" = _MYSPMJrC;
+        "1Cj3QYAu" = _1Cj3QYAu;
+        "khCEvi8v" = _khCEvi8v;
+        "epwZuEkx" = _epwZuEkx;
+        "JaXOAmuS" = _JaXOAmuS;
+        "HwY2376j" = _HwY2376j;
+        "igsrd43g" = _igsrd43g;
+        "jrMOBGI0" = _jrMOBGI0;
+        "fabric-1.21.1" = _MYSPMJrC;
         "fabric-1.21" = _wFxfk79O;
         "fabric-1.20.1" = _FmVsUs6v;
         "fabric-1.21.3" = _VEFw2Lvl;
@@ -1311,10 +1359,10 @@ let
         "fabric-1.21.11" = _5Uku820x;
         "fabric-26.1" = _bUt5IK5S;
         "fabric-26.1.1" = _bUt5IK5S;
-        "fabric-26.1.2" = _4yHzZnYt;
-        "fabric-26.2" = _fqKCIL1l;
-        "fabric-26.3" = _BMMtEpDv;
-        "neoforge-1.21.1" = _w4f4zz6I;
+        "fabric-26.1.2" = _khCEvi8v;
+        "fabric-26.2" = _JaXOAmuS;
+        "fabric-26.3" = _igsrd43g;
+        "neoforge-1.21.1" = _1Cj3QYAu;
         "neoforge-1.21" = _tlhBalp2;
         "neoforge-1.21.3" = _N77XeinY;
         "neoforge-1.21.4" = _Z4pLufCX;
@@ -1326,9 +1374,9 @@ let
         "neoforge-1.21.11" = _cXCBfXEe;
         "neoforge-26.1" = _O5GJ2L9L;
         "neoforge-26.1.1" = _O5GJ2L9L;
-        "neoforge-26.1.2" = _ZJqcsaPp;
-        "neoforge-26.2" = _CRzOskid;
-        "neoforge-26.3" = _jgLfCrS1;
+        "neoforge-26.1.2" = _epwZuEkx;
+        "neoforge-26.2" = _HwY2376j;
+        "neoforge-26.3" = _jrMOBGI0;
         "forge-1.20.1" = _Ztgv9kkz;
         "pkg-1.0.0" = _obE8lj6k;
         "pkg-1.1.0" = _oBfxhEG5;
@@ -1370,7 +1418,8 @@ let
         "pkg-1.15.1-hotfix.1" = _Ztgv9kkz;
         "pkg-1.15.2" = _jgLfCrS1;
         "pkg-1.15.2-hotfix.1" = _w4f4zz6I;
-        "default" = _w4f4zz6I;
+        "pkg-1.15.3" = _jrMOBGI0;
+        "default" = _jrMOBGI0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "subtle-effects";

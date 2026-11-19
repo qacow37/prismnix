@@ -1101,6 +1101,11 @@ let
             "file" = "pets-mod-0.7.9-b1.7.3-ornithe.jar";
             "hash" = "sha512-vx/gBmvM1c+fARhD6As2tiCfJRNl8QxUlhLb1ECFHhwyKYRMP+VyEPSDfxF7QyQoY44iUG72fCBkuxiQKc/ouw==";
         };
+        _v0KvreKu = {
+            "id" = "v0KvreKu";
+            "file" = "pets-mod-0.7.9-b1.7.3-babric.jar";
+            "hash" = "sha512-b3Qw4LhwSzMT1mR/TURqDwKLqLbgDPhNTr7sYPPBPxSoOl6SvqxU3OtJBn9fTc4r6rOzPx152sXcBBsP2YoWOg==";
+        };
     in {
         "QXwNiseV" = _QXwNiseV;
         "fNYBq9w9" = _fNYBq9w9;
@@ -1322,6 +1327,7 @@ let
         "honLerJ2" = _honLerJ2;
         "WQDBAYnH" = _WQDBAYnH;
         "cmvY6OUW" = _cmvY6OUW;
+        "v0KvreKu" = _v0KvreKu;
         "fabric-1.21.11" = _CPwFdYy0;
         "fabric-26.1" = _O9ZcoNMs;
         "fabric-26.1.1" = _O9ZcoNMs;
@@ -1618,6 +1624,7 @@ let
         "nilloader-26.1.1" = _b3HHKYmt;
         "nilloader-26.1.2" = _b3HHKYmt;
         "modloader-1.5.2" = _bJ4atTup;
+        "babric-b1.7.3" = _v0KvreKu;
         "pkg-0.5.0-1.21.11-beta" = _QXwNiseV;
         "pkg-0.5.1-1.21.11-beta" = _fNYBq9w9;
         "pkg-0.5.2-1.21.11-beta" = _B0uAUPWv;
@@ -1832,7 +1839,8 @@ let
         "pkg-0.7.9-1.0.0-Ornithe" = _honLerJ2;
         "pkg-0.7.9-b1.8-Ornithe" = _WQDBAYnH;
         "pkg-0.7.9-b1.7.3-Ornithe" = _cmvY6OUW;
-        "default" = _cmvY6OUW;
+        "pkg-0.7.9-b1.7.3-Babric" = _v0KvreKu;
+        "default" = _v0KvreKu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pets-mod";

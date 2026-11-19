@@ -66,6 +66,11 @@ let
             "file" = "Arda's Uncrafting Table 1.3 [FORGE] [1.7.10].jar";
             "hash" = "sha512-qjTOX0YjJsgr9lIf6bgDWlVqy9waQci5wS1bvqWgUy0e8v67ZOprjTqFg1hlf8HxXqM/iGlzLdsFEEDPca4P/w==";
         };
+        _CpjHIsuJ = {
+            "id" = "CpjHIsuJ";
+            "file" = "Arda's Uncrafting Table 1.4 [FABRIC] [26.3].jar";
+            "hash" = "sha512-xGmKjWcw9LXMIxM08als1lamjtlpvK71XceO4MhsUFTp2rM+iaa3hNp9fgK7Li2RwHx09nkR1MeR65gyu9Hptg==";
+        };
     in {
         "Jc12IMVW" = _Jc12IMVW;
         "IVi7o3Xt" = _IVi7o3Xt;
@@ -80,18 +85,21 @@ let
         "QV8f5nvc" = _QV8f5nvc;
         "qznOkERs" = _qznOkERs;
         "k8xfRAU9" = _k8xfRAU9;
+        "CpjHIsuJ" = _CpjHIsuJ;
         "neoforge-1.21.1" = _QV8f5nvc;
         "forge-1.20.1" = _qznOkERs;
         "forge-1.16.5" = _Hsap4F6m;
         "forge-1.12.2" = _k3CSQFL4;
         "forge-1.7.10" = _k8xfRAU9;
         "fabric-1.20.1" = _90KR5JIv;
+        "fabric-26.3" = _CpjHIsuJ;
         "babric-b1.7.3" = _TpTTwcEX;
         "pkg-1.0" = _90KR5JIv;
         "pkg-1.1" = _Hsap4F6m;
         "pkg-1.2" = _uyFh9nVP;
         "pkg-1.3" = _k8xfRAU9;
-        "default" = _k8xfRAU9;
+        "pkg-1.4" = _CpjHIsuJ;
+        "default" = _CpjHIsuJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ardas-uncrafting-table";

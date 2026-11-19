@@ -566,6 +566,16 @@ let
             "file" = "litematica-printer-dev513.jar";
             "hash" = "sha512-ImrmUPLV5U6SqFRiEpp7Qx96KKWc5pZAydAYFjXNftr5pogYB2ln3Iv6NbYtTqKVf4piH4lVSzqzB/8CEyTG4g==";
         };
+        _ktUdg0j4 = {
+            "id" = "ktUdg0j4";
+            "file" = "litematica-printer-dev514.jar";
+            "hash" = "sha512-BwDnx3ueWHS4gO8aQ9+Fsq+12stlm6itMvl8c5Pga+ErEMCVFU+paiOr39gqTWlbGVbFQFj6DZd7tQVYDSvhOg==";
+        };
+        _nzUX3o7c = {
+            "id" = "nzUX3o7c";
+            "file" = "litematica-printer-dev515.jar";
+            "hash" = "sha512-PejhN0uu79VRgUmLKoLXWGIWLrhqsOlL8wohiwLLRTqrMpV/zssD7Bzz9IRkOhVfj4vdgm+Z1wDYKK5Dnos0aw==";
+        };
     in {
         "iM0YFug1" = _iM0YFug1;
         "jcUSgzrI" = _jcUSgzrI;
@@ -680,6 +690,8 @@ let
         "lzmDTT2o" = _lzmDTT2o;
         "pD8WHGD7" = _pD8WHGD7;
         "O4uWHNQP" = _O4uWHNQP;
+        "ktUdg0j4" = _ktUdg0j4;
+        "nzUX3o7c" = _nzUX3o7c;
         "fabric-1.18.2" = _RFucyDlp;
         "fabric-1.19.4" = _RFucyDlp;
         "fabric-1.20.1" = _RFucyDlp;
@@ -698,11 +710,11 @@ let
         "fabric-1.21.9" = _RFucyDlp;
         "fabric-1.21.10" = _RFucyDlp;
         "fabric-1.21.11" = _RFucyDlp;
-        "fabric-26.1" = _O4uWHNQP;
-        "fabric-26.1.1" = _O4uWHNQP;
-        "fabric-26.1.2" = _O4uWHNQP;
-        "fabric-26.2" = _O4uWHNQP;
-        "fabric-26.3" = _O4uWHNQP;
+        "fabric-26.1" = _nzUX3o7c;
+        "fabric-26.1.1" = _nzUX3o7c;
+        "fabric-26.1.2" = _nzUX3o7c;
+        "fabric-26.2" = _nzUX3o7c;
+        "fabric-26.3" = _nzUX3o7c;
         "pkg-0.7.2.1-Hana-dev348" = _iM0YFug1;
         "pkg-0.7.2.1-Hana-beta21" = _jcUSgzrI;
         "pkg-0.7.2.1-Hana-dev377" = _QyyT6C7K;
@@ -816,7 +828,9 @@ let
         "pkg-Hana-Dev511" = _lzmDTT2o;
         "pkg-Hana-Dev512" = _pD8WHGD7;
         "pkg-Hana-Dev513" = _O4uWHNQP;
-        "default" = _O4uWHNQP;
+        "pkg-Hana-Dev514" = _ktUdg0j4;
+        "pkg-Hana-Dev515" = _nzUX3o7c;
+        "default" = _nzUX3o7c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "litematica-printer-hana";

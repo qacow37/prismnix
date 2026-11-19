@@ -326,6 +326,36 @@ let
             "file" = "mochipets-0.23.0+26.3.jar";
             "hash" = "sha512-suaeJSrGebmlq0Gbj2DAECBlZDG7C136GT1eHw/SSvs0MQ6ppTFbHtgms4RWBE3VgG2f7WITJ0iVH3NhbR80Fw==";
         };
+        _sr5mE4HI = {
+            "id" = "sr5mE4HI";
+            "file" = "mochipets-0.24.0.jar";
+            "hash" = "sha512-i+tWEemtGJllPQgUkR6MduLL0iwko8AIk9FlVVArQY+zzSupxg+c3rOxydnUbK1B26abyxoCH3hsjnM/uSh6bg==";
+        };
+        _gfRBE5j4 = {
+            "id" = "gfRBE5j4";
+            "file" = "mochipets-0.24.0+26.2.jar";
+            "hash" = "sha512-EdqGgOIpp3vTN0Hfe5GrfB1+jUvAoqk4iQ39Vmww6GPnurgjS5sOIvd2bBNmgHNjODsW5LCPvh0JXal0HW0zmA==";
+        };
+        _vsou3IsL = {
+            "id" = "vsou3IsL";
+            "file" = "mochipets-0.24.0+26.3.jar";
+            "hash" = "sha512-l20Svg1XH8Iihxp0PtUhBx5+FfdIeJ+aCxh6ebU2YJUmV3PwxE5RNA6i0Qq2FwSCwBrZAxrLTYRnDGluxbTRLw==";
+        };
+        _U8eZZFeB = {
+            "id" = "U8eZZFeB";
+            "file" = "mochipets-0.25.0.jar";
+            "hash" = "sha512-5Jskql0prt5pfkE3uN6Qh5SVsNikM2ypnMutHUrgXzotI50CoOlE3TxKdgY9m/XkJNHFTE2wBPGBizvsy8FQcQ==";
+        };
+        _b3wGu86r = {
+            "id" = "b3wGu86r";
+            "file" = "mochipets-0.25.0+26.2.jar";
+            "hash" = "sha512-Dx87XZYpCBQDmTEqrcLJ1VlmdVjSnyoNH2fmWBpbQjxe/tymgf/I6Mfs1RiGJeFjiasC7ULdblotAkEtTmLMoA==";
+        };
+        _MxkKLJDZ = {
+            "id" = "MxkKLJDZ";
+            "file" = "mochipets-0.25.0+26.3.jar";
+            "hash" = "sha512-aTqMv7SSXhGvJSGSP9Djcj4Sr+/BDUm9j4NslIls933cVAho5mSZtGR7ccXTt8smrI5/ZPL5XqsO8WfxLyWP/w==";
+        };
     in {
         "GM5Gquye" = _GM5Gquye;
         "YqD6tHAw" = _YqD6tHAw;
@@ -392,9 +422,15 @@ let
         "UNjp4b6x" = _UNjp4b6x;
         "loN2EbjX" = _loN2EbjX;
         "kiUjHVtz" = _kiUjHVtz;
-        "fabric-26.1.2" = _UNjp4b6x;
-        "fabric-26.2" = _loN2EbjX;
-        "fabric-26.3" = _kiUjHVtz;
+        "sr5mE4HI" = _sr5mE4HI;
+        "gfRBE5j4" = _gfRBE5j4;
+        "vsou3IsL" = _vsou3IsL;
+        "U8eZZFeB" = _U8eZZFeB;
+        "b3wGu86r" = _b3wGu86r;
+        "MxkKLJDZ" = _MxkKLJDZ;
+        "fabric-26.1.2" = _U8eZZFeB;
+        "fabric-26.2" = _b3wGu86r;
+        "fabric-26.3" = _MxkKLJDZ;
         "pkg-0.1.0" = _GM5Gquye;
         "pkg-0.2.0" = _YqD6tHAw;
         "pkg-0.2.1" = _4pgsR5j6;
@@ -460,7 +496,13 @@ let
         "pkg-0.23.0" = _UNjp4b6x;
         "pkg-0.23.0+26.2" = _loN2EbjX;
         "pkg-0.23.0+26.3" = _kiUjHVtz;
-        "default" = _kiUjHVtz;
+        "pkg-0.24.0" = _sr5mE4HI;
+        "pkg-0.24.0+26.2" = _gfRBE5j4;
+        "pkg-0.24.0+26.3" = _vsou3IsL;
+        "pkg-0.25.0" = _U8eZZFeB;
+        "pkg-0.25.0+26.2" = _b3wGu86r;
+        "pkg-0.25.0+26.3" = _MxkKLJDZ;
+        "default" = _MxkKLJDZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "adorable-mochi-pets";

@@ -271,6 +271,26 @@ let
             "file" = "HyInfo-3.0.2-1.8.9_ornithe.jar";
             "hash" = "sha512-pUAGOw/RxzCfsR5kxHcmDaG0ULSIF46wnl9e7on4Vx9MwrpMTPvR1u9l6QFRhACrkqHnBA60CVtm6ytYKosU5Q==";
         };
+        _XEDatAre = {
+            "id" = "XEDatAre";
+            "file" = "HyInfo-3.1.0-1.8.9_ornithe.jar";
+            "hash" = "sha512-t6FyZp8qA+RhBwQMXS5geLsjs66xDOpM8KaNemHCYIbDOZv3vNEWRwfhI/GP34XSmnkZkfTxsxD62XEJ0cP4PA==";
+        };
+        _FLHWxNao = {
+            "id" = "FLHWxNao";
+            "file" = "HyInfo-3.1.0-26.1+_fabric.jar";
+            "hash" = "sha512-dRHS64UOn/g5VrS+CD3DusWBsnVzcb+//ZLhpZ50L5tHpyzEkzazr/Qjm8toqgyK9l8RkNKYBmBJCIOi7XASTw==";
+        };
+        _osROWwlz = {
+            "id" = "osROWwlz";
+            "file" = "HyInfo-3.1.0-26.2+_fabric.jar";
+            "hash" = "sha512-s3c/UthGixxCNB2XdX+OFoW5+b6HOd24yh7qZme67IvknaAJCzjhJNce7as5jAsRIlhPddKGDJi6R2Wo0JZsyA==";
+        };
+        _HkMnNKEH = {
+            "id" = "HkMnNKEH";
+            "file" = "HyInfo-3.1.0-26.3+_fabric.jar";
+            "hash" = "sha512-yvnS5fkf5yoafmt6Bh+8GT/bTzgcejHRtTiie11l/JuOFJ15ofCQf22Nvt7ibXoq2MizChDmExHQWqV0zEt3Lw==";
+        };
     in {
         "XURNFfTd" = _XURNFfTd;
         "69x46XJZ" = _69x46XJZ;
@@ -326,14 +346,18 @@ let
         "daIyUVgn" = _daIyUVgn;
         "2ebeBaaE" = _2ebeBaaE;
         "1QiiDPAf" = _1QiiDPAf;
+        "XEDatAre" = _XEDatAre;
+        "FLHWxNao" = _FLHWxNao;
+        "osROWwlz" = _osROWwlz;
+        "HkMnNKEH" = _HkMnNKEH;
         "forge-1.8.9" = _U2Hu2vfL;
-        "fabric-26.1" = _rZL90gev;
-        "fabric-26.1.1" = _rZL90gev;
-        "fabric-26.1.2" = _rZL90gev;
-        "fabric-26.2" = _daIyUVgn;
+        "fabric-26.1" = _FLHWxNao;
+        "fabric-26.1.1" = _FLHWxNao;
+        "fabric-26.1.2" = _FLHWxNao;
+        "fabric-26.2" = _osROWwlz;
         "fabric-1.21.11" = _Vyth571z;
-        "fabric-26.3" = _2ebeBaaE;
-        "ornithe-1.8.9" = _1QiiDPAf;
+        "fabric-26.3" = _HkMnNKEH;
+        "ornithe-1.8.9" = _XEDatAre;
         "pkg-1.0.0-1.8.9" = _XURNFfTd;
         "pkg-1.0.0-26.1+" = _69x46XJZ;
         "pkg-1.0.0-26.2+" = _sdqwfaxf;
@@ -388,7 +412,11 @@ let
         "pkg-3.0.1-26.2+" = _daIyUVgn;
         "pkg-3.0.1-26.3+" = _2ebeBaaE;
         "pkg-3.0.2-1.8.9" = _1QiiDPAf;
-        "default" = _1QiiDPAf;
+        "pkg-3.1.0-1.8.9" = _XEDatAre;
+        "pkg-3.1.0-26.1+" = _FLHWxNao;
+        "pkg-3.1.0-26.2+" = _osROWwlz;
+        "pkg-3.1.0-26.3+" = _HkMnNKEH;
+        "default" = _HkMnNKEH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hymod";

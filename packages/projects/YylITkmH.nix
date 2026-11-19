@@ -71,6 +71,16 @@ let
             "file" = "eternal-starlight-delight-fabric-1.4.0.jar";
             "hash" = "sha512-bDI0P1xzxVqgvsC6rkFJHxx77DtGqclN76OxdhjClAKb853K9L0czOd6KHmJ4qYKKyDdpFNJiIqLyALNQSHOKw==";
         };
+        _tzJWMNjM = {
+            "id" = "tzJWMNjM";
+            "file" = "eternal_starlight_delight-neoforge-1.5.0.jar";
+            "hash" = "sha512-OLO6yE84ZlPmAFS2fUKFJ9qdn3oQXGysqIbLhwNMiw3F63FOm7yr1VK05iISs6X3Oab2w50xwwI30P991z/Ihw==";
+        };
+        _EfzqV59h = {
+            "id" = "EfzqV59h";
+            "file" = "eternal-starlight-delight-fabric-1.5.0.jar";
+            "hash" = "sha512-owZcgwIoE1BXLeiey/4igY0CUm+/4A10CXQZPa0P2QBsJsE13RQpIQ1/ZLwzcSSs99JtVsDAqmC08KfkKdpOew==";
+        };
     in {
         "iVARKqIj" = _iVARKqIj;
         "GMVIgBDB" = _GMVIgBDB;
@@ -86,8 +96,10 @@ let
         "HaRG2Vkj" = _HaRG2Vkj;
         "MMPpDCVb" = _MMPpDCVb;
         "SyAnmkyo" = _SyAnmkyo;
-        "neoforge-1.21.1" = _MMPpDCVb;
-        "fabric-1.21.1" = _SyAnmkyo;
+        "tzJWMNjM" = _tzJWMNjM;
+        "EfzqV59h" = _EfzqV59h;
+        "neoforge-1.21.1" = _tzJWMNjM;
+        "fabric-1.21.1" = _EfzqV59h;
         "pkg-1.0.0-alpha.1" = _GMVIgBDB;
         "pkg-1.0.0-alpha.2" = _JDY3hfWf;
         "pkg-1.0.0" = _3NTQ3omq;
@@ -96,7 +108,8 @@ let
         "pkg-1.2.1" = _6fV39Qex;
         "pkg-1.3.0" = _HaRG2Vkj;
         "pkg-1.4.0" = _SyAnmkyo;
-        "default" = _SyAnmkyo;
+        "pkg-1.5.0" = _EfzqV59h;
+        "default" = _EfzqV59h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eternal-starlight-delight";

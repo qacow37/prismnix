@@ -20646,6 +20646,56 @@ let
             "file" = "Geyser-Velocity.jar";
             "hash" = "sha512-Higzv66C9rdHBLhtSGq64ZZIEt8lv81EGxXyMeX4lhbXcDjYyOYFqY65wLblUSvAVTuzGEyLzpo3qlHBUrjLWw==";
         };
+        _gru9GOin = {
+            "id" = "gru9GOin";
+            "file" = "Geyser-Fabric-2.12.1-b1304.jar";
+            "hash" = "sha512-tlmthK39OOJyQMUjZKIKjgRgI+JuJ87kHL+ToApA7JfzvWQh0h76qfZ7uGjF1ihsmzBmPJABoEJZllnBOXdKLg==";
+        };
+        _zisitvrK = {
+            "id" = "zisitvrK";
+            "file" = "Geyser-BungeeCord.jar";
+            "hash" = "sha512-XNpU/hDC9lWz5BJvsG+gIP3hfKlDWsJ5GKJ/dMf6ga/YE00KNkqhyQ2OfXec1GKkWxKtZl6IHZWV+FBRwLsATg==";
+        };
+        _qcjkmW3d = {
+            "id" = "qcjkmW3d";
+            "file" = "Geyser-Neoforge-2.12.1-b1304.jar";
+            "hash" = "sha512-oI08w73DehiX/63PostepTewZgF5r+OOqQrjW90ADB0C0dI4Km3fhKCnVRSqcdyfDIAb+JPPY14hTlouCUyf7g==";
+        };
+        _q4wTYDr3 = {
+            "id" = "q4wTYDr3";
+            "file" = "Geyser-Spigot.jar";
+            "hash" = "sha512-7OqABleUqck858ilmLRRsArfj7xcAbUoAJ+6E4FhjChcbXObnAFc1xrFaoWuKr9hES4TLjK+3zRPVvHf5zWT1g==";
+        };
+        _NHZrBAWC = {
+            "id" = "NHZrBAWC";
+            "file" = "Geyser-Velocity.jar";
+            "hash" = "sha512-c7P0P2q+JKdXXiLMjEgBz3Mls4B69aFWdnKcPyuIMJT5pI+lX+hdbhurlGHQW2OQuMDqzx7X0pacLuxBNXx0tg==";
+        };
+        _hdZqax0h = {
+            "id" = "hdZqax0h";
+            "file" = "Geyser-BungeeCord.jar";
+            "hash" = "sha512-m4lvcWh2N3xiCNdwgUX1HqAoMBtAAiKjqozUlGkjLTk3LEB79v9J8L4E6/kotjkFMQ9/4gEJW8KsY1LKJIn6vA==";
+        };
+        _RHxMMnIl = {
+            "id" = "RHxMMnIl";
+            "file" = "Geyser-Fabric-2.12.1-b1305.jar";
+            "hash" = "sha512-o5Kfid4P3UgZn3cHOKPmjLPTUDAru4hyhhaZCHOfWM9lIqB27KxnbFD6yvOP7UFh6PLdpBhI6lyo3oGOBd18lw==";
+        };
+        _fXNHsr20 = {
+            "id" = "fXNHsr20";
+            "file" = "Geyser-Neoforge-2.12.1-b1305.jar";
+            "hash" = "sha512-Pt3aZI/8M7C2kJ65gnSy7TDr98pBV3zIG+i+GsawSrU31ppwxWDELGLoiPg9/hchKVXPYL6TT3JzDwE1c+Ab9Q==";
+        };
+        _T7EjWmQO = {
+            "id" = "T7EjWmQO";
+            "file" = "Geyser-Spigot.jar";
+            "hash" = "sha512-n2Stg4ck1HUrx9B135aKT9pQFq01QqT2aDsqGr+Z8BKtGti/tOhgL2UMDpOmEnx3bwlKVj8wjRB6DN/BTUX7Kg==";
+        };
+        _jPPPXXNq = {
+            "id" = "jPPPXXNq";
+            "file" = "Geyser-Velocity.jar";
+            "hash" = "sha512-hBJigYtgQEOV3KSddrPXg+e6fgldW10mz2FM3hh0csMqGWPcWYQO7fcOtg2lrW0h3ZFDZlaA2xQvYd09CNfTBg==";
+        };
     in {
         "PZN2OcFf" = _PZN2OcFf;
         "Qmuj4cNH" = _Qmuj4cNH;
@@ -24776,6 +24826,16 @@ let
         "JfaykP6P" = _JfaykP6P;
         "n9fYkW60" = _n9fYkW60;
         "hFKoUUh2" = _hFKoUUh2;
+        "gru9GOin" = _gru9GOin;
+        "zisitvrK" = _zisitvrK;
+        "qcjkmW3d" = _qcjkmW3d;
+        "q4wTYDr3" = _q4wTYDr3;
+        "NHZrBAWC" = _NHZrBAWC;
+        "hdZqax0h" = _hdZqax0h;
+        "RHxMMnIl" = _RHxMMnIl;
+        "fXNHsr20" = _fXNHsr20;
+        "T7EjWmQO" = _T7EjWmQO;
+        "jPPPXXNq" = _jPPPXXNq;
         "fabric-1.19" = _HPcwTzCK;
         "fabric-1.19.1" = _HPcwTzCK;
         "fabric-1.19.2" = _HPcwTzCK;
@@ -24803,7 +24863,7 @@ let
         "fabric-26.1" = _SmldneXO;
         "fabric-26.1.2" = _SmldneXO;
         "fabric-26.2" = _jVYS4ibU;
-        "fabric-26.3" = _47EkhpC9;
+        "fabric-26.3" = _RHxMMnIl;
         "neoforge-1.20.4" = _CyqYJnmL;
         "neoforge-1.20.5" = _2tvmw0HZ;
         "neoforge-1.20.6" = _2tvmw0HZ;
@@ -24823,7 +24883,7 @@ let
         "neoforge-26.1" = _FqC8xkOg;
         "neoforge-26.1.2" = _FqC8xkOg;
         "neoforge-26.2" = _wDBCOCFe;
-        "neoforge-26.3" = _JfaykP6P;
+        "neoforge-26.3" = _fXNHsr20;
         "bungeecord-1.21" = _OVHRYTJR;
         "bungeecord-1.21.1" = _OVHRYTJR;
         "bungeecord-1.21.2" = _u91N0Gln;
@@ -24840,8 +24900,8 @@ let
         "bungeecord-26.1" = _Rdi5oXne;
         "bungeecord-26.1.2" = _Rdi5oXne;
         "bungeecord-26.2" = _s1uquXmc;
-        "bungeecord-26.3" = _AB8PsuiR;
-        "paper-1.21" = _n9fYkW60;
+        "bungeecord-26.3" = _hdZqax0h;
+        "paper-1.21" = _T7EjWmQO;
         "paper-1.16.5" = _qoZXtR9c;
         "paper-1.17" = _qoZXtR9c;
         "paper-1.17.1" = _qoZXtR9c;
@@ -24858,25 +24918,25 @@ let
         "paper-1.20.2" = _qoZXtR9c;
         "paper-1.20.3" = _qoZXtR9c;
         "paper-1.20.4" = _qoZXtR9c;
-        "paper-1.20.5" = _n9fYkW60;
-        "paper-1.20.6" = _n9fYkW60;
-        "paper-1.21.1" = _n9fYkW60;
-        "paper-1.21.2" = _n9fYkW60;
-        "paper-1.21.3" = _n9fYkW60;
-        "paper-1.21.4" = _n9fYkW60;
-        "paper-1.21.5" = _n9fYkW60;
-        "paper-1.21.6" = _n9fYkW60;
-        "paper-1.21.7" = _n9fYkW60;
-        "paper-1.21.8" = _n9fYkW60;
-        "paper-1.21.9" = _n9fYkW60;
-        "paper-1.21.10" = _n9fYkW60;
-        "paper-1.21.11" = _n9fYkW60;
-        "paper-26.1.1" = _n9fYkW60;
-        "paper-26.1" = _n9fYkW60;
-        "paper-26.1.2" = _n9fYkW60;
+        "paper-1.20.5" = _T7EjWmQO;
+        "paper-1.20.6" = _T7EjWmQO;
+        "paper-1.21.1" = _T7EjWmQO;
+        "paper-1.21.2" = _T7EjWmQO;
+        "paper-1.21.3" = _T7EjWmQO;
+        "paper-1.21.4" = _T7EjWmQO;
+        "paper-1.21.5" = _T7EjWmQO;
+        "paper-1.21.6" = _T7EjWmQO;
+        "paper-1.21.7" = _T7EjWmQO;
+        "paper-1.21.8" = _T7EjWmQO;
+        "paper-1.21.9" = _T7EjWmQO;
+        "paper-1.21.10" = _T7EjWmQO;
+        "paper-1.21.11" = _T7EjWmQO;
+        "paper-26.1.1" = _T7EjWmQO;
+        "paper-26.1" = _T7EjWmQO;
+        "paper-26.1.2" = _T7EjWmQO;
         "paper-26.2" = _PTtZDeXf;
-        "paper-26.3" = _n9fYkW60;
-        "spigot-1.21" = _n9fYkW60;
+        "paper-26.3" = _T7EjWmQO;
+        "spigot-1.21" = _T7EjWmQO;
         "spigot-1.16.5" = _qoZXtR9c;
         "spigot-1.17" = _qoZXtR9c;
         "spigot-1.17.1" = _qoZXtR9c;
@@ -24893,24 +24953,24 @@ let
         "spigot-1.20.2" = _qoZXtR9c;
         "spigot-1.20.3" = _qoZXtR9c;
         "spigot-1.20.4" = _qoZXtR9c;
-        "spigot-1.20.5" = _n9fYkW60;
-        "spigot-1.20.6" = _n9fYkW60;
-        "spigot-1.21.1" = _n9fYkW60;
-        "spigot-1.21.2" = _n9fYkW60;
-        "spigot-1.21.3" = _n9fYkW60;
-        "spigot-1.21.4" = _n9fYkW60;
-        "spigot-1.21.5" = _n9fYkW60;
-        "spigot-1.21.6" = _n9fYkW60;
-        "spigot-1.21.7" = _n9fYkW60;
-        "spigot-1.21.8" = _n9fYkW60;
-        "spigot-1.21.9" = _n9fYkW60;
-        "spigot-1.21.10" = _n9fYkW60;
-        "spigot-1.21.11" = _n9fYkW60;
-        "spigot-26.1.1" = _n9fYkW60;
-        "spigot-26.1" = _n9fYkW60;
-        "spigot-26.1.2" = _n9fYkW60;
+        "spigot-1.20.5" = _T7EjWmQO;
+        "spigot-1.20.6" = _T7EjWmQO;
+        "spigot-1.21.1" = _T7EjWmQO;
+        "spigot-1.21.2" = _T7EjWmQO;
+        "spigot-1.21.3" = _T7EjWmQO;
+        "spigot-1.21.4" = _T7EjWmQO;
+        "spigot-1.21.5" = _T7EjWmQO;
+        "spigot-1.21.6" = _T7EjWmQO;
+        "spigot-1.21.7" = _T7EjWmQO;
+        "spigot-1.21.8" = _T7EjWmQO;
+        "spigot-1.21.9" = _T7EjWmQO;
+        "spigot-1.21.10" = _T7EjWmQO;
+        "spigot-1.21.11" = _T7EjWmQO;
+        "spigot-26.1.1" = _T7EjWmQO;
+        "spigot-26.1" = _T7EjWmQO;
+        "spigot-26.1.2" = _T7EjWmQO;
         "spigot-26.2" = _PTtZDeXf;
-        "spigot-26.3" = _n9fYkW60;
+        "spigot-26.3" = _T7EjWmQO;
         "velocity-1.21" = _Mc828sup;
         "velocity-1.21.1" = _Mc828sup;
         "velocity-1.21.2" = _GCJhdlbm;
@@ -24927,7 +24987,7 @@ let
         "velocity-26.1" = _Xj9ckZKi;
         "velocity-26.1.2" = _Xj9ckZKi;
         "velocity-26.2" = _SnWoPPom;
-        "velocity-26.3" = _hFKoUUh2;
+        "velocity-26.3" = _jPPPXXNq;
         "pkg-2.1.0-SNAPSHOT-2" = _PZN2OcFf;
         "pkg-2.1.0-SNAPSHOT-3" = _Qmuj4cNH;
         "pkg-2.1.0-SNAPSHOT-4" = _ZR8N1nOQ;
@@ -26007,7 +26067,9 @@ let
         "pkg-2.12.1-b1301" = _N3lq9CZH;
         "pkg-2.12.1-b1302" = _zt6BEQdD;
         "pkg-2.12.1-b1303" = _hFKoUUh2;
-        "default" = _hFKoUUh2;
+        "pkg-2.12.1-b1304" = _NHZrBAWC;
+        "pkg-2.12.1-b1305" = _jPPPXXNq;
+        "default" = _jPPPXXNq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "geyser";

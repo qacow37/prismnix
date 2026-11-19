@@ -166,6 +166,16 @@ let
             "file" = "1.21.1-fabric-gemstones-1.1.6a.jar";
             "hash" = "sha512-PO5zbsLBlkGabW7HOtZ1Lkru/I66lscjI+couo6Ji6OymHoTuyPZWVEENKAfNsRoAiePrpwVPYleKqGbqV8cag==";
         };
+        _PZJqSOjZ = {
+            "id" = "PZJqSOjZ";
+            "file" = "1.21.1-neoforge-gemstones-1.1.6b.jar";
+            "hash" = "sha512-dtVAWkEAIgVaXyvr/k0Hm6Q9Zxgu6/SsoRR/wRa8GBoIlgu2Cxj19aARolunQ8qk8PudCOcjaZoFk3mxfRNBKA==";
+        };
+        _6fbFWvB7 = {
+            "id" = "6fbFWvB7";
+            "file" = "1.21.1-fabric-gemstones-1.1.6b.jar";
+            "hash" = "sha512-ikEOiXqcYq37yKBJ46qPGBKO0Gme2JOr2dgUT1hnmPR8OpyyLTFPimy/ox3qr7FkyPn1RqIdeDYofnyPR3YOmA==";
+        };
     in {
         "kPiLXrcR" = _kPiLXrcR;
         "q9eQpcMR" = _q9eQpcMR;
@@ -200,8 +210,10 @@ let
         "56eFlWeO" = _56eFlWeO;
         "KdkO2MwS" = _KdkO2MwS;
         "y8T45FWz" = _y8T45FWz;
-        "fabric-1.21.1" = _y8T45FWz;
-        "neoforge-1.21.1" = _KdkO2MwS;
+        "PZJqSOjZ" = _PZJqSOjZ;
+        "6fbFWvB7" = _6fbFWvB7;
+        "fabric-1.21.1" = _6fbFWvB7;
+        "neoforge-1.21.1" = _PZJqSOjZ;
         "pkg-1.0.4a" = _kPiLXrcR;
         "pkg-1.0.5" = _q9eQpcMR;
         "pkg-1.0.5a" = _Jzrp7L6J;
@@ -226,7 +238,9 @@ let
         "pkg-1.1.6+fabric" = _56eFlWeO;
         "pkg-1.1.6a+neoforge" = _KdkO2MwS;
         "pkg-1.1.6a+fabric" = _y8T45FWz;
-        "default" = _y8T45FWz;
+        "pkg-1.1.6b+neoforge" = _PZJqSOjZ;
+        "pkg-1.1.6b+fabric" = _6fbFWvB7;
+        "default" = _6fbFWvB7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legendary-gemstones";

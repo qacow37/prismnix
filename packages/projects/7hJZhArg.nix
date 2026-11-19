@@ -96,6 +96,56 @@ let
             "file" = "soundtweaks-1.0.1+1.8.9.jar";
             "hash" = "sha512-GyQMzeEiiKMwr+TKBl+5RPvHYSajXZfrHXC4wcYRZ92l2YOFW8skzW4B8o/lvxsc7GgJidzB/XCXgBJ7Qt/vOg==";
         };
+        _7m7R8syM = {
+            "id" = "7m7R8syM";
+            "file" = "soundtweaks-1.0.2+1.8.9.jar";
+            "hash" = "sha512-GfHju5JDhseO+ZdYXXcUPaxiUl2WOeYSS1Hy+fNn26UQcQTdneoZrJOxxbWzI52MD3+snvf4c0LUZgPz9zkoBQ==";
+        };
+        _9dmeqUMF = {
+            "id" = "9dmeqUMF";
+            "file" = "soundtweaks-1.0.2+1.21.1.jar";
+            "hash" = "sha512-L6uI7CqhXYxZrEU7cU8CGTUqPu+ILZvOsJA/GXzXnzJBr9F5jK89VTti84P+h4KvJE+G/LCgzHWa9FZ5/jW3HQ==";
+        };
+        _65WVHc5E = {
+            "id" = "65WVHc5E";
+            "file" = "soundtweaks-1.0.2+1.21.4.jar";
+            "hash" = "sha512-X4M81mutnxD6o4sh81Z+WqcP//oTwuHONkp51LQnWqGixfm4LQAliAgQuVQflY6JGK51vW7yESA2yCEf3PtNcA==";
+        };
+        _uaDdYQU1 = {
+            "id" = "uaDdYQU1";
+            "file" = "soundtweaks-1.0.2+1.21.5.jar";
+            "hash" = "sha512-/BjPD3e5YxczZORHMZwO5jjE5w7g7uGKX+FtClaRU57epTVKWBiQk0vp4Z+bBrfJhVFHrGgfCD5HPPLslK3Q9w==";
+        };
+        _ll8jibsL = {
+            "id" = "ll8jibsL";
+            "file" = "soundtweaks-1.0.2+1.21.8.jar";
+            "hash" = "sha512-MsBfYcMqT+XGy7OE1fSnwLVbADOx/uMWYuy9mdGOw5A062ylwFiQBqiLJJH/niHU/xfZI5/yXhEcU+vq1oetvQ==";
+        };
+        _lcA6yvZE = {
+            "id" = "lcA6yvZE";
+            "file" = "soundtweaks-1.0.2+1.21.10.jar";
+            "hash" = "sha512-XZToxacrST0wSNs3lWwaR1QiRP5+KB3B8gW3Ve3nk+s42WbBx4u0e4smsLxT4+qTcFW8aEY/egH1D3vB/oHAXQ==";
+        };
+        _ZFHBJeyI = {
+            "id" = "ZFHBJeyI";
+            "file" = "soundtweaks-1.0.2+1.21.11.jar";
+            "hash" = "sha512-7f9fjI/qQItXFfwg7/tqdfv9HRZ+3++eXe+oxo6wJ9iziSVdXZ80js6JGbwe1FVa4W8LEpAbtD+7ELztu9Wn8Q==";
+        };
+        _hGEwKdzi = {
+            "id" = "hGEwKdzi";
+            "file" = "soundtweaks-1.0.2+26.1.jar";
+            "hash" = "sha512-snJ2C7ER9pFKr9wtDNY+MSsAsAbuumcklwxu7HXfnbZCxMCsb/LAbTgtldrAUHjMbeqz3pSHbD/C675cXo1axQ==";
+        };
+        _OvtL7Kpa = {
+            "id" = "OvtL7Kpa";
+            "file" = "soundtweaks-1.0.2+26.2.jar";
+            "hash" = "sha512-0fQRaald4FIwa8y8GI0zQjhxb9YM6C8J9MYZ+FiXVRBPj0uRdwOKXFj98h6zPD+Dy2iBav/+RrH42AtG0xtYZg==";
+        };
+        _Qa0NHUap = {
+            "id" = "Qa0NHUap";
+            "file" = "soundtweaks-1.0.2+26.3.jar";
+            "hash" = "sha512-xXhSfTxC7Qq4tbo/qhGeX6jzUDGUEAqFllUTk5DZpZHiTV2iW88LROuFQ68W6w5A9JEG8T9P85a/jN5b1XLhSg==";
+        };
     in {
         "b7nQRDL3" = _b7nQRDL3;
         "jDJhztXc" = _jDJhztXc;
@@ -116,19 +166,29 @@ let
         "GFiLGgsF" = _GFiLGgsF;
         "m08zz8UY" = _m08zz8UY;
         "7wlBZEVA" = _7wlBZEVA;
-        "fabric-26.1" = _Lx72uWVU;
-        "fabric-26.1.1" = _Lx72uWVU;
-        "fabric-26.1.2" = _Lx72uWVU;
-        "fabric-1.21" = _TGDXvfh8;
-        "fabric-1.21.1" = _TGDXvfh8;
-        "fabric-1.21.4" = _nYlEtTAl;
-        "fabric-1.21.5" = _CqwNHCGL;
-        "fabric-1.21.8" = _e0RFCkXP;
-        "fabric-1.21.10" = _MWMaWvOv;
-        "fabric-1.21.11" = _CttFi42H;
-        "fabric-26.2" = _GFiLGgsF;
-        "fabric-26.3" = _m08zz8UY;
-        "ornithe-1.8.9" = _7wlBZEVA;
+        "7m7R8syM" = _7m7R8syM;
+        "9dmeqUMF" = _9dmeqUMF;
+        "65WVHc5E" = _65WVHc5E;
+        "uaDdYQU1" = _uaDdYQU1;
+        "ll8jibsL" = _ll8jibsL;
+        "lcA6yvZE" = _lcA6yvZE;
+        "ZFHBJeyI" = _ZFHBJeyI;
+        "hGEwKdzi" = _hGEwKdzi;
+        "OvtL7Kpa" = _OvtL7Kpa;
+        "Qa0NHUap" = _Qa0NHUap;
+        "fabric-26.1" = _hGEwKdzi;
+        "fabric-26.1.1" = _hGEwKdzi;
+        "fabric-26.1.2" = _hGEwKdzi;
+        "fabric-1.21" = _9dmeqUMF;
+        "fabric-1.21.1" = _9dmeqUMF;
+        "fabric-1.21.4" = _65WVHc5E;
+        "fabric-1.21.5" = _uaDdYQU1;
+        "fabric-1.21.8" = _ll8jibsL;
+        "fabric-1.21.10" = _lcA6yvZE;
+        "fabric-1.21.11" = _ZFHBJeyI;
+        "fabric-26.2" = _OvtL7Kpa;
+        "fabric-26.3" = _Qa0NHUap;
+        "ornithe-1.8.9" = _7m7R8syM;
         "pkg-v1.0.0-alpha.1" = _b7nQRDL3;
         "pkg-1.0.0+1.21.1" = _jDJhztXc;
         "pkg-1.0.0+1.21.4" = _Fqrmsda6;
@@ -139,7 +199,8 @@ let
         "pkg-1.0.0+26.1" = _eEmVWR0Y;
         "pkg-1.0.0+26.2" = _JeutHzN4;
         "pkg-v1.0.1" = _7wlBZEVA;
-        "default" = _7wlBZEVA;
+        "pkg-v1.0.2" = _Qa0NHUap;
+        "default" = _Qa0NHUap;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "soundtweaks";

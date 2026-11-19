@@ -546,6 +546,21 @@ let
             "file" = "schrumbohud-1.4.6+26.4.jar";
             "hash" = "sha512-tEQm0KiIHMHr9YYYf6S70YrrIRpUaa7bqlOLTdsRJ0faZLHqdsKfvb+o1Ygrd2tAvsnmyCMHMq0eX3IPu66Peg==";
         };
+        _5JcCI8bh = {
+            "id" = "5JcCI8bh";
+            "file" = "schrumbohud-1.4.4+26.2.jar";
+            "hash" = "sha512-jV18hIhL7h3+v0caIe3ClcALMT09DpUUyruWDckhc67lctLu5OuU3eBZmTkQvNMosrzrGYsEXjAGvjFwqIQoyg==";
+        };
+        _IHNiAZHW = {
+            "id" = "IHNiAZHW";
+            "file" = "schrumbohud-1.4.7+26.3.jar";
+            "hash" = "sha512-DMcxK44tFr2Xmh3LHvDriiCF3XEeG1P8O7WdOVaTcvHsnpl9UYw9Si7yBq/HVCsFDPROyW1YvEko+TVtFqc5+w==";
+        };
+        _O0sy31f6 = {
+            "id" = "O0sy31f6";
+            "file" = "schrumbohud-1.4.7+26.4.jar";
+            "hash" = "sha512-7O1ioIP2FT1Gn9aHNtvYQ+S5TsMgmyVo8r09kk2uc8Oez69jHSUgLaL8f+jInEpf8ldnIe6RoI7S9F4/RLAAtg==";
+        };
     in {
         "SJn0TrlJ" = _SJn0TrlJ;
         "ApXaXM7t" = _ApXaXM7t;
@@ -656,6 +671,9 @@ let
         "ZvknaN1M" = _ZvknaN1M;
         "FIZ5hWqc" = _FIZ5hWqc;
         "gYOCyhRp" = _gYOCyhRp;
+        "5JcCI8bh" = _5JcCI8bh;
+        "IHNiAZHW" = _IHNiAZHW;
+        "O0sy31f6" = _O0sy31f6;
         "fabric-1.21.5" = _bVgl0sam;
         "fabric-1.21.8" = _rGrqGbxq;
         "fabric-1.21.9" = _Il7wHyOl;
@@ -688,12 +706,13 @@ let
         "fabric-26.2-pre-6" = _LypBUY8t;
         "fabric-26.2-rc-1" = _LypBUY8t;
         "fabric-26.2-rc-2" = _LypBUY8t;
-        "fabric-26.2" = _ZvknaN1M;
+        "fabric-26.2" = _5JcCI8bh;
         "fabric-26.3-snapshot-5" = _aDyzFUtB;
         "fabric-26.3-snapshot-6" = _sSJZWvVi;
         "fabric-26.3-pre-2" = _W2AHFjC7;
-        "fabric-26.3" = _FIZ5hWqc;
+        "fabric-26.3" = _IHNiAZHW;
         "fabric-26.4-snapshot-5" = _gYOCyhRp;
+        "fabric-26.4-snapshot-8" = _O0sy31f6;
         "neoforge-1.21.1" = _imrHm090;
         "neoforge-26.1.2" = _TZKH53oS;
         "neoforge-26.2" = _bCVnrz0Q;
@@ -807,7 +826,10 @@ let
         "pkg-1.4.3+26.2" = _ZvknaN1M;
         "pkg-1.4.6+26.3" = _FIZ5hWqc;
         "pkg-1.4.6+26.4" = _gYOCyhRp;
-        "default" = _gYOCyhRp;
+        "pkg-1.4.4+26.2" = _5JcCI8bh;
+        "pkg-1.4.7+26.3" = _IHNiAZHW;
+        "pkg-1.4.7+26.4" = _O0sy31f6;
+        "default" = _O0sy31f6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "schrumbohud";

@@ -206,6 +206,26 @@ let
             "file" = "PackagedMekemicals-1.21.1-2.0.0.7.jar";
             "hash" = "sha512-ZVspXVuuo0AWgqaVnQoUrZbhagquqE7xhf7Ry6nb3Kcb7eJ6IUboJBbJZaK/dFIY2lHzYcfYGLAPABHqKhs3OQ==";
         };
+        _U28k5OCK = {
+            "id" = "U28k5OCK";
+            "file" = "PackagedMekemicals-1.18.2-1.0.2.22.jar";
+            "hash" = "sha512-eWK1Q0OvYcHT1+7gWUlLOnyCZ+YNvzZSq+OL0Rxx7f+scMLw/7SisfiKpeNYIEj/YJD6TnQNYTWejyIrh4Os6Q==";
+        };
+        _kRrrOY8I = {
+            "id" = "kRrrOY8I";
+            "file" = "PackagedMekemicals-1.19.2-1.1.2.19.jar";
+            "hash" = "sha512-KrmpXtt1lli3NBvNkBe44mMUJCV69WEvVwdhIOOa+z9jZp5CeT3iOJ701lZss5tDpneNNHuqGsUeMiZ2FX9QSQ==";
+        };
+        _UWeVsnv6 = {
+            "id" = "UWeVsnv6";
+            "file" = "PackagedMekemicals-1.20.1-1.2.2.14.jar";
+            "hash" = "sha512-gITI8xnpjhd1YmkGtFIOWKPgDC+z9g/wi3RFDCGTMbn4HREw/73rNNP6SPsXKg131GdUEIFmMmLYjGkCUUxvhg==";
+        };
+        _7631Bs05 = {
+            "id" = "7631Bs05";
+            "file" = "PackagedMekemicals-1.21.1-2.0.0.8.jar";
+            "hash" = "sha512-L1qzuGMOX9iIoGR77/06FeqnPY4BHeJCu2BHqMXAtkY1Lzz2rx7+x4EY18gpvZoa7I7egZfao7UXblqfxsh+Bg==";
+        };
     in {
         "OOZfnWLW" = _OOZfnWLW;
         "y4YLOAsW" = _y4YLOAsW;
@@ -248,13 +268,17 @@ let
         "isQToiqx" = _isQToiqx;
         "k8Im0xSh" = _k8Im0xSh;
         "wZml2Fep" = _wZml2Fep;
-        "forge-1.18.2" = _ilBgbUSC;
-        "forge-1.19.2" = _isQToiqx;
-        "forge-1.20.1" = _k8Im0xSh;
-        "neoforge-1.20.1" = _k8Im0xSh;
+        "U28k5OCK" = _U28k5OCK;
+        "kRrrOY8I" = _kRrrOY8I;
+        "UWeVsnv6" = _UWeVsnv6;
+        "7631Bs05" = _7631Bs05;
+        "forge-1.18.2" = _U28k5OCK;
+        "forge-1.19.2" = _kRrrOY8I;
+        "forge-1.20.1" = _UWeVsnv6;
+        "neoforge-1.20.1" = _UWeVsnv6;
         "neoforge-1.20.4" = _J0ADNQok;
         "neoforge-1.21" = _wG5KedvO;
-        "neoforge-1.21.1" = _wZml2Fep;
+        "neoforge-1.21.1" = _7631Bs05;
         "pkg-1.18.2-1.0.1.11" = _OOZfnWLW;
         "pkg-1.19.2-1.1.0.8" = _y4YLOAsW;
         "pkg-1.20.1-1.2.0.3" = _Dl9MK4on;
@@ -296,7 +320,11 @@ let
         "pkg-1.19.2-1.1.2.18" = _isQToiqx;
         "pkg-1.20.1-1.2.2.13" = _k8Im0xSh;
         "pkg-1.21.1-2.0.0.7" = _wZml2Fep;
-        "default" = _wZml2Fep;
+        "pkg-1.18.2-1.0.2.22" = _U28k5OCK;
+        "pkg-1.19.2-1.1.2.19" = _kRrrOY8I;
+        "pkg-1.20.1-1.2.2.14" = _UWeVsnv6;
+        "pkg-1.21.1-2.0.0.8" = _7631Bs05;
+        "default" = _7631Bs05;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "packagedmekemicals";

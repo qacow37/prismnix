@@ -46,6 +46,16 @@ let
             "file" = "rct-addon-toppoh-league-1.2.1.jar";
             "hash" = "sha512-up5mYf4zMRWJWG08Hh0o6v/YUwB2hnB6PIBlAMTlqeXHUTYAOkowBJFEmsxKMB1xiv3jk+/iPG2IEtysSBKNUQ==";
         };
+        _rAv1wePI = {
+            "id" = "rAv1wePI";
+            "file" = "RCT Addon Toppoh Trainers V1.2.2.zip";
+            "hash" = "sha512-WR419ac5VYPHuxM0aiReQyGnP/zbjIppNqygpUUSq29L+t4QJGR/f1HaOuS6q51Zm89f+s8C2Hzz9MTQX6zteQ==";
+        };
+        _2Er66w05 = {
+            "id" = "2Er66w05";
+            "file" = "RCT Addon Toppoh Trainers V1.2.2.jar";
+            "hash" = "sha512-0uJL8+AChL2oBLNDYggqaZn3wR4IAIH4ubeaZzC85666eNp3880agM/uSoxeUdejoHugNoxwZ96NF0SBPfa66w==";
+        };
     in {
         "q2turZGx" = _q2turZGx;
         "4mNwCClk" = _4mNwCClk;
@@ -56,10 +66,36 @@ let
         "4tQUr4Eo" = _4tQUr4Eo;
         "XLd8NCu7" = _XLd8NCu7;
         "9GQyOp3l" = _9GQyOp3l;
-        "datapack-1.21.1" = _XLd8NCu7;
-        "fabric-1.21.1" = _9GQyOp3l;
+        "rAv1wePI" = _rAv1wePI;
+        "2Er66w05" = _2Er66w05;
+        "datapack-1.21.1" = _rAv1wePI;
+        "datapack-24w12a" = _rAv1wePI;
+        "datapack-24w13a" = _rAv1wePI;
+        "datapack-24w14a" = _rAv1wePI;
+        "datapack-1.20.5-pre1" = _rAv1wePI;
+        "datapack-1.20.5-pre2" = _rAv1wePI;
+        "datapack-1.20.5-pre3" = _rAv1wePI;
+        "datapack-1.20.5-pre4" = _rAv1wePI;
+        "datapack-1.20.5-rc1" = _rAv1wePI;
+        "datapack-1.20.5-rc2" = _rAv1wePI;
+        "datapack-1.20.5-rc3" = _rAv1wePI;
+        "datapack-1.20.5" = _rAv1wePI;
+        "datapack-1.20.6" = _rAv1wePI;
+        "datapack-24w18a" = _rAv1wePI;
+        "datapack-24w19a" = _rAv1wePI;
+        "datapack-24w19b" = _rAv1wePI;
+        "datapack-24w20a" = _rAv1wePI;
+        "datapack-24w21a" = _rAv1wePI;
+        "datapack-24w21b" = _rAv1wePI;
+        "datapack-1.21-pre1" = _rAv1wePI;
+        "datapack-1.21-pre2" = _rAv1wePI;
+        "datapack-1.21-pre3" = _rAv1wePI;
+        "datapack-1.21-pre4" = _rAv1wePI;
+        "datapack-1.21-rc1" = _rAv1wePI;
+        "datapack-1.21" = _rAv1wePI;
+        "fabric-1.21.1" = _2Er66w05;
         "forge-1.21.1" = _9GQyOp3l;
-        "neoforge-1.21.1" = _9GQyOp3l;
+        "neoforge-1.21.1" = _2Er66w05;
         "quilt-1.21.1" = _9GQyOp3l;
         "pkg-0.1" = _q2turZGx;
         "pkg-1.0" = _4mNwCClk;
@@ -70,7 +106,9 @@ let
         "pkg-1.2+mod" = _4tQUr4Eo;
         "pkg-1.2.1" = _XLd8NCu7;
         "pkg-1.2.1+mod" = _9GQyOp3l;
-        "default" = _9GQyOp3l;
+        "pkg-1.2.2" = _rAv1wePI;
+        "pkg-1.2.2+mod" = _2Er66w05;
+        "default" = _2Er66w05;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rct-addon-toppoh-league";

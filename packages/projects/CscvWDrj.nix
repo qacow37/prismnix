@@ -376,6 +376,66 @@ let
             "file" = "coppershears-fabric-26.3-2.2.1.0.jar";
             "hash" = "sha512-h/LvK7GEDD6oSxNYG6CvRjQPVvWV+hACVO55VNP2xy8LuAKLKnukBKxCJxhOHZtNHSw4DsN2XPWdedvB6LtbQw==";
         };
+        _e39dldJx = {
+            "id" = "e39dldJx";
+            "file" = "coppershears-forge-26.3-2.2.1.1.jar";
+            "hash" = "sha512-+oURN9BBB+ChwAqrDTDbymCkw3Dg49yQyp7aA9P06e+7xzgND46EDWUsK400Cubg3vAhbhPuUwKuVwEOdFuGSg==";
+        };
+        _6D7dX7BO = {
+            "id" = "6D7dX7BO";
+            "file" = "coppershears-fabric-26.3-2.2.1.1.jar";
+            "hash" = "sha512-xN9jaOtcCAKJ2LHsH9Wd/kAgbkFWqO77id8RVDe/VkGiHR4k6ICV0g4x5K8bne43EIWdd6SZqfFnNwxiQIwS0Q==";
+        };
+        _9Uv4fkIA = {
+            "id" = "9Uv4fkIA";
+            "file" = "coppershears-neoforge-26.3-2.2.1.1.jar";
+            "hash" = "sha512-rLHGuFenNmlkHSBELa/TDzcfwwvMucdy7Duy1zAsbALHOQwApjicyb7bm3f+gxG3C3Tz22muy7F0/PaCcsJb4Q==";
+        };
+        _Nx1CstGo = {
+            "id" = "Nx1CstGo";
+            "file" = "coppershears-fabric-26.2-2.1.0.1.jar";
+            "hash" = "sha512-rMYN2S9mF00nbKwove/SGuc1YxzDWebM053GJY5kBTF5++ECcOxl8tjEGhMPgpv+dMAnfdmqkM4kejHe+Aaqlg==";
+        };
+        _xnt8czL8 = {
+            "id" = "xnt8czL8";
+            "file" = "coppershears-neoforge-26.2-2.1.0.1.jar";
+            "hash" = "sha512-kilJu/A1G8xGz20uKBq+TOtG2t5NH+e9LgoHDQxV1gBHCu0zb2c8ra9BVXFMs8EZY6XyHVQmSrS78RO2GltKYQ==";
+        };
+        _O6d2plN3 = {
+            "id" = "O6d2plN3";
+            "file" = "coppershears-forge-26.2-2.1.0.1.jar";
+            "hash" = "sha512-MB6ZdC4bFBpFhisTi8wzUT8KIYEhkOzgtt6vNkU9JNPmj4BqDAlkkDEco2rTZ1ZPtfeoIerzrWtuR7q6JpF8MQ==";
+        };
+        _QEdENawv = {
+            "id" = "QEdENawv";
+            "file" = "coppershears-fabric-1.21.11-1.6.2.1.jar";
+            "hash" = "sha512-j9ECznbIAnPRhdwlr+UA5iZKD72xHSV6ARF7b9v4OQpCPgvqc1B2iwCtCwI6ysbMRsnOq96OCt50vumfCqPu5Q==";
+        };
+        _f1TVrMZV = {
+            "id" = "f1TVrMZV";
+            "file" = "coppershears-neoforge-1.21.11-1.6.2.1.jar";
+            "hash" = "sha512-kLL7GOIjbE2JsBCXNuq2CuM6AdNlcQ5IadfdBGGPFQxGOQ/wZruKPnqGJNnzzc9yIa3pzK8cgRAb2xFfd6isbQ==";
+        };
+        _amtM3HVF = {
+            "id" = "amtM3HVF";
+            "file" = "coppershears-forge-1.21.11-1.6.2.1.jar";
+            "hash" = "sha512-9VxUORxS4QSN96yo3jEUMKBt3I+WclLM7fAQ+XEsDLjrDk1rXbu4FRKzIFTRBu1C+e4GCNCbI1LBqdg9N+rkjQ==";
+        };
+        _TJWYsorQ = {
+            "id" = "TJWYsorQ";
+            "file" = "coppershears-fabric-26.1-2.0.2.2.jar";
+            "hash" = "sha512-b/ASlPYOZrK5oBKQ7sqXaOMZ4RQN1RazGc2GUaujBhmV+7dAsajdYUFZVpOq6J8VMyBOO1HSW18rh6xZuKcHYA==";
+        };
+        _K7Uq5pid = {
+            "id" = "K7Uq5pid";
+            "file" = "coppershears-neoforge-26.1-2.0.2.2.jar";
+            "hash" = "sha512-Og+CPeP9OdpcIE3ImeUCDXybfmlFjd9obNYtM5JYKKfFSoCf/5Ojoxf9y6nXf5XjC1E09qlwHpUATaM5Y7X/Yw==";
+        };
+        _30MOgL6d = {
+            "id" = "30MOgL6d";
+            "file" = "coppershears-forge-26.1-2.0.2.2.jar";
+            "hash" = "sha512-2s9sCcykisCOGbXVankImyujE5n/eIKXULcTpnd3kOImCs4hLrIgKlYH9wHpKFDefIGORbKR4wY5gmWJ6t0iKA==";
+        };
     in {
         "CVi7k4Z2" = _CVi7k4Z2;
         "aIK6q20w" = _aIK6q20w;
@@ -452,54 +512,66 @@ let
         "DvFg6uSK" = _DvFg6uSK;
         "8aHbHMDx" = _8aHbHMDx;
         "2TMP1Y3j" = _2TMP1Y3j;
+        "e39dldJx" = _e39dldJx;
+        "6D7dX7BO" = _6D7dX7BO;
+        "9Uv4fkIA" = _9Uv4fkIA;
+        "Nx1CstGo" = _Nx1CstGo;
+        "xnt8czL8" = _xnt8czL8;
+        "O6d2plN3" = _O6d2plN3;
+        "QEdENawv" = _QEdENawv;
+        "f1TVrMZV" = _f1TVrMZV;
+        "amtM3HVF" = _amtM3HVF;
+        "TJWYsorQ" = _TJWYsorQ;
+        "K7Uq5pid" = _K7Uq5pid;
+        "30MOgL6d" = _30MOgL6d;
         "forge-1.21.1" = _Zt5pWOCF;
         "forge-1.21.3" = _WcFyoCFn;
         "forge-1.21.4" = _ayxzQR7l;
         "forge-1.21.5" = _eL7Drt7l;
         "forge-1.21.8" = _qIgf4eQj;
         "forge-1.21.10" = _PlpKYDDU;
-        "forge-1.21.11" = _8gMsuiWg;
-        "forge-26.1" = _iD9Teiag;
-        "forge-26.1.1" = _iD9Teiag;
-        "forge-26.1.2" = _iD9Teiag;
-        "forge-26.2" = _moHaMgi6;
-        "forge-26.3" = _DvFg6uSK;
+        "forge-1.21.11" = _amtM3HVF;
+        "forge-26.1" = _30MOgL6d;
+        "forge-26.1.1" = _30MOgL6d;
+        "forge-26.1.2" = _30MOgL6d;
+        "forge-26.2" = _O6d2plN3;
+        "forge-26.3" = _e39dldJx;
         "neoforge-1.21.1" = _cEbNKK9K;
         "neoforge-1.21.3" = _aH0ufcgC;
         "neoforge-1.21.4" = _GlcUmZRV;
         "neoforge-1.21.5" = _YF34nmLz;
         "neoforge-1.21.8" = _5rvM3ynb;
         "neoforge-1.21.10" = _yZ7hZrum;
-        "neoforge-1.21.11" = _37T5pQ6A;
-        "neoforge-26.1" = _1vBfpp3b;
-        "neoforge-26.1.1" = _1vBfpp3b;
-        "neoforge-26.1.2" = _1vBfpp3b;
-        "neoforge-26.2" = _5byuBLzm;
-        "neoforge-26.3" = _8aHbHMDx;
+        "neoforge-1.21.11" = _f1TVrMZV;
+        "neoforge-26.1" = _K7Uq5pid;
+        "neoforge-26.1.1" = _K7Uq5pid;
+        "neoforge-26.1.2" = _K7Uq5pid;
+        "neoforge-26.2" = _xnt8czL8;
+        "neoforge-26.3" = _9Uv4fkIA;
         "fabric-1.21.1" = _mTLSXcTL;
         "fabric-1.21.3" = _YemEzmsu;
         "fabric-1.21.4" = _AKOJoJ6I;
         "fabric-1.21.5" = _68OhJQpM;
         "fabric-1.21.8" = _N6jKLCNJ;
         "fabric-1.21.10" = _HEGLBggJ;
-        "fabric-1.21.11" = _YmhZQXgz;
-        "fabric-26.1" = _Ypn2UZvV;
-        "fabric-26.1.1" = _Ypn2UZvV;
-        "fabric-26.1.2" = _Ypn2UZvV;
-        "fabric-26.2" = _2cEntsdE;
-        "fabric-26.3" = _2TMP1Y3j;
+        "fabric-1.21.11" = _QEdENawv;
+        "fabric-26.1" = _TJWYsorQ;
+        "fabric-26.1.1" = _TJWYsorQ;
+        "fabric-26.1.2" = _TJWYsorQ;
+        "fabric-26.2" = _Nx1CstGo;
+        "fabric-26.3" = _6D7dX7BO;
         "quilt-1.21.1" = _mTLSXcTL;
         "quilt-1.21.3" = _YemEzmsu;
         "quilt-1.21.4" = _AKOJoJ6I;
         "quilt-1.21.5" = _68OhJQpM;
         "quilt-1.21.8" = _N6jKLCNJ;
         "quilt-1.21.10" = _HEGLBggJ;
-        "quilt-1.21.11" = _YmhZQXgz;
-        "quilt-26.1" = _Ypn2UZvV;
-        "quilt-26.1.1" = _Ypn2UZvV;
-        "quilt-26.1.2" = _Ypn2UZvV;
-        "quilt-26.2" = _2cEntsdE;
-        "quilt-26.3" = _2TMP1Y3j;
+        "quilt-1.21.11" = _QEdENawv;
+        "quilt-26.1" = _TJWYsorQ;
+        "quilt-26.1.1" = _TJWYsorQ;
+        "quilt-26.1.2" = _TJWYsorQ;
+        "quilt-26.2" = _Nx1CstGo;
+        "quilt-26.3" = _6D7dX7BO;
         "pkg-1.21.1-1.0.0.0" = _Q4o1yC96;
         "pkg-1.21.3-1.1.0.0" = _7HurKhn8;
         "pkg-1.21.4-1.2.0.0" = _B1JTeVoM;
@@ -525,7 +597,11 @@ let
         "pkg-26.2-2.1.0.0" = _moHaMgi6;
         "pkg-26.3-2.2.0.0" = _xyC1IZ2Y;
         "pkg-26.3-4.2.1.0" = _2TMP1Y3j;
-        "default" = _2TMP1Y3j;
+        "pkg-26.3-2.2.1.1" = _9Uv4fkIA;
+        "pkg-26.2-2.1.0.1" = _O6d2plN3;
+        "pkg-1.21.11-1.6.2.1" = _amtM3HVF;
+        "pkg-26.1-2.0.2.2" = _30MOgL6d;
+        "default" = _30MOgL6d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "copper-shears";

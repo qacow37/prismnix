@@ -326,6 +326,16 @@ let
             "file" = "mc_talking-2.1.0-beta.2-forge+1.20.1.jar";
             "hash" = "sha512-HDGD6yRRt/+JcZyzk9EEASpt/ePW1DZqQcJ/FZ4JgkL9IOS94Cy/LxX6ZHchJKAfD6H+/RAwngiuiE3G74S1FQ==";
         };
+        _oBqhUwH9 = {
+            "id" = "oBqhUwH9";
+            "file" = "mc_talking-2.1.0-beta.3-neoforge+1.21.1.jar";
+            "hash" = "sha512-NWjvp2PeEuuVOD6x8+GMf9qAYIY6tzDn3xhW8uERDC2pzLeUWN/Mk+MIjnEbylzToJ2gUBjrx5vrL87YUOCqpw==";
+        };
+        _ygp00sOs = {
+            "id" = "ygp00sOs";
+            "file" = "mc_talking-2.1.0-beta.3-forge+1.20.1.jar";
+            "hash" = "sha512-g3gihBpfJMugGms2tjTeqd1sxLnt/muoyaLqhgzwEtlvT3VwOGcS3jtqJyj+60tslA9Cw8jMz5f3jHZLUgeJbA==";
+        };
     in {
         "ZnVsijHi" = _ZnVsijHi;
         "o9vTm8Mh" = _o9vTm8Mh;
@@ -392,8 +402,10 @@ let
         "3eprOogv" = _3eprOogv;
         "DbWIONSF" = _DbWIONSF;
         "3p9DmnGK" = _3p9DmnGK;
-        "neoforge-1.21.1" = _DbWIONSF;
-        "forge-1.20.1" = _3p9DmnGK;
+        "oBqhUwH9" = _oBqhUwH9;
+        "ygp00sOs" = _ygp00sOs;
+        "neoforge-1.21.1" = _oBqhUwH9;
+        "forge-1.20.1" = _ygp00sOs;
         "pkg-1.0.1" = _ZnVsijHi;
         "pkg-1.1.2" = _f2FUzYGH;
         "pkg-1.1.3" = _7til00XO;
@@ -439,7 +451,9 @@ let
         "pkg-2.1.0-beta.1-forge+1.20.1" = _3eprOogv;
         "pkg-2.1.0-beta.2-neoforge+1.21.1" = _DbWIONSF;
         "pkg-2.1.0-beta.2-forge+1.20.1" = _3p9DmnGK;
-        "default" = _3p9DmnGK;
+        "pkg-2.1.0-beta.3-neoforge+1.21.1" = _oBqhUwH9;
+        "pkg-2.1.0-beta.3-forge+1.20.1" = _ygp00sOs;
+        "default" = _ygp00sOs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "talking-colonists-(minecolonies-addon)";

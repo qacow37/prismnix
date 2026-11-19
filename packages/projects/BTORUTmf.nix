@@ -321,6 +321,11 @@ let
             "file" = "penchant-0.3.12+mc1.21.1.jar";
             "hash" = "sha512-xEoqusbM/GxSmgXnj3iJdQXYwLIieLYa4orWelZ9i0qxnDXzoFMWnT3RbTDL7l/Bh1/3T5Q4dvdaK2OXi7Ulvw==";
         };
+        _iajqAiqz = {
+            "id" = "iajqAiqz";
+            "file" = "penchant-0.3.12+connector+mc1.21.1.jar";
+            "hash" = "sha512-rab6uBo935+MFq1Ah1PnxmIhn7cGic0ljWj3u7fILgy4RJFcA6IfT1YoSvhnstWOZor9y9rygbOS7+lFzoIlGA==";
+        };
     in {
         "KBDiyDPO" = _KBDiyDPO;
         "eHzGQRnH" = _eHzGQRnH;
@@ -386,9 +391,10 @@ let
         "E4tGEZIc" = _E4tGEZIc;
         "7laNOb0E" = _7laNOb0E;
         "vG5hKBtY" = _vG5hKBtY;
+        "iajqAiqz" = _iajqAiqz;
         "fabric-1.21.11" = _EWQrwnb8;
-        "fabric-1.21" = _vG5hKBtY;
-        "fabric-1.21.1" = _vG5hKBtY;
+        "fabric-1.21" = _iajqAiqz;
+        "fabric-1.21.1" = _iajqAiqz;
         "fabric-26.1" = _7laNOb0E;
         "fabric-26.1.1" = _7laNOb0E;
         "fabric-26.1.2" = _7laNOb0E;
@@ -466,7 +472,8 @@ let
         "pkg-0.6.1+mc26.3" = _E4tGEZIc;
         "pkg-0.6.1+mc26.1.2" = _7laNOb0E;
         "pkg-0.3.12+mc1.21.1" = _vG5hKBtY;
-        "default" = _vG5hKBtY;
+        "pkg-0.3.12+connector+mc1.21.1" = _iajqAiqz;
+        "default" = _iajqAiqz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "penchant";

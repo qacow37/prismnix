@@ -31,6 +31,11 @@ let
             "file" = "mcpskins-1.1.2-neoforge-1.21.1.jar";
             "hash" = "sha512-T6v0yg5xp0j6NHa/fqzTn9Mpb/ymraSBHmxL21fsDQLCXKlG41/u6GISnRhAUwxGO3SnXu+ngHw+Krm/W+hFTg==";
         };
+        _2w76lnl1 = {
+            "id" = "2w76lnl1";
+            "file" = "mcpskins-1.2.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-GT2bmqhiSuiNnJO5j8K0ZNLOPZXIh/JRV7SaUtpY8coFbuxem++plEKYQ5bXUisFtYAnp9yhZjUF9z7CYwNKRg==";
+        };
     in {
         "VgQtr9ZG" = _VgQtr9ZG;
         "nEO7b30X" = _nEO7b30X;
@@ -38,14 +43,16 @@ let
         "VLfAvZsE" = _VLfAvZsE;
         "Axy9HqeE" = _Axy9HqeE;
         "gpd7FO5w" = _gpd7FO5w;
-        "neoforge-1.21.1" = _gpd7FO5w;
+        "2w76lnl1" = _2w76lnl1;
+        "neoforge-1.21.1" = _2w76lnl1;
         "pkg-1.0.2-neoforge-1.21.1" = _VgQtr9ZG;
         "pkg-1.0.3-neoforge-1.21.1" = _nEO7b30X;
         "pkg-1.0.7-neoforge-1.21.1" = _WCowS5Pe;
         "pkg-1.0.8-neoforge-1.21.1" = _VLfAvZsE;
         "pkg-1.1.0-neoforge-1.21.1" = _Axy9HqeE;
         "pkg-1.1.2-neoforge-1.21.1" = _gpd7FO5w;
-        "default" = _gpd7FO5w;
+        "pkg-1.2.0-neoforge-1.21.1" = _2w76lnl1;
+        "default" = _2w76lnl1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-advanced-skin-system";

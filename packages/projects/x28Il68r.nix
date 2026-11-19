@@ -46,6 +46,11 @@ let
             "file" = "!§dsakurapack §f[V19 - 26.2].zip";
             "hash" = "sha512-zXyPcF4pu29i/wrFQbzXhderQLpuqN22cG4Ar2HUj6rasIx1reX13NpOTe1LuiiLsm9HZNoGORzr4QPdsZoOCg==";
         };
+        _URaVvpMQ = {
+            "id" = "URaVvpMQ";
+            "file" = "!§dsakurapack §f[V20 - 26.3].zip";
+            "hash" = "sha512-wHSV1GTbyw6ozbM+uBZ9J94ACffjkxfNlCTqC2S7vPG064MbgmOudxMk0ROzEQF7cqkylghP2NxiYDAQCGqD1w==";
+        };
     in {
         "r1KX5K2H" = _r1KX5K2H;
         "92PRHRAJ" = _92PRHRAJ;
@@ -56,6 +61,7 @@ let
         "JHQRgffa" = _JHQRgffa;
         "pzooq9Yy" = _pzooq9Yy;
         "HuIlA3P4" = _HuIlA3P4;
+        "URaVvpMQ" = _URaVvpMQ;
         "minecraft-1.21" = _BMjFpWhs;
         "minecraft-1.21.1" = _BMjFpWhs;
         "minecraft-1.21.2" = _BMjFpWhs;
@@ -110,11 +116,12 @@ let
         "minecraft-24w44a" = _BMjFpWhs;
         "minecraft-24w45a" = _BMjFpWhs;
         "minecraft-24w46a" = _BMjFpWhs;
-        "minecraft-1.21.11" = _HuIlA3P4;
-        "minecraft-26.1" = _HuIlA3P4;
-        "minecraft-26.1.1" = _HuIlA3P4;
-        "minecraft-26.1.2" = _HuIlA3P4;
-        "minecraft-26.2" = _HuIlA3P4;
+        "minecraft-1.21.11" = _URaVvpMQ;
+        "minecraft-26.1" = _URaVvpMQ;
+        "minecraft-26.1.1" = _URaVvpMQ;
+        "minecraft-26.1.2" = _URaVvpMQ;
+        "minecraft-26.2" = _URaVvpMQ;
+        "minecraft-26.3" = _URaVvpMQ;
         "pkg-11.6" = _r1KX5K2H;
         "pkg-12" = _92PRHRAJ;
         "pkg-12.1" = _f4m4YKdi;
@@ -124,7 +131,8 @@ let
         "pkg-15" = _JHQRgffa;
         "pkg-18" = _pzooq9Yy;
         "pkg-19" = _HuIlA3P4;
-        "default" = _HuIlA3P4;
+        "pkg-20" = _URaVvpMQ;
+        "default" = _URaVvpMQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jsakuras-pack";

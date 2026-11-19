@@ -671,6 +671,11 @@ let
             "file" = "BetterUnpackables_v5.1.0-pre.1_mc26.3-26.4snap8.zip";
             "hash" = "sha512-bEfbJESA04sq/MnHdvXLpBPhbAE3c/UfC+i/nXYPb/bed9PVb4i6WFzyBtVAAmVCgl6vMGoEok+cfDdtC3LFBw==";
         };
+        _tPCtRsRv = {
+            "id" = "tPCtRsRv";
+            "file" = "BetterUnpackables_v5.1.0-pre.2_mc26.3-26.4snap9.zip";
+            "hash" = "sha512-1X6M+SaWgw29Y+3N5fHZuF255LuCQQ7WYBORwj62+yKwySc/vpfQtktmzNuqhv/yZ8eQdOlnj+7urtnCIgz5cA==";
+        };
     in {
         "niaxbXcl" = _niaxbXcl;
         "2N9ex882" = _2N9ex882;
@@ -806,6 +811,7 @@ let
         "edBMkVoY" = _edBMkVoY;
         "VBP9QAMA" = _VBP9QAMA;
         "Y6lO2zno" = _Y6lO2zno;
+        "tPCtRsRv" = _tPCtRsRv;
         "datapack-1.21.2-pre1" = _niaxbXcl;
         "datapack-1.21.2-pre2" = _niaxbXcl;
         "datapack-1.21.2-pre3" = _niaxbXcl;
@@ -943,15 +949,17 @@ let
         "datapack-26.3-rc-1" = _Bw1AAKEE;
         "datapack-26.3-rc-2" = _Bw1AAKEE;
         "datapack-26.3-rc-3" = _Bw1AAKEE;
-        "datapack-26.3" = _Y6lO2zno;
+        "datapack-26.3" = _tPCtRsRv;
         "datapack-26.4-snapshot-1" = _xUk1ZhTQ;
         "datapack-26.4-snapshot-2" = _xUk1ZhTQ;
         "datapack-26.4-snapshot-3" = _xUk1ZhTQ;
         "datapack-26.4-snapshot-4" = _xUk1ZhTQ;
         "datapack-26.4-snapshot-5" = _dnm7wh5W;
         "datapack-26.4-snapshot-6" = _edBMkVoY;
-        "datapack-26.4-snapshot-7" = _Y6lO2zno;
-        "datapack-26.4-snapshot-8" = _Y6lO2zno;
+        "datapack-26.4-snapshot-7" = _tPCtRsRv;
+        "datapack-26.4-snapshot-8" = _tPCtRsRv;
+        "datapack-26.4-snapshot-9" = _tPCtRsRv;
+        "datapack-26.4-snapshot-10" = _tPCtRsRv;
         "fabric-1.21.2-pre1" = _2N9ex882;
         "fabric-1.21.2-pre2" = _2N9ex882;
         "fabric-1.21.2-pre3" = _2N9ex882;
@@ -1147,7 +1155,8 @@ let
         "pkg-v5.1.0-beta.7" = _edBMkVoY;
         "pkg-v5.1.0-beta.8" = _VBP9QAMA;
         "pkg-v5.1.0-pre.1" = _Y6lO2zno;
-        "default" = _Y6lO2zno;
+        "pkg-v5.1.0-pre.2" = _tPCtRsRv;
+        "default" = _tPCtRsRv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-unpackables";

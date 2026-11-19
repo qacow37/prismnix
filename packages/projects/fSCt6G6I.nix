@@ -336,6 +336,26 @@ let
             "file" = "sequoia-1.11.3.jar";
             "hash" = "sha512-dbVbol2kyCsa0TYvD+ArJGF6Xq+8v9p5nhwdGGKAhbi3iuNnOQGGHI/0mIoDo3wSZqGu3ZVWlyunU+Y1Ps9+3g==";
         };
+        _rxdNrViG = {
+            "id" = "rxdNrViG";
+            "file" = "sequoia-1.12.0.jar";
+            "hash" = "sha512-RtI58OC+Sn3E8pT5nQ67OxWec3CsSefyHlyatZvAAj81nQ4VKv37XhbgK2P3FgTo8oBJFasFi+eolNNFYOHwjQ==";
+        };
+        _7sUoc4PN = {
+            "id" = "7sUoc4PN";
+            "file" = "sequoia-1.12.1.jar";
+            "hash" = "sha512-kIcmwygmfWT2otee9yFRGTAgKpFL4SZERNbgRBPotjoCM6KTwZjY7MxJj6KowKiHmQn+gee0tZD1HQFghQrOiA==";
+        };
+        _8rWyNepk = {
+            "id" = "8rWyNepk";
+            "file" = "sequoia-1.13.0.jar";
+            "hash" = "sha512-7GJ1uST5SEz+wqaReBLQTWNZ3eq9ig9E7C8zBv0+PIUMwtZxx1jSTK8mfhtf97Z2bz5PFOOb5F3FpGOBPQsylw==";
+        };
+        _GfgvFb7j = {
+            "id" = "GfgvFb7j";
+            "file" = "sequoia-1.14.0.jar";
+            "hash" = "sha512-Pp8kUYuJtqN+MI1/QsIM9SBgKYRtPDUfPOfMzP8MjRLmWU4Inv5ckQSXI50Q/y1c5ise9kIYjdKiwVc8UI46DA==";
+        };
     in {
         "piwEClYd" = _piwEClYd;
         "hdxNBgjC" = _hdxNBgjC;
@@ -404,7 +424,11 @@ let
         "q5ITSQ5l" = _q5ITSQ5l;
         "g6qg2o8y" = _g6qg2o8y;
         "3zFGOThs" = _3zFGOThs;
-        "fabric-1.21.11" = _3zFGOThs;
+        "rxdNrViG" = _rxdNrViG;
+        "7sUoc4PN" = _7sUoc4PN;
+        "8rWyNepk" = _8rWyNepk;
+        "GfgvFb7j" = _GfgvFb7j;
+        "fabric-1.21.11" = _GfgvFb7j;
         "pkg-0.1.0" = _piwEClYd;
         "pkg-0.6.0" = _hdxNBgjC;
         "pkg-0.6.1" = _AlnnsjSF;
@@ -472,7 +496,11 @@ let
         "pkg-1.11.1" = _q5ITSQ5l;
         "pkg-1.11.2" = _g6qg2o8y;
         "pkg-1.11.3" = _3zFGOThs;
-        "default" = _3zFGOThs;
+        "pkg-1.12.0" = _rxdNrViG;
+        "pkg-1.12.1" = _7sUoc4PN;
+        "pkg-1.13.0" = _8rWyNepk;
+        "pkg-1.14.0" = _GfgvFb7j;
+        "default" = _GfgvFb7j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sequoia";

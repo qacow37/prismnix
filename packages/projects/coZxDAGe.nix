@@ -406,6 +406,46 @@ let
             "file" = "remnant_bosses-neoforge-26.3-3.1.1.jar";
             "hash" = "sha512-PlGQV7KHojH3dolFD9XKsrJIaVWWPupofdFDJ/cbNo99p5+2xCu+gfkYZKqEx1ZluucyT6YL8qUAJ7UfHNEyrQ==";
         };
+        _LytNENPP = {
+            "id" = "LytNENPP";
+            "file" = "remnant_bosses-fabric-1.20.1-3.1.2.jar";
+            "hash" = "sha512-Z+bybxqPIs9mlJ8Vizxq85BFz+NfWdMs/KQuqT5aZRF8ls5dcYHtNV3hiNprEVt08T4F8mLRNWP+fdX/oYfqZg==";
+        };
+        _fw6DJHZp = {
+            "id" = "fw6DJHZp";
+            "file" = "remnant_bosses-fabric-1.21.1-3.1.2.jar";
+            "hash" = "sha512-voRk9JZPZTvQn7k9OpvAyhBfrYSCX86Neek+ICn4O9H8FkJkMSahlaDagYbu/BdNP8H4pfxEFw1FDJLaPqpLMg==";
+        };
+        _C76H0gz8 = {
+            "id" = "C76H0gz8";
+            "file" = "remnant_bosses-fabric-26.2-3.1.2.jar";
+            "hash" = "sha512-bgDPEcuh887QsvcaPVQa0pLLwu9GgfFpVAAh+T+Y4KWQ8WdhTMddGYbygLdJvAHEcPIbIhzGuWqTksdbEtgg+A==";
+        };
+        _ZrYPbgIj = {
+            "id" = "ZrYPbgIj";
+            "file" = "remnant_bosses-fabric-26.3-3.1.2.jar";
+            "hash" = "sha512-+aoCYvKQA3CJwAgR52LFCbCOBSs7DK8MyR2Pilbjw+QHrVOKTt2DwjpUVTWnZVarn0FdHP34dwEk6itpxaocuA==";
+        };
+        _Pw7kE3ZD = {
+            "id" = "Pw7kE3ZD";
+            "file" = "remnant_bosses-forge-1.20.1-3.1.2.jar";
+            "hash" = "sha512-Zz/zZet9YXIRQgb7hEohiayi3ivTiOW5CgRABD8lznkr94x2bKO7Zyr1M5+34WS2JkpzpoqZ933xPUkRT0fNUQ==";
+        };
+        _Gqked0ok = {
+            "id" = "Gqked0ok";
+            "file" = "remnant_bosses-neoforge-1.21.1-3.1.2.jar";
+            "hash" = "sha512-fbcmt4GW/tWxAsqiYawU2rpsd7FVn3do/t5g4+rfyudXnoQsh/KF7nWjonpOrBf0KpmiC5y8ohqvqRzdnkcOyQ==";
+        };
+        _2bzZGTJY = {
+            "id" = "2bzZGTJY";
+            "file" = "remnant_bosses-neoforge-26.2-3.1.2.jar";
+            "hash" = "sha512-vb37Wxl89FJ1oWvwpvO2PyhWG1lDOmGsFLwf6akGVZXU0+1JCF6ivy/w3xj2U84LICMDld25jM2MPEvCL9O1VQ==";
+        };
+        _wPO9AYhY = {
+            "id" = "wPO9AYhY";
+            "file" = "remnant_bosses-neoforge-26.3-3.1.2.jar";
+            "hash" = "sha512-5+BHh45vTyHIFrd5fK9sgwuGEKUg2XB8DoHk2q6U8o23MJk7B8iH9PRtr7pARxGqQQmN2ALuLuoS/pPcdzEQSw==";
+        };
     in {
         "5Lluw5s6" = _5Lluw5s6;
         "dhBA4Gse" = _dhBA4Gse;
@@ -488,20 +528,28 @@ let
         "Bbk3qFxK" = _Bbk3qFxK;
         "uFLZGxFQ" = _uFLZGxFQ;
         "3ovEXlz6" = _3ovEXlz6;
-        "forge-1.20.1" = _uuEJLcu1;
+        "LytNENPP" = _LytNENPP;
+        "fw6DJHZp" = _fw6DJHZp;
+        "C76H0gz8" = _C76H0gz8;
+        "ZrYPbgIj" = _ZrYPbgIj;
+        "Pw7kE3ZD" = _Pw7kE3ZD;
+        "Gqked0ok" = _Gqked0ok;
+        "2bzZGTJY" = _2bzZGTJY;
+        "wPO9AYhY" = _wPO9AYhY;
+        "forge-1.20.1" = _Pw7kE3ZD;
         "forge-1.16.5" = _zrpo4E41;
         "forge-1.18.2" = _jqzWSBGi;
         "forge-1.19.2" = _trVsYDaA;
         "neoforge-1.20.1" = _qaHFiWjh;
-        "neoforge-1.21.1" = _Bbk3qFxK;
+        "neoforge-1.21.1" = _Gqked0ok;
         "neoforge-1.21.5" = _WsC3WVLw;
         "neoforge-1.21.8" = _lMjmQZKX;
-        "neoforge-26.2" = _uFLZGxFQ;
-        "neoforge-26.3" = _3ovEXlz6;
-        "fabric-1.20.1" = _PWqsZLPm;
-        "fabric-1.21.1" = _H90i1gmM;
-        "fabric-26.2" = _tJacR4TJ;
-        "fabric-26.3" = _CuBufa9O;
+        "neoforge-26.2" = _2bzZGTJY;
+        "neoforge-26.3" = _wPO9AYhY;
+        "fabric-1.20.1" = _LytNENPP;
+        "fabric-1.21.1" = _fw6DJHZp;
+        "fabric-26.2" = _C76H0gz8;
+        "fabric-26.3" = _ZrYPbgIj;
         "pkg-1.0.1" = _dhBA4Gse;
         "pkg-1.1.0" = _U3RsDdf3;
         "pkg-1.0.4" = _bzcO4sqE;
@@ -567,7 +615,15 @@ let
         "pkg-3.1.1+neoforge-1.21.1" = _Bbk3qFxK;
         "pkg-3.1.1+neoforge-26.2" = _uFLZGxFQ;
         "pkg-3.1.1+neoforge-26.3" = _3ovEXlz6;
-        "default" = _3ovEXlz6;
+        "pkg-3.1.2+fabric-1.20.1" = _LytNENPP;
+        "pkg-3.1.2+fabric-1.21.1" = _fw6DJHZp;
+        "pkg-3.1.2+fabric-26.2" = _C76H0gz8;
+        "pkg-3.1.2+fabric-26.3" = _ZrYPbgIj;
+        "pkg-3.1.2+forge-1.20.1" = _Pw7kE3ZD;
+        "pkg-3.1.2+neoforge-1.21.1" = _Gqked0ok;
+        "pkg-3.1.2+neoforge-26.2" = _2bzZGTJY;
+        "pkg-3.1.2+neoforge-26.3" = _wPO9AYhY;
+        "default" = _wPO9AYhY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "remnant-bosses";

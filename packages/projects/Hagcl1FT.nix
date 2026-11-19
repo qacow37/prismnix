@@ -956,6 +956,16 @@ let
             "file" = "neepmeat-0.35.1-beta+1.20.1.jar";
             "hash" = "sha512-qO1aHYVwRtKa+wpelwrIkFs2y/yRDhTm7v7oEqyBFlCxWttitRicqj2wUIq7sVPHbD1sJVDyc0CZztr/T8hYlg==";
         };
+        _TAqCFoz4 = {
+            "id" = "TAqCFoz4";
+            "file" = "neepmeat-0.36.0-beta+1.20.1.jar";
+            "hash" = "sha512-sYMQ1vSLlt5bdpNCvMKPV3QxdRzWfvUNAkqhblXh0w6+NAD3XvPjl3RVUm2v6aAYGFaHlRxiWgfCxEjXB4jsIA==";
+        };
+        _C6CPeCoJ = {
+            "id" = "C6CPeCoJ";
+            "file" = "neepmeat-0.36.1-beta+1.20.1.jar";
+            "hash" = "sha512-vlVS0BCcLlqE82FEDrQNKD6X1J70W6LqBvDILk4h4i9OY93fcIIe2qziKuz/Wy+hIaeIGlND09z1E4BPPHT+qw==";
+        };
     in {
         "3WOS1rbl" = _3WOS1rbl;
         "Zjxitfdn" = _Zjxitfdn;
@@ -1148,11 +1158,13 @@ let
         "ipSSwCnT" = _ipSSwCnT;
         "lj0PLuwr" = _lj0PLuwr;
         "cGxEmOKu" = _cGxEmOKu;
+        "TAqCFoz4" = _TAqCFoz4;
+        "C6CPeCoJ" = _C6CPeCoJ;
         "fabric-1.18.2" = _UpyGZDDx;
         "fabric-1.18" = _UpyGZDDx;
         "fabric-1.18.1" = _UpyGZDDx;
         "fabric-1.19.2" = _hSGx9Rdv;
-        "fabric-1.20.1" = _cGxEmOKu;
+        "fabric-1.20.1" = _C6CPeCoJ;
         "pkg-0.1.1-alpha" = _3WOS1rbl;
         "pkg-0.1.2-alpha" = _Zjxitfdn;
         "pkg-0.1.3-alpha" = _H1P8DYew;
@@ -1344,7 +1356,9 @@ let
         "pkg-0.33.0-beta+1.20.1" = _ipSSwCnT;
         "pkg-0.34.0-beta+1.20.1" = _lj0PLuwr;
         "pkg-0.35.1-beta+1.20.1" = _cGxEmOKu;
-        "default" = _cGxEmOKu;
+        "pkg-0.36.0-beta+1.20.1" = _TAqCFoz4;
+        "pkg-0.36.1-beta+1.20.1" = _C6CPeCoJ;
+        "default" = _C6CPeCoJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neepmeat";

@@ -2441,6 +2441,21 @@ let
             "file" = "obe+1.21.1-neoforge-1.2.9.jar";
             "hash" = "sha512-YKJWX1Pi2uWYIR+XbLvxWPe0eir/P61LttDcCHOQoxQCBjqBYJr1LFetrUJqFRz+Kenagl1wvPbTPfKihO3Z7A==";
         };
+        _WsElUyTC = {
+            "id" = "WsElUyTC";
+            "file" = "obe+26.3-1.2.10.jar";
+            "hash" = "sha512-bcL0bl2gBPIKW6JDS3Qh1MNPzvs3xKHfcQzIDIu1gh9AQ3geWoxUZjxIxZa1fPCfRHD6GR47GVIpOnVVpUMi6A==";
+        };
+        _PFfjg4hR = {
+            "id" = "PFfjg4hR";
+            "file" = "obe+26.3-1.2.11.jar";
+            "hash" = "sha512-l409c4D33HWvZKDuCiidozrmHJDLsvLiqjk04798ntzmc9DlauSfwuwJ6Zv0PvdZbVPGI1GlvM3iXFRR/ee9WA==";
+        };
+        _2OlPg9X4 = {
+            "id" = "2OlPg9X4";
+            "file" = "obe+26.3-1.2.12.jar";
+            "hash" = "sha512-ULEUUhJ9JlaB7pBe28kVhlcKnNmXsMnZq5EqOc3HRrlV/yG3Kcfuz8WV1yTUbPV7aWSocB3vYVwnlzzrYXEDEw==";
+        };
     in {
         "UR5glDGz" = _UR5glDGz;
         "MRW9CuTX" = _MRW9CuTX;
@@ -2930,6 +2945,9 @@ let
         "y6mikkmB" = _y6mikkmB;
         "mSQ4BWpx" = _mSQ4BWpx;
         "grsYvL9y" = _grsYvL9y;
+        "WsElUyTC" = _WsElUyTC;
+        "PFfjg4hR" = _PFfjg4hR;
+        "2OlPg9X4" = _2OlPg9X4;
         "fabric-26.1" = _WMytWKqE;
         "fabric-26.1.1" = _WMytWKqE;
         "fabric-26.1.2" = _WMytWKqE;
@@ -2952,7 +2970,7 @@ let
         "fabric-26.3-snapshot-5" = _aByhLlcu;
         "fabric-26.3-snapshot-6" = _aByhLlcu;
         "fabric-26.3-snapshot-7" = _aByhLlcu;
-        "fabric-26.3" = _cowxN4rq;
+        "fabric-26.3" = _2OlPg9X4;
         "quilt-26.1" = _WMytWKqE;
         "quilt-26.1.1" = _WMytWKqE;
         "quilt-26.1.2" = _WMytWKqE;
@@ -2975,7 +2993,7 @@ let
         "quilt-26.3-snapshot-5" = _aByhLlcu;
         "quilt-26.3-snapshot-6" = _aByhLlcu;
         "quilt-26.3-snapshot-7" = _aByhLlcu;
-        "quilt-26.3" = _cowxN4rq;
+        "quilt-26.3" = _2OlPg9X4;
         "neoforge-1.21" = _grsYvL9y;
         "neoforge-1.21.1" = _grsYvL9y;
         "neoforge-1.20.1" = _mSQ4BWpx;
@@ -3092,7 +3110,10 @@ let
         "pkg-1.2.7" = _IrNg5dHz;
         "pkg-1.2.8" = _ZsrfX2PU;
         "pkg-1.2.9" = _grsYvL9y;
-        "default" = _grsYvL9y;
+        "pkg-1.2.10" = _WsElUyTC;
+        "pkg-1.2.11" = _PFfjg4hR;
+        "pkg-1.2.12" = _2OlPg9X4;
+        "default" = _2OlPg9X4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "obe";

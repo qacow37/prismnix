@@ -96,6 +96,16 @@ let
             "file" = "save-manager-1.3.6.jar";
             "hash" = "sha512-iYN5irXi6ilw6GDad4bv5bnB1HnTCwVqopcthjNAeMzilxS4n8jIACRoSNiuESQ91JNh2k5AGGqBTxrNEG81zw==";
         };
+        _oI5V6G64 = {
+            "id" = "oI5V6G64";
+            "file" = "save-manager-1.3.7.jar";
+            "hash" = "sha512-cGtOAWFFWOdntw1/dZ8MkJt9jOHDc4MR9kSpLsDDin6dJxtREAFvUqgnSoDfSg2r9PKneizToQaQW3SNsvDsPA==";
+        };
+        _tGFhDoJv = {
+            "id" = "tGFhDoJv";
+            "file" = "save-manager-1.4.0.jar";
+            "hash" = "sha512-nTW3uSN/ASREGl5Qk8uPzSZGQKdIozDWJB9+0qstGhzI5v14dOoAQdrRSs3vPm3gftCYrDhH+IBgDOpXJKgXHw==";
+        };
     in {
         "AK9sTtq2" = _AK9sTtq2;
         "fsPVlEFN" = _fsPVlEFN;
@@ -116,6 +126,8 @@ let
         "4MOnprAI" = _4MOnprAI;
         "DsKiwFZ5" = _DsKiwFZ5;
         "uujmPg4r" = _uujmPg4r;
+        "oI5V6G64" = _oI5V6G64;
+        "tGFhDoJv" = _tGFhDoJv;
         "fabric-1.21.9" = _yBU29haW;
         "fabric-1.21.10" = _yBU29haW;
         "fabric-1.21.11" = _5BuJK8N3;
@@ -125,7 +137,7 @@ let
         "fabric-26.1.1" = _b6qoH7IT;
         "fabric-26.1.2" = _b6qoH7IT;
         "fabric-26.2" = _ulzYys14;
-        "fabric-26.3" = _uujmPg4r;
+        "fabric-26.3" = _tGFhDoJv;
         "pkg-1.0.1" = _AK9sTtq2;
         "pkg-1.1.0" = _o03hBMYU;
         "pkg-1.1.1" = _yBU29haW;
@@ -142,7 +154,9 @@ let
         "pkg-1.3.4" = _4MOnprAI;
         "pkg-1.3.5" = _DsKiwFZ5;
         "pkg-1.3.6" = _uujmPg4r;
-        "default" = _uujmPg4r;
+        "pkg-1.3.7" = _oI5V6G64;
+        "pkg-1.4.0" = _tGFhDoJv;
+        "default" = _tGFhDoJv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cloud-save-manager";

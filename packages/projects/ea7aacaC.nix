@@ -491,6 +491,16 @@ let
             "file" = "VillageNames-1.12.2-4.4.13.jar";
             "hash" = "sha512-WW3PegUAc/YJybMJAsguJQ2HuUzF3BjIU4gb1Mb8WH+coYbdCVkMziZwvUgF5ccctmuPnjN6uqKZhd+7iL+Fag==";
         };
+        _ZiPrV3al = {
+            "id" = "ZiPrV3al";
+            "file" = "VillageNames-1.7.10-5.0.jar";
+            "hash" = "sha512-4SiOk0ForaTubzky5N93RRVLXPj3ycLXKuK+UIcSxtYkCHEJkkchR7UAKOQiUNSzplLSZe56Qv+CpT68s/cBYg==";
+        };
+        _xYXFK9bk = {
+            "id" = "xYXFK9bk";
+            "file" = "VillageNames-1.12.2-5.0.jar";
+            "hash" = "sha512-Zg7nSjTgTSvzFdy2nWFT2cYU5JusgUiG/VA4bjULyhvnVHkX9L1I96Q69DB63BMhL96+K5sqD4s3nTTVu2kRjQ==";
+        };
     in {
         "mNeyO93F" = _mNeyO93F;
         "vj3c25Tn" = _vj3c25Tn;
@@ -590,12 +600,14 @@ let
         "QV0nVHIr" = _QV0nVHIr;
         "6WhenFip" = _6WhenFip;
         "kkKXh6H7" = _kkKXh6H7;
-        "forge-1.7.10" = _dbqnvxNP;
+        "ZiPrV3al" = _ZiPrV3al;
+        "xYXFK9bk" = _xYXFK9bk;
+        "forge-1.7.10" = _ZiPrV3al;
         "forge-1.8.9" = _RaWRtYWi;
         "forge-1.9.4" = _Hl2c8q5S;
         "forge-1.10.2" = _QV0nVHIr;
         "forge-1.11.2" = _6WhenFip;
-        "forge-1.12.2" = _kkKXh6H7;
+        "forge-1.12.2" = _xYXFK9bk;
         "pkg-4.3.11-1.7.10" = _mNeyO93F;
         "pkg-4.3.11-1.8.9" = _vj3c25Tn;
         "pkg-4.3.11-1.9.4" = _TXroWqbW;
@@ -694,7 +706,9 @@ let
         "pkg-4.4.13-1.10" = _QV0nVHIr;
         "pkg-4.4.13-1.11" = _6WhenFip;
         "pkg-4.4.13-1.12" = _kkKXh6H7;
-        "default" = _kkKXh6H7;
+        "pkg-5.0-1.7" = _ZiPrV3al;
+        "pkg-5.0-1.12" = _xYXFK9bk;
+        "default" = _xYXFK9bk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "village-names";

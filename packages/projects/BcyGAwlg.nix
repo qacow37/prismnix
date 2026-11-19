@@ -51,6 +51,11 @@ let
             "file" = "fresh_waystones.zip";
             "hash" = "sha512-4tNp11HOkjvRMUelAJiSAL6RW8W/1AzPHOndkHpu/BqP5QDgkVlks1UKbroSa0NqTNo/RCrgv232PpsrrawyOQ==";
         };
+        _p9SyNNXU = {
+            "id" = "p9SyNNXU";
+            "file" = "waystones_update_7.zip";
+            "hash" = "sha512-n3NWMxxs0+66p/HzencL7RUY/J+V/S2AzCTeXYaxgz75ccIH1Zc4Bgdk4pOXD5R7OgXjSPYzWkoZXuV63AecOg==";
+        };
     in {
         "qQgOdy8R" = _qQgOdy8R;
         "QANDno5U" = _QANDno5U;
@@ -62,14 +67,15 @@ let
         "zN2O0Dqp" = _zN2O0Dqp;
         "fne858JW" = _fne858JW;
         "LvhBQERi" = _LvhBQERi;
+        "p9SyNNXU" = _p9SyNNXU;
         "minecraft-1.20" = _QANDno5U;
         "minecraft-1.20.1" = _7vacRuYz;
         "minecraft-1.20.2" = _qQgOdy8R;
         "minecraft-1.20.3" = _qQgOdy8R;
         "minecraft-1.20.4" = _qQgOdy8R;
         "minecraft-1.20.6" = _QANDno5U;
-        "minecraft-1.21" = _LvhBQERi;
-        "minecraft-1.21.1" = _LvhBQERi;
+        "minecraft-1.21" = _p9SyNNXU;
+        "minecraft-1.21.1" = _p9SyNNXU;
         "minecraft-1.21.5" = _IXX2foZX;
         "minecraft-1.21.6" = _pCsrd7xi;
         "minecraft-1.21.7" = _pCsrd7xi;
@@ -86,7 +92,8 @@ let
         "pkg-5.0" = _zN2O0Dqp;
         "pkg-6.0" = _fne858JW;
         "pkg-3.3" = _LvhBQERi;
-        "default" = _LvhBQERi;
+        "pkg-3.4" = _p9SyNNXU;
+        "default" = _p9SyNNXU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fresh-waystones-texture";

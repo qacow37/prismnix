@@ -41,6 +41,11 @@ let
             "file" = "CqsAnimation.zip";
             "hash" = "sha512-QNT10cv0VDOJd6sr/K9De0B4Vq8E/iL4uANcdkWEJcxeSeaEaDsA5aLjSaQZXS8TKm/2K5xnygN884RYfnAvDg==";
         };
+        _oOq84MXw = {
+            "id" = "oOq84MXw";
+            "file" = "CqsAnimation.zip";
+            "hash" = "sha512-w7bAWveVnucEGZKZD8o2DBV6ftp4NYreKiefzhn+ZtDUqbtTvbwLRVsqZamcjASJfGf/EjIp7xxvuWx7FQ7hQw==";
+        };
     in {
         "2X6gDwGu" = _2X6gDwGu;
         "xuRlqzP2" = _xuRlqzP2;
@@ -50,7 +55,8 @@ let
         "Nl536FpP" = _Nl536FpP;
         "fhYeKbpF" = _fhYeKbpF;
         "ogjWTQIE" = _ogjWTQIE;
-        "minecraft-1.21.1" = _ogjWTQIE;
+        "oOq84MXw" = _oOq84MXw;
+        "minecraft-1.21.1" = _oOq84MXw;
         "pkg-1.0.0" = _2X6gDwGu;
         "pkg-2.0.0" = _xuRlqzP2;
         "pkg-2.3.0" = _cujhDdEE;
@@ -59,7 +65,8 @@ let
         "pkg-2.4.1" = _Nl536FpP;
         "pkg-2.8.0" = _fhYeKbpF;
         "pkg-3.0.0" = _ogjWTQIE;
-        "default" = _ogjWTQIE;
+        "pkg-4.0.0" = _oOq84MXw;
+        "default" = _oOq84MXw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemoncqsanimation";

@@ -56,6 +56,21 @@ let
             "file" = "CreateDieselGenerators-1.3.15.3+fly-mc26.3.jar";
             "hash" = "sha512-Ybakjv2MqBto0phwnwhPzhc4/gqGPxlnjx9n8ErQabEfsOi8sxjit8o5DGVFVQFEQm3A1OW32BJ030ppe2NWcQ==";
         };
+        _dMVHm0hp = {
+            "id" = "dMVHm0hp";
+            "file" = "CreateDieselGenerators-1.3.15.4+fly-mc26.2.jar";
+            "hash" = "sha512-vjt8b9hltST8uW4bFukAsJuSegAsLFsvOW9UUL6vEBWyDm7u5ccM/ms0NbOnV5ro/zxbkoCVIWeyKIaA9ZTrBw==";
+        };
+        _kFitHgJI = {
+            "id" = "kFitHgJI";
+            "file" = "CreateDieselGenerators-1.3.15.4+fly-mc26.1.jar";
+            "hash" = "sha512-rlm9RHWrrCExTGi8aZfPBTsBzJl6nFqVcYuqRBhodi6cU51bylfTAXRYNB1Tl/TiZ3QLjPuBlvb978j4kmXwJQ==";
+        };
+        _5KjqXhbu = {
+            "id" = "5KjqXhbu";
+            "file" = "CreateDieselGenerators-1.3.15.4+fly-mc26.3.jar";
+            "hash" = "sha512-2B1bzPVBAnYflIfAhTMBGrfHQX97v+XCcgyrzrg1VXFoKGDzN+uHmsJhkyAGFfedroZcTCj7KOHJOyjTXk4Gyg==";
+        };
     in {
         "QJbpOQ5G" = _QJbpOQ5G;
         "aSAD6lMy" = _aSAD6lMy;
@@ -68,11 +83,14 @@ let
         "6SVnBRwY" = _6SVnBRwY;
         "E3MDjUVc" = _E3MDjUVc;
         "l47MU9Ve" = _l47MU9Ve;
-        "fabric-26.1.2" = _E3MDjUVc;
-        "fabric-26.2" = _6SVnBRwY;
-        "fabric-26.1" = _E3MDjUVc;
-        "fabric-26.1.1" = _E3MDjUVc;
-        "fabric-26.3" = _l47MU9Ve;
+        "dMVHm0hp" = _dMVHm0hp;
+        "kFitHgJI" = _kFitHgJI;
+        "5KjqXhbu" = _5KjqXhbu;
+        "fabric-26.1.2" = _kFitHgJI;
+        "fabric-26.2" = _dMVHm0hp;
+        "fabric-26.1" = _kFitHgJI;
+        "fabric-26.1.1" = _kFitHgJI;
+        "fabric-26.3" = _5KjqXhbu;
         "pkg-1.3.15-fly.26.1.2-beta.3" = _QJbpOQ5G;
         "pkg-1.3.15-fly.26.2-beta.8" = _aSAD6lMy;
         "pkg-1.3.15-fly.26.2-beta.10" = _WEZolF5w;
@@ -84,7 +102,10 @@ let
         "pkg-1.3.15.3+fly-mc26.2" = _6SVnBRwY;
         "pkg-1.3.15.3+fly-mc26.1" = _E3MDjUVc;
         "pkg-1.3.15.3+fly-mc26.3" = _l47MU9Ve;
-        "default" = _l47MU9Ve;
+        "pkg-1.3.15.4+fly-mc26.2" = _dMVHm0hp;
+        "pkg-1.3.15.4+fly-mc26.1" = _kFitHgJI;
+        "pkg-1.3.15.4+fly-mc26.3" = _5KjqXhbu;
+        "default" = _5KjqXhbu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-fly-diesel-generators-unofficial-port";

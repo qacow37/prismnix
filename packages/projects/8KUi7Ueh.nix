@@ -36,6 +36,21 @@ let
             "file" = "cobbletwoclient-2.2.7.jar";
             "hash" = "sha512-Fxyjng5VKVGJyT5TAGu+wuvTEl65r3yS7oGs2yL3EedHHsHOLTO+GrS615OLzwTP5L82M9uUb6xa1DCxP5Ct7w==";
         };
+        _SDRBrEhu = {
+            "id" = "SDRBrEhu";
+            "file" = "cobbletwoclient-2.2.11.jar";
+            "hash" = "sha512-NWES55gMyg1h0t9jLbbRZA4J4KgqR2wH2zbalv4tO+HktVMIF59bOdUgypdkE6FY74dJZIWxE8w9xXgvAlo61g==";
+        };
+        _mu0VvaQb = {
+            "id" = "mu0VvaQb";
+            "file" = "cobbletwoclient-2.2.12.jar";
+            "hash" = "sha512-oV0G65aLlN6rhdNQg6wRT3xtFeF+TCq+L0ZM3S9CB6aN/i26h2V7Cc6YtYiEkGaTiOIfDJ4wA7iWPETmUnHt+A==";
+        };
+        _i1FQ17Dt = {
+            "id" = "i1FQ17Dt";
+            "file" = "cobbletwoclient-2.2.13.jar";
+            "hash" = "sha512-1wQ//A+maN2qrqdzzNj5639h85jzpcHHSXiXSsF2s25fAilzSjlfnoVAVQAAXXl0RSqSVFTiHxgCldBmrpyLXw==";
+        };
     in {
         "XOi0Vixp" = _XOi0Vixp;
         "DOEddPtd" = _DOEddPtd;
@@ -44,24 +59,30 @@ let
         "eZNxuaQE" = _eZNxuaQE;
         "rWfHFbQx" = _rWfHFbQx;
         "jxpI6Qgt" = _jxpI6Qgt;
-        "fabric-1.21.1" = _jxpI6Qgt;
-        "fabric-1.21.11" = _jxpI6Qgt;
-        "fabric-1.21.10" = _jxpI6Qgt;
-        "fabric-1.21.9" = _jxpI6Qgt;
-        "fabric-1.21.8" = _jxpI6Qgt;
-        "fabric-1.21.7" = _jxpI6Qgt;
-        "fabric-1.21.6" = _jxpI6Qgt;
-        "fabric-1.21.5" = _jxpI6Qgt;
-        "fabric-1.21.4" = _jxpI6Qgt;
-        "fabric-1.21.3" = _jxpI6Qgt;
-        "fabric-1.21.2" = _jxpI6Qgt;
+        "SDRBrEhu" = _SDRBrEhu;
+        "mu0VvaQb" = _mu0VvaQb;
+        "i1FQ17Dt" = _i1FQ17Dt;
+        "fabric-1.21.1" = _i1FQ17Dt;
+        "fabric-1.21.11" = _i1FQ17Dt;
+        "fabric-1.21.10" = _i1FQ17Dt;
+        "fabric-1.21.9" = _i1FQ17Dt;
+        "fabric-1.21.8" = _i1FQ17Dt;
+        "fabric-1.21.7" = _i1FQ17Dt;
+        "fabric-1.21.6" = _i1FQ17Dt;
+        "fabric-1.21.5" = _i1FQ17Dt;
+        "fabric-1.21.4" = _i1FQ17Dt;
+        "fabric-1.21.3" = _i1FQ17Dt;
+        "fabric-1.21.2" = _i1FQ17Dt;
         "pkg-1.0" = _t8wDLJHk;
         "pkg-1.1" = _DOEddPtd;
         "pkg-1.2" = _NS329bmL;
         "pkg-1.2.1" = _eZNxuaQE;
         "pkg-2.2.4" = _rWfHFbQx;
         "pkg-2.2.7" = _jxpI6Qgt;
-        "default" = _jxpI6Qgt;
+        "pkg-2.2.11" = _SDRBrEhu;
+        "pkg-2.2.12" = _mu0VvaQb;
+        "pkg-2.2.13" = _i1FQ17Dt;
+        "default" = _i1FQ17Dt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobbletwoclient";

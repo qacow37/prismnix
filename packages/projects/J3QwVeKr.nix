@@ -16,16 +16,23 @@ let
             "file" = "createimmersivearmorerintegration-1.1-1.21.1-neoforge.jar";
             "hash" = "sha512-pUMj3XKxYuy7lSiwZuQmXwei45Feta4Fzkf/JCPYoQHFl5o7fu1p+jOdYjsCFO5C4hCumbcCUmUOcMQQj6tYIQ==";
         };
+        _TGDKyWWd = {
+            "id" = "TGDKyWWd";
+            "file" = "createimmersivearmorerintegration-1.2-1.21.1-neoforge.jar";
+            "hash" = "sha512-dFtyOJCD8bI/dssBbymtma9gdBlNKlmQ9KQxEygK16dBO6GYBD+4foVui9anE+whOTMwMXAx+tXHaY+V7fw6rg==";
+        };
     in {
         "vxE4rMWc" = _vxE4rMWc;
         "shUad4Mh" = _shUad4Mh;
         "hfLGNdlm" = _hfLGNdlm;
+        "TGDKyWWd" = _TGDKyWWd;
         "forge-1.20.1" = _shUad4Mh;
-        "neoforge-1.21.1" = _hfLGNdlm;
+        "neoforge-1.21.1" = _TGDKyWWd;
         "pkg-1.0-1.20.1" = _vxE4rMWc;
         "pkg-1.1-1.20.1" = _shUad4Mh;
         "pkg-1.1-1.21.1-neoforge" = _hfLGNdlm;
-        "default" = _hfLGNdlm;
+        "pkg-1.2-1.21.1-neoforge" = _TGDKyWWd;
+        "default" = _TGDKyWWd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-immersive-armorer-integration";

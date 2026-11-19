@@ -991,6 +991,16 @@ let
             "file" = "eslium-4.9.0-alpha+26.4-snapshot-8.jar";
             "hash" = "sha512-uZ/jHkcB9ab4Xn+qFRKXXkZz5wDlOlzgq3zv96NoPLgF0e1NBoRu3Zo9douW7KQZvxmAk0v1+37HEVV7uSxGnw==";
         };
+        _PbY0BAhP = {
+            "id" = "PbY0BAhP";
+            "file" = "eslium-4.9.0-alpha+26.4-snapshot-9.jar";
+            "hash" = "sha512-hNuNRB7l8ld6EN/Owi1Rj7qkcZCGOtKUxfCHmGQR+ovu9xYRFaXQE+kS6PQYkh9KBh6ZNBBoD8isrWjI/KopaA==";
+        };
+        _nRbyuI3o = {
+            "id" = "nRbyuI3o";
+            "file" = "eslium-4.9.0-alpha+26.4-snapshot-10.jar";
+            "hash" = "sha512-dGesmH2n6OmSgS8StAPj422frN1T3sSRuLCgZzCic+anFzF5CIHiU8yqSXsZdaams7MRE7EoBN68KwTTLnDbjA==";
+        };
     in {
         "hMlp9vbD" = _hMlp9vbD;
         "Ki5T6AaR" = _Ki5T6AaR;
@@ -1190,6 +1200,8 @@ let
         "Giabjlxs" = _Giabjlxs;
         "4UQ3FsMk" = _4UQ3FsMk;
         "fezle40B" = _fezle40B;
+        "PbY0BAhP" = _PbY0BAhP;
+        "nRbyuI3o" = _nRbyuI3o;
         "fabric-1.21.5" = _fJFoxRMJ;
         "fabric-1.21" = _R0ewsR6V;
         "fabric-1.21.1" = _R0ewsR6V;
@@ -1225,6 +1237,8 @@ let
         "fabric-26.4-snapshot-6" = _Giabjlxs;
         "fabric-26.4-snapshot-7" = _4UQ3FsMk;
         "fabric-26.4-snapshot-8" = _fezle40B;
+        "fabric-26.4-snapshot-9" = _PbY0BAhP;
+        "fabric-26.4-snapshot-10" = _nRbyuI3o;
         "quilt-1.21" = _R0ewsR6V;
         "quilt-1.21.1" = _R0ewsR6V;
         "quilt-1.21.2" = _nUUkPaj9;
@@ -1260,6 +1274,8 @@ let
         "quilt-26.4-snapshot-6" = _Giabjlxs;
         "quilt-26.4-snapshot-7" = _4UQ3FsMk;
         "quilt-26.4-snapshot-8" = _fezle40B;
+        "quilt-26.4-snapshot-9" = _PbY0BAhP;
+        "quilt-26.4-snapshot-10" = _nRbyuI3o;
         "forge-26.1" = _cfqKVJgI;
         "forge-26.1.1" = _cfqKVJgI;
         "forge-26.1.2" = _cfqKVJgI;
@@ -1282,6 +1298,8 @@ let
         "forge-26.4-snapshot-6" = _Giabjlxs;
         "forge-26.4-snapshot-7" = _4UQ3FsMk;
         "forge-26.4-snapshot-8" = _fezle40B;
+        "forge-26.4-snapshot-9" = _PbY0BAhP;
+        "forge-26.4-snapshot-10" = _nRbyuI3o;
         "neoforge-26.1" = _cfqKVJgI;
         "neoforge-26.1.1" = _cfqKVJgI;
         "neoforge-26.1.2" = _cfqKVJgI;
@@ -1304,6 +1322,8 @@ let
         "neoforge-26.4-snapshot-6" = _Giabjlxs;
         "neoforge-26.4-snapshot-7" = _4UQ3FsMk;
         "neoforge-26.4-snapshot-8" = _fezle40B;
+        "neoforge-26.4-snapshot-9" = _PbY0BAhP;
+        "neoforge-26.4-snapshot-10" = _nRbyuI3o;
         "pkg-0.0.0" = _hMlp9vbD;
         "pkg-0.1.0" = _Ki5T6AaR;
         "pkg-0.2.0" = _Glu3LsG3;
@@ -1356,8 +1376,8 @@ let
         "pkg-4.7.0-alpha" = _ecTh5fEM;
         "pkg-4.7.1-alpha" = _QpmdGbPU;
         "pkg-4.8.0-alpha" = _9Pn2MNBt;
-        "pkg-4.9.0-alpha" = _fezle40B;
-        "default" = _fezle40B;
+        "pkg-4.9.0-alpha" = _nRbyuI3o;
+        "default" = _nRbyuI3o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eslium";

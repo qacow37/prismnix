@@ -161,6 +161,16 @@ let
             "file" = "droploottables-fabric-1.8.1-1.9.3.jar";
             "hash" = "sha512-4j7uuwgCcag6pbgCNzbYFATISAgSSnS9xRCKUDdmEaHKgqT5U24zXP6eby1Jorl8OXQNKQxiZAFg9KYlqA+TdA==";
         };
+        _bXO0q3DO = {
+            "id" = "bXO0q3DO";
+            "file" = "droploottables-fabric-1.8.4-1.9.3.jar";
+            "hash" = "sha512-7TjE3Jn7ZnACVRXJIe3EpRIOKZjRiV6SE1u+67l1JpAxj2XBUHv9TNl9qwLYX1XZ5MUjeI/t/otkr6bZck6RRA==";
+        };
+        _UmLtKSLC = {
+            "id" = "UmLtKSLC";
+            "file" = "droploottables-neoforge-1.8.4-1.9.3.jar";
+            "hash" = "sha512-sGcfN5g/SqIcPKQiY1Shk/b5Bl+KeB7pxTy3uVMmlSdL4DBPaqwliiJGvdvpXWVixiYnHxgVkFl1FOreI9dlrQ==";
+        };
     in {
         "Y12tNabB" = _Y12tNabB;
         "lO1toOkk" = _lO1toOkk;
@@ -194,9 +204,11 @@ let
         "AjxCbF2J" = _AjxCbF2J;
         "kX0hFEq7" = _kX0hFEq7;
         "N6zD4BOk" = _N6zD4BOk;
+        "bXO0q3DO" = _bXO0q3DO;
+        "UmLtKSLC" = _UmLtKSLC;
         "fabric-1.20.1" = _Ivt8UtFS;
-        "fabric-1.21.1" = _N6zD4BOk;
-        "neoforge-1.21.1" = _kX0hFEq7;
+        "fabric-1.21.1" = _bXO0q3DO;
+        "neoforge-1.21.1" = _UmLtKSLC;
         "pkg-1.5-fabric-1.0.0" = _Y12tNabB;
         "pkg-1.5-fabric-1.1.0" = _lO1toOkk;
         "pkg-1.5-fabric-1.2.0" = _Rvd5nCZd;
@@ -229,7 +241,9 @@ let
         "pkg-1.8.1-neoforge-1.9.2" = _AjxCbF2J;
         "pkg-1.8.1-neoforge-1.9.3" = _kX0hFEq7;
         "pkg-1.8.1-fabric-1.9.3" = _N6zD4BOk;
-        "default" = _N6zD4BOk;
+        "pkg-1.8.4-fabric-1.9.3" = _bXO0q3DO;
+        "pkg-1.8.4-neoforge-1.9.3" = _UmLtKSLC;
+        "default" = _UmLtKSLC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-droploottables";

@@ -956,6 +956,16 @@ let
             "file" = "casting-1.21.1-2.3.14.jar";
             "hash" = "sha512-gZRuh87cvUEXOv4c3clhX0xMB3t5hgSPk+LxOB5XR1MbrkiKC3LGpkAkr//JX/gpR18vc5myXcvfeMbrEQGZhA==";
         };
+        _pHBpl6CB = {
+            "id" = "pHBpl6CB";
+            "file" = "casting-1.21.1-2.3.15.jar";
+            "hash" = "sha512-1WkymVL4ZEOnuqDzuxmJNCyj/aJJhigX2NMf/42SDX+9LnXDojkpDme8obfY8cay63fAHQ8HVbW2XFrndeOErg==";
+        };
+        _albzLL2S = {
+            "id" = "albzLL2S";
+            "file" = "casting-1.21.1-2.3.16.jar";
+            "hash" = "sha512-4EG9HBtYK5CiNILaSNBbulaYm82WI7lo5MK0C/imEVocPe876HmT5mdMe/fEwSw3jUrEG0oQbVCsSviUO2f6vA==";
+        };
     in {
         "qFkAVrzt" = _qFkAVrzt;
         "Y5gUH63v" = _Y5gUH63v;
@@ -1148,8 +1158,10 @@ let
         "9sAGTycx" = _9sAGTycx;
         "CrKVttTq" = _CrKVttTq;
         "c8JDwmVH" = _c8JDwmVH;
+        "pHBpl6CB" = _pHBpl6CB;
+        "albzLL2S" = _albzLL2S;
         "neoforge-1.21" = _mHE6wnd2;
-        "neoforge-1.21.1" = _c8JDwmVH;
+        "neoforge-1.21.1" = _albzLL2S;
         "neoforge-26.1" = _2HXjMG0M;
         "neoforge-26.1.1" = _2HXjMG0M;
         "neoforge-26.1.2" = _CrKVttTq;
@@ -1324,7 +1336,9 @@ let
         "pkg-26.1.2-3.10.13" = _9sAGTycx;
         "pkg-26.1.2-3.10.14" = _CrKVttTq;
         "pkg-2.3.14" = _c8JDwmVH;
-        "default" = _c8JDwmVH;
+        "pkg-2.3.15" = _pHBpl6CB;
+        "pkg-2.3.16" = _albzLL2S;
+        "default" = _albzLL2S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bbl-casting";

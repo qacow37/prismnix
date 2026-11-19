@@ -51,6 +51,11 @@ let
             "file" = "ButterBee_resources-1.1.2-26.3.zip";
             "hash" = "sha512-XVXw8pZG9fi9LS5IOgsgYDHI8SO0QFX/Y3Iz9O0kigB8mNBSxQ7YtQn4+JIT0RwcMKJXAjs2g5gnIYFW+AfkIA==";
         };
+        _YLdv4h22 = {
+            "id" = "YLdv4h22";
+            "file" = "ButterBee_resources-1.1.3-26.3.zip";
+            "hash" = "sha512-HUsI6X/mBjMzcJbyGGS7FlWstQjtIrhHbw9TPRcTkCi7M81dMaXZ6DgpYvgRzOOx90zXQeP4QrglIMfapVSj2Q==";
+        };
     in {
         "DYZPGuW7" = _DYZPGuW7;
         "anwYRovv" = _anwYRovv;
@@ -62,6 +67,7 @@ let
         "8M7r9o0G" = _8M7r9o0G;
         "BbOpDXpl" = _BbOpDXpl;
         "BooUPY9y" = _BooUPY9y;
+        "YLdv4h22" = _YLdv4h22;
         "minecraft-1.21.5" = _NU3BwDuB;
         "minecraft-1.21.6" = _NU3BwDuB;
         "minecraft-1.21.7" = _NU3BwDuB;
@@ -73,7 +79,7 @@ let
         "minecraft-26.1.1" = _QRDMTx5Y;
         "minecraft-26.1.2" = _QRDMTx5Y;
         "minecraft-26.2" = _QRDMTx5Y;
-        "minecraft-26.3" = _BooUPY9y;
+        "minecraft-26.3" = _YLdv4h22;
         "pkg-1.0" = _DYZPGuW7;
         "pkg-1.0.1" = _anwYRovv;
         "pkg-1.0.2" = _bT5Oi4sa;
@@ -84,7 +90,8 @@ let
         "pkg-1.1.0-resourcepack-26.3" = _8M7r9o0G;
         "pkg-1.1.1-resourcepack-26.3" = _BbOpDXpl;
         "pkg-1.1.2-resourcepack-26.3" = _BooUPY9y;
-        "default" = _BooUPY9y;
+        "pkg-1.1.3-resourcepack-26.3" = _YLdv4h22;
+        "default" = _YLdv4h22;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "butterbee-rp";

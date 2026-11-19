@@ -2731,6 +2731,21 @@ let
             "file" = "fwa+1.20.1-forge-1.3.7-patch.1.jar";
             "hash" = "sha512-HdrtWEm+myKvRcyoXyrSf9+cp+2jDJOoLePjKN/+IFx8tT1SPI419iMBPcSl7ScOrqKh4bApvxW3GDZcNjReVQ==";
         };
+        _kRSct6b5 = {
+            "id" = "kRSct6b5";
+            "file" = "fwa+1.20.1-forge-1.3.7-patch.2.jar";
+            "hash" = "sha512-I6Tn9mzbpLvgjlKUgNepDtbcdunPDJgc+5pcy6/MRTGLVYpV2P0U/RrPcd/xwWs7QU2Yy+RLIeGahdarolqgGA==";
+        };
+        _rPdp8rQH = {
+            "id" = "rPdp8rQH";
+            "file" = "fwa+1.21.1-neoforge-1.3.7-patch.2.jar";
+            "hash" = "sha512-3CxcE5w6TIL9WHtmyAIym7CgoEjWLjppnG5GRy0HZgtF0jYSG3L8v0ikffpJ9T0/0amVw/a4NyrsbFMnSSZQow==";
+        };
+        _vwt0ppCC = {
+            "id" = "vwt0ppCC";
+            "file" = "fwa+1.20.1-forge-1.3.7-patch.3.jar";
+            "hash" = "sha512-VpvjAoQ0S3cRkZwHDoiY+boSiVlafKq7FkFTQK9fmAbYj6PQKeIYZieDf3rB54ri4fjKkyk7LJaObj95jVStJw==";
+        };
     in {
         "I1LoBt83" = _I1LoBt83;
         "tSmI3H4o" = _tSmI3H4o;
@@ -3278,6 +3293,9 @@ let
         "qNdUlgqb" = _qNdUlgqb;
         "H1NQOiqd" = _H1NQOiqd;
         "bS6s3Wqh" = _bS6s3Wqh;
+        "kRSct6b5" = _kRSct6b5;
+        "rPdp8rQH" = _rPdp8rQH;
+        "vwt0ppCC" = _vwt0ppCC;
         "fabric-1.21.11" = _h7I6qfpm;
         "fabric-1.21.6" = _6QXeNF9A;
         "fabric-1.21.7" = _6QXeNF9A;
@@ -3325,12 +3343,12 @@ let
         "quilt-26.2" = _KhJFAAeJ;
         "quilt-26.3" = _JRzSDvfy;
         "neoforge-1.21.11" = _cVnYCs84;
-        "neoforge-1.21.1" = _qNdUlgqb;
-        "neoforge-1.20.1" = _bS6s3Wqh;
+        "neoforge-1.21.1" = _rPdp8rQH;
+        "neoforge-1.20.1" = _vwt0ppCC;
         "neoforge-26.1" = _H1NQOiqd;
         "neoforge-26.1.1" = _H1NQOiqd;
         "neoforge-26.1.2" = _H1NQOiqd;
-        "forge-1.20.1" = _bS6s3Wqh;
+        "forge-1.20.1" = _vwt0ppCC;
         "forge-1.21.10" = _w5cYtt6a;
         "pkg-1.0.0" = _PR55Lncm;
         "pkg-1.0.1" = _6rj2fPHi;
@@ -3434,7 +3452,9 @@ let
         "pkg-1.3.6" = _fDAYiNfL;
         "pkg-1.3.7" = _H1NQOiqd;
         "pkg-1.3.7-patch.1" = _bS6s3Wqh;
-        "default" = _bS6s3Wqh;
+        "pkg-1.3.7-patch.2" = _rPdp8rQH;
+        "pkg-1.3.7-patch.3" = _vwt0ppCC;
+        "default" = _vwt0ppCC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fwa";

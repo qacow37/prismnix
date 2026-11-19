@@ -181,6 +181,11 @@ let
             "file" = "ae2cs-1.21.1-1.2.1.jar";
             "hash" = "sha512-YpCa1CqmsvcmmE7JVSYh4q0BpCUFCmn+9vyNgW7eMzlarstj3i25+CFihsARuAS56uqvqFHn7znpdD+BBFm3Lw==";
         };
+        _F8J5hjO3 = {
+            "id" = "F8J5hjO3";
+            "file" = "ae2cs-1.21.1-1.3.0+alpha.jar";
+            "hash" = "sha512-KoD9iNHk6pPSLGC7fXyVnBuBajAb8jomJ34PraNyb+xtx14pOZy5Nl1mLfkj3KbUYXeOU4MFQI8HviWm1M1cXA==";
+        };
     in {
         "gkP8DuKQ" = _gkP8DuKQ;
         "ICQgFwj4" = _ICQgFwj4;
@@ -218,9 +223,10 @@ let
         "VGhHOKsP" = _VGhHOKsP;
         "4W20Zp4P" = _4W20Zp4P;
         "taIhgdOA" = _taIhgdOA;
-        "neoforge-1.21.1" = _taIhgdOA;
+        "F8J5hjO3" = _F8J5hjO3;
+        "neoforge-1.21.1" = _F8J5hjO3;
         "neoforge-26.1.2" = _9wyPpLcp;
-        "neoforge-1.21" = _taIhgdOA;
+        "neoforge-1.21" = _F8J5hjO3;
         "forge-1.20.1" = _VGhHOKsP;
         "pkg-1.21.1-neoforge-1.0.0" = _gkP8DuKQ;
         "pkg-1.21.1-neoforge-1.0.1" = _ICQgFwj4;
@@ -257,7 +263,8 @@ let
         "pkg-1.20.1-1.2.0" = _VGhHOKsP;
         "pkg-1.21.1-1.2.0" = _4W20Zp4P;
         "pkg-1.21.1-1.2.1" = _taIhgdOA;
-        "default" = _taIhgdOA;
+        "pkg-1.3.0+alpha" = _F8J5hjO3;
+        "default" = _F8J5hjO3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2-crystal-science";

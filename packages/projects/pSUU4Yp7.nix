@@ -66,6 +66,11 @@ let
             "file" = "MobileNetworks-4.1.0.jar";
             "hash" = "sha512-D6AVxTCUDHTKnwEM1hjmoSZ8XUi115XZdxmX4F5uAXbv8yD084V3OYhiEuYXpPU+lzvVAAWN1M9yG9/t4iptlQ==";
         };
+        _fsZihaP8 = {
+            "id" = "fsZihaP8";
+            "file" = "MobileNetworks-4.2.0.jar";
+            "hash" = "sha512-nxLz8X4zLgpES8ERulppeP0xFf8r5zHtk4c/ugiqiqMukG1QqOYRnY9oMcq9u3f202QSve6Hgg2AXct3IN8C7g==";
+        };
     in {
         "OguYQH1o" = _OguYQH1o;
         "uvJWLvrr" = _uvJWLvrr;
@@ -80,7 +85,8 @@ let
         "gnxJAC9b" = _gnxJAC9b;
         "1pHqPm44" = _1pHqPm44;
         "gS5aIRsu" = _gS5aIRsu;
-        "neoforge-1.21.1" = _gS5aIRsu;
+        "fsZihaP8" = _fsZihaP8;
+        "neoforge-1.21.1" = _fsZihaP8;
         "neoforge-1.20.1" = _MFO6K81h;
         "pkg-1.0.1" = _OguYQH1o;
         "pkg-2.0.1" = _uvJWLvrr;
@@ -94,7 +100,8 @@ let
         "pkg-4.0.2" = _gnxJAC9b;
         "pkg-4.0.3" = _1pHqPm44;
         "pkg-4.1.0" = _gS5aIRsu;
-        "default" = _gS5aIRsu;
+        "pkg-4.2.0" = _fsZihaP8;
+        "default" = _fsZihaP8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mobile-networks";

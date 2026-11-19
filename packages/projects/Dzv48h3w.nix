@@ -46,6 +46,11 @@ let
             "file" = "createtoolboxtooltip-1.0.4+1.21.1-neoforge.jar";
             "hash" = "sha512-3CbVQd4ilgVjf+QIRMJNpWO02jgUlJmsN0KqAr+TFb1gkzzNA41AnLFCRDVBSO3qcyLqfXCAxDH5aHvlhMjtlg==";
         };
+        _9EemF0WV = {
+            "id" = "9EemF0WV";
+            "file" = "createtoolboxtooltip-1.1.0+1.21.1-neoforge.jar";
+            "hash" = "sha512-wyvfddhwWoMwIVsyBEPE7wbpjV1PEbUIVFKpoaOJw/c9U0o8kRasf0BH/78q1jnq84A8H3pjYG93Y2F3SQmoag==";
+        };
     in {
         "6Hnjapoa" = _6Hnjapoa;
         "SszOZ8Nw" = _SszOZ8Nw;
@@ -56,11 +61,12 @@ let
         "x6kaSXJo" = _x6kaSXJo;
         "b4FtCN6g" = _b4FtCN6g;
         "rVXfSqsb" = _rVXfSqsb;
+        "9EemF0WV" = _9EemF0WV;
         "fabric-1.20.1" = _b4FtCN6g;
         "quilt-1.20.1" = _b4FtCN6g;
         "forge-1.20.1" = _x6kaSXJo;
         "neoforge-1.20.1" = _x6kaSXJo;
-        "neoforge-1.21.1" = _rVXfSqsb;
+        "neoforge-1.21.1" = _9EemF0WV;
         "pkg-1.0.0+1.20.1-fabric" = _6Hnjapoa;
         "pkg-1.0.1+1.20.1-fabric" = _SszOZ8Nw;
         "pkg-1.0.2+1.20.1-fabric" = _dgg90qg5;
@@ -70,7 +76,8 @@ let
         "pkg-1.0.4+1.20.1-forge" = _x6kaSXJo;
         "pkg-1.0.4+1.20.1-fabric" = _b4FtCN6g;
         "pkg-1.0.4+1.21.1-neoforge" = _rVXfSqsb;
-        "default" = _rVXfSqsb;
+        "pkg-1.1.0+1.21.1-neoforge" = _9EemF0WV;
+        "default" = _9EemF0WV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-toolbox-tooltip";

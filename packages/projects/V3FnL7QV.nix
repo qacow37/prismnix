@@ -446,6 +446,11 @@ let
             "file" = "packcore-5.2.2+26.2.jar";
             "hash" = "sha512-Ddp90qeR7alodOIAV0UNa6uYUv256sQbjOx1Zwvq9cRr+hcOu/35PRIgALL2gYCxD736ufxMOnhs3xWAk0LVuQ==";
         };
+        _hHSeJqF5 = {
+            "id" = "hHSeJqF5";
+            "file" = "packcore-5.2.3+26.2.jar";
+            "hash" = "sha512-8eqPQVj2VeA9iCRW1gXJQK9iF1jooMsKzuIA6zpaaZSbVKES0YlWGf5Rz+uo/N89sYjzTLh+hoYiYw15BWEdXg==";
+        };
     in {
         "PGU2eaR4" = _PGU2eaR4;
         "HAXs7a5h" = _HAXs7a5h;
@@ -536,6 +541,7 @@ let
         "rIIyT7Mu" = _rIIyT7Mu;
         "QcByrcjr" = _QcByrcjr;
         "vg3hu2jA" = _vg3hu2jA;
+        "hHSeJqF5" = _hHSeJqF5;
         "forge-1.8.9" = _VU0kbboy;
         "fabric-1.21.5" = _wJFgXaxs;
         "fabric-1.21.6" = _Jc0hSoWF;
@@ -547,7 +553,7 @@ let
         "fabric-26.1" = _AylZ41N8;
         "fabric-26.1.1" = _AylZ41N8;
         "fabric-26.1.2" = _AylZ41N8;
-        "fabric-26.2" = _vg3hu2jA;
+        "fabric-26.2" = _hHSeJqF5;
         "pkg-1.0.0-beta7" = _PGU2eaR4;
         "pkg-1.0.0" = _HAXs7a5h;
         "pkg-2.0.0-1.21.5-fabric" = _UVNjXDX3;
@@ -624,7 +630,8 @@ let
         "pkg-v5.2.0-mc26.2" = _rIIyT7Mu;
         "pkg-v5.2.1-mc26.2" = _QcByrcjr;
         "pkg-v5.2.2-mc26.2" = _vg3hu2jA;
-        "default" = _vg3hu2jA;
+        "pkg-v5.2.3-mc26.2" = _hHSeJqF5;
+        "default" = _hHSeJqF5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "packcore";

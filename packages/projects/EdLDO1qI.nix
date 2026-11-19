@@ -256,6 +256,16 @@ let
             "file" = "class-artifacts-forge-2.2.0-Beta_18.jar";
             "hash" = "sha512-x/5BOyI1OuSNtxL7HGpipd1Tc58s7MZJITTcL3HCdSoUIyj+pF5cLGhh+rNw8CUBmdsp5EEvBepcV3CReibPuQ==";
         };
+        _eqw4AVhW = {
+            "id" = "eqw4AVhW";
+            "file" = "class-artifacts-forge-2.2.0-Beta_19.jar";
+            "hash" = "sha512-Sm8So16ALyQp/nfbXKJgrwTdmqQdgFZVMPpWfS4J/0jK4Z7FWwvNgP6CmBhO4CsCwz2xocKMyPRbUUb1eCuRKQ==";
+        };
+        _wOwtOyo0 = {
+            "id" = "wOwtOyo0";
+            "file" = "ClassArtifacts-forge-1.20.1_2.2.0-B20.jar";
+            "hash" = "sha512-a1phiIqVCNSZ/5FFmaFrevAqMz6yCVMP9KmlIy5noFyclBwnQx+e9MMZ9P4ivmuJTl4zMH53rEjcxy5K/FBRRA==";
+        };
     in {
         "qL9zZe2h" = _qL9zZe2h;
         "hvabW3cE" = _hvabW3cE;
@@ -308,7 +318,9 @@ let
         "8AWeDAXU" = _8AWeDAXU;
         "y6sfuseM" = _y6sfuseM;
         "a23sL2L9" = _a23sL2L9;
-        "forge-1.20.1" = _a23sL2L9;
+        "eqw4AVhW" = _eqw4AVhW;
+        "wOwtOyo0" = _wOwtOyo0;
+        "forge-1.20.1" = _wOwtOyo0;
         "forge-1.20.2" = _rR277XnF;
         "forge-1.20.3" = _rR277XnF;
         "forge-1.20.4" = _rR277XnF;
@@ -351,8 +363,8 @@ let
         "pkg-2.1.7" = _5vhNnMxv;
         "pkg-2.1.8" = _staMFUi5;
         "pkg-2.1.9" = _ZJq9nF2n;
-        "pkg-2.2.0" = _a23sL2L9;
-        "default" = _a23sL2L9;
+        "pkg-2.2.0" = _wOwtOyo0;
+        "default" = _wOwtOyo0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rpg-class-artifacts";

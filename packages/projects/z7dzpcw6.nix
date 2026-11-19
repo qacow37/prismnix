@@ -106,6 +106,11 @@ let
             "file" = "additional_attributes-1.20.1-1.3.6-all.jar";
             "hash" = "sha512-jZR87R3pMdARp5YHdTwNbzCNQ9gGC+bq4DtAo4jUi4AGkP6C2YEzlhSIwsrRt8Ipc15b9SidUlRmJM4OmLJdRA==";
         };
+        _S7sqsXEt = {
+            "id" = "S7sqsXEt";
+            "file" = "additional_attributes-1.21.1-1.2.3.jar";
+            "hash" = "sha512-0tWQ6trGVd1GNSAo4FwnJIMnTrQ7qLFgehNBogLLrOA4oH0U2uJv3AaHMWgVXyM92yMbGS+jEv8hbEh8KRwyZg==";
+        };
     in {
         "pBnxlHbb" = _pBnxlHbb;
         "4Qx9iOyx" = _4Qx9iOyx;
@@ -128,13 +133,14 @@ let
         "UjMBIAW8" = _UjMBIAW8;
         "uphyi3EL" = _uphyi3EL;
         "6etKhuGO" = _6etKhuGO;
+        "S7sqsXEt" = _S7sqsXEt;
         "forge-1.19.2" = _nCw0PgLV;
         "forge-1.20" = _6etKhuGO;
         "forge-1.20.1" = _6etKhuGO;
         "neoforge-1.20" = _6etKhuGO;
         "neoforge-1.20.1" = _6etKhuGO;
-        "neoforge-1.21" = _ZQ340JcB;
-        "neoforge-1.21.1" = _ZQ340JcB;
+        "neoforge-1.21" = _S7sqsXEt;
+        "neoforge-1.21.1" = _S7sqsXEt;
         "pkg-1.0.0" = _pBnxlHbb;
         "pkg-1.0.1" = _p5TAMAgo;
         "pkg-1.0.2" = _GXLM3qws;
@@ -150,7 +156,8 @@ let
         "pkg-1.3.4" = _UjMBIAW8;
         "pkg-1.3.5" = _uphyi3EL;
         "pkg-1.3.6" = _6etKhuGO;
-        "default" = _6etKhuGO;
+        "pkg-1.2.3" = _S7sqsXEt;
+        "default" = _S7sqsXEt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "additional-attributes";

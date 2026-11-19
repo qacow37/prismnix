@@ -156,6 +156,26 @@ let
             "file" = "emi_discovery-fabric-1.20.1-2.1.0.jar";
             "hash" = "sha512-jZixpm0kcKPcfE6cVySYnDKqGhQLAoehZottaKDYTtzZLrdRtnTJdf4MvQ6ttRTgmaOB2XP0stbERkIK3xv8aQ==";
         };
+        _yb2DqepL = {
+            "id" = "yb2DqepL";
+            "file" = "emi_discovery-fabric-1.21.1-2.2.0.jar";
+            "hash" = "sha512-Pwyx2ZIlVqk4PExhsaju6Pd4w8XLES8TKkJhm7mEIN421J78BtlsRGKFDTbk8RtiMawmiHz2R/WO9zk41td+bQ==";
+        };
+        _WzRBkhOh = {
+            "id" = "WzRBkhOh";
+            "file" = "emi_discovery-neoforge-1.21.1-2.2.0.jar";
+            "hash" = "sha512-gj+xs4UyNCmlsmcuJ946NIffDWqFX9r8lYjEIr9hS/50wZsJy1kqggJlOG4OepcVT4Z2W5rQoLALgwLSrXSklQ==";
+        };
+        _M5yebcOI = {
+            "id" = "M5yebcOI";
+            "file" = "emi_discovery-fabric-1.20.1-2.2.0.jar";
+            "hash" = "sha512-d4mJBHRNQ5VFcNxBfRlkg9HCRVOTwGBQWn0JoNukXn7CK6Q1yXO4AxYDDrBKoE/KikUhNwdj15eih7GS/Pwk6A==";
+        };
+        _DzfFl4ls = {
+            "id" = "DzfFl4ls";
+            "file" = "emi_discovery-forge-1.20.1-2.2.0.jar";
+            "hash" = "sha512-jKvsPWqdKcDi0QNSe8dfGUWcoczoqhVYBtoA9AT4ZVKifPkm2YZHTM5EzLvRzG40AyK1odJ6tOE01xFsIx8g7A==";
+        };
     in {
         "OtpGbnJo" = _OtpGbnJo;
         "YDT8JkWc" = _YDT8JkWc;
@@ -188,10 +208,14 @@ let
         "aNLpgPoP" = _aNLpgPoP;
         "3mv6gCN0" = _3mv6gCN0;
         "yw1RaAVg" = _yw1RaAVg;
-        "forge-1.20.1" = _3mv6gCN0;
-        "fabric-1.20.1" = _yw1RaAVg;
-        "fabric-1.21.1" = _XOVWzLnT;
-        "neoforge-1.21.1" = _aNLpgPoP;
+        "yb2DqepL" = _yb2DqepL;
+        "WzRBkhOh" = _WzRBkhOh;
+        "M5yebcOI" = _M5yebcOI;
+        "DzfFl4ls" = _DzfFl4ls;
+        "forge-1.20.1" = _DzfFl4ls;
+        "fabric-1.20.1" = _M5yebcOI;
+        "fabric-1.21.1" = _yb2DqepL;
+        "neoforge-1.21.1" = _WzRBkhOh;
         "pkg-1.0.0" = _YDT8JkWc;
         "pkg-1.0.1" = _ToBMlK9i;
         "pkg-1.1.2" = _MwcqPeze;
@@ -208,7 +232,9 @@ let
         "pkg-2.0.2+1.20.1" = _8r2p2j08;
         "pkg-2.1.0+1.21.1" = _aNLpgPoP;
         "pkg-2.1.0+1.20.1" = _yw1RaAVg;
-        "default" = _yw1RaAVg;
+        "pkg-2.2.0+1.21.1" = _WzRBkhOh;
+        "pkg-2.2.0+1.20.1" = _DzfFl4ls;
+        "default" = _DzfFl4ls;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emi-discovery";

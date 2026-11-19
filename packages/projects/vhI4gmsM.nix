@@ -371,6 +371,16 @@ let
             "file" = "torosautoattack-1.20.1+1.4.jar";
             "hash" = "sha512-zgl203YhCk2wzadT97qy0cI4Y7CGqpw+dc2YDSWXYnfXVNfbTGFpIx+ZOH48t+IXwrW2rCC4W27WAaHshXwiqw==";
         };
+        _mA0BJDJ4 = {
+            "id" = "mA0BJDJ4";
+            "file" = "torosautoattack-1.21.8+1.1.jar";
+            "hash" = "sha512-T2r6sHOWSJThBqvMF0ZgXea/z8DpFdX7pPwolscu8Y+9NvT1/BkagXoVx/4d1ZjAcrjXDmTmSq8subSeFinoIA==";
+        };
+        _jbQyQFYF = {
+            "id" = "jbQyQFYF";
+            "file" = "torosautoattack-1.21.10+1.1.jar";
+            "hash" = "sha512-dhkJulDfEreoliyAXiSzJjHHAj2AnXlg/VpBAQBzKJkzIYPt3ZOpKtOfuImJFdGwVCWhu/XmUnbORIWNezizbg==";
+        };
     in {
         "S8AU5Gkc" = _S8AU5Gkc;
         "NP6Vtxry" = _NP6Vtxry;
@@ -446,6 +456,8 @@ let
         "TwRvla2H" = _TwRvla2H;
         "NxRdMUOZ" = _NxRdMUOZ;
         "czv1Ln4P" = _czv1Ln4P;
+        "mA0BJDJ4" = _mA0BJDJ4;
+        "jbQyQFYF" = _jbQyQFYF;
         "fabric-1.20.4" = _AucCPbzm;
         "fabric-1.18.2" = _B0kZae0Z;
         "fabric-1.19.4" = _uoImynC0;
@@ -460,9 +472,9 @@ let
         "fabric-1.21.5" = _LK2PVAgg;
         "fabric-1.21.6" = _aQtyPMVO;
         "fabric-1.21.7" = _2oGyAx4i;
-        "fabric-1.21.8" = _Xmn4CJDj;
+        "fabric-1.21.8" = _mA0BJDJ4;
         "fabric-1.21.9" = _BKx0mpxd;
-        "fabric-1.21.10" = _2vXRqsfU;
+        "fabric-1.21.10" = _jbQyQFYF;
         "fabric-1.21.11" = _TwRvla2H;
         "fabric-26.1.1" = _8dPzmfvC;
         "fabric-26.1.2" = _xbn1xKxB;
@@ -503,7 +515,9 @@ let
         "pkg-1.21.11+1.4" = _TwRvla2H;
         "pkg-1.21.1+1.8" = _NxRdMUOZ;
         "pkg-1.20.1+1.4" = _czv1Ln4P;
-        "default" = _czv1Ln4P;
+        "pkg-1.21.8+1.1" = _mA0BJDJ4;
+        "pkg-1.21.10+1.1" = _jbQyQFYF;
+        "default" = _jbQyQFYF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "toros-auto-attack";

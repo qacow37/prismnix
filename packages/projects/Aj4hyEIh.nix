@@ -46,6 +46,11 @@ let
             "file" = "cobblebash-0.2.0.jar";
             "hash" = "sha512-hcwgegFWQNMn3Cn+fRTO62NRompl3887O/WFB73SRdHq5LM+dRaYR527VnhPiAXzaAknMtLnqrxPBsXQ1DMYPw==";
         };
+        _LShQ9uTF = {
+            "id" = "LShQ9uTF";
+            "file" = "cobblebash-0.2.1.jar";
+            "hash" = "sha512-yNE3GBzfaNvcbxvrzlHZZvUcBVTGnIYRPWDBAyLxDGNlXx0E+ZNlq6cDDurQPmSpaw+0rbTJo8DiohDaXHMVZQ==";
+        };
     in {
         "foqa5AB7" = _foqa5AB7;
         "xYi44DpA" = _xYi44DpA;
@@ -56,7 +61,8 @@ let
         "HBcCKqea" = _HBcCKqea;
         "qKAKDgEY" = _qKAKDgEY;
         "WZCITb8P" = _WZCITb8P;
-        "neoforge-1.21.1" = _WZCITb8P;
+        "LShQ9uTF" = _LShQ9uTF;
+        "neoforge-1.21.1" = _LShQ9uTF;
         "pkg-0.1.1" = _foqa5AB7;
         "pkg-0.1.2" = _xYi44DpA;
         "pkg-0.1.3" = _CsrKIBmh;
@@ -66,7 +72,8 @@ let
         "pkg-0.1.7" = _HBcCKqea;
         "pkg-0.1.8" = _qKAKDgEY;
         "pkg-0.2.0" = _WZCITb8P;
-        "default" = _WZCITb8P;
+        "pkg-0.2.1" = _LShQ9uTF;
+        "default" = _LShQ9uTF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblebash";

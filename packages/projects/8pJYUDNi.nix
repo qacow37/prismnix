@@ -686,6 +686,156 @@ let
             "file" = "chatting-3.2.5+26.3.jar";
             "hash" = "sha512-ILT+SRln24gpMVVPx8kQCZvPPwqnJRkSZoGBNaK0Yru++b0vJrmpXM/oi54qOn49PhQkMG7ER+wvNL8hNOfA6A==";
         };
+        _ApbUNd2j = {
+            "id" = "ApbUNd2j";
+            "file" = "chatting-3.2.6+1.8.9.jar";
+            "hash" = "sha512-3CNH/8VjTzLCOMTgaWl76leyT5K9bljO8dNlNTxPKYUc4BmvybSboW5cObKoYsEIVD1SxtInyjTXIr9QmAumzw==";
+        };
+        _16CrFKA9 = {
+            "id" = "16CrFKA9";
+            "file" = "chatting-3.2.6+1.21.1.jar";
+            "hash" = "sha512-tDkDchFo5Is1z/BLR3BdN0LtbFqd9FWynLVpt58fcZ8IMuvLnMzoWELpFgumdxnRCpquUtIgk+mUJu+1aLfs8Q==";
+        };
+        _bPcTfNs8 = {
+            "id" = "bPcTfNs8";
+            "file" = "chatting-3.2.6+1.21.4.jar";
+            "hash" = "sha512-H+DXrdai3wOPe8nJeMZm2m8r7aUk+Nttttye1bT4thVUZrbM+xy2DIEEJQsQSEIciTB3bue9BoLcCj8z8gAm2g==";
+        };
+        _7m06Qwtw = {
+            "id" = "7m06Qwtw";
+            "file" = "chatting-3.2.6+1.21.5.jar";
+            "hash" = "sha512-Uyf5IFpOnR4LF0/j9y2jcb6+sbtPuIR5JBlUuT34MuUlH9kiNyzGrFFZZm9iJYpK/JmqUDrVS2nqIf1kQIpZFQ==";
+        };
+        _TKEecU7Y = {
+            "id" = "TKEecU7Y";
+            "file" = "chatting-3.2.6+1.21.8.jar";
+            "hash" = "sha512-gdNxXZ5XVV9pwdvFzKLbcRzF9/heZhP3NeLhwFPS9PDcIGNDDzTlWvzzELDnMiWmRlpRHMpSI0v/lvlwX+l3pg==";
+        };
+        _l2Q4CHUB = {
+            "id" = "l2Q4CHUB";
+            "file" = "chatting-3.2.6+1.21.10.jar";
+            "hash" = "sha512-w7ySHXl9jycFlLh4uoozcgUqRlASNSsl/vFCEL0Vth61LJiapCYdKnP1CrbKUdb+7jlnvbZrbIRsJ3cGYFqj9Q==";
+        };
+        _abbbivML = {
+            "id" = "abbbivML";
+            "file" = "chatting-3.2.6+1.21.11.jar";
+            "hash" = "sha512-L3J2Ka6YYdlo57XKkha2KCptKcWkoILWdgAmWvvdh7mjgRVRowTMR4zkVch+dbb/pmKbZRngjme7T1LZXtCy0Q==";
+        };
+        _Zqqdr1Y5 = {
+            "id" = "Zqqdr1Y5";
+            "file" = "chatting-3.2.6+26.1.jar";
+            "hash" = "sha512-h2ZCAptPmu+U3eoxOZPdOzkP1P9CXQWG7aUuc4fVb75YmUB/uFQb623ZRRR8X0LnkaByXFSyu+/V+GzfZ1ZezA==";
+        };
+        _qrLfQErY = {
+            "id" = "qrLfQErY";
+            "file" = "chatting-3.2.6+26.2.jar";
+            "hash" = "sha512-W1Vauvgrz+nbCocze5gUnLyKzuf3XbCWACPeRo+1rJ59cFMnV7/u0850weHttvk2hcY/gWEpXIaOdcEFmhrXZQ==";
+        };
+        _8Jk0ArWd = {
+            "id" = "8Jk0ArWd";
+            "file" = "chatting-3.2.6+26.3.jar";
+            "hash" = "sha512-/M09W8BEiTG0NwUwchNVJfPzS38sUslGTJjq7syIAWL3H5dkcIBpPeRDhbmML+kQBNIhBVlgODDkS+kb7n4nCA==";
+        };
+        _CT4UEBDs = {
+            "id" = "CT4UEBDs";
+            "file" = "chatting-3.2.7+1.8.9.jar";
+            "hash" = "sha512-x+5PMt2mhk4V4VQzSdIuO0Bu/UGkGtVobjAgMaeY5JVs0yTD9PnywnSxM4sWS885HjS4OzG5a9AORjWYxpkqkA==";
+        };
+        _BjfW4KeR = {
+            "id" = "BjfW4KeR";
+            "file" = "chatting-3.2.7+1.21.1.jar";
+            "hash" = "sha512-xyaBuJKTsrPiN0x21/rDhtSErf0mcJEE0+DUrPmeksOWBFNBi5bZDTJ7cLv/oNkTP5RqpE4nOmIfUor7d0WFIQ==";
+        };
+        _Kn6lnqpw = {
+            "id" = "Kn6lnqpw";
+            "file" = "chatting-3.2.7+1.21.4.jar";
+            "hash" = "sha512-ZL9I0KhLaYp5zpgaKW5Qt87kXPw4b6svAiOSky4dULvt8lt1IrMOhtIoS5W01yPR1yEsvNT349yTeVGZOsrZGA==";
+        };
+        _2tVvIDxJ = {
+            "id" = "2tVvIDxJ";
+            "file" = "chatting-3.2.7+1.21.5.jar";
+            "hash" = "sha512-pqu4Q6dTNtTgcf8JYHoNUgO3InweTpSRlmwQQoGYCSQu68wT5iYC589Cq5MgsB9EAOx6JsSkSle0itVmJ/uoOg==";
+        };
+        _qbRh1Ul3 = {
+            "id" = "qbRh1Ul3";
+            "file" = "chatting-3.2.7+1.21.8.jar";
+            "hash" = "sha512-/5vohrrML82GvAY60bTq81EIDjgcbw06sKfbT6IPHvJii0l7iSp4dpKZGiMGrQ3m14rdpqGhbJTR6lw78/U1kg==";
+        };
+        _GwIfiRda = {
+            "id" = "GwIfiRda";
+            "file" = "chatting-3.2.7+1.21.10.jar";
+            "hash" = "sha512-5pTP7yHRuTKw2XWJHoEA58KFnkNIoA0gpuP2EterbWusJOiyqLrZaxnt5iOzlA4gF54AmECSyn82e2NYP6rCaQ==";
+        };
+        _SNbWyNXr = {
+            "id" = "SNbWyNXr";
+            "file" = "chatting-3.2.7+1.21.11.jar";
+            "hash" = "sha512-sda4OHBXS7Wp/D12o1ifMNq4GqULsQbZgj45vmKELA/UEnXpHf/eRFbuvnATjLmhenRLtjPPm9WUAjGi+S4gjA==";
+        };
+        _Li7WjVDI = {
+            "id" = "Li7WjVDI";
+            "file" = "chatting-3.2.7+26.1.jar";
+            "hash" = "sha512-ZG97Vn4xikrVL3gvJCkBqRg1XY7AyQwsXRm519OhZ5uE/WiDMzLKyZ+ODoWBsbELr0v3+rSJXMYWFt8WzEBdiA==";
+        };
+        _mMyoPlUH = {
+            "id" = "mMyoPlUH";
+            "file" = "chatting-3.2.7+26.2.jar";
+            "hash" = "sha512-P1nx7Mc9C/zB5qvzqmnp/NvmGcJHbHGFF1qELxmw6FJq32EN8amND+im5O8K6/p226r0lRXuUFaljgipU1nQew==";
+        };
+        _4O1IO1lq = {
+            "id" = "4O1IO1lq";
+            "file" = "chatting-3.2.7+26.3.jar";
+            "hash" = "sha512-NwcyANFwt0Q5fLKDmDTaNy1cMtvURevnXoxDsvxNMaSYHuvEYlZ9NUJWFo1XV1SBHRzeKD4QpPOV4Hht6cfz7w==";
+        };
+        _OIzhj2nD = {
+            "id" = "OIzhj2nD";
+            "file" = "chatting-3.2.7+1.8.9.jar";
+            "hash" = "sha512-x+5PMt2mhk4V4VQzSdIuO0Bu/UGkGtVobjAgMaeY5JVs0yTD9PnywnSxM4sWS885HjS4OzG5a9AORjWYxpkqkA==";
+        };
+        _IR7ik5Qd = {
+            "id" = "IR7ik5Qd";
+            "file" = "chatting-3.2.7+1.21.1.jar";
+            "hash" = "sha512-xyaBuJKTsrPiN0x21/rDhtSErf0mcJEE0+DUrPmeksOWBFNBi5bZDTJ7cLv/oNkTP5RqpE4nOmIfUor7d0WFIQ==";
+        };
+        _EWVS4IlP = {
+            "id" = "EWVS4IlP";
+            "file" = "chatting-3.2.7+1.21.4.jar";
+            "hash" = "sha512-ZL9I0KhLaYp5zpgaKW5Qt87kXPw4b6svAiOSky4dULvt8lt1IrMOhtIoS5W01yPR1yEsvNT349yTeVGZOsrZGA==";
+        };
+        _lC8w6JVh = {
+            "id" = "lC8w6JVh";
+            "file" = "chatting-3.2.7+1.21.5.jar";
+            "hash" = "sha512-pqu4Q6dTNtTgcf8JYHoNUgO3InweTpSRlmwQQoGYCSQu68wT5iYC589Cq5MgsB9EAOx6JsSkSle0itVmJ/uoOg==";
+        };
+        _O7Aowg4g = {
+            "id" = "O7Aowg4g";
+            "file" = "chatting-3.2.7+1.21.8.jar";
+            "hash" = "sha512-/5vohrrML82GvAY60bTq81EIDjgcbw06sKfbT6IPHvJii0l7iSp4dpKZGiMGrQ3m14rdpqGhbJTR6lw78/U1kg==";
+        };
+        _xVBE5HDn = {
+            "id" = "xVBE5HDn";
+            "file" = "chatting-3.2.7+1.21.10.jar";
+            "hash" = "sha512-5pTP7yHRuTKw2XWJHoEA58KFnkNIoA0gpuP2EterbWusJOiyqLrZaxnt5iOzlA4gF54AmECSyn82e2NYP6rCaQ==";
+        };
+        _TInwqzbf = {
+            "id" = "TInwqzbf";
+            "file" = "chatting-3.2.7+1.21.11.jar";
+            "hash" = "sha512-sda4OHBXS7Wp/D12o1ifMNq4GqULsQbZgj45vmKELA/UEnXpHf/eRFbuvnATjLmhenRLtjPPm9WUAjGi+S4gjA==";
+        };
+        _7SAVQYHz = {
+            "id" = "7SAVQYHz";
+            "file" = "chatting-3.2.7+26.1.jar";
+            "hash" = "sha512-ZG97Vn4xikrVL3gvJCkBqRg1XY7AyQwsXRm519OhZ5uE/WiDMzLKyZ+ODoWBsbELr0v3+rSJXMYWFt8WzEBdiA==";
+        };
+        _HpqE427y = {
+            "id" = "HpqE427y";
+            "file" = "chatting-3.2.7+26.2.jar";
+            "hash" = "sha512-P1nx7Mc9C/zB5qvzqmnp/NvmGcJHbHGFF1qELxmw6FJq32EN8amND+im5O8K6/p226r0lRXuUFaljgipU1nQew==";
+        };
+        _S8Gybkhm = {
+            "id" = "S8Gybkhm";
+            "file" = "chatting-3.2.7+26.3.jar";
+            "hash" = "sha512-NwcyANFwt0Q5fLKDmDTaNy1cMtvURevnXoxDsvxNMaSYHuvEYlZ9NUJWFo1XV1SBHRzeKD4QpPOV4Hht6cfz7w==";
+        };
     in {
         "GQANlg7p" = _GQANlg7p;
         "ZV8EECKb" = _ZV8EECKb;
@@ -824,19 +974,49 @@ let
         "UHZSHuNP" = _UHZSHuNP;
         "X1qLkbIN" = _X1qLkbIN;
         "aH0keTNv" = _aH0keTNv;
+        "ApbUNd2j" = _ApbUNd2j;
+        "16CrFKA9" = _16CrFKA9;
+        "bPcTfNs8" = _bPcTfNs8;
+        "7m06Qwtw" = _7m06Qwtw;
+        "TKEecU7Y" = _TKEecU7Y;
+        "l2Q4CHUB" = _l2Q4CHUB;
+        "abbbivML" = _abbbivML;
+        "Zqqdr1Y5" = _Zqqdr1Y5;
+        "qrLfQErY" = _qrLfQErY;
+        "8Jk0ArWd" = _8Jk0ArWd;
+        "CT4UEBDs" = _CT4UEBDs;
+        "BjfW4KeR" = _BjfW4KeR;
+        "Kn6lnqpw" = _Kn6lnqpw;
+        "2tVvIDxJ" = _2tVvIDxJ;
+        "qbRh1Ul3" = _qbRh1Ul3;
+        "GwIfiRda" = _GwIfiRda;
+        "SNbWyNXr" = _SNbWyNXr;
+        "Li7WjVDI" = _Li7WjVDI;
+        "mMyoPlUH" = _mMyoPlUH;
+        "4O1IO1lq" = _4O1IO1lq;
+        "OIzhj2nD" = _OIzhj2nD;
+        "IR7ik5Qd" = _IR7ik5Qd;
+        "EWVS4IlP" = _EWVS4IlP;
+        "lC8w6JVh" = _lC8w6JVh;
+        "O7Aowg4g" = _O7Aowg4g;
+        "xVBE5HDn" = _xVBE5HDn;
+        "TInwqzbf" = _TInwqzbf;
+        "7SAVQYHz" = _7SAVQYHz;
+        "HpqE427y" = _HpqE427y;
+        "S8Gybkhm" = _S8Gybkhm;
         "forge-1.8.9" = _TaaTviAI;
-        "fabric-26.1" = _UHZSHuNP;
-        "fabric-26.1.1" = _UHZSHuNP;
-        "fabric-26.1.2" = _UHZSHuNP;
-        "fabric-26.2" = _X1qLkbIN;
-        "fabric-1.21.11" = _qGiK6RSX;
-        "fabric-1.21.5" = _BjH1tBal;
-        "fabric-1.21.1" = _wMVlnpXa;
-        "fabric-1.21.8" = _qrpdW7eG;
-        "fabric-1.21.4" = _6Y3Qy21r;
-        "fabric-1.21.10" = _hCMw0bCe;
-        "fabric-26.3" = _aH0keTNv;
-        "ornithe-1.8.9" = _Wzza5Ccl;
+        "fabric-26.1" = _7SAVQYHz;
+        "fabric-26.1.1" = _7SAVQYHz;
+        "fabric-26.1.2" = _7SAVQYHz;
+        "fabric-26.2" = _HpqE427y;
+        "fabric-1.21.11" = _TInwqzbf;
+        "fabric-1.21.5" = _lC8w6JVh;
+        "fabric-1.21.1" = _IR7ik5Qd;
+        "fabric-1.21.8" = _O7Aowg4g;
+        "fabric-1.21.4" = _EWVS4IlP;
+        "fabric-1.21.10" = _xVBE5HDn;
+        "fabric-26.3" = _S8Gybkhm;
+        "ornithe-1.8.9" = _OIzhj2nD;
         "pkg-v1.4.1" = _GQANlg7p;
         "pkg-v1.4.2-beta5" = _ZV8EECKb;
         "pkg-v1.5.0" = _50K2uokr;
@@ -863,7 +1043,9 @@ let
         "pkg-v3.2.2" = _EZFxNfQO;
         "pkg-v3.2.3" = _U0oRB3GS;
         "pkg-v3.2.5" = _aH0keTNv;
-        "default" = _aH0keTNv;
+        "pkg-v3.2.6" = _8Jk0ArWd;
+        "pkg-v3.2.7" = _S8Gybkhm;
+        "default" = _S8Gybkhm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chatting";

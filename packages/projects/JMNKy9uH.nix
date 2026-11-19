@@ -76,6 +76,26 @@ let
             "file" = "antifreecam-evolved-1.2.2+mc26.3.jar";
             "hash" = "sha512-36ubcPKlAct/9u9yD1TLWVATO09blmXg61Ri56fe50srWTNyKcL60R+lRE4etuvEYs0pakCB9OirW4yqjFB/dQ==";
         };
+        _zcj9qfjw = {
+            "id" = "zcj9qfjw";
+            "file" = "antifreecam-evolved-1.2.3+mc26.2.jar";
+            "hash" = "sha512-zJEjbcgNyyMpKwSG21EH3bKwBVGlJNrvYbMBHoIZijbLstkQZhpszfi5iY27CNvqAPIOHW52cod4p9EFigS7EQ==";
+        };
+        _H3KQExTt = {
+            "id" = "H3KQExTt";
+            "file" = "antifreecam-evolved-1.2.3+mc26.1.2.jar";
+            "hash" = "sha512-HKdmaD9KVfxSyUqkXhBwWhAMZ6NZWfmN1WbknvlVo+Szg1Dl8G6ui9sBzPEqKclVcyeXPKWtMOAfT+8eBta3/w==";
+        };
+        _2YjSdWl8 = {
+            "id" = "2YjSdWl8";
+            "file" = "antifreecam-evolved-1.2.3+mc26.3.jar";
+            "hash" = "sha512-HCMieyOqJE6OW9h6xSSbREIGoFkegp5uCrjhHPpJK2O6cZinJrC5D7usdQzB0GKe1//m/xsWq0yG6nFY9fBb8A==";
+        };
+        _s9QXZfuX = {
+            "id" = "s9QXZfuX";
+            "file" = "antifreecam-evolved-1.2.3+mc1.21.1.jar";
+            "hash" = "sha512-dYfP9Lynas2F0eScc8eXasw7sDzcyGGol9ypb0sPt8jYRjMR+vJodpXV+YG2iakSKwqyoXU4FhkfIOWDC97Ikw==";
+        };
     in {
         "cRsdu0Ro" = _cRsdu0Ro;
         "nU9Flk84" = _nU9Flk84;
@@ -92,13 +112,17 @@ let
         "sH8VGS1E" = _sH8VGS1E;
         "FP3irR6y" = _FP3irR6y;
         "ZsCkIgXp" = _ZsCkIgXp;
-        "fabric-26.1.2" = _sH8VGS1E;
+        "zcj9qfjw" = _zcj9qfjw;
+        "H3KQExTt" = _H3KQExTt;
+        "2YjSdWl8" = _2YjSdWl8;
+        "s9QXZfuX" = _s9QXZfuX;
+        "fabric-26.1.2" = _H3KQExTt;
         "fabric-26.2-rc-1" = _Quz74Z1g;
         "fabric-26.2-rc-2" = _Quz74Z1g;
-        "fabric-26.2" = _FP3irR6y;
+        "fabric-26.2" = _zcj9qfjw;
         "fabric-26.3-snapshot-7" = _ZJ92FYy7;
-        "fabric-26.3" = _ZsCkIgXp;
-        "fabric-1.21.1" = _8xjiKEqX;
+        "fabric-26.3" = _2YjSdWl8;
+        "fabric-1.21.1" = _s9QXZfuX;
         "pkg-1.0.1" = _cRsdu0Ro;
         "pkg-1.0.2" = _nU9Flk84;
         "pkg-1.1.0-rc.7+mc26.2-rc" = _Quz74Z1g;
@@ -114,7 +138,11 @@ let
         "pkg-1.2.2+mc26.1.2" = _sH8VGS1E;
         "pkg-1.2.2+mc26.2" = _FP3irR6y;
         "pkg-1.2.2+mc26.3" = _ZsCkIgXp;
-        "default" = _ZsCkIgXp;
+        "pkg-1.2.3+mc26.2" = _zcj9qfjw;
+        "pkg-1.2.3+mc26.1.2" = _H3KQExTt;
+        "pkg-1.2.3+mc26.3" = _2YjSdWl8;
+        "pkg-1.2.3+mc1.21.1" = _s9QXZfuX;
+        "default" = _s9QXZfuX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "antifreecam-evolved";

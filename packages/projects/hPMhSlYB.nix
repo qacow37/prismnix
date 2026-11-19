@@ -86,6 +86,11 @@ let
             "file" = "monumenta-item-dictionary-1.21.1-1.6.2.jar";
             "hash" = "sha512-i1CZvN9PBtRJH+hhwvq3/fYnYwDOgtN4BN5LFVVUiieSUyPhI9imclk+BhFzLUtyogJdDLFcsbBP44Mx2MX0xw==";
         };
+        _Gr5s2q0H = {
+            "id" = "Gr5s2q0H";
+            "file" = "monumenta-item-dictionary-1.21.1-1.6.3.jar";
+            "hash" = "sha512-ydTeme8xEXRHfHzn+NAu4kZsxrFZ4R1mdcOxO5XIG3OL7OehD/9Ia68gcJU1thJYKoxD+J9YvoA2zXIOZoL7dQ==";
+        };
     in {
         "6XzAv2FG" = _6XzAv2FG;
         "hj9iCaak" = _hj9iCaak;
@@ -104,10 +109,11 @@ let
         "fkfTFGoT" = _fkfTFGoT;
         "qzdjaS1a" = _qzdjaS1a;
         "O3B76URb" = _O3B76URb;
+        "Gr5s2q0H" = _Gr5s2q0H;
         "fabric-1.18.2" = _ZXxGXQtA;
         "fabric-1.19.4" = _q0FxeSM5;
         "fabric-1.20.4" = _2k84QUpG;
-        "fabric-1.21.1" = _O3B76URb;
+        "fabric-1.21.1" = _Gr5s2q0H;
         "pkg-1.0.0" = _6XzAv2FG;
         "pkg-1.0.1" = _hj9iCaak;
         "pkg-1.1.0" = _mrjxqiR3;
@@ -124,7 +130,8 @@ let
         "pkg-1.6.0" = _fkfTFGoT;
         "pkg-1.6.1" = _qzdjaS1a;
         "pkg-1.6.2" = _O3B76URb;
-        "default" = _O3B76URb;
+        "pkg-1.6.3" = _Gr5s2q0H;
+        "default" = _Gr5s2q0H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "monumenta-item-dictionary";

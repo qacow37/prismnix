@@ -136,6 +136,11 @@ let
             "file" = "signs-paper.jar";
             "hash" = "sha512-0XbVjk3vWvVdbygbfzKCgNZTk8G3fchQNhGPBCXJL+ZuUnqZ6ZEpf28CfytpTEY7BvDTKEcmqYc7ZEoKfLx1DA==";
         };
+        _hPGNIhAD = {
+            "id" = "hPGNIhAD";
+            "file" = "signs-paper.jar";
+            "hash" = "sha512-/Ykq1mXP9nim1kkbtqTDLGOHJXuGvUEfQ1kbLs2yNDvb+1QzyMUZrDY1rkerCpKugOahst8ZQDrigySNjDzfkg==";
+        };
     in {
         "cIYG6dpR" = _cIYG6dpR;
         "ilpEIQT0" = _ilpEIQT0;
@@ -164,6 +169,7 @@ let
         "mrEHqOv7" = _mrEHqOv7;
         "W5KIzjPR" = _W5KIzjPR;
         "EPYSyxjL" = _EPYSyxjL;
+        "hPGNIhAD" = _hPGNIhAD;
         "paper-1.20" = _W5KIzjPR;
         "paper-1.20.1" = _W5KIzjPR;
         "paper-1.20.2" = _W5KIzjPR;
@@ -183,11 +189,11 @@ let
         "paper-1.21.9" = _W5KIzjPR;
         "paper-1.21.10" = _W5KIzjPR;
         "paper-1.21.11" = _W5KIzjPR;
-        "paper-26.1" = _EPYSyxjL;
-        "paper-26.1.1" = _EPYSyxjL;
-        "paper-26.1.2" = _EPYSyxjL;
-        "paper-26.2" = _EPYSyxjL;
-        "paper-26.3" = _EPYSyxjL;
+        "paper-26.1" = _hPGNIhAD;
+        "paper-26.1.1" = _hPGNIhAD;
+        "paper-26.1.2" = _hPGNIhAD;
+        "paper-26.2" = _hPGNIhAD;
+        "paper-26.3" = _hPGNIhAD;
         "purpur-1.20" = _W5KIzjPR;
         "purpur-1.20.1" = _W5KIzjPR;
         "purpur-1.20.2" = _W5KIzjPR;
@@ -207,11 +213,11 @@ let
         "purpur-1.21.9" = _W5KIzjPR;
         "purpur-1.21.10" = _W5KIzjPR;
         "purpur-1.21.11" = _W5KIzjPR;
-        "purpur-26.1" = _EPYSyxjL;
-        "purpur-26.1.1" = _EPYSyxjL;
-        "purpur-26.1.2" = _EPYSyxjL;
-        "purpur-26.2" = _EPYSyxjL;
-        "purpur-26.3" = _EPYSyxjL;
+        "purpur-26.1" = _hPGNIhAD;
+        "purpur-26.1.1" = _hPGNIhAD;
+        "purpur-26.1.2" = _hPGNIhAD;
+        "purpur-26.2" = _hPGNIhAD;
+        "purpur-26.3" = _hPGNIhAD;
         "pkg-0.0.1-dev.4d09a0b" = _ApmhYz5e;
         "pkg-0.0.1-dev.991fcb9" = _PJoPGfiB;
         "pkg-0.0.1-dev.1d799ce" = _huqJDTrz;
@@ -231,7 +237,8 @@ let
         "pkg-0.0.4" = _gL8ms2RI;
         "pkg-0.0.5" = _W5KIzjPR;
         "pkg-1.2.0" = _EPYSyxjL;
-        "default" = _EPYSyxjL;
+        "pkg-1.2.1" = _hPGNIhAD;
+        "default" = _hPGNIhAD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "signs-plugin";

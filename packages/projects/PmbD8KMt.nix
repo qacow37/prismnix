@@ -61,6 +61,26 @@ let
             "file" = "OrbitalStrike-NeoForge-1.21.x-1.4.0.jar";
             "hash" = "sha512-PXNvuD92FGQHTe4RTVXqcgjTbmFCI68wXY3Dz6JsnhGl7KLI1j6tKWIlez5QLQsCgS+ioLmJepA81oK9tYU6iw==";
         };
+        _GbO2MPPS = {
+            "id" = "GbO2MPPS";
+            "file" = "OrbitalStrike-Paper-Folia-1.21.x-1.4.0.jar";
+            "hash" = "sha512-yQRLABah5oI6VQp4mqOQa9/A+cuLG/otZmSDcd7iaOZLZYcfceR9A0wL+Mdxf03va3UhOKrwSzGgtaxNmxAQtA==";
+        };
+        _Fe235hwH = {
+            "id" = "Fe235hwH";
+            "file" = "OrbitalStrike-SpongeVanilla-1.21.x-1.4.0.jar";
+            "hash" = "sha512-z4Wl9o2AiChAjAsc6xD4w4/DpF2eeDP0pptUwinIDqvI5CG0CrRTAACZ3BZJuv/OalvYmLnn3mqEDSEmdUe9cA==";
+        };
+        _RpLzA7bj = {
+            "id" = "RpLzA7bj";
+            "file" = "OrbitalStrike-Velocity-1.21.x-1.4.0.jar";
+            "hash" = "sha512-xjqyDjEyqSlmFT45B9RapXEHUqTRiXgtGsj5WdTTutfA+k8vOnADlncIPnIXNBPGVABM/dhBA7r8NZ6+hDL7Ng==";
+        };
+        _9dt3mCmg = {
+            "id" = "9dt3mCmg";
+            "file" = "OrbitalStrike-Waterfall-1.21.x-1.4.0.jar";
+            "hash" = "sha512-3jPVcEll9/++xSRa+H+Brnt8une8WT63zXTfD2sm811kOKU53Kzmn7qpxj0X1jwhBuUzwrwWNM0GMg+i0ns3Ug==";
+        };
     in {
         "sgOUAQgF" = _sgOUAQgF;
         "r2lZw4sl" = _r2lZw4sl;
@@ -74,6 +94,10 @@ let
         "sB9FMs1l" = _sB9FMs1l;
         "VAHq3DyM" = _VAHq3DyM;
         "JZZ5Tq1F" = _JZZ5Tq1F;
+        "GbO2MPPS" = _GbO2MPPS;
+        "Fe235hwH" = _Fe235hwH;
+        "RpLzA7bj" = _RpLzA7bj;
+        "9dt3mCmg" = _9dt3mCmg;
         "fabric-1.20.1" = _sgOUAQgF;
         "fabric-1.20.2" = _sgOUAQgF;
         "fabric-1.20.3" = _sgOUAQgF;
@@ -176,6 +200,54 @@ let
         "neoforge-1.21.2" = _JZZ5Tq1F;
         "neoforge-1.21.1" = _JZZ5Tq1F;
         "neoforge-1.21" = _JZZ5Tq1F;
+        "folia-1.21.11" = _GbO2MPPS;
+        "folia-1.21.10" = _GbO2MPPS;
+        "folia-1.21.9" = _GbO2MPPS;
+        "folia-1.21.8" = _GbO2MPPS;
+        "folia-1.21.7" = _GbO2MPPS;
+        "folia-1.21.6" = _GbO2MPPS;
+        "folia-1.21.5" = _GbO2MPPS;
+        "folia-1.21.4" = _GbO2MPPS;
+        "folia-1.21.3" = _GbO2MPPS;
+        "folia-1.21.2" = _GbO2MPPS;
+        "folia-1.21.1" = _GbO2MPPS;
+        "folia-1.21" = _GbO2MPPS;
+        "sponge-1.21.11" = _Fe235hwH;
+        "sponge-1.21.5" = _Fe235hwH;
+        "sponge-1.21.4" = _Fe235hwH;
+        "sponge-1.21.10" = _Fe235hwH;
+        "sponge-1.21.9" = _Fe235hwH;
+        "sponge-1.21.3" = _Fe235hwH;
+        "sponge-1.21.2" = _Fe235hwH;
+        "sponge-1.21.8" = _Fe235hwH;
+        "sponge-1.21.7" = _Fe235hwH;
+        "sponge-1.21.1" = _Fe235hwH;
+        "sponge-1.21" = _Fe235hwH;
+        "sponge-1.21.6" = _Fe235hwH;
+        "velocity-1.21.11" = _RpLzA7bj;
+        "velocity-1.21.10" = _RpLzA7bj;
+        "velocity-1.21.9" = _RpLzA7bj;
+        "velocity-1.21.8" = _RpLzA7bj;
+        "velocity-1.21.7" = _RpLzA7bj;
+        "velocity-1.21.6" = _RpLzA7bj;
+        "velocity-1.21" = _RpLzA7bj;
+        "velocity-1.21.1" = _RpLzA7bj;
+        "velocity-1.21.2" = _RpLzA7bj;
+        "velocity-1.21.3" = _RpLzA7bj;
+        "velocity-1.21.4" = _RpLzA7bj;
+        "velocity-1.21.5" = _RpLzA7bj;
+        "bungeecord-1.21.11" = _9dt3mCmg;
+        "bungeecord-1.21.5" = _9dt3mCmg;
+        "bungeecord-1.21.4" = _9dt3mCmg;
+        "bungeecord-1.21.10" = _9dt3mCmg;
+        "bungeecord-1.21.9" = _9dt3mCmg;
+        "bungeecord-1.21.3" = _9dt3mCmg;
+        "bungeecord-1.21.2" = _9dt3mCmg;
+        "bungeecord-1.21.8" = _9dt3mCmg;
+        "bungeecord-1.21.7" = _9dt3mCmg;
+        "bungeecord-1.21.1" = _9dt3mCmg;
+        "bungeecord-1.21" = _9dt3mCmg;
+        "bungeecord-1.21.6" = _9dt3mCmg;
         "pkg-orbital-1.0.0" = _sgOUAQgF;
         "pkg-orbital-1.0.5" = _r2lZw4sl;
         "pkg-orbital-1.1.0" = _TwxVJfVm;
@@ -188,7 +260,11 @@ let
         "pkg-orbital-1.4.0+fabric+quilt" = _sB9FMs1l;
         "pkg-orbital-1.4.0+forge" = _VAHq3DyM;
         "pkg-orbital-1.4.0+neoforge" = _JZZ5Tq1F;
-        "default" = _JZZ5Tq1F;
+        "pkg-orbital-1.4.0+folia" = _GbO2MPPS;
+        "pkg-orbital-1.4.0+sponge" = _Fe235hwH;
+        "pkg-orbital-1.4.0+velocity" = _RpLzA7bj;
+        "pkg-orbital-1.4.0+bungeecord" = _9dt3mCmg;
+        "default" = _9dt3mCmg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "orbital-strike-cannon-v2";

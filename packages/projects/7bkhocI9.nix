@@ -76,6 +76,21 @@ let
             "file" = "createaddition-1.7.2.3+fly-mc26.3.jar";
             "hash" = "sha512-a/xkAAMp7vFev5ShO1eXlBfLb9b0h70W/2nHVWlIvu6B+I5yrM7wT60nmzvQPpB4xcV9ko/392iqsKQO1xwKKA==";
         };
+        _geABFylI = {
+            "id" = "geABFylI";
+            "file" = "createaddition-1.7.2.4+fly-mc26.2.jar";
+            "hash" = "sha512-87agvNkOEZ+V2XrwoCQ23PsMDCGuQW82eCj1Qruqp3cQgYpBOSKN2D21AOZVmaN6iWfzbi4WoL2UfHPeeFrfTw==";
+        };
+        _xLMKnvGr = {
+            "id" = "xLMKnvGr";
+            "file" = "createaddition-1.7.2.4+fly-mc26.1.jar";
+            "hash" = "sha512-CZ2av0cK+pxGj188T6aGbuyyQw4f1r8B1cuu1hKQxrVK1yadEG8VrCnHfrDW7+wXULgu7P7hvwe6q6/ZWqMB9g==";
+        };
+        _g8MpVBGM = {
+            "id" = "g8MpVBGM";
+            "file" = "createaddition-1.7.2.4+fly-mc26.3.jar";
+            "hash" = "sha512-vDKscFyN/aJDQ2AUORuRY8JzlFh96gcwWhVtmXEe1uboSJ5kAZDmjq0eBHk3a4fmZhMt5zmktQaQm0K8JmXR5Q==";
+        };
     in {
         "wLOPUALR" = _wLOPUALR;
         "Lr2RpG1Z" = _Lr2RpG1Z;
@@ -92,11 +107,14 @@ let
         "gKpkFRp4" = _gKpkFRp4;
         "a0alPvMc" = _a0alPvMc;
         "7QbIL2dL" = _7QbIL2dL;
-        "fabric-26.2" = _gKpkFRp4;
-        "fabric-26.1.2" = _a0alPvMc;
-        "fabric-26.1" = _a0alPvMc;
-        "fabric-26.1.1" = _a0alPvMc;
-        "fabric-26.3" = _7QbIL2dL;
+        "geABFylI" = _geABFylI;
+        "xLMKnvGr" = _xLMKnvGr;
+        "g8MpVBGM" = _g8MpVBGM;
+        "fabric-26.2" = _geABFylI;
+        "fabric-26.1.2" = _xLMKnvGr;
+        "fabric-26.1" = _xLMKnvGr;
+        "fabric-26.1.1" = _xLMKnvGr;
+        "fabric-26.3" = _g8MpVBGM;
         "pkg-1.7.0-fly.26.2-beta.4" = _wLOPUALR;
         "pkg-1.7.0-fly.26.2-beta.5" = _Lr2RpG1Z;
         "pkg-1.7.0-fly.26.2-beta.6" = _LKMk3yzF;
@@ -112,7 +130,10 @@ let
         "pkg-1.7.2.3+fly-mc26.2" = _gKpkFRp4;
         "pkg-1.7.2.3+fly-mc26.1" = _a0alPvMc;
         "pkg-1.7.2.3+fly-mc26.3" = _7QbIL2dL;
-        "default" = _7QbIL2dL;
+        "pkg-1.7.2.4+fly-mc26.2" = _geABFylI;
+        "pkg-1.7.2.4+fly-mc26.1" = _xLMKnvGr;
+        "pkg-1.7.2.4+fly-mc26.3" = _g8MpVBGM;
+        "default" = _g8MpVBGM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-fly-crafts-additions-unofficial-port";

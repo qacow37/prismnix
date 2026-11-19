@@ -41,6 +41,11 @@ let
             "file" = "mca-ev-compat-1.21.1-2.3.0.jar";
             "hash" = "sha512-n8UEE6RadgecY2rYice7uIoy7/ZTyPn8uKNdXLzFP643IOdRnB990gU1hIzhcCgxsLXq40hdpASxQD8XOl1B7A==";
         };
+        _KeC6m3Kl = {
+            "id" = "KeC6m3Kl";
+            "file" = "mca-ev-compat-1.20.1-1.2.2.jar";
+            "hash" = "sha512-jKMWWraZD5Bt8VtGAP7l7sBOoQ1/HJoQgY7ONE4s8sbJArxY1zlgCRIKSYP9y1tBrXDRaCqHEHm2apoM95uxvg==";
+        };
     in {
         "CHLYlFmg" = _CHLYlFmg;
         "zcUGc31f" = _zcUGc31f;
@@ -50,7 +55,8 @@ let
         "5oUkmGze" = _5oUkmGze;
         "8utQsiNn" = _8utQsiNn;
         "LJ2xwpvU" = _LJ2xwpvU;
-        "forge-1.20.1" = _8utQsiNn;
+        "KeC6m3Kl" = _KeC6m3Kl;
+        "forge-1.20.1" = _KeC6m3Kl;
         "neoforge-1.21.1" = _LJ2xwpvU;
         "neoforge-26.1.2" = _K9eR3nhL;
         "pkg-1.0.0" = _CHLYlFmg;
@@ -61,7 +67,8 @@ let
         "pkg-2.2.0" = _5oUkmGze;
         "pkg-1.2.0" = _8utQsiNn;
         "pkg-2.3.0" = _LJ2xwpvU;
-        "default" = _LJ2xwpvU;
+        "pkg-1.2.1" = _KeC6m3Kl;
+        "default" = _KeC6m3Kl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mca-reborn-x-easy-villagers-compat";

@@ -101,6 +101,16 @@ let
             "file" = "aetheria-1.3.0.jar";
             "hash" = "sha512-8w6i5QoiJ2+WK4WR0GAf+zTcwSgDSNU1O/diAeVa+GGIMBdX638oJqpwCCuvscqYQgLMxoMh3GG7bwJDn9SRsQ==";
         };
+        _aZ6W1oYA = {
+            "id" = "aZ6W1oYA";
+            "file" = "Aetheria 1.8.9-forge-2.0.0.jar";
+            "hash" = "sha512-3rz+m1+/X2FKXvGQzrAApa/ol7/ZI4N7Xt5RDgV8du5a8gr9Se+SdxH7cI6gbHxDc3l/dQoXu6GJhBACK/Sq2A==";
+        };
+        _L6rFwkW8 = {
+            "id" = "L6rFwkW8";
+            "file" = "Aetheria 1.21.1-fabric-2.0.0.jar";
+            "hash" = "sha512-UhswGWVwFdzJg9oqBAOkvSCtTCAUbErAEadxVFOmLOBemoIPEbSAKdHk6Zx4xaymv4m+ZsIjx8d4U1CMuGSb7w==";
+        };
     in {
         "NK2345zk" = _NK2345zk;
         "RYxhgk6m" = _RYxhgk6m;
@@ -122,7 +132,10 @@ let
         "bfwnjT9Y" = _bfwnjT9Y;
         "t4hHxHxS" = _t4hHxHxS;
         "z9PKGUpR" = _z9PKGUpR;
-        "forge-1.8.9" = _z9PKGUpR;
+        "aZ6W1oYA" = _aZ6W1oYA;
+        "L6rFwkW8" = _L6rFwkW8;
+        "forge-1.8.9" = _aZ6W1oYA;
+        "fabric-1.21.1" = _L6rFwkW8;
         "pkg-1.0.0" = _pAZjPe03;
         "pkg-1.0.5" = _RYxhgk6m;
         "pkg-1.1.5" = _cxuCt0mE;
@@ -142,7 +155,8 @@ let
         "pkg-1.1.0" = _bfwnjT9Y;
         "pkg-1.2.0" = _t4hHxHxS;
         "pkg-1.3.0" = _z9PKGUpR;
-        "default" = _z9PKGUpR;
+        "pkg-2.0.0" = _L6rFwkW8;
+        "default" = _L6rFwkW8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aetheriamod";

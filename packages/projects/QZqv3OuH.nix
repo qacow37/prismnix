@@ -161,6 +161,11 @@ let
             "file" = "xp_stream-fabric-26.3-1.1.8.jar";
             "hash" = "sha512-aP0K8wJ8/JYRJMM/t8UKTjql0XpZmmB27EYrT4zBSvu+TEjHIK3Dnbiz519I4xe9JNPuor6Kz21PbswJXlSkag==";
         };
+        _Sr2mXNbL = {
+            "id" = "Sr2mXNbL";
+            "file" = "xp_stream-fabric-26.4-snapshot-10-1.1.9.jar";
+            "hash" = "sha512-Qq3LCnRdggRLcDCIakTI2RkJO/j0xSART3kxvOBSIb5Vf/nmoLQnFz4/bkBjMgxfiMRkVuEYs/+AGRjCQegxVg==";
+        };
     in {
         "uNXm7b6B" = _uNXm7b6B;
         "YpevOph2" = _YpevOph2;
@@ -194,6 +199,7 @@ let
         "WkFtnit6" = _WkFtnit6;
         "yV9hlhCh" = _yV9hlhCh;
         "ZPMDuEBi" = _ZPMDuEBi;
+        "Sr2mXNbL" = _Sr2mXNbL;
         "fabric-1.21.11" = _XTtBttDn;
         "fabric-1.21.1" = _zopaJ2br;
         "fabric-26.1-snapshot-2" = _AzAfO9he;
@@ -248,6 +254,7 @@ let
         "fabric-26.3-rc-2" = _WkFtnit6;
         "fabric-26.3-rc-3" = _WkFtnit6;
         "fabric-26.3" = _ZPMDuEBi;
+        "fabric-26.4-snapshot-10" = _Sr2mXNbL;
         "neoforge-1.21.11" = _Qq77INMw;
         "neoforge-1.21.1" = _xMgTcITM;
         "neoforge-26.1-snapshot-2" = _AH7KPyPY;
@@ -282,7 +289,8 @@ let
         "pkg-1.1.6" = _tqi6Thqr;
         "pkg-1.1.7" = _WkFtnit6;
         "pkg-1.1.8" = _ZPMDuEBi;
-        "default" = _ZPMDuEBi;
+        "pkg-1.1.9" = _Sr2mXNbL;
+        "default" = _Sr2mXNbL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xp-stream";

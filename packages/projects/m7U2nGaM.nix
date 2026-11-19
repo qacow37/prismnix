@@ -336,6 +336,16 @@ let
             "file" = "runecraftory-1.21.1-2.2.1.b-neoforge.jar";
             "hash" = "sha512-r7hntOryi7zPuTj9+7PJU1lF7fWiflL3KnhGF8IU5MfpqffmpPFTdArEEIPPBBAGlBxnqVUdhykzBGUXQxPpRQ==";
         };
+        _3hoOHcTh = {
+            "id" = "3hoOHcTh";
+            "file" = "runecraftory-1.21.1-2.3.0-neoforge.jar";
+            "hash" = "sha512-PaAAHQ29ERjknn+ct7mFW9znTGVmIhK/aWngEVuKyxIK5fYKo6QiZhXCkiHJGXh1kTxAoPsssnoJx3uE0Lmvag==";
+        };
+        _qtDvpuJ1 = {
+            "id" = "qtDvpuJ1";
+            "file" = "runecraftory-1.21.1-2.3.0-fabric.jar";
+            "hash" = "sha512-S1DoeA04Lm6dyJOHx2Gl0mP9yTDDQmqdaSkjSGz6wvqiMGA3cKpM4uwfn0KzagsRuz+eZype6UETdS1ZN4ILmw==";
+        };
     in {
         "o0hC0yAx" = _o0hC0yAx;
         "85gCPI7V" = _85gCPI7V;
@@ -404,10 +414,12 @@ let
         "g631qMT3" = _g631qMT3;
         "Q0liPVHF" = _Q0liPVHF;
         "PfJ42nd5" = _PfJ42nd5;
+        "3hoOHcTh" = _3hoOHcTh;
+        "qtDvpuJ1" = _qtDvpuJ1;
         "fabric-1.18.2" = _tAvFoTQF;
-        "fabric-1.21.1" = _Q0liPVHF;
+        "fabric-1.21.1" = _qtDvpuJ1;
         "forge-1.18.2" = _zuyqEjpx;
-        "neoforge-1.21.1" = _PfJ42nd5;
+        "neoforge-1.21.1" = _3hoOHcTh;
         "pkg-1.18.2-1.5.1" = _85gCPI7V;
         "pkg-1.18.2-1.6.0" = _v4yOfuh7;
         "pkg-1.18.2-1.6.1" = _PO1bsWPT;
@@ -453,7 +465,9 @@ let
         "pkg-1.21.1-2.2.1-neoforge" = _g631qMT3;
         "pkg-1.21.1-2.2.1-fabric" = _Q0liPVHF;
         "pkg-1.21.1-2.2.1.b-neoforge" = _PfJ42nd5;
-        "default" = _PfJ42nd5;
+        "pkg-1.21.1-2.3.0-neoforge" = _3hoOHcTh;
+        "pkg-1.21.1-2.3.0-fabric" = _qtDvpuJ1;
+        "default" = _qtDvpuJ1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "runecraftory";

@@ -121,6 +121,16 @@ let
             "file" = "discoveria-26.3d.jar";
             "hash" = "sha512-w2AtTtdY+AGL9e0lw/Lh50NFIgHCV9CADPUJQjwunl5lD2pgVO6EFMa/q1zp8ottOeMtdpQrZtsXOPzpNV1Rsg==";
         };
+        _d4o29dyx = {
+            "id" = "d4o29dyx";
+            "file" = "discoveria5.0.0d.zip";
+            "hash" = "sha512-2FK6BqxDteUpkJl3SBf5F+3RaFjLzpyBiNZ8Fru3F/wFd5NcZd+ashLMfOr8F3ulefQsqwdHIJL6pxyaB+EFnw==";
+        };
+        _bed68Z7K = {
+            "id" = "bed68Z7K";
+            "file" = "discoveria-5.0.0d.jar";
+            "hash" = "sha512-KS4yiQBbA8rDaQ0RaYlBy9ymrnTI7FmUcHjd6qSDjvsabE8L99x4lIQauAGI1sLxuow+45PlQAC9Bi8WEVZoVA==";
+        };
     in {
         "RFMfrUjc" = _RFMfrUjc;
         "M8UBPkGk" = _M8UBPkGk;
@@ -146,6 +156,8 @@ let
         "ws6WGPiK" = _ws6WGPiK;
         "WpvGzlvB" = _WpvGzlvB;
         "virqYaFD" = _virqYaFD;
+        "d4o29dyx" = _d4o29dyx;
+        "bed68Z7K" = _bed68Z7K;
         "datapack-1.20.1" = _PWPlMf8Z;
         "datapack-1.20.2" = _PWPlMf8Z;
         "datapack-1.20.3" = _PWPlMf8Z;
@@ -161,10 +173,10 @@ let
         "datapack-1.21.9" = _219DlPSM;
         "datapack-1.21.10" = _219DlPSM;
         "datapack-1.21.11" = _219DlPSM;
-        "datapack-26.1" = _wqiXJnPT;
-        "datapack-26.1.1" = _wqiXJnPT;
-        "datapack-26.1.2" = _r3AzkN5y;
-        "datapack-26.2" = _r3AzkN5y;
+        "datapack-26.1" = _d4o29dyx;
+        "datapack-26.1.1" = _d4o29dyx;
+        "datapack-26.1.2" = _d4o29dyx;
+        "datapack-26.2" = _d4o29dyx;
         "datapack-26.3" = _WpvGzlvB;
         "fabric-1.20.1" = _Fm3PgljJ;
         "fabric-1.20.2" = _Fm3PgljJ;
@@ -181,10 +193,10 @@ let
         "fabric-1.21.9" = _2bnCa73K;
         "fabric-1.21.10" = _2bnCa73K;
         "fabric-1.21.11" = _2bnCa73K;
-        "fabric-26.1" = _ZYFo2zMq;
-        "fabric-26.1.1" = _ZYFo2zMq;
-        "fabric-26.1.2" = _ws6WGPiK;
-        "fabric-26.2" = _ws6WGPiK;
+        "fabric-26.1" = _bed68Z7K;
+        "fabric-26.1.1" = _bed68Z7K;
+        "fabric-26.1.2" = _bed68Z7K;
+        "fabric-26.2" = _bed68Z7K;
         "fabric-26.3" = _virqYaFD;
         "forge-1.20.1" = _Fm3PgljJ;
         "forge-1.20.2" = _Fm3PgljJ;
@@ -201,10 +213,10 @@ let
         "forge-1.21.9" = _2bnCa73K;
         "forge-1.21.10" = _2bnCa73K;
         "forge-1.21.11" = _2bnCa73K;
-        "forge-26.1" = _ZYFo2zMq;
-        "forge-26.1.1" = _ZYFo2zMq;
-        "forge-26.1.2" = _ws6WGPiK;
-        "forge-26.2" = _ws6WGPiK;
+        "forge-26.1" = _bed68Z7K;
+        "forge-26.1.1" = _bed68Z7K;
+        "forge-26.1.2" = _bed68Z7K;
+        "forge-26.2" = _bed68Z7K;
         "forge-26.3" = _virqYaFD;
         "neoforge-1.20.1" = _vofBupZ7;
         "neoforge-1.20.2" = _vofBupZ7;
@@ -221,10 +233,10 @@ let
         "neoforge-1.21.9" = _2bnCa73K;
         "neoforge-1.21.10" = _2bnCa73K;
         "neoforge-1.21.11" = _2bnCa73K;
-        "neoforge-26.1" = _ZYFo2zMq;
-        "neoforge-26.1.1" = _ZYFo2zMq;
-        "neoforge-26.1.2" = _ws6WGPiK;
-        "neoforge-26.2" = _ws6WGPiK;
+        "neoforge-26.1" = _bed68Z7K;
+        "neoforge-26.1.1" = _bed68Z7K;
+        "neoforge-26.1.2" = _bed68Z7K;
+        "neoforge-26.2" = _bed68Z7K;
         "neoforge-26.3" = _virqYaFD;
         "quilt-1.20.1" = _Fm3PgljJ;
         "quilt-1.20.2" = _Fm3PgljJ;
@@ -241,10 +253,10 @@ let
         "quilt-1.21.9" = _2bnCa73K;
         "quilt-1.21.10" = _2bnCa73K;
         "quilt-1.21.11" = _2bnCa73K;
-        "quilt-26.1" = _ZYFo2zMq;
-        "quilt-26.1.1" = _ZYFo2zMq;
-        "quilt-26.1.2" = _ws6WGPiK;
-        "quilt-26.2" = _ws6WGPiK;
+        "quilt-26.1" = _bed68Z7K;
+        "quilt-26.1.1" = _bed68Z7K;
+        "quilt-26.1.2" = _bed68Z7K;
+        "quilt-26.2" = _bed68Z7K;
         "quilt-26.3" = _virqYaFD;
         "pkg-1.0.2" = _M8UBPkGk;
         "pkg-1.0.3" = _zguDhixw;
@@ -266,7 +278,9 @@ let
         "pkg-4.0.2m" = _ws6WGPiK;
         "pkg-26.3d" = _WpvGzlvB;
         "pkg-26.3m" = _virqYaFD;
-        "default" = _virqYaFD;
+        "pkg-5.0.0d" = _d4o29dyx;
+        "pkg-5.0.0m" = _bed68Z7K;
+        "default" = _bed68Z7K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "discoveria";

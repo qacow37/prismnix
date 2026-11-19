@@ -11,13 +11,20 @@ let
             "file" = "garb-1.0.1.jar";
             "hash" = "sha512-sEU2LOuxZxl/50vUOnM/7JUlccVNAfudCs9qdPTc3BQRDsff0jPJHyJ2sD6Y+nyuTPQgs1jVFFc+T4zlG7eQcw==";
         };
+        _Igu8fosf = {
+            "id" = "Igu8fosf";
+            "file" = "garb-1.0.2.jar";
+            "hash" = "sha512-Db9VFbInseirJirrQGRjITmfIeFPyXqVTWEkP5uztAds/i+v/2WOyhqH6OK3IEiykT2q7dn1li2sZyYJK1xn3Q==";
+        };
     in {
         "W2bh5iZF" = _W2bh5iZF;
         "IoC8jRHj" = _IoC8jRHj;
-        "fabric-1.21.1" = _IoC8jRHj;
+        "Igu8fosf" = _Igu8fosf;
+        "fabric-1.21.1" = _Igu8fosf;
         "pkg-1.0.0" = _W2bh5iZF;
         "pkg-1.0.1+1.21.1" = _IoC8jRHj;
-        "default" = _IoC8jRHj;
+        "pkg-1.0.2+1.21.1" = _Igu8fosf;
+        "default" = _Igu8fosf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "garb";

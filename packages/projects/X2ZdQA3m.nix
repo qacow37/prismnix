@@ -36,6 +36,11 @@ let
             "file" = "createimmersivetacz-1.6-neoforge.jar";
             "hash" = "sha512-Toa6jxciYsJOIGpsfZIXxUfqoRerETrsRyM1r5rSUWXTd+5wXlhlllPsaFJTCglZOKnfo44/np1duW7PoDv95w==";
         };
+        _ZXscepLp = {
+            "id" = "ZXscepLp";
+            "file" = "createimmersivetacz-1.7-neoforge.jar";
+            "hash" = "sha512-KWMzTYDWva+2ZAc/8W/oGZ5jm2P4VEbUuYg2DX967X/YmTI5a9JiJPZ7alJO8ndrA3TTuaCfLg1NFCcwr1oLcg==";
+        };
     in {
         "zZAR7j0u" = _zZAR7j0u;
         "Xrt3jnMH" = _Xrt3jnMH;
@@ -44,13 +49,14 @@ let
         "9S4zWnf0" = _9S4zWnf0;
         "p0Z5IODt" = _p0Z5IODt;
         "7qIlMJja" = _7qIlMJja;
+        "ZXscepLp" = _ZXscepLp;
         "forge-1.20.1" = _9S4zWnf0;
         "forge-1.20.2" = _xA1Nyafi;
         "forge-1.20.3" = _xA1Nyafi;
         "forge-1.20.4" = _xA1Nyafi;
         "forge-1.20.5" = _xA1Nyafi;
         "forge-1.20.6" = _xA1Nyafi;
-        "neoforge-1.21.1" = _7qIlMJja;
+        "neoforge-1.21.1" = _ZXscepLp;
         "pkg-1.0-1.20.1" = _zZAR7j0u;
         "pkg-1.1-1.20.1" = _Xrt3jnMH;
         "pkg-1.2-1.20.1" = _xA1Nyafi;
@@ -58,7 +64,8 @@ let
         "pkg-1.4-1.20.1" = _9S4zWnf0;
         "pkg-1.5-neoforge" = _p0Z5IODt;
         "pkg-1.6-neoforge" = _7qIlMJja;
-        "default" = _7qIlMJja;
+        "pkg-1.7-neoforge" = _ZXscepLp;
+        "default" = _ZXscepLp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-immersive-tacz-integration";

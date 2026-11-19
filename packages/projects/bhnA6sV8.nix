@@ -41,6 +41,11 @@ let
             "file" = "ingeniumapi-1.1-FABRIC-MC-26.X.jar";
             "hash" = "sha512-aAzpowCQRmuOR1cG2Zpb1zP8Qjq95Y1r5mjuivygMJupkOSX9dvBtj87MMw/JKk1+RwG/U6aL5PJpfiapbkURQ==";
         };
+        _yETvYoFM = {
+            "id" = "yETvYoFM";
+            "file" = "ingeniumapi-1.1-NEOFORGE-MC-26.X.jar";
+            "hash" = "sha512-lDopnrnTnNGb0A7qGf0bVnS3YCgT07xX+axJBxO9DqutkwTrco0xeGsSlYHAw6Y0EC7YLfHKuy/9cyxrhp534w==";
+        };
     in {
         "VYmEo1o8" = _VYmEo1o8;
         "Q8AjB7JJ" = _Q8AjB7JJ;
@@ -50,6 +55,7 @@ let
         "K2TKa3U4" = _K2TKa3U4;
         "D6FnVXlX" = _D6FnVXlX;
         "bRhQB9Tl" = _bRhQB9Tl;
+        "yETvYoFM" = _yETvYoFM;
         "fabric-26.1" = _bRhQB9Tl;
         "fabric-26.1.1" = _bRhQB9Tl;
         "fabric-26.1.2" = _bRhQB9Tl;
@@ -74,15 +80,15 @@ let
         "fabric-1.21.10" = _Nh4QNlwd;
         "neoforge-1.21.1" = _gMKN8rgX;
         "neoforge-1.20.1" = _ACcUSzgo;
-        "neoforge-26.1" = _K2TKa3U4;
-        "neoforge-26.1.1" = _K2TKa3U4;
-        "neoforge-26.1.2" = _K2TKa3U4;
+        "neoforge-26.1" = _yETvYoFM;
+        "neoforge-26.1.1" = _yETvYoFM;
+        "neoforge-26.1.2" = _yETvYoFM;
         "neoforge-26.2" = _K2TKa3U4;
         "neoforge-26.3" = _K2TKa3U4;
         "forge-1.20.1" = _ACcUSzgo;
         "pkg-1.0.2" = _K2TKa3U4;
-        "pkg-1.1" = _bRhQB9Tl;
-        "default" = _bRhQB9Tl;
+        "pkg-1.1" = _yETvYoFM;
+        "default" = _yETvYoFM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ingeniumapi";

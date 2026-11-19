@@ -156,6 +156,11 @@ let
             "file" = "ModernAdvancementsScreen-1.12.0-1.26.3.jar";
             "hash" = "sha512-D9wqBRZayqXcURfEaDc1FqeHRN8Tu1JgOxhPGaRso/QQY0QvjpXH1ZrdKcPJp8PWlmH3/HQoygAtG5jWKKh6iw==";
         };
+        _xcb0Em3X = {
+            "id" = "xcb0Em3X";
+            "file" = "ModernAdvancementsScreen-1.13.0-1.26.3.jar";
+            "hash" = "sha512-i6tKUMGSshT2O5sqIGJHgQfmuZKmrKpPovUnPg8UAL/6vYeOPGU/Gozch8Xk6B+ZsonIKGczH1sIc+d9QDeb6g==";
+        };
     in {
         "CvwZm3Y1" = _CvwZm3Y1;
         "ovBefhU3" = _ovBefhU3;
@@ -188,12 +193,13 @@ let
         "bz8mMwC5" = _bz8mMwC5;
         "Ub5pMKU3" = _Ub5pMKU3;
         "scSH0LZk" = _scSH0LZk;
+        "xcb0Em3X" = _xcb0Em3X;
         "fabric-26.1" = _3RRQ1rXJ;
         "fabric-26.1.1" = _3RRQ1rXJ;
         "fabric-26.1.2" = _3RRQ1rXJ;
         "fabric-1.21.11" = _KkmGLq3w;
         "fabric-26.2" = _DMgKx3eW;
-        "fabric-26.3" = _scSH0LZk;
+        "fabric-26.3" = _xcb0Em3X;
         "pkg-1.0.0-1.26.1" = _CvwZm3Y1;
         "pkg-1.1.0-1.26.1" = _ovBefhU3;
         "pkg-1.1.1-1.26.1" = _HR2Po0Gt;
@@ -225,7 +231,8 @@ let
         "pkg-1.10.3-1.26.3" = _bz8mMwC5;
         "pkg-1.11.1-1.26.3" = _Ub5pMKU3;
         "pkg-1.12.0-1.26.3" = _scSH0LZk;
-        "default" = _scSH0LZk;
+        "pkg-1.13.0-1.26.3" = _xcb0Em3X;
+        "default" = _xcb0Em3X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modern-advancement-screen";

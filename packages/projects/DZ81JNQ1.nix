@@ -316,6 +316,11 @@ let
             "file" = "audio_engine_tweaks-1.2.16+MC26.4-pre-7 build 5.jar";
             "hash" = "sha512-ChIS+TYDfH5jcgFFNRn2ofZeLhjlrJrG5lT3UDmfUdS+BPhd9dGzR6kCJ4EdJLip6ehqIas6V/03rk2O4XS52w==";
         };
+        _Bj5ck8nf = {
+            "id" = "Bj5ck8nf";
+            "file" = "audio_engine_tweaks-1.2.16+MC26.4-pre-10 build 3.jar";
+            "hash" = "sha512-pzRZLnbTO0V/dHws7aK1QBAaPfyKL7GxRxhvv6y8yyDrsM0O8ee5iDa26iy+HHh9ldQn29mFJfD5StN36hap8A==";
+        };
     in {
         "yVExnZd5" = _yVExnZd5;
         "nSqMP2cn" = _nSqMP2cn;
@@ -380,6 +385,7 @@ let
         "JnmT0w9f" = _JnmT0w9f;
         "9EEYH9DD" = _9EEYH9DD;
         "bqxDs1Wi" = _bqxDs1Wi;
+        "Bj5ck8nf" = _Bj5ck8nf;
         "fabric-1.17.1" = _wyWl0F0J;
         "fabric-1.18" = _wyWl0F0J;
         "fabric-1.18.1" = _wyWl0F0J;
@@ -458,6 +464,7 @@ let
         "fabric-26.4-snapshot-5" = _JnmT0w9f;
         "fabric-26.4-snapshot-6" = _9EEYH9DD;
         "fabric-26.4-snapshot-7" = _bqxDs1Wi;
+        "fabric-26.4-snapshot-10" = _Bj5ck8nf;
         "quilt-1.20.1" = _no8TEjJD;
         "quilt-1.20.2" = _ST7s4Way;
         "quilt-1.20.3" = _8y2TPNrt;
@@ -500,6 +507,7 @@ let
         "quilt-26.4-snapshot-5" = _JnmT0w9f;
         "quilt-26.4-snapshot-6" = _9EEYH9DD;
         "quilt-26.4-snapshot-7" = _bqxDs1Wi;
+        "quilt-26.4-snapshot-10" = _Bj5ck8nf;
         "pkg-1.0-pre-1.19" = _yVExnZd5;
         "pkg-1.0" = _nSqMP2cn;
         "pkg-1.1" = _jRtkrMLo;
@@ -527,8 +535,8 @@ let
         "pkg-1.2.14" = _d41OWdlk;
         "pkg-1.2.13" = _no8TEjJD;
         "pkg-1.2.15" = _YxNOZvPW;
-        "pkg-1.2.16" = _bqxDs1Wi;
-        "default" = _bqxDs1Wi;
+        "pkg-1.2.16" = _Bj5ck8nf;
+        "default" = _Bj5ck8nf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "audio-engine-tweaks";

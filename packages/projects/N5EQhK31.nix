@@ -46,6 +46,16 @@ let
             "file" = "smartsearch-1.2.1-ornithe.jar";
             "hash" = "sha512-YBv1qwkPliQyk2Ee0iWLOXT3b7xdShZ83K0NYXvvjtxmka9z1qcQ3bxtmLYyMW1aYvGNcTP6UySUFNn1iZhIdw==";
         };
+        _93KATZ6d = {
+            "id" = "93KATZ6d";
+            "file" = "smartsearch-1.2.2-ornithe.jar";
+            "hash" = "sha512-8J2b7npwR86IsXAd6j1Whhte3sN/ys7pZAeNbtz8qR8QDAVQOi2GhOvM21bG3SGAHCqOwTfg2L2ZMq4G1P77kQ==";
+        };
+        _qbiIlKSt = {
+            "id" = "qbiIlKSt";
+            "file" = "smartsearch-1.2.2.jar";
+            "hash" = "sha512-66JdVpVBhIz2/SnZmQaDTWUWiBG/v15qNcypVbM2TtTlue1bVJ5bnY/9YtXH0ot9QRwGt304CbBwrlqdsp6PGg==";
+        };
     in {
         "XreUACfL" = _XreUACfL;
         "uyazbeMM" = _uyazbeMM;
@@ -56,18 +66,20 @@ let
         "SyGtD7F2" = _SyGtD7F2;
         "qN30fhQd" = _qN30fhQd;
         "RrrjV1dv" = _RrrjV1dv;
-        "fabric-1.21.1" = _qN30fhQd;
-        "fabric-1.21.4" = _qN30fhQd;
-        "fabric-1.21.5" = _qN30fhQd;
-        "fabric-1.21.8" = _qN30fhQd;
-        "fabric-1.21.10" = _qN30fhQd;
-        "fabric-1.21.11" = _qN30fhQd;
-        "fabric-26.1" = _qN30fhQd;
-        "fabric-26.1.1" = _qN30fhQd;
-        "fabric-26.1.2" = _qN30fhQd;
-        "fabric-26.2" = _qN30fhQd;
-        "fabric-26.3" = _qN30fhQd;
-        "ornithe-1.8.9" = _RrrjV1dv;
+        "93KATZ6d" = _93KATZ6d;
+        "qbiIlKSt" = _qbiIlKSt;
+        "fabric-1.21.1" = _qbiIlKSt;
+        "fabric-1.21.4" = _qbiIlKSt;
+        "fabric-1.21.5" = _qbiIlKSt;
+        "fabric-1.21.8" = _qbiIlKSt;
+        "fabric-1.21.10" = _qbiIlKSt;
+        "fabric-1.21.11" = _qbiIlKSt;
+        "fabric-26.1" = _qbiIlKSt;
+        "fabric-26.1.1" = _qbiIlKSt;
+        "fabric-26.1.2" = _qbiIlKSt;
+        "fabric-26.2" = _qbiIlKSt;
+        "fabric-26.3" = _qbiIlKSt;
+        "ornithe-1.8.9" = _93KATZ6d;
         "pkg-1.0.0+alpha3" = _XreUACfL;
         "pkg-v1.0.0" = _uyazbeMM;
         "pkg-v1.1.0" = _eznaEDv6;
@@ -75,7 +87,8 @@ let
         "pkg-1.2.0" = _xUnOUkeY;
         "pkg-v1.2.0" = _SyGtD7F2;
         "pkg-v1.2.1" = _RrrjV1dv;
-        "default" = _RrrjV1dv;
+        "pkg-v1.2.2" = _qbiIlKSt;
+        "default" = _qbiIlKSt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smartsearch";

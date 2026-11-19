@@ -21,17 +21,24 @@ let
             "file" = "CloudWorksAPI-1.1.0-1.21.1.jar";
             "hash" = "sha512-Zx4LlrqF7YgmfAWDEavs6luT2ATp07XW9IDH87CDa/foEimjhkq2UpFfYEfNu1xqJSqo0neDU/xeenzNuTRtyA==";
         };
+        _yxbzWnNK = {
+            "id" = "yxbzWnNK";
+            "file" = "CloudWorksAPI-1.0.5-1.21.1.jar";
+            "hash" = "sha512-ekqspCOhhNRu7RfjYI61gdgije38HQty1ixCaMvQQAoHIQPCMNeGaFY+UxA5VIvScGgtsF0CuIgtnde337auOg==";
+        };
     in {
         "ZXqarEe3" = _ZXqarEe3;
         "oPN7zWBk" = _oPN7zWBk;
         "oefy0gPm" = _oefy0gPm;
         "Yo3zjD7p" = _Yo3zjD7p;
-        "neoforge-1.21.1" = _Yo3zjD7p;
+        "yxbzWnNK" = _yxbzWnNK;
+        "neoforge-1.21.1" = _yxbzWnNK;
         "pkg-1.0.0" = _ZXqarEe3;
         "pkg-1.0.2" = _oPN7zWBk;
         "pkg-1.0.4" = _oefy0gPm;
         "pkg-1.1.0" = _Yo3zjD7p;
-        "default" = _Yo3zjD7p;
+        "pkg-1.0.5" = _yxbzWnNK;
+        "default" = _yxbzWnNK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cloudworks-api";

@@ -251,6 +251,16 @@ let
             "file" = "pineapple_delight-1.1.4-1.21.1-fabric.jar";
             "hash" = "sha512-eBO96V2cizxHm/hHMQ12Z5+wbF4ZnlryR3lIODKGzRJh2S9TUYpPrPq3O3b6EzqJEbK6jAnUHljFWGxKLLjD7g==";
         };
+        _jKh0r88f = {
+            "id" = "jKh0r88f";
+            "file" = "pineapple_delight-1.2.0-1.21.1-fabric-fix.jar";
+            "hash" = "sha512-YMhQ9YfDL8noJPxHnIZ3ofW430tSCDWBmD0niGrtl/mpuGbz/jY/gQcyKj+rJ6qkgR6eQWOY4Sivi8EDJYAdNA==";
+        };
+        _IGjNHwld = {
+            "id" = "IGjNHwld";
+            "file" = "pineapple_delight-1.2.0-1.21.1-neoforge-fix.jar";
+            "hash" = "sha512-HD/bQ1AdFrsr/iWDRHAT9NTCTSKMxdGy/5MVtg/lETZrXDPx5jufBXP2gBW99GMyVOCmqU7TGhaf9G2ltj72VA==";
+        };
     in {
         "7ChOQZxO" = _7ChOQZxO;
         "IckMjAth" = _IckMjAth;
@@ -302,6 +312,8 @@ let
         "VXkAwKLu" = _VXkAwKLu;
         "XW0ePPxE" = _XW0ePPxE;
         "vYdiceJB" = _vYdiceJB;
+        "jKh0r88f" = _jKh0r88f;
+        "IGjNHwld" = _IGjNHwld;
         "forge-1.18.2" = _jH7Nn8JD;
         "forge-1.19.2" = _IckMjAth;
         "forge-1.20.1" = _o2XAFxRK;
@@ -309,10 +321,10 @@ let
         "fabric-1.19.2" = _P7FBQVi6;
         "fabric-1.20.1" = _VXkAwKLu;
         "fabric-1.21" = _vYdiceJB;
-        "fabric-1.21.1" = _NjK1qf82;
+        "fabric-1.21.1" = _jKh0r88f;
         "fabric-1.21.2" = _Yd8MrHV7;
         "fabric-1.21.3" = _Yd8MrHV7;
-        "neoforge-1.21.1" = _XW0ePPxE;
+        "neoforge-1.21.1" = _IGjNHwld;
         "neoforge-1.21.2" = _XW0ePPxE;
         "neoforge-1.21.3" = _XW0ePPxE;
         "neoforge-1.21.4" = _XW0ePPxE;
@@ -362,7 +374,9 @@ let
         "pkg-1.1.4-1.20.1-fabric" = _VXkAwKLu;
         "pkg-1.1.4-1.21.1-neoforge" = _XW0ePPxE;
         "pkg-1.1.4-1.21.1-fabric" = _vYdiceJB;
-        "default" = _vYdiceJB;
+        "pkg-1.2.0-1.21.1-fabric-fix" = _jKh0r88f;
+        "pkg-1.2.0-1.21.1-neoforge-fix" = _IGjNHwld;
+        "default" = _IGjNHwld;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pineapple-delight";

@@ -391,6 +391,11 @@ let
             "file" = "modularui2-2.4.0-1.7.10.jar";
             "hash" = "sha512-cMjfRUGOPqcaIi6pQ0epKnQrtzKctHgfMU3oi4SE6GVYKp6Q4TLjwwZiWA2xvgFc6J6uuEKhb/6sXvYVGDnAFg==";
         };
+        _OVl46noS = {
+            "id" = "OVl46noS";
+            "file" = "modularui2-2.4.1-1.7.10.jar";
+            "hash" = "sha512-8dztQ/yR3BVhSaAH3JkuxMrOp7v/zHLKkN1dbMbMt/en6bDVy9LUIZuXMrfxezD8Y4FyKGUZKMtTLw8KH/twFg==";
+        };
     in {
         "JYuifPjH" = _JYuifPjH;
         "61bKBHwb" = _61bKBHwb;
@@ -470,9 +475,10 @@ let
         "SPlaNcJ1" = _SPlaNcJ1;
         "WWsvvdw9" = _WWsvvdw9;
         "cNHBEO2B" = _cNHBEO2B;
+        "OVl46noS" = _OVl46noS;
         "forge-1.12.2" = _1twp2z8Y;
         "forge-1.20.1" = _SLauVa1g;
-        "forge-1.7.10" = _cNHBEO2B;
+        "forge-1.7.10" = _OVl46noS;
         "pkg-2.0.0" = _JYuifPjH;
         "pkg-2.0.2" = _61bKBHwb;
         "pkg-2.0.3" = _yMVbznUL;
@@ -551,7 +557,8 @@ let
         "pkg-2.3.93-1.7.10" = _SPlaNcJ1;
         "pkg-2.3.94-1.7.10" = _WWsvvdw9;
         "pkg-2.4.0-1.7.10" = _cNHBEO2B;
-        "default" = _cNHBEO2B;
+        "pkg-2.4.1-1.7.10" = _OVl46noS;
+        "default" = _OVl46noS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modularui";

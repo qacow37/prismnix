@@ -831,6 +831,21 @@ let
             "file" = "woodenshears-fabric-1.21.11-3.7.1.1.jar";
             "hash" = "sha512-EpwBou5mykr5SSIOaFlaZYyKqOhTbWdqlTtkXoJsS270/9VoY+Qd9TWrS6eNeNDztrImAGSnel4gdjyH0Ue9cg==";
         };
+        _7nafWEKG = {
+            "id" = "7nafWEKG";
+            "file" = "woodenshears-forge-26.3-4.2.1.2.jar";
+            "hash" = "sha512-jjuhgMrd+W5eUujCmS0HX+jv9HFPIDuSYXfGDu47/dzDqphf8uzggqJfm3S8SkGDbnuCM3QakWiUDkWkeVDpQQ==";
+        };
+        _grXXtbEK = {
+            "id" = "grXXtbEK";
+            "file" = "woodenshears-fabric-26.3-4.2.1.2.jar";
+            "hash" = "sha512-gBh/pvyoThX1iy/9TuPYNh/jauA1EiJDNVDF0VtU9yV1aPJzOdKuDWeQSVoI0LPjaUX9l1yRHX6OEgydX7LukA==";
+        };
+        _aVySmuzy = {
+            "id" = "aVySmuzy";
+            "file" = "woodenshears-neoforge-26.3-4.2.1.2.jar";
+            "hash" = "sha512-nlvsnsgMn/KlXLgC0TXwJIOEhfnG/upfxeeNbX3HNQgDCrFK8RJWGd+tki+WCBxc7kGGYzf8EtHWLoZYfbLNOw==";
+        };
     in {
         "sk6hPwYx" = _sk6hPwYx;
         "I5Cv85FN" = _I5Cv85FN;
@@ -998,6 +1013,9 @@ let
         "amrrDNkZ" = _amrrDNkZ;
         "GtQDGXmf" = _GtQDGXmf;
         "rws5HE9G" = _rws5HE9G;
+        "7nafWEKG" = _7nafWEKG;
+        "grXXtbEK" = _grXXtbEK;
+        "aVySmuzy" = _aVySmuzy;
         "forge-1.16.5" = _sk6hPwYx;
         "forge-1.17.1" = _I5Cv85FN;
         "forge-1.18.2" = _hfBVp29P;
@@ -1026,7 +1044,7 @@ let
         "forge-26.1.1" = _oMJbln9H;
         "forge-26.1.2" = _oMJbln9H;
         "forge-26.2" = _AGSpKIMR;
-        "forge-26.3" = _eA5wI5mM;
+        "forge-26.3" = _7nafWEKG;
         "neoforge-1.20.2" = _ilugphHX;
         "neoforge-1.20.4" = _6CJjZ1xj;
         "neoforge-1.20.6" = _QX0xGx4N;
@@ -1046,7 +1064,7 @@ let
         "neoforge-26.1.1" = _bWEbwvau;
         "neoforge-26.1.2" = _bWEbwvau;
         "neoforge-26.2" = _g3kPr8Y4;
-        "neoforge-26.3" = _gNtUOic9;
+        "neoforge-26.3" = _aVySmuzy;
         "fabric-1.20.4" = _PnSrpWZo;
         "fabric-1.20.6" = _sg0ltmTG;
         "fabric-1.21" = _TSvx2moY;
@@ -1064,7 +1082,7 @@ let
         "fabric-26.1.1" = _o004kD9B;
         "fabric-26.1.2" = _o004kD9B;
         "fabric-26.2" = _TompwcS6;
-        "fabric-26.3" = _Txpox6Ds;
+        "fabric-26.3" = _grXXtbEK;
         "quilt-1.20.4" = _PnSrpWZo;
         "quilt-1.20.6" = _sg0ltmTG;
         "quilt-1.21" = _TSvx2moY;
@@ -1082,7 +1100,7 @@ let
         "quilt-26.1.1" = _o004kD9B;
         "quilt-26.1.2" = _o004kD9B;
         "quilt-26.2" = _TompwcS6;
-        "quilt-26.3" = _Txpox6Ds;
+        "quilt-26.3" = _grXXtbEK;
         "pkg-1.16.5-1.1.0.0" = _sk6hPwYx;
         "pkg-1.17.1-1.1.0.1" = _I5Cv85FN;
         "pkg-1.18.2-1.2.1.2" = _hfBVp29P;
@@ -1147,7 +1165,8 @@ let
         "pkg-26.2-4.1.0.1" = _TompwcS6;
         "pkg-26.1-4.0.1.2" = _oMJbln9H;
         "pkg-1.21.11-3.7.1.1" = _rws5HE9G;
-        "default" = _rws5HE9G;
+        "pkg-26.3-4.2.1.2" = _aVySmuzy;
+        "default" = _aVySmuzy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wooden-shears";

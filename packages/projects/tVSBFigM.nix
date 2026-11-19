@@ -66,6 +66,11 @@ let
             "file" = "saturation_regen-fabric-26.3-1.0.3.jar";
             "hash" = "sha512-8UJ9YJw54jWa/2UGEUwTkEj9uuTiRE8SnmA32xzLxKgCUwkLAX4JaG1p85jiTtQgvdMu0aJMUNwOFO0RVo03kA==";
         };
+        _WkHCbcP3 = {
+            "id" = "WkHCbcP3";
+            "file" = "saturation_regen-fabric-26.4-snapshot-10-1.0.4.jar";
+            "hash" = "sha512-dUJKJvYKAWMmb/um9URwYPjYOfFQH24z5m8oQlrEYBEY9yg/cCh2MJfDq4zIwp4ycI8MlP7DZDKvDXscRThr3w==";
+        };
     in {
         "H8IU0oXj" = _H8IU0oXj;
         "A26WERcp" = _A26WERcp;
@@ -80,6 +85,7 @@ let
         "mAIPKEgg" = _mAIPKEgg;
         "o5XRTNnl" = _o5XRTNnl;
         "nPI7UjhE" = _nPI7UjhE;
+        "WkHCbcP3" = _WkHCbcP3;
         "fabric-26.1" = _dQaWlSJN;
         "fabric-26.1.1" = _dQaWlSJN;
         "fabric-26.1.2" = _dQaWlSJN;
@@ -117,6 +123,7 @@ let
         "fabric-26.3-rc-2" = _mAIPKEgg;
         "fabric-26.3-rc-3" = _mAIPKEgg;
         "fabric-26.3" = _nPI7UjhE;
+        "fabric-26.4-snapshot-10" = _WkHCbcP3;
         "neoforge-26.1.2" = _ZvCdOYxP;
         "neoforge-26.1" = _ZvCdOYxP;
         "neoforge-26.1.1" = _ZvCdOYxP;
@@ -131,7 +138,8 @@ let
         "pkg-1.0.1" = _avSowiMf;
         "pkg-1.0.2" = _mAIPKEgg;
         "pkg-1.0.3" = _nPI7UjhE;
-        "default" = _nPI7UjhE;
+        "pkg-1.0.4" = _WkHCbcP3;
+        "default" = _WkHCbcP3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saturation-regen";
