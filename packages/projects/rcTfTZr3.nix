@@ -411,6 +411,11 @@ let
             "file" = "PresenceFootsteps-1.14.0+26.3.jar";
             "hash" = "sha512-cFJdoMYx9QYItn7N/mL9lBD97HvJVRCUZxamRlzBCf5rk758dQIsR6ADb5lU/1kSVno5PhNWp1lA6bHaVYBpiw==";
         };
+        _PV68dcBA = {
+            "id" = "PV68dcBA";
+            "file" = "PresenceFootsteps-1.14.1+26.3.jar";
+            "hash" = "sha512-3lIUg/NRBZ/9TsDU2IqR6KCp0/wfAkbuxzNSfU88c8eIFacMfmg8aLrTLuHnORGNUrLaZqJzOAX4Y8G9oazXDA==";
+        };
     in {
         "BEtLdX9C" = _BEtLdX9C;
         "wl2DCPmO" = _wl2DCPmO;
@@ -494,6 +499,7 @@ let
         "kEumLo5Q" = _kEumLo5Q;
         "xjmToylJ" = _xjmToylJ;
         "UUNiN7Tm" = _UUNiN7Tm;
+        "PV68dcBA" = _PV68dcBA;
         "fabric-1.16.1" = _BEtLdX9C;
         "fabric-1.16.2-pre1" = _BEtLdX9C;
         "fabric-1.16.2-pre2" = _BEtLdX9C;
@@ -567,8 +573,8 @@ let
         "fabric-26.2-snapshot-2" = _vHpNM3O1;
         "fabric-26.2-snapshot-3" = _vHpNM3O1;
         "fabric-26.2" = _8TkGmrgl;
-        "fabric-26.3-rc-3" = _UUNiN7Tm;
-        "fabric-26.3" = _UUNiN7Tm;
+        "fabric-26.3-rc-3" = _PV68dcBA;
+        "fabric-26.3" = _PV68dcBA;
         "quilt-1.20-pre6" = _FMF3yzCR;
         "quilt-1.20-pre7" = _FMF3yzCR;
         "quilt-1.20-rc1" = _FMF3yzCR;
@@ -614,8 +620,8 @@ let
         "quilt-26.2-snapshot-2" = _vHpNM3O1;
         "quilt-26.2-snapshot-3" = _vHpNM3O1;
         "quilt-26.2" = _8TkGmrgl;
-        "quilt-26.3-rc-3" = _UUNiN7Tm;
-        "quilt-26.3" = _UUNiN7Tm;
+        "quilt-26.3-rc-3" = _PV68dcBA;
+        "quilt-26.3" = _PV68dcBA;
         "liteloader-1.10" = _3JQQCViD;
         "liteloader-1.9.4" = _douonZQK;
         "liteloader-1.8.9" = _WswrXhsm;
@@ -702,7 +708,8 @@ let
         "pkg-1.11.2+1.21.5" = _kEumLo5Q;
         "pkg-1.12.4+1.21.11" = _xjmToylJ;
         "pkg-1.14.0+26.3" = _UUNiN7Tm;
-        "default" = _UUNiN7Tm;
+        "pkg-1.14.1+26.3" = _PV68dcBA;
+        "default" = _PV68dcBA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "presence-footsteps";

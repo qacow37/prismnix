@@ -36,6 +36,16 @@ let
             "file" = "crd_converters-neoforge-1.2.0+1.21.1.jar";
             "hash" = "sha512-T0x6AG3mer/AaV8gR0Sw+BOnz95MFRNWJSaOxgy6YJdySpbQj4lMxVitx5WN2c5YM9/c/j8GQ3PNZ+a6kfXe6Q==";
         };
+        _CvvAFjiH = {
+            "id" = "CvvAFjiH";
+            "file" = "crd_converters-fabric-1.3.0+1.21.1.jar";
+            "hash" = "sha512-8N9g+dGg3h+VUgH6pBhAiQMV876dK4JAppNcCvM3UoYdOkw+e4BZxSpjlTyI/A0ZAIVrrE0ZKBH5AczgIm1xTw==";
+        };
+        _RW9erOzM = {
+            "id" = "RW9erOzM";
+            "file" = "crd_converters-neoforge-1.3.0+1.21.1.jar";
+            "hash" = "sha512-y0w27n9Al7d+7p+x5wBkIwd6F7phGulEB5L4XWNVf8uVPLKQKEbiPLpOOahZS/7TnNlNLuUBokPXbcSfOXPAyA==";
+        };
     in {
         "x5czmdJH" = _x5czmdJH;
         "G65B9Ed4" = _G65B9Ed4;
@@ -44,13 +54,16 @@ let
         "7xXt02yH" = _7xXt02yH;
         "mttc6UJg" = _mttc6UJg;
         "keyb9CkE" = _keyb9CkE;
-        "fabric-1.21.1" = _mttc6UJg;
-        "neoforge-1.21.1" = _keyb9CkE;
+        "CvvAFjiH" = _CvvAFjiH;
+        "RW9erOzM" = _RW9erOzM;
+        "fabric-1.21.1" = _CvvAFjiH;
+        "neoforge-1.21.1" = _RW9erOzM;
         "pkg-1.0.0+1.21.1" = _G65B9Ed4;
         "pkg-1.0.0b+1.21.1" = _54aGBPMh;
         "pkg-1.1.0+1.21.1" = _7xXt02yH;
         "pkg-1.2.0+1.21.1" = _keyb9CkE;
-        "default" = _keyb9CkE;
+        "pkg-1.3.0+1.21.1" = _RW9erOzM;
+        "default" = _RW9erOzM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crd-converters";

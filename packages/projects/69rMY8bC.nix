@@ -3251,6 +3251,31 @@ let
             "file" = "tofucraft-26.3-28.3.0.0.jar";
             "hash" = "sha512-1MXKMA5+mOWZh6DwXBVfaB584Hms1kEoXrZ+7dhWuY2xPGkMMBx7SPtSxg6NBS1kdAtRFnB8LWRImRGlKzevrQ==";
         };
+        _azwXQu21 = {
+            "id" = "azwXQu21";
+            "file" = "tofucraft-26.3-28.3.1.0.jar";
+            "hash" = "sha512-OqO9/6TV4kD4UFxF8P+PCVgw/thnun6t+5HpQf0qroBAcnQXxJ6+xDuse21M38pdXmibL/d1T5imgKXFxyd17A==";
+        };
+        _ENsTpZcw = {
+            "id" = "ENsTpZcw";
+            "file" = "tofucraft-26.3-28.3.2.0.jar";
+            "hash" = "sha512-twYF8kLIyWFGfJMVlxB0jAx0/sVnnmYA4wQETVSQJA4nSmqYD4imCgyy6QPUrhAx/mRRVLokPk2fNjouXUBpIw==";
+        };
+        _B1zNkiPb = {
+            "id" = "B1zNkiPb";
+            "file" = "tofucraft-26.1.2-26.12.0.0.jar";
+            "hash" = "sha512-WNCl1Ak4MTuU65QOxGHYPDssb2FOKZhXXZWNJeSwtPuKPVKf2CcwWRjLSCuO1RgP2P2Tl089J9ViWEKqRiNwrA==";
+        };
+        _sReZv1ki = {
+            "id" = "sReZv1ki";
+            "file" = "tofucraft-26.1.2-26.12.0.1.jar";
+            "hash" = "sha512-d7L3aiUDS2Ii3udRFdg3ILJ5PBpoL996nFOGMluZLGJahgPYKERs3DjAxp/hTo1oTyGq72FpjlVzHGFjG1jajw==";
+        };
+        _TvepBD1W = {
+            "id" = "TvepBD1W";
+            "file" = "tofucraft-26.3-28.4.0.0.jar";
+            "hash" = "sha512-ht6F1gmazU0iFmNGnDhfy0MuTKI6HNDjLuIRG8johrchOHvXwPgE0Kw719oLqB/3VgrVgdURHzXvPpvDWIa3HA==";
+        };
     in {
         "OF6fzUdX" = _OF6fzUdX;
         "7txqHZCY" = _7txqHZCY;
@@ -3902,6 +3927,11 @@ let
         "provw3bO" = _provw3bO;
         "7DAWxSSJ" = _7DAWxSSJ;
         "GNmxJnjr" = _GNmxJnjr;
+        "azwXQu21" = _azwXQu21;
+        "ENsTpZcw" = _ENsTpZcw;
+        "B1zNkiPb" = _B1zNkiPb;
+        "sReZv1ki" = _sReZv1ki;
+        "TvepBD1W" = _TvepBD1W;
         "forge-1.19.2" = _eUK2pr22;
         "forge-1.19.3" = _8IRIXH49;
         "forge-1.18.2" = _FgGfLtTy;
@@ -3934,9 +3964,9 @@ let
         "neoforge-26.1-snapshot-7" = _yzcMVyCb;
         "neoforge-26.1" = _IN4yNoCH;
         "neoforge-26.1.1" = _fcCw7QtT;
-        "neoforge-26.1.2" = _7DAWxSSJ;
+        "neoforge-26.1.2" = _sReZv1ki;
         "neoforge-26.2" = _WwusEhqD;
-        "neoforge-26.3" = _GNmxJnjr;
+        "neoforge-26.3" = _TvepBD1W;
         "pkg-2.7.4.2" = _OF6fzUdX;
         "pkg-2.7.4.3" = _7txqHZCY;
         "pkg-2.7.5.0" = _JLOy0FLR;
@@ -4582,7 +4612,12 @@ let
         "pkg-26.3-28.2.3.0" = _provw3bO;
         "pkg-26.1.2-26.11.8.0" = _7DAWxSSJ;
         "pkg-26.3-28.3.0.0" = _GNmxJnjr;
-        "default" = _GNmxJnjr;
+        "pkg-26.3-28.3.1.0" = _azwXQu21;
+        "pkg-26.3-28.3.2.0" = _ENsTpZcw;
+        "pkg-26.1.2-26.12.0.0" = _B1zNkiPb;
+        "pkg-26.1.2-26.12.0.1" = _sReZv1ki;
+        "pkg-26.3-28.4.0.0" = _TvepBD1W;
+        "default" = _TvepBD1W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tofucraftreload";

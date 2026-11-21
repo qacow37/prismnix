@@ -376,6 +376,16 @@ let
             "file" = "irons_spellbooks-1.21.1-3.16.3.jar";
             "hash" = "sha512-/XgvmMbFmxk8SDLzN3UpHSp+Y54eI91HUQv7SU2Z0YK+wSU1Zrk5T5bHM6DQEIvjS9cpYUuC3CnlXglv3rlvWw==";
         };
+        _cBUZsds9 = {
+            "id" = "cBUZsds9";
+            "file" = "irons_spellbooks-1.20.1-3.16.4.jar";
+            "hash" = "sha512-w3Ch1fY6TRsPxhAqywG95a8FEsw6qO9QHwLBSzjrwm6xKGDcEQe1MSiSC5mRn/3XhQ+v+uLks68+FrJDsWk4+Q==";
+        };
+        _Gzh2DpBL = {
+            "id" = "Gzh2DpBL";
+            "file" = "irons_spellbooks-1.21.1-3.16.4.jar";
+            "hash" = "sha512-BTCZV+o/7jXDN7ABuKbZ1Fei0pnxw2qzdt4Y+uEKjXrmFoiwp0bd3hVme6tTJieZnnyK4UDyPpr3IcSg5kLZVw==";
+        };
     in {
         "AnHXUuLL" = _AnHXUuLL;
         "kKaesIoI" = _kKaesIoI;
@@ -452,13 +462,15 @@ let
         "RtvqnbKi" = _RtvqnbKi;
         "hZaEegS9" = _hZaEegS9;
         "slKLosTb" = _slKLosTb;
+        "cBUZsds9" = _cBUZsds9;
+        "Gzh2DpBL" = _Gzh2DpBL;
         "forge-1.19.2" = _vStuMBk4;
         "forge-1.18.2" = _EhvXZOsI;
-        "forge-1.20.1" = _hZaEegS9;
+        "forge-1.20.1" = _cBUZsds9;
         "neoforge-1.20.1" = _5N3s3wn6;
         "neoforge-1.19.2" = _NrxK8xqM;
         "neoforge-1.21" = _lWV4r0pV;
-        "neoforge-1.21.1" = _slKLosTb;
+        "neoforge-1.21.1" = _Gzh2DpBL;
         "pkg-1.1.3" = _AnHXUuLL;
         "pkg-1.19.2-1.1.4" = _kKaesIoI;
         "pkg-1.18.2-1.1.4" = _4exdsSoN;
@@ -534,7 +546,9 @@ let
         "pkg-1.21.1-3.16.2" = _RtvqnbKi;
         "pkg-1.20.1-3.16.3" = _hZaEegS9;
         "pkg-1.21.1-3.16.3" = _slKLosTb;
-        "default" = _slKLosTb;
+        "pkg-1.20.1-3.16.4" = _cBUZsds9;
+        "pkg-1.21.1-3.16.4" = _Gzh2DpBL;
+        "default" = _Gzh2DpBL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "irons-spells-n-spellbooks";

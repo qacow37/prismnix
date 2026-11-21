@@ -121,6 +121,11 @@ let
             "file" = "zine-1.14.0.jar";
             "hash" = "sha512-DtX1HbpzB4ikrxAOwcjC9IhyFrysLkzTX54Jg4JNY7jKs8DwUOQ2Q8kGLWt41NCws1CYmRi4CCyURAFQyXXE+Q==";
         };
+        _TUjciE8l = {
+            "id" = "TUjciE8l";
+            "file" = "zine-1.15.0.jar";
+            "hash" = "sha512-T2kiDqurs2wcX6z91TpVw1tTKcTwWW+uhvet70GBuFzT6UdSfrS9SzkB22rDVNu54k+mQINgODVqwlTzN34SFA==";
+        };
     in {
         "x5MZ80MB" = _x5MZ80MB;
         "RBkUL766" = _RBkUL766;
@@ -146,6 +151,7 @@ let
         "GnYyofOv" = _GnYyofOv;
         "PJqzPFT2" = _PJqzPFT2;
         "nfBFXDi7" = _nfBFXDi7;
+        "TUjciE8l" = _TUjciE8l;
         "fabric-1.21.5" = _x5MZ80MB;
         "fabric-1.21.6" = _LgSpsKGD;
         "fabric-1.21.7" = _ozIeAVqy;
@@ -157,7 +163,7 @@ let
         "fabric-26.1.1" = _f9gBs4rN;
         "fabric-26.1.2" = _f9gBs4rN;
         "fabric-26.2" = _5i8OH3kg;
-        "fabric-26.3" = _nfBFXDi7;
+        "fabric-26.3" = _TUjciE8l;
         "pkg-1.0.0" = _x5MZ80MB;
         "pkg-1.1.0" = _RBkUL766;
         "pkg-1.1.1" = _LgSpsKGD;
@@ -182,7 +188,8 @@ let
         "pkg-1.12.0" = _GnYyofOv;
         "pkg-1.13.0" = _PJqzPFT2;
         "pkg-1.14.0" = _nfBFXDi7;
-        "default" = _nfBFXDi7;
+        "pkg-1.15.0" = _TUjciE8l;
+        "default" = _TUjciE8l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zine";

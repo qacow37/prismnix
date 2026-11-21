@@ -36,6 +36,11 @@ let
             "file" = "HostileNeuralNetworks-26.1.2-7.0.0.jar";
             "hash" = "sha512-BejphAQjBqC85azmYs9UjrO8AdvTeiTwLf2tEBDToWQcKc3Z2LLrYpoNeK91avXse/Tsj38fvPFnTtWhVWvSHQ==";
         };
+        _F14X6OWs = {
+            "id" = "F14X6OWs";
+            "file" = "HostileNeuralNetworks-1.21.1-6.6.0.jar";
+            "hash" = "sha512-oL+fifxc6U6ln1vIALXN0btSJks2w0GlUa1KEXUrS0yYvYVFfDtHRYsmmSV7Epq2bDeswi32R4a2VXzi1WfeZA==";
+        };
     in {
         "UTI2Al4F" = _UTI2Al4F;
         "6ByGTKSc" = _6ByGTKSc;
@@ -44,7 +49,8 @@ let
         "ZbsbtrNE" = _ZbsbtrNE;
         "ikdLP02G" = _ikdLP02G;
         "KaeR2HQK" = _KaeR2HQK;
-        "neoforge-1.21.1" = _ikdLP02G;
+        "F14X6OWs" = _F14X6OWs;
+        "neoforge-1.21.1" = _F14X6OWs;
         "neoforge-26.1.2" = _KaeR2HQK;
         "forge-1.20.1" = _6ByGTKSc;
         "pkg-1.21.1-6.4.0" = _UTI2Al4F;
@@ -54,7 +60,8 @@ let
         "pkg-1.21.1-6.5.0" = _ZbsbtrNE;
         "pkg-1.21.1-6.5.1" = _ikdLP02G;
         "pkg-26.1.2-7.0.0" = _KaeR2HQK;
-        "default" = _KaeR2HQK;
+        "pkg-1.21.1-6.6.0" = _F14X6OWs;
+        "default" = _F14X6OWs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hostile-neural-networks";

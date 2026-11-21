@@ -111,6 +111,11 @@ let
             "file" = "campfire_creations-1.0.1-for-forge-1.15.2.jar";
             "hash" = "sha512-iPAuaMluQz4+mWCkPb9V1rVR0ZFwdqsSzuS+r1DWQrjp3HwG/4YL5GuwHhRHVsghx0owcSDexJMP064qaMZPDg==";
         };
+        _nYFfr9ru = {
+            "id" = "nYFfr9ru";
+            "file" = "campfire_creations-1.0.1-for-forge-1.17.1.jar";
+            "hash" = "sha512-nyVT0N7g6vcDX9ArS6+8akVc0V5n9JHOSxEOaO3RGyrfsOsC1jJw5uvABJCYqUrccYsPOxGwdwRpY2mSzycxig==";
+        };
     in {
         "xxSGu2Ki" = _xxSGu2Ki;
         "5eI9YFfj" = _5eI9YFfj;
@@ -134,11 +139,13 @@ let
         "FRmISCwU" = _FRmISCwU;
         "ncA5HjUj" = _ncA5HjUj;
         "Ti6aHmNw" = _Ti6aHmNw;
+        "nYFfr9ru" = _nYFfr9ru;
         "forge-1.20.1" = _xxSGu2Ki;
         "forge-1.18.2" = _64RcCbXC;
         "forge-1.16.5" = _FRmISCwU;
         "forge-1.14.4" = _ncA5HjUj;
         "forge-1.15.2" = _Ti6aHmNw;
+        "forge-1.17.1" = _nYFfr9ru;
         "neoforge-1.21.1" = _5eI9YFfj;
         "neoforge-1.21.4" = _mRtHfdhV;
         "neoforge-1.21.8" = _wXXUUAHh;
@@ -156,9 +163,9 @@ let
         "fabric-26.1.2" = _Bi1QUURq;
         "fabric-26.2" = _83IVN7O4;
         "fabric-26.3" = _lee7IoPv;
-        "pkg-1.0.1" = _Ti6aHmNw;
+        "pkg-1.0.1" = _nYFfr9ru;
         "pkg-1.0.2" = _QT1VHOPE;
-        "default" = _Ti6aHmNw;
+        "default" = _nYFfr9ru;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "campfire-creations";

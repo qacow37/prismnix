@@ -1746,6 +1746,56 @@ let
             "file" = "vanilla-outsider-better-dogs-5.0.61+26.3.jar";
             "hash" = "sha512-UC5hTal9PDcaVvhMhADH3fN1BvbqHfucsxcRE08eEElbVnnqOvcyfQNUqfddo3Y1F0Y4gA/ZqZr/E+wzOJvcfg==";
         };
+        _K6SutRFM = {
+            "id" = "K6SutRFM";
+            "file" = "better-dogs-1.0.57+1.20.1-fabric.jar";
+            "hash" = "sha512-vijkwX/1vxywut7ge0UFt4KlBc8ORt7x7DQnr/+f5FhvOOXdk9uyzcaEOIpNyOmREbZPiphBVLTq8G7i5gmzsA==";
+        };
+        _cxJ9FsMS = {
+            "id" = "cxJ9FsMS";
+            "file" = "better-dogs-1.0.57+1.20.1-neoforge.jar";
+            "hash" = "sha512-uM1r7HvNdIul5ITPr58N4rI4Gk97Y39CpSe7IaeaZPMVoErcH2jFnXi/Qe/onjIW4G86k6+cViqaYV0O3UKdcg==";
+        };
+        _XyAbXxEB = {
+            "id" = "XyAbXxEB";
+            "file" = "better-dogs-1.0.55+1.21.1-fabric.jar";
+            "hash" = "sha512-NTEuJJidRQAZey14x6ixwoxp/aR/3QuJixGnv3X5PjTjcMEca0zgsF8PXwQX+FnscVs1TWWuHqKfeRdXcaXFhg==";
+        };
+        _LUjRrlhY = {
+            "id" = "LUjRrlhY";
+            "file" = "better-dogs-1.0.55+1.21.1-neoforge.jar";
+            "hash" = "sha512-2ZIsFreB6cNNN8Jw2pKBcXDKENdUyhUxLd20znX4QjoFpToS9CYIpIvFGyaEQW6xB55Ft20ksQuZGw7sEwnkzg==";
+        };
+        _4sZTpMZT = {
+            "id" = "4sZTpMZT";
+            "file" = "better-dogs-1.0.58+1.21.11-fabric.jar";
+            "hash" = "sha512-SajT/xFeZBTex2/PBEm0gHDsBTXA17jPQ6WMZdJdahLIXY/avtd7tulQiMA1j+/sdLIs5ugIw7gYq2r+0e1DOA==";
+        };
+        _6mo0A5HS = {
+            "id" = "6mo0A5HS";
+            "file" = "better-dogs-1.0.58+1.21.11-neoforge.jar";
+            "hash" = "sha512-UdpiITeRV1VGfzvO7KzTY3EgxQ2THaGGoJuDi9ZQVFSCeta5JAPbM2dQqgc4oXKXdUnAn4z2GrrcmEj+0o/yhg==";
+        };
+        _3hs4qt5j = {
+            "id" = "3hs4qt5j";
+            "file" = "vanilla-outsider-better-dogs-5.6.0+26.1.2-fabric.jar";
+            "hash" = "sha512-59J+Oi3LWYQHD4GDVh/8i+4F+yS4jYD0QDlGkBBDg+TogHTspG02TRiTmM8NV44tz1j8iIGqtjyEmjQRdplDyw==";
+        };
+        _NfnDdPp2 = {
+            "id" = "NfnDdPp2";
+            "file" = "vanilla-outsider-better-dogs-5.6.0+26.1.2-neoforge.jar";
+            "hash" = "sha512-/nLu2pdg0MWpjol3p26FMvva2H2oGm4Ibho/s9dL2NaPjdqc8LrF+LsdIwhW1zcKnrZcE/vwQo2rrng7jvD6yw==";
+        };
+        _Lb0gfAJz = {
+            "id" = "Lb0gfAJz";
+            "file" = "vanilla-outsider-better-dogs-4.24.61+26.2.jar";
+            "hash" = "sha512-+azP3sCondGmSGw/TVipwXlo6dCniO4728b3gqGBbBhRZ/INzZrNuDrjSBEUTQzxU2q0BxuX2/7AP3HsidDFhA==";
+        };
+        _i7xQlhKR = {
+            "id" = "i7xQlhKR";
+            "file" = "vanilla-outsider-better-dogs-5.0.62+26.3.jar";
+            "hash" = "sha512-3Q5pSo/QIf17y8JEfuHJGuNSzOGnqFfKUJcpruLq2QTpKJlWyfTBj7iEoExzIjodYusreG7nVScD/2ib0wZzkg==";
+        };
     in {
         "XhmOq1aJ" = _XhmOq1aJ;
         "bImKrldf" = _bImKrldf;
@@ -2096,6 +2146,16 @@ let
         "wRcQyx1E" = _wRcQyx1E;
         "LnptTiZC" = _LnptTiZC;
         "ez8q2Vcj" = _ez8q2Vcj;
+        "K6SutRFM" = _K6SutRFM;
+        "cxJ9FsMS" = _cxJ9FsMS;
+        "XyAbXxEB" = _XyAbXxEB;
+        "LUjRrlhY" = _LUjRrlhY;
+        "4sZTpMZT" = _4sZTpMZT;
+        "6mo0A5HS" = _6mo0A5HS;
+        "3hs4qt5j" = _3hs4qt5j;
+        "NfnDdPp2" = _NfnDdPp2;
+        "Lb0gfAJz" = _Lb0gfAJz;
+        "i7xQlhKR" = _i7xQlhKR;
         "fabric-26.1-snapshot-1" = _3EHRPCH5;
         "fabric-26.1-snapshot-2" = _3EHRPCH5;
         "fabric-26.1-snapshot-3" = _3EHRPCH5;
@@ -2115,13 +2175,13 @@ let
         "fabric-26.1-rc-3" = _3EHRPCH5;
         "fabric-26.1" = _h8vbMLF4;
         "fabric-26.1.1" = _jHDEVqKv;
-        "fabric-26.1.2" = _NGk6Sima;
+        "fabric-26.1.2" = _3hs4qt5j;
         "fabric-26.2-rc-2" = _9KXhZ5Ne;
-        "fabric-26.2" = _LnptTiZC;
-        "fabric-1.20.1" = _WVHT2Kal;
-        "fabric-1.21.1" = _iCMJ45XM;
+        "fabric-26.2" = _Lb0gfAJz;
+        "fabric-1.20.1" = _K6SutRFM;
+        "fabric-1.21.1" = _XyAbXxEB;
         "fabric-1.21" = _N2dDuFW4;
-        "fabric-1.21.11" = _q5ple868;
+        "fabric-1.21.11" = _4sZTpMZT;
         "fabric-26.3-snapshot-1" = _P62SGoWM;
         "fabric-26.3-snapshot-2" = _P62SGoWM;
         "fabric-26.3-snapshot-3" = _P62SGoWM;
@@ -2134,12 +2194,12 @@ let
         "fabric-26.3-snapshot-10" = _P62SGoWM;
         "fabric-26.3-pre-1" = _P62SGoWM;
         "fabric-26.3-pre-2" = _P62SGoWM;
-        "fabric-26.3" = _ez8q2Vcj;
-        "forge-1.20.1" = _wxBsE3gI;
-        "neoforge-1.20.1" = _wxBsE3gI;
-        "neoforge-1.21.1" = _5JVcV76T;
-        "neoforge-1.21.11" = _sB9xqItf;
-        "neoforge-26.1.2" = _wRcQyx1E;
+        "fabric-26.3" = _i7xQlhKR;
+        "forge-1.20.1" = _cxJ9FsMS;
+        "neoforge-1.20.1" = _cxJ9FsMS;
+        "neoforge-1.21.1" = _LUjRrlhY;
+        "neoforge-1.21.11" = _6mo0A5HS;
+        "neoforge-26.1.2" = _NfnDdPp2;
         "pkg-1.7.6-26.1" = _XhmOq1aJ;
         "pkg-1.8.7-26.1" = _bImKrldf;
         "pkg-3.1.4" = _2Ru85Nzk;
@@ -2468,7 +2528,13 @@ let
         "pkg-5.5.0+26.1.2" = _wRcQyx1E;
         "pkg-4.24.60+26.2" = _LnptTiZC;
         "pkg-5.0.61+26.3" = _ez8q2Vcj;
-        "default" = _ez8q2Vcj;
+        "pkg-1.0.57+1.20.1" = _cxJ9FsMS;
+        "pkg-1.0.55+1.21.1" = _LUjRrlhY;
+        "pkg-1.0.58+1.21.11" = _6mo0A5HS;
+        "pkg-5.6.0+26.1.2" = _NfnDdPp2;
+        "pkg-4.24.61+26.2" = _Lb0gfAJz;
+        "pkg-5.0.62+26.3" = _i7xQlhKR;
+        "default" = _i7xQlhKR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-outsider-better-dogs";

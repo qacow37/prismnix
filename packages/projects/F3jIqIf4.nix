@@ -181,6 +181,11 @@ let
             "file" = "eymistakens-hud-1.2.5.jar";
             "hash" = "sha512-VASsE4GwdG7CqPmYQYqMx4eGxLzQvtOskGzH70qzsTdtC1cG4zlqwU3rh0E1FGkU8f900pgbqp2/ZRXf3+kPfg==";
         };
+        _WbbLhtkz = {
+            "id" = "WbbLhtkz";
+            "file" = "eymistakens-hud-1.2.5-1.jar";
+            "hash" = "sha512-B2sldT7XQQDcMfINtOIbTD4fn9RCE85Mf5bUGzApoaRC0PJXhtLgKY6uXfyZe375zB861xkOA+TZGzRXHVj0PA==";
+        };
     in {
         "ysbpVtzy" = _ysbpVtzy;
         "C657F5KV" = _C657F5KV;
@@ -218,6 +223,7 @@ let
         "B0yndJWi" = _B0yndJWi;
         "IeNsMVvo" = _IeNsMVvo;
         "kkqxGUA5" = _kkqxGUA5;
+        "WbbLhtkz" = _WbbLhtkz;
         "fabric-1.21.6" = _N04H9Bst;
         "fabric-1.21.7" = _N04H9Bst;
         "fabric-1.21.8" = _N04H9Bst;
@@ -229,7 +235,7 @@ let
         "fabric-26.1.1" = _m8MdrC7x;
         "fabric-26.1.2" = _m8MdrC7x;
         "fabric-26.2" = _m8MdrC7x;
-        "fabric-26.3" = _kkqxGUA5;
+        "fabric-26.3" = _WbbLhtkz;
         "pkg-1.0.0" = _ysbpVtzy;
         "pkg-1.0.1" = _C657F5KV;
         "pkg-1.0.2" = _iuIwpC9q;
@@ -265,7 +271,8 @@ let
         "pkg-1.2.3" = _B0yndJWi;
         "pkg-1.2.4" = _IeNsMVvo;
         "pkg-1.2.5" = _kkqxGUA5;
-        "default" = _kkqxGUA5;
+        "pkg-1.2.5-1" = _WbbLhtkz;
+        "default" = _WbbLhtkz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eymistakenshud";

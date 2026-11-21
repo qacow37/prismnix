@@ -126,6 +126,11 @@ let
             "file" = "guardvillagers-1.2.5+1.21.1.jar";
             "hash" = "sha512-KALRyZ1a3F7TxGLZN+S4PtWHVhO+pc10TZ9fYOw0gXOyStyzFAvC2T4giR53hAuEsd3hHBeG0UnEXSOYNLE8ug==";
         };
+        _SdyJqA5e = {
+            "id" = "SdyJqA5e";
+            "file" = "guardvillagers-1.2.6+1.21.1.jar";
+            "hash" = "sha512-cg9Y0kkrW/AzGAfuOQt+U/uJmy1bAkbBWGnDHB+YJxiqLZdQkQR+nqL6CKMgXf28Tg+iBL6AiZ+5rMmWxUDztA==";
+        };
     in {
         "l3AMsZP6" = _l3AMsZP6;
         "VDpeUNZi" = _VDpeUNZi;
@@ -152,7 +157,8 @@ let
         "yX96RveW" = _yX96RveW;
         "c88GDkPj" = _c88GDkPj;
         "Ezs94ojE" = _Ezs94ojE;
-        "fabric-1.21.1" = _Ezs94ojE;
+        "SdyJqA5e" = _SdyJqA5e;
+        "fabric-1.21.1" = _SdyJqA5e;
         "fabric-1.21" = _9ZxBQQEu;
         "pkg-1.0.0+1.21.1" = _l3AMsZP6;
         "pkg-1.0.1+1.21.1" = _VDpeUNZi;
@@ -179,7 +185,8 @@ let
         "pkg-1.2.2+1.21.1" = _yX96RveW;
         "pkg-1.2.4+1.21.1" = _c88GDkPj;
         "pkg-1.2.5+1.21.1" = _Ezs94ojE;
-        "default" = _Ezs94ojE;
+        "pkg-1.2.6+1.21.1" = _SdyJqA5e;
+        "default" = _SdyJqA5e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kevs-guardvillagers-fork";

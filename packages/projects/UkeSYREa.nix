@@ -21,11 +21,17 @@ let
             "file" = "Drift_Boats1.3.zip";
             "hash" = "sha512-GM7iREISAyJresdOk4dOlmDFb2d11NFvo2MHmuLLjBXiP8FMNbwxTdoabZho6UuaQ0gXQ7KGq0AiEdzuL9lL9g==";
         };
+        _qvV5fEy8 = {
+            "id" = "qvV5fEy8";
+            "file" = "Drift_Boats1.4.zip";
+            "hash" = "sha512-gH/j/czs4hQ3Vbx4U7EzdwfVhcKfpw0h17m11/Ty0LZReWoc7FSdfgYsZ2iR9PMQwgZWUqYsxwCstGrguCud3Q==";
+        };
     in {
         "hZopHJir" = _hZopHJir;
         "8NhmkwpH" = _8NhmkwpH;
         "X6dQ7a1x" = _X6dQ7a1x;
         "drHx5JNf" = _drHx5JNf;
+        "qvV5fEy8" = _qvV5fEy8;
         "minecraft-1.15" = _X6dQ7a1x;
         "minecraft-1.15.1" = _X6dQ7a1x;
         "minecraft-1.15.2" = _X6dQ7a1x;
@@ -67,11 +73,13 @@ let
         "minecraft-26.1" = _drHx5JNf;
         "minecraft-26.1.1" = _drHx5JNf;
         "minecraft-26.1.2" = _drHx5JNf;
+        "minecraft-26.3" = _qvV5fEy8;
         "pkg-1.0" = _hZopHJir;
         "pkg-1.1" = _8NhmkwpH;
         "pkg-1.2" = _X6dQ7a1x;
         "pkg-1.3" = _drHx5JNf;
-        "default" = _drHx5JNf;
+        "pkg-1.4" = _qvV5fEy8;
+        "default" = _qvV5fEy8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "drift-boats";

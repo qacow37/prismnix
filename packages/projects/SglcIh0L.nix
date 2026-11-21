@@ -56,6 +56,11 @@ let
             "file" = "experiencelib-26.1.2-2.1.0-build-10.jar";
             "hash" = "sha512-Rr91t5fRljijomImbjGev0PqjpZTFXYCGXx7f1u5iqIqVQtCrJpvYpbGNaPsqHBpnjAA5EW/IYkeYvml5n/jcg==";
         };
+        _JxAECP2e = {
+            "id" = "JxAECP2e";
+            "file" = "experiencelib-26.1.2-2.1.1-build-29.jar";
+            "hash" = "sha512-JLldc+NPb8VM1P7okNUdByza5y52BzgmwzQi3vmhrQSmfYJwzCBCAzHf/L2l9PuKOO0qDIaouSD69dvTyQpWjQ==";
+        };
     in {
         "IEv9xZdm" = _IEv9xZdm;
         "gDMHmqkC" = _gDMHmqkC;
@@ -68,9 +73,10 @@ let
         "xrg5MjEA" = _xrg5MjEA;
         "NPSd88L1" = _NPSd88L1;
         "RpFb7opK" = _RpFb7opK;
+        "JxAECP2e" = _JxAECP2e;
         "neoforge-1.21" = _xrg5MjEA;
         "neoforge-1.21.1" = _xrg5MjEA;
-        "neoforge-26.1.2" = _RpFb7opK;
+        "neoforge-26.1.2" = _JxAECP2e;
         "pkg-1.21.1-1.0.0" = _gDMHmqkC;
         "pkg-1.21.1-1.0.1" = _RNeQLPKb;
         "pkg-1.21.1-1.0.2" = _O9XRDWEA;
@@ -81,7 +87,8 @@ let
         "pkg-1.21.1-1.2.1" = _xrg5MjEA;
         "pkg-26.1.2-2.0.0" = _NPSd88L1;
         "pkg-26.1.2-2.1.0-build-10" = _RpFb7opK;
-        "default" = _RpFb7opK;
+        "pkg-26.1.2-2.1.1-build-29" = _JxAECP2e;
+        "default" = _JxAECP2e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "experiencelib";

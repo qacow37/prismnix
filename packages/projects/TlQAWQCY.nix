@@ -1521,6 +1521,16 @@ let
             "file" = "create_cyber_goggles-1.21.1-8.8.2-neoforge.jar";
             "hash" = "sha512-7r/D/8IV9kifMEXhdSTZXseiMlmP5OozksN3F3aSNxx9kB7F8JAN2KGoLW92FYYlAeTC/86gLkGOCaOUT7bwdw==";
         };
+        _pbHCUgry = {
+            "id" = "pbHCUgry";
+            "file" = "create_cyber_goggles-1.21.1-8.8.3-neoforge.jar";
+            "hash" = "sha512-LuU3c5H8zER6YCtV0E8XVjaSnOs7SxdB2LEc+blHMushgMb7aL0C5k8COpafwj7uIJPpGlBjcX3H67vyjRDr0Q==";
+        };
+        _GE056rqs = {
+            "id" = "GE056rqs";
+            "file" = "create_cyber_goggles-1.20.1-7.2.4-forge.jar";
+            "hash" = "sha512-60R4Hku/n721q47CTyMAj+wzXsU85lNO3MLfopFhl4RKqDf4s2GdHKWystFAkIx/74VZygCTAQQvrlpVqe+EUg==";
+        };
     in {
         "sIWGkioR" = _sIWGkioR;
         "bHhd2rb6" = _bHhd2rb6;
@@ -1826,6 +1836,8 @@ let
         "TSuYI4my" = _TSuYI4my;
         "ESGzkVjz" = _ESGzkVjz;
         "YJuqUfUJ" = _YJuqUfUJ;
+        "pbHCUgry" = _pbHCUgry;
+        "GE056rqs" = _GE056rqs;
         "fabric-1.18.2" = _sIWGkioR;
         "fabric-1.19.2" = _sIWGkioR;
         "fabric-1.20.1" = _9sNUzRyC;
@@ -1844,9 +1856,9 @@ let
         "quilt-26.2" = _92waBi15;
         "forge-1.18.2" = _JIOdNEPj;
         "forge-1.19.2" = _JIOdNEPj;
-        "forge-1.20.1" = _HaKiNUMI;
-        "neoforge-1.20.1" = _HaKiNUMI;
-        "neoforge-1.21.1" = _YJuqUfUJ;
+        "forge-1.20.1" = _GE056rqs;
+        "neoforge-1.20.1" = _GE056rqs;
+        "neoforge-1.21.1" = _pbHCUgry;
         "pkg-1.18.2-1.0+Fabric" = _sIWGkioR;
         "pkg-1.18.2-1.0+Forge" = _bHhd2rb6;
         "pkg-1.20.1-1.0+NeoForge" = _TP4mh1Ck;
@@ -2151,7 +2163,9 @@ let
         "pkg-1.21.1-8.8.0-neoforge" = _TSuYI4my;
         "pkg-1.21.1-8.8.1-neoforge" = _ESGzkVjz;
         "pkg-1.21.1-8.8.2-neoforge" = _YJuqUfUJ;
-        "default" = _YJuqUfUJ;
+        "pkg-1.21.1-8.8.3-neoforge" = _pbHCUgry;
+        "pkg-1.20.1-7.2.4-forge" = _GE056rqs;
+        "default" = _GE056rqs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-cyber-goggles";

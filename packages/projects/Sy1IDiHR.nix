@@ -341,6 +341,11 @@ let
             "file" = "better_deco-fabric-26.3-2.0.6.jar";
             "hash" = "sha512-HwVgdO1GorotOYaWvuv5qYqnr55qVsahKqGpO7k34JiGy6m8C65eiiZOC/zq++kXfxEeF1XXWLyjRytrweX8SQ==";
         };
+        _eK5Dg2kQ = {
+            "id" = "eK5Dg2kQ";
+            "file" = "better_deco-fabric-1.21.1-2.0.7.jar";
+            "hash" = "sha512-VZ4qHCcPPQDhKjP4esXBbB+ggF0U3uAMNxwUqqFyj8q8b4TXnKskWTFy1KVKL8ko+dK2FKvq/gatzvqnkVfpAw==";
+        };
     in {
         "zeC0nb7H" = _zeC0nb7H;
         "4iZUq9SA" = _4iZUq9SA;
@@ -410,6 +415,7 @@ let
         "hNhANbVd" = _hNhANbVd;
         "FQql8mT1" = _FQql8mT1;
         "8JlU0vvj" = _8JlU0vvj;
+        "eK5Dg2kQ" = _eK5Dg2kQ;
         "neoforge-1.21.1" = _E3s6zx3O;
         "neoforge-1.21.4" = _nVzLUEjK;
         "neoforge-1.21.5" = _vT1DPocg;
@@ -423,7 +429,7 @@ let
         "neoforge-26.2" = _OM5sZBsb;
         "neoforge-26.3" = _kKcxG51s;
         "forge-1.20.1" = _kcSYtCs7;
-        "fabric-1.21.1" = _b87vRS5n;
+        "fabric-1.21.1" = _eK5Dg2kQ;
         "fabric-26.1.2" = _hNhANbVd;
         "fabric-26.2" = _FQql8mT1;
         "fabric-26.3" = _8JlU0vvj;
@@ -482,7 +488,8 @@ let
         "pkg-2.0.1" = _1DdVIeVR;
         "pkg-2.0.5" = _b87vRS5n;
         "pkg-2.0.6" = _8JlU0vvj;
-        "default" = _8JlU0vvj;
+        "pkg-2.0.7" = _eK5Dg2kQ;
+        "default" = _eK5Dg2kQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better_deco";

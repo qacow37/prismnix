@@ -71,6 +71,26 @@ let
             "file" = "dynamickeybinds-fabric-1.20.1-0.1.2.1.jar";
             "hash" = "sha512-m08JcSteXUMN14viKFlHmd8LaEqozVmnLHs3dIpbaF+dW+sFSeLAtYqwYQBcCSEYrXR6y8uW7scu6oLl9anZaA==";
         };
+        _DG3Rhx4y = {
+            "id" = "DG3Rhx4y";
+            "file" = "dynamickeybinds-fabric-1.20.1-0.1.3.jar";
+            "hash" = "sha512-EVfFqF1tFqFYJbwLAqvK7ij4y48B4EQ1JGjtQDVQwaKRE/5M/+6FBtCxTMBcOTBbihXiWCRV4Jd+Oe7hV7kkaw==";
+        };
+        _j76XLO40 = {
+            "id" = "j76XLO40";
+            "file" = "dynamickeybinds-forge-1.20.1-0.1.3.jar";
+            "hash" = "sha512-QKSM0mtDDeKcBqVZXGkiDlM9z5AGOSZClL9ikeO+GuHTEwdUIh+MnpsGJTQC/PIR1VRyS09MV54RxPtYzxa3iw==";
+        };
+        _B8tJaZS1 = {
+            "id" = "B8tJaZS1";
+            "file" = "dynamickeybinds-neoforge-1.21.1-0.1.3+1.21.1.jar";
+            "hash" = "sha512-8Y1dYmWq31HsbYnve1QoLquqY4nZ/OyfTcTVeWWTQ1Jdn0rvLqAaRUoduyaRwJoe6k+YGHDPD6UwMH0AyNQIJw==";
+        };
+        _2hxEj3Ee = {
+            "id" = "2hxEj3Ee";
+            "file" = "dynamickeybinds-fabric-1.21.1-0.1.3+1.21.1.jar";
+            "hash" = "sha512-n8KKxrgVJ3kqgjbXS2hVfo1RoQ9tDt1YHFF5ijvf2ZPPmnlGCE0EUv4gKZOGadcOzuAfJ2B5UyeCiSG3CT1o2w==";
+        };
     in {
         "RJErgOxa" = _RJErgOxa;
         "5jll74Kz" = _5jll74Kz;
@@ -86,9 +106,15 @@ let
         "FILStNbG" = _FILStNbG;
         "vBhSMOrn" = _vBhSMOrn;
         "yG5vtP16" = _yG5vtP16;
-        "forge-1.20.1" = _vBhSMOrn;
+        "DG3Rhx4y" = _DG3Rhx4y;
+        "j76XLO40" = _j76XLO40;
+        "B8tJaZS1" = _B8tJaZS1;
+        "2hxEj3Ee" = _2hxEj3Ee;
+        "forge-1.20.1" = _j76XLO40;
         "neoforge-1.20.1" = _s0V9VIW7;
-        "fabric-1.20.1" = _yG5vtP16;
+        "neoforge-1.21.1" = _B8tJaZS1;
+        "fabric-1.20.1" = _DG3Rhx4y;
+        "fabric-1.21.1" = _2hxEj3Ee;
         "pkg-0.0.1" = _5jll74Kz;
         "pkg-0.0.2" = _GeXeTN8R;
         "pkg-0.0.3" = _xQiaxyY9;
@@ -100,7 +126,10 @@ let
         "pkg-0.1.2-forge" = _FILStNbG;
         "pkg-0.1.2.1-forge" = _vBhSMOrn;
         "pkg-0.1.2.1-fabric" = _yG5vtP16;
-        "default" = _yG5vtP16;
+        "pkg-0.1.3-fabric" = _DG3Rhx4y;
+        "pkg-0.1.3-forge" = _j76XLO40;
+        "pkg-0.1.3+1.21.1" = _2hxEj3Ee;
+        "default" = _2hxEj3Ee;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamickeybinds";

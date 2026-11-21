@@ -266,6 +266,16 @@ let
             "file" = "footsteps-trail 1.5.2 1.20.1-forge.jar";
             "hash" = "sha512-4vLVNMKkfGFQI25Ic9pLSFjG7fdVy6MZqYOkSoAgCpGbgkDKGRXQUFqsE3FKZl30S4/XW17M/pBmgaM6IC0QuQ==";
         };
+        _wvV6vRR0 = {
+            "id" = "wvV6vRR0";
+            "file" = "footsteps-trail 1.5.3 26.3-fabric.jar";
+            "hash" = "sha512-nICg2xNBKFyHLLhoWFC82kJRgmIrr2gSvIRIuCzdXC547BGDqcjg534Hox3mPeB084mdKkmZytt+5erZiN78aA==";
+        };
+        _YOZF9Amc = {
+            "id" = "YOZF9Amc";
+            "file" = "footsteps-trail 1.5.3 26.3-neoforge.jar";
+            "hash" = "sha512-tRVUPMy5c3oJ9wUDx0KGW7hzT7beaP2wMzyMunHx6/L0yMYWOxZKVZfWNST9zKwABOwl0y0pFZvD9MouNSoCKA==";
+        };
     in {
         "9hus7yGh" = _9hus7yGh;
         "zp59p3oa" = _zp59p3oa;
@@ -320,6 +330,8 @@ let
         "me2FwqDp" = _me2FwqDp;
         "JkcglDkD" = _JkcglDkD;
         "zpaZJjgu" = _zpaZJjgu;
+        "wvV6vRR0" = _wvV6vRR0;
+        "YOZF9Amc" = _YOZF9Amc;
         "fabric-1.20.1" = _JkcglDkD;
         "fabric-1.20.2" = _SL2qbEuI;
         "fabric-1.20.3" = _SL2qbEuI;
@@ -332,7 +344,7 @@ let
         "fabric-1.19.4" = _LOSN6uAD;
         "fabric-26.1.2" = _B6cAqmLL;
         "fabric-26.2" = _ObxDHknu;
-        "fabric-26.3" = _biergvTt;
+        "fabric-26.3" = _wvV6vRR0;
         "fabric-1.21.1" = _GNnYFvku;
         "forge-1.20.1" = _zpaZJjgu;
         "forge-1.21.11" = _jy3bzWGf;
@@ -345,7 +357,7 @@ let
         "forge-26.1.2" = _9cp9jg9O;
         "forge-26.2" = _XVewL2Ww;
         "neoforge-26.2" = _wUJV8iRN;
-        "neoforge-26.3" = _me2FwqDp;
+        "neoforge-26.3" = _YOZF9Amc;
         "neoforge-1.21.1" = _FGlBVBAQ;
         "pkg-1.0.0" = _6k5LikxM;
         "pkg-1.1.0" = _CGNvUxBT;
@@ -368,7 +380,9 @@ let
         "pkg-1.5.0+26.3-neoforge" = _me2FwqDp;
         "pkg-1.5.1+1.20.1-fabric" = _JkcglDkD;
         "pkg-1.5.2+1.20.1-forge" = _zpaZJjgu;
-        "default" = _zpaZJjgu;
+        "pkg-1.5.3+26.3-fabric" = _wvV6vRR0;
+        "pkg-1.5.3+26.3-neoforge" = _YOZF9Amc;
+        "default" = _YOZF9Amc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "footsteps-trail";

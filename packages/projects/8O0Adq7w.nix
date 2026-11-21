@@ -166,6 +166,16 @@ let
             "file" = "wunderlib-26.400.0.jar";
             "hash" = "sha512-Uuue+BqhUmixi1Q33HFO0ntINZll4ShEj2k8xWplb2b3yB0KZndQP3ZstwoSDHwJRTPBiEr+pnD4YsLHFCXxZQ==";
         };
+        _oLEMfos8 = {
+            "id" = "oLEMfos8";
+            "file" = "wunderlib-26.302.0.jar";
+            "hash" = "sha512-2vqrko/KHzYvJUyqLefzyGnJDr3pMBM1239DKmLm47bSLpS9lcLZZDLaBtdBu5YL1gNeNUCF4cUbrOgj320Saw==";
+        };
+        _8xdkNCBO = {
+            "id" = "8xdkNCBO";
+            "file" = "wunderlib-26.400.1.jar";
+            "hash" = "sha512-zHMRYMu2U8H57Dh5DUNRYqsrcWUporV14IygS/Ku73Y1WlXntANNWnqxIWNeCJDKbK730H/ng0nhS643M/c0gg==";
+        };
     in {
         "Ql6bYH4v" = _Ql6bYH4v;
         "NWOZ9B7R" = _NWOZ9B7R;
@@ -200,6 +210,8 @@ let
         "emLYjVJd" = _emLYjVJd;
         "VlgzubHe" = _VlgzubHe;
         "iYZCv03E" = _iYZCv03E;
+        "oLEMfos8" = _oLEMfos8;
+        "8xdkNCBO" = _8xdkNCBO;
         "fabric-1.21" = _NWOZ9B7R;
         "fabric-1.21.1" = _NWOZ9B7R;
         "fabric-26.1" = _uV1W6Y1E;
@@ -211,10 +223,10 @@ let
         "fabric-26.3-snapshot-5" = _c3ohD88a;
         "fabric-26.3-snapshot-6" = _1tlKntEn;
         "fabric-26.2" = _teACYvoS;
-        "fabric-26.3" = _emLYjVJd;
+        "fabric-26.3" = _oLEMfos8;
         "fabric-1.20" = _190vW5cJ;
         "fabric-1.20.1" = _190vW5cJ;
-        "fabric-26.4-snapshot-8" = _iYZCv03E;
+        "fabric-26.4-snapshot-8" = _8xdkNCBO;
         "pkg-21.0.6" = _Ql6bYH4v;
         "pkg-21.0.8" = _NWOZ9B7R;
         "pkg-26.0.0" = _N6fq9zK4;
@@ -248,7 +260,9 @@ let
         "pkg-26.301.4" = _emLYjVJd;
         "pkg-21.800.4" = _VlgzubHe;
         "pkg-26.400.0" = _iYZCv03E;
-        "default" = _iYZCv03E;
+        "pkg-26.302.0" = _oLEMfos8;
+        "pkg-26.400.1" = _8xdkNCBO;
+        "default" = _8xdkNCBO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wunderlib";

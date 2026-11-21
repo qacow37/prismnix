@@ -146,6 +146,21 @@ let
             "file" = "goetydelight-1.5.3.jar";
             "hash" = "sha512-9/BHs7ZM/V7exnQtlv2MhMh2lcYgeggV8+6YSCZHWtC6f93jSdL1QKOKIZHte7npT4y7wwI54B/DcS4pdLV1Kw==";
         };
+        _S55mQHJS = {
+            "id" = "S55mQHJS";
+            "file" = "goetydelight-1.5.3fix1.jar";
+            "hash" = "sha512-djz8zlEeW0eq3RuSbnu20idCLXpUCUIKkRLA7rvPkZDVIEqPaFuXWxEOgw3eMmiyJNGc5tDaraenYJiCc2QcKw==";
+        };
+        _Opy9j9mc = {
+            "id" = "Opy9j9mc";
+            "file" = "goetydelight-1.5.3fix2.jar";
+            "hash" = "sha512-eqs4VP0KjgNFeMlQWffNJhvPLqvSQfNG5lXnYfm7Vsnj7ocIDRPsk+3HWGCdlY8TGPT8nt8lU1DJg9OfFY98Fg==";
+        };
+        _1gDBa59U = {
+            "id" = "1gDBa59U";
+            "file" = "goetydelight-1.5.3fix3.jar";
+            "hash" = "sha512-RJxoqHu8OPIxjOPCXiCPQv7EztGd/uyj8oeRQJpsJJipaq/1XnE9VbJJDqBS5Rw+lusAyDCu3vy/1A8gMhhhrw==";
+        };
     in {
         "n6IkKzLM" = _n6IkKzLM;
         "pfn5VTmF" = _pfn5VTmF;
@@ -176,7 +191,10 @@ let
         "bSagYom7" = _bSagYom7;
         "nmF2QW74" = _nmF2QW74;
         "mlYyxiLa" = _mlYyxiLa;
-        "forge-1.20.1" = _mlYyxiLa;
+        "S55mQHJS" = _S55mQHJS;
+        "Opy9j9mc" = _Opy9j9mc;
+        "1gDBa59U" = _1gDBa59U;
+        "forge-1.20.1" = _1gDBa59U;
         "neoforge-1.21.1" = _RnBqHDpE;
         "pkg-1.0.0" = _pfn5VTmF;
         "pkg-1.0.0-alpha.11" = _c7inzWOf;
@@ -206,7 +224,10 @@ let
         "pkg-1.5.1fix1" = _bSagYom7;
         "pkg-1.5.2" = _nmF2QW74;
         "pkg-1.5.3" = _mlYyxiLa;
-        "default" = _mlYyxiLa;
+        "pkg-1.5.3fix1" = _S55mQHJS;
+        "pkg-1.5.3fix2" = _Opy9j9mc;
+        "pkg-1.5.3fix3" = _1gDBa59U;
+        "default" = _1gDBa59U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "goetydelight";

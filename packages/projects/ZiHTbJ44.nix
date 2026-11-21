@@ -36,6 +36,11 @@ let
             "file" = "Inspirations-1.20.1-1.5.0.6.jar";
             "hash" = "sha512-xm14s7y2D1OYDyX+5jh04a7svW4nFCS4C3iSK4qehH1Yh1+C8r8BWDnuOHheJm6SgFu6NaZDwQUUm11dzGYQMQ==";
         };
+        _CLw49dtN = {
+            "id" = "CLw49dtN";
+            "file" = "Inspirations-1.20.1-1.5.1.13.jar";
+            "hash" = "sha512-FlCLogzrU1Ga7BnToCmqQCGLG71l56vB+tLGeZMjvHXgFHv+2A560Nhm6qKFXvs5X4kUqTGjuWRf1q9c6LTBdw==";
+        };
     in {
         "WXQAWKP2" = _WXQAWKP2;
         "YZyqrQx7" = _YZyqrQx7;
@@ -44,14 +49,15 @@ let
         "1tvcaXZh" = _1tvcaXZh;
         "X7BdmMJg" = _X7BdmMJg;
         "mJgLGcTg" = _mJgLGcTg;
+        "CLw49dtN" = _CLw49dtN;
         "forge-1.12.2" = _WXQAWKP2;
         "forge-1.14.4" = _YZyqrQx7;
         "forge-1.15.2" = _MH6PZRi3;
         "forge-1.16.5" = _XOCKv2SJ;
         "forge-1.18.2" = _1tvcaXZh;
         "forge-1.19.2" = _X7BdmMJg;
-        "forge-1.20.1" = _mJgLGcTg;
-        "neoforge-1.20.1" = _mJgLGcTg;
+        "forge-1.20.1" = _CLw49dtN;
+        "neoforge-1.20.1" = _CLw49dtN;
         "pkg-0.2.9" = _WXQAWKP2;
         "pkg-1.0.2" = _YZyqrQx7;
         "pkg-1.1.0" = _MH6PZRi3;
@@ -59,7 +65,8 @@ let
         "pkg-1.3.0.9" = _1tvcaXZh;
         "pkg-1.4.0" = _X7BdmMJg;
         "pkg-1.5.0.6" = _mJgLGcTg;
-        "default" = _mJgLGcTg;
+        "pkg-1.5.1.13" = _CLw49dtN;
+        "default" = _CLw49dtN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "inspirations";

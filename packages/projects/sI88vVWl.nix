@@ -106,6 +106,26 @@ let
             "file" = "asymmetricbattles-fabric-1.4.2+1.21.1.jar";
             "hash" = "sha512-uGDDXq9Gncgh7tDey2mcCyFcGCBqgV5sBrr2lbjanRKaBRcec6oWiDjdpA2yXf25pFjyb8ohwMbSoYf/jr2yVQ==";
         };
+        _F7LcdPQ5 = {
+            "id" = "F7LcdPQ5";
+            "file" = "asymmetricbattles-fabric-1.4.3+1.21.1.jar";
+            "hash" = "sha512-0eGGmubIXoCZcNb099vAx5ZIsoPB3J5fIiX7GnshUyBnFHEV8ajBOnSXFxvC44/fboada8Di1WhnzVmE/eSJpQ==";
+        };
+        _2DdqArqO = {
+            "id" = "2DdqArqO";
+            "file" = "asymmetricbattles-neoforge-1.4.3+1.21.1.jar";
+            "hash" = "sha512-8gG0xSwXyRtf6eSbSC8C4MNSGbaPiWHQl/4AmjVXRrJP1PEobXVm0+iJuBA9pY0P0kGCzzQ42IQdrtwrGvpvfA==";
+        };
+        _4tXgx64l = {
+            "id" = "4tXgx64l";
+            "file" = "asymmetricbattles-fabric-1.4.4+1.21.1.jar";
+            "hash" = "sha512-PIyViXnVXbWpKd+DnlDAU/6N4b0RPxcNkNoe46FTUhbzsRmE0lyyYOkWhvSRp+x2cfvndBuQ8dOUUiouWLHf0A==";
+        };
+        _sKlBadYU = {
+            "id" = "sKlBadYU";
+            "file" = "asymmetricbattles-neoforge-1.4.4+1.21.1.jar";
+            "hash" = "sha512-VW/OLxIGmM9yNrSKuwbMabvHb+u1M9c4kJ+j+hvYFc6zCZoXN9gZnqLvvA30xZYXEBtKL0O09gwNVEaYQqBjFg==";
+        };
     in {
         "aBTbXzql" = _aBTbXzql;
         "zVxAFs2z" = _zVxAFs2z;
@@ -128,8 +148,12 @@ let
         "pRXuSLNc" = _pRXuSLNc;
         "1Rmyutsx" = _1Rmyutsx;
         "8SKIm6Cl" = _8SKIm6Cl;
-        "fabric-1.21.1" = _8SKIm6Cl;
-        "neoforge-1.21.1" = _1Rmyutsx;
+        "F7LcdPQ5" = _F7LcdPQ5;
+        "2DdqArqO" = _2DdqArqO;
+        "4tXgx64l" = _4tXgx64l;
+        "sKlBadYU" = _sKlBadYU;
+        "fabric-1.21.1" = _4tXgx64l;
+        "neoforge-1.21.1" = _sKlBadYU;
         "pkg-1.0.0+1.21.1" = _zVxAFs2z;
         "pkg-1.1.0+1.21.1" = _wrKMeWD8;
         "pkg-1.2.0+1.21.1" = _VjMs0qhA;
@@ -141,7 +165,9 @@ let
         "pkg-1.4.0+1.21.1" = _mZI3JO7c;
         "pkg-1.4.1+1.21.1" = _pRXuSLNc;
         "pkg-1.4.2+1.21.1" = _8SKIm6Cl;
-        "default" = _8SKIm6Cl;
+        "pkg-1.4.3+1.21.1" = _2DdqArqO;
+        "pkg-1.4.4+1.21.1" = _sKlBadYU;
+        "default" = _sKlBadYU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "asymmetric-battles-api";

@@ -61,6 +61,26 @@ let
             "file" = "ec_ad-neoforge-1.21.1-1.0.6.jar";
             "hash" = "sha512-jcrPio3AOXSYxXDMY6Kks64iNsmlVZLVVrdlaD5CqfPcHJ7oRdrBETPGBfB4IEtmzP150M+SpGxVCkzJG/MaMw==";
         };
+        _Gu3MieIV = {
+            "id" = "Gu3MieIV";
+            "file" = "ec_ad-forge-1.20.1-1.0.7.jar";
+            "hash" = "sha512-XGUIn+IVjIaHZoqdSSYRvSamFerPIWVmD29MsgFcO3y8j1EtMeX31v0lbDYOCmhoMbcGw+0BlY+gRAhKj3NPBQ==";
+        };
+        _FP0fRFIF = {
+            "id" = "FP0fRFIF";
+            "file" = "ec_ad-fabric-1.20.1-1.0.7.jar";
+            "hash" = "sha512-M6bznKgfLN/9em4cIGHVX97d+TAXN0x+lG/xTs/B/AzdxnMopHW8m8pEZCOMXrIEF4fiUqqHdPL16SrYC9wEGw==";
+        };
+        _OhFiFZWb = {
+            "id" = "OhFiFZWb";
+            "file" = "ec_ad-neoforge-1.21.1-1.0.8.jar";
+            "hash" = "sha512-pRC2W7tDQ6/Ir9fcDgu3xGj6vlHiWBWd0fpawytOcTHsSC6ZozhBMWMLDu40qwoY7j1jNdABNZRma+waxj5Pyw==";
+        };
+        _kHx7jupV = {
+            "id" = "kHx7jupV";
+            "file" = "ec_ad-fabric-1.21.1-1.0.8.jar";
+            "hash" = "sha512-cqAs5OAIZboDhZq+U3nU8yklyPoR7Dfh1eDnXjEYFETIQ/NMRzdSezQyTAzOIyfARhQ2c0DCx87LcxXkTw2HQA==";
+        };
     in {
         "pR93LzYl" = _pR93LzYl;
         "Z1vwvcOv" = _Z1vwvcOv;
@@ -74,16 +94,22 @@ let
         "OZAkf2Ol" = _OZAkf2Ol;
         "Z5wPsfnh" = _Z5wPsfnh;
         "89b8tSoe" = _89b8tSoe;
-        "fabric-1.20.1" = _Q2J8CfrE;
-        "fabric-1.21.1" = _Z5wPsfnh;
-        "forge-1.20.1" = _OZAkf2Ol;
-        "neoforge-1.21.1" = _89b8tSoe;
+        "Gu3MieIV" = _Gu3MieIV;
+        "FP0fRFIF" = _FP0fRFIF;
+        "OhFiFZWb" = _OhFiFZWb;
+        "kHx7jupV" = _kHx7jupV;
+        "fabric-1.20.1" = _FP0fRFIF;
+        "fabric-1.21.1" = _kHx7jupV;
+        "forge-1.20.1" = _Gu3MieIV;
+        "neoforge-1.21.1" = _OhFiFZWb;
         "pkg-1.0.2" = _Z1vwvcOv;
         "pkg-1.0.3" = _5oXw5S6t;
         "pkg-1.0.4" = _stGi5B1T;
         "pkg-1.0.5" = _OZAkf2Ol;
         "pkg-1.0.6" = _89b8tSoe;
-        "default" = _89b8tSoe;
+        "pkg-1.0.7" = _FP0fRFIF;
+        "pkg-1.0.8" = _kHx7jupV;
+        "default" = _kHx7jupV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "archies-dinosaurs";

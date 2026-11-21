@@ -736,6 +736,11 @@ let
             "file" = "affogatocore-26.3.2.jar";
             "hash" = "sha512-zcVDDUBirene/KlGjJdt9yFbmcSaFAB4K0GgmwLfCzmcHa4AK6i2qDdwv/kCJ1iDoKuFvWl07ncBysMbkhH6/g==";
         };
+        _BXhquKtt = {
+            "id" = "BXhquKtt";
+            "file" = "affogatocore-26.3.3.jar";
+            "hash" = "sha512-DjUnEPmpCRVHvdthisGDlzZmngPR3mDtS3rQKty58zkVdK/U88C7NJ6NcFY6KdAKlkmrDT+XbMt+PtUgbMu9mg==";
+        };
     in {
         "4s2SCddN" = _4s2SCddN;
         "B9cJfscj" = _B9cJfscj;
@@ -884,13 +889,14 @@ let
         "bLLXAVEl" = _bLLXAVEl;
         "Jf0LAv8h" = _Jf0LAv8h;
         "WiIKcOGg" = _WiIKcOGg;
+        "BXhquKtt" = _BXhquKtt;
         "fabric-1.20.1" = _SK18c9Dz;
         "fabric-1.21.1" = _cqHgK0Ag;
         "fabric-1.21.11" = _9k93IlF6;
         "fabric-26.1" = _y4epD65K;
         "fabric-26.1.1" = _y4epD65K;
         "fabric-26.1.2" = _y4epD65K;
-        "fabric-26.3" = _WiIKcOGg;
+        "fabric-26.3" = _BXhquKtt;
         "pkg-1.0.0" = _4s2SCddN;
         "pkg-1.0.1" = _B9cJfscj;
         "pkg-1.1.0" = _phXOHI9W;
@@ -1038,7 +1044,8 @@ let
         "pkg-26.3.0" = _bLLXAVEl;
         "pkg-26.3.1" = _Jf0LAv8h;
         "pkg-26.3.2" = _WiIKcOGg;
-        "default" = _WiIKcOGg;
+        "pkg-26.3.3" = _BXhquKtt;
+        "default" = _BXhquKtt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "affogato-core";

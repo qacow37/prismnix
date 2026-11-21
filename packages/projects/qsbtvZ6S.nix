@@ -41,6 +41,11 @@ let
             "file" = "allied-2.0.0.jar";
             "hash" = "sha512-mubYCu3F8625Q4+xNNkRYLTdbNyMHQpsw2THXU6Q3o++Kw9w4iDyZ4PxRe8h1fBCf5JU9Dpg+vZ+SiAKpMSdkA==";
         };
+        _QqjHWWMY = {
+            "id" = "QqjHWWMY";
+            "file" = "allied-2.0.0.jar";
+            "hash" = "sha512-VVcaB18Blsx1Y3Y1jCOCBrYLn2qIc2FkXD8zN9ouRcNIBqnQFwfbTToFDhout/6I3Bf1e/48Q6N+dUmZgFL8oQ==";
+        };
     in {
         "1PdjbM8V" = _1PdjbM8V;
         "xEPPLAHQ" = _xEPPLAHQ;
@@ -50,17 +55,19 @@ let
         "vUNBNUB9" = _vUNBNUB9;
         "TVhqBiXz" = _TVhqBiXz;
         "EMVrQbnF" = _EMVrQbnF;
+        "QqjHWWMY" = _QqjHWWMY;
         "fabric-1.21.11" = _g4m4488V;
         "fabric-26.1.2" = _vUNBNUB9;
         "fabric-26.2" = _EMVrQbnF;
+        "fabric-26.3" = _QqjHWWMY;
         "pkg-1.0.0" = _1PdjbM8V;
         "pkg-1.1.0" = _xEPPLAHQ;
         "pkg-1.2.0" = _ow7v8dHe;
         "pkg-1.2.1" = _LQ8R5317;
         "pkg-1.2.2" = _vUNBNUB9;
         "pkg-1.2.3" = _TVhqBiXz;
-        "pkg-2.0.0" = _EMVrQbnF;
-        "default" = _EMVrQbnF;
+        "pkg-2.0.0" = _QqjHWWMY;
+        "default" = _QqjHWWMY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "allied";

@@ -56,6 +56,21 @@ let
             "file" = "itemglintrelight-neoforge-1.21.11-0.3.0+1.21.11.jar";
             "hash" = "sha512-NEN/UskQexjMMPTYAAX3Q88CnZnnfYELo/mCKc7riEnXUrSlOAe+BjE3aSXI1vM80iuwwiPhhNh/NY/KwJ/lUA==";
         };
+        _TwFbUA6j = {
+            "id" = "TwFbUA6j";
+            "file" = "itemglintrelight-neoforge-26.1.2-0.3.0+26.1.2.jar";
+            "hash" = "sha512-OtL/X3rbw7Q5tyC8d+dDwWsUxF1T+nhVtHr/j9LFmcwyhF9MlAd0KO8LjW4WJShBCQBjREuQJA/vCGP1zSurEw==";
+        };
+        _LK1kKCuv = {
+            "id" = "LK1kKCuv";
+            "file" = "itemglintrelight-neoforge-26.2-0.3.0+26.2.jar";
+            "hash" = "sha512-tD5acFw4NFly0iTFvh2q6H5JGyFUG+4n/GEytyW2uCHhR0bcRBIDX6ikDh4TBVMyfNwPqfxfWXNZ1vlpMtzorA==";
+        };
+        _vfyZxZt1 = {
+            "id" = "vfyZxZt1";
+            "file" = "itemglintrelight-neoforge-26.3-0.3.0+26.3.jar";
+            "hash" = "sha512-2wYbm2n2q7XDRP5qN4oxkMGb22eQboc1ffGNi+NApcFrEEsJhgh3SNSh95JBE3wTHnxT33bAfE32VEv7z/IUkw==";
+        };
     in {
         "M0lWKwIG" = _M0lWKwIG;
         "EFOdAtUp" = _EFOdAtUp;
@@ -68,6 +83,9 @@ let
         "DUoLBafN" = _DUoLBafN;
         "KpfFZxrr" = _KpfFZxrr;
         "GGXKY4Rd" = _GGXKY4Rd;
+        "TwFbUA6j" = _TwFbUA6j;
+        "LK1kKCuv" = _LK1kKCuv;
+        "vfyZxZt1" = _vfyZxZt1;
         "fabric-1.21.11" = _2Mpe3xo8;
         "fabric-26.2" = _sml2zkqS;
         "fabric-26.1.2" = _NVBKxdii;
@@ -75,16 +93,19 @@ let
         "fabric-1.21.1" = _DUoLBafN;
         "neoforge-1.21.1" = _KpfFZxrr;
         "neoforge-1.21.11" = _GGXKY4Rd;
+        "neoforge-26.1.2" = _TwFbUA6j;
+        "neoforge-26.2" = _LK1kKCuv;
+        "neoforge-26.3" = _vfyZxZt1;
         "pkg-0.1.0+1.21.11" = _M0lWKwIG;
         "pkg-0.2.0+1.21.11" = _EFOdAtUp;
-        "pkg-0.3.0+26.2" = _sml2zkqS;
+        "pkg-0.3.0+26.2" = _LK1kKCuv;
         "pkg-0.3.0+1.21.11" = _GGXKY4Rd;
-        "pkg-0.3.0+26.1.2" = _NVBKxdii;
-        "pkg-0.3.0+26.3" = _mZqA2pYH;
+        "pkg-0.3.0+26.1.2" = _TwFbUA6j;
+        "pkg-0.3.0+26.3" = _vfyZxZt1;
         "pkg-0.3.0+1.21.1" = _KpfFZxrr;
         "pkg-0.3.0+26.3-fix" = _XEUHTJP4;
         "pkg-0.3.0+1.21.1-fix" = _DUoLBafN;
-        "default" = _GGXKY4Rd;
+        "default" = _vfyZxZt1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "itemglintrelight";

@@ -631,6 +631,31 @@ let
             "file" = "okcore-26.11.18.0.jar";
             "hash" = "sha512-Y1RitdSe5hRHlSCaTNQL7Tr/YLtB+y/l8KlRHz45GKcfR3fRGOxhsx8prl7aAJSaDSj2K1E/Le36IAnqoRjS4g==";
         };
+        _rVS1jSfd = {
+            "id" = "rVS1jSfd";
+            "file" = "okcore-26.11.19.0.jar";
+            "hash" = "sha512-l4XA8DKyb7HxV8pHbaAS4FDZHjojaAQXj8tUEBOI+c6xo12bqwCoDUMk3RStZ+GhZTABrNzMzaqTx3I0F7pWZQ==";
+        };
+        _Ma8YNesf = {
+            "id" = "Ma8YNesf";
+            "file" = "okcore-26.11.20.0.jar";
+            "hash" = "sha512-wwPmMWA1CO+ftvOd9U71gGtdewYt1PUwA/MVz7tSaEFDx891L1laxTD/q5qeHuh/SZ2B/ZjQbSC0eYIVWmBlyw==";
+        };
+        _7WUOC0FL = {
+            "id" = "7WUOC0FL";
+            "file" = "okcore-26.11.20.1.jar";
+            "hash" = "sha512-O31HYOyvkN2IQj9eet5+QvWfSV6F6k49pnbckt0QfIV1BJf/fNQptcbDhUrPGQkM/PyOEZ+SclEFV1KSC7hO9Q==";
+        };
+        _tilcU1fW = {
+            "id" = "tilcU1fW";
+            "file" = "okcore-26.11.21.0.jar";
+            "hash" = "sha512-GwpHs08tDT/FpMdSR3EpkcnvoMu2RUPCGSpQyrvXqgITHAH3Da90Ur0TnvgmYTm9qn7PK0pkr2XTcFEYS4IWjQ==";
+        };
+        _tTimxW0c = {
+            "id" = "tTimxW0c";
+            "file" = "okcore-26.11.21.1.jar";
+            "hash" = "sha512-y+JV0K6ZsfJZ2sEBjSDd3SNsJbPBk17fCUgq7yGaa3bqW26q41i1Y7sYfVKNIsSwQ++6a5BwE12eVh/TVb2LoQ==";
+        };
     in {
         "8a8doypa" = _8a8doypa;
         "n0PTagCb" = _n0PTagCb;
@@ -758,7 +783,12 @@ let
         "hBLSTZyl" = _hBLSTZyl;
         "ngtpwXGG" = _ngtpwXGG;
         "HyP30muA" = _HyP30muA;
-        "forge-1.7.10" = _HyP30muA;
+        "rVS1jSfd" = _rVS1jSfd;
+        "Ma8YNesf" = _Ma8YNesf;
+        "7WUOC0FL" = _7WUOC0FL;
+        "tilcU1fW" = _tilcU1fW;
+        "tTimxW0c" = _tTimxW0c;
+        "forge-1.7.10" = _tTimxW0c;
         "pkg-1.2.4" = _8a8doypa;
         "pkg-1.2.5" = _n0PTagCb;
         "pkg-1.2.6" = _NS623V7Z;
@@ -885,7 +915,12 @@ let
         "pkg-26.11.16.3" = _hBLSTZyl;
         "pkg-26.11.17.0" = _ngtpwXGG;
         "pkg-26.11.18.0" = _HyP30muA;
-        "default" = _HyP30muA;
+        "pkg-26.11.19.0" = _rVS1jSfd;
+        "pkg-26.11.20.0" = _Ma8YNesf;
+        "pkg-26.11.20.1" = _7WUOC0FL;
+        "pkg-26.11.21.0" = _tilcU1fW;
+        "pkg-26.11.21.1" = _tTimxW0c;
+        "default" = _tTimxW0c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ok-core";

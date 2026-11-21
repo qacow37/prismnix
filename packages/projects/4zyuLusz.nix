@@ -101,6 +101,26 @@ let
             "file" = "csr-neoforge-1.21.1-1.0.4.jar";
             "hash" = "sha512-i4PPfVsE3x7DOCYtwfKxue/3OHRPSMcw9rdeynsB3fppEQt372Tb9pt20nAqpcn6O/Sc/VO9tnp4y9OKdi565Q==";
         };
+        _6ytBIP4T = {
+            "id" = "6ytBIP4T";
+            "file" = "csr-fabric-1.21.1-1.0.5.jar";
+            "hash" = "sha512-P+X/FbaChn7kY1flRlsKKyxDU3RjL+WCIdM8mmS3Bq2tZmXTqezmNcRrVOUOhugN0Sl4W8eZ29WBv4QIHsLYiQ==";
+        };
+        _OeTVMOhf = {
+            "id" = "OeTVMOhf";
+            "file" = "csr-neoforge-1.21.1-1.0.5.jar";
+            "hash" = "sha512-7zBgOae9SboytsqueIo2hpgp4IgBJIWcQA/Xy7UCzgOyd3MH9CYmhew008uFnw5th7EnV+bQz+EKP8me0Z75pQ==";
+        };
+        _mMX9pVOv = {
+            "id" = "mMX9pVOv";
+            "file" = "csr-fabric-26.1.2-2.1.4.jar";
+            "hash" = "sha512-qN8VxZOlT3L9erd7Uexs5mwjkOdXVcj8ILn0EznnWRAKoBZlS5MiDDGGD8OBUXIUInqEUtFbhKNSV7h/VS83Hw==";
+        };
+        _jGs1rNrI = {
+            "id" = "jGs1rNrI";
+            "file" = "csr-neoforge-26.1.2-2.1.4.jar";
+            "hash" = "sha512-Hy8id6PK46gxd+0MVOLv413a8depozTvYGrnKUKJDxP8pgXdpWkPFxwnZoO/Y8ArhJJHki539b/ioUGU/BONuQ==";
+        };
     in {
         "qFwpYy9m" = _qFwpYy9m;
         "HhTOFUqt" = _HhTOFUqt;
@@ -122,11 +142,15 @@ let
         "ZNhrE5Rs" = _ZNhrE5Rs;
         "tYZRgUrc" = _tYZRgUrc;
         "lWPhtjId" = _lWPhtjId;
-        "fabric-1.21.1" = _tYZRgUrc;
-        "fabric-26.1.2" = _ZNhrE5Rs;
-        "neoforge-1.21.1" = _lWPhtjId;
+        "6ytBIP4T" = _6ytBIP4T;
+        "OeTVMOhf" = _OeTVMOhf;
+        "mMX9pVOv" = _mMX9pVOv;
+        "jGs1rNrI" = _jGs1rNrI;
+        "fabric-1.21.1" = _6ytBIP4T;
+        "fabric-26.1.2" = _mMX9pVOv;
+        "neoforge-1.21.1" = _OeTVMOhf;
         "neoforge-1.21.4" = _2MM0obin;
-        "neoforge-26.1.2" = _RpI21q9u;
+        "neoforge-26.1.2" = _jGs1rNrI;
         "pkg-1.0.0" = _qFwpYy9m;
         "pkg-1.0.1" = _HhTOFUqt;
         "pkg-1.0.2" = _3cwSY3rh;
@@ -139,7 +163,9 @@ let
         "pkg-2.1.2" = _EmCk0vJT;
         "pkg-2.1.3" = _ZNhrE5Rs;
         "pkg-1.0.4" = _lWPhtjId;
-        "default" = _lWPhtjId;
+        "pkg-1.0.5" = _OeTVMOhf;
+        "pkg-2.1.4" = _jGs1rNrI;
+        "default" = _jGs1rNrI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clay-soldiers-remake";

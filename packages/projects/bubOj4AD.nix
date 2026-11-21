@@ -1106,6 +1106,21 @@ let
             "file" = "tiers-0.9.1+1.21.jar";
             "hash" = "sha512-AJdUD1sqt688RTJiC/BwGjNTLQ+tH00g3KCZejFBihVUqSlbDl0AQ/21MmMA+LnvT+AYbagHaRTliYkjhqR2nw==";
         };
+        _AXn3DHHE = {
+            "id" = "AXn3DHHE";
+            "file" = "tiers-0.9.2+26.3.jar";
+            "hash" = "sha512-hwSUrx4naYfhIwKNxKdnttp6F/MKdfzD+gTllHu8ENYIvNyVMqjjtdC1H0ejmeAnVdC/0Cq/efKqFadAmwCo9g==";
+        };
+        _cksINbvr = {
+            "id" = "cksINbvr";
+            "file" = "tiers-0.9.2+26.2.jar";
+            "hash" = "sha512-22G30U14Y3BG7cqS4GQVP3RxHXs71ExLCtIUJgBwMPWHVpQheiAF+IENz36EAZvYGRwkCTTQpN0Oblk+HX96LQ==";
+        };
+        _ROBYsrru = {
+            "id" = "ROBYsrru";
+            "file" = "tiers-0.9.2+26.4-snapshot-10.jar";
+            "hash" = "sha512-WQcmpKVI8bNflOMjI6JSlpK67UREGTDOjhC/4IpGd4scOJ5eagTNpAkMTIQ+FKDvKDla2s9cpoVJhNwJd7xcAQ==";
+        };
     in {
         "G2EnnStX" = _G2EnnStX;
         "IeD2aRgm" = _IeD2aRgm;
@@ -1328,6 +1343,9 @@ let
         "RI2XbFh8" = _RI2XbFh8;
         "cxSlgYSz" = _cxSlgYSz;
         "Og6qllNC" = _Og6qllNC;
+        "AXn3DHHE" = _AXn3DHHE;
+        "cksINbvr" = _cksINbvr;
+        "ROBYsrru" = _ROBYsrru;
         "fabric-1.21" = _Og6qllNC;
         "fabric-1.21.1" = _cxSlgYSz;
         "fabric-1.21.2" = _RI2XbFh8;
@@ -1352,8 +1370,9 @@ let
         "fabric-26.1" = _9KPjRebB;
         "fabric-26.1.1" = _Wz2su0q4;
         "fabric-26.1.2" = _2b9eMWYj;
-        "fabric-26.2" = _wPCzszxA;
-        "fabric-26.3" = _QM7CmLel;
+        "fabric-26.2" = _cksINbvr;
+        "fabric-26.3" = _AXn3DHHE;
+        "fabric-26.4-snapshot-10" = _ROBYsrru;
         "quilt-1.21" = _Og6qllNC;
         "quilt-1.21.1" = _cxSlgYSz;
         "quilt-1.21.2" = _RI2XbFh8;
@@ -1378,8 +1397,9 @@ let
         "quilt-26.1" = _9KPjRebB;
         "quilt-26.1.1" = _Wz2su0q4;
         "quilt-26.1.2" = _2b9eMWYj;
-        "quilt-26.2" = _wPCzszxA;
-        "quilt-26.3" = _QM7CmLel;
+        "quilt-26.2" = _cksINbvr;
+        "quilt-26.3" = _AXn3DHHE;
+        "quilt-26.4-snapshot-10" = _ROBYsrru;
         "pkg-0.1.0" = _G2EnnStX;
         "pkg-0.2.0" = _IeD2aRgm;
         "pkg-0.2.1" = _Pn8UVlv6;
@@ -1601,7 +1621,10 @@ let
         "pkg-0.9.1+1.21.2" = _RI2XbFh8;
         "pkg-0.9.1+1.21.1" = _cxSlgYSz;
         "pkg-0.9.1+1.21" = _Og6qllNC;
-        "default" = _Og6qllNC;
+        "pkg-0.9.2+26.3" = _AXn3DHHE;
+        "pkg-0.9.2+26.2" = _cksINbvr;
+        "pkg-0.9.2+26.4-snapshot-10" = _ROBYsrru;
+        "default" = _ROBYsrru;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tiers";

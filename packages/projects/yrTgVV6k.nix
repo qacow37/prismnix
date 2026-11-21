@@ -211,6 +211,11 @@ let
             "file" = "early-game-shulker-21.0.jar";
             "hash" = "sha512-2L4+5WxuxVXMI6AVzIz3EEAKCEPkvRVA0ADF6uKbWys/ADpHYuMztF2G4jZj8yNhbiQmpEYSX6deQsRgumrrFg==";
         };
+        _A1rBnBNa = {
+            "id" = "A1rBnBNa";
+            "file" = "early-shulker-0.9.jar";
+            "hash" = "sha512-AdVwxkw053DW+4EwJHo2IVviaoW3ei4KS8tIE0fT2Wc8SEIRD+OZvXfPQ5Zb9w9L440Oi2vxcLyTJLYlpCkhGg==";
+        };
     in {
         "6IL9qWBV" = _6IL9qWBV;
         "2AVUYwNZ" = _2AVUYwNZ;
@@ -254,6 +259,7 @@ let
         "eyOL5Jg3" = _eyOL5Jg3;
         "2Ygbz9EH" = _2Ygbz9EH;
         "MClNGuqq" = _MClNGuqq;
+        "A1rBnBNa" = _A1rBnBNa;
         "datapack-1.13" = _6IL9qWBV;
         "datapack-1.13.1" = _6IL9qWBV;
         "datapack-1.13.2" = _6IL9qWBV;
@@ -407,6 +413,9 @@ let
         "forge-26.1.2" = _eyOL5Jg3;
         "forge-26.2" = _eyOL5Jg3;
         "forge-26.3" = _MClNGuqq;
+        "forge-1.12" = _A1rBnBNa;
+        "forge-1.12.1" = _A1rBnBNa;
+        "forge-1.12.2" = _A1rBnBNa;
         "neoforge-1.13" = _2AVUYwNZ;
         "neoforge-1.13.1" = _2AVUYwNZ;
         "neoforge-1.13.2" = _2AVUYwNZ;
@@ -551,7 +560,8 @@ let
         "pkg-20.0+mod" = _eyOL5Jg3;
         "pkg-21.0" = _2Ygbz9EH;
         "pkg-21.0+mod" = _MClNGuqq;
-        "default" = _MClNGuqq;
+        "pkg-0.9+mod" = _A1rBnBNa;
+        "default" = _A1rBnBNa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "early-game-shulker";

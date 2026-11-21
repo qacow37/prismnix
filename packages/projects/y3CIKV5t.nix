@@ -11,11 +11,17 @@ let
             "file" = "§e§lNautical Nonsense.zip";
             "hash" = "sha512-t50Peb7H66X1i+or+HCtAfK5aRrcDidhoD/yxVfHuYyY1jYuzfQOk2cXLRMpIT0LRhYxCHDOKQtbrw9M5d3uXw==";
         };
+        _vGzOBqIt = {
+            "id" = "vGzOBqIt";
+            "file" = "§e§lNautical Nonsense.zip";
+            "hash" = "sha512-gt8XS41tteVE+ahNThEDr4QVL164VZaw+TvKK++QfnISeq0BbubPg8FZxV6UTSfg1KnN/4Zaz5oXUO4lgmC9kw==";
+        };
     in {
         "nzPBKXxH" = _nzPBKXxH;
         "B8jtlNo2" = _B8jtlNo2;
-        "minecraft-1.20.1" = _B8jtlNo2;
-        "minecraft-1.20" = _B8jtlNo2;
+        "vGzOBqIt" = _vGzOBqIt;
+        "minecraft-1.20.1" = _vGzOBqIt;
+        "minecraft-1.20" = _vGzOBqIt;
         "minecraft-1.20.2" = _B8jtlNo2;
         "minecraft-1.20.3" = _B8jtlNo2;
         "minecraft-1.20.4" = _B8jtlNo2;
@@ -23,7 +29,8 @@ let
         "minecraft-1.20.6" = _B8jtlNo2;
         "pkg-1.0" = _nzPBKXxH;
         "pkg-1.1" = _B8jtlNo2;
-        "default" = _B8jtlNo2;
+        "pkg-1.2" = _vGzOBqIt;
+        "default" = _vGzOBqIt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nautical-nonsense";

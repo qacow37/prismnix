@@ -206,6 +206,11 @@ let
             "file" = "revelationary-neoforge-1.5.2+1.21.1.jar";
             "hash" = "sha512-IDodaCzqwtqRg7po9EakDR/34Yrf3hA/k8d+RGb2BAjkaETOTS+7nQ8wsc/sSQkiNeGtwMoPuy9ozOUPxs+Myw==";
         };
+        _pjeE2UUW = {
+            "id" = "pjeE2UUW";
+            "file" = "revelationary-1.5.3+26.2.jar";
+            "hash" = "sha512-SdDecttBWeuBV29C9IGyN8axuVSeGI624Zc4XPGe7N/FhgxA/fTDo6zEWg03xppGYXsVWqG1MLjv4R/pZ8ZS9w==";
+        };
     in {
         "GZpIJEDj" = _GZpIJEDj;
         "jvMieDnd" = _jvMieDnd;
@@ -248,6 +253,7 @@ let
         "krb36YEJ" = _krb36YEJ;
         "3XGPyKNr" = _3XGPyKNr;
         "775bsBpl" = _775bsBpl;
+        "pjeE2UUW" = _pjeE2UUW;
         "fabric-1.18.2" = _TTTlCzoW;
         "fabric-1.19.2" = _2d9fuEjc;
         "fabric-1.19.3" = _W0utXf6n;
@@ -265,7 +271,7 @@ let
         "fabric-1.21.8" = _wfe2HMNI;
         "fabric-26.1" = _fOEGIdAP;
         "fabric-26.1.1" = _fOEGIdAP;
-        "fabric-26.2" = _krb36YEJ;
+        "fabric-26.2" = _pjeE2UUW;
         "quilt-1.19.3" = _W0utXf6n;
         "quilt-1.19.2" = _2d9fuEjc;
         "quilt-1.19.4" = _dTnvfIjj;
@@ -306,7 +312,8 @@ let
         "pkg-1.5.1+26.2" = _krb36YEJ;
         "pkg-1.5.1+1.21.1" = _3XGPyKNr;
         "pkg-1.5.2+1.21.1" = _775bsBpl;
-        "default" = _775bsBpl;
+        "pkg-1.5.3+26.2" = _pjeE2UUW;
+        "default" = _pjeE2UUW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "revelationary";

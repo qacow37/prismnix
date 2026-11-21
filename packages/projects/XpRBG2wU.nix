@@ -276,6 +276,16 @@ let
             "file" = "Cross Totem + Music 26.1.2.zip";
             "hash" = "sha512-9mFPWGE6AIk0HqAqIRkID0rLcVO0G2CYnkTrMiZM1gdG605N2v/woTtB3mdIGrzFSm0N4bdODpZec1mtHxGVvA==";
         };
+        _fl3mPUE5 = {
+            "id" = "fl3mPUE5";
+            "file" = "Cross Totem + Music 26.2.zip";
+            "hash" = "sha512-+V2+v7E6F/pfdK6ZN2yXpbredkJgIwFwje63j/obDUdk2O6ZNtDVRVmYQJYJZpDRzjPLnpgavBxXGWPzcCiykQ==";
+        };
+        _eSYTcZuw = {
+            "id" = "eSYTcZuw";
+            "file" = "Cross Totem + Music 26.3.zip";
+            "hash" = "sha512-Q2fTScfqk9ATxKF9+KEht2i+6zLsXr9RnGExdOJn8pJy/gEB+/F1dqPXG8cMebnWYBaVtNt6sM0/gyXZW3d78w==";
+        };
     in {
         "SU1LWDJD" = _SU1LWDJD;
         "naS1nSM1" = _naS1nSM1;
@@ -332,6 +342,8 @@ let
         "Atb9439Z" = _Atb9439Z;
         "SQQwvzRU" = _SQQwvzRU;
         "kWNqweRV" = _kWNqweRV;
+        "fl3mPUE5" = _fl3mPUE5;
+        "eSYTcZuw" = _eSYTcZuw;
         "minecraft-1.21.11" = _SU1LWDJD;
         "minecraft-1.11" = _naS1nSM1;
         "minecraft-1.11.1" = _ho3M7dcH;
@@ -387,6 +399,8 @@ let
         "minecraft-26.1" = _Atb9439Z;
         "minecraft-26.1.1" = _SQQwvzRU;
         "minecraft-26.1.2" = _kWNqweRV;
+        "minecraft-26.2" = _fl3mPUE5;
+        "minecraft-26.3" = _eSYTcZuw;
         "pkg-1.21.11" = _SU1LWDJD;
         "pkg-1.11" = _naS1nSM1;
         "pkg-1.11.1" = _ho3M7dcH;
@@ -442,7 +456,9 @@ let
         "pkg-26.1" = _Atb9439Z;
         "pkg-26.1.1" = _SQQwvzRU;
         "pkg-26.1.2" = _kWNqweRV;
-        "default" = _kWNqweRV;
+        "pkg-26.2" = _fl3mPUE5;
+        "pkg-26.3" = _eSYTcZuw;
+        "default" = _eSYTcZuw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cross-totem";

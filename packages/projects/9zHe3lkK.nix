@@ -1141,6 +1141,81 @@ let
             "file" = "adventureitemnames-neoforge-0.63.0+1.21.1.jar";
             "hash" = "sha512-i1OnDHd/H8zJpX1ZHlN+9V+kBvGsJ3BVqeXCWccLl3aqXafPRGy7WwlunGkUDxYtLuMFn0JodMWpvhyggJ1CVQ==";
         };
+        _dEoJTfph = {
+            "id" = "dEoJTfph";
+            "file" = "adventureitemnames-fabric-0.64.0+1.21.1.jar";
+            "hash" = "sha512-qAcrEQv0Rgun4DDn4eGoZw3QmAccldZl+Xi1k6dUt9YxhtBPAJIJJNGPll/6lmFngBsBk5ceTCSKEVK/RWpXhA==";
+        };
+        _G7Yec08R = {
+            "id" = "G7Yec08R";
+            "file" = "adventureitemnames-fabric-0.64.0+1.20.1.jar";
+            "hash" = "sha512-hOiDxHLI0kgpjxopplWYN56FsYiPEjm6n20WpOPdSIu71Pwq7GQxAInAE//lJCuH17Ac0JMqYUPBFq5pOulpxg==";
+        };
+        _Uz6vils5 = {
+            "id" = "Uz6vils5";
+            "file" = "adventureitemnames-forge-0.64.0+1.21.1.jar";
+            "hash" = "sha512-Mrj9JOOZfqDzh4qqoR/K8SN9ZggXHyC2DELsFb75i7GhP+uU/5iBhW8XPXTvoWa0cG/q7lnfWtKXKQfj5BZo1Q==";
+        };
+        _lP65JmPA = {
+            "id" = "lP65JmPA";
+            "file" = "adventureitemnames-forge-0.64.0+1.20.1.jar";
+            "hash" = "sha512-xmHewA/oktzXUoW7bOY7sOC+szvT7qeNhjv8HN8asAM12L2eRTTqrdeAQID33CKHSilxnqvm7xTM7K73+x74zA==";
+        };
+        _C41yKFlR = {
+            "id" = "C41yKFlR";
+            "file" = "adventureitemnames-neoforge-0.64.0+1.21.1.jar";
+            "hash" = "sha512-pUukoHpV1Hpm6xFjI2IiZ4iWnJgBjiyKKv9vL70S1uPGHp6o1xwELVcLl9VG2JAECSr3YV65QNzHTY9Tjlmq9Q==";
+        };
+        _qGFw2pT5 = {
+            "id" = "qGFw2pT5";
+            "file" = "adventureitemnames-fabric-0.65.0+1.21.1.jar";
+            "hash" = "sha512-JXqmGb7IVELi+nQpeT0wB5j5D6QjVXYr59SfR9HIqFDXmofFOf7GbZSeJluwlMlRDNlSpcUCZAxAwUJNR7IUPQ==";
+        };
+        _aOypQ0tK = {
+            "id" = "aOypQ0tK";
+            "file" = "adventureitemnames-fabric-0.65.0+1.20.1.jar";
+            "hash" = "sha512-gDvh6pmYMh6cIf4cjQ6AkEtCALkZMHEu552BdLxCyySwZWpIKu23GZ8jS+mmpUDCKry0cg/Vi9cF+ACA5C+IfQ==";
+        };
+        _yLy8yaYG = {
+            "id" = "yLy8yaYG";
+            "file" = "adventureitemnames-forge-0.65.0+1.21.1.jar";
+            "hash" = "sha512-HzsBpq494lyDgLxwJkOKbY+vVhDGiP1makXmvgfgSjEpVGzqgP55aLDpSgoij2+/NQVJ+KGH+x9NZsYLBk/b8A==";
+        };
+        _sNGktK2V = {
+            "id" = "sNGktK2V";
+            "file" = "adventureitemnames-forge-0.65.0+1.20.1.jar";
+            "hash" = "sha512-FHoXkEF8kRjquv2vHoxf5tQuVJ4hcgDEfCCwSYrUabW7R7LiGLvWzP0Hja+gnoeoRZ0hrff6epaOcPzCuqgojA==";
+        };
+        _y4YklEXR = {
+            "id" = "y4YklEXR";
+            "file" = "adventureitemnames-neoforge-0.65.0+1.21.1.jar";
+            "hash" = "sha512-3S/NKmjE2WZPxb2KqRLmyYpP1t24F2gu9naHE79DTIBCJT//lLATIp9cad5Ssz8WBSMgh82n4SA8kGHLZ45UHg==";
+        };
+        _vQlQeJLD = {
+            "id" = "vQlQeJLD";
+            "file" = "adventureitemnames-fabric-0.66.0+1.21.1.jar";
+            "hash" = "sha512-XP8eqj8sLyPh0zdFKypKSMCPb0PnYcMzmFkH24zfyWt0q5fl1GiqhPzN+Gzo3T0y4idALQiZf5q7E4RwtvF64g==";
+        };
+        _gKpIf6sZ = {
+            "id" = "gKpIf6sZ";
+            "file" = "adventureitemnames-fabric-0.66.0+1.20.1.jar";
+            "hash" = "sha512-FGdRBHzYzZjmfAe94eLRD7jEsKsEJlnLqxFwLc/Rho3W+uJd7laU3JcJ0SMciZsGACIGT0goCNFK3pENJyClhw==";
+        };
+        _ArUop696 = {
+            "id" = "ArUop696";
+            "file" = "adventureitemnames-forge-0.66.0+1.21.1.jar";
+            "hash" = "sha512-mbSAQ3MjeeBMaidGZx+ZbiTuXXXLCB9GWERiwEL8aPRz9hpc8f0WsVC2Z6SNUTT1P7BtF4PxnEl+1mgx4pc6Zg==";
+        };
+        _z9GUFuJ4 = {
+            "id" = "z9GUFuJ4";
+            "file" = "adventureitemnames-forge-0.66.0+1.20.1.jar";
+            "hash" = "sha512-xD3KPsvEMTm8Cv4M/GWO1jjU8R9ie5c10jk5eKivz5fl6XdIQEaCFMoXKl4cq932cRBEP04nmyptQ7B+PeBj3Q==";
+        };
+        _XfOc18V3 = {
+            "id" = "XfOc18V3";
+            "file" = "adventureitemnames-neoforge-0.66.0+1.21.1.jar";
+            "hash" = "sha512-G/EM432A9U93f8rRpI3bz48lj5CjjGpKrh/RVpbK3LvS9ivuS4PXY9qNsNSltpi28J9SUToNZBVncuAdpMSZTg==";
+        };
     in {
         "HVE4b4Us" = _HVE4b4Us;
         "mBBkiZEr" = _mBBkiZEr;
@@ -1370,11 +1445,26 @@ let
         "ZXuYLgxV" = _ZXuYLgxV;
         "O9Eu96mL" = _O9Eu96mL;
         "x8UoraGJ" = _x8UoraGJ;
-        "neoforge-1.21.1" = _x8UoraGJ;
-        "fabric-1.21.1" = _5A2WNNle;
-        "fabric-1.20.1" = _yagXlHGp;
-        "forge-1.21.1" = _ZXuYLgxV;
-        "forge-1.20.1" = _O9Eu96mL;
+        "dEoJTfph" = _dEoJTfph;
+        "G7Yec08R" = _G7Yec08R;
+        "Uz6vils5" = _Uz6vils5;
+        "lP65JmPA" = _lP65JmPA;
+        "C41yKFlR" = _C41yKFlR;
+        "qGFw2pT5" = _qGFw2pT5;
+        "aOypQ0tK" = _aOypQ0tK;
+        "yLy8yaYG" = _yLy8yaYG;
+        "sNGktK2V" = _sNGktK2V;
+        "y4YklEXR" = _y4YklEXR;
+        "vQlQeJLD" = _vQlQeJLD;
+        "gKpIf6sZ" = _gKpIf6sZ;
+        "ArUop696" = _ArUop696;
+        "z9GUFuJ4" = _z9GUFuJ4;
+        "XfOc18V3" = _XfOc18V3;
+        "neoforge-1.21.1" = _XfOc18V3;
+        "fabric-1.21.1" = _vQlQeJLD;
+        "fabric-1.20.1" = _gKpIf6sZ;
+        "forge-1.21.1" = _ArUop696;
+        "forge-1.20.1" = _z9GUFuJ4;
         "pkg-0.1.0" = _HVE4b4Us;
         "pkg-v0.1.2" = _mBBkiZEr;
         "pkg-v0.1.3" = _Cdy2nn3e;
@@ -1600,7 +1690,22 @@ let
         "pkg-v0.63.0+forge-1.21.1" = _ZXuYLgxV;
         "pkg-v0.63.0+forge-1.20.1" = _O9Eu96mL;
         "pkg-v0.63.0+neoforge-1.21.1" = _x8UoraGJ;
-        "default" = _x8UoraGJ;
+        "pkg-v0.64.0+fabric-1.21.1" = _dEoJTfph;
+        "pkg-v0.64.0+fabric-1.20.1" = _G7Yec08R;
+        "pkg-v0.64.0+forge-1.21.1" = _Uz6vils5;
+        "pkg-v0.64.0+forge-1.20.1" = _lP65JmPA;
+        "pkg-v0.64.0+neoforge-1.21.1" = _C41yKFlR;
+        "pkg-v0.65.0+fabric-1.21.1" = _qGFw2pT5;
+        "pkg-v0.65.0+fabric-1.20.1" = _aOypQ0tK;
+        "pkg-v0.65.0+forge-1.21.1" = _yLy8yaYG;
+        "pkg-v0.65.0+forge-1.20.1" = _sNGktK2V;
+        "pkg-v0.65.0+neoforge-1.21.1" = _y4YklEXR;
+        "pkg-v0.66.0+fabric-1.21.1" = _vQlQeJLD;
+        "pkg-v0.66.0+fabric-1.20.1" = _gKpIf6sZ;
+        "pkg-v0.66.0+forge-1.21.1" = _ArUop696;
+        "pkg-v0.66.0+forge-1.20.1" = _z9GUFuJ4;
+        "pkg-v0.66.0+neoforge-1.21.1" = _XfOc18V3;
+        "default" = _XfOc18V3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "adventureitemnames";

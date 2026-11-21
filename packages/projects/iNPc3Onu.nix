@@ -1836,6 +1836,21 @@ let
             "file" = "NotEnoughItems-2.9.10-GTNH.jar";
             "hash" = "sha512-BfpLDcfZksEJ+mLa/RjevnpilYlEG3GrJujS4cdtQ7afoVZqzVEAti5+F6Jht427CIAUcMAf9CBFQtqqte/1YQ==";
         };
+        _BbvSkP0A = {
+            "id" = "BbvSkP0A";
+            "file" = "NotEnoughItems-2.9.11-GTNH.jar";
+            "hash" = "sha512-XVU493D+fn6DOwpopozfp9SkDG3R5ysmTBcAyh03sB/U6rgdjgTtoomZeTR7ZffPQWz6GroqtuVQU7oIECgCRg==";
+        };
+        _xOhXVAJF = {
+            "id" = "xOhXVAJF";
+            "file" = "NotEnoughItems-2.9.12-GTNH.jar";
+            "hash" = "sha512-J4PLPfupxCJ8mmJtISG/1aon2SXb3JiCbJyamdrr2DJc+JyiaCHqRvMuQRQuCFr16oBO/PcyZOAZq3SY5EWoZg==";
+        };
+        _cI05UBx0 = {
+            "id" = "cI05UBx0";
+            "file" = "NotEnoughItems-2.8.175-GTNH.jar";
+            "hash" = "sha512-5TEDFr6AxEsLgbPehUzcnpv7SZ5pXKz9vgbBXw3OlPzf+vCnsC500AV56ZehfS8L55xBV6TgzAzENTBF44s8+w==";
+        };
     in {
         "bdLObler" = _bdLObler;
         "BwC1togv" = _BwC1togv;
@@ -2204,7 +2219,10 @@ let
         "fxRtDXzT" = _fxRtDXzT;
         "nEcZKqkB" = _nEcZKqkB;
         "W8kcdfvS" = _W8kcdfvS;
-        "forge-1.7.10" = _W8kcdfvS;
+        "BbvSkP0A" = _BbvSkP0A;
+        "xOhXVAJF" = _xOhXVAJF;
+        "cI05UBx0" = _cI05UBx0;
+        "forge-1.7.10" = _cI05UBx0;
         "pkg-2.2.14-GTNH" = _bdLObler;
         "pkg-2.3.7-GTNH" = _BwC1togv;
         "pkg-2.3.10-GTNH" = _IFqJJuIT;
@@ -2571,7 +2589,10 @@ let
         "pkg-2.9.8-GTNH" = _fxRtDXzT;
         "pkg-2.9.9-GTNH" = _nEcZKqkB;
         "pkg-2.9.10-GTNH" = _W8kcdfvS;
-        "default" = _W8kcdfvS;
+        "pkg-2.9.11-GTNH" = _BbvSkP0A;
+        "pkg-2.9.12-GTNH" = _xOhXVAJF;
+        "pkg-2.8.175-GTNH" = _cI05UBx0;
+        "default" = _cI05UBx0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "notenoughitems-unofficial";

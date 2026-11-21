@@ -91,6 +91,46 @@ let
             "file" = "custom-dimensions-1.3.1.jar";
             "hash" = "sha512-RoPa8CyQL4YCgMDiASkuvV5/OG0KMbUBrjvF8+eWfOf0I/kYVv1Cp3nqYUPgxIJctPqp/PGlwt1KokCAefFLBg==";
         };
+        _WK1eHiM6 = {
+            "id" = "WK1eHiM6";
+            "file" = "custom-dimensions-1.0.0-worldgen-beta-mc1.21.x.jar";
+            "hash" = "sha512-LUUZiHpPvsYL08lbsKSBubNYNPUMWcH2ThNdhBvGiaDWI7Kxz2iiNUc2ibT7xQdLrI3grQ81jPxHOmVYMCF/8Q==";
+        };
+        _pav3YsDR = {
+            "id" = "pav3YsDR";
+            "file" = "custom-dimensions-1.0.0-worldgen-beta-mc26.1.x.jar";
+            "hash" = "sha512-sokVNoxmlGnpPkOx4KinCUhGEZ9L4ErKBdM7m4Sdd3ocCFt/sDJNlEcCI9hYD0dUgal2jodkt386S+8HszZgPQ==";
+        };
+        _ljlkac4R = {
+            "id" = "ljlkac4R";
+            "file" = "custom-dimensions-1.0.0-worldgen-beta-mc26.2.jar";
+            "hash" = "sha512-EL6YY4X2ic4mRHkLLFWux+VxCOpZ5qUHL7aTPdYNsdAC+brRId49y1WcIiKZJZaS1yu+4IVpZhhz/zE6D2Lfrg==";
+        };
+        _3rF1CxN2 = {
+            "id" = "3rF1CxN2";
+            "file" = "custom-dimensions-1.0.0-worldgen-beta-mc26.3.jar";
+            "hash" = "sha512-HOqR08CXR6sVrEtKzwuSxlZb3KfnKVOZovvtzOJeSKuR88B3s8KLMmYS088UOki4q0nbhQ2ZBPc4/F6uAowVWA==";
+        };
+        _FO4uGHG7 = {
+            "id" = "FO4uGHG7";
+            "file" = "custom-dimensions-mc1.21.x-1.4.0-beta.2.jar";
+            "hash" = "sha512-qOAzm7CZjIEb13vZjZ4oAn4ZAb8WDGul4RT+cC40zw2vtXBTwSoVSis8hKcAC9WLwpV00wKV0pwLw57Losg5+Q==";
+        };
+        _uMLrzqaR = {
+            "id" = "uMLrzqaR";
+            "file" = "custom-dimensions-mc26.1.x-1.4.0-beta.2.jar";
+            "hash" = "sha512-leigtUKuuEYGno37x5QIPXG10DZzW4ruXydMS6CfQOwNDIEqsFqFBAeINPpYm9YGhjN7LRLWGTcXdiYNzdY+pA==";
+        };
+        _bEEEsKlY = {
+            "id" = "bEEEsKlY";
+            "file" = "custom-dimensions-mc26.2-1.4.0-beta.2.jar";
+            "hash" = "sha512-4zvvewLfGnEDiBDV37SfC43PCe0Q3IPnHXiLvBV01BiLLJ2kcRWGwqDHGXpAVMGm1W1i4wTjAMH5aE/SRJeVzA==";
+        };
+        _EecfWpFc = {
+            "id" = "EecfWpFc";
+            "file" = "custom-dimensions-mc26.3-1.4.0-beta.2.jar";
+            "hash" = "sha512-dQINl2ozfgihuARnoPc/9U4bRN2MJz1jfZfU1FtjCSg8+0saFqP8hN0rx4fKZyqEayjalFNQm/gDaQ5WCnxn6A==";
+        };
     in {
         "q2yghwoo" = _q2yghwoo;
         "1ZsPu2Wm" = _1ZsPu2Wm;
@@ -110,30 +150,39 @@ let
         "sRJS27yD" = _sRJS27yD;
         "PI6bASPn" = _PI6bASPn;
         "5zIy2d4l" = _5zIy2d4l;
-        "fabric-1.21.11" = _lGsjB9UU;
-        "fabric-26.2" = _PI6bASPn;
-        "fabric-26.1" = _sRJS27yD;
-        "fabric-26.1.1" = _sRJS27yD;
-        "fabric-26.1.2" = _sRJS27yD;
-        "fabric-1.21" = _lGsjB9UU;
-        "fabric-1.21.1" = _lGsjB9UU;
-        "fabric-1.21.2" = _lGsjB9UU;
-        "fabric-1.21.3" = _lGsjB9UU;
-        "fabric-1.21.4" = _lGsjB9UU;
-        "fabric-1.21.5" = _lGsjB9UU;
-        "fabric-1.21.6" = _lGsjB9UU;
-        "fabric-1.21.7" = _lGsjB9UU;
-        "fabric-1.21.8" = _lGsjB9UU;
-        "fabric-1.21.9" = _lGsjB9UU;
-        "fabric-1.21.10" = _lGsjB9UU;
-        "fabric-26.3" = _5zIy2d4l;
+        "WK1eHiM6" = _WK1eHiM6;
+        "pav3YsDR" = _pav3YsDR;
+        "ljlkac4R" = _ljlkac4R;
+        "3rF1CxN2" = _3rF1CxN2;
+        "FO4uGHG7" = _FO4uGHG7;
+        "uMLrzqaR" = _uMLrzqaR;
+        "bEEEsKlY" = _bEEEsKlY;
+        "EecfWpFc" = _EecfWpFc;
+        "fabric-1.21.11" = _FO4uGHG7;
+        "fabric-26.2" = _bEEEsKlY;
+        "fabric-26.1" = _uMLrzqaR;
+        "fabric-26.1.1" = _uMLrzqaR;
+        "fabric-26.1.2" = _uMLrzqaR;
+        "fabric-1.21" = _FO4uGHG7;
+        "fabric-1.21.1" = _FO4uGHG7;
+        "fabric-1.21.2" = _FO4uGHG7;
+        "fabric-1.21.3" = _FO4uGHG7;
+        "fabric-1.21.4" = _FO4uGHG7;
+        "fabric-1.21.5" = _FO4uGHG7;
+        "fabric-1.21.6" = _FO4uGHG7;
+        "fabric-1.21.7" = _FO4uGHG7;
+        "fabric-1.21.8" = _FO4uGHG7;
+        "fabric-1.21.9" = _FO4uGHG7;
+        "fabric-1.21.10" = _FO4uGHG7;
+        "fabric-26.3" = _EecfWpFc;
         "pkg-1.0" = _q2yghwoo;
-        "pkg-1.0.0" = _dUVY8Eps;
+        "pkg-1.0.0" = _3rF1CxN2;
         "pkg-1.0.1" = _Ev6IIprG;
         "pkg-1.2.1" = _MaQg1Snn;
         "pkg-1.3.0" = _bRWptGly;
         "pkg-1.3.1" = _5zIy2d4l;
-        "default" = _5zIy2d4l;
+        "pkg-1.4.0-beta.2" = _EecfWpFc;
+        "default" = _EecfWpFc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-dimensions";

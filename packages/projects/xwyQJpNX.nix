@@ -91,6 +91,16 @@ let
             "file" = "Forager-ExtraMobsFA 26.1+.zip";
             "hash" = "sha512-+ce6v3mFvvTSmTD1GhnLTTpr0s2ozZSJdhPeROPB7GcBOTrMkB2hKocf3Oi/HbJFO+oAVy8CPY+SC9DOOdwCRA==";
         };
+        _MqNCGhR4 = {
+            "id" = "MqNCGhR4";
+            "file" = "Forager-FA 1.20+.zip";
+            "hash" = "sha512-zUT2aCX2wJOw+6dfuTeu5KCOaaKWCfbvwWUofty0LYgSrGOX35d0giMON+RscJCEWL5jIC2nEpo1cjtBtgQMKQ==";
+        };
+        _iA4Jvi0P = {
+            "id" = "iA4Jvi0P";
+            "file" = "Forager-ExtraMobsFA 1.20+.zip";
+            "hash" = "sha512-FvZB/YeKoF8GdCNaAg+TIUVxsPLgRJ5sXXUGQh2OcqfGZGIKoRZUcew8WOvMpqFd1nimwjbNc3Xc8zGnEcwDNQ==";
+        };
     in {
         "B8kkxM9n" = _B8kkxM9n;
         "4n22TO77" = _4n22TO77;
@@ -110,26 +120,28 @@ let
         "uHzlvTXD" = _uHzlvTXD;
         "F3Tf2m6N" = _F3Tf2m6N;
         "Owr9KrNu" = _Owr9KrNu;
+        "MqNCGhR4" = _MqNCGhR4;
+        "iA4Jvi0P" = _iA4Jvi0P;
         "minecraft-1.19.4" = _uHzlvTXD;
-        "minecraft-1.20" = _uHzlvTXD;
-        "minecraft-1.20.1" = _uHzlvTXD;
-        "minecraft-1.20.2" = _uHzlvTXD;
-        "minecraft-1.20.3" = _uHzlvTXD;
-        "minecraft-1.20.4" = _uHzlvTXD;
-        "minecraft-1.20.5" = _uHzlvTXD;
-        "minecraft-1.20.6" = _uHzlvTXD;
-        "minecraft-1.21" = _uHzlvTXD;
-        "minecraft-1.21.1" = _uHzlvTXD;
-        "minecraft-1.21.2" = _uHzlvTXD;
-        "minecraft-1.21.3" = _uHzlvTXD;
-        "minecraft-1.21.4" = _uHzlvTXD;
-        "minecraft-1.21.5" = _uHzlvTXD;
-        "minecraft-1.21.6" = _uHzlvTXD;
-        "minecraft-1.21.7" = _uHzlvTXD;
-        "minecraft-1.21.8" = _uHzlvTXD;
-        "minecraft-1.21.9" = _uHzlvTXD;
-        "minecraft-1.21.10" = _uHzlvTXD;
-        "minecraft-1.21.11" = _uHzlvTXD;
+        "minecraft-1.20" = _iA4Jvi0P;
+        "minecraft-1.20.1" = _iA4Jvi0P;
+        "minecraft-1.20.2" = _iA4Jvi0P;
+        "minecraft-1.20.3" = _iA4Jvi0P;
+        "minecraft-1.20.4" = _iA4Jvi0P;
+        "minecraft-1.20.5" = _iA4Jvi0P;
+        "minecraft-1.20.6" = _iA4Jvi0P;
+        "minecraft-1.21" = _iA4Jvi0P;
+        "minecraft-1.21.1" = _iA4Jvi0P;
+        "minecraft-1.21.2" = _iA4Jvi0P;
+        "minecraft-1.21.3" = _iA4Jvi0P;
+        "minecraft-1.21.4" = _iA4Jvi0P;
+        "minecraft-1.21.5" = _iA4Jvi0P;
+        "minecraft-1.21.6" = _iA4Jvi0P;
+        "minecraft-1.21.7" = _iA4Jvi0P;
+        "minecraft-1.21.8" = _iA4Jvi0P;
+        "minecraft-1.21.9" = _iA4Jvi0P;
+        "minecraft-1.21.10" = _iA4Jvi0P;
+        "minecraft-1.21.11" = _iA4Jvi0P;
         "minecraft-26.1" = _Owr9KrNu;
         "minecraft-26.1.1" = _Owr9KrNu;
         "minecraft-26.1.2" = _Owr9KrNu;
@@ -140,9 +152,9 @@ let
         "pkg-Forager-BushyLeaves" = _ufl11AzP;
         "pkg-Forager-ConnectedTextures" = _hVdu2Q4w;
         "pkg-Forager-Extra3D" = _uHzlvTXD;
-        "pkg-Forager-FreshAnimations" = _F3Tf2m6N;
-        "pkg-Forager-ExtraMobsFreshAnimations" = _Owr9KrNu;
-        "default" = _Owr9KrNu;
+        "pkg-Forager-FreshAnimations" = _MqNCGhR4;
+        "pkg-Forager-ExtraMobsFreshAnimations" = _iA4Jvi0P;
+        "default" = _iA4Jvi0P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forager-add-ons";

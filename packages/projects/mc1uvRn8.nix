@@ -306,6 +306,26 @@ let
             "file" = "Origins-Legacy-1.12.20+26.3.jar";
             "hash" = "sha512-nVE8dDsq7lif6r0LA8LZOw3sQLS6Olr863b726Vs9FZfhP5MqeswRYM+bQHxwiQ9p7zcFqQQExs480VD/aF3qw==";
         };
+        _DkkxYbXy = {
+            "id" = "DkkxYbXy";
+            "file" = "Origins-Legacy-1.12.21+26.3.jar";
+            "hash" = "sha512-hSFLmjBjrlw+9etoo7NJxr7wpHVzD3mImmFiV4IUXg8ikzwofmDCzyxeixrznA6wPbvPJzGRmxcTPVKZAkWagw==";
+        };
+        _UKXPjMl8 = {
+            "id" = "UKXPjMl8";
+            "file" = "Origins-Legacy-1.12.20+26.2.jar";
+            "hash" = "sha512-QmxpkBpyQ1Oe8vd+CEPyJcXaU+SJ0fJiqPgwauFrq/KQEU7DnbVWs5o4UAyVyRVaJm8Du9Z49UCIO4ZBnRHG9g==";
+        };
+        _7vL4o3Vs = {
+            "id" = "7vL4o3Vs";
+            "file" = "Origins-Legacy-1.12.21+26.1.2.jar";
+            "hash" = "sha512-eZW7jcvEZAUjPs4i9enUQn5V7oaQXZhP5k0SIqF63RUatEy3PKQT+yGaocGKlYG5kiVHoYnwzoSbFjlj1l5Z1w==";
+        };
+        _qAIXpJ3m = {
+            "id" = "qAIXpJ3m";
+            "file" = "Origins-Legacy-1.12.18+1.21.11.jar";
+            "hash" = "sha512-RmrQi7apcmZA8ZaIDddhGpYR//5y/W9t2B0QVNVVAjnsfrWaExcPpQRmiMuJKtKKmWS2vHrWGcJvd+0tajhJ/g==";
+        };
     in {
         "fCnoEmHk" = _fCnoEmHk;
         "CzAIa7D3" = _CzAIa7D3;
@@ -368,17 +388,21 @@ let
         "NewIs2H1" = _NewIs2H1;
         "wB31kXV3" = _wB31kXV3;
         "7CqsxVdL" = _7CqsxVdL;
+        "DkkxYbXy" = _DkkxYbXy;
+        "UKXPjMl8" = _UKXPjMl8;
+        "7vL4o3Vs" = _7vL4o3Vs;
+        "qAIXpJ3m" = _qAIXpJ3m;
         "fabric-1.21.5" = _AwSwxNDd;
         "fabric-1.21.1" = _VeuMEQvA;
-        "fabric-1.21.11" = _91Kplowz;
+        "fabric-1.21.11" = _qAIXpJ3m;
         "fabric-1.21.6" = _71s9ewRb;
         "fabric-1.21.7" = _aFkhvKlh;
         "fabric-1.21.8" = _71s9ewRb;
-        "fabric-26.1" = _wB31kXV3;
-        "fabric-26.1.1" = _wB31kXV3;
-        "fabric-26.1.2" = _wB31kXV3;
-        "fabric-26.2" = _8vVu8FGY;
-        "fabric-26.3" = _7CqsxVdL;
+        "fabric-26.1" = _7vL4o3Vs;
+        "fabric-26.1.1" = _7vL4o3Vs;
+        "fabric-26.1.2" = _7vL4o3Vs;
+        "fabric-26.2" = _UKXPjMl8;
+        "fabric-26.3" = _DkkxYbXy;
         "pkg-1.10.0+1.21.5" = _fCnoEmHk;
         "pkg-1.10.0+1.21.1" = _CzAIa7D3;
         "pkg-1.10.1+1.21.5" = _VWFWmpam;
@@ -440,7 +464,11 @@ let
         "pkg-1.12.19+26.3" = _NewIs2H1;
         "pkg-1.12.20+26.1.2" = _wB31kXV3;
         "pkg-1.12.20+26.3" = _7CqsxVdL;
-        "default" = _7CqsxVdL;
+        "pkg-1.12.21+26.3" = _DkkxYbXy;
+        "pkg-1.12.20+26.2" = _UKXPjMl8;
+        "pkg-1.12.21+26.1.2" = _7vL4o3Vs;
+        "pkg-1.12.18+1.21.11" = _qAIXpJ3m;
+        "default" = _qAIXpJ3m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "origins-legacy";

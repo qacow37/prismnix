@@ -356,6 +356,141 @@ let
             "file" = "mochipets-0.25.0+26.3.jar";
             "hash" = "sha512-aTqMv7SSXhGvJSGSP9Djcj4Sr+/BDUm9j4NslIls933cVAho5mSZtGR7ccXTt8smrI5/ZPL5XqsO8WfxLyWP/w==";
         };
+        _BBJQq4YU = {
+            "id" = "BBJQq4YU";
+            "file" = "mochipets-0.27.0.jar";
+            "hash" = "sha512-xCqIa5TqFDvdi93vIu8ewxIf73NV2Mz43zbzwxaorb9L3Icuvt/XkWQHXOSYc9N8Z6vJ6d8tjZk+j/cWX32joA==";
+        };
+        _znyGP2n5 = {
+            "id" = "znyGP2n5";
+            "file" = "mochipets-0.27.0+26.2.jar";
+            "hash" = "sha512-W2LLiiCRtoSfZ1GiAGvzp4QufUfMRLUBKNiizmsa3dgqQHo1m2jbTpWOS5RHMKHe9izzRwG8IxbApYIDoLAL6g==";
+        };
+        _hBXQtwvU = {
+            "id" = "hBXQtwvU";
+            "file" = "mochipets-0.27.0+26.3.jar";
+            "hash" = "sha512-wXfPSmg2ysmFYpQbdbdU5wSyq3QdEaBHAvYSnBoX9tWMoVod5Ig+RCpzMk/ALDn0AnwWVnfgdtiYJqPFkfAO+w==";
+        };
+        _vzwPuUeg = {
+            "id" = "vzwPuUeg";
+            "file" = "mochipets-0.28.0.jar";
+            "hash" = "sha512-whXMNG5REDiIkRzefzFt236/5iZvmBHh+p5EjKKOIEAybDMQTP4/5mL69Xp61HZX2d9VwhHS7sK5s/0r7TQtRw==";
+        };
+        _JOJWsVzS = {
+            "id" = "JOJWsVzS";
+            "file" = "mochipets-0.28.0+26.2.jar";
+            "hash" = "sha512-iFlkL4KTL+D5mxFY8XO1PXF11UO4ZgrsWm0gKI7a3F5nrlsJBiduAt4ZSP/uQKF8bZHgmPa252cZ//oHsLa6ng==";
+        };
+        _T2XlJVed = {
+            "id" = "T2XlJVed";
+            "file" = "mochipets-0.28.0+26.3.jar";
+            "hash" = "sha512-AJFLK8gI+tX0pMHnxcthePH4mixytPZp0A7GavbphdQ6pm4O+kwZokceT0bfLPr4Qy3OpMZF5MzvgLEsWhqcvQ==";
+        };
+        _yXTYrKRs = {
+            "id" = "yXTYrKRs";
+            "file" = "mochipets-0.28.1.jar";
+            "hash" = "sha512-kkBsATlmdp0E2p54VdlxAGQy/I7jL/z0oi7ESSTOVjtEUiRYQFP+QBNVWGHnCg7vXnB8RDTXNm4hKuN0VZZhdg==";
+        };
+        _N2pL16ma = {
+            "id" = "N2pL16ma";
+            "file" = "mochipets-0.28.1+26.2.jar";
+            "hash" = "sha512-RtP/q92p3tkHgOdV26Scr1Bk0o72kxJqhzNHHrlWtKrc4EcYg+pGSPul3EKFnH6XesEdxd99eNSRG7yJLGfRDA==";
+        };
+        _PvpIsDDn = {
+            "id" = "PvpIsDDn";
+            "file" = "mochipets-0.28.1+26.3.jar";
+            "hash" = "sha512-68tTWc31bl/dB5xpzFUc4PvzpcBWzgX+OARf7pO1b6UVbK2AaRNbTQ+8wEtNNjJXGumHGRD912YeiZtFOZtJdA==";
+        };
+        _uuGO93TL = {
+            "id" = "uuGO93TL";
+            "file" = "mochipets-0.28.2.jar";
+            "hash" = "sha512-fXUAEyZ3E7Vgf8QAQQwUbDxH+mMp8Ip5cHovhDUKvgndDnkUp2PrrWjCFXawqIDfywRTM3xMA8Z+dzNln7IBrQ==";
+        };
+        _VRpLErxl = {
+            "id" = "VRpLErxl";
+            "file" = "mochipets-0.28.2+26.2.jar";
+            "hash" = "sha512-fdul8dtlvYLCSYfTFn61JpmJbD5t2D3xj4MszcA8SUcl71uQuOxoPxz8PbVU5/ymuSzrnJGbSJ8+oYiL+BxoYw==";
+        };
+        _TCBvNotT = {
+            "id" = "TCBvNotT";
+            "file" = "mochipets-0.28.2+26.3.jar";
+            "hash" = "sha512-x8ux2RKZDKp7veSa+OZ2eJv8zeL5zZZVvqmrLovf3p11/cCWPO1S3eJIktiOUBqb5lTULVCeIT7crCsii9Zu5Q==";
+        };
+        _7l3jiyds = {
+            "id" = "7l3jiyds";
+            "file" = "mochipets-0.29.0.jar";
+            "hash" = "sha512-yh5i4nn7T4+yONVA63v9g9scqWB3qcyx1/EurwMvjnlOsurtLySIvIngxCsSmZuLq+LF9tQ9KoFY8mu7xvxTCA==";
+        };
+        _bARfhE6y = {
+            "id" = "bARfhE6y";
+            "file" = "mochipets-0.29.0+26.2.jar";
+            "hash" = "sha512-vUBr8Mb1B6wePuAZ/QK4SD1CzBGdWH8MmFuSZQORfwiIV2UZTBjiNlibow8yMU/jbQKGuT9M4tEhJJsVrDzEYQ==";
+        };
+        _fJ4FI5ue = {
+            "id" = "fJ4FI5ue";
+            "file" = "mochipets-0.29.0+26.3.jar";
+            "hash" = "sha512-Bu6GLvz9ZHRduT/b5upntSlmrIqJBubBWN+UfdbF2URUK3wevR5yakc5bmLZhhxiAC8RxPKBrBKR/h2CId2K+Q==";
+        };
+        _198ZgxBk = {
+            "id" = "198ZgxBk";
+            "file" = "mochipets-0.30.0.jar";
+            "hash" = "sha512-8jT4YYFCOF5XLDNA5blfRUa2fDFjXrx64CIi6foQb1Lvq16dPA+WoA6MXGYUiU14btyCTg9b7IJ+8NHV67vI7A==";
+        };
+        _g0y5bBIm = {
+            "id" = "g0y5bBIm";
+            "file" = "mochipets-0.30.0+26.2.jar";
+            "hash" = "sha512-VG21pD73j+MpkoN8zi9JWYHMYy4w6U7oc1iQXuueiLOdFru7D1HEXdO61vY/Ovzk2eHPxcoJISwMX6ML9+UhHQ==";
+        };
+        _u13rmBxc = {
+            "id" = "u13rmBxc";
+            "file" = "mochipets-0.30.0+26.3.jar";
+            "hash" = "sha512-f707K+kFUUvU3e95sDs9bBwfQeOLR82lVAgCuerbzG5jjnGu4zozHrkhP69OS0Qfwn94T1PFAdhQK0WduGoHKg==";
+        };
+        _j3RmN1p0 = {
+            "id" = "j3RmN1p0";
+            "file" = "mochipets-0.30.1.jar";
+            "hash" = "sha512-f8P82s+izex5/gfmD6bYrmMXpHsO8KQBOWGKA04Pi7mh0kWvk6LJ4qU5rqjEulgSlVSVmOQACdHZrJZ0w74Bng==";
+        };
+        _aG0Ognnc = {
+            "id" = "aG0Ognnc";
+            "file" = "mochipets-0.30.1+26.2.jar";
+            "hash" = "sha512-ojlUwymZ+7UvzmtiVFmb/a9aJRvbnzbxEKbCMajqxyIXHkSVc7v4ryO2DRlBxKKoAF8GDV5YEIz3Oq6UyyWuzQ==";
+        };
+        _dx7l61TG = {
+            "id" = "dx7l61TG";
+            "file" = "mochipets-0.30.1+26.3.jar";
+            "hash" = "sha512-ls1Xc0Pl52B8KpYt6L4MwqFz15iB3K2renWBVw2h2kPm6GGZ87Q9Qr7gzIjzRlJjrBwNvG4SZJ4fBzNR2j6+pA==";
+        };
+        _LqINQ19I = {
+            "id" = "LqINQ19I";
+            "file" = "mochipets-0.31.0.jar";
+            "hash" = "sha512-08fKv6HvZUHhmdG39HFCGhEcXW3lf876UuD4XWktOQnPNuVsFe++MsEew9XuYWU8TYZ8GwQABM640pYpNS1Anw==";
+        };
+        _58uwdzpE = {
+            "id" = "58uwdzpE";
+            "file" = "mochipets-0.31.0+26.2.jar";
+            "hash" = "sha512-DDPKn6O1B+sxAHb4LPfkecfgfat1rfLmyQTYgtYW+7PpICtE7+HyvLoTiXoJrUrpir5qtLY3hEAHLYUKz629FA==";
+        };
+        _vYNkdrT4 = {
+            "id" = "vYNkdrT4";
+            "file" = "mochipets-0.31.0+26.3.jar";
+            "hash" = "sha512-b6j6Wd3HW3XsuH5S7ISwSxiBTwKCDylxwI1XYtYzXGlnYwB9wpLQGCC5//p2Q3gvfA6Taa7shveWRN4u57ygHg==";
+        };
+        _4BnMOjfm = {
+            "id" = "4BnMOjfm";
+            "file" = "mochipets-0.31.1.jar";
+            "hash" = "sha512-EhpEZy2JgDJ02jzQ3xdKneRgQ2Xbcsrnu8lJ5BS+fNoMiUT/7Wc4v0iorTBO6+SP2DTbThUtECBZvKRe923MPg==";
+        };
+        _5w54CXWb = {
+            "id" = "5w54CXWb";
+            "file" = "mochipets-0.31.1+26.2.jar";
+            "hash" = "sha512-OsNtG3daJYP0HThCUdTuUeP7d9XuCi95vt6aAYK7llgyDUEy5LmFA8E4JiwL/2dTvujQ6kyNlm+BGRhCiXCpEA==";
+        };
+        _6ZRxn4Tv = {
+            "id" = "6ZRxn4Tv";
+            "file" = "mochipets-0.31.1+26.3.jar";
+            "hash" = "sha512-KVc35+3YNdiUunMCbpKeOJK67mOaEG6+0sK419B9/shNKW7Y+ejSLIMv1zO3CgBq/3MJda/oFJ5zxoy7LxCpAA==";
+        };
     in {
         "GM5Gquye" = _GM5Gquye;
         "YqD6tHAw" = _YqD6tHAw;
@@ -428,9 +563,36 @@ let
         "U8eZZFeB" = _U8eZZFeB;
         "b3wGu86r" = _b3wGu86r;
         "MxkKLJDZ" = _MxkKLJDZ;
-        "fabric-26.1.2" = _U8eZZFeB;
-        "fabric-26.2" = _b3wGu86r;
-        "fabric-26.3" = _MxkKLJDZ;
+        "BBJQq4YU" = _BBJQq4YU;
+        "znyGP2n5" = _znyGP2n5;
+        "hBXQtwvU" = _hBXQtwvU;
+        "vzwPuUeg" = _vzwPuUeg;
+        "JOJWsVzS" = _JOJWsVzS;
+        "T2XlJVed" = _T2XlJVed;
+        "yXTYrKRs" = _yXTYrKRs;
+        "N2pL16ma" = _N2pL16ma;
+        "PvpIsDDn" = _PvpIsDDn;
+        "uuGO93TL" = _uuGO93TL;
+        "VRpLErxl" = _VRpLErxl;
+        "TCBvNotT" = _TCBvNotT;
+        "7l3jiyds" = _7l3jiyds;
+        "bARfhE6y" = _bARfhE6y;
+        "fJ4FI5ue" = _fJ4FI5ue;
+        "198ZgxBk" = _198ZgxBk;
+        "g0y5bBIm" = _g0y5bBIm;
+        "u13rmBxc" = _u13rmBxc;
+        "j3RmN1p0" = _j3RmN1p0;
+        "aG0Ognnc" = _aG0Ognnc;
+        "dx7l61TG" = _dx7l61TG;
+        "LqINQ19I" = _LqINQ19I;
+        "58uwdzpE" = _58uwdzpE;
+        "vYNkdrT4" = _vYNkdrT4;
+        "4BnMOjfm" = _4BnMOjfm;
+        "5w54CXWb" = _5w54CXWb;
+        "6ZRxn4Tv" = _6ZRxn4Tv;
+        "fabric-26.1.2" = _4BnMOjfm;
+        "fabric-26.2" = _5w54CXWb;
+        "fabric-26.3" = _6ZRxn4Tv;
         "pkg-0.1.0" = _GM5Gquye;
         "pkg-0.2.0" = _YqD6tHAw;
         "pkg-0.2.1" = _4pgsR5j6;
@@ -502,7 +664,34 @@ let
         "pkg-0.25.0" = _U8eZZFeB;
         "pkg-0.25.0+26.2" = _b3wGu86r;
         "pkg-0.25.0+26.3" = _MxkKLJDZ;
-        "default" = _MxkKLJDZ;
+        "pkg-0.27.0" = _BBJQq4YU;
+        "pkg-0.27.0+26.2" = _znyGP2n5;
+        "pkg-0.27.0+26.3" = _hBXQtwvU;
+        "pkg-0.28.0" = _vzwPuUeg;
+        "pkg-0.28.0+26.2" = _JOJWsVzS;
+        "pkg-0.28.0+26.3" = _T2XlJVed;
+        "pkg-0.28.1" = _yXTYrKRs;
+        "pkg-0.28.1+26.2" = _N2pL16ma;
+        "pkg-0.28.1+26.3" = _PvpIsDDn;
+        "pkg-0.28.2" = _uuGO93TL;
+        "pkg-0.28.2+26.2" = _VRpLErxl;
+        "pkg-0.28.2+26.3" = _TCBvNotT;
+        "pkg-0.29.0" = _7l3jiyds;
+        "pkg-0.29.0+26.2" = _bARfhE6y;
+        "pkg-0.29.0+26.3" = _fJ4FI5ue;
+        "pkg-0.30.0" = _198ZgxBk;
+        "pkg-0.30.0+26.2" = _g0y5bBIm;
+        "pkg-0.30.0+26.3" = _u13rmBxc;
+        "pkg-0.30.1" = _j3RmN1p0;
+        "pkg-0.30.1+26.2" = _aG0Ognnc;
+        "pkg-0.30.1+26.3" = _dx7l61TG;
+        "pkg-0.31.0" = _LqINQ19I;
+        "pkg-0.31.0+26.2" = _58uwdzpE;
+        "pkg-0.31.0+26.3" = _vYNkdrT4;
+        "pkg-0.31.1" = _4BnMOjfm;
+        "pkg-0.31.1+26.2" = _5w54CXWb;
+        "pkg-0.31.1+26.3" = _6ZRxn4Tv;
+        "default" = _6ZRxn4Tv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "adorable-mochi-pets";

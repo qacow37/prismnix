@@ -46,6 +46,11 @@ let
             "file" = "create_flight_control-neoforge-0.8.4-beta.jar";
             "hash" = "sha512-umopphbTUhIV1RxA8JyuanMoDY12BGiymhqodO+YwcmjVHfWKQ+cDwWWdWNzuW+5O9nE/vBmoYShjreTQQdhXw==";
         };
+        _7EiOHIDJ = {
+            "id" = "7EiOHIDJ";
+            "file" = "create_flight_control-neoforge-0.8.5.jar";
+            "hash" = "sha512-oFGYZQoimUlKwy+d3G7Ll86uQYArkMhkcWeu6cCnlsE4fu9eHbrtxNe006JUdC70WGZRRTHGyIBff4cmE7gHOg==";
+        };
     in {
         "4r8WDlOl" = _4r8WDlOl;
         "cNJQOC16" = _cNJQOC16;
@@ -56,7 +61,8 @@ let
         "act82pgK" = _act82pgK;
         "FSr0O2k8" = _FSr0O2k8;
         "64FUKlgQ" = _64FUKlgQ;
-        "neoforge-1.21.1" = _64FUKlgQ;
+        "7EiOHIDJ" = _7EiOHIDJ;
+        "neoforge-1.21.1" = _7EiOHIDJ;
         "neoforge-26.3" = _64FUKlgQ;
         "neoforge-26.2" = _64FUKlgQ;
         "neoforge-26.1.2" = _64FUKlgQ;
@@ -81,7 +87,8 @@ let
         "pkg-0.7.7" = _act82pgK;
         "pkg-0.8.3" = _FSr0O2k8;
         "pkg-0.8.4b" = _64FUKlgQ;
-        "default" = _64FUKlgQ;
+        "pkg-0.8.5" = _7EiOHIDJ;
+        "default" = _7EiOHIDJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-flight-control";

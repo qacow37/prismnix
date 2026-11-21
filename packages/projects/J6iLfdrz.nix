@@ -46,6 +46,16 @@ let
             "file" = "echoesofadventure_compass-1.20.1-1.4.0.jar";
             "hash" = "sha512-6VH2pFjxWP0R6svoPo/kH3i6fKDFXuUOFkyYaLowpOR83EgMS6s4TxBMpHv4kkx2AQEoa8P2OtWy43YLshXNSA==";
         };
+        _2QxBQ9Hv = {
+            "id" = "2QxBQ9Hv";
+            "file" = "echoesofadventure_compass-forge-1.20.1-1.5.0b.jar";
+            "hash" = "sha512-Hg8LqDGqmh60XXj1MwiKIpYQOpDOv0u/WQ0QBoog3Ul0uwFQrZ7ASpMCeKPRzt/C/9YHWba6lrh94OFxUnZlkw==";
+        };
+        _Byz24FAe = {
+            "id" = "Byz24FAe";
+            "file" = "echoesofadventure_compass-fabric-1.20.1-1.5.0b.jar";
+            "hash" = "sha512-FAAKHT3dmkEZ5BPwayn3fxTdDH1JOI31SM0O7IvTWHIdz8miayndPz0wWKbN870xXgvpXZywcPQF9Bc3fwh19A==";
+        };
     in {
         "eP3GUAjB" = _eP3GUAjB;
         "Sn4dyt95" = _Sn4dyt95;
@@ -56,8 +66,11 @@ let
         "jcqXrvKR" = _jcqXrvKR;
         "XpAd7Of4" = _XpAd7Of4;
         "qGJ0LRSp" = _qGJ0LRSp;
-        "forge-1.20.1" = _qGJ0LRSp;
+        "2QxBQ9Hv" = _2QxBQ9Hv;
+        "Byz24FAe" = _Byz24FAe;
+        "forge-1.20.1" = _2QxBQ9Hv;
         "forge-1.20.2" = _XpAd7Of4;
+        "fabric-1.20.1" = _Byz24FAe;
         "pkg-1.0.0" = _eP3GUAjB;
         "pkg-1.3.6-beta" = _Sn4dyt95;
         "pkg-1.3.7" = _1ySjpdX5;
@@ -65,7 +78,8 @@ let
         "pkg-1.3.9" = _7E0B0pj2;
         "pkg-1.3.10" = _XpAd7Of4;
         "pkg-1.4.0" = _qGJ0LRSp;
-        "default" = _qGJ0LRSp;
+        "pkg-1.5.0b" = _Byz24FAe;
+        "default" = _Byz24FAe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "echoesofadventure-compass";

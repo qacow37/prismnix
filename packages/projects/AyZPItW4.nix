@@ -161,6 +161,21 @@ let
             "file" = "BloodLine Server-2.9.93.jar";
             "hash" = "sha512-0ZlxbwAOxcUYk4FP2hxO3SkuNTpxyDiWTDm0iWy3v2fG2LLziPSiuP4sTx8vUXQ/s35ufXWBkXmzZYqL93l2zg==";
         };
+        _Opi3UBZI = {
+            "id" = "Opi3UBZI";
+            "file" = "bloodline-hotkeys-2.9.6+1.16.5.jar";
+            "hash" = "sha512-11TnB0MXCqmD86ZfVKuVHGuC34sdfXcZZG/w4q3v3hqYwvEL4lOoKrPD55FdsXOjIV4h0lX1aiUQoG9fyEWL7g==";
+        };
+        _HHNW4eQG = {
+            "id" = "HHNW4eQG";
+            "file" = "bloodline-hotkeys-2.9.7+26.2.jar";
+            "hash" = "sha512-AUhvXkKBdVIjfFGC8VNxWdc0iuj2o/6U1thtwX2HfTzFPK1Udf5hptwhhQzcoo0BM3e2UBp0z/NRpsK1ii605g==";
+        };
+        _riahk1Sp = {
+            "id" = "riahk1Sp";
+            "file" = "bloodline-hotkeys-2.9.7+1.21.11.jar";
+            "hash" = "sha512-z2Jyvsk8pUn8BnkgiKKt7ntnWWviq1sDyUkakniBroiVIlNajUY9m5iOHADbe6tQFBBJCswTNxkILB/AaHLmAw==";
+        };
     in {
         "OOD8odPl" = _OOD8odPl;
         "x3RNySEg" = _x3RNySEg;
@@ -194,7 +209,10 @@ let
         "Hm5BkWp1" = _Hm5BkWp1;
         "SSJoCbCb" = _SSJoCbCb;
         "oq1ZTfX6" = _oq1ZTfX6;
-        "fabric-1.21.11" = _fFmsp2Mv;
+        "Opi3UBZI" = _Opi3UBZI;
+        "HHNW4eQG" = _HHNW4eQG;
+        "riahk1Sp" = _riahk1Sp;
+        "fabric-1.21.11" = _riahk1Sp;
         "fabric-1.20" = _pM4k63Lx;
         "fabric-1.20.1" = _pM4k63Lx;
         "fabric-1.20.2" = _pM4k63Lx;
@@ -216,7 +234,11 @@ let
         "fabric-26.1" = _pM4k63Lx;
         "fabric-26.1.1" = _pM4k63Lx;
         "fabric-26.1.2" = _pM4k63Lx;
-        "fabric-26.2" = _3Jx8oDiO;
+        "fabric-26.2" = _HHNW4eQG;
+        "fabric-1.16.5" = _Opi3UBZI;
+        "fabric-1.16.4" = _Opi3UBZI;
+        "fabric-1.16.3" = _Opi3UBZI;
+        "fabric-1.16.2" = _Opi3UBZI;
         "paper-1.21" = _TVkaPIHs;
         "paper-1.21.1" = _TVkaPIHs;
         "paper-1.21.2" = _TVkaPIHs;
@@ -260,7 +282,10 @@ let
         "pkg-2.9.91" = _Hm5BkWp1;
         "pkg-2.9.92" = _SSJoCbCb;
         "pkg-2.9.93" = _oq1ZTfX6;
-        "default" = _oq1ZTfX6;
+        "pkg-2.9.6+1.16.5" = _Opi3UBZI;
+        "pkg-2.9.7+26.2" = _HHNW4eQG;
+        "pkg-2.9.7+1.21.11" = _riahk1Sp;
+        "default" = _riahk1Sp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bloodlinesmp";

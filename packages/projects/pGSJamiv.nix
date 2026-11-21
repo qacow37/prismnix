@@ -51,6 +51,11 @@ let
             "file" = "foragersinsight-1.20.1-ITW2-3.55.jar";
             "hash" = "sha512-TXkEBtGCXNfN44yhj+EvwWSu9ghHCxKVPqEz3+zI0m6foiN/Jjz2YGNdzu/OxWfu12if/RnQqJmrhI4GbHX0gQ==";
         };
+        _X885rxpR = {
+            "id" = "X885rxpR";
+            "file" = "foragersinsight-1.20.1-ITW2-3.65.jar";
+            "hash" = "sha512-0X4zKnMRCZOcc67H1ye7lq+4b0glptRDV7vRydAnukjgl0QangmsJ1xiB4VWhpPDzntYD/saXezG5how9j0fVA==";
+        };
     in {
         "ptu7auLU" = _ptu7auLU;
         "45iphnU2" = _45iphnU2;
@@ -62,7 +67,8 @@ let
         "see0qLVR" = _see0qLVR;
         "BJKgUbqU" = _BJKgUbqU;
         "rUVlE2JJ" = _rUVlE2JJ;
-        "forge-1.20.1" = _rUVlE2JJ;
+        "X885rxpR" = _X885rxpR;
+        "forge-1.20.1" = _X885rxpR;
         "pkg-1.20.1-0.3" = _ptu7auLU;
         "pkg-1.20.1-0.5(TnT)" = _45iphnU2;
         "pkg-1.20.1-1.0(TnT)" = _b36MLn8h;
@@ -73,7 +79,8 @@ let
         "pkg-1.20.1-3.3(ITW)" = _see0qLVR;
         "pkg-1.20.1-3.5(ITW2)" = _BJKgUbqU;
         "pkg-1.20.1-3.55(ITW2)" = _rUVlE2JJ;
-        "default" = _rUVlE2JJ;
+        "pkg-1.20.1-3.65(ITW2)" = _X885rxpR;
+        "default" = _X885rxpR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "foragers-insight";

@@ -461,6 +461,16 @@ let
             "file" = "better-end-26.400.0.jar";
             "hash" = "sha512-wDzjPI5XXfoFKBm7cUn1v08xTdkEU1kQsEXpJHwwL25Gw4t4VY8M4l4UYHCj+xN7yBKUXWTKxK57WGyYXhMuzA==";
         };
+        _Go0dQ8pN = {
+            "id" = "Go0dQ8pN";
+            "file" = "better-end-26.302.2.jar";
+            "hash" = "sha512-5ezja5kAQvPfNlnX2LjypYcHIsA8pzGw5TQznjQRGcnMWKZbHT2XEgvPeN1B8L4fozV7G3nYFdN1D4LU+38oTg==";
+        };
+        _EsQdKUS9 = {
+            "id" = "EsQdKUS9";
+            "file" = "better-end-26.400.1.jar";
+            "hash" = "sha512-3f62+If3/foQ6Qq/5UZ24/Q0CeS6HvVTOv4nZcWth6NvXNF4TWM8Y9UVtadnHG6r55tBYyusoGqfK9s+fUADLA==";
+        };
     in {
         "hJMQDYuT" = _hJMQDYuT;
         "ANsvdFr8" = _ANsvdFr8;
@@ -554,6 +564,8 @@ let
         "yOxiGnmO" = _yOxiGnmO;
         "caQSJrrF" = _caQSJrrF;
         "Q8IiKiP5" = _Q8IiKiP5;
+        "Go0dQ8pN" = _Go0dQ8pN;
+        "EsQdKUS9" = _EsQdKUS9;
         "fabric-1.19" = _F3omRrtz;
         "fabric-1.19.1" = _F3omRrtz;
         "fabric-1.19.2" = _F3omRrtz;
@@ -573,8 +585,8 @@ let
         "fabric-26.1.2" = _yOxiGnmO;
         "fabric-26.3-snapshot-6" = _feoiqgRY;
         "fabric-26.2" = _caQSJrrF;
-        "fabric-26.3" = _o5kyaTJb;
-        "fabric-26.4-snapshot-8" = _Q8IiKiP5;
+        "fabric-26.3" = _Go0dQ8pN;
+        "fabric-26.4-snapshot-8" = _EsQdKUS9;
         "pkg-2.1.1" = _hJMQDYuT;
         "pkg-2.1.2" = _ANsvdFr8;
         "pkg-3.1.0" = _TndPF7zF;
@@ -665,7 +677,9 @@ let
         "pkg-26.101.6" = _yOxiGnmO;
         "pkg-26.201.6" = _caQSJrrF;
         "pkg-26.400.0" = _Q8IiKiP5;
-        "default" = _Q8IiKiP5;
+        "pkg-26.302.2" = _Go0dQ8pN;
+        "pkg-26.400.1" = _EsQdKUS9;
+        "default" = _EsQdKUS9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterend";

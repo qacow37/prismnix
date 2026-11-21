@@ -1061,6 +1061,16 @@ let
             "file" = "hdr_mod-neoforge-3.2.6-26.3.jar";
             "hash" = "sha512-xyHafAvnTqFwAHpi+Uytkim0hRkssRwXkSx8aX863a5gykHc0EVSqm1pQMEJZpdnV7yrwMXrAbWE5lzvh6zKzA==";
         };
+        _IV6HUbOD = {
+            "id" = "IV6HUbOD";
+            "file" = "hdr_mod-fabric-3.2.7-26.3.jar";
+            "hash" = "sha512-tWYJBQg0yNFJYj9mLQJpsUNME6PKahGCur9XCdh9ftLnMQUATiK3tjxIKbc9iXQamBb6iug8evaU89/THwe1mg==";
+        };
+        _J0uXTZPm = {
+            "id" = "J0uXTZPm";
+            "file" = "hdr_mod-neoforge-3.2.7-26.3.jar";
+            "hash" = "sha512-ZKNFpK9vpJENt/tvW4LVGqQslTgcJiJ7dIhKgobwBWMqlPcCpNpeXTtiuJuUBiGhWOMkrg3yD1zoHd3CI/kpFg==";
+        };
     in {
         "nsnt16fF" = _nsnt16fF;
         "lgRxUtfR" = _lgRxUtfR;
@@ -1274,6 +1284,8 @@ let
         "vS5PR6ux" = _vS5PR6ux;
         "wRSvPkAs" = _wRSvPkAs;
         "sCoamrHW" = _sCoamrHW;
+        "IV6HUbOD" = _IV6HUbOD;
+        "J0uXTZPm" = _J0uXTZPm;
         "fabric-1.21.11" = _qfYbKCJi;
         "fabric-1.21.9" = _dEdkMD6e;
         "fabric-1.21.10" = _bMtiRzsi;
@@ -1285,7 +1297,7 @@ let
         "fabric-26.1.1" = _Pudom1S2;
         "fabric-26.1.2" = _ioXHMPbT;
         "fabric-26.2" = _XAtzQWJ1;
-        "fabric-26.3" = _wRSvPkAs;
+        "fabric-26.3" = _IV6HUbOD;
         "neoforge-1.21.11" = _NVlfJpH4;
         "neoforge-1.21.10" = _KfFC7N63;
         "neoforge-1.21.1" = _ekkMvpQM;
@@ -1293,7 +1305,7 @@ let
         "neoforge-26.1.1" = _i2q15JfH;
         "neoforge-26.1.2" = _h0NO3E2R;
         "neoforge-26.2" = _vS5PR6ux;
-        "neoforge-26.3" = _sCoamrHW;
+        "neoforge-26.3" = _J0uXTZPm;
         "forge-1.20.1" = _waFqZxfE;
         "pkg-0.1.0" = _lgRxUtfR;
         "pkg-1.0.1-neoforge-1.21.11" = _Y1QoSmev;
@@ -1505,7 +1517,9 @@ let
         "pkg-3.2.4-26.2+neoforge" = _vS5PR6ux;
         "pkg-3.2.6-26.3+fabric" = _wRSvPkAs;
         "pkg-3.2.6-26.3+neoforge" = _sCoamrHW;
-        "default" = _sCoamrHW;
+        "pkg-3.2.7-26.3+fabric" = _IV6HUbOD;
+        "pkg-3.2.7-26.3+neoforge" = _J0uXTZPm;
+        "default" = _J0uXTZPm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rrtt217-s-hdr-mod";

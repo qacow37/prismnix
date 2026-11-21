@@ -551,6 +551,16 @@ let
             "file" = "saturation_plus-1.4.0-1.21.jar";
             "hash" = "sha512-JcyFiXXCK9VbfrT+dogKAt3Yi3L/czzNHQznX6+8m4d2npkDCOCjdKnDcx/cIynjUiupSaaBqezeWoVRgSKpAw==";
         };
+        _ewjbdwNt = {
+            "id" = "ewjbdwNt";
+            "file" = "saturation_plus-1.4.0-1.21.2.jar";
+            "hash" = "sha512-zwklDPOzNoCFTfP59yB7Hdvu6Gd0jrqUW9YPQJuqxSkvDZKrcB++yJu17PWbGP7ErB0rso3EtT9TUlOcDC8bDQ==";
+        };
+        _d4davqAj = {
+            "id" = "d4davqAj";
+            "file" = "saturation_plus-1.4.0-1.21.6.jar";
+            "hash" = "sha512-eHDpfoGSXbwmAwnOZUP6c4+a4KMBx8Wkac/jSaa6GdLLMsrMOOpTUQ+bUkXuVzHADVkYrwrxca1JNRpWKT64Yw==";
+        };
     in {
         "Wm188JVi" = _Wm188JVi;
         "TOvM87xE" = _TOvM87xE;
@@ -662,6 +672,8 @@ let
         "CC7sdDpb" = _CC7sdDpb;
         "9HYa2f58" = _9HYa2f58;
         "iKthKUB2" = _iKthKUB2;
+        "ewjbdwNt" = _ewjbdwNt;
+        "d4davqAj" = _d4davqAj;
         "fabric-1.14.4" = _ysmoDA0m;
         "fabric-1.15" = _5tAw4bo4;
         "fabric-1.15.1" = _5tAw4bo4;
@@ -691,15 +703,15 @@ let
         "fabric-1.20.6" = _9HYa2f58;
         "fabric-1.21" = _iKthKUB2;
         "fabric-1.21.1" = _iKthKUB2;
-        "fabric-1.21.2" = _22caf3Ke;
-        "fabric-1.21.3" = _22caf3Ke;
-        "fabric-1.21.4" = _22caf3Ke;
-        "fabric-1.21.5" = _22caf3Ke;
-        "fabric-1.21.6" = _22caf3Ke;
-        "fabric-1.21.7" = _22caf3Ke;
-        "fabric-1.21.8" = _22caf3Ke;
-        "fabric-1.21.9" = _22caf3Ke;
-        "fabric-1.21.10" = _22caf3Ke;
+        "fabric-1.21.2" = _ewjbdwNt;
+        "fabric-1.21.3" = _ewjbdwNt;
+        "fabric-1.21.4" = _ewjbdwNt;
+        "fabric-1.21.5" = _ewjbdwNt;
+        "fabric-1.21.6" = _d4davqAj;
+        "fabric-1.21.7" = _d4davqAj;
+        "fabric-1.21.8" = _d4davqAj;
+        "fabric-1.21.9" = _d4davqAj;
+        "fabric-1.21.10" = _d4davqAj;
         "fabric-1.21.11" = _x7KT4Zl7;
         "fabric-26.1" = _inTzhpDz;
         "fabric-26.1.1" = _inTzhpDz;
@@ -855,7 +867,9 @@ let
         "pkg-1.4.0-1.20.2" = _CC7sdDpb;
         "pkg-1.4.0-1.20.5" = _9HYa2f58;
         "pkg-1.4.0-1.21" = _iKthKUB2;
-        "default" = _iKthKUB2;
+        "pkg-1.4.0-1.21.2" = _ewjbdwNt;
+        "pkg-1.4.0-1.21.6" = _d4davqAj;
+        "default" = _d4davqAj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saturation-plus";

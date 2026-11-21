@@ -86,6 +86,11 @@ let
             "file" = "hostile_neural_industrialization-1.0.16-1.21.1.jar";
             "hash" = "sha512-tZihp+1aVV3fnx+3NWja6II9Pg/yquIZFG0QADleayIfE6on+fbSIVdre4CLMLiJBr6GVwoL/FLjzcvyboUxWw==";
         };
+        _eW3bDtZF = {
+            "id" = "eW3bDtZF";
+            "file" = "hostile_neural_industrialization-1.0.17-1.21.1.jar";
+            "hash" = "sha512-qfjQQ2Z9zcu3jov6RElOx2V/+lUnmYVYj4ZSvdElknpIbwB13t8GuMoe/yiuPzqsCCy15MhYf9lxH4rVsmx3jw==";
+        };
     in {
         "lrDcU1Jx" = _lrDcU1Jx;
         "hJjIuyHS" = _hJjIuyHS;
@@ -104,7 +109,8 @@ let
         "GoJMWmBE" = _GoJMWmBE;
         "5iKa9Wxj" = _5iKa9Wxj;
         "VqzpVUcd" = _VqzpVUcd;
-        "neoforge-1.21.1" = _VqzpVUcd;
+        "eW3bDtZF" = _eW3bDtZF;
+        "neoforge-1.21.1" = _eW3bDtZF;
         "pkg-1.0.0-1.21.1" = _lrDcU1Jx;
         "pkg-1.0.1-1.21.1" = _hJjIuyHS;
         "pkg-1.0.2-1.21.1" = _eT05MjBa;
@@ -122,7 +128,8 @@ let
         "pkg-1.0.14-1.21.1" = _GoJMWmBE;
         "pkg-1.0.15-1.21.1" = _5iKa9Wxj;
         "pkg-1.0.16-1.21.1" = _VqzpVUcd;
-        "default" = _VqzpVUcd;
+        "pkg-1.0.17-1.21.1" = _eW3bDtZF;
+        "default" = _eW3bDtZF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hostile-neural-industrialization";

@@ -1146,6 +1146,151 @@ let
             "file" = "ExtraBiomes-fabric-v3.10.0-1.20.1.jar";
             "hash" = "sha512-3CrBa4JdBR2U8yv533oyDNbLrMON/CXhzAmUGocDNlb2AZusUJwX7VGCi5jO+jqgfR/kbZnY0sIeI0WC0pD7Fw==";
         };
+        _XE7CndSY = {
+            "id" = "XE7CndSY";
+            "file" = "ExtraBiomes-neoforge-v3.20.0-beta-1-26.3.jar";
+            "hash" = "sha512-1DKMNp47q5IPz3qi8LseDAxlvwshrMD3EH5nOz5NWIVexq48itunpPXRIJk8HF1SxUIk/86Gz/cXxlm3pHeFNw==";
+        };
+        _DPyIxiwZ = {
+            "id" = "DPyIxiwZ";
+            "file" = "ExtraBiomes-fabric-v3.20.0-beta-1-26.3.jar";
+            "hash" = "sha512-j0sB+en/c+m0cgeXm4T7N6w77BqGSfiCqm/cqQmrbLS5DrtDf0YgAc0kgPPR3P6DDamIbl0vsNj4ki8MczdHxQ==";
+        };
+        _M3qgACmO = {
+            "id" = "M3qgACmO";
+            "file" = "ExtraBiomes-neoforge-v3.20.0-beta-1-26.1.2.jar";
+            "hash" = "sha512-THM/sNRUmB86y5pTsDA0MyuCx4a0W2IlsUvxiJf8TcHtY0rFhc3kCet2lxA6Twet/f8Fm5A5xSlcbwGtZqpNmw==";
+        };
+        _PIb7iZoe = {
+            "id" = "PIb7iZoe";
+            "file" = "ExtraBiomes-fabric-v3.20.0-beta-1-26.1.2.jar";
+            "hash" = "sha512-GzBfnfFnYrBquzkj3tNd0QxYOo7Gl9SMmqZNeTy2ngrWgeOxLVOaPWimnYB0ffvm8fm5bjFc2uksWqBNHwjJCg==";
+        };
+        _4dAjxBzx = {
+            "id" = "4dAjxBzx";
+            "file" = "ExtraBiomes-neoforge-v3.20.0-beta-1-26.2.jar";
+            "hash" = "sha512-YvL8vbdsF3Yc5FbxjwR5rz5BnM+l3iAMkWl/ucRtulddrcJuCYVH8aaqMI96dhg7pAcecCvpcJxFpSxK79G4JA==";
+        };
+        _mq0chGi1 = {
+            "id" = "mq0chGi1";
+            "file" = "ExtraBiomes-neoforge-v3.20.0-beta-1-1.21.3.jar";
+            "hash" = "sha512-TYhapFfuh6fSll10Z3ITuOhLY+FDOlpvsgDWVw5IFjlJnwrkaTM6Igz9KSSIHJYp3skkWxleiDtwPjRt+UNUMg==";
+        };
+        _ouwDcsYK = {
+            "id" = "ouwDcsYK";
+            "file" = "ExtraBiomes-fabric-v3.20.0-beta-1-26.2.jar";
+            "hash" = "sha512-hDvVR/r3YKty+9cIovrdpALDLvMngfcMbh7uerAiacLB+lnaHoJbqZpgZyb84qS/Oc9rd73nWduIzH6pqDHwsg==";
+        };
+        _IAfvvf57 = {
+            "id" = "IAfvvf57";
+            "file" = "ExtraBiomes-fabric-v3.20.0-beta-1-1.21.3.jar";
+            "hash" = "sha512-7Ax6VOaPidokjAODi/5oEbGAxcCAjBSmxXHz/qy1l8UM4D3pqB/h9O4Amg2VMfLsb7a8v0+dKy+MKhyiFZwdHg==";
+        };
+        _RJBlUuF9 = {
+            "id" = "RJBlUuF9";
+            "file" = "ExtraBiomes-fabric-v3.20.0-beta-1-1.21.10.jar";
+            "hash" = "sha512-6PZqOkvhwvuA1V7iEMWHWP3jGvdHnv5hZvp4Qie9gJ18N6xB80bN0Gb+TKEDz1MNS6odMIxXDKD0oL6cPw/l1Q==";
+        };
+        _fnQmFFlJ = {
+            "id" = "fnQmFFlJ";
+            "file" = "ExtraBiomes-neoforge-v3.20.0-beta-1-1.21.10.jar";
+            "hash" = "sha512-C8iO/tHuQNkwvsDZ58MNR4k5U9boG4VZVVED3GJ/QAxuVsR1aMej4gM0oa1fR89GjpQi0aEaN+jaXFMsepmR1g==";
+        };
+        _OWpx5G22 = {
+            "id" = "OWpx5G22";
+            "file" = "ExtraBiomes-neoforge-v3.20.0-beta-1-1.21.8.jar";
+            "hash" = "sha512-WqcFDdCXkQeTJtPPN/PugpsXVKfH8a+oPFgxx64fxkv6KsxTc7o2DrWOU+1ivQ2Ip8D5VzdamfS19X+1TfIC6g==";
+        };
+        _rREgd2Ub = {
+            "id" = "rREgd2Ub";
+            "file" = "ExtraBiomes-fabric-v3.20.0-beta-1-1.21.8.jar";
+            "hash" = "sha512-MWOBdZq7VvvEM3x0MITaobg8WX+MdVol0x2CsAeHU6VYQQwA6wGiu00fCm7Z8icRcUsXoWNyqiB/KJ2CcvLAzg==";
+        };
+        _HyjNQELf = {
+            "id" = "HyjNQELf";
+            "file" = "ExtraBiomes-fabric-v3.20.0-beta-1-1.21.11.jar";
+            "hash" = "sha512-D6B32EKY0YFfYURZaiOxVTcPXmhuLBtlLClRUBnyWk7cKr3amn2kHLrfjivyh2eHD/q9e7UmUeT+PbxSGdPklA==";
+        };
+        _l9BjZksa = {
+            "id" = "l9BjZksa";
+            "file" = "ExtraBiomes-neoforge-v3.20.0-beta-1-1.21.11.jar";
+            "hash" = "sha512-2BX2zs3+hr07KjNHAG/Hl/WIksjK2B2IdjrGrScB5ijD0hiIcsKlWpx8SObz5YNjrWOKtV5VmQRkkFpT2ikK9g==";
+        };
+        _eyjnWUnW = {
+            "id" = "eyjnWUnW";
+            "file" = "ExtraBiomes-neoforge-v3.20.0-beta-1-1.20.4.jar";
+            "hash" = "sha512-LFyN7evlAknE7dGf1fPqIFSbTSvGWhF4j9HnrJX+J30jqXV+RW2zUhFFz9SDAgqQkx5lPLmHrfm/eGL9xjU4+A==";
+        };
+        _H3048kze = {
+            "id" = "H3048kze";
+            "file" = "ExtraBiomes-fabric-v3.20.0-beta-1-1.20.4.jar";
+            "hash" = "sha512-AwSB2xvDHXk34cnpappKvnGMrcWtEsSekmKROiuZ9Cuey61fyO+y7viu9um0yjXgXxQxwZ2fBqZMmatoh60S3g==";
+        };
+        _RjiZ5niZ = {
+            "id" = "RjiZ5niZ";
+            "file" = "ExtraBiomes-neoforge-v3.20.0-beta-1-1.21.5.jar";
+            "hash" = "sha512-TVncJvg5sc+CjJKIazkn1eXiVAcDyolZWuUu71d0IjVWSlH1nwvSR1vBb9SMN+C/bpgEgucpD6s53ZFK9kcYvw==";
+        };
+        _kpbfI2w1 = {
+            "id" = "kpbfI2w1";
+            "file" = "ExtraBiomes-fabric-v3.20.0-beta-1-1.21.1.jar";
+            "hash" = "sha512-gdjHzicu/aZ+0bdpqM6KXAZxvpJSDldNiAMoCtiaGf8Nuot7p7t1wC8iUrfQ78A4J9jGaMW/ZdfQxkZtdZ41yQ==";
+        };
+        _ZLhDK7Bx = {
+            "id" = "ZLhDK7Bx";
+            "file" = "ExtraBiomes-fabric-v3.20.0-beta-1-1.21.5.jar";
+            "hash" = "sha512-EzQOChsFmGeirBhIIMErkL9iybBi/XIwr+l+cYQ16Q5VBYAfo5mcMePUI8RXPhPDjKNK1yI8QTjn+lcKHGySEw==";
+        };
+        _7is4lQNS = {
+            "id" = "7is4lQNS";
+            "file" = "ExtraBiomes-forge-v3.20.0-beta-1-1.20.1.jar";
+            "hash" = "sha512-yZ16CozQvogMqAm9nKAVHM2nF9f7HMSrzpSh8U+kAIeO6G27DR7E7p+3frM1jNsuuDr0IZK4pxWvG+ocCKsNKA==";
+        };
+        _fsnHESUY = {
+            "id" = "fsnHESUY";
+            "file" = "ExtraBiomes-neoforge-v3.20.0-beta-1-1.21.1.jar";
+            "hash" = "sha512-TyDVYUnBgvEzH4bPtmkaAuP9MkqEMQ7q1QJKWFWsGSNheGKw/Gyz/nej0PjKhN8Al/xavtjDwvyrwLCyaK7cTA==";
+        };
+        _yM4BwQba = {
+            "id" = "yM4BwQba";
+            "file" = "ExtraBiomes-fabric-v3.20.0-beta-1-1.20.1.jar";
+            "hash" = "sha512-XgcIESMRTa6QwUQqCLWerJtshVWxVCxfYs3n1nToWWrAPJwARXE9mcbFTVJPpz0MEPLCbx4COkNuYIJqA1Su5Q==";
+        };
+        _hgYqnXPw = {
+            "id" = "hgYqnXPw";
+            "file" = "ExtraBiomes-neoforge-v3.20.0-beta-1-1.21.4.jar";
+            "hash" = "sha512-KNlZWYlpC+DNVJTkotVCHEsJLKugm/yShScVPZ+x8xf2R0xi1lDhl1YdOBrAPrOSq8FSKUPTqbhPByHpwyU1Fg==";
+        };
+        _l8vo3BcA = {
+            "id" = "l8vo3BcA";
+            "file" = "ExtraBiomes-fabric-v3.20.0-beta-1-1.21.4.jar";
+            "hash" = "sha512-ZSdJPO/D1mDbjy7nHoo9WFq5RWDH9IHXIM0kbi/4PrwW/1pMcrnD3ASfeOFqI50oUoc3/oUoFF/vN0YIDlYPkw==";
+        };
+        _UwUhpSAy = {
+            "id" = "UwUhpSAy";
+            "file" = "ExtraBiomes-neoforge-v3.20.0-beta-1-1.20.6.jar";
+            "hash" = "sha512-3XQ/aymFuSLlkerZJmJHx+HlCw4Ih5tOXgwlJ1TBnaNLDvUcbEivm7qjE3mR4UNkv9hPNeEiDVNvhStEkRyBkg==";
+        };
+        _pjhBIOwy = {
+            "id" = "pjhBIOwy";
+            "file" = "ExtraBiomes-fabric-v3.20.0-beta-1-1.20.6.jar";
+            "hash" = "sha512-hOZE6cSOtaIXWKpMSiojdVUreklq/fNuaQKTBiwc80tanNNZ3gNoPp3uOo2M9AvWZibyadiJUmBYj0r18wQYqQ==";
+        };
+        _6G1hnO3I = {
+            "id" = "6G1hnO3I";
+            "file" = "ExtraBiomes-neoforge-v3.20.0-beta-1-1.20.2.jar";
+            "hash" = "sha512-HLvdQ4kQQrTNKFzZq7Ch5/G5Bm2fKGLxoRyyaY6/7XuWV+sop1zXyho8ZBJMsGwrTAn+RUzL0nGRiKkgbQ0ygg==";
+        };
+        _wzjDnVUd = {
+            "id" = "wzjDnVUd";
+            "file" = "ExtraBiomes-fabric-v3.20.0-beta-1-1.20.2.jar";
+            "hash" = "sha512-F1rBknbYHddUq1W/9mkXj6eJo67ILHgakycN8TDIhbU9Wwoe2tRrHtP38UQwxHmiSvruu/WkoAUhDNqNb4ImzQ==";
+        };
+        _rlus69Hj = {
+            "id" = "rlus69Hj";
+            "file" = "ExtraBiomes-forge-v3.20.0-beta-1-1.20.2.jar";
+            "hash" = "sha512-aCgUz+GzuK3ad/u/betrfErdEH3nGM+e0WCp/nVr1eFpEtsyfn9LDU7PF5YVPzFE5JV20cS1Wf9Hhq1G7m7Abg==";
+        };
     in {
         "oP4TnWxb" = _oP4TnWxb;
         "C8yp10tx" = _C8yp10tx;
@@ -1376,35 +1521,64 @@ let
         "b0Q6Mkbm" = _b0Q6Mkbm;
         "BBF6IQ5O" = _BBF6IQ5O;
         "hlFDkK7h" = _hlFDkK7h;
-        "forge-1.20.1" = _BBF6IQ5O;
-        "forge-1.20.2" = _qwNPkc1p;
-        "fabric-1.20.1" = _hlFDkK7h;
-        "fabric-1.20.2" = _3cPnjpTB;
-        "fabric-1.20.4" = _TKNfqWgD;
-        "fabric-1.21.1" = _1hXQZI93;
-        "fabric-1.20.6" = _lhWdmk8s;
-        "fabric-1.21.3" = _aLfBrCtj;
-        "fabric-1.21.4" = _6UeNbH5O;
-        "fabric-1.21.5" = _PhdLCg7r;
-        "fabric-1.21.8" = _Q97WJ3zD;
-        "fabric-1.21.10" = _8EaThgSu;
-        "fabric-1.21.11" = _nW3wwfAm;
-        "fabric-26.1.2" = _Kd31kUDk;
-        "fabric-26.2" = _z4ksvnmj;
-        "fabric-26.3" = _bbCITMrX;
-        "neoforge-1.20.2" = _b0Q6Mkbm;
-        "neoforge-1.20.4" = _fY34VW98;
-        "neoforge-1.21.1" = _BbED8Li6;
-        "neoforge-1.20.6" = _FMZH8jgz;
-        "neoforge-1.21.3" = _24lVJ9qS;
-        "neoforge-1.21.4" = _Ft4miI1v;
-        "neoforge-1.21.5" = _ELUBy95x;
-        "neoforge-1.21.8" = _WFZg57vQ;
-        "neoforge-1.21.10" = _zwSeW3NM;
-        "neoforge-1.21.11" = _PwhNwJgO;
-        "neoforge-26.1.2" = _TpfivpzH;
-        "neoforge-26.2" = _q2ZcO5Fi;
-        "neoforge-26.3" = _QCO4Rbm5;
+        "XE7CndSY" = _XE7CndSY;
+        "DPyIxiwZ" = _DPyIxiwZ;
+        "M3qgACmO" = _M3qgACmO;
+        "PIb7iZoe" = _PIb7iZoe;
+        "4dAjxBzx" = _4dAjxBzx;
+        "mq0chGi1" = _mq0chGi1;
+        "ouwDcsYK" = _ouwDcsYK;
+        "IAfvvf57" = _IAfvvf57;
+        "RJBlUuF9" = _RJBlUuF9;
+        "fnQmFFlJ" = _fnQmFFlJ;
+        "OWpx5G22" = _OWpx5G22;
+        "rREgd2Ub" = _rREgd2Ub;
+        "HyjNQELf" = _HyjNQELf;
+        "l9BjZksa" = _l9BjZksa;
+        "eyjnWUnW" = _eyjnWUnW;
+        "H3048kze" = _H3048kze;
+        "RjiZ5niZ" = _RjiZ5niZ;
+        "kpbfI2w1" = _kpbfI2w1;
+        "ZLhDK7Bx" = _ZLhDK7Bx;
+        "7is4lQNS" = _7is4lQNS;
+        "fsnHESUY" = _fsnHESUY;
+        "yM4BwQba" = _yM4BwQba;
+        "hgYqnXPw" = _hgYqnXPw;
+        "l8vo3BcA" = _l8vo3BcA;
+        "UwUhpSAy" = _UwUhpSAy;
+        "pjhBIOwy" = _pjhBIOwy;
+        "6G1hnO3I" = _6G1hnO3I;
+        "wzjDnVUd" = _wzjDnVUd;
+        "rlus69Hj" = _rlus69Hj;
+        "forge-1.20.1" = _7is4lQNS;
+        "forge-1.20.2" = _rlus69Hj;
+        "fabric-1.20.1" = _yM4BwQba;
+        "fabric-1.20.2" = _wzjDnVUd;
+        "fabric-1.20.4" = _H3048kze;
+        "fabric-1.21.1" = _kpbfI2w1;
+        "fabric-1.20.6" = _pjhBIOwy;
+        "fabric-1.21.3" = _IAfvvf57;
+        "fabric-1.21.4" = _l8vo3BcA;
+        "fabric-1.21.5" = _ZLhDK7Bx;
+        "fabric-1.21.8" = _rREgd2Ub;
+        "fabric-1.21.10" = _RJBlUuF9;
+        "fabric-1.21.11" = _HyjNQELf;
+        "fabric-26.1.2" = _PIb7iZoe;
+        "fabric-26.2" = _ouwDcsYK;
+        "fabric-26.3" = _DPyIxiwZ;
+        "neoforge-1.20.2" = _6G1hnO3I;
+        "neoforge-1.20.4" = _eyjnWUnW;
+        "neoforge-1.21.1" = _fsnHESUY;
+        "neoforge-1.20.6" = _UwUhpSAy;
+        "neoforge-1.21.3" = _mq0chGi1;
+        "neoforge-1.21.4" = _hgYqnXPw;
+        "neoforge-1.21.5" = _RjiZ5niZ;
+        "neoforge-1.21.8" = _OWpx5G22;
+        "neoforge-1.21.10" = _fnQmFFlJ;
+        "neoforge-1.21.11" = _l9BjZksa;
+        "neoforge-26.1.2" = _M3qgACmO;
+        "neoforge-26.2" = _4dAjxBzx;
+        "neoforge-26.3" = _XE7CndSY;
         "pkg-Java-3.10.0-beta-1" = _C8yp10tx;
         "pkg-Java-3.10.0-beta-2" = _OOVFUpb4;
         "pkg-Java-3.10.0-beta-3" = _MW3YpwLh;
@@ -1420,7 +1594,8 @@ let
         "pkg-3.10.0-beta-11" = _vyim5kzu;
         "pkg-3.10.0-beta-12" = _AduM75Zh;
         "pkg-3.10.0" = _hlFDkK7h;
-        "default" = _hlFDkK7h;
+        "pkg-3.20.0-beta-1" = _rlus69Hj;
+        "default" = _rlus69Hj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extrabiome";

@@ -36,6 +36,11 @@ let
             "file" = "vmc-mc-0.4.2+1.21.11.jar";
             "hash" = "sha512-VM8TU7RJ2Qi6NprYEa/htwqB/GMts5f4V+FtTt+e6L7KD7N8MhnBYL+cDOEnKvyim5qMszZPRcuF7fofW+eyxw==";
         };
+        _C3Dsf95c = {
+            "id" = "C3Dsf95c";
+            "file" = "vmc-mc-0.4.2+26.1.jar";
+            "hash" = "sha512-DYITT6Vz4ztIBPWOriVRZzB19Jdv/JiRgUQtVi1VYTuBwP+U2ip2lK7ApfvdcaiJq88zt9ZqUclLP4ylLhhJ9w==";
+        };
     in {
         "kvPFgkmL" = _kvPFgkmL;
         "5M940YmL" = _5M940YmL;
@@ -44,6 +49,7 @@ let
         "bVkjflMj" = _bVkjflMj;
         "1trU9koE" = _1trU9koE;
         "uTKPvjCp" = _uTKPvjCp;
+        "C3Dsf95c" = _C3Dsf95c;
         "fabric-1.19" = _EeNC3RE2;
         "fabric-1.19.1" = _EeNC3RE2;
         "fabric-1.19.2" = _EeNC3RE2;
@@ -68,6 +74,11 @@ let
         "fabric-1.21.9" = _1trU9koE;
         "fabric-1.21.10" = _1trU9koE;
         "fabric-1.21.11" = _uTKPvjCp;
+        "fabric-26.1" = _C3Dsf95c;
+        "fabric-26.1.1" = _C3Dsf95c;
+        "fabric-26.1.2" = _C3Dsf95c;
+        "fabric-26.2" = _C3Dsf95c;
+        "fabric-26.3" = _C3Dsf95c;
         "quilt-1.19" = _EeNC3RE2;
         "quilt-1.19.1" = _EeNC3RE2;
         "quilt-1.19.2" = _EeNC3RE2;
@@ -92,6 +103,11 @@ let
         "quilt-1.21.9" = _1trU9koE;
         "quilt-1.21.10" = _1trU9koE;
         "quilt-1.21.11" = _uTKPvjCp;
+        "quilt-26.1" = _C3Dsf95c;
+        "quilt-26.1.1" = _C3Dsf95c;
+        "quilt-26.1.2" = _C3Dsf95c;
+        "quilt-26.2" = _C3Dsf95c;
+        "quilt-26.3" = _C3Dsf95c;
         "pkg-0.3.1" = _kvPFgkmL;
         "pkg-0.4.0" = _5M940YmL;
         "pkg-0.4.1" = _EeNC3RE2;
@@ -99,7 +115,8 @@ let
         "pkg-0.4.2+1.21.3" = _bVkjflMj;
         "pkg-0.4.2+1.21.5" = _1trU9koE;
         "pkg-0.4.2+1.21.11" = _uTKPvjCp;
-        "default" = _uTKPvjCp;
+        "pkg-0.4.2+26.1" = _C3Dsf95c;
+        "default" = _C3Dsf95c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "virtual-motion-capture-for-minecraft";

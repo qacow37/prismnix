@@ -141,6 +141,11 @@ let
             "file" = "creatorsword-1.0.0.jar";
             "hash" = "sha512-g9Yb3qVrtHoXu4vMvCW00dr9Vu9doEvSby5N9DcFdx6QK1pqPMmYiHGl1jDyJJCPFb4M0hlDS4GrFzNZxr7LHQ==";
         };
+        _zloCywRR = {
+            "id" = "zloCywRR";
+            "file" = "creatorsword-1.0.9.jar";
+            "hash" = "sha512-5M79QtekJSjgDrI5TBuM766WsOPxRDOZEbygV6C84svjDdFO7H8GYao4fZrEwtE6+Qg4GtKwFh6crmn1GQqPRQ==";
+        };
     in {
         "Fo0faqOW" = _Fo0faqOW;
         "Wh5sMUKl" = _Wh5sMUKl;
@@ -170,7 +175,8 @@ let
         "iaZ8mDs0" = _iaZ8mDs0;
         "dAdf6eA4" = _dAdf6eA4;
         "rLr5zNDS" = _rLr5zNDS;
-        "neoforge-1.21.1" = _rLr5zNDS;
+        "zloCywRR" = _zloCywRR;
+        "neoforge-1.21.1" = _zloCywRR;
         "pkg-0.0.1" = _Fo0faqOW;
         "pkg-0.0.2" = _Wh5sMUKl;
         "pkg-0.0.3" = _OS9JVbnz;
@@ -199,7 +205,8 @@ let
         "pkg-0.2.8b" = _iaZ8mDs0;
         "pkg-0.2.9" = _dAdf6eA4;
         "pkg-1.0.0" = _rLr5zNDS;
-        "default" = _rLr5zNDS;
+        "pkg-1.0.9" = _zloCywRR;
+        "default" = _zloCywRR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "creator-sword";

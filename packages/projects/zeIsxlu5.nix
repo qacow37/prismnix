@@ -116,6 +116,11 @@ let
             "file" = "swordsight-1.2.jar";
             "hash" = "sha512-Nz1YJt+3YjUZoCeGv2Brg85gb/xVB2jwYEtSarbRe1M1KVPs9hKk+412edqNmVclCR2d3GtFrQL/7EKeO9aEgA==";
         };
+        _c6anwq0n = {
+            "id" = "c6anwq0n";
+            "file" = "swordsight-1.2.1.jar";
+            "hash" = "sha512-THDLZTCdXI2HHwdPlie9TgxSmhRuyPxUPe8gSqvAD3dhLA5FuhGRlFS5u+qspEek8R4urps59IuW89d/ytfvwg==";
+        };
     in {
         "Re72gE4g" = _Re72gE4g;
         "rFgntiHp" = _rFgntiHp;
@@ -140,6 +145,7 @@ let
         "e6PZLcVz" = _e6PZLcVz;
         "M5uhkcGu" = _M5uhkcGu;
         "Fc1dlTeh" = _Fc1dlTeh;
+        "c6anwq0n" = _c6anwq0n;
         "fabric-1.21" = _8ZolZ0uA;
         "fabric-1.21.1" = _8ZolZ0uA;
         "fabric-1.21.2" = _6NvV9trH;
@@ -156,11 +162,12 @@ let
         "fabric-26.1.1" = _e6PZLcVz;
         "fabric-26.1.2" = _e6PZLcVz;
         "fabric-26.2" = _M5uhkcGu;
-        "fabric-26.3" = _Fc1dlTeh;
+        "fabric-26.3" = _c6anwq0n;
         "pkg-1.0.0" = _yKDzBZ5r;
         "pkg-1.1" = _eWj4KgHf;
         "pkg-1.2" = _Fc1dlTeh;
-        "default" = _Fc1dlTeh;
+        "pkg-1.2.1" = _c6anwq0n;
+        "default" = _c6anwq0n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "swordsight";

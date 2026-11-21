@@ -271,6 +271,16 @@ let
             "file" = "createfood-neoforge-1.21.1-3.0.0.jar";
             "hash" = "sha512-Ur1WdeIW4mCZ+R6jPotq3C8dUTQjnqfqnGYiGi/9zgeTSPWjW9oxjKjJuRxAzyDqY/Qx32d++08UCAhmU+rUXg==";
         };
+        _ceXg6dlq = {
+            "id" = "ceXg6dlq";
+            "file" = "createfood-neoforge-1.21.1-3.1.0.jar";
+            "hash" = "sha512-98O/mp97893NpMuOUzpqqZxcXKAdUodu6a9nJr0fd1MN6sO5cXeFljav6RWFIDXTTrbZpMhytmzuxjPQNyo8kw==";
+        };
+        _WrD02ZmS = {
+            "id" = "WrD02ZmS";
+            "file" = "createfood-fabric-1.21.1-3.1.0.jar";
+            "hash" = "sha512-xWP5yWW5WTgClS+DQr17UCQrIhew4E3igc1dh/PtS6ZpvgFGc+s+yxad1LaEYSLhiv3I+bNKUDjNJ3siJUPQ3g==";
+        };
     in {
         "6YSR1wBu" = _6YSR1wBu;
         "O3g1mdRZ" = _O3g1mdRZ;
@@ -326,11 +336,13 @@ let
         "FmjGqkQt" = _FmjGqkQt;
         "CnuisYs3" = _CnuisYs3;
         "uaxLGKon" = _uaxLGKon;
+        "ceXg6dlq" = _ceXg6dlq;
+        "WrD02ZmS" = _WrD02ZmS;
         "fabric-1.20.1" = _WvPgVfPl;
-        "fabric-1.21.1" = _TNiB82rm;
+        "fabric-1.21.1" = _WrD02ZmS;
         "forge-1.20.1" = _xUypaq2u;
         "neoforge-1.20.1" = _wzfyAIgJ;
-        "neoforge-1.21.1" = _uaxLGKon;
+        "neoforge-1.21.1" = _ceXg6dlq;
         "pkg-1.0.1" = _6YSR1wBu;
         "pkg-1.0.2" = _O3g1mdRZ;
         "pkg-1.0.3" = _15ZztRHQ;
@@ -374,7 +386,8 @@ let
         "pkg-2.7.0" = _FmjGqkQt;
         "pkg-2.7.1" = _CnuisYs3;
         "pkg-3.0.0" = _uaxLGKon;
-        "default" = _uaxLGKon;
+        "pkg-3.1.0" = _WrD02ZmS;
+        "default" = _WrD02ZmS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-food";

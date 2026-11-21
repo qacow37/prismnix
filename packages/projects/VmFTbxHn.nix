@@ -26,20 +26,27 @@ let
             "file" = "copyfoxies-2.2.0.jar";
             "hash" = "sha512-93JSgxIImtvqAwxw7++HUAo67CgOKGwDOEm1mmSy1JThxDwlUl4nb22Xmhs9THiFubSvQikSHEK5jBBsGytjuQ==";
         };
+        _3p7AS7dV = {
+            "id" = "3p7AS7dV";
+            "file" = "copyfoxies-2.2.1.jar";
+            "hash" = "sha512-LyUsCiLmE6/yJGywH2fCWScJmvzcchGDVAy6bqt1r8PPi2AauclZkd+FsoGIrvQcMyGaOpzcKEw5OBSDZZqJnQ==";
+        };
     in {
         "mhd07uKc" = _mhd07uKc;
         "jcddpECv" = _jcddpECv;
         "Vy1jr1jl" = _Vy1jr1jl;
         "iJDWyDsS" = _iJDWyDsS;
         "nP2BFPyv" = _nP2BFPyv;
+        "3p7AS7dV" = _3p7AS7dV;
         "forge-1.20.1" = _jcddpECv;
-        "neoforge-1.21.1" = _nP2BFPyv;
+        "neoforge-1.21.1" = _3p7AS7dV;
         "pkg-1.3.0" = _mhd07uKc;
         "pkg-1.4.4" = _jcddpECv;
         "pkg-2.0.0" = _Vy1jr1jl;
         "pkg-2.1.0" = _iJDWyDsS;
         "pkg-2.2.0" = _nP2BFPyv;
-        "default" = _nP2BFPyv;
+        "pkg-2.2.1" = _3p7AS7dV;
+        "default" = _3p7AS7dV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-copyfoxes";

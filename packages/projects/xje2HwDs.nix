@@ -126,6 +126,11 @@ let
             "file" = "admincommandtool-2.0.1-26.3.jar";
             "hash" = "sha512-NhNwkeNX/0xyBMKp979vx7nsvVN4xy+q0E9h3r2AxwUOou/eJrYZWsFvJ1zo/JYvWHt8akBgA6l5kB65kMOfCg==";
         };
+        _9v1ResJR = {
+            "id" = "9v1ResJR";
+            "file" = "admincommandtool-2.0.1-26.3-neoforge.jar";
+            "hash" = "sha512-NcK3r6lt1hCvSoJ8a5wEhwc7akedp48CjntW+54LHSXlQn+E12c2T8KCMi2AGyAuMgD8Nn/cd3QKP5ja7oqlmQ==";
+        };
     in {
         "klN4iwVb" = _klN4iwVb;
         "pab0p3lI" = _pab0p3lI;
@@ -152,12 +157,14 @@ let
         "FjH8ypfX" = _FjH8ypfX;
         "boO2816U" = _boO2816U;
         "12n0cyXx" = _12n0cyXx;
+        "9v1ResJR" = _9v1ResJR;
         "fabric-1.21.11" = _RINbK4EY;
         "fabric-26.1" = _FjH8ypfX;
         "fabric-26.1.1" = _FjH8ypfX;
         "fabric-26.1.2" = _FjH8ypfX;
         "fabric-26.2" = _boO2816U;
         "fabric-26.3" = _12n0cyXx;
+        "neoforge-26.3" = _9v1ResJR;
         "pkg-1.0.6" = _tMwbagUL;
         "pkg-1.0.7" = _Vrt7TXeN;
         "pkg-1.0.8" = _3BKeHjFt;
@@ -167,8 +174,8 @@ let
         "pkg-1.1.2" = _vEoYyw1t;
         "pkg-1.1.3" = _YEDoPOyA;
         "pkg-2.0.0" = _mZHAia44;
-        "pkg-2.0.1" = _12n0cyXx;
-        "default" = _12n0cyXx;
+        "pkg-2.0.1" = _9v1ResJR;
+        "default" = _9v1ResJR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "admin-command-tool";

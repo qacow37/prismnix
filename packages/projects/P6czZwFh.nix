@@ -376,6 +376,16 @@ let
             "file" = "wunderreich-26.400.0.jar";
             "hash" = "sha512-/6RmKy5IDu3jw0zFCDkRdgEsjiQ2b4aJt66/W1LLJlg4fauTEvrxXS7lvR3T4GN5Z0ZjZt6CB2ABAZ6M+jY3eA==";
         };
+        _xRmpNtef = {
+            "id" = "xRmpNtef";
+            "file" = "wunderreich-26.302.2.jar";
+            "hash" = "sha512-4yJdZIdOL5fD0X1ebLInQXcysjPj5+hhO5a8mlr/8r9Kp7KtucperYCsS8acLG+DkSB3E34E8G4mjq7FFnaI0Q==";
+        };
+        _9hfExHxE = {
+            "id" = "9hfExHxE";
+            "file" = "wunderreich-26.400.1.jar";
+            "hash" = "sha512-fccTSl8hv9fKW/XcnSaAX4Dd2QvpZUqJCqDOGUwHpOkkF20m6NkXSxIRz2HSFGbuDtlRkyLOEMVeEFxIgc8KdA==";
+        };
     in {
         "ytNv54ts" = _ytNv54ts;
         "Y8G66ClE" = _Y8G66ClE;
@@ -452,6 +462,8 @@ let
         "Rd4ZAygp" = _Rd4ZAygp;
         "mI4CAuax" = _mI4CAuax;
         "3HVxEnvV" = _3HVxEnvV;
+        "xRmpNtef" = _xRmpNtef;
+        "9hfExHxE" = _9hfExHxE;
         "fabric-1.19" = _erJhm0DX;
         "fabric-1.19.1" = _erJhm0DX;
         "fabric-1.19.2" = _erJhm0DX;
@@ -475,8 +487,8 @@ let
         "fabric-26.3-snapshot-5" = _XozlarAe;
         "fabric-26.3-snapshot-6" = _HVUKz3WG;
         "fabric-26.2" = _mI4CAuax;
-        "fabric-26.3" = _5CA50GAn;
-        "fabric-26.4-snapshot-8" = _3HVxEnvV;
+        "fabric-26.3" = _xRmpNtef;
+        "fabric-26.4-snapshot-8" = _9hfExHxE;
         "quilt-1.19" = _KLurQppN;
         "quilt-1.19.1" = _KLurQppN;
         "quilt-1.19.2" = _KLurQppN;
@@ -554,7 +566,9 @@ let
         "pkg-26.101.5" = _Rd4ZAygp;
         "pkg-26.201.4" = _mI4CAuax;
         "pkg-26.400.0" = _3HVxEnvV;
-        "default" = _3HVxEnvV;
+        "pkg-26.302.2" = _xRmpNtef;
+        "pkg-26.400.1" = _9hfExHxE;
+        "default" = _9hfExHxE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wunderreich";

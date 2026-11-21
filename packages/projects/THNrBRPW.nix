@@ -136,6 +136,11 @@ let
             "file" = "blossomsuite-1.0.3.jar";
             "hash" = "sha512-8YepALz2w0r9xxKwdzKkQ2bwTYJmhxGQx/1vkkSfndRhOJhgYuHElLKcz9EQVD7x5T1+Y3lXPSpdUSuhTbCXNw==";
         };
+        _4MaKkD9c = {
+            "id" = "4MaKkD9c";
+            "file" = "blossomsuite-1.1.0.jar";
+            "hash" = "sha512-p6UKNE906sjMbXswI8mw4ibvJQNIeRtrR2PKpz1OzTS+VNeBZduUobDn4kuzRYmC6VjzTSXOki7BKs/Jne8P7A==";
+        };
     in {
         "2ECWbM84" = _2ECWbM84;
         "gplSbXd1" = _gplSbXd1;
@@ -164,8 +169,9 @@ let
         "nnRl3D6p" = _nnRl3D6p;
         "bdW6A0Aj" = _bdW6A0Aj;
         "nCIq7mVK" = _nCIq7mVK;
+        "4MaKkD9c" = _4MaKkD9c;
         "fabric-1.21.8" = _pabSanXb;
-        "fabric-26.1.2" = _nCIq7mVK;
+        "fabric-26.1.2" = _4MaKkD9c;
         "pkg-0.1.0" = _2ECWbM84;
         "pkg-0.2.0" = _gplSbXd1;
         "pkg-0.3.0" = _F5pFKOYO;
@@ -193,7 +199,8 @@ let
         "pkg-1.0.1" = _nnRl3D6p;
         "pkg-1.0.2" = _bdW6A0Aj;
         "pkg-1.0.3" = _nCIq7mVK;
-        "default" = _nCIq7mVK;
+        "pkg-1.1.0" = _4MaKkD9c;
+        "default" = _4MaKkD9c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blossomsuite";

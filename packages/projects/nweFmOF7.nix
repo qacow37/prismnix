@@ -191,6 +191,21 @@ let
             "file" = "chineseweapons-neoforge-1.21.1-1.2.1.5.jar";
             "hash" = "sha512-vYM7KbGAfit7BMgdHpzu887z/xtkCmQN2fKsUrAr/+P2nmkn5cb8ke8ZROrLwcvLhRXZSuzhtQhtWwKDD8Gixw==";
         };
+        _yqxgfqle = {
+            "id" = "yqxgfqle";
+            "file" = "chineseweapons-forge-1.20.1-1.2.1.7.jar";
+            "hash" = "sha512-BAW1DZ3FXdo8XZ6YEu/C2s14aejwjUKUF8Z96eUu90IgYAMlUzandOpJTaYdqnX4rLXg6ksbOCqeX5rCfsV/6A==";
+        };
+        _IiNCE2fh = {
+            "id" = "IiNCE2fh";
+            "file" = "chineseweapons-forge-1.20.1-1.2.1.8.jar";
+            "hash" = "sha512-dc4a2B9gMt0wHsuvg0gxp0pyOjCSIHn/wrD2bv5SJZhxGANPLz+bx0oQoIwaZFs/JLRljqtLUZsm1hciTpfPUA==";
+        };
+        _zSZ9iL7Y = {
+            "id" = "zSZ9iL7Y";
+            "file" = "chineseweapons-neoforge-1.21.1-1.2.1.6.jar";
+            "hash" = "sha512-B0G9WdJfG9eIYaUoQuZVKMwz1slBrFFpW6iU5M+a+tPyozJz3x8VzBkhk28CS2TAN5sGUIpjkwkxJhMG09e/yA==";
+        };
     in {
         "9JqPS1Pe" = _9JqPS1Pe;
         "yCfL1XNC" = _yCfL1XNC;
@@ -230,7 +245,10 @@ let
         "iZnuu5Zs" = _iZnuu5Zs;
         "Zg2smyR1" = _Zg2smyR1;
         "OXST5hXI" = _OXST5hXI;
-        "forge-1.20.1" = _Zg2smyR1;
+        "yqxgfqle" = _yqxgfqle;
+        "IiNCE2fh" = _IiNCE2fh;
+        "zSZ9iL7Y" = _zSZ9iL7Y;
+        "forge-1.20.1" = _IiNCE2fh;
         "forge-1.20.2" = _7JlMSPpN;
         "forge-1.20.3" = _7JlMSPpN;
         "forge-1.20.4" = _7JlMSPpN;
@@ -240,7 +258,7 @@ let
         "forge-1.19.2" = _Vlk7igVp;
         "forge-1.19.3" = _Vlk7igVp;
         "forge-1.19.4" = _Vlk7igVp;
-        "neoforge-1.21.1" = _OXST5hXI;
+        "neoforge-1.21.1" = _zSZ9iL7Y;
         "neoforge-1.20.1" = _7N1Bk0Al;
         "neoforge-26.1.2" = _Ju9J6CUG;
         "neoforge-26.1.1" = _Ju9J6CUG;
@@ -269,8 +287,10 @@ let
         "pkg-1.2.1.3" = _M6v8HCIx;
         "pkg-1.2.1.4" = _iZnuu5Zs;
         "pkg-1.2.1.5" = _OXST5hXI;
-        "pkg-1.2.1.6" = _Zg2smyR1;
-        "default" = _OXST5hXI;
+        "pkg-1.2.1.6" = _zSZ9iL7Y;
+        "pkg-1.2.1.7" = _yqxgfqle;
+        "pkg-1.2.1.8" = _IiNCE2fh;
+        "default" = _zSZ9iL7Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chinese-weapons";

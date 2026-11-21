@@ -986,6 +986,16 @@ let
             "file" = "insanesurvivaloverhaul-5.15.2.0.jar";
             "hash" = "sha512-bAY9twvZAphpL9mstVseVtX5+uwVcRt7wRUy2H0OMyB0Gy4ERIbg9fAqfC+2XgzohPYPhQLCE2vDOhdRePBxEQ==";
         };
+        _5QdMmKew = {
+            "id" = "5QdMmKew";
+            "file" = "insanesurvivaloverhaul-5.16.1.0-beta.jar";
+            "hash" = "sha512-T7W91KEn+nN07bo0hSMSPVi35CmaJ30GSJDg84riDPdNgzWvfax0skfmUeIpTe439LYlVpUdYBKx3sqAGMv4TA==";
+        };
+        _M43ibguC = {
+            "id" = "M43ibguC";
+            "file" = "insanesurvivaloverhaul-5.16.2.0-beta.jar";
+            "hash" = "sha512-kyOcBQ6n2dyn+ysSbdnhjtA7eVi9NFTJYE9H7v2KSM54e1z6Yu+MIh/z9CyiaPE11jMj9p/2KgDiG8zgrUZQlA==";
+        };
     in {
         "SzffhwC1" = _SzffhwC1;
         "pfzWiFvb" = _pfzWiFvb;
@@ -1184,13 +1194,15 @@ let
         "AC90AhTS" = _AC90AhTS;
         "3BGa7FTq" = _3BGa7FTq;
         "DPX6KUg6" = _DPX6KUg6;
+        "5QdMmKew" = _5QdMmKew;
+        "M43ibguC" = _M43ibguC;
         "forge-1.18.2" = _SzffhwC1;
         "forge-1.19.4" = _pfzWiFvb;
         "forge-1.20.1" = _VbQyyeJv;
         "forge-1.19.2" = _kpc80kKK;
         "forge-1.12.2" = _MCHmu8jt;
         "neoforge-1.20.1" = _WelTMcOS;
-        "neoforge-1.21.1" = _DPX6KUg6;
+        "neoforge-1.21.1" = _M43ibguC;
         "pkg-2.12.12" = _SzffhwC1;
         "pkg-2.15.0" = _pfzWiFvb;
         "pkg-3.7.1" = _PPvtsUVs;
@@ -1382,7 +1394,9 @@ let
         "pkg-5.15.0.0" = _AC90AhTS;
         "pkg-5.15.1.0" = _3BGa7FTq;
         "pkg-5.15.2.0" = _DPX6KUg6;
-        "default" = _DPX6KUg6;
+        "pkg-5.16.1.0-beta" = _5QdMmKew;
+        "pkg-5.16.2.0-beta" = _M43ibguC;
+        "default" = _M43ibguC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "iguanatweaks-reborn";

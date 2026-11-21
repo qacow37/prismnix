@@ -36,6 +36,21 @@ let
             "file" = "origins-enhanced-1.12.1+mc26.3.jar";
             "hash" = "sha512-hpRMM/LVFhCHTFX8XQ62+7uHe6gQH1UyuIgGwDONNzHqzLL8HmfXQ3Odx/UwBpEjL1up0H0Uw0bf6QwOQRqGiQ==";
         };
+        _mQ15qGiS = {
+            "id" = "mQ15qGiS";
+            "file" = "origins-enhanced-1.12.2+mc26.1.2.jar";
+            "hash" = "sha512-Isa5Rl8dCcx9Fz2kykFoVa47htIV8ni6Tj2/H3qQRfQL8zVs3AEb6gXdafde9Vw8FhJIySsKj5nSniWqWax3UQ==";
+        };
+        _hkiWiCwW = {
+            "id" = "hkiWiCwW";
+            "file" = "origins-enhanced-1.12.2+mc26.2.jar";
+            "hash" = "sha512-1NVPfMZFv8FdvzdDN6Du7pfM9GIV9Eq9qtuq9lhgB11WvuiYwMGebFllrtpvOGsntyMJqOsclasrIG3CiSFBMA==";
+        };
+        _ElKD3Wyw = {
+            "id" = "ElKD3Wyw";
+            "file" = "origins-enhanced-1.12.2+mc26.3.jar";
+            "hash" = "sha512-Y0O4VUwg1VCHlh2NIGgbumpCw90emwzRe+YQfI+8lU1Er8QpHw4uYx9OqruDntfnKoVKr3Uf3q6Ljt6f94WjPg==";
+        };
     in {
         "E1UGM4t2" = _E1UGM4t2;
         "jBN23kxg" = _jBN23kxg;
@@ -44,10 +59,13 @@ let
         "TPTdTyyN" = _TPTdTyyN;
         "TpYovfaL" = _TpYovfaL;
         "SxYWwSrC" = _SxYWwSrC;
+        "mQ15qGiS" = _mQ15qGiS;
+        "hkiWiCwW" = _hkiWiCwW;
+        "ElKD3Wyw" = _ElKD3Wyw;
         "fabric-1.21.11" = _E1UGM4t2;
-        "fabric-26.1.2" = _TPTdTyyN;
-        "fabric-26.2" = _TpYovfaL;
-        "fabric-26.3" = _SxYWwSrC;
+        "fabric-26.1.2" = _mQ15qGiS;
+        "fabric-26.2" = _hkiWiCwW;
+        "fabric-26.3" = _ElKD3Wyw;
         "pkg-1.11.0" = _E1UGM4t2;
         "pkg-1.12.0+mc26.1.2" = _jBN23kxg;
         "pkg-1.12.0+mc26.2" = _ocCbxl0F;
@@ -55,7 +73,10 @@ let
         "pkg-1.12.1+mc26.1.2" = _TPTdTyyN;
         "pkg-1.12.1+mc26.2" = _TpYovfaL;
         "pkg-1.12.1+mc26.3" = _SxYWwSrC;
-        "default" = _SxYWwSrC;
+        "pkg-1.12.2+mc26.1.2" = _mQ15qGiS;
+        "pkg-1.12.2+mc26.2" = _hkiWiCwW;
+        "pkg-1.12.2+mc26.3" = _ElKD3Wyw;
+        "default" = _ElKD3Wyw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "origin-enhanced";

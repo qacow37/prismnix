@@ -156,6 +156,21 @@ let
             "file" = "soulverse-0.1.2-beta+mc26.2.jar";
             "hash" = "sha512-OHwIbvcudwJloE01LewlwWj/NdwpvPSrTm5f54VdoPhUNAnNCBc8IM6pqJQltpVVtEfOXasXqrLM7Ja3l0T0MQ==";
         };
+        _VfSsei5v = {
+            "id" = "VfSsei5v";
+            "file" = "soulverse-0.3.0-beta+mc26.3.jar";
+            "hash" = "sha512-winIxBiPM+xgZASv7rsNA4166KXFE6+UmP/Ggibxn+O1Bvr1R1HFkbAIHcH964raWreuFsMGzOzrgHnb8uQbLA==";
+        };
+        _mFrP1QnI = {
+            "id" = "mFrP1QnI";
+            "file" = "soulverse-0.3.0-beta+mc26.2.jar";
+            "hash" = "sha512-sNy1l2BPFFBdphHQT9gfwBKZxkee4ulU+i3nBuYf3RP7ZENYUdGBym1l71inRWI4ZBzq+440OliBKqgeg7Um/A==";
+        };
+        _RQqUlNDG = {
+            "id" = "RQqUlNDG";
+            "file" = "soulverse-0.3.0-beta+mc26.1.2.jar";
+            "hash" = "sha512-fzKaiVCDxHLsNUw4GRN4O8+KTB8aew+ZQ3jaNBT29vHuTETc7/9He3S8dfP1SYaWIFyrLUGd/A9JXsdBls5FyQ==";
+        };
     in {
         "BYUN8Yds" = _BYUN8Yds;
         "ZFH3TvJb" = _ZFH3TvJb;
@@ -188,12 +203,15 @@ let
         "glurSZ7S" = _glurSZ7S;
         "raHHhXwc" = _raHHhXwc;
         "VgaWt7eT" = _VgaWt7eT;
+        "VfSsei5v" = _VfSsei5v;
+        "mFrP1QnI" = _mFrP1QnI;
+        "RQqUlNDG" = _RQqUlNDG;
         "fabric-1.21.1" = _TCJpEptT;
         "fabric-26.1" = _qM4pt8aM;
         "fabric-26.1.1" = _qM4pt8aM;
-        "fabric-26.1.2" = _raHHhXwc;
-        "fabric-26.3" = _glurSZ7S;
-        "fabric-26.2" = _VgaWt7eT;
+        "fabric-26.1.2" = _RQqUlNDG;
+        "fabric-26.3" = _VfSsei5v;
+        "fabric-26.2" = _mFrP1QnI;
         "pkg-0.9.0" = _BYUN8Yds;
         "pkg-1.0.0" = _ZFH3TvJb;
         "pkg-1.1.0" = _wuJLzC5u;
@@ -224,7 +242,10 @@ let
         "pkg-0.1.2-beta+mc26.3" = _glurSZ7S;
         "pkg-0.1.2-beta+mc26.1.2" = _raHHhXwc;
         "pkg-0.1.2-beta+mc26.2" = _VgaWt7eT;
-        "default" = _VgaWt7eT;
+        "pkg-0.3.0-beta+mc26.3" = _VfSsei5v;
+        "pkg-0.3.0-beta+mc26.2" = _mFrP1QnI;
+        "pkg-0.3.0-beta+mc26.1.2" = _RQqUlNDG;
+        "default" = _RQqUlNDG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "souls-mod";

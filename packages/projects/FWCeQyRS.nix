@@ -76,6 +76,31 @@ let
             "file" = "wildfireoverlimits-1.1.6-26.3.jar";
             "hash" = "sha512-6z8g6jp8VTzw00uJiEWTNuzUzZSMCDZisCG3rsyRpX54aS0vRBRjR+t6q27wY+aM2dgU8HnQu9diQrFErrVDTQ==";
         };
+        _5fgupSuR = {
+            "id" = "5fgupSuR";
+            "file" = "wildfireoverlimits-1.1.7.jar";
+            "hash" = "sha512-K7Q4bub42RAe4zYTU7KMLHeIxBqkLd9CtZ9FGhrsF5tFLJXX4eltb1D32xH3Sv/pFLh83gAdCH5pRA1Nw3xh1A==";
+        };
+        _HfFgt2GX = {
+            "id" = "HfFgt2GX";
+            "file" = "wildfireoverlimits-1.1.7.jar";
+            "hash" = "sha512-iLFkO80LG2axrTfBVdKlQNiwTcaCWsuAR+cbWW7BvC+67pGyMUV+5lo5b63eT6W8lkGtwF8oZYgtoVORTJWbcQ==";
+        };
+        _lQauNEfl = {
+            "id" = "lQauNEfl";
+            "file" = "wildfireoverlimits-1.1.7.jar";
+            "hash" = "sha512-cA6nGhN7Mi9nVR+IO40NSEO9F/J4OgfktWol3aU/hGVGLhDA3RMyB8XFmVgHHoI29cQ9LagLu2iULT5JvTvWfA==";
+        };
+        _YNQbZW1Z = {
+            "id" = "YNQbZW1Z";
+            "file" = "wildfireoverlimits-paper-1.21.11-1.0.0.jar";
+            "hash" = "sha512-dHDklQzXDzd5UiE6KnqNCDk+LdLAdVLpqJrFBITb1vki9UlrHvTcy137NhHaLA9UtwdSCMQlPmRNOBMVgDVvsA==";
+        };
+        _RWGTJGz0 = {
+            "id" = "RWGTJGz0";
+            "file" = "wildfireoverlimits-paper-26.1.2-1.0.0.jar";
+            "hash" = "sha512-h7D8nDkDHnVxVIRsN/0e3iowv8taw9AaIkvOxBPmRrXmAbQ774XQIGRyAEOK945dL4fEGXpHqazN1MSx7HQ9yg==";
+        };
     in {
         "Ko1dT6dj" = _Ko1dT6dj;
         "TYqQQdeT" = _TYqQQdeT;
@@ -92,9 +117,16 @@ let
         "nSartfIe" = _nSartfIe;
         "RcPm89EM" = _RcPm89EM;
         "h14tnedQ" = _h14tnedQ;
-        "fabric-1.21.11" = _nSartfIe;
-        "fabric-26.1.2" = _RcPm89EM;
-        "fabric-26.3" = _h14tnedQ;
+        "5fgupSuR" = _5fgupSuR;
+        "HfFgt2GX" = _HfFgt2GX;
+        "lQauNEfl" = _lQauNEfl;
+        "YNQbZW1Z" = _YNQbZW1Z;
+        "RWGTJGz0" = _RWGTJGz0;
+        "fabric-1.21.11" = _lQauNEfl;
+        "fabric-26.1.2" = _HfFgt2GX;
+        "fabric-26.3" = _5fgupSuR;
+        "paper-1.21.11" = _YNQbZW1Z;
+        "paper-26.1.2" = _RWGTJGz0;
         "pkg-v1.1.1" = _Ko1dT6dj;
         "pkg-v1.1.2" = _TYqQQdeT;
         "pkg-v1.1.2-26.1.2" = _cjZsKjfr;
@@ -110,7 +142,12 @@ let
         "pkg-v1.1.6" = _nSartfIe;
         "pkg-v1.1.6-26.1.2" = _RcPm89EM;
         "pkg-v1.1.6-26.3" = _h14tnedQ;
-        "default" = _h14tnedQ;
+        "pkg-v1.1.7-26.3" = _5fgupSuR;
+        "pkg-v1.1.7-26.1.2" = _HfFgt2GX;
+        "pkg-v1.1.7" = _lQauNEfl;
+        "pkg-v1.0.0-paper-1.21.11" = _YNQbZW1Z;
+        "pkg-v1.0.0-paper-26.1.2" = _RWGTJGz0;
+        "default" = _RWGTJGz0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "over-limits-fgm";

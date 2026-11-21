@@ -71,6 +71,26 @@ let
             "file" = "SanityRenewed-21.1.3-mc1.21.1-neoforge.jar";
             "hash" = "sha512-N/XYW4aZKGcdubYN9gYq5aREd9QHDHl6I0uE7HVAHvMfXYIedx8k3OApyDJwmgggqTV4lFj9fhW0TgmW5x+3Yw==";
         };
+        _I9YKLMPG = {
+            "id" = "I9YKLMPG";
+            "file" = "SanityRenewed-20.1.4-mc1.20.1-fabric.jar";
+            "hash" = "sha512-ZYs6d/yW9CQ6DhQp72B3a2G277eDcGSs5xc1DkBUlHtpGB0XIR904UkTgdenbZ0XD+kJVqY5g13xYZNtLoUwkQ==";
+        };
+        _mXUqTrKG = {
+            "id" = "mXUqTrKG";
+            "file" = "SanityRenewed-20.1.4-mc1.20.1-forge.jar";
+            "hash" = "sha512-3QAxRF6UTRICpzYvfRkc/YmE2DsHEEuc9fTDDeGnsd2Wart4NqOXhd8DiYESUYPOlsmqbktEEUIcIfUhU3Gr2Q==";
+        };
+        _y1Nnlkmt = {
+            "id" = "y1Nnlkmt";
+            "file" = "SanityRenewed-21.1.4-mc1.21.1-neoforge.jar";
+            "hash" = "sha512-+hGCYRHEoSpc4F6qY+vlG9antgUK6Ted2myNTWgVgyTeFrvcVRXoSzT0S4StwoiPEEx6nj3hbatQvrnELaBt3Q==";
+        };
+        _3OYunC5K = {
+            "id" = "3OYunC5K";
+            "file" = "SanityRenewed-21.1.4-mc1.21.1-fabric.jar";
+            "hash" = "sha512-gUntx1kl0BpMBmKHfbPlIu4UlK9+w8tD6KEtLiWDWKshIJYivw6FIhDVntmbpmP3Nw5IlaFYeddK0pl3/48ihw==";
+        };
     in {
         "MX6NZmTh" = _MX6NZmTh;
         "PvRZgAeJ" = _PvRZgAeJ;
@@ -86,10 +106,14 @@ let
         "p9Lwenq6" = _p9Lwenq6;
         "SzqPQCGU" = _SzqPQCGU;
         "irfuxUSJ" = _irfuxUSJ;
-        "neoforge-1.21.1" = _irfuxUSJ;
-        "fabric-1.21.1" = _SzqPQCGU;
-        "fabric-1.20.1" = _p9Lwenq6;
-        "forge-1.20.1" = _u6H0f2nD;
+        "I9YKLMPG" = _I9YKLMPG;
+        "mXUqTrKG" = _mXUqTrKG;
+        "y1Nnlkmt" = _y1Nnlkmt;
+        "3OYunC5K" = _3OYunC5K;
+        "neoforge-1.21.1" = _y1Nnlkmt;
+        "fabric-1.21.1" = _3OYunC5K;
+        "fabric-1.20.1" = _I9YKLMPG;
+        "forge-1.20.1" = _mXUqTrKG;
         "pkg-21.1.0-mc1.21.1" = _PvRZgAeJ;
         "pkg-20.1.1-mc1.20.1-fabric" = _z7gH2zGq;
         "pkg-20.1.1-mc1.20.1-forge" = _JnLD9adv;
@@ -103,7 +127,11 @@ let
         "pkg-20.1.3-mc1.20.1-fabric" = _p9Lwenq6;
         "pkg-21.1.3-mc1.21.1-fabric" = _SzqPQCGU;
         "pkg-21.1.3-mc1.21.1-neoforge" = _irfuxUSJ;
-        "default" = _irfuxUSJ;
+        "pkg-20.1.4-mc1.20.1-fabric" = _I9YKLMPG;
+        "pkg-20.1.4-mc1.20.1-forge" = _mXUqTrKG;
+        "pkg-21.1.4-mc1.21.1-neoforge" = _y1Nnlkmt;
+        "pkg-21.1.4-mc1.21.1-fabric" = _3OYunC5K;
+        "default" = _3OYunC5K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sanity-renewed";

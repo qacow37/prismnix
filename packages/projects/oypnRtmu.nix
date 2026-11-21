@@ -41,6 +41,11 @@ let
             "file" = "sunlit_cobblemon-1.9.jar";
             "hash" = "sha512-xZDKntlOg5uEZU++9bw/qeQukA8kQHMcRyjNbdCLI1SVG0CqUHN6vjVNcWJHGUKqedF4j+oipL2/ADAdZQ3KmA==";
         };
+        _bqvqNNA8 = {
+            "id" = "bqvqNNA8";
+            "file" = "sunlit_cobblemon-1.10.jar";
+            "hash" = "sha512-2ZG0RQcS6mBFcA2slAhM4tPuVDSqCg8UC8UNDLt8UazOj91vK9yLUTdVtRku6Cb1OMmNi4LcMtdWsP0wyocbpQ==";
+        };
     in {
         "rTJyrbWk" = _rTJyrbWk;
         "8soxz4Y4" = _8soxz4Y4;
@@ -50,7 +55,8 @@ let
         "EqC5I6hl" = _EqC5I6hl;
         "U0FWEI5y" = _U0FWEI5y;
         "EzVw2nkK" = _EzVw2nkK;
-        "forge-1.20.1" = _EzVw2nkK;
+        "bqvqNNA8" = _bqvqNNA8;
+        "forge-1.20.1" = _bqvqNNA8;
         "pkg-1.2" = _rTJyrbWk;
         "pkg-1.3" = _8soxz4Y4;
         "pkg-1.4" = _G8w5btvZ;
@@ -59,7 +65,8 @@ let
         "pkg-1.7" = _EqC5I6hl;
         "pkg-1.8" = _U0FWEI5y;
         "pkg-1.9" = _EzVw2nkK;
-        "default" = _EzVw2nkK;
+        "pkg-1.10" = _bqvqNNA8;
+        "default" = _bqvqNNA8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sunlit-cobblemon-tweaks";

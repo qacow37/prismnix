@@ -51,6 +51,16 @@ let
             "file" = "elytrawindbrake-1.1.0.jar";
             "hash" = "sha512-CtSZOVwyvlI4HDNrHEoEbJjYuWeKay9PYZaZvEUbRPv0GKeWHZQvWoZZJB+D4FiJCx+lJDsVolw+TkOPekIQ9g==";
         };
+        _1cLAECvZ = {
+            "id" = "1cLAECvZ";
+            "file" = "elytrawindbrake-1.1.0.jar";
+            "hash" = "sha512-SSkQgbR0R8PMeXM+qUirGXfcosXDpt5y5KpPL7JHv45w3Aep7BbE1elMb3Eksa2gjduKsvgF177aRE4yycdXaA==";
+        };
+        _U1ZyHda0 = {
+            "id" = "U1ZyHda0";
+            "file" = "elytrawindbrake-1.1.0.jar";
+            "hash" = "sha512-wFsubke2qWDPdZmtdxnIGAvZQn8LzojVbD2PIUYOmsL29cI8ksR/MdNlZHo4SgPjDur04BgJzNgHhKgI8sG7rQ==";
+        };
     in {
         "jaIvhMoT" = _jaIvhMoT;
         "QgjcU9ls" = _QgjcU9ls;
@@ -62,6 +72,8 @@ let
         "7NwU6dAQ" = _7NwU6dAQ;
         "bo8CKfZg" = _bo8CKfZg;
         "NdDriI5q" = _NdDriI5q;
+        "1cLAECvZ" = _1cLAECvZ;
+        "U1ZyHda0" = _U1ZyHda0;
         "fabric-1.20" = _jaIvhMoT;
         "fabric-1.20.1" = _jaIvhMoT;
         "fabric-1.20.2" = _QgjcU9ls;
@@ -86,8 +98,10 @@ let
         "fabric-26.1.2" = _7NwU6dAQ;
         "fabric-26.2" = _NdDriI5q;
         "fabric-26.3" = _NdDriI5q;
-        "pkg-1.1.0" = _NdDriI5q;
-        "default" = _NdDriI5q;
+        "forge-1.20.1" = _1cLAECvZ;
+        "neoforge-1.21.1" = _U1ZyHda0;
+        "pkg-1.1.0" = _U1ZyHda0;
+        "default" = _U1ZyHda0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-wind-brake";

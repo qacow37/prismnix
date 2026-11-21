@@ -236,6 +236,16 @@ let
             "file" = "merequester-neoforge-26.1.2-1.5.1.jar";
             "hash" = "sha512-wltIjQLMxdB8XVfPnHwgUy0CzNyUgcvdivieBSr/AskOodthBEtff4y33K9qhUblb898gUjH87KKDJvOSPDpAg==";
         };
+        _aDF1ew8Y = {
+            "id" = "aDF1ew8Y";
+            "file" = "merequester-neoforge-1.21.1-1.5.1.jar";
+            "hash" = "sha512-aB4k9A3SFd2ZvJEkaQGdQKpVxufWPXYwO/tb++sNbw6J61ektHpWPBWgldvQIl+ivz+4lbtp5GV9H5iaSs7yOQ==";
+        };
+        _JOuKE4W4 = {
+            "id" = "JOuKE4W4";
+            "file" = "merequester-neoforge-26.1.2-1.5.2.jar";
+            "hash" = "sha512-Ja1jvTytnJULdJl61qlY0L1IKN9PtHnRuANctGFgvkMWKOnOXhE4rqB0oKeB2lq8fTcEy4ys6vNRC9O2iB/6lQ==";
+        };
     in {
         "LTjh3jCo" = _LTjh3jCo;
         "8aPEeRK1" = _8aPEeRK1;
@@ -284,6 +294,8 @@ let
         "hLs5MFnR" = _hLs5MFnR;
         "fJMPX9I9" = _fJMPX9I9;
         "asqYZIpt" = _asqYZIpt;
+        "aDF1ew8Y" = _aDF1ew8Y;
+        "JOuKE4W4" = _JOuKE4W4;
         "fabric-1.19.2" = _GogaQgNr;
         "fabric-1.18.2" = _lZ70idk9;
         "fabric-1.20.1" = _NmhR6jIY;
@@ -293,8 +305,8 @@ let
         "neoforge-1.20.1" = _69N8Y7WD;
         "neoforge-1.19.2" = _N0ZIW5Y9;
         "neoforge-1.20.4" = _cj9FGAyI;
-        "neoforge-1.21.1" = _hLs5MFnR;
-        "neoforge-26.1.2" = _asqYZIpt;
+        "neoforge-1.21.1" = _aDF1ew8Y;
+        "neoforge-26.1.2" = _JOuKE4W4;
         "pkg-1.19.2-1.0.0+fabric" = _LTjh3jCo;
         "pkg-1.19.2-1.0.0+forge" = _8aPEeRK1;
         "pkg-1.19.2-1.0.1+forge" = _2g5yXXfo;
@@ -342,7 +354,9 @@ let
         "pkg-1.21.1-1.5.0+neoforge" = _hLs5MFnR;
         "pkg-26.1.2-1.5.0+neoforge" = _fJMPX9I9;
         "pkg-26.1.2-1.5.1+neoforge" = _asqYZIpt;
-        "default" = _asqYZIpt;
+        "pkg-1.21.1-1.5.1+neoforge" = _aDF1ew8Y;
+        "pkg-26.1.2-1.5.2+neoforge" = _JOuKE4W4;
+        "default" = _JOuKE4W4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "merequester";

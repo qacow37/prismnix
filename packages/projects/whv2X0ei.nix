@@ -106,6 +106,21 @@ let
             "file" = "jobsaddon-1.3.1.jar";
             "hash" = "sha512-RCfZRXWLpV6Iw1npbPk+hVUnFTAp3IxO1lmfc8L+ioYyBUFyPoZNWU8gOdc2xwZTZr8JX8h7RLFc3OlqX4Yv/w==";
         };
+        _MTAT3dbE = {
+            "id" = "MTAT3dbE";
+            "file" = "jobsaddon-fabric-1.4.0+26.3.jar";
+            "hash" = "sha512-Nrfig7EIdgacGQyVwZaJEB3eW8IGNOz971h9O0Ab0PT6yTZxQAxh1EnOZk2/vcd0qB3pl1iRHvUGsXrNotW/LQ==";
+        };
+        _xl8qWZ4z = {
+            "id" = "xl8qWZ4z";
+            "file" = "jobsaddon-neoforge-1.4.0+26.3.jar";
+            "hash" = "sha512-J4ITcqNTBUgcOr8qRPgxHu5wuu1aK33FTQYCQZHjMTfVVGgQdCIlhYMHsSewsn/uP/tUC3IlqP6LtadtF5HQpw==";
+        };
+        _rqWSkiQ5 = {
+            "id" = "rqWSkiQ5";
+            "file" = "jobsaddon-1.3.2.jar";
+            "hash" = "sha512-OHU204LBdcxp+2Djx0XbcmxnZcSJF0BPjaPL5/qHlaAoHFzHdVh8lTAxdad6m1jBaJIynEUqJaWi39pBff7whg==";
+        };
     in {
         "trHESDJr" = _trHESDJr;
         "EGKGcrGq" = _EGKGcrGq;
@@ -128,10 +143,15 @@ let
         "UsITbIAN" = _UsITbIAN;
         "7AbM2h6J" = _7AbM2h6J;
         "bxFbgpIQ" = _bxFbgpIQ;
+        "MTAT3dbE" = _MTAT3dbE;
+        "xl8qWZ4z" = _xl8qWZ4z;
+        "rqWSkiQ5" = _rqWSkiQ5;
         "fabric-1.19.2" = _DnrXjk5J;
         "fabric-1.20" = _GtgJEjVy;
         "fabric-1.20.1" = _PDVZqlFW;
-        "fabric-1.21.1" = _bxFbgpIQ;
+        "fabric-1.21.1" = _rqWSkiQ5;
+        "fabric-26.3" = _MTAT3dbE;
+        "neoforge-26.3" = _xl8qWZ4z;
         "pkg-1.0.11" = _trHESDJr;
         "pkg-1.0.12+1.19.2" = _EGKGcrGq;
         "pkg-1.1.0+1.19.2" = _vyl6EmTi;
@@ -153,7 +173,10 @@ let
         "pkg-1.2.7+1.21.1" = _UsITbIAN;
         "pkg-1.3.0+1.21.1" = _7AbM2h6J;
         "pkg-1.3.1+1.21.1" = _bxFbgpIQ;
-        "default" = _bxFbgpIQ;
+        "pkg-1.4.0+26.3-fabric" = _MTAT3dbE;
+        "pkg-1.4.0+26.3-neoforge" = _xl8qWZ4z;
+        "pkg-1.3.2+1.21.1" = _rqWSkiQ5;
+        "default" = _rqWSkiQ5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jobsaddon";

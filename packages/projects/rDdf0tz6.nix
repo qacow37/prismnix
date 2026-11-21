@@ -326,6 +326,16 @@ let
             "file" = "worlds-2.2.0+26.3.jar";
             "hash" = "sha512-Lu/S2kmFlEc11i24aM804ynRVLdEnaHOYkVgzh4m9zuuyWHqwwmPSjnqN++aQRKOHEG/rTwuvghgOpIByOhDxg==";
         };
+        _hCXL1m7V = {
+            "id" = "hCXL1m7V";
+            "file" = "worlds-2.2.1+26.3.jar";
+            "hash" = "sha512-tlqn/bp20OeZ8LwPI8gD3rEbqogXg1B4Kp76F7P4jC82UKRmChz/I1mIZPwubJIcmUP5ei7C2x34u6ARgUPMWg==";
+        };
+        _97dpUZ85 = {
+            "id" = "97dpUZ85";
+            "file" = "worlds-2.2.2+26.3.jar";
+            "hash" = "sha512-JmvFg6KQBBwGLhVLaXZdnVhw7UwfCPcoUBmzxqqx//fcNbzybFsjm/82H+wkgd8AKTy6/AqP+e1MFM9I6pbNRQ==";
+        };
     in {
         "XRgtHUlZ" = _XRgtHUlZ;
         "eO0YNKNJ" = _eO0YNKNJ;
@@ -392,6 +402,8 @@ let
         "wa2k38wB" = _wa2k38wB;
         "7kuaAK99" = _7kuaAK99;
         "CwZ6hq5g" = _CwZ6hq5g;
+        "hCXL1m7V" = _hCXL1m7V;
+        "97dpUZ85" = _97dpUZ85;
         "fabric-1.21.8" = _VSRbEanA;
         "fabric-1.21.9-pre4" = _7f1gxtX8;
         "fabric-1.21.9-rc1" = _uRHzR9it;
@@ -419,7 +431,7 @@ let
         "fabric-26.3-rc-1" = _IVqNIkvD;
         "fabric-26.3-rc-2" = _W6kcS7qy;
         "fabric-26.3-rc-3" = _FoMsfFQa;
-        "fabric-26.3" = _CwZ6hq5g;
+        "fabric-26.3" = _97dpUZ85;
         "quilt-1.21.8" = _BZdGNkOW;
         "quilt-1.21.9-rc1" = _uRHzR9it;
         "quilt-1.21.9" = _ELw61ho3;
@@ -446,7 +458,7 @@ let
         "quilt-26.3-rc-1" = _IVqNIkvD;
         "quilt-26.3-rc-2" = _W6kcS7qy;
         "quilt-26.3-rc-3" = _FoMsfFQa;
-        "quilt-26.3" = _CwZ6hq5g;
+        "quilt-26.3" = _97dpUZ85;
         "pkg-1.0.0+1.21.8" = _eO0YNKNJ;
         "pkg-1.0.1+1.21.8" = _IFZe1J2Q;
         "pkg-1.1.0+1.21.8" = _BZdGNkOW;
@@ -510,7 +522,9 @@ let
         "pkg-2.0.1+26.3" = _wa2k38wB;
         "pkg-2.1.0+26.3" = _7kuaAK99;
         "pkg-2.2.0+26.3" = _CwZ6hq5g;
-        "default" = _CwZ6hq5g;
+        "pkg-2.2.1+26.3" = _hCXL1m7V;
+        "pkg-2.2.2+26.3" = _97dpUZ85;
+        "default" = _97dpUZ85;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mc-worlds";

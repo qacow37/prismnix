@@ -246,6 +246,26 @@ let
             "file" = "hotwire-0.9.5-beta+mc26.1-26.3.jar";
             "hash" = "sha512-/BqPHDQVRs7L9OP4E9K85GgNMYVd6MaKbpYEty1EhpxvkXmeSmetRNjDEeNSz8DEF4f+Pvj/841N4GjaDhKXHA==";
         };
+        _V7CAR1Bq = {
+            "id" = "V7CAR1Bq";
+            "file" = "hotwire-0.9.5.1-beta+mc1.21.1-1.21.11.jar";
+            "hash" = "sha512-46KG5xFZW3jWV4qELipZfRYjAjSVb/Kr6e5Y76wPnCnXVoCu2bzkgLe8ZEt2OxOz4UdqHTS2/cJlMUNYwFj1EA==";
+        };
+        _k2o1pvPo = {
+            "id" = "k2o1pvPo";
+            "file" = "hotwire-0.9.5.1-beta+mc26.1-26.3.jar";
+            "hash" = "sha512-xtih+GNHakf5yR6Rnt9OGbabgyrcgoKT6bRsp7QzvbCqDvcUfU1jcC7ZMnhqdPK3gzKldntGxxWJaaiOGjli9Q==";
+        };
+        _PItqG2SM = {
+            "id" = "PItqG2SM";
+            "file" = "hotwire-0.9.5.2-beta+mc1.21.1-1.21.11.jar";
+            "hash" = "sha512-XuDsck1xNRkeTuSTA3VD943XdZ0OYLrTwkTVmqeKa0P5OjutmbZX+nRHe8+2tKDeBP8eghRXrgTetfiAfe8JCQ==";
+        };
+        _RFabQfET = {
+            "id" = "RFabQfET";
+            "file" = "hotwire-0.9.5.2-beta+mc26.1-26.3.jar";
+            "hash" = "sha512-q5YVuX78M5MoUh7hvWStmmTfqT6ui/et4SIcEM5vF91xlnPpKM95ep+TES5LaHWSN8d/GFhFgZenBUapkxsGmw==";
+        };
     in {
         "L9LHR2yH" = _L9LHR2yH;
         "AJ8dEP0W" = _AJ8dEP0W;
@@ -296,17 +316,21 @@ let
         "pGjAmBMw" = _pGjAmBMw;
         "dgaJrfsb" = _dgaJrfsb;
         "agniMrxR" = _agniMrxR;
-        "fabric-26.2" = _agniMrxR;
-        "fabric-26.3" = _agniMrxR;
-        "fabric-26.1" = _agniMrxR;
-        "fabric-26.1.1" = _agniMrxR;
-        "fabric-26.1.2" = _agniMrxR;
-        "fabric-1.21.11" = _dgaJrfsb;
-        "fabric-1.21.10" = _dgaJrfsb;
-        "fabric-1.21.8" = _dgaJrfsb;
-        "fabric-1.21.5" = _dgaJrfsb;
-        "fabric-1.21.4" = _dgaJrfsb;
-        "fabric-1.21.1" = _dgaJrfsb;
+        "V7CAR1Bq" = _V7CAR1Bq;
+        "k2o1pvPo" = _k2o1pvPo;
+        "PItqG2SM" = _PItqG2SM;
+        "RFabQfET" = _RFabQfET;
+        "fabric-26.2" = _RFabQfET;
+        "fabric-26.3" = _RFabQfET;
+        "fabric-26.1" = _RFabQfET;
+        "fabric-26.1.1" = _RFabQfET;
+        "fabric-26.1.2" = _RFabQfET;
+        "fabric-1.21.11" = _PItqG2SM;
+        "fabric-1.21.10" = _PItqG2SM;
+        "fabric-1.21.8" = _PItqG2SM;
+        "fabric-1.21.5" = _PItqG2SM;
+        "fabric-1.21.4" = _PItqG2SM;
+        "fabric-1.21.1" = _PItqG2SM;
         "fabric-1.21.2" = _JmrLeulW;
         "fabric-1.21.3" = _JmrLeulW;
         "fabric-1.21.6" = _JmrLeulW;
@@ -347,7 +371,11 @@ let
         "pkg-0.9.4-beta+mc26.1-26.3" = _pGjAmBMw;
         "pkg-0.9.5-beta+mc1.21.1-1.21.11" = _dgaJrfsb;
         "pkg-0.9.5-beta+mc26.1-26.3" = _agniMrxR;
-        "default" = _agniMrxR;
+        "pkg-0.9.5.1-beta+mc1.21.1-1.21.11" = _V7CAR1Bq;
+        "pkg-0.9.5.1-beta+mc26.1-26.3" = _k2o1pvPo;
+        "pkg-0.9.5.2-beta+mc1.21.1-1.21.11" = _PItqG2SM;
+        "pkg-0.9.5.2-beta+mc26.1-26.3" = _RFabQfET;
+        "default" = _RFabQfET;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "irenehotwire";

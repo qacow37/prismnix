@@ -56,6 +56,11 @@ let
             "file" = "rackitup-1.3.6.jar";
             "hash" = "sha512-ymhTDXbO7xQ8z3Rprf08l+wqlKdICngPQw2O/JqWAOAP+wF2eHA2Sts6G1I/SmZZLzWRRJZRYZdBbK3l3QkdGQ==";
         };
+        _wCkvZ7iY = {
+            "id" = "wCkvZ7iY";
+            "file" = "rackitup-1.3.7.jar";
+            "hash" = "sha512-8A7jOWhni2bx6meO6aSqechr+892XPjc+RendQWIYgShWaKKH4iBsi4qZL1SDs4xFQLhSxk7mS+OKN1lABrong==";
+        };
     in {
         "vbhPDMyj" = _vbhPDMyj;
         "XACDrHhx" = _XACDrHhx;
@@ -68,7 +73,8 @@ let
         "hsST2vM7" = _hsST2vM7;
         "cR4E1LrY" = _cR4E1LrY;
         "Hiv1RG5p" = _Hiv1RG5p;
-        "forge-1.20.1" = _Hiv1RG5p;
+        "wCkvZ7iY" = _wCkvZ7iY;
+        "forge-1.20.1" = _wCkvZ7iY;
         "neoforge-1.21.1" = _cR4E1LrY;
         "pkg-1.0" = _vbhPDMyj;
         "pkg-1.1" = _XACDrHhx;
@@ -81,7 +87,8 @@ let
         "pkg-1.3.5" = _hsST2vM7;
         "pkg-Neo-1.0.0-MC-1.21.1" = _cR4E1LrY;
         "pkg-1.3.6" = _Hiv1RG5p;
-        "default" = _Hiv1RG5p;
+        "pkg-1.3.7" = _wCkvZ7iY;
+        "default" = _wCkvZ7iY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rack-it-up";

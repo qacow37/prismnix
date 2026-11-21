@@ -501,6 +501,16 @@ let
             "file" = "servercore-fabric-1.5.20+26.3.jar";
             "hash" = "sha512-q+H4BupYeXH6996CbhiwcxSkqeaQ9kpMOlTn9hw+b0eSYzsTqRclK9jeFUzsOdpmGRENg3mc9TNFDFtMrHqESA==";
         };
+        _eOrX40ue = {
+            "id" = "eOrX40ue";
+            "file" = "servercore-neoforge-1.5.21+26.3.jar";
+            "hash" = "sha512-eEHGon59CIkpCU5wSkTLHdlyTozw5MG2ZQHgOkVtEVzAKJQqqYzi3w5trxK/XxcZJPO/B+XrbRVKCAN79C0eMw==";
+        };
+        _YNdFPSov = {
+            "id" = "YNdFPSov";
+            "file" = "servercore-fabric-1.5.21+26.3.jar";
+            "hash" = "sha512-bRKAOg1C62Gaw7vUtuq3/FheOrnK3zLO5GVsgyaiXxEOmVL8WbE1bVWzolLW5hz12YMgegSAMiWAzUKH5TbSjg==";
+        };
     in {
         "jdWMQF3q" = _jdWMQF3q;
         "iIO82sHi" = _iIO82sHi;
@@ -602,6 +612,8 @@ let
         "6N9hXiRa" = _6N9hXiRa;
         "bfczZvad" = _bfczZvad;
         "LCG1Bm84" = _LCG1Bm84;
+        "eOrX40ue" = _eOrX40ue;
+        "YNdFPSov" = _YNdFPSov;
         "fabric-1.17.1" = _XcHqpCID;
         "fabric-1.18-pre3" = _iIO82sHi;
         "fabric-1.18-pre4" = _iIO82sHi;
@@ -639,7 +651,7 @@ let
         "fabric-26.1.1" = _P8k080Af;
         "fabric-26.1.2" = _H6TboTA2;
         "fabric-26.2" = _edrtnY9v;
-        "fabric-26.3" = _LCG1Bm84;
+        "fabric-26.3" = _YNdFPSov;
         "forge-1.19.4" = _oQtOLaDw;
         "forge-1.20" = _NUCfmmGy;
         "forge-1.20.1" = _rx1c7m6q;
@@ -667,7 +679,7 @@ let
         "neoforge-26.1.1" = _2QeJcNhM;
         "neoforge-26.1.2" = _TzrJj0Fc;
         "neoforge-26.2" = _88gv0DMz;
-        "neoforge-26.3" = _bfczZvad;
+        "neoforge-26.3" = _eOrX40ue;
         "pkg-1.2.3-1.17.1" = _jdWMQF3q;
         "pkg-1.2.4-1.18-pre4" = _iIO82sHi;
         "pkg-1.2.4-1.17.1" = _zrc8Lb7r;
@@ -725,7 +737,8 @@ let
         "pkg-1.5.19+26.1.2" = _TzrJj0Fc;
         "pkg-1.5.19+1.21.1" = _6N9hXiRa;
         "pkg-1.5.20+26.3" = _LCG1Bm84;
-        "default" = _LCG1Bm84;
+        "pkg-1.5.21+26.3" = _YNdFPSov;
+        "default" = _YNdFPSov;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "servercore";

@@ -196,6 +196,16 @@ let
             "file" = "flavor_immersed_daily-1.21.1-neoforge-2026.11.14.jar";
             "hash" = "sha512-VJsX32ohf95ULet2ubkr4ZHQIISiLntNxklfcPRUjaKnUy0ojjsl9CPJxXT0rTqspYXRTykhbIiKzU552mn3Iw==";
         };
+        _PkbPLjGg = {
+            "id" = "PkbPLjGg";
+            "file" = "flavor_immersed_daily-1.20.1-forge-2026.11.19.jar";
+            "hash" = "sha512-gvS/F1xflNU2Ry3Xig8F/4WNrILErcTB4IZzQX91te7p6mUEjUG7bc9PPC9+aYxlo5Zs3l9XW0c+BTBTvTHAqg==";
+        };
+        _VCGwboIX = {
+            "id" = "VCGwboIX";
+            "file" = "flavor_immersed_daily-1.21.1-neoforge-2026.11.19.jar";
+            "hash" = "sha512-3RNZSpK5WTBDZf+4w/RFvl+fqse8qHUB5zuo9gaQ/fRBzMYH1Erx1xuc/WTGAhpYZuQTEp7vWIlXoA+FAvcH+w==";
+        };
     in {
         "rAGJbJLU" = _rAGJbJLU;
         "zAVcBhuD" = _zAVcBhuD;
@@ -236,14 +246,16 @@ let
         "Y0aUgAZv" = _Y0aUgAZv;
         "D1HQDe3i" = _D1HQDe3i;
         "zEQK0nJr" = _zEQK0nJr;
-        "forge-1.20.1" = _D1HQDe3i;
+        "PkbPLjGg" = _PkbPLjGg;
+        "VCGwboIX" = _VCGwboIX;
+        "forge-1.20.1" = _PkbPLjGg;
         "forge-1.21.1" = _GRR4zzkl;
-        "forge-1.20.2" = _D1HQDe3i;
-        "forge-1.20.3" = _D1HQDe3i;
-        "forge-1.20.4" = _D1HQDe3i;
-        "forge-1.20.5" = _D1HQDe3i;
-        "forge-1.20.6" = _D1HQDe3i;
-        "neoforge-1.21.1" = _zEQK0nJr;
+        "forge-1.20.2" = _PkbPLjGg;
+        "forge-1.20.3" = _PkbPLjGg;
+        "forge-1.20.4" = _PkbPLjGg;
+        "forge-1.20.5" = _PkbPLjGg;
+        "forge-1.20.6" = _PkbPLjGg;
+        "neoforge-1.21.1" = _VCGwboIX;
         "pkg-1.0.7.1" = _rAGJbJLU;
         "pkg-1.1.0" = _7xQCnBge;
         "pkg-1.1.0.1" = _nsh9w6XY;
@@ -275,7 +287,9 @@ let
         "pkg-1.21.1-neoforge-2026.11.12" = _Y0aUgAZv;
         "pkg-1.20.1-forge-2026.11.14" = _D1HQDe3i;
         "pkg-1.21.1-neoforge-2026.11.14" = _zEQK0nJr;
-        "default" = _zEQK0nJr;
+        "pkg-1.20.1-forge-2026.11.19" = _PkbPLjGg;
+        "pkg-1.21.1-neoforge-2026.11.19" = _VCGwboIX;
+        "default" = _VCGwboIX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flavorimmerseddaily";

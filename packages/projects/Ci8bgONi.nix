@@ -421,6 +421,16 @@ let
             "file" = "nightworld-neoforge-26.1-5.1.0.jar";
             "hash" = "sha512-XhAuZ92uueXDtbXuT8FvVVm8A4hhCaVtpjicFWBX4f4HsjLyw0IZuLnbvonMm8suCI5YRsjC6ykfr+EewNMIkQ==";
         };
+        _q4PGwshx = {
+            "id" = "q4PGwshx";
+            "file" = "nightworld-fabric-26.3-5.1.0.jar";
+            "hash" = "sha512-VQdDR2kwKAuqqyfJr9/k/dr/qBxRxidWQnesxKhq6NSRpaNOrKboW0SjSGlZM4h7JD6x4FvENElXyvlcIC9Y7Q==";
+        };
+        _fHIqMLY0 = {
+            "id" = "fHIqMLY0";
+            "file" = "nightworld-neoforge-26.3-5.1.0.jar";
+            "hash" = "sha512-74E/BfYrfIVMYfTGuU+/M4HrPIGYeveGTwOV7KsSAfBbK0jEj4MvpaLlF8txqnT4vDiCOpyukiWpH02cK+FwZA==";
+        };
     in {
         "FMMxV7qD" = _FMMxV7qD;
         "6834tPUQ" = _6834tPUQ;
@@ -506,6 +516,8 @@ let
         "ZsUcRiDV" = _ZsUcRiDV;
         "TFMCl9Qi" = _TFMCl9Qi;
         "z2xmRSlp" = _z2xmRSlp;
+        "q4PGwshx" = _q4PGwshx;
+        "fHIqMLY0" = _fHIqMLY0;
         "fabric-1.19.2" = _EIYwQPUK;
         "fabric-1.19.4" = _bpKwMzyD;
         "fabric-1.20.1" = _StxYfvWq;
@@ -524,6 +536,7 @@ let
         "fabric-26.1" = _TFMCl9Qi;
         "fabric-26.1.1" = _TFMCl9Qi;
         "fabric-26.1.2" = _TFMCl9Qi;
+        "fabric-26.3" = _q4PGwshx;
         "forge-1.19.2" = _TV5MJbZY;
         "forge-1.19.4" = _UapJBYG6;
         "forge-1.20.1" = _C0jz8W2e;
@@ -547,6 +560,7 @@ let
         "neoforge-26.1" = _z2xmRSlp;
         "neoforge-26.1.1" = _z2xmRSlp;
         "neoforge-26.1.2" = _z2xmRSlp;
+        "neoforge-26.3" = _fHIqMLY0;
         "pkg-1.0.0.0" = _J24g0oIq;
         "pkg-2.0.0" = _SGXEQXQl;
         "pkg-2.0.1" = _DrveK7rF;
@@ -554,8 +568,8 @@ let
         "pkg-4.0.0" = _w63AYigl;
         "pkg-4.0.1" = _iqWUUnho;
         "pkg-5.0.0" = _ZsUcRiDV;
-        "pkg-5.1.0" = _z2xmRSlp;
-        "default" = _z2xmRSlp;
+        "pkg-5.1.0" = _fHIqMLY0;
+        "default" = _fHIqMLY0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nightworld";

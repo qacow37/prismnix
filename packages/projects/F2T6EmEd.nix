@@ -56,6 +56,16 @@ let
             "file" = "coordscoordscoords-26.2-snapshot-6.jar";
             "hash" = "sha512-QPjsbyJs54iSqDlqDdXuxOHcTvn2GU/0HgneVEDJnsL9kClODljT1fk53AZBf+6r4fKsimYIFKDC619EslfQyA==";
         };
+        _wemcKrAr = {
+            "id" = "wemcKrAr";
+            "file" = "CoordsCoordsCoords.zip";
+            "hash" = "sha512-zN4KmJAvlSDjRqebqY6HNbZw/JlL+K6dOwqXICgCEbOBVwVrVoaqTMr1HCHtZSjj1QKz9vzUlkLCCnyj63LQww==";
+        };
+        _q0obLvDW = {
+            "id" = "q0obLvDW";
+            "file" = "coordscoordscoords-26.4-snapshot-10.jar";
+            "hash" = "sha512-4gwLqlou1GWSzUr1L34HaorwPl5Dv7f+4olEEF9s4lTET3RI61VtKlue8Gf85yd3sNxwcDrG84xTPPpEr5+yhA==";
+        };
     in {
         "bDwkKEAi" = _bDwkKEAi;
         "ENSQmh9N" = _ENSQmh9N;
@@ -68,6 +78,8 @@ let
         "a0FPWgUs" = _a0FPWgUs;
         "7s9iLyW8" = _7s9iLyW8;
         "VaFoJCYI" = _VaFoJCYI;
+        "wemcKrAr" = _wemcKrAr;
+        "q0obLvDW" = _q0obLvDW;
         "datapack-1.21.3" = _bDwkKEAi;
         "datapack-1.21.4" = _F04fclyw;
         "datapack-1.21.5-pre3" = _ENSQmh9N;
@@ -82,22 +94,32 @@ let
         "datapack-26.1.2" = _7s9iLyW8;
         "datapack-26.2-snapshot-5" = _7s9iLyW8;
         "datapack-26.2-snapshot-6" = _7s9iLyW8;
+        "datapack-26.3" = _wemcKrAr;
+        "datapack-26.4-snapshot-10" = _wemcKrAr;
         "fabric-1.21.9" = _VaFoJCYI;
         "fabric-26.1.2" = _VaFoJCYI;
         "fabric-26.2-snapshot-5" = _VaFoJCYI;
         "fabric-26.2-snapshot-6" = _VaFoJCYI;
+        "fabric-26.3" = _q0obLvDW;
+        "fabric-26.4-snapshot-10" = _q0obLvDW;
         "forge-1.21.9" = _VaFoJCYI;
         "forge-26.1.2" = _VaFoJCYI;
         "forge-26.2-snapshot-5" = _VaFoJCYI;
         "forge-26.2-snapshot-6" = _VaFoJCYI;
+        "forge-26.3" = _q0obLvDW;
+        "forge-26.4-snapshot-10" = _q0obLvDW;
         "neoforge-1.21.9" = _VaFoJCYI;
         "neoforge-26.1.2" = _VaFoJCYI;
         "neoforge-26.2-snapshot-5" = _VaFoJCYI;
         "neoforge-26.2-snapshot-6" = _VaFoJCYI;
+        "neoforge-26.3" = _q0obLvDW;
+        "neoforge-26.4-snapshot-10" = _q0obLvDW;
         "quilt-1.21.9" = _VaFoJCYI;
         "quilt-26.1.2" = _VaFoJCYI;
         "quilt-26.2-snapshot-5" = _VaFoJCYI;
         "quilt-26.2-snapshot-6" = _VaFoJCYI;
+        "quilt-26.3" = _q0obLvDW;
+        "quilt-26.4-snapshot-10" = _q0obLvDW;
         "pkg-0.1" = _bDwkKEAi;
         "pkg-0.1.snapshot1.21.5-rc2" = _ENSQmh9N;
         "pkg-0.2" = _oaFdqN5U;
@@ -109,7 +131,9 @@ let
         "pkg-1.21.9+mod" = _a0FPWgUs;
         "pkg-26.2-snapshot-6" = _7s9iLyW8;
         "pkg-26.2-snapshot-6+mod" = _VaFoJCYI;
-        "default" = _VaFoJCYI;
+        "pkg-26.4-snapshot-10" = _wemcKrAr;
+        "pkg-26.4-snapshot-10+mod" = _q0obLvDW;
+        "default" = _q0obLvDW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "coordscoordscoords";

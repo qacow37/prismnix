@@ -76,6 +76,11 @@ let
             "file" = "jarjar-0.4.0-beta.jar";
             "hash" = "sha512-dByDPZ233JG35I6mVp1mUWsoAN8S0FoyUSY+K9aaNy3/VaXK1hP2/fILqA0DtftYNVagd+Ugtb9oGv/deG7HdQ==";
         };
+        _fcgTMTQU = {
+            "id" = "fcgTMTQU";
+            "file" = "jarjar-0.4.1-beta.jar";
+            "hash" = "sha512-9shycB56sPBoWB3yXMfIh/qdjgftkYMa/n+Dljaic0+QtEYaQ3N9BUvO2XpO1wYzHm6RZqbI3Dwo4c9B6pm2aQ==";
+        };
     in {
         "9KbUhYWj" = _9KbUhYWj;
         "pmX8nJ5l" = _pmX8nJ5l;
@@ -92,7 +97,8 @@ let
         "BxOKGKQy" = _BxOKGKQy;
         "zjtzinBr" = _zjtzinBr;
         "6bguuxwl" = _6bguuxwl;
-        "forge-1.7.10" = _6bguuxwl;
+        "fcgTMTQU" = _fcgTMTQU;
+        "forge-1.7.10" = _fcgTMTQU;
         "pkg-0.1.1-beta" = _9KbUhYWj;
         "pkg-0.2.1-beta" = _pmX8nJ5l;
         "pkg-0.2.2-beta" = _OlXsXuDm;
@@ -108,7 +114,8 @@ let
         "pkg-0.3.6-beta" = _BxOKGKQy;
         "pkg-0.3.7-beta" = _zjtzinBr;
         "pkg-0.4.0-beta" = _6bguuxwl;
-        "default" = _6bguuxwl;
+        "pkg-0.4.1-beta" = _fcgTMTQU;
+        "default" = _fcgTMTQU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jarjar";

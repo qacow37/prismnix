@@ -746,6 +746,16 @@ let
             "file" = "SnowRealMagic-mc26.1-NeoForge-26.1.2.jar";
             "hash" = "sha512-xNgg2ZJGeHbVGbvc0jnB6bf3kKtMtY7DDn6ikrPVM1E5JuVob1ELV6TCPzi5q3F93KGkl/CSrMBsU0uNY8Ekcw==";
         };
+        _3FXhG5Cx = {
+            "id" = "3FXhG5Cx";
+            "file" = "SnowRealMagic-mc26.1-Fabric-26.1.3.jar";
+            "hash" = "sha512-IgthUKDerrWUL4cUrsN5ksCcT1mkmWsmdSfjXmtmi+3dM6WI5BK6N8eopqEN3CTBCoyIES0XIl0e1+BESeOcVQ==";
+        };
+        _43V2J2ab = {
+            "id" = "43V2J2ab";
+            "file" = "SnowRealMagic-mc26.1-NeoForge-26.1.3.jar";
+            "hash" = "sha512-qcIz6AOB7s9JoU8313tJWQzhNePZqPr4i6mt9b1+aqA8XYGv2O+ExaPxFGSvHK5kDvp88LQtkJI40svpLGUZlA==";
+        };
     in {
         "KzkdNEMw" = _KzkdNEMw;
         "aJn7pG9w" = _aJn7pG9w;
@@ -896,6 +906,8 @@ let
         "Dj3YEW3O" = _Dj3YEW3O;
         "1mYsHxky" = _1mYsHxky;
         "heYOWIUV" = _heYOWIUV;
+        "3FXhG5Cx" = _3FXhG5Cx;
+        "43V2J2ab" = _43V2J2ab;
         "fabric-1.19.3" = _Dcj8Il7B;
         "fabric-1.19.2" = _Fo8Vytsg;
         "fabric-1.19.4" = _jIPF2Beb;
@@ -903,9 +915,9 @@ let
         "fabric-1.20.1" = _Itno2wbk;
         "fabric-1.21" = _PVddB1BL;
         "fabric-1.21.1" = _PVddB1BL;
-        "fabric-26.1" = _1mYsHxky;
-        "fabric-26.1.1" = _1mYsHxky;
-        "fabric-26.1.2" = _1mYsHxky;
+        "fabric-26.1" = _3FXhG5Cx;
+        "fabric-26.1.1" = _3FXhG5Cx;
+        "fabric-26.1.2" = _3FXhG5Cx;
         "fabric-26.3" = _oovmGSoO;
         "fabric-26.2" = _Dj3YEW3O;
         "forge-1.19.2" = _BywGg9xj;
@@ -916,16 +928,16 @@ let
         "neoforge-1.20" = _aQw97T9l;
         "neoforge-1.20.1" = _aQw97T9l;
         "neoforge-1.21.1" = _ovvhJCXR;
-        "neoforge-26.1" = _heYOWIUV;
-        "neoforge-26.1.1" = _heYOWIUV;
-        "neoforge-26.1.2" = _heYOWIUV;
+        "neoforge-26.1" = _43V2J2ab;
+        "neoforge-26.1.1" = _43V2J2ab;
+        "neoforge-26.1.2" = _43V2J2ab;
         "quilt-1.20" = _Itno2wbk;
         "quilt-1.20.1" = _Itno2wbk;
         "quilt-1.21" = _PVddB1BL;
         "quilt-1.21.1" = _PVddB1BL;
-        "quilt-26.1" = _1mYsHxky;
-        "quilt-26.1.1" = _1mYsHxky;
-        "quilt-26.1.2" = _1mYsHxky;
+        "quilt-26.1" = _3FXhG5Cx;
+        "quilt-26.1.1" = _3FXhG5Cx;
+        "quilt-26.1.2" = _3FXhG5Cx;
         "quilt-26.3" = _oovmGSoO;
         "quilt-26.2" = _Dj3YEW3O;
         "pkg-6.0.0" = _KzkdNEMw;
@@ -1051,7 +1063,9 @@ let
         "pkg-26.2.0+fabric" = _Dj3YEW3O;
         "pkg-26.1.2+fabric" = _1mYsHxky;
         "pkg-26.1.2+neoforge" = _heYOWIUV;
-        "default" = _heYOWIUV;
+        "pkg-26.1.3+fabric" = _3FXhG5Cx;
+        "pkg-26.1.3+neoforge" = _43V2J2ab;
+        "default" = _43V2J2ab;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "snow-real-magic";

@@ -81,6 +81,16 @@ let
             "file" = "dungeonz-1.3.1.jar";
             "hash" = "sha512-ZVAK/jnCnR457B3pKk/W59K+3nYuuKF30NeZNGz6XLUhGObcwrDKf6naeipceW5DULnE5Dxymw38LT5Ox1fY7g==";
         };
+        _mfajJkYF = {
+            "id" = "mfajJkYF";
+            "file" = "dungeonz-fabric-1.4.0+26.3.jar";
+            "hash" = "sha512-1pGuPFXFc6r9+jbXslZ2BzXxbIsuXvsQQ7pU9+m4BfL5dOSZb2DHGVilEax/67Vb6tRuuUNdWJvgNaPDxz2hyw==";
+        };
+        _NdDitt74 = {
+            "id" = "NdDitt74";
+            "file" = "dungeonz-neoforge-1.4.0+26.3.jar";
+            "hash" = "sha512-yDjckqFhBM1SptdUMWf+zFdWcxJBuMunMEu+8wn2KzPfQVOrKoAbq/n1kNaHhISCCGayGdy8NEu2pwr6fCa6jQ==";
+        };
     in {
         "sl2FuoWu" = _sl2FuoWu;
         "Ukjd4XYm" = _Ukjd4XYm;
@@ -98,11 +108,15 @@ let
         "Qx1ebMxz" = _Qx1ebMxz;
         "BOTC37SN" = _BOTC37SN;
         "KJUJZBSi" = _KJUJZBSi;
+        "mfajJkYF" = _mfajJkYF;
+        "NdDitt74" = _NdDitt74;
         "fabric-1.19.2" = _Ukjd4XYm;
         "fabric-1.20" = _XziIttdX;
         "fabric-1.20.1" = _IoQfGPq7;
         "fabric-1.21" = _RaRL6Eba;
         "fabric-1.21.1" = _KJUJZBSi;
+        "fabric-26.3" = _mfajJkYF;
+        "neoforge-26.3" = _NdDitt74;
         "pkg-1.0.0" = _sl2FuoWu;
         "pkg-1.0.1+1.19.2" = _Ukjd4XYm;
         "pkg-1.0.1+1.20" = _XziIttdX;
@@ -119,7 +133,9 @@ let
         "pkg-1.2.2+1.21.1" = _Qx1ebMxz;
         "pkg-1.3.0+1.21.1" = _BOTC37SN;
         "pkg-1.3.1+1.21.1" = _KJUJZBSi;
-        "default" = _KJUJZBSi;
+        "pkg-1.4.0+26.3-fabric" = _mfajJkYF;
+        "pkg-1.4.0+26.3-neoforge" = _NdDitt74;
+        "default" = _NdDitt74;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeonz";
