@@ -56,6 +56,26 @@ let
             "file" = "better_creeper_consent+26.3-1.5.0-neoforge.jar";
             "hash" = "sha512-woICBWvEjHPB5t3xNdwk3/T80BVKzEGoSovW9I7Keqy8CkrT5U1uO4FCWQe7dk8EvUMfNZrACCtTQjAy0HmmQg==";
         };
+        _h6SZnr7o = {
+            "id" = "h6SZnr7o";
+            "file" = "better_creeper_consent+26.2-1.5.1-neoforge.jar";
+            "hash" = "sha512-VgnjDVOAs9sNLBwQtwZezSxU+PaiZjRtuk1t/gg5lpFXjhuuDqZZbfqd0CkVYy1KhMm+pMLOqIeWuWqXWm57CA==";
+        };
+        _boEMmYLy = {
+            "id" = "boEMmYLy";
+            "file" = "better_creeper_consent+26.2-1.5.1-fabric.jar";
+            "hash" = "sha512-74W5RLUl9eHWRPD7SAiGIxGffUWXg+goew7pp3jKcDqlLywmMMJEPefZPUxYFAJgeeO/guN2S4C4EWNdHuIFMg==";
+        };
+        _Fh29t8MV = {
+            "id" = "Fh29t8MV";
+            "file" = "better_creeper_consent+26.3-1.5.1-neoforge.jar";
+            "hash" = "sha512-A/jH6twuE9VFX0EY6NkcPnPNNOF2LaSBu932ZmhCJ8zElA/d4m96EpA65iFSGTH8cIEPDP4w9pNmZT9Awv5gtw==";
+        };
+        _5T0P9esz = {
+            "id" = "5T0P9esz";
+            "file" = "better_creeper_consent+26.3-1.5.1-fabric.jar";
+            "hash" = "sha512-AWfa30eUwCXrMpJw6IT8bJjUPZNG09pS64ZHczwgQjaQiW9VyIsuMXZEYAtZsTBOM2uW5qfXQ+u83gsUyCufYg==";
+        };
     in {
         "mOcp8NoV" = _mOcp8NoV;
         "1GPolhy7" = _1GPolhy7;
@@ -68,12 +88,17 @@ let
         "OtSui1eZ" = _OtSui1eZ;
         "3N4C3aOf" = _3N4C3aOf;
         "FRlnECmk" = _FRlnECmk;
-        "fabric-26.2" = _LV5ebPpk;
+        "h6SZnr7o" = _h6SZnr7o;
+        "boEMmYLy" = _boEMmYLy;
+        "Fh29t8MV" = _Fh29t8MV;
+        "5T0P9esz" = _5T0P9esz;
+        "fabric-26.2" = _boEMmYLy;
         "fabric-26.1" = _fIQcN5lt;
         "fabric-26.1.1" = _fIQcN5lt;
         "fabric-26.1.2" = _fIQcN5lt;
-        "fabric-26.3" = _3N4C3aOf;
-        "neoforge-26.3" = _FRlnECmk;
+        "fabric-26.3" = _5T0P9esz;
+        "neoforge-26.3" = _Fh29t8MV;
+        "neoforge-26.2" = _h6SZnr7o;
         "pkg-1.0.0" = _mOcp8NoV;
         "pkg-1.2.0" = _1GPolhy7;
         "pkg-1.2.1" = _NjWTfmxG;
@@ -85,7 +110,11 @@ let
         "pkg-1.4.0+26.3-neoforge" = _OtSui1eZ;
         "pkg-1.5.0+fabric" = _3N4C3aOf;
         "pkg-1.5.0+neoforge" = _FRlnECmk;
-        "default" = _FRlnECmk;
+        "pkg-26.2-1.5.1-neoforge" = _h6SZnr7o;
+        "pkg-26.2-1.5.1-fabric" = _boEMmYLy;
+        "pkg-26.3-1.5.1-neoforge" = _Fh29t8MV;
+        "pkg-26.3-1.5.1-fabric" = _5T0P9esz;
+        "default" = _5T0P9esz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-creeper-consent";

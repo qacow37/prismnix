@@ -276,6 +276,21 @@ let
             "file" = "simple_voice_broadcast-neoforge-26.2-1.0.1.jar";
             "hash" = "sha512-SGdaOGPIQ9P2exol38sdi/GqB6w61vnVakX/63GZaHNcIEnXuWxurK/uzl131dRRphTIi291OX1GNoQXUGIDqA==";
         };
+        _fxVPKDVK = {
+            "id" = "fxVPKDVK";
+            "file" = "simple_voice_broadcast-fabric-26.3-1.0.1.jar";
+            "hash" = "sha512-Xalw1Xpc9+kNAyw70xZRkEip4/H03e5YTd9OJkNfyS8IGvCeXDNMbx0bCmeEyWfvO2oIVrq8HOecNYCXYHa+PQ==";
+        };
+        _NCeXF1iJ = {
+            "id" = "NCeXF1iJ";
+            "file" = "simple_voice_broadcast-forge-26.3-1.0.1.jar";
+            "hash" = "sha512-sYQe4OlJSrjqN0V9WJq4r81aXgiQ4Gxj+N1dENp9cJdrMe96y0cUVaowh+KujJ8+AYS1V24OTGBvaOOFnaNkBw==";
+        };
+        _seVcyqIX = {
+            "id" = "seVcyqIX";
+            "file" = "simple_voice_broadcast-neoforge-26.3-1.0.1.jar";
+            "hash" = "sha512-qVO58v9jH0uFhGQvOI2w9VlydSmtkJG+W6eJpt4IF89vs5a4r2BruGZib1mP67JTYMdABq1wccgOZ9H4Xzt1FA==";
+        };
     in {
         "zQeKsbYG" = _zQeKsbYG;
         "DuEgZ592" = _DuEgZ592;
@@ -332,6 +347,9 @@ let
         "ydvmrihp" = _ydvmrihp;
         "7yXgUTDM" = _7yXgUTDM;
         "xrKRLT66" = _xrKRLT66;
+        "fxVPKDVK" = _fxVPKDVK;
+        "NCeXF1iJ" = _NCeXF1iJ;
+        "seVcyqIX" = _seVcyqIX;
         "forge-1.18.2" = _DuEgZ592;
         "forge-1.19.2" = _dJ4O7Lo4;
         "forge-1.19.3" = _dJ4O7Lo4;
@@ -353,6 +371,7 @@ let
         "forge-26.1.1" = _Qq5WqmOz;
         "forge-26.1.2" = _FRutbjkJ;
         "forge-26.2" = _7yXgUTDM;
+        "forge-26.3" = _NCeXF1iJ;
         "fabric-1.21.1" = _fIpJGAwz;
         "fabric-1.21.4" = _G0cWzRGo;
         "fabric-1.21.5" = _a2veecSD;
@@ -366,6 +385,7 @@ let
         "fabric-26.1.1" = _Zgx9iLyF;
         "fabric-26.1.2" = _osfTSm6C;
         "fabric-26.2" = _ydvmrihp;
+        "fabric-26.3" = _fxVPKDVK;
         "neoforge-1.21.1" = _bWVtYO0H;
         "neoforge-1.21.4" = _K74hGeJg;
         "neoforge-1.21.5" = _V1FvUncD;
@@ -379,6 +399,7 @@ let
         "neoforge-26.1.1" = _UQSXVpk8;
         "neoforge-26.1.2" = _APs1MyKQ;
         "neoforge-26.2" = _xrKRLT66;
+        "neoforge-26.3" = _seVcyqIX;
         "pkg-1.0" = _zQeKsbYG;
         "pkg-1.0.1" = _HWPDESRr;
         "pkg-1.21.1-1.0.0" = _bWVtYO0H;
@@ -397,7 +418,8 @@ let
         "pkg-1.21.1-1.0.1" = _fIpJGAwz;
         "pkg-1.21.4-1.0.1" = _G0cWzRGo;
         "pkg-26.2-1.0.1" = _xrKRLT66;
-        "default" = _xrKRLT66;
+        "pkg-26.3-1.0.1" = _seVcyqIX;
+        "default" = _seVcyqIX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simplevoicechat-broadcast";

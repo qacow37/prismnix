@@ -141,6 +141,11 @@ let
             "file" = "datapack_tales_of_silta_26_3.zip";
             "hash" = "sha512-Z2b84exx2nRUSvCm40UpqCxgEneucCLQBve3VJ6BrGCIpydrrUsk1A9sGsWy5ODeALbJYkCLJmIxLvuVI6hV1A==";
         };
+        _bylceuqT = {
+            "id" = "bylceuqT";
+            "file" = "datapack_tales_of_silta_26_3.zip";
+            "hash" = "sha512-0XDgozI60/5yejKgoWlo8lU1BfogmKxTBW0FGPlodbIoPrVeYtwzppQohoM15Jw1y8xLCQhA4mqrfYLj8Os4ZA==";
+        };
     in {
         "k3HdK2kd" = _k3HdK2kd;
         "66DxRsqL" = _66DxRsqL;
@@ -170,6 +175,7 @@ let
         "fP6he6g2" = _fP6he6g2;
         "YqK5igaH" = _YqK5igaH;
         "y1LY6gMZ" = _y1LY6gMZ;
+        "bylceuqT" = _bylceuqT;
         "datapack-1.21" = _k3HdK2kd;
         "datapack-1.21.1" = _k3HdK2kd;
         "datapack-1.20.4" = _66DxRsqL;
@@ -187,12 +193,12 @@ let
         "datapack-26.1.1" = _MSOqE0GZ;
         "datapack-26.1.2" = _MSOqE0GZ;
         "datapack-26.2" = _YqK5igaH;
-        "datapack-26.3" = _y1LY6gMZ;
+        "datapack-26.3" = _bylceuqT;
         "minecraft-26.1" = _WbaNynn1;
         "minecraft-26.1.1" = _MSOqE0GZ;
         "minecraft-26.1.2" = _MSOqE0GZ;
         "minecraft-26.2" = _YqK5igaH;
-        "minecraft-26.3" = _y1LY6gMZ;
+        "minecraft-26.3" = _bylceuqT;
         "pkg-ToS-1.21.(1)-1.0" = _k3HdK2kd;
         "pkg-ToS-1.20.4-H" = _66DxRsqL;
         "pkg-ToS-1.21.2(3)-1.0" = _p2sdQbDN;
@@ -221,7 +227,8 @@ let
         "pkg-ToS-for26.2" = _fP6he6g2;
         "pkg-ToS-2.0-for26.2" = _YqK5igaH;
         "pkg-ToS-2.1-for26.3" = _y1LY6gMZ;
-        "default" = _y1LY6gMZ;
+        "pkg-ToS-2.2-for26.3" = _bylceuqT;
+        "default" = _bylceuqT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tales-of-silta";

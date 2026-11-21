@@ -826,6 +826,46 @@ let
             "file" = "connectiblechains-2.5.2+1.21.1-fabric.jar";
             "hash" = "sha512-cBna3Z3kfQ/Jlg0zVK2snE++XokeNDSZBtubjxUE6aSjPB+6F2IKcTMDDMRi17VIyR7nmuqKoyrv2PMcL6OXhA==";
         };
+        _ZiJvzd9a = {
+            "id" = "ZiJvzd9a";
+            "file" = "connectiblechains-2.6.0+26.1.2-neoforge.jar";
+            "hash" = "sha512-qmWBvUExAizGg6iCHV/FRympO9yiExcM6O8yfdDZObed1jfZ9ylBxH7cjp+HwW3Wup3YeciGvERmcgzpJfrMSQ==";
+        };
+        _V8P1pjhj = {
+            "id" = "V8P1pjhj";
+            "file" = "connectiblechains-2.6.0+26.1.2-fabric.jar";
+            "hash" = "sha512-Gcv9dODsXD9XexHUZ/J91SvRKLRQra1JowVlpTYOXVLpmzlOS7clZnTVw/ykpjZDgQhgbJEr1e52gqrhkT9TYw==";
+        };
+        _lerl7qjK = {
+            "id" = "lerl7qjK";
+            "file" = "connectiblechains-2.6.0+26.2-fabric.jar";
+            "hash" = "sha512-Ea35FzpogBlf0xuizJRyeEYm+j9ciThXkX02MTriTmUiFIGbFYGWUx0HLvHGxjmp9ennQ98grKjQKwJatww7dg==";
+        };
+        _wGIYMip6 = {
+            "id" = "wGIYMip6";
+            "file" = "connectiblechains-2.6.0+26.2-neoforge.jar";
+            "hash" = "sha512-kSGDgjtjH7LBP34/2s/RJOuQe3/2xubTxTckH+EY/heeCm6C2q1vcPgK2TfEIzcCW16hcimRUGRG0yHpQomV6w==";
+        };
+        _ML34VsdR = {
+            "id" = "ML34VsdR";
+            "file" = "connectiblechains-2.6.0+26.3-neoforge.jar";
+            "hash" = "sha512-Ikbw7f51SK6HJZDHl9cjzxbfCyw/H7PdxEa53CiNC5R7DTiQBQSnjj6kYS8KlLDt8PaO1tps+BDn30lDfjeIcg==";
+        };
+        _Z6YHrrvA = {
+            "id" = "Z6YHrrvA";
+            "file" = "connectiblechains-2.6.0+26.3-fabric.jar";
+            "hash" = "sha512-NfLcd/NPERfFrAHBqsUFto5NP+MpMDDJ3cAwhGBnW2wNKj3u2oECU8Fba5FxEHuSzVM1eBeTqad1mRwIPkagNA==";
+        };
+        _nqtyxmka = {
+            "id" = "nqtyxmka";
+            "file" = "connectiblechains-2.6.0+1.21.1-neoforge.jar";
+            "hash" = "sha512-T+tD1YDlkd2+DWwyp/Oy29QKMXzzJ+jFLoeA6Otchn3qzPPuueAqqg+0bFbTiu9ryG50UEQcewfDqgodbwq6kw==";
+        };
+        _6CVnmx9r = {
+            "id" = "6CVnmx9r";
+            "file" = "connectiblechains-2.6.0+1.21.1-fabric.jar";
+            "hash" = "sha512-+nIlDLRg8sUObOeQD0GRn0Yo/BN4Z+D+UEJ9/L1zUvdQRBRgo2F8gkeLucntblJPfLEq/VonnEUaNw1tmWzEiA==";
+        };
     in {
         "7CuSZbNN" = _7CuSZbNN;
         "qFcVv59N" = _qFcVv59N;
@@ -992,19 +1032,27 @@ let
         "xQNHv824" = _xQNHv824;
         "t07qvxu2" = _t07qvxu2;
         "3GaZLdbV" = _3GaZLdbV;
-        "neoforge-1.21.1" = _t07qvxu2;
-        "neoforge-26.1" = _dzbqyUv2;
-        "neoforge-26.1.1" = _dzbqyUv2;
-        "neoforge-26.1.2" = _dzbqyUv2;
-        "neoforge-26.2" = _jRE8R74Q;
-        "neoforge-26.3" = _xQNHv824;
-        "fabric-1.21.1" = _3GaZLdbV;
+        "ZiJvzd9a" = _ZiJvzd9a;
+        "V8P1pjhj" = _V8P1pjhj;
+        "lerl7qjK" = _lerl7qjK;
+        "wGIYMip6" = _wGIYMip6;
+        "ML34VsdR" = _ML34VsdR;
+        "Z6YHrrvA" = _Z6YHrrvA;
+        "nqtyxmka" = _nqtyxmka;
+        "6CVnmx9r" = _6CVnmx9r;
+        "neoforge-1.21.1" = _nqtyxmka;
+        "neoforge-26.1" = _ZiJvzd9a;
+        "neoforge-26.1.1" = _ZiJvzd9a;
+        "neoforge-26.1.2" = _ZiJvzd9a;
+        "neoforge-26.2" = _wGIYMip6;
+        "neoforge-26.3" = _ML34VsdR;
+        "fabric-1.21.1" = _6CVnmx9r;
         "fabric-1.20.1" = _qwVabtfy;
-        "fabric-26.1" = _smEb0nr2;
-        "fabric-26.1.1" = _smEb0nr2;
-        "fabric-26.1.2" = _smEb0nr2;
-        "fabric-26.2" = _NRCBRGnP;
-        "fabric-26.3" = _7QejFOBg;
+        "fabric-26.1" = _V8P1pjhj;
+        "fabric-26.1.1" = _V8P1pjhj;
+        "fabric-26.1.2" = _V8P1pjhj;
+        "fabric-26.2" = _lerl7qjK;
+        "fabric-26.3" = _Z6YHrrvA;
         "forge-1.20.1" = _nwJ6Xxt3;
         "pkg-1.0.0" = _hvz7wU1X;
         "pkg-1.0.1" = _UpQwdX7E;
@@ -1139,7 +1187,15 @@ let
         "pkg-2.5.2+26.3-neoforge" = _xQNHv824;
         "pkg-2.5.2+1.21.1-neoforge" = _t07qvxu2;
         "pkg-2.5.2+1.21.1-fabric" = _3GaZLdbV;
-        "default" = _3GaZLdbV;
+        "pkg-2.6.0+26.1.2-neoforge" = _ZiJvzd9a;
+        "pkg-2.6.0+26.1.2-fabric" = _V8P1pjhj;
+        "pkg-2.6.0+26.2-fabric" = _lerl7qjK;
+        "pkg-2.6.0+26.2-neoforge" = _wGIYMip6;
+        "pkg-2.6.0+26.3-neoforge" = _ML34VsdR;
+        "pkg-2.6.0+26.3-fabric" = _Z6YHrrvA;
+        "pkg-2.6.0+1.21.1-neoforge" = _nqtyxmka;
+        "pkg-2.6.0+1.21.1-fabric" = _6CVnmx9r;
+        "default" = _6CVnmx9r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reconnectible-chains";

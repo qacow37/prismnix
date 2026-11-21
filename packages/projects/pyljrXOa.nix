@@ -121,6 +121,56 @@ let
             "file" = "diegesis-fabric-1.20.1-1.0.0-beta.13.jar";
             "hash" = "sha512-BSnrtbXOYZcifPqLffqOABQtDWHiOzBWiFB4jsxv0CC2Xe1lpKeMrRfCgmTFjoEv/+CcENH+K8cF6uoaSnE9Dw==";
         };
+        _2Jjctpj7 = {
+            "id" = "2Jjctpj7";
+            "file" = "diegesis-forge-1.20.1-1.0.0-beta.14.jar";
+            "hash" = "sha512-k8taRjVIga/vcOxt42H2KqssauLUuqfP4xRGw33La184znwhsAAn5zTHeo2TSIB/kz2HYCYbVUt+1TdwLeKyVA==";
+        };
+        _edfDWGvj = {
+            "id" = "edfDWGvj";
+            "file" = "diegesis-fabric-1.20.1-1.0.0-beta.14.jar";
+            "hash" = "sha512-Fd4gicdx13MJryy/hIzNFB96w2208DRNdF6MVist5S0ledgT0ArQ18+33LhRn9YBhRxoPhfj5r5PrL28NhF8yA==";
+        };
+        _gc2Jh01U = {
+            "id" = "gc2Jh01U";
+            "file" = "diegesis-neoforge-1.21.1-1.0.0-beta.14.jar";
+            "hash" = "sha512-Mq5U2f2lbrEAW2lSiswB41AWIMbw0MFAUP5ogJOj6r5mv4h2tpy4fBe5eTrUvRRJVUocRgNAjNdLRG6tWSQ0tw==";
+        };
+        _WrzDSlmy = {
+            "id" = "WrzDSlmy";
+            "file" = "diegesis-fabric-1.21.1-1.0.0-beta.14.jar";
+            "hash" = "sha512-5MBRudkifLpVMm0Tlp4RaE96kUQEVrFI4plg0B7HMGIHcU2tRdZ/on9PXBGza6YT/yyk8RziyXYzfQ56boxVhA==";
+        };
+        _EXi4StI8 = {
+            "id" = "EXi4StI8";
+            "file" = "diegesis-fabric-26.3-1.0.0-beta.13.jar";
+            "hash" = "sha512-iGAVqiFl9eNScLwj6OjvM6ECp3PW5WhN/7+xyZn+Mqf39/pfsfArr8VizXyJuuAGiuQwLpNea5tjctVS6MirmA==";
+        };
+        _8bbHCXZ1 = {
+            "id" = "8bbHCXZ1";
+            "file" = "diegesis-fabric-26.3-1.0.0-beta.13.1.jar";
+            "hash" = "sha512-FO6SZtLUZsDlJxiSICjKWbCJcYY769nopifPJcbbIC4wTKTqtXkXUgb5jLQxsCrMaSTujwL0dCdS0z0ELPAhnQ==";
+        };
+        _adhKLV3K = {
+            "id" = "adhKLV3K";
+            "file" = "diegesis-forge-1.20.1-1.0.0-beta.15.jar";
+            "hash" = "sha512-WVwkQgI6782klBXp31AnBRpPIdoLKTdffaEiUrKG2ft9JUd4iIjJ13kAbwKqzikENtS6CKeBMSvBEbGfQN3bhA==";
+        };
+        _JxzhHTuO = {
+            "id" = "JxzhHTuO";
+            "file" = "diegesis-fabric-1.20.1-1.0.0-beta.15.jar";
+            "hash" = "sha512-ymfgXjEszlOvfjnVVECpOSar5jhwkOMuG9KQRsOmIR1E0z317J6YEvC70Jlt0Ew+WrjQWs64mF0BOvbuHi9gFA==";
+        };
+        _9A5LPaO4 = {
+            "id" = "9A5LPaO4";
+            "file" = "diegesis-neoforge-1.21.1-1.0.0-beta.15.jar";
+            "hash" = "sha512-3NVz+ULYpmlVobPMLNp9pNEECrQbkOm/lLPLUdRUfcWiDySA7GCVAL4t1wOXhXnnHvYRScr0SUKKcZxTOvMvhQ==";
+        };
+        _eAYLFOFV = {
+            "id" = "eAYLFOFV";
+            "file" = "diegesis-fabric-1.21.1-1.0.0-beta.15.jar";
+            "hash" = "sha512-zcOGDvqo8UHsNIQNrT951Rno2rdDd58fR/+1e3obvVVq8eGDE24qZr1JUOGZjJJUy+Or2gqIriJvxmKjj+h98A==";
+        };
     in {
         "6JXKpNpM" = _6JXKpNpM;
         "TeHzPI3A" = _TeHzPI3A;
@@ -146,10 +196,21 @@ let
         "DkvHjCFE" = _DkvHjCFE;
         "b6mOc1qU" = _b6mOc1qU;
         "Ns0UATQ6" = _Ns0UATQ6;
-        "fabric-1.20.1" = _Ns0UATQ6;
-        "fabric-1.21.1" = _DkvHjCFE;
-        "forge-1.20.1" = _b6mOc1qU;
-        "neoforge-1.21.1" = _TmLxGEPz;
+        "2Jjctpj7" = _2Jjctpj7;
+        "edfDWGvj" = _edfDWGvj;
+        "gc2Jh01U" = _gc2Jh01U;
+        "WrzDSlmy" = _WrzDSlmy;
+        "EXi4StI8" = _EXi4StI8;
+        "8bbHCXZ1" = _8bbHCXZ1;
+        "adhKLV3K" = _adhKLV3K;
+        "JxzhHTuO" = _JxzhHTuO;
+        "9A5LPaO4" = _9A5LPaO4;
+        "eAYLFOFV" = _eAYLFOFV;
+        "fabric-1.20.1" = _JxzhHTuO;
+        "fabric-1.21.1" = _eAYLFOFV;
+        "fabric-26.3" = _8bbHCXZ1;
+        "forge-1.20.1" = _adhKLV3K;
+        "neoforge-1.21.1" = _9A5LPaO4;
         "pkg-1.0.0-beta.8-fabric" = _6JXKpNpM;
         "pkg-1.0.0-beta.8-forge" = _TeHzPI3A;
         "pkg-1.0.0-beta.8+1.21.1-fabric" = _O8v5ZZBh;
@@ -174,7 +235,17 @@ let
         "pkg-1.0.0-beta.13+1.21.1-fabric" = _DkvHjCFE;
         "pkg-1.0.0-beta.13-forge" = _b6mOc1qU;
         "pkg-1.0.0-beta.13-fabric" = _Ns0UATQ6;
-        "default" = _Ns0UATQ6;
+        "pkg-1.0.0-beta.14-forge" = _2Jjctpj7;
+        "pkg-1.0.0-beta.14-fabric" = _edfDWGvj;
+        "pkg-1.0.0-beta.14+1.21.1-neoforge" = _gc2Jh01U;
+        "pkg-1.0.0-beta.14+1.21.1-fabric" = _WrzDSlmy;
+        "pkg-1.0.0-beta.13+26.3-fabric" = _EXi4StI8;
+        "pkg-1.0.0-beta.13.1+26.3-fabric" = _8bbHCXZ1;
+        "pkg-1.0.0-beta.15-forge" = _adhKLV3K;
+        "pkg-1.0.0-beta.15-fabric" = _JxzhHTuO;
+        "pkg-1.0.0-beta.15+1.21.1-neoforge" = _9A5LPaO4;
+        "pkg-1.0.0-beta.15+1.21.1-fabric" = _eAYLFOFV;
+        "default" = _eAYLFOFV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "diegesis-api";

@@ -86,6 +86,16 @@ let
             "file" = "HypixelModAPI-1.0.2+build.1+mc26.1.jar";
             "hash" = "sha512-zrTPN+3z4mOAHSPYD4jzMXmBM9j6zFayUBsvX4bjLXzqepQ1axzymGXK4g+welD0dlo1GAryZdcI4Fzql2o/6A==";
         };
+        _9AogwMDM = {
+            "id" = "9AogwMDM";
+            "file" = "HypixelModAPI-1.0.3+build.1+mc26.1.jar";
+            "hash" = "sha512-+7uxuEYOGWYbk9wdO1Hz159ptOOxKCXllc6NHIZt9M0A+ZA8nAUz0tJ4QgHEYBLEpZhiuhhf/ZzizO3E8UY4sQ==";
+        };
+        _2N48727l = {
+            "id" = "2N48727l";
+            "file" = "HypixelModAPI-1.0.3.jar";
+            "hash" = "sha512-GbWUyGTg9rxk0PExQuXg0jRJvxULHRhQ64DfiwhofHrTPpqYVtgjWpMjM7Hmesh7kboHxZGpzRb16/kOuyMNhg==";
+        };
     in {
         "rKryHI4f" = _rKryHI4f;
         "TKBp5k7N" = _TKBp5k7N;
@@ -104,6 +114,8 @@ let
         "8p64PKBQ" = _8p64PKBQ;
         "VtDhN4ZW" = _VtDhN4ZW;
         "SlqCF6Or" = _SlqCF6Or;
+        "9AogwMDM" = _9AogwMDM;
+        "2N48727l" = _2N48727l;
         "fabric-1.20.5" = _Mhp9cKak;
         "fabric-1.20.6" = _Mhp9cKak;
         "fabric-1.21" = _IkrpaHUp;
@@ -118,11 +130,12 @@ let
         "fabric-1.21.9" = _IkrpaHUp;
         "fabric-1.21.10" = _IkrpaHUp;
         "fabric-1.21.11" = _IkrpaHUp;
-        "fabric-26.1" = _SlqCF6Or;
-        "fabric-26.1.1" = _SlqCF6Or;
-        "fabric-26.1.2" = _SlqCF6Or;
-        "fabric-26.2" = _SlqCF6Or;
-        "forge-1.8.9" = _VtDhN4ZW;
+        "fabric-26.1" = _9AogwMDM;
+        "fabric-26.1.1" = _9AogwMDM;
+        "fabric-26.1.2" = _9AogwMDM;
+        "fabric-26.2" = _9AogwMDM;
+        "fabric-26.3" = _9AogwMDM;
+        "forge-1.8.9" = _2N48727l;
         "pkg-0.3.2+mc1.20.5" = _rKryHI4f;
         "pkg-0.3.3+mc1.20.5" = _TKBp5k7N;
         "pkg-0.4.0+mc1.20.5" = _juYqiB82;
@@ -140,7 +153,9 @@ let
         "pkg-1.0.1.2" = _8p64PKBQ;
         "pkg-1.0.2" = _VtDhN4ZW;
         "pkg-1.0.2+build.1+mc26.1" = _SlqCF6Or;
-        "default" = _SlqCF6Or;
+        "pkg-1.0.3+build.1+mc26.1" = _9AogwMDM;
+        "pkg-1.0.3" = _2N48727l;
+        "default" = _2N48727l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hypixel-mod-api";

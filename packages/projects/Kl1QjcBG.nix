@@ -21,11 +21,17 @@ let
             "file" = "double-doors-1.3.0.jar";
             "hash" = "sha512-2Hxbt8SvrX9lrulDeAwhIMmfnZu5H5KSlkZUYkgdgsKRyWg/9MtMt1rGBH4D6c7mrhkWOiMha3/L/6XVVaYRGw==";
         };
+        _gOcUb61N = {
+            "id" = "gOcUb61N";
+            "file" = "double-doors-1.3.0.jar";
+            "hash" = "sha512-AWDMy5iwTeNfjZTuQ2HcnHTZEDIOIFj0cnUB1ipV6hhFVTbesa7ZFzIwEvzOP9LEU5i1XnGtImOpDGE4eWevPA==";
+        };
     in {
         "MTKK9UEN" = _MTKK9UEN;
         "oD6ZnYww" = _oD6ZnYww;
         "CeZtdk8G" = _CeZtdk8G;
         "sVGb7MTe" = _sVGb7MTe;
+        "gOcUb61N" = _gOcUb61N;
         "fabric-1.21" = _MTKK9UEN;
         "fabric-1.21.1" = _MTKK9UEN;
         "fabric-1.21.2" = _oD6ZnYww;
@@ -42,10 +48,11 @@ let
         "fabric-26.1.1" = _sVGb7MTe;
         "fabric-26.1.2" = _sVGb7MTe;
         "fabric-26.2" = _sVGb7MTe;
+        "fabric-26.3" = _gOcUb61N;
         "pkg-1.0.0" = _MTKK9UEN;
         "pkg-1.2.0" = _CeZtdk8G;
-        "pkg-1.3.0" = _sVGb7MTe;
-        "default" = _sVGb7MTe;
+        "pkg-1.3.0" = _gOcUb61N;
+        "default" = _gOcUb61N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "double-doors-fabric";

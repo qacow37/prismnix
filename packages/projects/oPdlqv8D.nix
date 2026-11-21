@@ -356,6 +356,11 @@ let
             "file" = "modular_machinery_reborn-1.21.1-3.0.26.jar";
             "hash" = "sha512-WabfZhHJ16CyeJvMNTMjdrEy61z31TOl2iwLdE14D3jGKARHeXWW5vyEFKiDhM7YDiH9H55lF9ZZs4nQaXELnw==";
         };
+        _g9OvCkhk = {
+            "id" = "g9OvCkhk";
+            "file" = "modular_machinery_reborn-1.21.1-3.0.27.jar";
+            "hash" = "sha512-EtLexdK33i5j4IQRT/77EnCJR7aGYrlZeH/4IBaNE45mzTa5j+eQfIWpojLy4kejY22/sUkxEJZbz9FSPCH7gg==";
+        };
     in {
         "Hvf9spcQ" = _Hvf9spcQ;
         "e2TDJnuR" = _e2TDJnuR;
@@ -428,8 +433,9 @@ let
         "DmyhraRH" = _DmyhraRH;
         "OjnVWTIw" = _OjnVWTIw;
         "lpp6kgje" = _lpp6kgje;
-        "neoforge-1.21" = _lpp6kgje;
-        "neoforge-1.21.1" = _lpp6kgje;
+        "g9OvCkhk" = _g9OvCkhk;
+        "neoforge-1.21" = _g9OvCkhk;
+        "neoforge-1.21.1" = _g9OvCkhk;
         "pkg-1.21.1-1.1.2" = _Hvf9spcQ;
         "pkg-1.21.1-1.1.3" = _e2TDJnuR;
         "pkg-1.21.1-1.1.4" = _x9lOsFYo;
@@ -499,7 +505,8 @@ let
         "pkg-1.21.1-3.0.23" = _DmyhraRH;
         "pkg-1.21.1-3.0.25" = _OjnVWTIw;
         "pkg-1.21.1-3.0.26" = _lpp6kgje;
-        "default" = _lpp6kgje;
+        "pkg-1.21.1-3.0.27" = _g9OvCkhk;
+        "default" = _g9OvCkhk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modular-machinery-reborn";

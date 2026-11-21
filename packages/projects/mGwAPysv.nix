@@ -76,6 +76,11 @@ let
             "file" = "ice_and_fire_delight-forge-1.20.1-0.2.5.jar";
             "hash" = "sha512-uVYO2ZSv732zOmjMuuln39qBeJiaPH0chx38HOIvfCUJVYjoJtd4CLZyJ95knqwCgJRLukDQZVPbAZY7Qvmpog==";
         };
+        _HvAXrUbN = {
+            "id" = "HvAXrUbN";
+            "file" = "ice_and_fire_delight-forge-1.20.1-0.2.6.jar";
+            "hash" = "sha512-rG4yJ+iECOJ+Ek6VNwHxm4FJXL1RpMAOXEWdabjbSHs9LxP63K7/IeO8ZgbHnlnQaNwbuHgnq+iRW2d2wWOUJA==";
+        };
     in {
         "KmgplS7D" = _KmgplS7D;
         "wfTl4pmW" = _wfTl4pmW;
@@ -92,7 +97,8 @@ let
         "txhZi6Eb" = _txhZi6Eb;
         "XDC4hPEz" = _XDC4hPEz;
         "KlKH4KyH" = _KlKH4KyH;
-        "forge-1.20.1" = _KlKH4KyH;
+        "HvAXrUbN" = _HvAXrUbN;
+        "forge-1.20.1" = _HvAXrUbN;
         "pkg-0.1.1" = _KmgplS7D;
         "pkg-0.1.2" = _wfTl4pmW;
         "pkg-0.1.3" = _591QRlwV;
@@ -108,7 +114,8 @@ let
         "pkg-0.2.3" = _txhZi6Eb;
         "pkg-0.2.4" = _XDC4hPEz;
         "pkg-0.2.5" = _KlKH4KyH;
-        "default" = _KlKH4KyH;
+        "pkg-0.2.6" = _HvAXrUbN;
+        "default" = _HvAXrUbN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ice-and-fire-delight";

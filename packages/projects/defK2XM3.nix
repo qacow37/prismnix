@@ -71,6 +71,16 @@ let
             "file" = "adventurez-1.5.3.jar";
             "hash" = "sha512-1/T0Rw/tviXOPp98G8WeKD9/NtIy41Il7j8omuhmnS5XeAyOyLGA2pyyk9LnJc8gVeSfTYzdA5MfYrKAuicwTA==";
         };
+        _VGgRwaLa = {
+            "id" = "VGgRwaLa";
+            "file" = "adventurez-fabric-1.6.0+26.3.jar";
+            "hash" = "sha512-Uo6xoeJhaE8NnSkMuqR6QBkFTgqV46YqBs40LdpUiPNn0njr3pQKDHervBY6iWAYI6g9u6jgW1ppf3JchPy/gg==";
+        };
+        _BG57j5Vj = {
+            "id" = "BG57j5Vj";
+            "file" = "adventurez-neoforge-1.6.0+26.3.jar";
+            "hash" = "sha512-vqGm+WwJwz8FBUWo3RYE4a2mp8+BlkCBz7SrWNXS2Mran2lnfCUVkXfb1Sttqy4+hW9oB7uNCGyFwBDaJkYUMA==";
+        };
     in {
         "BI8491T1" = _BI8491T1;
         "V4ZECTUP" = _V4ZECTUP;
@@ -86,11 +96,15 @@ let
         "aZTkDIeN" = _aZTkDIeN;
         "kNR6O8Oh" = _kNR6O8Oh;
         "TTVOzI0u" = _TTVOzI0u;
+        "VGgRwaLa" = _VGgRwaLa;
+        "BG57j5Vj" = _BG57j5Vj;
         "fabric-1.19.2" = _V4ZECTUP;
         "fabric-1.20" = _6483KEb7;
         "fabric-1.20.1" = _mBYmRou0;
         "fabric-1.21" = _acNWrg1d;
         "fabric-1.21.1" = _TTVOzI0u;
+        "fabric-26.3" = _VGgRwaLa;
+        "neoforge-26.3" = _BG57j5Vj;
         "pkg-1.4.17" = _BI8491T1;
         "pkg-1.4.18+1.19.2" = _V4ZECTUP;
         "pkg-1.4.18+1.20" = _6483KEb7;
@@ -105,7 +119,9 @@ let
         "pkg-1.5.1+1.21.1" = _aZTkDIeN;
         "pkg-1.5.2+1.21.1" = _kNR6O8Oh;
         "pkg-1.5.3+1.21.1" = _TTVOzI0u;
-        "default" = _TTVOzI0u;
+        "pkg-1.6.0+26.3-fabric" = _VGgRwaLa;
+        "pkg-1.6.0+26.3-neoforge" = _BG57j5Vj;
+        "default" = _BG57j5Vj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "adventurez";

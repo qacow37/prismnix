@@ -161,6 +161,141 @@ let
             "file" = "enchanting_overhauled-neoforge-1.21.10-2.1.6.jar";
             "hash" = "sha512-xeN/fNUucV9PFZlYwNAG9QIKKU+AvQ76iJ3wBRa+vFwP2yobPlSJlzWSD0V7Fn5qIdIEsR/RjUIgMYtBpJMQ2w==";
         };
+        _rf5e2vaf = {
+            "id" = "rf5e2vaf";
+            "file" = "enchanting-overhauled-3.0.0+1.21-fabric.jar";
+            "hash" = "sha512-YVqcDKCn7p/gU9Lc3KVnPC8mkeItuliIKyVFH8jVuzP+EhgfO56DwsxSL2CYhaXsvfWE49hCgEuIXauaW3a+aQ==";
+        };
+        _9bePTU10 = {
+            "id" = "9bePTU10";
+            "file" = "enchanting-overhauled-3.0.0+1.21-forge.jar";
+            "hash" = "sha512-LY4169+xs7f8P3r/vAz/OzPez0h6Z6ZskbW6akFPQ4adjJmyy1rDfzLvUBnUeDaOaQnCofQLjR1ta2B8s+RP+w==";
+        };
+        _Jgjro1aD = {
+            "id" = "Jgjro1aD";
+            "file" = "enchanting-overhauled-3.0.0+1.21-neoforge.jar";
+            "hash" = "sha512-ZFIbhsctqq6FklFRmwxj/xagpoNQ9/d8czgZJI7wtAixsKl8nD8QHi06el++PNIEv2HWssdfq9vgJ3R37Fj1ZA==";
+        };
+        _pOAyv2i3 = {
+            "id" = "pOAyv2i3";
+            "file" = "enchanting-overhauled-3.0.0+1.21.2-neoforge.jar";
+            "hash" = "sha512-845QdkSxCJ9Gv0HnPWMvqHVAAyQFfaLjPLkCvOzme2tidRZcreg2Thanwr9BEQ9sI3O/h9UkLinKhmRNcdwC6Q==";
+        };
+        _i1gWfr5N = {
+            "id" = "i1gWfr5N";
+            "file" = "enchanting-overhauled-3.0.0+1.21.3-forge.jar";
+            "hash" = "sha512-NXDYmgCHjbFy/We+UpCOs0Kx4ovq4BlTjyuO0FulaBx23uG/qKiBXVnk5PQtK4s1sbPEuzSiIm5pYRwSyUFqEA==";
+        };
+        _qRGIMPs5 = {
+            "id" = "qRGIMPs5";
+            "file" = "enchanting-overhauled-3.0.0+1.21.2-fabric.jar";
+            "hash" = "sha512-D/4qE/SEht1TtfoL7YwGkQiJQfpDudQofoW1iCE/t7PueMKSMO0NJO0M3jLFDrA622CTcKHhCVwDO4NsYxYVAw==";
+        };
+        _PatCNXqQ = {
+            "id" = "PatCNXqQ";
+            "file" = "enchanting-overhauled-3.0.0+1.21.4-forge.jar";
+            "hash" = "sha512-mAE6s8EH9wn+rRE168H6yM0R09uXn0L0/39EhsYWlKPa9JPZtBgoZuuv70KSb908HtkCP5z721KMZ1i+YFAF/g==";
+        };
+        _YySRFfBT = {
+            "id" = "YySRFfBT";
+            "file" = "enchanting-overhauled-3.0.0+1.21.4-neoforge.jar";
+            "hash" = "sha512-C+lY50nNyxPRS1jLsMx1IHgGvfmuQc74PoUwWbPR70DV+vpxqnyejl3fv09cs8enxCJpMeaIL3s6KwEOvJ0kWA==";
+        };
+        _a21iXBEh = {
+            "id" = "a21iXBEh";
+            "file" = "enchanting-overhauled-3.0.0+1.21.4-fabric.jar";
+            "hash" = "sha512-OUPGXFe4/Ow8i6g5dL0LMjoIpDLZMQHkQh+dWpT7INQfOrfEbM8/GY5v+7CZxuGwloSSTZlgzl0vkRNkrHC8zQ==";
+        };
+        _BiP9c8aS = {
+            "id" = "BiP9c8aS";
+            "file" = "enchanting-overhauled-3.0.0+1.21.5-forge.jar";
+            "hash" = "sha512-//lR1q3v+Ni6NI55GEzmArVyQ/rtZ5RqW6z06AmNUZChpz93dcRou51qvCAuiPpDxgxtl9ykdtjtNeCn0Kq5tQ==";
+        };
+        _Ck4v19SP = {
+            "id" = "Ck4v19SP";
+            "file" = "enchanting-overhauled-3.0.0+1.21.5-fabric.jar";
+            "hash" = "sha512-defz3tWch5mIw0lJhZR+OEtjPVgeeV96Gopllx8l0I2WRXp3ZGE/OhOj4NBewMH0LcImR8Inipk2vyaSb0824Q==";
+        };
+        _wy7MHNiA = {
+            "id" = "wy7MHNiA";
+            "file" = "enchanting-overhauled-3.0.0+1.21.5-neoforge.jar";
+            "hash" = "sha512-yNWu2nuKp8AKqNm99ti+cfUFx2vTQmzqfnZkt0h+TYb76N243uiYqlolTT2g4Yxz+CkT9GI2OnQyhZHNEkCvvQ==";
+        };
+        _WEAF6nAP = {
+            "id" = "WEAF6nAP";
+            "file" = "enchanting-overhauled-3.0.0+1.21.6-forge.jar";
+            "hash" = "sha512-p/P9cbiUqRGqlAy8ZHsyyGk4tG46e4HVepbhnyateJJeuNZpeqxDjARiNGR+ZVlYkraiGSnE/mwi0X9oBk07oA==";
+        };
+        _VZRf4VHS = {
+            "id" = "VZRf4VHS";
+            "file" = "enchanting-overhauled-3.0.0+1.21.6-neoforge.jar";
+            "hash" = "sha512-Gd2O2s50LvWj2LSo91+Hc6N4Y65TalcAddm2f5TfNtvLtNs42IGEZ6pJEZY17p64vD46hqQ+I3VMrzgL9j+3Gg==";
+        };
+        _OTzHsGVJ = {
+            "id" = "OTzHsGVJ";
+            "file" = "enchanting-overhauled-3.0.0+1.21.6-fabric.jar";
+            "hash" = "sha512-waVXNVuupq/ljZD8XzXQv7j3aAIPb2bh8dY3uGeJenO1ONri6exalq6u2xxMEKnq7IlI1uNoyWcIHfoPVof9sA==";
+        };
+        _miyIzSTU = {
+            "id" = "miyIzSTU";
+            "file" = "enchanting-overhauled-3.0.0+1.21.9-fabric.jar";
+            "hash" = "sha512-5NQU8ea/HITM3jkwezVULrxchREG9NKMBhgVcBXm4XRkSkStuUUNngVerPnZKGaXcA9NWoiZdquP74rZVhfVCA==";
+        };
+        _a64d3YjW = {
+            "id" = "a64d3YjW";
+            "file" = "enchanting-overhauled-3.0.0+1.21.9-forge.jar";
+            "hash" = "sha512-XW1QegPsESMoGbavEcvFNtd6tLPDD+D7G9aEy3Ur4WpF/71BEYgqmFcJ7zLaU4Z7zNJrlJ6khqeV4zaWvmOUEQ==";
+        };
+        _ylZwRn3B = {
+            "id" = "ylZwRn3B";
+            "file" = "enchanting-overhauled-3.0.0+1.21.9-neoforge.jar";
+            "hash" = "sha512-H+l0oPBuYkTaPHRQHxfL04XhU06GVrt5RmUl1606JIDfE2EIYfC9pnJTIC2oz90UNL2UumvGWxS9itoMJA6zOw==";
+        };
+        _pEdRBmUk = {
+            "id" = "pEdRBmUk";
+            "file" = "enchanting-overhauled-3.0.0+1.21.11-neoforge.jar";
+            "hash" = "sha512-g4Rq85nrtatiWzJFSOpoj+kkB1k3jzrcOThcRtnZsoACTDfn6Psg6wp0rmYdRMNCzyDbTFQITcr8kxPQblWe+A==";
+        };
+        _eGmsAAHE = {
+            "id" = "eGmsAAHE";
+            "file" = "enchanting-overhauled-3.0.0+1.21.11-forge.jar";
+            "hash" = "sha512-IrINnBCTUHceo4MgNmrpHj50m912pmA10dPJCw17bH7kj1d+av6N+WqQAsv5LUJ2TlGNi2pA9mf+D01TrgU4AQ==";
+        };
+        _hhrb1R9H = {
+            "id" = "hhrb1R9H";
+            "file" = "enchanting-overhauled-3.0.0+1.21.11-fabric.jar";
+            "hash" = "sha512-DoLsFfMr5hRhsaNk0DKb7Ghugxs+tRjHFlkFYptyEny5yVOVAH5p4NbiOhkCiIC/xtVWaxJw7oQUX+C5imyokQ==";
+        };
+        _HMub8861 = {
+            "id" = "HMub8861";
+            "file" = "enchanting-overhauled-3.0.0+26.1-fabric.jar";
+            "hash" = "sha512-RAB89BCKm79AR2xF55FcR4MA6AGeB92ErRmI5fOWjczPwN4T285BNv6Qh8BHtKSWmbnGpB2Yrs5Q4CAeqUIl3A==";
+        };
+        _HTT23PqJ = {
+            "id" = "HTT23PqJ";
+            "file" = "enchanting-overhauled-3.0.0+26.1-neoforge.jar";
+            "hash" = "sha512-uibgeyhHZmBVE12pUwg1UdIlktu2XL38PXA+addxBtEHuboYDfqHH0gkyncuYxadF9A8Rnlp1Uhsie7YZGayBw==";
+        };
+        _x8dSjEKL = {
+            "id" = "x8dSjEKL";
+            "file" = "enchanting-overhauled-3.0.0+26.1-forge.jar";
+            "hash" = "sha512-lCpL7aw+CbKPC9Puigwam3joNl0UmxJ/+WreOSYdspSbc+qpLKRqGxIlZuvNWu9kaMW1HUNg6rQBFW4qMDSNrA==";
+        };
+        _GYRGsgeG = {
+            "id" = "GYRGsgeG";
+            "file" = "enchanting-overhauled-3.0.0+26.2-forge.jar";
+            "hash" = "sha512-ScFjCjrCLTKRbcYMRDGbDajNT/61qoviGw4mYKa0jucfFS5m9r3TbAG9EGcwsKy3LC+K3dWLpx3+ljXKcn+rjw==";
+        };
+        _7PM8v7rt = {
+            "id" = "7PM8v7rt";
+            "file" = "enchanting-overhauled-3.0.0+26.2-fabric.jar";
+            "hash" = "sha512-fqNlMbeXrOvH9rU6goJjVvim6CTrzMC792kzDeGafXFJ53BtBlJ9GqvcGbyYHZU8ZsWxzuzqqFHN9ttGq+BjqQ==";
+        };
+        _JhvNsuKU = {
+            "id" = "JhvNsuKU";
+            "file" = "enchanting-overhauled-3.0.0+26.2-neoforge.jar";
+            "hash" = "sha512-QNJ9HDoDzrCZDsw0L/sK16rEqOSQ32pCFogvCH5I8kjPHnUcUltr2cRFDBIZqhU+mbieELwcxYtBbC/5zKhU6w==";
+        };
     in {
         "Jg4utfJl" = _Jg4utfJl;
         "905gUirV" = _905gUirV;
@@ -194,12 +329,82 @@ let
         "Tth3NOLy" = _Tth3NOLy;
         "7Nx3uCdP" = _7Nx3uCdP;
         "dnQiljwG" = _dnQiljwG;
+        "rf5e2vaf" = _rf5e2vaf;
+        "9bePTU10" = _9bePTU10;
+        "Jgjro1aD" = _Jgjro1aD;
+        "pOAyv2i3" = _pOAyv2i3;
+        "i1gWfr5N" = _i1gWfr5N;
+        "qRGIMPs5" = _qRGIMPs5;
+        "PatCNXqQ" = _PatCNXqQ;
+        "YySRFfBT" = _YySRFfBT;
+        "a21iXBEh" = _a21iXBEh;
+        "BiP9c8aS" = _BiP9c8aS;
+        "Ck4v19SP" = _Ck4v19SP;
+        "wy7MHNiA" = _wy7MHNiA;
+        "WEAF6nAP" = _WEAF6nAP;
+        "VZRf4VHS" = _VZRf4VHS;
+        "OTzHsGVJ" = _OTzHsGVJ;
+        "miyIzSTU" = _miyIzSTU;
+        "a64d3YjW" = _a64d3YjW;
+        "ylZwRn3B" = _ylZwRn3B;
+        "pEdRBmUk" = _pEdRBmUk;
+        "eGmsAAHE" = _eGmsAAHE;
+        "hhrb1R9H" = _hhrb1R9H;
+        "HMub8861" = _HMub8861;
+        "HTT23PqJ" = _HTT23PqJ;
+        "x8dSjEKL" = _x8dSjEKL;
+        "GYRGsgeG" = _GYRGsgeG;
+        "7PM8v7rt" = _7PM8v7rt;
+        "JhvNsuKU" = _JhvNsuKU;
         "fabric-1.20.6" = _ipALtJxD;
-        "fabric-1.21.1" = _7TlP4ODu;
-        "fabric-1.21.10" = _7Nx3uCdP;
+        "fabric-1.21.1" = _rf5e2vaf;
+        "fabric-1.21.10" = _miyIzSTU;
+        "fabric-1.21" = _rf5e2vaf;
+        "fabric-1.21.2" = _qRGIMPs5;
+        "fabric-1.21.3" = _qRGIMPs5;
+        "fabric-1.21.4" = _a21iXBEh;
+        "fabric-1.21.5" = _Ck4v19SP;
+        "fabric-1.21.6" = _OTzHsGVJ;
+        "fabric-1.21.7" = _OTzHsGVJ;
+        "fabric-1.21.8" = _OTzHsGVJ;
+        "fabric-1.21.9" = _miyIzSTU;
+        "fabric-1.21.11" = _hhrb1R9H;
+        "fabric-26.1" = _HMub8861;
+        "fabric-26.1.1" = _HMub8861;
+        "fabric-26.1.2" = _HMub8861;
+        "fabric-26.2" = _7PM8v7rt;
         "neoforge-1.20.6" = _YpNtMZIt;
-        "neoforge-1.21.1" = _Tth3NOLy;
-        "neoforge-1.21.10" = _dnQiljwG;
+        "neoforge-1.21.1" = _Jgjro1aD;
+        "neoforge-1.21.10" = _ylZwRn3B;
+        "neoforge-1.21" = _Jgjro1aD;
+        "neoforge-1.21.2" = _pOAyv2i3;
+        "neoforge-1.21.3" = _pOAyv2i3;
+        "neoforge-1.21.4" = _YySRFfBT;
+        "neoforge-1.21.5" = _wy7MHNiA;
+        "neoforge-1.21.6" = _VZRf4VHS;
+        "neoforge-1.21.7" = _VZRf4VHS;
+        "neoforge-1.21.8" = _VZRf4VHS;
+        "neoforge-1.21.9" = _ylZwRn3B;
+        "neoforge-1.21.11" = _pEdRBmUk;
+        "neoforge-26.1" = _HTT23PqJ;
+        "neoforge-26.1.1" = _HTT23PqJ;
+        "neoforge-26.1.2" = _HTT23PqJ;
+        "neoforge-26.2" = _JhvNsuKU;
+        "forge-1.21" = _9bePTU10;
+        "forge-1.21.1" = _9bePTU10;
+        "forge-1.21.3" = _i1gWfr5N;
+        "forge-1.21.4" = _PatCNXqQ;
+        "forge-1.21.5" = _BiP9c8aS;
+        "forge-1.21.6" = _WEAF6nAP;
+        "forge-1.21.7" = _WEAF6nAP;
+        "forge-1.21.8" = _WEAF6nAP;
+        "forge-1.21.9" = _a64d3YjW;
+        "forge-1.21.10" = _a64d3YjW;
+        "forge-1.21.11" = _eGmsAAHE;
+        "forge-26.1" = _x8dSjEKL;
+        "forge-26.1.1" = _x8dSjEKL;
+        "forge-26.1.2" = _x8dSjEKL;
+        "forge-26.2" = _GYRGsgeG;
         "pkg-2.0.0" = _Jg4utfJl;
         "pkg-2.0.1" = _905gUirV;
         "pkg-2.0.2" = _mUyDxh14;
@@ -212,7 +417,34 @@ let
         "pkg-2.1.4" = _i8RwTB0x;
         "pkg-2.1.5" = _suXNJmKA;
         "pkg-2.1.6" = _dnQiljwG;
-        "default" = _dnQiljwG;
+        "pkg-3.0.0+1.21-fabric" = _rf5e2vaf;
+        "pkg-3.0.0+1.21-forge" = _9bePTU10;
+        "pkg-3.0.0+1.21-neoforge" = _Jgjro1aD;
+        "pkg-3.0.0+1.21.2-neoforge" = _pOAyv2i3;
+        "pkg-3.0.0+1.21.3-forge" = _i1gWfr5N;
+        "pkg-3.0.0+1.21.2-fabric" = _qRGIMPs5;
+        "pkg-3.0.0+1.21.4-forge" = _PatCNXqQ;
+        "pkg-3.0.0+1.21.4-neoforge" = _YySRFfBT;
+        "pkg-3.0.0+1.21.4-fabric" = _a21iXBEh;
+        "pkg-3.0.0+1.21.5-forge" = _BiP9c8aS;
+        "pkg-3.0.0+1.21.5-fabric" = _Ck4v19SP;
+        "pkg-3.0.0+1.21.5-neoforge" = _wy7MHNiA;
+        "pkg-3.0.0+1.21.6-forge" = _WEAF6nAP;
+        "pkg-3.0.0+1.21.6-neoforge" = _VZRf4VHS;
+        "pkg-3.0.0+1.21.6-fabric" = _OTzHsGVJ;
+        "pkg-3.0.0+1.21.9-fabric" = _miyIzSTU;
+        "pkg-3.0.0+1.21.9-forge" = _a64d3YjW;
+        "pkg-3.0.0+1.21.9-neoforge" = _ylZwRn3B;
+        "pkg-3.0.0+1.21.11-neoforge" = _pEdRBmUk;
+        "pkg-3.0.0+1.21.11-forge" = _eGmsAAHE;
+        "pkg-3.0.0+1.21.11-fabric" = _hhrb1R9H;
+        "pkg-3.0.0+26.1-fabric" = _HMub8861;
+        "pkg-3.0.0+26.1-neoforge" = _HTT23PqJ;
+        "pkg-3.0.0+26.1-forge" = _x8dSjEKL;
+        "pkg-3.0.0+26.2-forge" = _GYRGsgeG;
+        "pkg-3.0.0+26.2-fabric" = _7PM8v7rt;
+        "pkg-3.0.0+26.2-neoforge" = _JhvNsuKU;
+        "default" = _JhvNsuKU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchanting-overhauled";

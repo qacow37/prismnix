@@ -46,6 +46,11 @@ let
             "file" = "archivist-2.0.jar";
             "hash" = "sha512-jD95lw/a/6g1fMQPD0YdhTsRvsjoghnGVMIMSIG9+N4S2m3nkR1Sj75unL2iIHzMiOvBH1cpTV/HxQkfFuqmLw==";
         };
+        _m4B10ueC = {
+            "id" = "m4B10ueC";
+            "file" = "archivist-2.1.jar";
+            "hash" = "sha512-jQAC9QL31H+EUo/AnZtWobkKCnVbIthDYEac6aV95QsTDaxJPUM4HF/QMub5MQemBXZDo0dssibMlRaXiEsjzw==";
+        };
     in {
         "cI6lQuXT" = _cI6lQuXT;
         "rpJv6uZl" = _rpJv6uZl;
@@ -56,8 +61,9 @@ let
         "VFQX3ojv" = _VFQX3ojv;
         "hdLAYa59" = _hdLAYa59;
         "Ih1i1cZ7" = _Ih1i1cZ7;
+        "m4B10ueC" = _m4B10ueC;
         "forge-1.20.1" = _hdLAYa59;
-        "neoforge-1.21.1" = _Ih1i1cZ7;
+        "neoforge-1.21.1" = _m4B10ueC;
         "pkg-0.3.3" = _cI6lQuXT;
         "pkg-0.6.0" = _rpJv6uZl;
         "pkg-0.6.1" = _21ZDfjRq;
@@ -67,7 +73,8 @@ let
         "pkg-1.2" = _VFQX3ojv;
         "pkg-1.3" = _hdLAYa59;
         "pkg-2.0" = _Ih1i1cZ7;
-        "default" = _Ih1i1cZ7;
+        "pkg-2.1" = _m4B10ueC;
+        "default" = _m4B10ueC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "archivist.jar";

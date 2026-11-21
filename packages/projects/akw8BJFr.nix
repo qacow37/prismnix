@@ -81,6 +81,31 @@ let
             "file" = "handson_delight-fabric-1.21.1-1.6.0.jar";
             "hash" = "sha512-kW4yirxWRonwYT/YlZz27WpyoFB4JyzBo0K7pa5qpQuCv6buvh3IXgO/DRSAU96X5Zu/0Uv3lv0Q6J/5kmxvrQ==";
         };
+        _x7Ey37RD = {
+            "id" = "x7Ey37RD";
+            "file" = "handson_delight-forge-1.20.1-1.6.1.jar";
+            "hash" = "sha512-pzle5iUekBlqG0mRfTYFisBQUJvhc/LPe4vZhvqttnNSzm6+RXFIv0g1VqujA0C2jcHCNfRTkos0G8OHC8vVgA==";
+        };
+        _V4jzsdYD = {
+            "id" = "V4jzsdYD";
+            "file" = "handson_delight-fabric-1.20.1-1.6.1.jar";
+            "hash" = "sha512-CjIRD1NSLq4Kn0StBbhmQppA9jR5ibx5dSZLiThSLL+WSwRhUaQ0lI393aELh6ze7iP4Tdi37sNZGyhkp8gnbA==";
+        };
+        _VJO4zGaI = {
+            "id" = "VJO4zGaI";
+            "file" = "handson_delight-neoforge-1.21.1-1.6.1.jar";
+            "hash" = "sha512-rhuKyUbWclSNOsIs/joRap1E0hgBjC2NC5QAiD5DJkxRqnupj5QC1MgUKq2fch3rQ/Qg9Bqg0OpLLwme6DvKOQ==";
+        };
+        _RSBMmQNm = {
+            "id" = "RSBMmQNm";
+            "file" = "handson_delight-fabric-1.21.1-1.6.1.jar";
+            "hash" = "sha512-J2WMUDpaG5RjvRfefuqP6raZjg8XVgNQeWjgNQNpnKNQXfYUJweRe7+esiHZ8xEa5Bc1P0iYbbekXxL2cRthuA==";
+        };
+        _ZFlx7Skh = {
+            "id" = "ZFlx7Skh";
+            "file" = "handson_delight-fabric-26.3-1.6.0.jar";
+            "hash" = "sha512-r3lkiTIcO/PpC2KOAy1WSJjRt6/Zq98s13TNE1ZxcdgL/HG+Dgtd2WT3TKMGr0KUUzM4X9b+D9GNUKS+JOQ/AQ==";
+        };
     in {
         "sewgt6QD" = _sewgt6QD;
         "UqRnCacs" = _UqRnCacs;
@@ -98,10 +123,16 @@ let
         "zvQmRtPN" = _zvQmRtPN;
         "3CCErDrF" = _3CCErDrF;
         "s9MIj4iY" = _s9MIj4iY;
-        "fabric-1.20.1" = _zvQmRtPN;
-        "fabric-1.21.1" = _s9MIj4iY;
-        "forge-1.20.1" = _OG12ZNHE;
-        "neoforge-1.21.1" = _3CCErDrF;
+        "x7Ey37RD" = _x7Ey37RD;
+        "V4jzsdYD" = _V4jzsdYD;
+        "VJO4zGaI" = _VJO4zGaI;
+        "RSBMmQNm" = _RSBMmQNm;
+        "ZFlx7Skh" = _ZFlx7Skh;
+        "fabric-1.20.1" = _V4jzsdYD;
+        "fabric-1.21.1" = _RSBMmQNm;
+        "fabric-26.3" = _ZFlx7Skh;
+        "forge-1.20.1" = _x7Ey37RD;
+        "neoforge-1.21.1" = _VJO4zGaI;
         "pkg-1.4.0-fabric" = _sewgt6QD;
         "pkg-1.4.0-forge" = _UqRnCacs;
         "pkg-1.4.0+1.21.1-fabric" = _hNFuJdDs;
@@ -118,7 +149,12 @@ let
         "pkg-1.6.0-fabric" = _zvQmRtPN;
         "pkg-1.6.0+1.21.1-neoforge" = _3CCErDrF;
         "pkg-1.6.0+1.21.1-fabric" = _s9MIj4iY;
-        "default" = _s9MIj4iY;
+        "pkg-1.6.1-forge" = _x7Ey37RD;
+        "pkg-1.6.1-fabric" = _V4jzsdYD;
+        "pkg-1.6.1+1.21.1-neoforge" = _VJO4zGaI;
+        "pkg-1.6.1+1.21.1-fabric" = _RSBMmQNm;
+        "pkg-1.6.0+26.3-fabric" = _ZFlx7Skh;
+        "default" = _ZFlx7Skh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "handson-delight";

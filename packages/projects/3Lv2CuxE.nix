@@ -41,6 +41,11 @@ let
             "file" = "dystoria-tweaks-1.6.0.jar";
             "hash" = "sha512-VNPD+L9EYOk5D/w/AbMnIk8+829fGLptnYlzIeyJb4Wz5awqitfNdCOd8sHD2e/jaiCqY2n9oUUqMSh5Fxrc4Q==";
         };
+        _VZFPlxFk = {
+            "id" = "VZFPlxFk";
+            "file" = "dystoria-tweaks-1.7.0.jar";
+            "hash" = "sha512-uZk2QFN2iAIiEPDk3qurGXn77CE/0AyHYO3dGky8fDgSyesPrZYqOJ0Ovbs2YGw2aU0d6WI0GESVhVYL0exS2g==";
+        };
     in {
         "DwgN5eyu" = _DwgN5eyu;
         "v3U0AI4q" = _v3U0AI4q;
@@ -50,7 +55,8 @@ let
         "E9vdec19" = _E9vdec19;
         "Nf0m5R3B" = _Nf0m5R3B;
         "Ayn6le0T" = _Ayn6le0T;
-        "fabric-1.21.1" = _Ayn6le0T;
+        "VZFPlxFk" = _VZFPlxFk;
+        "fabric-1.21.1" = _VZFPlxFk;
         "pkg-1.1.0" = _DwgN5eyu;
         "pkg-1.2.0" = _v3U0AI4q;
         "pkg-1.2.1" = _fHmrgrT7;
@@ -59,7 +65,8 @@ let
         "pkg-1.4.1" = _E9vdec19;
         "pkg-1.5.0" = _Nf0m5R3B;
         "pkg-1.6.0" = _Ayn6le0T;
-        "default" = _Ayn6le0T;
+        "pkg-1.7.0" = _VZFPlxFk;
+        "default" = _VZFPlxFk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dystoria-tweaks";

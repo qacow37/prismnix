@@ -121,6 +121,11 @@ let
             "file" = "threateningly_mobs-1.1.1-forge-1.20.1.jar";
             "hash" = "sha512-IBMlOeSpe5+SiD7QFMZlQTit7519CnLmQjSeMiJxoKbEvsb6l/NJS3ZE5v/c8JKNiuXGLHae47PX24aoHrx8TQ==";
         };
+        _GJ3cGGpc = {
+            "id" = "GJ3cGGpc";
+            "file" = "threateningly_mobs-1.1.2-neoforge-1.21.1.jar";
+            "hash" = "sha512-yBp6XEG6oESa1nDXcSNSY05MrppaeRFzoCT5Jp1Urkkt8Mz55p5lNoNa49VEl/GpiGjczkfFyZdfrZUok284hw==";
+        };
     in {
         "plUuBuxr" = _plUuBuxr;
         "7v7Bxc1l" = _7v7Bxc1l;
@@ -146,7 +151,9 @@ let
         "eJYDTQR7" = _eJYDTQR7;
         "bh3ueM5Q" = _bh3ueM5Q;
         "Zwuw6yjT" = _Zwuw6yjT;
+        "GJ3cGGpc" = _GJ3cGGpc;
         "forge-1.20.1" = _Zwuw6yjT;
+        "neoforge-1.21.1" = _GJ3cGGpc;
         "pkg-1.0.0" = _plUuBuxr;
         "pkg-1.0.1" = _7v7Bxc1l;
         "pkg-1.0.2" = _iLglL7wp;
@@ -171,7 +178,8 @@ let
         "pkg-1.0.9.92" = _eJYDTQR7;
         "pkg-1.1.0" = _bh3ueM5Q;
         "pkg-1.1.1" = _Zwuw6yjT;
-        "default" = _Zwuw6yjT;
+        "pkg-1.1.2" = _GJ3cGGpc;
+        "default" = _GJ3cGGpc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "threateningly-mobs";

@@ -311,6 +311,26 @@ let
             "file" = "ravens_resource_orbs-neoforge-1.0.2+1.21.1.jar";
             "hash" = "sha512-AI7IW4pU1OL2prGXgFIuXpS4TDt5O9qijQA3n1ovlyU9UvxrdB+dOirbRChdPcSA8+RA6WCjoDHWfScLxzrwMg==";
         };
+        _9fR9Td60 = {
+            "id" = "9fR9Td60";
+            "file" = "ravens_resource_orbs-neoforge-1.0.3+1.21.1.jar";
+            "hash" = "sha512-g7aZ6Uya9SvUOgNUkxQmObmyBLGahzDxDgPvXi7mia7J2BlQTqw0C/p6MqdSEaN0wOGgRXM8PcdRlHOdG4vG9Q==";
+        };
+        _TCdqjG1w = {
+            "id" = "TCdqjG1w";
+            "file" = "ravens_resource_orbs-fabric-1.0.3+1.21.1.jar";
+            "hash" = "sha512-EQTbEJzcyHW9qZZ7zoL9RluRalAYTiPTM9IIGaNfh5jwIfq2gLckytW2bZJryhcOMXugC06jG45awLR6pR4/+w==";
+        };
+        _OQXt8HqI = {
+            "id" = "OQXt8HqI";
+            "file" = "ravens_resource_orbs-neoforge-1.0.4+1.21.1.jar";
+            "hash" = "sha512-fhcKoNxAEnpe6mbxrzIuYnRNXbDz3padnIEtrKL4+o+Qzp7gIbZWw5wpGTRuX3JfJIqxuBFCvSjYnc8obntwKg==";
+        };
+        _o1tLONeF = {
+            "id" = "o1tLONeF";
+            "file" = "ravens_resource_orbs-fabric-1.0.4+1.21.1.jar";
+            "hash" = "sha512-MN6dZQ31r0BnOPjNU1OyLs0aeao9yBLGpLDEct15g3bj5suIBqESDuL7yMTsr/kDU4Q32pEJsbYOdZrCtMTl9Q==";
+        };
     in {
         "sinK3nrG" = _sinK3nrG;
         "r3XZCB3H" = _r3XZCB3H;
@@ -374,12 +394,16 @@ let
         "P3N8I4og" = _P3N8I4og;
         "GYCwciQq" = _GYCwciQq;
         "AaTSzkJx" = _AaTSzkJx;
+        "9fR9Td60" = _9fR9Td60;
+        "TCdqjG1w" = _TCdqjG1w;
+        "OQXt8HqI" = _OQXt8HqI;
+        "o1tLONeF" = _o1tLONeF;
         "forge-1.20.1" = _LCmZ3edm;
         "forge-1.20" = _LCmZ3edm;
-        "neoforge-1.21.1" = _AaTSzkJx;
+        "neoforge-1.21.1" = _OQXt8HqI;
         "neoforge-26.1.2" = _3GnL1KnO;
         "fabric-1.20.1" = _sjwwkjex;
-        "fabric-1.21.1" = _GYCwciQq;
+        "fabric-1.21.1" = _o1tLONeF;
         "fabric-1.20" = _sjwwkjex;
         "fabric-26.1.2" = _GUrWiIiC;
         "pkg-0.2.0" = _wNKTY6IW;
@@ -429,7 +453,9 @@ let
         "pkg-1.0.0+1.21.1" = _WbMpRWDc;
         "pkg-1.0.1+1.21.1" = _P3N8I4og;
         "pkg-1.0.2+1.21.1" = _AaTSzkJx;
-        "default" = _AaTSzkJx;
+        "pkg-1.0.3+1.21.1" = _TCdqjG1w;
+        "pkg-1.0.4+1.21.1" = _o1tLONeF;
+        "default" = _o1tLONeF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamic-resource-bars";

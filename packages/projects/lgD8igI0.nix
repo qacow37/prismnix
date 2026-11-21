@@ -256,6 +256,51 @@ let
             "file" = "sizeable_foliage-fabric-26.3-1.3.0.jar";
             "hash" = "sha512-5yD8HGESOuJoomPUDeV/RN4jqvLDTQzLPXZ01WgATCiGa0uu2hu1M4sWre3cM6bXE1uKYmArsP5oumWMdEagvA==";
         };
+        _UjW3SWvK = {
+            "id" = "UjW3SWvK";
+            "file" = "sizeable_foliage-forge-1.20.1-1.4.0.jar";
+            "hash" = "sha512-G6DvJpvcHfnx0HA6s8ClXW/cxWqbEypq3QKjnqjntYrNamsz4LnpaLvk2OsorMDYtY1y1Jm3sLJNFYQnUNmSpw==";
+        };
+        _oBkwqzxe = {
+            "id" = "oBkwqzxe";
+            "file" = "sizeable_foliage-neoforge-1.21.1-1.4.0.jar";
+            "hash" = "sha512-L6+xFec4fNZcfSr6Rau0b+P+UnIKM8umWbB7+fZgRrYgWAbCudMZb984QOFGFMf9RWYWLKkkv7tDc2w9DkrWng==";
+        };
+        _MxiNKkke = {
+            "id" = "MxiNKkke";
+            "file" = "sizeable_foliage-neoforge-26.1-1.4.0.jar";
+            "hash" = "sha512-5X4FinK1z2oz/VW2rxYNhVCTxUpo/XIgvxYYlvVCHjp86s8lp65IVwycLNTB2qqjfen5rEvT6Ura+fYFBT65bA==";
+        };
+        _CC9PzKUd = {
+            "id" = "CC9PzKUd";
+            "file" = "sizeable_foliage-neoforge-26.2-1.4.0.jar";
+            "hash" = "sha512-HknuM0UFdYzIVTeLxl7irb9AiFNf+k3ajICteNKDYJepIybqS1BawZmrCjv3rnsfvupaU6gKWAaDDzCAZO5xsA==";
+        };
+        _hF2ltESc = {
+            "id" = "hF2ltESc";
+            "file" = "sizeable_foliage-neoforge-26.3-1.4.0.jar";
+            "hash" = "sha512-s8siiQNfNaYZhp0oycEEEoNrIbLk4yoXZg65ZlI7HJgFHAaGpa874Xn4oFIiHzUL3CgOWcNNJ6J7SO+lH6LBUQ==";
+        };
+        _jwmZ4uHI = {
+            "id" = "jwmZ4uHI";
+            "file" = "sizeable_foliage-fabric-1.21.1-1.4.0.jar";
+            "hash" = "sha512-vxRUGngBfj0jjXSTk9JIcrrL+qmlHlvNuG3m4e4Km3ftUGpGsxDxIv6YhrDiYocvef+jdB1XkpjMgz7Oae/e9w==";
+        };
+        _NObNS3Jj = {
+            "id" = "NObNS3Jj";
+            "file" = "sizeable_foliage-fabric-26.1-1.4.0.jar";
+            "hash" = "sha512-RKrbvga9aYxQgQ71a0E02H66kVms9VmKlHmKTDBNBBV74v0gF0fUuX7ddMHiVNPLM2gRGMzH6GoTPip/0LxisA==";
+        };
+        _WFiOcXsI = {
+            "id" = "WFiOcXsI";
+            "file" = "sizeable_foliage-fabric-26.2-1.4.0.jar";
+            "hash" = "sha512-5UQjRzGhUp6ls54iKEed6iVTc8IHWIrUGqb8eK5Mt+TLFvWtvFOWHH0sDfftlWyEcDj/xQTW90wgcy99CuBIqg==";
+        };
+        _xSKxlARu = {
+            "id" = "xSKxlARu";
+            "file" = "sizeable_foliage-fabric-26.3-1.4.0.jar";
+            "hash" = "sha512-ujTpm+Abtvr9865ignXQI96Uqi6IZkmLAESikerPc3sH6a6OmkoH1EKvOiqqRJ8oPSnNs0j/onl2ZvBaJ4VK2g==";
+        };
     in {
         "sP7YluER" = _sP7YluER;
         "C9BYpgNq" = _C9BYpgNq;
@@ -308,20 +353,29 @@ let
         "214moZoD" = _214moZoD;
         "iut5dyNh" = _iut5dyNh;
         "wZS74Glz" = _wZS74Glz;
-        "fabric-1.21.1" = _8CHESjrt;
+        "UjW3SWvK" = _UjW3SWvK;
+        "oBkwqzxe" = _oBkwqzxe;
+        "MxiNKkke" = _MxiNKkke;
+        "CC9PzKUd" = _CC9PzKUd;
+        "hF2ltESc" = _hF2ltESc;
+        "jwmZ4uHI" = _jwmZ4uHI;
+        "NObNS3Jj" = _NObNS3Jj;
+        "WFiOcXsI" = _WFiOcXsI;
+        "xSKxlARu" = _xSKxlARu;
+        "fabric-1.21.1" = _jwmZ4uHI;
         "fabric-1.20.1" = _FdMEeQWs;
-        "fabric-26.1" = _5nOFA8Ov;
-        "fabric-26.1.1" = _5nOFA8Ov;
-        "fabric-26.1.2" = _5nOFA8Ov;
-        "fabric-26.2" = _LROg7G6a;
-        "fabric-26.3" = _wZS74Glz;
-        "neoforge-1.21.1" = _kzcKvYlT;
-        "neoforge-26.1" = _9IPRzEXv;
-        "neoforge-26.1.1" = _9IPRzEXv;
-        "neoforge-26.1.2" = _9IPRzEXv;
-        "neoforge-26.2" = _214moZoD;
-        "neoforge-26.3" = _iut5dyNh;
-        "forge-1.20.1" = _AAHtXrdS;
+        "fabric-26.1" = _NObNS3Jj;
+        "fabric-26.1.1" = _NObNS3Jj;
+        "fabric-26.1.2" = _NObNS3Jj;
+        "fabric-26.2" = _WFiOcXsI;
+        "fabric-26.3" = _xSKxlARu;
+        "neoforge-1.21.1" = _oBkwqzxe;
+        "neoforge-26.1" = _MxiNKkke;
+        "neoforge-26.1.1" = _MxiNKkke;
+        "neoforge-26.1.2" = _MxiNKkke;
+        "neoforge-26.2" = _CC9PzKUd;
+        "neoforge-26.3" = _hF2ltESc;
+        "forge-1.20.1" = _UjW3SWvK;
         "pkg-1.0.0" = _84fQm8hP;
         "pkg-1.0.1" = _FqhI0QkQ;
         "pkg-1.0.2" = _lUXt3w3b;
@@ -329,7 +383,8 @@ let
         "pkg-1.2.0" = _mg43kEfx;
         "pkg-1.2.1" = _flf5T22U;
         "pkg-1.3.0" = _wZS74Glz;
-        "default" = _wZS74Glz;
+        "pkg-1.4.0" = _xSKxlARu;
+        "default" = _xSKxlARu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sizeable-foliage";

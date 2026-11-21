@@ -46,6 +46,11 @@ let
             "file" = "3D Remix.zip";
             "hash" = "sha512-uO8nlNlKzkWZ+MsJblkG3EbMhGvhMy5YZQB/pmaRrKSf28jmfbZe89rJrqcWRgnQmF3fvkgewuWtOpAifiIgTw==";
         };
+        _tQJsQ61S = {
+            "id" = "tQJsQ61S";
+            "file" = "3D Remix.zip";
+            "hash" = "sha512-9OIsPolM/Q/HVOdOERZ70MSGXtLtBzXZvDkQ5Dc++uLdtwSKzWlaLW30RoccewmGdQG5spoVF8UFKThG3X5ePQ==";
+        };
     in {
         "QvFGdDr8" = _QvFGdDr8;
         "r3N4GyE0" = _r3N4GyE0;
@@ -56,23 +61,24 @@ let
         "ZRGTObKk" = _ZRGTObKk;
         "qXiCbHPM" = _qXiCbHPM;
         "AdNxEGcO" = _AdNxEGcO;
-        "minecraft-1.21.2" = _AdNxEGcO;
-        "minecraft-1.21.3" = _AdNxEGcO;
-        "minecraft-1.21.4" = _AdNxEGcO;
-        "minecraft-1.21.5" = _AdNxEGcO;
-        "minecraft-1.21.6" = _AdNxEGcO;
-        "minecraft-1.21.7" = _AdNxEGcO;
-        "minecraft-1.21.8" = _AdNxEGcO;
-        "minecraft-1.21.9" = _AdNxEGcO;
-        "minecraft-1.21.10" = _AdNxEGcO;
-        "minecraft-1.21.11" = _AdNxEGcO;
-        "minecraft-26.1" = _AdNxEGcO;
-        "minecraft-26.1.1" = _AdNxEGcO;
-        "minecraft-26.1.2" = _AdNxEGcO;
-        "minecraft-26.2" = _AdNxEGcO;
-        "minecraft-1.21" = _AdNxEGcO;
-        "minecraft-1.21.1" = _AdNxEGcO;
-        "minecraft-26.3" = _AdNxEGcO;
+        "tQJsQ61S" = _tQJsQ61S;
+        "minecraft-1.21.2" = _tQJsQ61S;
+        "minecraft-1.21.3" = _tQJsQ61S;
+        "minecraft-1.21.4" = _tQJsQ61S;
+        "minecraft-1.21.5" = _tQJsQ61S;
+        "minecraft-1.21.6" = _tQJsQ61S;
+        "minecraft-1.21.7" = _tQJsQ61S;
+        "minecraft-1.21.8" = _tQJsQ61S;
+        "minecraft-1.21.9" = _tQJsQ61S;
+        "minecraft-1.21.10" = _tQJsQ61S;
+        "minecraft-1.21.11" = _tQJsQ61S;
+        "minecraft-26.1" = _tQJsQ61S;
+        "minecraft-26.1.1" = _tQJsQ61S;
+        "minecraft-26.1.2" = _tQJsQ61S;
+        "minecraft-26.2" = _tQJsQ61S;
+        "minecraft-1.21" = _tQJsQ61S;
+        "minecraft-1.21.1" = _tQJsQ61S;
+        "minecraft-26.3" = _tQJsQ61S;
         "pkg-1.0" = _QvFGdDr8;
         "pkg-1.1" = _r3N4GyE0;
         "pkg-1.2" = _DE3z7Dcw;
@@ -82,7 +88,8 @@ let
         "pkg-1.5" = _ZRGTObKk;
         "pkg-1.6" = _qXiCbHPM;
         "pkg-1.6.1" = _AdNxEGcO;
-        "default" = _AdNxEGcO;
+        "pkg-1.6.2" = _tQJsQ61S;
+        "default" = _tQJsQ61S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "3d-remix";

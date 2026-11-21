@@ -41,6 +41,11 @@ let
             "file" = "create-aeronautics-bundled-1.21.1-1.3.2.jar";
             "hash" = "sha512-3H6OEUj6RCJDiJuilBIgcTfhu4YgbmySvApYnxN0pGbpPeIr2/FPdTmE2GwpMI+73A8UpLlhixTArBZmo2tG9Q==";
         };
+        _demX2roU = {
+            "id" = "demX2roU";
+            "file" = "create-aeronautics-bundled-1.21.1-1.3.3.jar";
+            "hash" = "sha512-4oAm/WRHuZfyybgcHZOQlM8mxchXLGGUtlKCEG8XJXcp767OxnDQ8shMbXshYBArCKu05YIs8PwBpPTHTlZAqA==";
+        };
     in {
         "HY8u0JqC" = _HY8u0JqC;
         "FIeWE7UC" = _FIeWE7UC;
@@ -50,7 +55,8 @@ let
         "w7zlLnea" = _w7zlLnea;
         "Vzp221Un" = _Vzp221Un;
         "44pLdPGg" = _44pLdPGg;
-        "neoforge-1.21.1" = _44pLdPGg;
+        "demX2roU" = _demX2roU;
+        "neoforge-1.21.1" = _demX2roU;
         "pkg-1.0.2+mc1.21.1" = _HY8u0JqC;
         "pkg-1.0.3+mc1.21.1" = _FIeWE7UC;
         "pkg-1.1.0+mc1.21.1" = _trnVk44s;
@@ -59,7 +65,8 @@ let
         "pkg-1.3.0+mc1.21.1" = _w7zlLnea;
         "pkg-1.3.1+mc1.21.1" = _Vzp221Un;
         "pkg-1.3.2+mc1.21.1" = _44pLdPGg;
-        "default" = _44pLdPGg;
+        "pkg-1.3.3+mc1.21.1" = _demX2roU;
+        "default" = _demX2roU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-aeronautics";

@@ -166,6 +166,11 @@ let
             "file" = "fiahi-4.1.1.jar";
             "hash" = "sha512-gEb4lceUVy86rFPGv3lT2Yu1Pt1cWxROddC+cqHIoCgF6T7al000EUHU/DUl6FTZLvsQJGJYsk/NsX17sc0PJg==";
         };
+        _2Jrlzv4Z = {
+            "id" = "2Jrlzv4Z";
+            "file" = "fiahi-4.1.2.jar";
+            "hash" = "sha512-orfYtAEbRZnieJhM7qa/8TcGI2Pje8krtjcvCuf7Tokj9lPsjJG4pM3vJmgyiRBufiKBvqJFt5ms4fbcQc+lMA==";
+        };
     in {
         "HztOewvo" = _HztOewvo;
         "aQpW6YiR" = _aQpW6YiR;
@@ -200,6 +205,7 @@ let
         "v985jLpT" = _v985jLpT;
         "qvQpqRJV" = _qvQpqRJV;
         "8nQtpQZp" = _8nQtpQZp;
+        "2Jrlzv4Z" = _2Jrlzv4Z;
         "forge-1.18.2" = _trdYncfn;
         "forge-1.19.2" = _Ij57WvxA;
         "forge-1.20.1" = _v985jLpT;
@@ -209,8 +215,8 @@ let
         "forge-1.20.4" = _k893ZUe1;
         "forge-1.20.5" = _k893ZUe1;
         "forge-1.20.6" = _k893ZUe1;
-        "neoforge-1.21" = _8nQtpQZp;
-        "neoforge-1.21.1" = _8nQtpQZp;
+        "neoforge-1.21" = _2Jrlzv4Z;
+        "neoforge-1.21.1" = _2Jrlzv4Z;
         "pkg-1.2.0" = _HztOewvo;
         "pkg-1.2.1" = _aQpW6YiR;
         "pkg-2.2.0" = _JhECT49g;
@@ -244,7 +250,8 @@ let
         "pkg-3.1.6" = _v985jLpT;
         "pkg-4.1.0" = _qvQpqRJV;
         "pkg-4.1.1" = _8nQtpQZp;
-        "default" = _8nQtpQZp;
+        "pkg-4.1.2" = _2Jrlzv4Z;
+        "default" = _2Jrlzv4Z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "freeze-it-and-heat-it";

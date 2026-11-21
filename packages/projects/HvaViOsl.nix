@@ -26,22 +26,36 @@ let
             "file" = "Vex Origin 1.20.1-1.6.jar";
             "hash" = "sha512-0indc62jpEysQRdSGH8YTJFq6WA+0xPpd0tUOKEO04aOt274WAgTVqHOrgMSyBG2ksf5bRb3LkSsTZTfLxMhPA==";
         };
+        _5FbM50zV = {
+            "id" = "5FbM50zV";
+            "file" = "Vex Origin 1.20.1-1.7-fabric.jar";
+            "hash" = "sha512-P/5TlWzFdeWP7o6ym6j6UWH/+L3B/WxVS6TMixnH/rmeDWVF1zbVVVvVH9Z+Sedv4yJ4Tnh4ULMpylDk9WLLHg==";
+        };
+        _3iLfI01M = {
+            "id" = "3iLfI01M";
+            "file" = "Vex Origin 1.20.1-1.7-forge.jar";
+            "hash" = "sha512-iirMSDRLxbz4tlaXWyusTrJO09lHaR/LPJL2PDb+obVYoO81JX1WS63ymP/Wd5JGPbjfMXRJgIwVtExlKSzpWA==";
+        };
     in {
         "nkHiqLwN" = _nkHiqLwN;
         "LwRmnnZv" = _LwRmnnZv;
         "BUYIZcO0" = _BUYIZcO0;
         "y8gHMlQY" = _y8gHMlQY;
         "kzombJ8L" = _kzombJ8L;
-        "fabric-1.20.1" = _kzombJ8L;
-        "fabric-1.20" = _kzombJ8L;
-        "forge-1.20.1" = _kzombJ8L;
-        "forge-1.20" = _kzombJ8L;
+        "5FbM50zV" = _5FbM50zV;
+        "3iLfI01M" = _3iLfI01M;
+        "fabric-1.20.1" = _5FbM50zV;
+        "fabric-1.20" = _5FbM50zV;
+        "forge-1.20.1" = _3iLfI01M;
+        "forge-1.20" = _3iLfI01M;
         "pkg-1.20.1-1.2" = _nkHiqLwN;
         "pkg-1.20.1-1.3" = _LwRmnnZv;
         "pkg-1.20.1-1.4" = _BUYIZcO0;
         "pkg-1.20.1-1.5" = _y8gHMlQY;
         "pkg-1.20.1-1.6" = _kzombJ8L;
-        "default" = _kzombJ8L;
+        "pkg-1.20.1-1.7-fabric" = _5FbM50zV;
+        "pkg-1.20.1-1.7-forge" = _3iLfI01M;
+        "default" = _3iLfI01M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vex-origin";

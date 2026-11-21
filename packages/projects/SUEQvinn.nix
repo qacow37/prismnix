@@ -496,6 +496,21 @@ let
             "file" = "moreores-7.0+26.2-beta.3.jar";
             "hash" = "sha512-4hc+mUjz1UljEv8HBJp1mCKp6gIX107YgDvGc4/Qn/q2xlAzb53FSHdelqwBLREsKuVVjF/Jv+OpKqki5qKYLQ==";
         };
+        _a1IHKTkZ = {
+            "id" = "a1IHKTkZ";
+            "file" = "moreores-7.0+1.21.11-sources.jar";
+            "hash" = "sha512-DUXk+McFos0Lrhlo30dIZ7U3UZi0xZrB8Qc4ZdGmmB3VPjGqgB3/CFydRGvs9J5OQoHI4n/Z45/gqdNNpmL3OA==";
+        };
+        _MWU0JD9I = {
+            "id" = "MWU0JD9I";
+            "file" = "moreores-7.0+26.1.x.jar";
+            "hash" = "sha512-71dNa52iELRsgQ8OXn9Zwo+Z1LYf8asSd0iYqwmeDB0AT/t08HDanhP5zujOwXwQM/FodGIDd8Md42a2kDCJrw==";
+        };
+        _NyZW0RK3 = {
+            "id" = "NyZW0RK3";
+            "file" = "moreores-7.0+26.2.jar";
+            "hash" = "sha512-jWItCdhaHmBmukX3R6qB1pBZEcM2GJfSC8AohkzGNvXPR4aPcX8gID9ShNKhnNodgWtk2mtQqyXPilDzQvlRlQ==";
+        };
     in {
         "aIU2iDKb" = _aIU2iDKb;
         "hp1hTVmU" = _hp1hTVmU;
@@ -596,6 +611,9 @@ let
         "m2gcgBcM" = _m2gcgBcM;
         "gnm7RY4u" = _gnm7RY4u;
         "KvdaWIEC" = _KvdaWIEC;
+        "a1IHKTkZ" = _a1IHKTkZ;
+        "MWU0JD9I" = _MWU0JD9I;
+        "NyZW0RK3" = _NyZW0RK3;
         "fabric-1.20.4" = _hp1hTVmU;
         "fabric-1.20.6" = _VzAKC9eD;
         "fabric-1.21-pre4" = _So7libM1;
@@ -609,11 +627,11 @@ let
         "fabric-1.21.8" = _tdF9AsyU;
         "fabric-1.21.9" = _vU05cNbv;
         "fabric-1.21.10" = _vU05cNbv;
-        "fabric-1.21.11" = _m2gcgBcM;
-        "fabric-26.1" = _gnm7RY4u;
-        "fabric-26.1.1" = _gnm7RY4u;
-        "fabric-26.1.2" = _gnm7RY4u;
-        "fabric-26.2" = _KvdaWIEC;
+        "fabric-1.21.11" = _a1IHKTkZ;
+        "fabric-26.1" = _MWU0JD9I;
+        "fabric-26.1.1" = _MWU0JD9I;
+        "fabric-26.1.2" = _MWU0JD9I;
+        "fabric-26.2" = _NyZW0RK3;
         "pkg-1.0-1.20.4" = _aIU2iDKb;
         "pkg-1.1-1.20.4" = _hp1hTVmU;
         "pkg-1.0+1.20.6" = _mArCzOJr;
@@ -713,7 +731,10 @@ let
         "pkg-7.0+1.21.11-beta.5" = _m2gcgBcM;
         "pkg-7.0+26.1.x-beta.3" = _gnm7RY4u;
         "pkg-7.0+26.2-beta.3" = _KvdaWIEC;
-        "default" = _KvdaWIEC;
+        "pkg-7.0+1.21.11" = _a1IHKTkZ;
+        "pkg-7.0+26.1.x" = _MWU0JD9I;
+        "pkg-7.0+26.2" = _NyZW0RK3;
+        "default" = _NyZW0RK3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moreores+";

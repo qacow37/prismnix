@@ -251,6 +251,16 @@ let
             "file" = "create_hypertube-0.6.0-NEOFORGE.jar";
             "hash" = "sha512-hAX7f4v3//WBHCno7RSs3qRd3JSHyuwsJO1efbQUG2DkG3qTdkUzAYDHQia7trMDWRMOI5KdU9sTZ751wAWFqQ==";
         };
+        _Kk87Hx6x = {
+            "id" = "Kk87Hx6x";
+            "file" = "create_hypertube-0.6.1-FORGE.jar";
+            "hash" = "sha512-Gwy8JL1X8Co8dCrRf8of0of/eTjytqvSNTpbxouvAvkzSQVYrg9MBVzP79ei1Vote8KVYM0SPrJOtdwEDPVTRw==";
+        };
+        _j9cqY9tG = {
+            "id" = "j9cqY9tG";
+            "file" = "create_hypertube-0.6.1-NEOFORGE.jar";
+            "hash" = "sha512-n3eYogpSBwdwTrCdFGMEHr27QY3RT/9UDAYrer4WEYYeMiRV7m9hLk52tBZ3TyLGEL5r/GbKqFb2auJqnIZOiA==";
+        };
     in {
         "EKTpHlS7" = _EKTpHlS7;
         "eg8hql59" = _eg8hql59;
@@ -302,14 +312,16 @@ let
         "YhFmU0xk" = _YhFmU0xk;
         "7IkI5evY" = _7IkI5evY;
         "qYjOyvgW" = _qYjOyvgW;
-        "neoforge-1.21.1" = _qYjOyvgW;
+        "Kk87Hx6x" = _Kk87Hx6x;
+        "j9cqY9tG" = _j9cqY9tG;
+        "neoforge-1.21.1" = _j9cqY9tG;
         "neoforge-1.20.1" = _7IkI5evY;
         "neoforge-1.20.2" = _ngA99IQz;
         "neoforge-1.20.3" = _ngA99IQz;
         "neoforge-1.20.4" = _ngA99IQz;
         "neoforge-1.20.5" = _ngA99IQz;
         "neoforge-1.20.6" = _ngA99IQz;
-        "forge-1.20.1" = _7IkI5evY;
+        "forge-1.20.1" = _Kk87Hx6x;
         "forge-1.20.2" = _ngA99IQz;
         "forge-1.20.3" = _ngA99IQz;
         "forge-1.20.4" = _ngA99IQz;
@@ -339,7 +351,8 @@ let
         "pkg-0.5.0-ALPHA" = _jApbOkOC;
         "pkg-0.6.0-CREATE-0.5.x" = _YhFmU0xk;
         "pkg-0.6.0" = _qYjOyvgW;
-        "default" = _qYjOyvgW;
+        "pkg-0.6.1" = _j9cqY9tG;
+        "default" = _j9cqY9tG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hypertube";

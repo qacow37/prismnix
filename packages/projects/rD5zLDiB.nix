@@ -56,6 +56,11 @@ let
             "file" = "siege_of_settlements-0.4.1.jar";
             "hash" = "sha512-+ObaxGieGhM04pwfEJxkvlyBf4dbbHRIDRNXFuJNJrGvZC75miveQUwD8XE2MfdWQ5tXW0OBm/LtJx0N9VkXXg==";
         };
+        _REbVQLcq = {
+            "id" = "REbVQLcq";
+            "file" = "siege_of_settlements-0.4.2.jar";
+            "hash" = "sha512-hKTr+mlFvZL/VViIJzbaBOiYsOUsA2iIYmy82TcfU0zzJm89umgcZDQMZH50wUTbe/Y9hxvXaRlYLVlWpz5Erw==";
+        };
     in {
         "xVyWabSC" = _xVyWabSC;
         "eZldgbTq" = _eZldgbTq;
@@ -68,7 +73,8 @@ let
         "twk4l8cS" = _twk4l8cS;
         "G7m1kTuq" = _G7m1kTuq;
         "vjBQ362B" = _vjBQ362B;
-        "forge-1.20.1" = _vjBQ362B;
+        "REbVQLcq" = _REbVQLcq;
+        "forge-1.20.1" = _REbVQLcq;
         "pkg-0.1.0" = _xVyWabSC;
         "pkg-0.3.0" = _eZldgbTq;
         "pkg-0.3.1" = _We7B69wS;
@@ -80,7 +86,8 @@ let
         "pkg-0.4.0-playtest4" = _twk4l8cS;
         "pkg-0.4.0" = _G7m1kTuq;
         "pkg-0.4.1" = _vjBQ362B;
-        "default" = _vjBQ362B;
+        "pkg-0.4.2" = _REbVQLcq;
+        "default" = _REbVQLcq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "siege-of-settlements";

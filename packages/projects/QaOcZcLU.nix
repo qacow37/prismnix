@@ -86,6 +86,11 @@ let
             "file" = "flashback_neoforge_fixed-1.0.18.jar";
             "hash" = "sha512-3qiTdC1LYfpFd4W1JTOsOe2yTXT37bA2/1/tfx/lbUbQ+SEVhK3Uh2nQKLzWVfD0xfJUaY20A+0/7EbEaVv+mw==";
         };
+        _Fglj63ER = {
+            "id" = "Fglj63ER";
+            "file" = "flashback_neoforge_fixed-1.0.19.jar";
+            "hash" = "sha512-YeWb/iKbvH1bvu5kzkmcq2c5Ig5g4x0tmqE90EPD4d1FbHYBcxgWcQeUokKkJxkb3e3nMyk7+Xb0r6OjS+1Q4g==";
+        };
     in {
         "1jyfM86i" = _1jyfM86i;
         "jkKEMN2l" = _jkKEMN2l;
@@ -104,7 +109,8 @@ let
         "zz1fz1ji" = _zz1fz1ji;
         "8ykDg8OZ" = _8ykDg8OZ;
         "6lI0Ig17" = _6lI0Ig17;
-        "neoforge-1.21.1" = _6lI0Ig17;
+        "Fglj63ER" = _Fglj63ER;
+        "neoforge-1.21.1" = _Fglj63ER;
         "pkg-1.0.0" = _1jyfM86i;
         "pkg-1.0.1" = _jkKEMN2l;
         "pkg-1.0.2" = _QscqR2CN;
@@ -122,7 +128,8 @@ let
         "pkg-1.0.16" = _zz1fz1ji;
         "pkg-1.0.17" = _8ykDg8OZ;
         "pkg-1.0.18" = _6lI0Ig17;
-        "default" = _6lI0Ig17;
+        "pkg-1.0.19" = _Fglj63ER;
+        "default" = _Fglj63ER;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flashback-neoforge-fixed";

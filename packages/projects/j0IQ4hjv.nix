@@ -251,6 +251,11 @@ let
             "file" = "FpsOverlay-neoforge-5.6.jar";
             "hash" = "sha512-Ncx1hhzJkfjPN91B1s4HVXRTVOrE542qGYw9XLkFglACwhSRuLo/wZHNoiGBMDNb63tYI8fbcUoJlXI5Sb9TSA==";
         };
+        _kjgbxrqB = {
+            "id" = "kjgbxrqB";
+            "file" = "FpsOverlay-fabric-5.7.jar";
+            "hash" = "sha512-980dhGZeanYxBZ7V3kLk77mcyqB9Bj6FvwCE/wPp9eC86t5ts14/AmLwuk6R8m+sPS1/I11s0YNNgcfrabI90w==";
+        };
     in {
         "ZNVgXrtd" = _ZNVgXrtd;
         "6UvxDKhM" = _6UvxDKhM;
@@ -302,6 +307,7 @@ let
         "peFsWKne" = _peFsWKne;
         "1am3G4y7" = _1am3G4y7;
         "thcrhhB2" = _thcrhhB2;
+        "kjgbxrqB" = _kjgbxrqB;
         "fabric-1.21.4" = _ZNVgXrtd;
         "fabric-1.21.5" = _6UvxDKhM;
         "fabric-1.21.8" = _d4FPNegI;
@@ -312,6 +318,7 @@ let
         "fabric-26.1" = _KRwWovD9;
         "fabric-26.1.2" = _1am3G4y7;
         "fabric-26.2" = _peFsWKne;
+        "fabric-26.3" = _kjgbxrqB;
         "quilt-1.21.11" = _kqImbAtV;
         "quilt-1.21.10" = _kh0FHMEY;
         "quilt-1.20.1" = _YgNw6lGX;
@@ -346,7 +353,8 @@ let
         "pkg-5.5+neoforge" = _o2Y164Xb;
         "pkg-5.6+fabric" = _1am3G4y7;
         "pkg-5.6+neoforge" = _thcrhhB2;
-        "default" = _thcrhhB2;
+        "pkg-5.7+fabric" = _kjgbxrqB;
+        "default" = _kjgbxrqB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fps-overlay";

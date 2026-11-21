@@ -351,6 +351,16 @@ let
             "file" = "Spice of Life Onion_FABRIC_v1.6.0_mc26.3.jar";
             "hash" = "sha512-pWo6f0EFW/7UkkUU+fZOD/ua29DCV1BHm4XPXNh9/BMiPkxOxi/fb3WIzRea6cS/i0kfw0HEkQxaNWjMdaYd+A==";
         };
+        _wOJZ6HoV = {
+            "id" = "wOJZ6HoV";
+            "file" = "Spice of Life Onion_NEOFORGE_v1.6.1_mc26.3.jar";
+            "hash" = "sha512-vvoLEwxC6JPYWHxieo8mqDZkgExlFUzbgOHp36HIJfSAxS18hCQ3a5FfKvCw0zkfWyDEKRDYPM8Nn9yZdwn8Uw==";
+        };
+        _FHmAyktg = {
+            "id" = "FHmAyktg";
+            "file" = "Spice of Life Onion_FABRIC_v1.6.1_mc26.3.jar";
+            "hash" = "sha512-tQ/CX26/ll3HQ0n9StEF4N6akKVM/z2jeMjQWf560scda64+5ymdwnBsHsMb08hfZrEaOOWXKVJOPqg+pxYl5g==";
+        };
     in {
         "Pg2OHsCt" = _Pg2OHsCt;
         "2q5pj1B7" = _2q5pj1B7;
@@ -422,6 +432,8 @@ let
         "oByLFoqy" = _oByLFoqy;
         "Rso1z4Mj" = _Rso1z4Mj;
         "7cQsyOVR" = _7cQsyOVR;
+        "wOJZ6HoV" = _wOJZ6HoV;
+        "FHmAyktg" = _FHmAyktg;
         "forge-1.20.1" = _kMmavFVY;
         "forge-1.20.2" = _9LwPmWGn;
         "neoforge-1.20.1" = _kMmavFVY;
@@ -437,8 +449,8 @@ let
         "neoforge-1.21.11" = _GuNTRp3x;
         "neoforge-26.1.2" = _K4uDHMWQ;
         "neoforge-26.2" = _sOFsb6B4;
-        "neoforge-26.3" = _Rso1z4Mj;
-        "fabric-26.3" = _7cQsyOVR;
+        "neoforge-26.3" = _wOJZ6HoV;
+        "fabric-26.3" = _FHmAyktg;
         "pkg-1.0.0" = _Pg2OHsCt;
         "pkg-1.1.0" = _2q5pj1B7;
         "pkg-1.1.1" = _ceKPCtd3;
@@ -478,7 +490,8 @@ let
         "pkg-1.5.6" = _K4uDHMWQ;
         "pkg-1.5.7" = _oByLFoqy;
         "pkg-1.6.0" = _7cQsyOVR;
-        "default" = _7cQsyOVR;
+        "pkg-1.6.1" = _FHmAyktg;
+        "default" = _FHmAyktg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spice-of-life-onion";

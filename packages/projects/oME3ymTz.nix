@@ -61,6 +61,16 @@ let
             "file" = "playabledragons-1.21.1-3.1.0.jar";
             "hash" = "sha512-Wceze+DYbx/3HrSosNTO3iNbXKgxzMs4lS+s8GuNNrao2teFwyY7aHsOB332CPByjfuuOsEWNIxmds0aTy6Jxg==";
         };
+        _zwl5g8ro = {
+            "id" = "zwl5g8ro";
+            "file" = "playabledragons-1.20.1-3.3.0.jar";
+            "hash" = "sha512-XvcZWqwJB5M05N31Ge4kKUBh0cIIU8DkCCYZqJYeqleLew+9TiI7PAK4S01naq8Xl3H34yno8XZ+7Pr35fc56g==";
+        };
+        _sWGBklYs = {
+            "id" = "sWGBklYs";
+            "file" = "playabledragons-1.21.1-3.3.0.jar";
+            "hash" = "sha512-QMkmSS8bHgdZJBuCQoPa2yQzLp1SO9gK3KuXvQ8RfO1Mbj9sTv/98FFexFhy6ug6xAVcZAdZrJSbYvH2hcrdcg==";
+        };
     in {
         "OPVLX7cV" = _OPVLX7cV;
         "SJ9G4jVS" = _SJ9G4jVS;
@@ -74,13 +84,15 @@ let
         "LcInMXKJ" = _LcInMXKJ;
         "I0HnyFmF" = _I0HnyFmF;
         "kISpSedS" = _kISpSedS;
-        "forge-1.20.1" = _I0HnyFmF;
-        "forge-1.20.6" = _I0HnyFmF;
-        "forge-1.20.5" = _I0HnyFmF;
-        "forge-1.20.4" = _I0HnyFmF;
-        "forge-1.20.3" = _I0HnyFmF;
-        "forge-1.20.2" = _I0HnyFmF;
-        "neoforge-1.21.1" = _kISpSedS;
+        "zwl5g8ro" = _zwl5g8ro;
+        "sWGBklYs" = _sWGBklYs;
+        "forge-1.20.1" = _zwl5g8ro;
+        "forge-1.20.6" = _zwl5g8ro;
+        "forge-1.20.5" = _zwl5g8ro;
+        "forge-1.20.4" = _zwl5g8ro;
+        "forge-1.20.3" = _zwl5g8ro;
+        "forge-1.20.2" = _zwl5g8ro;
+        "neoforge-1.21.1" = _sWGBklYs;
         "pkg-0.7.1" = _OPVLX7cV;
         "pkg-0.7.3" = _SJ9G4jVS;
         "pkg-0.11.0" = _pKRi6WQE;
@@ -92,7 +104,8 @@ let
         "pkg-2.13.0" = _LPAqzVVR;
         "pkg-3.0.0" = _I0HnyFmF;
         "pkg-3.1.0" = _kISpSedS;
-        "default" = _kISpSedS;
+        "pkg-3.3.0" = _sWGBklYs;
+        "default" = _sWGBklYs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bodplayabledragons";

@@ -461,6 +461,21 @@ let
             "file" = "roostultimate_1.21.1-4.2.3b.jar";
             "hash" = "sha512-CUbAUd1EuefM23IE6u4L4vGo2trj3/ugYeBeANxnyZrsOVhkUWc8kHQPcDyjl9ASd01eh9/adYOq8ZEZlVyFkg==";
         };
+        _2oQ4UNyy = {
+            "id" = "2oQ4UNyy";
+            "file" = "roostultimate_26.1.2-4.2.3b.jar";
+            "hash" = "sha512-EZ5nLkYdK1JvmBnQGE6i94DxoFTcjRCPTi3iikwHxgCGxMxSGJZZo5D9ZUFTG+b1iqOBHllscxdR9K2j0V961Q==";
+        };
+        _lH6rwz3p = {
+            "id" = "lH6rwz3p";
+            "file" = "roostultimate_26.2-4.2.3b.jar";
+            "hash" = "sha512-SMumgYit706G3aOMZGB7pdlSRbPYfvVCdDVvvGuMI4Hqchnf9Cq+i8ScdxD4rqToBFNT7hIXxYs33YOnvSlqCw==";
+        };
+        _3sT8n7Vx = {
+            "id" = "3sT8n7Vx";
+            "file" = "roostultimate_26.3-4.2.3b.jar";
+            "hash" = "sha512-rlIwVB69G06zcRG8CIscBE4Z7pMpSYFqL5o5c8EXewbnuYDAkyKAkGMGDI4uul46RWixTn6RvQoo9086p5vI8Q==";
+        };
     in {
         "vFzHhBzA" = _vFzHhBzA;
         "WZ8t6g3R" = _WZ8t6g3R;
@@ -554,6 +569,9 @@ let
         "ckFeaGoo" = _ckFeaGoo;
         "bDbcOKsv" = _bDbcOKsv;
         "PF7FL3hb" = _PF7FL3hb;
+        "2oQ4UNyy" = _2oQ4UNyy;
+        "lH6rwz3p" = _lH6rwz3p;
+        "3sT8n7Vx" = _3sT8n7Vx;
         "forge-1.18.2" = _eerg3MaD;
         "forge-1.19" = _cGfgWtKy;
         "forge-1.19.2" = _oGkmlv7F;
@@ -571,6 +589,9 @@ let
         "neoforge-1.21" = _Id8Br7xG;
         "neoforge-1.21.1" = _PF7FL3hb;
         "neoforge-26.1-snapshot-4" = _bDbcOKsv;
+        "neoforge-26.1.2" = _2oQ4UNyy;
+        "neoforge-26.2" = _lH6rwz3p;
+        "neoforge-26.3" = _3sT8n7Vx;
         "pkg-0.2.4" = _vFzHhBzA;
         "pkg-0.2.5" = _WZ8t6g3R;
         "pkg-0.2.6" = _eu3gdNqe;
@@ -647,8 +668,8 @@ let
         "pkg-4.2.2-1.21.1" = _WtJFTpC4;
         "pkg-4.1.1-1.20.1" = _ckFeaGoo;
         "pkg-chicken_roost-26.1-snapshot-4-1" = _bDbcOKsv;
-        "pkg-4.2.3b" = _PF7FL3hb;
-        "default" = _PF7FL3hb;
+        "pkg-4.2.3b" = _3sT8n7Vx;
+        "default" = _3sT8n7Vx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "roostultimate";

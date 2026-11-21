@@ -31,6 +31,11 @@ let
             "file" = "delightful_fares-1.1.2-neoforge-1.21.1.jar";
             "hash" = "sha512-RpCeYbG59vZJbl/H3d49pjIMwX/dt+GBlUIcsLOyjJn+nI11rYS4o2KP5HU4TqOWJdb/QPkYqSlftrCAL+lycg==";
         };
+        _MvrSPN3D = {
+            "id" = "MvrSPN3D";
+            "file" = "delightful_fares-1.1.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-WrPrvpLV/U8O+gjvfkxpihdulft4/91zyHUB5PHn5o3HyEEzY4t5pcgwEJyZ+ETlEH7NiY3mcyM5pQx+1KBV5A==";
+        };
     in {
         "kbJtQbN4" = _kbJtQbN4;
         "2N7kLEo2" = _2N7kLEo2;
@@ -38,14 +43,16 @@ let
         "x0w0WRSU" = _x0w0WRSU;
         "b7DDeNUQ" = _b7DDeNUQ;
         "8F0o6IO9" = _8F0o6IO9;
-        "neoforge-1.21.1" = _8F0o6IO9;
+        "MvrSPN3D" = _MvrSPN3D;
+        "neoforge-1.21.1" = _MvrSPN3D;
         "pkg-1.0.0" = _kbJtQbN4;
         "pkg-1.0.1" = _2N7kLEo2;
         "pkg-1.0.2" = _izfpHcRI;
         "pkg-1.1.0" = _x0w0WRSU;
         "pkg-1.1.1" = _b7DDeNUQ;
         "pkg-1.1.2" = _8F0o6IO9;
-        "default" = _8F0o6IO9;
+        "pkg-1.1.3" = _MvrSPN3D;
+        "default" = _MvrSPN3D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "delightful-fares";

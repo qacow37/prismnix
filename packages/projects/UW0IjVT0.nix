@@ -151,6 +151,11 @@ let
             "file" = "create_biotech-1.21.1-2.0.0-beta.3.jar";
             "hash" = "sha512-DvvzT1XsDlG+xvWk8wzLSvsH/osBeEYK6Ny4JeMn0zC/LI+GIAPBedHd0iQs/xDgnkAI1Uvdso8EZnHb7KKpuQ==";
         };
+        _HwFFLGrz = {
+            "id" = "HwFFLGrz";
+            "file" = "create_biotech-1.21.1-2.0.0.jar";
+            "hash" = "sha512-obcFCKVKM8ocT5HxJbedb6uOz0QcjQ4RcfSKOyZYc/Yj1nQJYgGVFzJnC+Be2beOMuetpK7svdbhJeXbMuShiA==";
+        };
     in {
         "Qq2gSZRC" = _Qq2gSZRC;
         "b8cTREO2" = _b8cTREO2;
@@ -182,8 +187,9 @@ let
         "JC65E9ie" = _JC65E9ie;
         "jwN6zZrY" = _jwN6zZrY;
         "exGZMIgK" = _exGZMIgK;
+        "HwFFLGrz" = _HwFFLGrz;
         "forge-1.20.1" = _2xbUchfU;
-        "neoforge-1.21.1" = _exGZMIgK;
+        "neoforge-1.21.1" = _HwFFLGrz;
         "pkg-0.1.0" = _Qq2gSZRC;
         "pkg-1.0.1" = _b8cTREO2;
         "pkg-1.0.2" = _agibO3N8;
@@ -206,7 +212,8 @@ let
         "pkg-2.0.0-beta.1" = _JC65E9ie;
         "pkg-2.0.0-beta.2" = _jwN6zZrY;
         "pkg-2.0.0-beta.3" = _exGZMIgK;
-        "default" = _exGZMIgK;
+        "pkg-2.0.0" = _HwFFLGrz;
+        "default" = _HwFFLGrz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-biotech";

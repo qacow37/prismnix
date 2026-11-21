@@ -31,6 +31,11 @@ let
             "file" = "kubejs_actuallyadditions-neoforge-1.21.1-0.3.0.jar";
             "hash" = "sha512-A0ZSvRMibxvtllBBcuzy5c9mQqrMGRJdBIVoPrxPw0hq7F9qUQwHnTzW8tgBx7XPsC0+mw9IYjIreqDjhMw6fg==";
         };
+        _v72M03bi = {
+            "id" = "v72M03bi";
+            "file" = "kubejs_actuallyadditions-neoforge-1.21.1-0.4.0.jar";
+            "hash" = "sha512-hsAOK4Ev2QPceAiw56a020s+98cpsKfJpK9y/VarisyFqYUgSv3dCwh+rF8/LnPiYmhOKCXytamKVs9pxPo9cA==";
+        };
     in {
         "P92xjWWM" = _P92xjWWM;
         "bqwfvLFE" = _bqwfvLFE;
@@ -38,14 +43,16 @@ let
         "EMQ0i7SP" = _EMQ0i7SP;
         "EqEXBxBw" = _EqEXBxBw;
         "qzz8Odsy" = _qzz8Odsy;
-        "neoforge-1.21.1" = _qzz8Odsy;
+        "v72M03bi" = _v72M03bi;
+        "neoforge-1.21.1" = _v72M03bi;
         "pkg-1.21.1-0.1.0+neoforge" = _P92xjWWM;
         "pkg-1.21.1-0.2.0+neoforge" = _bqwfvLFE;
         "pkg-1.21.1-0.2.1+neoforge" = _2v4BGW4F;
         "pkg-1.21.1-0.2.2+neoforge" = _EMQ0i7SP;
         "pkg-1.21.1-0.2.3+neoforge" = _EqEXBxBw;
         "pkg-1.21.1-0.3.0+neoforge" = _qzz8Odsy;
-        "default" = _qzz8Odsy;
+        "pkg-1.21.1-0.4.0+neoforge" = _v72M03bi;
+        "default" = _v72M03bi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kubejs-actually-additions";

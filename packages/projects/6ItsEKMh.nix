@@ -381,6 +381,16 @@ let
             "file" = "homesteads-3.0.0-for-fabric-1.21.10.jar";
             "hash" = "sha512-yXooUxbbkebpXqVlXgcdsYsC4VQybgZtQp4RaNfRyj5yq44Jt8oyWJ6Ks6eUZOl1P+WpuGJbpT3a5qnDiWbjUA==";
         };
+        _D2Id3cvT = {
+            "id" = "D2Id3cvT";
+            "file" = "homesteads-3.0.0-for-neoforge-26.1-26.1.1.jar";
+            "hash" = "sha512-ABscAGLBh7u6Q6sbqf+hpCf4t9zJzk9apNsN/Zj1fyVmj/2CtRqqHMXIP7PKSFHz6g+WRpVeBxPK0sjh7vht9A==";
+        };
+        _Z8xtlRqM = {
+            "id" = "Z8xtlRqM";
+            "file" = "homesteads-3.0.0-for-forge-1.18.2.jar";
+            "hash" = "sha512-tSiTC07IpSwZn7SaX6K0ln9Pit/5neNIv+rf1gaxgrlmgSfosK9l6Fl+DCon7DJViflYi6upMaYod8u2z9Mv8A==";
+        };
     in {
         "MGqMdIzV" = _MGqMdIzV;
         "kTr4cdgj" = _kTr4cdgj;
@@ -458,9 +468,11 @@ let
         "nLFuZ8t6" = _nLFuZ8t6;
         "BZkR8xhv" = _BZkR8xhv;
         "DLTSRrRG" = _DLTSRrRG;
+        "D2Id3cvT" = _D2Id3cvT;
+        "Z8xtlRqM" = _Z8xtlRqM;
         "forge-1.20.1" = _TPgdBHFI;
         "forge-1.20.4" = _EgxY8wiZ;
-        "forge-1.18.2" = _BZkR8xhv;
+        "forge-1.18.2" = _Z8xtlRqM;
         "neoforge-1.21.1" = _cLqsoOGy;
         "neoforge-1.21.4" = _LqeE31Tk;
         "neoforge-1.21.5" = _117yiqfJ;
@@ -469,8 +481,8 @@ let
         "neoforge-1.21.9" = _cQe7p5bj;
         "neoforge-1.21.10" = _LcoNDDYr;
         "neoforge-1.21.11" = _IFQeUtwz;
-        "neoforge-26.1" = _etyuzvoy;
-        "neoforge-26.1.1" = _ncqv6cHj;
+        "neoforge-26.1" = _D2Id3cvT;
+        "neoforge-26.1.1" = _D2Id3cvT;
         "neoforge-26.1.2" = _NdD8m8pH;
         "neoforge-26.2" = _4W62gkM4;
         "neoforge-26.3" = _aDqZPFHt;
@@ -500,8 +512,8 @@ let
         "pkg-2.0.1" = _frhpGFWE;
         "pkg-2.0.2" = _f5JC3TEH;
         "pkg-2.0.3" = _nVy350zS;
-        "pkg-3.0.0" = _DLTSRrRG;
-        "default" = _DLTSRrRG;
+        "pkg-3.0.0" = _Z8xtlRqM;
+        "default" = _Z8xtlRqM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "homesteads";

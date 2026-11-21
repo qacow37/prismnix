@@ -326,6 +326,26 @@ let
             "file" = "pop_up_emotes-1.5.6-1.jar";
             "hash" = "sha512-VytE8Rabx486w6v/uFM24LntMvU99kT31onG4eT9l/u1dG0b9fRvT7Yo/BtBf9OMJHudTGTwZVoUBJbl8N5heA==";
         };
+        _9sUq2Dtr = {
+            "id" = "9sUq2Dtr";
+            "file" = "pop_up_emotes-1.5.7.jar";
+            "hash" = "sha512-zdRcmoScqinDL3NwaxMc+GsqvMTlxdPfSI88ik3Ru/DnxjROLmWZ5K4U9FqpuDeDQWzx1e1DyX9jxxvBmTxBJg==";
+        };
+        _BkDuFq6K = {
+            "id" = "BkDuFq6K";
+            "file" = "pop_up_emotes-1.5.7.jar";
+            "hash" = "sha512-obqtuXY/lT+yaJ3xxINTuzumSc0zDmU+wTu2oZ98OQ5snKTg+lQTN4mQ5Hr/iEg5UCHXH8p1WaTxLTw0clzx2A==";
+        };
+        _wwhN9hP2 = {
+            "id" = "wwhN9hP2";
+            "file" = "pop_up_emotes-1.5.7.jar";
+            "hash" = "sha512-PpGsFqKsB5cm0vo4W/oI0GRBIKKPmUndZuWH/ObkUi8/Gino5JW17TeW8er6l4RpuHYiaKaw4WyzsCxc6cbcwQ==";
+        };
+        _54FaYCoe = {
+            "id" = "54FaYCoe";
+            "file" = "pop_up_emotes-1.5.7.jar";
+            "hash" = "sha512-wLExCtVOq2+HLxDeeBpiCY7w3lc3qgSPQdv89H7rGBrkzrwZkU4iPmIyR0emVuFigFlUUENF5b9fDsRe3zs4yg==";
+        };
     in {
         "3IFIi1Zu" = _3IFIi1Zu;
         "XKm4AvPN" = _XKm4AvPN;
@@ -392,19 +412,23 @@ let
         "V5qmT5vo" = _V5qmT5vo;
         "nAE3d00P" = _nAE3d00P;
         "OxfQXYVx" = _OxfQXYVx;
+        "9sUq2Dtr" = _9sUq2Dtr;
+        "BkDuFq6K" = _BkDuFq6K;
+        "wwhN9hP2" = _wwhN9hP2;
+        "54FaYCoe" = _54FaYCoe;
         "forge-1.20.1" = _NKDYUJeG;
         "forge-1.19.2" = _XKm4AvPN;
         "neoforge-1.21.1" = _pEtZp06z;
         "neoforge-1.21.10" = _mmpz2DkC;
         "neoforge-26.3" = _OxfQXYVx;
         "fabric-1.20.1" = _V5qmT5vo;
-        "fabric-1.21.11" = _bIbhV2zo;
+        "fabric-1.21.11" = _9sUq2Dtr;
         "fabric-1.21.8" = _br5AChAX;
-        "fabric-26.1" = _FDA9FAyq;
-        "fabric-26.1.1" = _FDA9FAyq;
-        "fabric-26.1.2" = _FDA9FAyq;
-        "fabric-26.3" = _F3c8iobE;
-        "fabric-26.2" = _iB8EHh3H;
+        "fabric-26.1" = _BkDuFq6K;
+        "fabric-26.1.1" = _BkDuFq6K;
+        "fabric-26.1.2" = _BkDuFq6K;
+        "fabric-26.3" = _54FaYCoe;
+        "fabric-26.2" = _wwhN9hP2;
         "fabric-1.21.1" = _nAE3d00P;
         "pkg-1.2.1" = _DejpusV7;
         "pkg-1.2.2" = _HSejAG0i;
@@ -429,7 +453,8 @@ let
         "pkg-1.5.5" = _jxHlimN9;
         "pkg-1.5.6" = _nAE3d00P;
         "pkg-1.5.6-1" = _OxfQXYVx;
-        "default" = _OxfQXYVx;
+        "pkg-1.5.7" = _54FaYCoe;
+        "default" = _54FaYCoe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pop-up-emotes";

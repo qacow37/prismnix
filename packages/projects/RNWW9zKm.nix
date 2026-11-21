@@ -21,11 +21,17 @@ let
             "file" = "[华仔的voxy汉化]Huazai's_voxy_module_has_been_localized_into_Chinese_0.2.17.zip";
             "hash" = "sha512-U2NTNpZwtNG5W7YBB+d6xu1vGJn7lF85hie3blsGp96G74GZJ1/PyBBgnFiHib+0tHj1ROyAML3p0FBg80dMRQ==";
         };
+        _xMXDv6JC = {
+            "id" = "xMXDv6JC";
+            "file" = "[华仔的voxy汉化]0.2.20.zip";
+            "hash" = "sha512-kJWRhU+SzZ2xPeP/E+PL1QJXw1L8yNEQJwxkepga0NT8jTQJzr8vsJzj+qEXNmFUowVriwYemTi2rnIBWSGOvQ==";
+        };
     in {
         "GeQEl0Zl" = _GeQEl0Zl;
         "O2T4leuS" = _O2T4leuS;
         "PmwtvG1G" = _PmwtvG1G;
         "lczDDAFL" = _lczDDAFL;
+        "xMXDv6JC" = _xMXDv6JC;
         "minecraft-1.21.6" = _GeQEl0Zl;
         "minecraft-1.21.7" = _GeQEl0Zl;
         "minecraft-1.21.8" = _GeQEl0Zl;
@@ -37,10 +43,12 @@ let
         "minecraft-26.1.1" = _PmwtvG1G;
         "minecraft-26.1.2" = _PmwtvG1G;
         "minecraft-26.2" = _lczDDAFL;
+        "minecraft-26.3" = _xMXDv6JC;
         "pkg-1.0" = _O2T4leuS;
         "pkg-0.2.14" = _PmwtvG1G;
         "pkg-0.2.17" = _lczDDAFL;
-        "default" = _lczDDAFL;
+        "pkg-0.2.20" = _xMXDv6JC;
+        "default" = _xMXDv6JC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "voxy-chinese";

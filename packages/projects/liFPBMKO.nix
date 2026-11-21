@@ -166,6 +166,11 @@ let
             "file" = "umas-2.1-neoforge-1.21.1.jar";
             "hash" = "sha512-+azB80dh6Z+WDdx0lgvJJdONVscucgdEcgRNIkzsYFkA3xLV662h8asljx+wdVFGg31YACuKwZxt1J0awsR6sw==";
         };
+        _SL7IvKaR = {
+            "id" = "SL7IvKaR";
+            "file" = "umas-2.1.1-fabric-26.2.jar";
+            "hash" = "sha512-gAWQ5fD7XGT8nkSj8W1UB5znE+v4qZIspf4M3Nb+PrRyYau4/dLP20GhuAkqSyb6r2BZsVJLg/PUOyCgIHqhUQ==";
+        };
     in {
         "DS1bFAyg" = _DS1bFAyg;
         "Q2yVyvdf" = _Q2yVyvdf;
@@ -200,6 +205,7 @@ let
         "r1lKqiYn" = _r1lKqiYn;
         "BEq2Emp1" = _BEq2Emp1;
         "usUg0RML" = _usUg0RML;
+        "SL7IvKaR" = _SL7IvKaR;
         "forge-1.20.1" = _r1lKqiYn;
         "neoforge-1.21.1" = _usUg0RML;
         "neoforge-1.21.8" = _xao3a5y4;
@@ -207,7 +213,7 @@ let
         "neoforge-26.2" = _7LLltQqO;
         "fabric-1.21.8" = _Hys8ZHi7;
         "fabric-26.1.2" = _K5KwlS0l;
-        "fabric-26.2" = _BEq2Emp1;
+        "fabric-26.2" = _SL7IvKaR;
         "pkg-1.1" = _DS1bFAyg;
         "pkg-1.2" = _D2n0FfIE;
         "pkg-1.3" = _XxwEH9K4;
@@ -221,7 +227,8 @@ let
         "pkg-1.9" = _ko35z66A;
         "pkg-2.0" = _tjlfL4gr;
         "pkg-2.1" = _usUg0RML;
-        "default" = _usUg0RML;
+        "pkg-2.1.1" = _SL7IvKaR;
+        "default" = _SL7IvKaR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "umas-luches";

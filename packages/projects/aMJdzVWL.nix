@@ -31,6 +31,11 @@ let
             "file" = "mugging_villagers_mod-1.1.4-forge-1.20.1.jar";
             "hash" = "sha512-da7WUCRxOKvwTBa4wHCd+5pas0BG8BQRrxiZKr6jGkigEGRO5+GmGxJzHb0Jn1x6dOSGjrLqCzQIpN988YNgRw==";
         };
+        _VpGYfBf1 = {
+            "id" = "VpGYfBf1";
+            "file" = "mugging_villager-1.1.5-FORGE-1.20.1.jar";
+            "hash" = "sha512-zEnG2Xl7g9h4VBpUN8RMSEwa+KVpBOHt6nVUXZ3yK1hTEIZtFknjzglkLlZQOzd20b2iONRiUYtwsi8lXCWcxg==";
+        };
     in {
         "u7zlymJH" = _u7zlymJH;
         "F4Zznx4g" = _F4Zznx4g;
@@ -38,14 +43,16 @@ let
         "tBWTBnji" = _tBWTBnji;
         "6GkrR4gD" = _6GkrR4gD;
         "LuxyNUIz" = _LuxyNUIz;
-        "forge-1.20.1" = _LuxyNUIz;
+        "VpGYfBf1" = _VpGYfBf1;
+        "forge-1.20.1" = _VpGYfBf1;
         "pkg-1.0.0" = _u7zlymJH;
         "pkg-1.1.0" = _F4Zznx4g;
         "pkg-1.1.1" = _BhymwrWz;
         "pkg-1.1.2" = _tBWTBnji;
         "pkg-1.1.3" = _6GkrR4gD;
         "pkg-1.1.4" = _LuxyNUIz;
-        "default" = _LuxyNUIz;
+        "pkg-1.1.5" = _VpGYfBf1;
+        "default" = _VpGYfBf1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mugging-villagers";

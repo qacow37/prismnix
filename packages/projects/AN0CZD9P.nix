@@ -171,6 +171,11 @@ let
             "file" = "petrolsparts-1.21.1-1.3.7.jar";
             "hash" = "sha512-wbCpLnSh7SF5ckgPjoPALSv+0H5T2J9Zc7KL0KKLQXEwGeYlHyznYFBn/JOhKYIPle9JU3o8PcFq5q/V8o2RsA==";
         };
+        _SDyiqlIO = {
+            "id" = "SDyiqlIO";
+            "file" = "petrolsparts-1.21.1-1.3.8.jar";
+            "hash" = "sha512-NwVh2I648fa/xuZg6OUlb3ApvE9aALRbO8E6p5wZTWjZsQ+caVYbaPWxeU9zg//si0jpoYfEdMlfjxe0mcKJCg==";
+        };
     in {
         "5svm211e" = _5svm211e;
         "gwisCLCi" = _gwisCLCi;
@@ -206,9 +211,10 @@ let
         "URRCHehv" = _URRCHehv;
         "cV2yWh5S" = _cV2yWh5S;
         "2WrLbZW1" = _2WrLbZW1;
+        "SDyiqlIO" = _SDyiqlIO;
         "forge-1.20.1" = _hCQO8AvZ;
         "neoforge-1.20.1" = _hCQO8AvZ;
-        "neoforge-1.21.1" = _2WrLbZW1;
+        "neoforge-1.21.1" = _SDyiqlIO;
         "pkg-1.20.1-1.0.0" = _5svm211e;
         "pkg-1.20.1-1.0.1" = _gwisCLCi;
         "pkg-1.20.1-1.0.2" = _4HGS58Vk;
@@ -242,7 +248,8 @@ let
         "pkg-1.21.1-1.3.5" = _URRCHehv;
         "pkg-1.21.1-1.3.6" = _cV2yWh5S;
         "pkg-1.21.1-1.3.7" = _2WrLbZW1;
-        "default" = _2WrLbZW1;
+        "pkg-1.21.1-1.3.8" = _SDyiqlIO;
+        "default" = _SDyiqlIO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "petrols-parts";

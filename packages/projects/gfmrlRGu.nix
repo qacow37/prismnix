@@ -41,6 +41,16 @@ let
             "file" = "society-1.22.jar";
             "hash" = "sha512-+EkbqViPX7R7wbaXXDnfc1cI2Q5cS+O4HT1VybUWArhHb1BswoR+9lGvzFz1VRJL17OuEi8QpNeX0VkOvGqVVg==";
         };
+        _mIsUaM1t = {
+            "id" = "mIsUaM1t";
+            "file" = "society-1.23.jar";
+            "hash" = "sha512-G8RJLDNu3Ms34sZhUsun7N0ujdXxhEILdGWPMO/pqjGNzSWBK7WOvEXr+9IllHiSV12CE3RdH3rbTW5Olu+a1g==";
+        };
+        _j6YckAl0 = {
+            "id" = "j6YckAl0";
+            "file" = "society-1.24.jar";
+            "hash" = "sha512-AhD69hMJgMwEE0nDwRXQfH9qNKNS3H7kuktNGmHZpm/t7y10nBL45oaMpmqQD6uxM52BVxqFRG5gXhQgMmF2Yw==";
+        };
     in {
         "E18qPV8r" = _E18qPV8r;
         "oBQjw8PM" = _oBQjw8PM;
@@ -50,7 +60,9 @@ let
         "IQfJxtz2" = _IQfJxtz2;
         "p4qweMuk" = _p4qweMuk;
         "U0rmaRrS" = _U0rmaRrS;
-        "forge-1.20.1" = _U0rmaRrS;
+        "mIsUaM1t" = _mIsUaM1t;
+        "j6YckAl0" = _j6YckAl0;
+        "forge-1.20.1" = _j6YckAl0;
         "pkg-1.12" = _E18qPV8r;
         "pkg-1.13" = _oBQjw8PM;
         "pkg-1.16" = _cCZf2OMD;
@@ -59,7 +71,9 @@ let
         "pkg-1.20" = _IQfJxtz2;
         "pkg-1.21" = _p4qweMuk;
         "pkg-1.22" = _U0rmaRrS;
-        "default" = _U0rmaRrS;
+        "pkg-1.23" = _mIsUaM1t;
+        "pkg-1.24" = _j6YckAl0;
+        "default" = _j6YckAl0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "society-tweaks";

@@ -66,6 +66,21 @@ let
             "file" = "medievalweapons-1.7.0.jar";
             "hash" = "sha512-T1UC3NGCfus8mUi2if/RoduqV1p5y4oUAvifTFmj74A+sdTPnjG/BZmxDLRJfGjxxo6ChAnTEO/is+wRMkewfQ==";
         };
+        _RaOJ9cFf = {
+            "id" = "RaOJ9cFf";
+            "file" = "medievalweapons-1.7.1.jar";
+            "hash" = "sha512-exrK4/E3ltyfRlItBmGYUJmMOOyAmod6wuWqb1scTv7CfDVQluS3Vobtd5jNScRwp0zftoAXQ0vBo4cVdYDMKg==";
+        };
+        _oNOuTslW = {
+            "id" = "oNOuTslW";
+            "file" = "medievalweapons-fabric-1.8.0+26.3.jar";
+            "hash" = "sha512-2V34OBfdJQnPa4LRZjWmK/mqlF2rwETizk8shxZH/cFiCyBIxVsa18PdGU2oUgZUJpqTuORQVKdD/ufCs9qdxg==";
+        };
+        _hXTM5WB5 = {
+            "id" = "hXTM5WB5";
+            "file" = "medievalweapons-neoforge-1.8.0+26.3.jar";
+            "hash" = "sha512-8VbfM7NJec5vzxjAukrV4dxYyGh55oxGhEcL5P0hyNH0ysXyt4GH0TIjwrGcWAhjWD2M9spWhC2aK3Cf8Ne4KQ==";
+        };
     in {
         "50v50qQk" = _50v50qQk;
         "w6bZUlwr" = _w6bZUlwr;
@@ -80,11 +95,16 @@ let
         "R9EDRFiI" = _R9EDRFiI;
         "fMIp8vXf" = _fMIp8vXf;
         "skPhfmih" = _skPhfmih;
+        "RaOJ9cFf" = _RaOJ9cFf;
+        "oNOuTslW" = _oNOuTslW;
+        "hXTM5WB5" = _hXTM5WB5;
         "fabric-1.19.2" = _w6bZUlwr;
         "fabric-1.20" = _L4yl1UZU;
         "fabric-1.20.1" = _WP327lEb;
         "fabric-1.21" = _XxcHBGML;
-        "fabric-1.21.1" = _skPhfmih;
+        "fabric-1.21.1" = _RaOJ9cFf;
+        "fabric-26.3" = _oNOuTslW;
+        "neoforge-26.3" = _hXTM5WB5;
         "pkg-1.4.4" = _50v50qQk;
         "pkg-1.4.5+1.19.2" = _w6bZUlwr;
         "pkg-1.4.5+1.20" = _L4yl1UZU;
@@ -98,7 +118,10 @@ let
         "pkg-1.5.1+1.21.1" = _R9EDRFiI;
         "pkg-1.6.1+1.21.1" = _fMIp8vXf;
         "pkg-1.7.0+1.21.1" = _skPhfmih;
-        "default" = _skPhfmih;
+        "pkg-1.7.1+1.21.1" = _RaOJ9cFf;
+        "pkg-1.8.0+26.3-fabric" = _oNOuTslW;
+        "pkg-1.8.0+26.3-neoforge" = _hXTM5WB5;
+        "default" = _hXTM5WB5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "medievalweapons";

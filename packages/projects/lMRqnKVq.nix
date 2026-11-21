@@ -521,6 +521,21 @@ let
             "file" = "PickableVillagers-fabric-26.3.jar";
             "hash" = "sha512-+ji/J/kPYhU4+dE9ZMps03EB5nTvW7QOC1qpLxv3EaeQfrqiwFhqYviRRrHxVjpJtzPva9PytTKhGoGVNdthLA==";
         };
+        _ifnUtVzj = {
+            "id" = "ifnUtVzj";
+            "file" = "PickableVillagers-fabric-26.1.2.1.jar";
+            "hash" = "sha512-d6nzND/D8N4Mti6zMDdyz+H0DSVkQp1dYuw4dkreMKSele3wHLlYNUzhE+55IU1xc3vdpou+aYlWifRquPlM1Q==";
+        };
+        _QOfYNjxk = {
+            "id" = "QOfYNjxk";
+            "file" = "PickableVillagers-fabric-26.2.1.jar";
+            "hash" = "sha512-BUTeiJmF1/wC36kln6KlKNRwYzscS7CTGe+sQzy/z4qUd8weFDjMQ5/iNwT8sAdLHY1Z+WCBdsXq7WNfwA5nLg==";
+        };
+        _sbAV2oPt = {
+            "id" = "sbAV2oPt";
+            "file" = "PickableVillagers-fabric-26.3.1.jar";
+            "hash" = "sha512-p6OlZXlmxkNO/HZG29Da0nAzxx+avENzYZkPp9LrJ4DISjas/ZLUN5uGHGaq4gIkfFP2gQnSGdFv38inJ+vpXg==";
+        };
     in {
         "FQMrJOdS" = _FQMrJOdS;
         "cKSCGEPv" = _cKSCGEPv;
@@ -626,6 +641,9 @@ let
         "AB5KMxci" = _AB5KMxci;
         "EqayxVQk" = _EqayxVQk;
         "VZ59pEBJ" = _VZ59pEBJ;
+        "ifnUtVzj" = _ifnUtVzj;
+        "QOfYNjxk" = _QOfYNjxk;
+        "sbAV2oPt" = _sbAV2oPt;
         "fabric-1.16.5" = _Oy3bUap3;
         "fabric-1.17.1" = _C5MmUNDM;
         "fabric-1.18.2" = _YgfTeMqf;
@@ -645,9 +663,9 @@ let
         "fabric-1.21.5" = _epyktkJx;
         "fabric-1.21.6" = _x7FtSFo1;
         "fabric-1.21.7" = _x7FtSFo1;
-        "fabric-26.1.2" = _AB5KMxci;
-        "fabric-26.2" = _EqayxVQk;
-        "fabric-26.3" = _VZ59pEBJ;
+        "fabric-26.1.2" = _ifnUtVzj;
+        "fabric-26.2" = _QOfYNjxk;
+        "fabric-26.3" = _sbAV2oPt;
         "pkg-1.0.5+1.16.5" = _FQMrJOdS;
         "pkg-1.1.4+1.17.1" = _cKSCGEPv;
         "pkg-1.2.4+1.18.2" = _4WiB5Rs4;
@@ -702,7 +720,10 @@ let
         "pkg-26.1.2" = _AB5KMxci;
         "pkg-26.2" = _EqayxVQk;
         "pkg-26.3" = _VZ59pEBJ;
-        "default" = _VZ59pEBJ;
+        "pkg-26.1.2.1" = _ifnUtVzj;
+        "pkg-26.2.1" = _QOfYNjxk;
+        "pkg-26.3.1" = _sbAV2oPt;
+        "default" = _sbAV2oPt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pickable-villagers";

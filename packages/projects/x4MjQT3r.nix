@@ -131,6 +131,16 @@ let
             "file" = "discoveria-5.0.0d.jar";
             "hash" = "sha512-KS4yiQBbA8rDaQ0RaYlBy9ymrnTI7FmUcHjd6qSDjvsabE8L99x4lIQauAGI1sLxuow+45PlQAC9Bi8WEVZoVA==";
         };
+        _Ku6R74sk = {
+            "id" = "Ku6R74sk";
+            "file" = "discoveria5_0_0.26.3.zip";
+            "hash" = "sha512-xl/gpu+OUKDVzJiSX4+WPSr+ycowmD4BLo9wBFSPgtjzuM/HFRPRnHzdA/4m+I9p/qjtr3Bh3QHCpSx3i8nqvg==";
+        };
+        _ui7qcHX5 = {
+            "id" = "ui7qcHX5";
+            "file" = "discoveria-5.0.0.jar";
+            "hash" = "sha512-RwHXz+gduX/qhl7g+poS3frtFkzfvkisvKeOjruTlSPGyZleDzVCb/gNki37lg8JQ89MEynd3WqKHMRIc9k6Nw==";
+        };
     in {
         "RFMfrUjc" = _RFMfrUjc;
         "M8UBPkGk" = _M8UBPkGk;
@@ -158,6 +168,8 @@ let
         "virqYaFD" = _virqYaFD;
         "d4o29dyx" = _d4o29dyx;
         "bed68Z7K" = _bed68Z7K;
+        "Ku6R74sk" = _Ku6R74sk;
+        "ui7qcHX5" = _ui7qcHX5;
         "datapack-1.20.1" = _PWPlMf8Z;
         "datapack-1.20.2" = _PWPlMf8Z;
         "datapack-1.20.3" = _PWPlMf8Z;
@@ -177,7 +189,7 @@ let
         "datapack-26.1.1" = _d4o29dyx;
         "datapack-26.1.2" = _d4o29dyx;
         "datapack-26.2" = _d4o29dyx;
-        "datapack-26.3" = _WpvGzlvB;
+        "datapack-26.3" = _Ku6R74sk;
         "fabric-1.20.1" = _Fm3PgljJ;
         "fabric-1.20.2" = _Fm3PgljJ;
         "fabric-1.20.3" = _Fm3PgljJ;
@@ -197,7 +209,7 @@ let
         "fabric-26.1.1" = _bed68Z7K;
         "fabric-26.1.2" = _bed68Z7K;
         "fabric-26.2" = _bed68Z7K;
-        "fabric-26.3" = _virqYaFD;
+        "fabric-26.3" = _ui7qcHX5;
         "forge-1.20.1" = _Fm3PgljJ;
         "forge-1.20.2" = _Fm3PgljJ;
         "forge-1.20.3" = _Fm3PgljJ;
@@ -217,7 +229,7 @@ let
         "forge-26.1.1" = _bed68Z7K;
         "forge-26.1.2" = _bed68Z7K;
         "forge-26.2" = _bed68Z7K;
-        "forge-26.3" = _virqYaFD;
+        "forge-26.3" = _ui7qcHX5;
         "neoforge-1.20.1" = _vofBupZ7;
         "neoforge-1.20.2" = _vofBupZ7;
         "neoforge-1.20.3" = _vofBupZ7;
@@ -237,7 +249,7 @@ let
         "neoforge-26.1.1" = _bed68Z7K;
         "neoforge-26.1.2" = _bed68Z7K;
         "neoforge-26.2" = _bed68Z7K;
-        "neoforge-26.3" = _virqYaFD;
+        "neoforge-26.3" = _ui7qcHX5;
         "quilt-1.20.1" = _Fm3PgljJ;
         "quilt-1.20.2" = _Fm3PgljJ;
         "quilt-1.20.3" = _Fm3PgljJ;
@@ -257,7 +269,7 @@ let
         "quilt-26.1.1" = _bed68Z7K;
         "quilt-26.1.2" = _bed68Z7K;
         "quilt-26.2" = _bed68Z7K;
-        "quilt-26.3" = _virqYaFD;
+        "quilt-26.3" = _ui7qcHX5;
         "pkg-1.0.2" = _M8UBPkGk;
         "pkg-1.0.3" = _zguDhixw;
         "pkg-1.0.4" = _JeGbpbZl;
@@ -279,8 +291,9 @@ let
         "pkg-26.3d" = _WpvGzlvB;
         "pkg-26.3m" = _virqYaFD;
         "pkg-5.0.0d" = _d4o29dyx;
-        "pkg-5.0.0m" = _bed68Z7K;
-        "default" = _bed68Z7K;
+        "pkg-5.0.0m" = _ui7qcHX5;
+        "pkg-5.0.0" = _Ku6R74sk;
+        "default" = _ui7qcHX5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "discoveria";

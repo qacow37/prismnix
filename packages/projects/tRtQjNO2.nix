@@ -71,6 +71,41 @@ let
             "file" = "Arda's Uncrafting Table 1.4 [FABRIC] [26.3].jar";
             "hash" = "sha512-xGmKjWcw9LXMIxM08als1lamjtlpvK71XceO4MhsUFTp2rM+iaa3hNp9fgK7Li2RwHx09nkR1MeR65gyu9Hptg==";
         };
+        _sey4TO9K = {
+            "id" = "sey4TO9K";
+            "file" = "Arda's Uncrafting Table 1.4 [FABRIC] [26.2].jar";
+            "hash" = "sha512-AJWW3AIL+ItIxwnpIndx9oaAKfnJxpcujEqVOYoqhHim754X/uPCFIK1Vgdw9vrJ8WCNl8AS6yS+A6oh6o8eyQ==";
+        };
+        _U6DI2Z4m = {
+            "id" = "U6DI2Z4m";
+            "file" = "Arda's Uncrafting Table 1.4 [FABRIC] [26.1.x].jar";
+            "hash" = "sha512-ZtT0QBnBGtvR2sS6II3tesemsVomRXts/BZEuYXzjUSIxaZZbiqPQ8oWzYqbHcaQRJuFie/llV4a+wVgS2AAhA==";
+        };
+        _ku1NnCbb = {
+            "id" = "ku1NnCbb";
+            "file" = "Arda's Uncrafting Table 1.4 [FABRIC] [1.21.11].jar";
+            "hash" = "sha512-YUHDW44BghGu4wXgfskPGDlTssGtqDuUCIushaHCHQfn34Td+1gDr8pKlUynxSt7oSRuJK2A7mT+tLLnr9G+nQ==";
+        };
+        _w8rVpdrx = {
+            "id" = "w8rVpdrx";
+            "file" = "Arda's Uncrafting Table 1.4 [FABRIC] [1.21.1].jar";
+            "hash" = "sha512-+JbDzEkWW9ZWWnCZMTDrcOlZSSS8YzUDzY8P1ayS1/cNjZFC8UMPTVpdyUmdpKL64CVOS+/sD1mwg/D6TJqARQ==";
+        };
+        _tV5M67NJ = {
+            "id" = "tV5M67NJ";
+            "file" = "Arda's Uncrafting Table 1.4_1 [FABRIC] [1.21.1].jar";
+            "hash" = "sha512-giqgHBuZT1XkAyR0y0CpM0WyAQGWDYbkwIw3o645jAuN7eXUl1DkDAvkRBTLg2UP7vLrKr7TUBYl1eBoCbMP4Q==";
+        };
+        _OqSelpjy = {
+            "id" = "OqSelpjy";
+            "file" = "Arda's Uncrafting Table 1.4 [NEOFORGE] [1.21.1].jar";
+            "hash" = "sha512-fy0PwnA1zJxWwPTSEx+yLw++jQ8M8nvv5FKK1tJx0GobE72g6HQ0qgpIX/tVl5NtYCFLkjqBZoUbZqaTM9ANFw==";
+        };
+        _Yk8AdYe5 = {
+            "id" = "Yk8AdYe5";
+            "file" = "Arda's Uncrafting Table 1.4 [FORGE] [1.21.1].jar";
+            "hash" = "sha512-lH7ddJUPUj2/FGV7zlYniPMPN7o/0ynys+jgnQ0DndcH0+U9R/GJufzm4oM0b/rEAZbvN0JHhq3VPENw7J8Q5Q==";
+        };
     in {
         "Jc12IMVW" = _Jc12IMVW;
         "IVi7o3Xt" = _IVi7o3Xt;
@@ -86,20 +121,41 @@ let
         "qznOkERs" = _qznOkERs;
         "k8xfRAU9" = _k8xfRAU9;
         "CpjHIsuJ" = _CpjHIsuJ;
-        "neoforge-1.21.1" = _QV8f5nvc;
+        "sey4TO9K" = _sey4TO9K;
+        "U6DI2Z4m" = _U6DI2Z4m;
+        "ku1NnCbb" = _ku1NnCbb;
+        "w8rVpdrx" = _w8rVpdrx;
+        "tV5M67NJ" = _tV5M67NJ;
+        "OqSelpjy" = _OqSelpjy;
+        "Yk8AdYe5" = _Yk8AdYe5;
+        "neoforge-1.21.1" = _OqSelpjy;
         "forge-1.20.1" = _qznOkERs;
         "forge-1.16.5" = _Hsap4F6m;
         "forge-1.12.2" = _k3CSQFL4;
         "forge-1.7.10" = _k8xfRAU9;
+        "forge-1.21.1" = _Yk8AdYe5;
         "fabric-1.20.1" = _90KR5JIv;
         "fabric-26.3" = _CpjHIsuJ;
+        "fabric-26.2" = _sey4TO9K;
+        "fabric-26.1.2" = _U6DI2Z4m;
+        "fabric-26.1.1" = _U6DI2Z4m;
+        "fabric-26.1" = _U6DI2Z4m;
+        "fabric-1.21.11" = _ku1NnCbb;
+        "fabric-1.21.1" = _tV5M67NJ;
         "babric-b1.7.3" = _TpTTwcEX;
+        "quilt-26.2" = _sey4TO9K;
+        "quilt-26.1.2" = _U6DI2Z4m;
+        "quilt-26.1.1" = _U6DI2Z4m;
+        "quilt-26.1" = _U6DI2Z4m;
+        "quilt-1.21.11" = _ku1NnCbb;
+        "quilt-1.21.1" = _tV5M67NJ;
         "pkg-1.0" = _90KR5JIv;
         "pkg-1.1" = _Hsap4F6m;
         "pkg-1.2" = _uyFh9nVP;
         "pkg-1.3" = _k8xfRAU9;
-        "pkg-1.4" = _CpjHIsuJ;
-        "default" = _CpjHIsuJ;
+        "pkg-1.4" = _Yk8AdYe5;
+        "pkg-1.4_1" = _tV5M67NJ;
+        "default" = _Yk8AdYe5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ardas-uncrafting-table";

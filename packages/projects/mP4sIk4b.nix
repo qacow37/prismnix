@@ -51,6 +51,11 @@ let
             "file" = "keychain-4.1.0-universal.jar";
             "hash" = "sha512-Tv812hVMl2zFVg7HyVX0bLkJK3UOJL3SBw234DCrQzZM0e9qPNqSjXraRSjzklwy82QY3PGlxsUDHwoHrbmnpQ==";
         };
+        _XuZ91vZi = {
+            "id" = "XuZ91vZi";
+            "file" = "keychain-4.2.0-universal.jar";
+            "hash" = "sha512-iDguCZHqVmA2FPuilp7yRg9SyPBFtsVrW0ys9HlJrtxR5uNDKDji8pWVVyp0xi4L3cSmWvzKqMni4p6enLeLOQ==";
+        };
     in {
         "YWn6TkOt" = _YWn6TkOt;
         "GituX4KR" = _GituX4KR;
@@ -62,12 +67,13 @@ let
         "kV8qoF3t" = _kV8qoF3t;
         "e7sut6gR" = _e7sut6gR;
         "YX6ttGcJ" = _YX6ttGcJ;
-        "fabric-26.1" = _YX6ttGcJ;
-        "fabric-26.1.1" = _YX6ttGcJ;
-        "fabric-26.1.2" = _YX6ttGcJ;
-        "fabric-26.2" = _YX6ttGcJ;
-        "fabric-26.3" = _YX6ttGcJ;
-        "fabric-1.21.11" = _YX6ttGcJ;
+        "XuZ91vZi" = _XuZ91vZi;
+        "fabric-26.1" = _XuZ91vZi;
+        "fabric-26.1.1" = _XuZ91vZi;
+        "fabric-26.1.2" = _XuZ91vZi;
+        "fabric-26.2" = _XuZ91vZi;
+        "fabric-26.3" = _XuZ91vZi;
+        "fabric-1.21.11" = _XuZ91vZi;
         "pkg-1.0.0" = _YWn6TkOt;
         "pkg-1.5.0" = _GituX4KR;
         "pkg-1.6.0" = _P10KYQiK;
@@ -75,7 +81,8 @@ let
         "pkg-3.0" = _kV8qoF3t;
         "pkg-4.0.1" = _e7sut6gR;
         "pkg-4.1.0" = _YX6ttGcJ;
-        "default" = _YX6ttGcJ;
+        "pkg-4.2.0" = _XuZ91vZi;
+        "default" = _XuZ91vZi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "keychain";

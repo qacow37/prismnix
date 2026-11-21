@@ -221,6 +221,11 @@ let
             "file" = "Kilt-21.1.20.jar";
             "hash" = "sha512-gSE6mfPQYZy5IDmtBp/ZeGhotBxPn0umvP19FBhE5d93Bslbur1YgX/ngwuBNLwu5oLXNMRp+Hbz+g5BEh6Blg==";
         };
+        _TB4HW9dR = {
+            "id" = "TB4HW9dR";
+            "file" = "Kilt-21.1.21.jar";
+            "hash" = "sha512-aRA29Yr/Mfyu8IKmPd8ahW45Vmv00p2esohf9333pDd/M0ZbKmJGif1z3reG2uIasFgn+TtP2Ng2MFLbsm50Ew==";
+        };
     in {
         "EZSdSRAL" = _EZSdSRAL;
         "OacGiohQ" = _OacGiohQ;
@@ -266,8 +271,9 @@ let
         "VPSWBxqv" = _VPSWBxqv;
         "tktUNUKP" = _tktUNUKP;
         "unVR0slf" = _unVR0slf;
+        "TB4HW9dR" = _TB4HW9dR;
         "fabric-1.20.1" = _tktUNUKP;
-        "fabric-1.21.1" = _unVR0slf;
+        "fabric-1.21.1" = _TB4HW9dR;
         "pkg-20.1.0" = _EZSdSRAL;
         "pkg-20.1.1" = _OacGiohQ;
         "pkg-20.1.2" = _jTHxuZMV;
@@ -312,7 +318,8 @@ let
         "pkg-21.1.19" = _VPSWBxqv;
         "pkg-20.1.23" = _tktUNUKP;
         "pkg-21.1.20" = _unVR0slf;
-        "default" = _unVR0slf;
+        "pkg-21.1.21" = _TB4HW9dR;
+        "default" = _TB4HW9dR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kilt";

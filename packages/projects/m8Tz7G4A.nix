@@ -86,6 +86,11 @@ let
             "file" = "terracliff-2.0.1-26.3-neo.jar";
             "hash" = "sha512-AMw9PTsM/4KMobafwU3fdYRJFfUxSi79V+w2weXIq/xbteWpRU/zcRIAe2TAF6WA9tJHYxEW5waaKaSjZGY8KA==";
         };
+        _h77KQeDR = {
+            "id" = "h77KQeDR";
+            "file" = "terracliff-2.0.1-26.3-fab.jar";
+            "hash" = "sha512-scHPUUQwqnCZVTwgbpu0IVqbRXrEE9TF3n+KCblBpZR+76U5TKG1lSaWJovMCO6fOXqxjl670bynC3uO/oOJ3Q==";
+        };
     in {
         "aWTY6a9h" = _aWTY6a9h;
         "3yuT8B6A" = _3yuT8B6A;
@@ -104,6 +109,7 @@ let
         "rQz66cic" = _rQz66cic;
         "RKvNZjXg" = _RKvNZjXg;
         "BcQBTGlp" = _BcQBTGlp;
+        "h77KQeDR" = _h77KQeDR;
         "neoforge-1.21.11" = _ne9MOEsM;
         "neoforge-1.20.1" = _sO1sqAeZ;
         "neoforge-1.21.1" = _RKvNZjXg;
@@ -117,10 +123,11 @@ let
         "fabric-1.21.11" = _T6R7x5bf;
         "fabric-26.1.2" = _wiw7a6l7;
         "fabric-26.2" = _2wP6WpPV;
+        "fabric-26.3" = _h77KQeDR;
         "pkg-1.0.0" = _fTNbZoCa;
         "pkg-2.0.0" = _n5GglPpx;
-        "pkg-2.0.1" = _BcQBTGlp;
-        "default" = _BcQBTGlp;
+        "pkg-2.0.1" = _h77KQeDR;
+        "default" = _h77KQeDR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "terracliff";

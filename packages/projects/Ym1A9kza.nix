@@ -36,6 +36,11 @@ let
             "file" = "TheTitansNeo-1.21-1.0.8.jar";
             "hash" = "sha512-c4NAaeA7hNWF32XH4scX/szNmYKQavAF0U5rByKcZiKziWvihOEa3+MhwR//2kc26X7hJzOdSk6VaT2e5dqcRg==";
         };
+        _Fe5BEg5T = {
+            "id" = "Fe5BEg5T";
+            "file" = "TheTitansNeo-1.21-1.0.9.jar";
+            "hash" = "sha512-dUg7/9/OJS55t5RajVYLVrGP8iDY2d+Cc0R3WA7NCjjpbWrNcM1al5/tbLyttOhDHkdGwfrYUHp9f1fLzZEOuQ==";
+        };
     in {
         "SwA2xva4" = _SwA2xva4;
         "mQBWrPHs" = _mQBWrPHs;
@@ -44,8 +49,9 @@ let
         "5Mf7Z7oy" = _5Mf7Z7oy;
         "v9n6KRMQ" = _v9n6KRMQ;
         "tOsip2Cz" = _tOsip2Cz;
-        "neoforge-1.21" = _tOsip2Cz;
-        "neoforge-1.21.1" = _tOsip2Cz;
+        "Fe5BEg5T" = _Fe5BEg5T;
+        "neoforge-1.21" = _Fe5BEg5T;
+        "neoforge-1.21.1" = _Fe5BEg5T;
         "pkg-1.0.2" = _SwA2xva4;
         "pkg-1.0.3" = _mQBWrPHs;
         "pkg-1.0.4" = _RP6Ilgmx;
@@ -53,7 +59,8 @@ let
         "pkg-1.0.6" = _5Mf7Z7oy;
         "pkg-1.0.7" = _v9n6KRMQ;
         "pkg-1.0.8" = _tOsip2Cz;
-        "default" = _tOsip2Cz;
+        "pkg-1.0.9" = _Fe5BEg5T;
+        "default" = _Fe5BEg5T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thetitansneo";

@@ -21,17 +21,24 @@ let
             "file" = "vanillaweatherplus-3.0.0.jar";
             "hash" = "sha512-A5w6ZaFGHIqVwSO7aVEdDkcj4jUJkHrILICONPk0mtnSKyFHGdDUsVRr6oWFW5bbzmlyz27Lr8q27ua3jJ7UBQ==";
         };
+        _jVDQrBPr = {
+            "id" = "jVDQrBPr";
+            "file" = "vanillaweatherplus-3.0.1.jar";
+            "hash" = "sha512-0CimxnEuaquA7IevXwTIlX/nOZf9bpm28i+C7do9iyPGPVc6Pyeyeyq2sG7STvHkMt+GBVU8BOHedWU8mgXOhQ==";
+        };
     in {
         "oq9iXxr0" = _oq9iXxr0;
         "JbAmSBRS" = _JbAmSBRS;
         "OmNsQgvp" = _OmNsQgvp;
         "gFJLUoc2" = _gFJLUoc2;
-        "neoforge-1.21.1" = _gFJLUoc2;
+        "jVDQrBPr" = _jVDQrBPr;
+        "neoforge-1.21.1" = _jVDQrBPr;
         "pkg-1.0.0" = _oq9iXxr0;
         "pkg-1.0.1" = _JbAmSBRS;
         "pkg-2.0.0" = _OmNsQgvp;
         "pkg-3.0.0" = _gFJLUoc2;
-        "default" = _gFJLUoc2;
+        "pkg-3.0.1" = _jVDQrBPr;
+        "default" = _jVDQrBPr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-weather-plus";

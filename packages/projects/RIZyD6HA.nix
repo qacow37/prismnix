@@ -36,6 +36,21 @@ let
             "file" = "autoclutch-1.1.0.jar";
             "hash" = "sha512-5ojA3XvlDU0RXQzfpiIEeWnDCKPtwqu873SrEwbgUNuW7/pnr+aWR7vpVoxIKwf5rs7pliUqTvS3m+DL92eKbA==";
         };
+        _U9ZHSaoJ = {
+            "id" = "U9ZHSaoJ";
+            "file" = "autoclutch-1.1.0.jar";
+            "hash" = "sha512-6BSBlUWyNec9aOWK70QcOrr5W9ZKox8zREUZrfXtKbFQ47YUdJb9SgFeG5mNGeRT8+B8Mfrzo3hjqtwxtMfe/A==";
+        };
+        _LxCUI3EY = {
+            "id" = "LxCUI3EY";
+            "file" = "autoclutch-1.1.0.jar";
+            "hash" = "sha512-yTDOVXHeKKCeVzxyVjsFCLkAURDMg0SuiZ//qDdaZuc60P6umyheAYrULvvcFuQAQ/j594soznLGdfH4IyRDiw==";
+        };
+        _9UFIakSn = {
+            "id" = "9UFIakSn";
+            "file" = "autoclutch-1.1.0.jar";
+            "hash" = "sha512-1ri4qI7hKvLJ2MJ6gmEuBwtfiTq/NBVTYf9ebw4l38pKnj83OajITTr8jjSqY8ZmiSE6wmCMPrHV62wjZd5GsQ==";
+        };
     in {
         "7m1AKniq" = _7m1AKniq;
         "cgzy2ZyO" = _cgzy2ZyO;
@@ -44,17 +59,21 @@ let
         "f5lLR2XK" = _f5lLR2XK;
         "5PRl7538" = _5PRl7538;
         "RZWhhnFX" = _RZWhhnFX;
+        "U9ZHSaoJ" = _U9ZHSaoJ;
+        "LxCUI3EY" = _LxCUI3EY;
+        "9UFIakSn" = _9UFIakSn;
         "fabric-1.21.11" = _7m1AKniq;
         "fabric-26.1.2" = _sEQj1HPD;
         "fabric-26.2" = _f5lLR2XK;
-        "fabric-26.3" = _RZWhhnFX;
+        "fabric-26.3" = _9UFIakSn;
+        "quilt-26.3" = _9UFIakSn;
         "pkg-1.0.0" = _cgzy2ZyO;
         "pkg-1.0.2" = _sEQj1HPD;
         "pkg-1.0.3" = _QdLPeig2;
         "pkg-1.0.4" = _f5lLR2XK;
         "pkg-1.0.5" = _5PRl7538;
-        "pkg-1.1.0" = _RZWhhnFX;
-        "default" = _RZWhhnFX;
+        "pkg-1.1.0" = _9UFIakSn;
+        "default" = _9UFIakSn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "automatic-clutch";

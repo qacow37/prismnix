@@ -476,6 +476,11 @@ let
             "file" = "mobbattle-26.3-2.8.2-neoforge.jar";
             "hash" = "sha512-NZFlS/WLaW9H+x/qPdjusxHPG5EJC+4dCK+Tys5l3F4CHvEuiToz/IsJ5efsmI8wWNGR5qUqHZB0VcKxzpanwA==";
         };
+        _T16tejuQ = {
+            "id" = "T16tejuQ";
+            "file" = "mobbattle-26.3-2.8.2.b-neoforge.jar";
+            "hash" = "sha512-tb/Gxg/lsuzYj2DytE1t9Tv0aLb4UspNNTTINlJfoduJUuWtXXM5TflNKfUi5wO2b8bqa5vZXBYPz1JPidxElw==";
+        };
     in {
         "nlJC1nqe" = _nlJC1nqe;
         "9WVMay3J" = _9WVMay3J;
@@ -572,6 +577,7 @@ let
         "3qi47h8a" = _3qi47h8a;
         "GgjYGiuT" = _GgjYGiuT;
         "jLUSgTd2" = _jLUSgTd2;
+        "T16tejuQ" = _T16tejuQ;
         "fabric-1.18.2" = _8jsAYc0l;
         "fabric-1.19.4" = _TzqKG5Mn;
         "fabric-1.20.1" = _JDjglwQu;
@@ -589,7 +595,7 @@ let
         "neoforge-1.21.1" = _LYSelox1;
         "neoforge-1.21.5" = _rSKIryHM;
         "neoforge-26.1.2" = _1AcKwodn;
-        "neoforge-26.3" = _jLUSgTd2;
+        "neoforge-26.3" = _T16tejuQ;
         "pkg-1.18.2-2.4.4" = _9WVMay3J;
         "pkg-1.19.4-2.4.4" = _B18FvddX;
         "pkg-1.20.1-2.4.4" = _YbH5tq3l;
@@ -665,7 +671,8 @@ let
         "pkg-26.3-2.8.1-neoforge" = _3qi47h8a;
         "pkg-26.3-2.8.2-fabric" = _GgjYGiuT;
         "pkg-26.3-2.8.2-neoforge" = _jLUSgTd2;
-        "default" = _jLUSgTd2;
+        "pkg-26.3-2.8.2.b-neoforge" = _T16tejuQ;
+        "default" = _T16tejuQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mob-battle-mod";

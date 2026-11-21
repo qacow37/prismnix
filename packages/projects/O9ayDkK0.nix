@@ -381,6 +381,16 @@ let
             "file" = "ohmymeteors-1.6.0+26.3+neo.jar";
             "hash" = "sha512-1zssUDqorTEw1547dT0TaQ/sxYc/3+HLF2Avhr0mW2N6tJS61NdHHsgCA4x3GjNhEs+4N0zANQNsmcLiVIZkCA==";
         };
+        _omxw8WO4 = {
+            "id" = "omxw8WO4";
+            "file" = "ohmymeteors-1.6.1+1.21.jar";
+            "hash" = "sha512-qWBRQ/mOAtqunBPGOR3omBCCBqEbJJhTZcu5u1dA6GK35XmN7rTyp+HGeQ32PTa5b3xz4RtxPIsr0/BZF83j0g==";
+        };
+        _6BH6fApu = {
+            "id" = "6BH6fApu";
+            "file" = "ohmymeteors-1.6.1+1.21+neo.jar";
+            "hash" = "sha512-2wqQYxXcqcMy6ssvRDi6Srwlm4uNArYG0AY18zTBxUC8E2fLuqoP7HPx7XmnYjtS2oFlcI7owAVDAvhzs0JKYw==";
+        };
     in {
         "btx5bgpQ" = _btx5bgpQ;
         "pVzyF60M" = _pVzyF60M;
@@ -458,8 +468,10 @@ let
         "6vnnPEn5" = _6vnnPEn5;
         "fiFbpy4K" = _fiFbpy4K;
         "JDW592Di" = _JDW592Di;
-        "fabric-1.21" = _gaTUqPy5;
-        "fabric-1.21.1" = _gaTUqPy5;
+        "omxw8WO4" = _omxw8WO4;
+        "6BH6fApu" = _6BH6fApu;
+        "fabric-1.21" = _omxw8WO4;
+        "fabric-1.21.1" = _omxw8WO4;
         "fabric-1.19.2" = _MiwAugtN;
         "fabric-1.20" = _IhB3OhX3;
         "fabric-1.20.1" = _IhB3OhX3;
@@ -478,8 +490,8 @@ let
         "fabric-26.1.2" = _KDLlSZ1p;
         "fabric-26.2" = _VBdAJ9F2;
         "fabric-26.3" = _fiFbpy4K;
-        "quilt-1.21" = _gaTUqPy5;
-        "quilt-1.21.1" = _gaTUqPy5;
+        "quilt-1.21" = _omxw8WO4;
+        "quilt-1.21.1" = _omxw8WO4;
         "quilt-1.19.2" = _MiwAugtN;
         "quilt-1.20" = _IhB3OhX3;
         "quilt-1.20.1" = _IhB3OhX3;
@@ -498,8 +510,8 @@ let
         "quilt-26.1.2" = _KDLlSZ1p;
         "quilt-26.2" = _VBdAJ9F2;
         "quilt-26.3" = _fiFbpy4K;
-        "neoforge-1.21" = _FepoHPcl;
-        "neoforge-1.21.1" = _FepoHPcl;
+        "neoforge-1.21" = _6BH6fApu;
+        "neoforge-1.21.1" = _6BH6fApu;
         "neoforge-26.1.2" = _6vnnPEn5;
         "neoforge-26.3" = _JDW592Di;
         "forge-1.20" = _nP4hgCy9;
@@ -573,14 +585,15 @@ let
         "pkg-1.5.0+26.2" = _6Hs9dyeE;
         "pkg-1.5.1+1.19.2" = _MiwAugtN;
         "pkg-1.5.1+26.2" = _VBdAJ9F2;
-        "pkg-1.6.0+1.21" = _gaTUqPy5;
+        "pkg-1.6.0+1.21" = _omxw8WO4;
         "pkg-1.6.0+1.21+neo" = _FepoHPcl;
         "pkg-1.6.0+1.20.1" = _IhB3OhX3;
         "pkg-1.6.0+1.20.1+forge" = _nP4hgCy9;
         "pkg-1.6.0+26.1.2+neo" = _6vnnPEn5;
         "pkg-1.6.0+26.3" = _fiFbpy4K;
         "pkg-1.6.0+26.3+neo" = _JDW592Di;
-        "default" = _JDW592Di;
+        "pkg-1.6.1+1.21+neo" = _6BH6fApu;
+        "default" = _6BH6fApu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ohmymeteors";

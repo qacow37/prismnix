@@ -1751,6 +1751,11 @@ let
             "file" = "variantsandventures-forge-1.0.30+mc1.20.1.jar";
             "hash" = "sha512-r0V8YJqq8lNdOXwkn7Y2fYsSdUyahlZVUCA1jCRHgSFuDPlVvZit3+Kxi+REtjV7Lb17/r3vsu2PnCJoJa17gg==";
         };
+        _TK95chAq = {
+            "id" = "TK95chAq";
+            "file" = "variantsandventures-fabric-1.0.30+mc26.1.2.jar";
+            "hash" = "sha512-04FXbsx6vGaJhGftWVY3Ki4odzBRy/g3gHcLJ176NK97UrDbISDjbLiu1Id/OPfB72xe/CzbOafEp6bN2mU59w==";
+        };
     in {
         "wS5b6Ce0" = _wS5b6Ce0;
         "9Hq5GJ6U" = _9Hq5GJ6U;
@@ -2102,6 +2107,7 @@ let
         "58Ejl4ig" = _58Ejl4ig;
         "jYJddkqq" = _jYJddkqq;
         "h6KcGFOW" = _h6KcGFOW;
+        "TK95chAq" = _TK95chAq;
         "fabric-1.19.2" = _2NdIvYEz;
         "fabric-1.20.1" = _ViRXbQ66;
         "fabric-1.19.3" = _avW0ykKz;
@@ -2124,9 +2130,9 @@ let
         "fabric-1.21.9" = _lApKtiIT;
         "fabric-1.21.10" = _lApKtiIT;
         "fabric-1.21.11" = _sMHX4zNC;
-        "fabric-26.1" = _HLmQTRry;
-        "fabric-26.1.1" = _HLmQTRry;
-        "fabric-26.1.2" = _HLmQTRry;
+        "fabric-26.1" = _TK95chAq;
+        "fabric-26.1.1" = _TK95chAq;
+        "fabric-26.1.2" = _TK95chAq;
         "fabric-26.2" = _Lols9JA7;
         "fabric-26.3" = _BMRMNfoP;
         "forge-1.19.2" = _ry0g7Xg4;
@@ -2184,9 +2190,9 @@ let
         "quilt-1.21.9" = _lApKtiIT;
         "quilt-1.21.10" = _lApKtiIT;
         "quilt-1.21.11" = _sMHX4zNC;
-        "quilt-26.1" = _HLmQTRry;
-        "quilt-26.1.1" = _HLmQTRry;
-        "quilt-26.1.2" = _HLmQTRry;
+        "quilt-26.1" = _TK95chAq;
+        "quilt-26.1.1" = _TK95chAq;
+        "quilt-26.1.2" = _TK95chAq;
         "quilt-26.2" = _Lols9JA7;
         "quilt-26.3" = _BMRMNfoP;
         "pkg-mc1.19.2-1.0.0" = _wS5b6Ce0;
@@ -2534,7 +2540,8 @@ let
         "pkg-neoforge-1.0.30+mc26.2" = _58Ejl4ig;
         "pkg-neoforge-1.0.30+mc26.3" = _jYJddkqq;
         "pkg-forge-1.0.30+mc1.20.1" = _h6KcGFOW;
-        "default" = _h6KcGFOW;
+        "pkg-fabric-1.0.30+mc26.1.2" = _TK95chAq;
+        "default" = _TK95chAq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "variants-and-ventures";

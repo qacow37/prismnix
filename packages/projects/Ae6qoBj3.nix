@@ -606,6 +606,16 @@ let
             "file" = "frostiful-neoforge-3.1.1+26.1.x.jar";
             "hash" = "sha512-TevtniQ1c3Cog7SqxMISKKV1nco37n73YYfca1eDmYzCE6fSfb80cxQvzSumjK+7cnJ1NlwLS25A21b3R7ZW1A==";
         };
+        _Y4nAvv77 = {
+            "id" = "Y4nAvv77";
+            "file" = "frostiful-neoforge-3.2.0+26.1.x.jar";
+            "hash" = "sha512-REJXgfseli6D9TPXmz/e8B4zqUAZBqQnJ5lBTnkoWHeji13jEiuEhKOOfLtrBJMXxujMyqiQvpnB73WicaqgxQ==";
+        };
+        _HhRGyHP0 = {
+            "id" = "HhRGyHP0";
+            "file" = "frostiful-fabric-3.2.0+26.1.x.jar";
+            "hash" = "sha512-f3ociu62IEHyYoxU8zgZdTNc4zqF5sXDtLYsM5z68dMY9rBVvw7j77Bu+S6y4XrwAqs0s5WMcyGcozNUDyAMMw==";
+        };
     in {
         "8iy3K48a" = _8iy3K48a;
         "aWoprtM0" = _aWoprtM0;
@@ -728,6 +738,8 @@ let
         "1gUzJM1F" = _1gUzJM1F;
         "9XRebZil" = _9XRebZil;
         "91owdSpE" = _91owdSpE;
+        "Y4nAvv77" = _Y4nAvv77;
+        "HhRGyHP0" = _HhRGyHP0;
         "fabric-1.19.2" = _1KyzJTWq;
         "fabric-1.19.4" = _y5dLU5lV;
         "fabric-1.20" = _RjfSgmLe;
@@ -747,9 +759,9 @@ let
         "fabric-1.21.9" = _2lclJ8KS;
         "fabric-1.21.10" = _x3jbmzaa;
         "fabric-1.21.11" = _NNfGXP1O;
-        "fabric-26.1" = _9XRebZil;
-        "fabric-26.1.1" = _9XRebZil;
-        "fabric-26.1.2" = _9XRebZil;
+        "fabric-26.1" = _HhRGyHP0;
+        "fabric-26.1.1" = _HhRGyHP0;
+        "fabric-26.1.2" = _HhRGyHP0;
         "quilt-1.19.2" = _1KyzJTWq;
         "quilt-1.19.4" = _y5dLU5lV;
         "quilt-1.20" = _RjfSgmLe;
@@ -769,13 +781,13 @@ let
         "quilt-1.21.9" = _2lclJ8KS;
         "quilt-1.21.10" = _x3jbmzaa;
         "quilt-1.21.11" = _NNfGXP1O;
-        "quilt-26.1" = _9XRebZil;
-        "quilt-26.1.1" = _9XRebZil;
-        "quilt-26.1.2" = _9XRebZil;
+        "quilt-26.1" = _HhRGyHP0;
+        "quilt-26.1.1" = _HhRGyHP0;
+        "quilt-26.1.2" = _HhRGyHP0;
         "neoforge-1.21.1" = _p6QunhUe;
-        "neoforge-26.1" = _91owdSpE;
-        "neoforge-26.1.1" = _91owdSpE;
-        "neoforge-26.1.2" = _91owdSpE;
+        "neoforge-26.1" = _Y4nAvv77;
+        "neoforge-26.1.1" = _Y4nAvv77;
+        "neoforge-26.1.2" = _Y4nAvv77;
         "pkg-0.1.0" = _8iy3K48a;
         "pkg-0.2.0" = _i1Zt2oyX;
         "pkg-0.2.1" = _lLLEUY7O;
@@ -891,7 +903,8 @@ let
         "pkg-3.1.0+26.1.x-beta.3" = _SsIH8Nbw;
         "pkg-3.1.0+26.1.x" = _1gUzJM1F;
         "pkg-3.1.1+26.1.x" = _91owdSpE;
-        "default" = _91owdSpE;
+        "pkg-3.2.0+26.1.x" = _HhRGyHP0;
+        "default" = _HhRGyHP0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "frostiful";

@@ -281,6 +281,16 @@ let
             "file" = "pmwrain_addon-1.6.5-hotfix.jar";
             "hash" = "sha512-MOyIyTza2O0UAheWaGQ6hPrQDjioXEYZbwjI5LmcBbV46N1/WGq63Ayf80AfKjTsO7LPSUkChBXZeOG1wi8L2A==";
         };
+        _TV8SXHqq = {
+            "id" = "TV8SXHqq";
+            "file" = "pmwrain_addon-1.6.6.jar";
+            "hash" = "sha512-TgNoYdhodAQ4zK9v/gRCz0rwmbdyAYq43x8BAf4JlzPs4m4Fny1KARMg6MNDF0OAe3A6rurymv+hA02xYCsg6Q==";
+        };
+        _MFXl6joD = {
+            "id" = "MFXl6joD";
+            "file" = "pmwrain_addon-1.6.7.jar";
+            "hash" = "sha512-mGHCrYV/q6f53CTz6SENY2W5cHA+7D5V4fPELdsVt86+PhWRI6QB3C1eUUGXHlKUvmC+ooWHnX1PwwwI9Wyx7Q==";
+        };
     in {
         "yGGeBoLu" = _yGGeBoLu;
         "2h7Tn8cS" = _2h7Tn8cS;
@@ -338,7 +348,9 @@ let
         "RD9S9onh" = _RD9S9onh;
         "St4CljOc" = _St4CljOc;
         "5UvVRz82" = _5UvVRz82;
-        "neoforge-1.21.1" = _5UvVRz82;
+        "TV8SXHqq" = _TV8SXHqq;
+        "MFXl6joD" = _MFXl6joD;
+        "neoforge-1.21.1" = _MFXl6joD;
         "forge-1.20.1" = _qxDgq7Kh;
         "pkg-0.1.0-a" = _yGGeBoLu;
         "pkg-0.2.21b" = _2h7Tn8cS;
@@ -396,7 +408,9 @@ let
         "pkg-1.6.4" = _RD9S9onh;
         "pkg-1.6.5" = _St4CljOc;
         "pkg-1.6.5-hotfix" = _5UvVRz82;
-        "default" = _5UvVRz82;
+        "pkg-1.6.6" = _TV8SXHqq;
+        "pkg-1.6.7" = _MFXl6joD;
+        "default" = _MFXl6joD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pmw-advanced-observatory";

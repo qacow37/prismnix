@@ -41,6 +41,11 @@ let
             "file" = "SlashBlade Mobs-1.20.1-1.0.4.jar";
             "hash" = "sha512-zoJ/xKp3HfVJDlTygww8VN+uWF70xYHNxm5UO/bT6e4BioXNBJ74hHzpjp0fQ5aOoNnXgRCP3YDJiNz7Dy/h9A==";
         };
+        _vL3NTPQV = {
+            "id" = "vL3NTPQV";
+            "file" = "SlashBlade Mobs-1.21.1-1.0.5.jar";
+            "hash" = "sha512-SJPkO/G6La3qBN21bUnFRQofnjQom3r4TiSS+RZPPzk5kMuwAIFdT0b7Bhkq3AGO15ryLhKS0ryk0Wg5/+huLw==";
+        };
     in {
         "1dimgo1Y" = _1dimgo1Y;
         "t9gckcyv" = _t9gckcyv;
@@ -50,15 +55,17 @@ let
         "Zc2KPBYe" = _Zc2KPBYe;
         "dP5FhPWF" = _dP5FhPWF;
         "kMtIErIv" = _kMtIErIv;
+        "vL3NTPQV" = _vL3NTPQV;
         "forge-1.20.1" = _kMtIErIv;
-        "neoforge-1.21.1" = _dP5FhPWF;
+        "neoforge-1.21.1" = _vL3NTPQV;
         "pkg-1.0.0" = _1dimgo1Y;
         "pkg-1.0.1" = _t9gckcyv;
         "pkg-1.0.2" = _ThT6Q6PS;
         "pkg-1.0.2-hotfix" = _rcwDtCKZ;
         "pkg-1.0.3" = _Zc2KPBYe;
         "pkg-1.0.4" = _kMtIErIv;
-        "default" = _kMtIErIv;
+        "pkg-1.0.5" = _vL3NTPQV;
+        "default" = _vL3NTPQV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "slashblade-mobs";

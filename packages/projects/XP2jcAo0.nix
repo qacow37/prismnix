@@ -46,6 +46,16 @@ let
             "file" = "PastureLoot-fabric-2.0.0+1.21.1.jar";
             "hash" = "sha512-Li06WsEQJVo/BWWkUqtERCrBVfFf4tQw1VESCUTCUqlZC5VeuAZB9oXi/MATK/DASZ4pR9OtABN4PsDy8S2fLg==";
         };
+        _Cyviw40o = {
+            "id" = "Cyviw40o";
+            "file" = "PastureLoot-neoforge-2.0.0+1.21.1.jar";
+            "hash" = "sha512-GX3nAAKgQxGL1Ua50pLOHfoS1lB4veHDIr5d4BbxGeD0cmpQip7+QzcMJ60Ax+jSPGE9p7u5D3iZJuIrVnJaSg==";
+        };
+        _x663ZkHQ = {
+            "id" = "x663ZkHQ";
+            "file" = "PastureLoot-fabric-2.0.0+1.21.1.jar";
+            "hash" = "sha512-qNVQGxYu2eMQm2uCOpjPmnTEwSQsdp5bGBpB0ROosF/8qOypB78/t+lb7aGOllvufkYKMm5qi9LT9u5s9haG+Q==";
+        };
     in {
         "kAr3xnLI" = _kAr3xnLI;
         "vmOk4lov" = _vmOk4lov;
@@ -56,9 +66,11 @@ let
         "MYJtblOM" = _MYJtblOM;
         "uJqzdZuI" = _uJqzdZuI;
         "catyYgS1" = _catyYgS1;
-        "fabric-1.21.1" = _catyYgS1;
+        "Cyviw40o" = _Cyviw40o;
+        "x663ZkHQ" = _x663ZkHQ;
+        "fabric-1.21.1" = _x663ZkHQ;
         "fabric-1.20.1" = _pLi7gPjc;
-        "neoforge-1.21.1" = _uJqzdZuI;
+        "neoforge-1.21.1" = _Cyviw40o;
         "pkg-1.0.0-1.21.1" = _kAr3xnLI;
         "pkg-1.0.1-1.21.1" = _vmOk4lov;
         "pkg-1.0.2+1.21.1" = _HroTTOh2;
@@ -66,9 +78,9 @@ let
         "pkg-1.0.3+1.21.1" = _Vn7GM1O8;
         "pkg-1.0.4+1.21.1" = _yjFqvInZ;
         "pkg-1.0.5+1.21.1" = _MYJtblOM;
-        "pkg-2.0.0+1.21.1-neoforge" = _uJqzdZuI;
-        "pkg-2.0.0+1.21.1-fabric" = _catyYgS1;
-        "default" = _catyYgS1;
+        "pkg-2.0.0+1.21.1-neoforge" = _Cyviw40o;
+        "pkg-2.0.0+1.21.1-fabric" = _x663ZkHQ;
+        "default" = _x663ZkHQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-pasture-loot";

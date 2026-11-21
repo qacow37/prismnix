@@ -671,6 +671,16 @@ let
             "file" = "BFMod-CNTR-Project-127.0-(1.21.1-0.9.0.83b)-TC.zip";
             "hash" = "sha512-iot/C8cui4XMBzYCe2cL76HJp1InJx8VU3clR4a3BzX0cRRompfiZLLocmoUxDffDXmRD5AMdAitaYlJldw7sw==";
         };
+        _MPEIbsCu = {
+            "id" = "MPEIbsCu";
+            "file" = "BFMod-CNTR-Project-128.0-(1.21.1-0.9.0.84b)-TC.zip";
+            "hash" = "sha512-yi2ClBZd6ThTCxgEOOfw5vU1eOgBioYPLemxr029UXrV4E9h5insCDowxSadEM74Lxb4xCfiVTBBcVk0qZFlog==";
+        };
+        _DGmRWB9v = {
+            "id" = "DGmRWB9v";
+            "file" = "BFMod-CNTR-Project-129.0-(1.21.1-0.9.0.85b)-TC.zip";
+            "hash" = "sha512-BUSxuZs++Ed4vc6kDHjIBlvkfURB6vez3rnQchGFA34LjA4IgS9Qvo9vwPeVhTYxSxMPCv1QgACt+tc+dnebkA==";
+        };
     in {
         "kHgc1viG" = _kHgc1viG;
         "Ubtk5LIL" = _Ubtk5LIL;
@@ -806,10 +816,12 @@ let
         "7prHhcIG" = _7prHhcIG;
         "s6YVnWzU" = _s6YVnWzU;
         "ZFGs8nLa" = _ZFGs8nLa;
+        "MPEIbsCu" = _MPEIbsCu;
+        "DGmRWB9v" = _DGmRWB9v;
         "minecraft-1.20.4" = _kHgc1viG;
         "minecraft-1.20.6" = _bsNC1AdE;
         "minecraft-1.21" = _vpVUSdVZ;
-        "minecraft-1.21.1" = _ZFGs8nLa;
+        "minecraft-1.21.1" = _DGmRWB9v;
         "pkg-19.2" = _kHgc1viG;
         "pkg-20.0" = _Ubtk5LIL;
         "pkg-21.0" = _LyBy767u;
@@ -944,7 +956,9 @@ let
         "pkg-125.0" = _7prHhcIG;
         "pkg-126.0" = _s6YVnWzU;
         "pkg-127.0" = _ZFGs8nLa;
-        "default" = _ZFGs8nLa;
+        "pkg-128.0" = _MPEIbsCu;
+        "pkg-129.0" = _DGmRWB9v;
+        "default" = _DGmRWB9v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bfmod-cntr-project-tchinese";

@@ -66,6 +66,11 @@ let
             "file" = "Cozy HD Beta 6.0.2.zip";
             "hash" = "sha512-5dtVO5Y1bHsVfIyzaha3AAIxdSE7I4EteBaI23rjrmgOCC10WNzC9QvLep8hUkthxEO8Bzw8uLiPCtXY/UyDEA==";
         };
+        _c16jJPdg = {
+            "id" = "c16jJPdg";
+            "file" = "Cozy HD Beta 6.0.3.zip";
+            "hash" = "sha512-s8o6S38ioem9PwSIrnsJexG3sYMCa2yCtJhtL7mQhHKhIvCDhgqDHbfpGgDzsMhqeIdYST4vMspjw1fV2y222g==";
+        };
     in {
         "anfu6R0x" = _anfu6R0x;
         "fRUNUq0G" = _fRUNUq0G;
@@ -80,15 +85,16 @@ let
         "zh4Qs9OS" = _zh4Qs9OS;
         "BLV0jUH2" = _BLV0jUH2;
         "dDnVhB4S" = _dDnVhB4S;
+        "c16jJPdg" = _c16jJPdg;
         "minecraft-1.21.7" = _c2zrsw6a;
         "minecraft-1.21.8" = _c2zrsw6a;
-        "minecraft-1.21.11" = _dDnVhB4S;
-        "minecraft-1.21.9" = _dDnVhB4S;
-        "minecraft-1.21.10" = _dDnVhB4S;
-        "minecraft-26.1" = _dDnVhB4S;
-        "minecraft-26.1.1" = _dDnVhB4S;
-        "minecraft-26.1.2" = _dDnVhB4S;
-        "minecraft-26.2" = _dDnVhB4S;
+        "minecraft-1.21.11" = _c16jJPdg;
+        "minecraft-1.21.9" = _c16jJPdg;
+        "minecraft-1.21.10" = _c16jJPdg;
+        "minecraft-26.1" = _c16jJPdg;
+        "minecraft-26.1.1" = _c16jJPdg;
+        "minecraft-26.1.2" = _c16jJPdg;
+        "minecraft-26.2" = _c16jJPdg;
         "pkg-beta-1.0" = _anfu6R0x;
         "pkg-beta-2.0" = _fRUNUq0G;
         "pkg-beta-2.1" = _CMpSGbFv;
@@ -102,7 +108,8 @@ let
         "pkg-beta-6.0-(BROKEN)" = _zh4Qs9OS;
         "pkg-beta-6.0.1" = _BLV0jUH2;
         "pkg-beta-6.0.2" = _dDnVhB4S;
-        "default" = _dDnVhB4S;
+        "pkg-beta-6.0.3" = _c16jJPdg;
+        "default" = _c16jJPdg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cozy-hd";

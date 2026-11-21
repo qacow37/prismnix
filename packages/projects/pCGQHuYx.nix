@@ -101,6 +101,16 @@ let
             "file" = "swordskill-1.3.3.jar";
             "hash" = "sha512-ooSCsSILWtpJxaQ7UMhu3abQRWdL4+EnT6dxEJNj/wj55VbKWoErQWS5SDK+mRlNCKc3qOPLDBwoj1fkgAiocw==";
         };
+        _FNLIJ1ps = {
+            "id" = "FNLIJ1ps";
+            "file" = "swordskill-1.4.0.jar";
+            "hash" = "sha512-ANCyVeb729omRgMJz7ePrGmiExd4ffDbYAU5kNJcID9/5LtK4tkyj/6sjNXdJC7lnuGp6NMIw0fkcI+iHC8QQw==";
+        };
+        _RPpyBZ6R = {
+            "id" = "RPpyBZ6R";
+            "file" = "swordskill-1.3.0-1.20.1.jar";
+            "hash" = "sha512-5GaunSdhe39JtZqfVGs5wMA58si7ACYdQoC7p5lFe67ymOVbVgVsdJ0uF6qFm7k5a26RxOyL78CyLfBBbW5IbQ==";
+        };
     in {
         "rL3Z09K3" = _rL3Z09K3;
         "t6UWvg4D" = _t6UWvg4D;
@@ -122,10 +132,12 @@ let
         "8WBanfMm" = _8WBanfMm;
         "OFFgSJiF" = _OFFgSJiF;
         "qbZKXEhs" = _qbZKXEhs;
-        "forge-1.20.1" = _OFFgSJiF;
+        "FNLIJ1ps" = _FNLIJ1ps;
+        "RPpyBZ6R" = _RPpyBZ6R;
+        "forge-1.20.1" = _RPpyBZ6R;
         "forge-1.21.1" = _qbZKXEhs;
         "neoforge-1.20.1" = _THg3nfX1;
-        "neoforge-1.21.1" = _qbZKXEhs;
+        "neoforge-1.21.1" = _FNLIJ1ps;
         "pkg-1.0.0" = _rL3Z09K3;
         "pkg-1.0.1" = _t6UWvg4D;
         "pkg-1.0.2" = _KnXHHu3v;
@@ -146,7 +158,9 @@ let
         "pkg-2.0.1-alpha" = _8WBanfMm;
         "pkg-1.2.5" = _OFFgSJiF;
         "pkg-1.3.3" = _qbZKXEhs;
-        "default" = _qbZKXEhs;
+        "pkg-1.4.0" = _FNLIJ1ps;
+        "pkg-1.3.0-1.20.1" = _RPpyBZ6R;
+        "default" = _RPpyBZ6R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "swordskill-mod";

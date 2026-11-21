@@ -146,6 +146,11 @@ let
             "file" = "createmetalwork-neoforge-1.21.1-3.0.0.jar";
             "hash" = "sha512-HgdcPe5LC9fELlg1oP10lQre8Q//2O2nNG4iQagut+NwcIoAkfSbPCPYjiPcj60taBvhQ0VPtfVbttUUKrQ2RQ==";
         };
+        _pOXSlxMI = {
+            "id" = "pOXSlxMI";
+            "file" = "createmetalwork-neoforge-1.21.1-3.1.0.jar";
+            "hash" = "sha512-3x15bPSba8nhQ4doxyxX+QQouValYEZ6D8PPGQcBH3DKrkFSFkU3Qklk5zCT/iAdh8/JIIs8/JXPTKkm9zQLLA==";
+        };
     in {
         "Q39Xuu8g" = _Q39Xuu8g;
         "u1ifO7vF" = _u1ifO7vF;
@@ -176,11 +181,12 @@ let
         "p4smHMGV" = _p4smHMGV;
         "cQiPf5no" = _cQiPf5no;
         "jImnSYtO" = _jImnSYtO;
+        "pOXSlxMI" = _pOXSlxMI;
         "fabric-1.20.1" = _fo004jZj;
         "forge-1.19.2" = _oHgAdWId;
         "forge-1.20.1" = _15Nm7Iuz;
         "neoforge-1.20.1" = _15Nm7Iuz;
-        "neoforge-1.21.1" = _jImnSYtO;
+        "neoforge-1.21.1" = _pOXSlxMI;
         "pkg-1.0.0" = _Q39Xuu8g;
         "pkg-1.0.1" = _u1ifO7vF;
         "pkg-1.0.2" = _k51NOCqD;
@@ -196,7 +202,8 @@ let
         "pkg-2.0.0-beta" = _p4smHMGV;
         "pkg-2.0.0" = _cQiPf5no;
         "pkg-3.0.0" = _jImnSYtO;
-        "default" = _jImnSYtO;
+        "pkg-3.1.0" = _pOXSlxMI;
+        "default" = _pOXSlxMI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-metalwork";

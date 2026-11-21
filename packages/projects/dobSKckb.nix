@@ -51,6 +51,16 @@ let
             "file" = "kubejs_oritech-neoforge-26.1.2-0.4.5.jar";
             "hash" = "sha512-TEX50k/r2y7dStfwWh6XFAvKxqDrbgE3zch/MgasX/JAyEKEPoahokH2G+w9Wey8WbG56EDh5Z5IDbTkjcY13g==";
         };
+        _wIfHLe81 = {
+            "id" = "wIfHLe81";
+            "file" = "kubejs_oritech-neoforge-26.1.2-0.5.0.jar";
+            "hash" = "sha512-Qeob6PAn4PkcUFDsPPI87A9kYTKzDeAbB6efJOiKllozD6Y1MIKgCMiqd1vHwtEtyxX2E4KfgajiuXavpOtYLw==";
+        };
+        _c6KScIlq = {
+            "id" = "c6KScIlq";
+            "file" = "kubejs_oritech-neoforge-1.21.1-0.4.6.jar";
+            "hash" = "sha512-iMRYfvHHoHqnbtlFAOpslDJiaNnwf5aQVoBnpjuLnPAGiJoRWVn19emoMg2z8CMgz7TgoY238ucTSzY65B9pcA==";
+        };
     in {
         "5CRqfVdN" = _5CRqfVdN;
         "GNtpzstp" = _GNtpzstp;
@@ -62,8 +72,10 @@ let
         "diwafcFZ" = _diwafcFZ;
         "CMXy2hdg" = _CMXy2hdg;
         "BxIP6Wb2" = _BxIP6Wb2;
-        "neoforge-1.21.1" = _CMXy2hdg;
-        "neoforge-26.1.2" = _BxIP6Wb2;
+        "wIfHLe81" = _wIfHLe81;
+        "c6KScIlq" = _c6KScIlq;
+        "neoforge-1.21.1" = _c6KScIlq;
+        "neoforge-26.1.2" = _wIfHLe81;
         "pkg-1.21.1-0.1.0+neoforge" = _5CRqfVdN;
         "pkg-1.21.1-0.2.0+neoforge" = _GNtpzstp;
         "pkg-1.21.1-0.3.0+neoforge" = _i9u9QBEo;
@@ -74,7 +86,9 @@ let
         "pkg-1.21.1-0.4.4+neoforge" = _diwafcFZ;
         "pkg-1.21.1-0.4.5+neoforge" = _CMXy2hdg;
         "pkg-26.1.2-0.4.5+neoforge" = _BxIP6Wb2;
-        "default" = _BxIP6Wb2;
+        "pkg-26.1.2-0.5.0+neoforge" = _wIfHLe81;
+        "pkg-1.21.1-0.4.6+neoforge" = _c6KScIlq;
+        "default" = _c6KScIlq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kjs-oritech";

@@ -626,6 +626,11 @@ let
             "file" = "Eternal Tales [v8.3 Beta-3] [NeoForge 1.21.1].jar";
             "hash" = "sha512-tJaw3TYI2fPpsiM2Zjtvitt2PhUZIu+xgj7tCAt0YGerFYJC1QsuIozaXy3vtWdxdqfD6kVrxSdFmXFlQcdsnA==";
         };
+        _r85yaDpG = {
+            "id" = "r85yaDpG";
+            "file" = "Eternal Tales [v1.7.20.16] [Forge 1.20.1].jar";
+            "hash" = "sha512-zKOi4ECRtbq1wsX4TYMuY0hujeeUl7YumscCwYWzGpICbKdKjNjUXdgFAE7vj90fvhRch/lmCyhGO2k2D8+oMA==";
+        };
     in {
         "MuPWv83n" = _MuPWv83n;
         "4qeYQm18" = _4qeYQm18;
@@ -752,13 +757,14 @@ let
         "CVW2vwR0" = _CVW2vwR0;
         "fwiu4lMh" = _fwiu4lMh;
         "AzZyS4Nh" = _AzZyS4Nh;
+        "r85yaDpG" = _r85yaDpG;
         "forge-1.15.2" = _MuPWv83n;
         "forge-1.16.5" = _4qeYQm18;
         "forge-1.17.1" = _gwplMMCn;
         "forge-1.18.2" = _gdCQddFZ;
         "forge-1.19.2" = _AIbgxMci;
         "forge-1.19.4" = _Eeno6i25;
-        "forge-1.20.1" = _fwiu4lMh;
+        "forge-1.20.1" = _r85yaDpG;
         "neoforge-1.20.4" = _wOXTZexX;
         "neoforge-1.21.1" = _AzZyS4Nh;
         "pkg-1.1.6" = _MuPWv83n;
@@ -885,7 +891,8 @@ let
         "pkg-8.2.4.2" = _CVW2vwR0;
         "pkg-1.7.20.15" = _fwiu4lMh;
         "pkg-8.2.4.3" = _AzZyS4Nh;
-        "default" = _AzZyS4Nh;
+        "pkg-1.7.20.16" = _r85yaDpG;
+        "default" = _r85yaDpG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eternal-tales";

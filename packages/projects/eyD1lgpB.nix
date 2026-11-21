@@ -41,6 +41,26 @@ let
             "file" = "HyLobby-1.0.2-1.8.9_ornithe.jar";
             "hash" = "sha512-AsFQxv0h6NpVabpww15RMQneWSqzfHWpz3HE+Qm5UVc55O4Ra+AIw9gx+FKAhtAA9t9MH3Pu+RCnwnKAFhFrhA==";
         };
+        _du8QN4XC = {
+            "id" = "du8QN4XC";
+            "file" = "HyLobby-1.0.3-1.8.9_ornithe.jar";
+            "hash" = "sha512-fJlq9yser3dpSsZVPelemZjZg5RJqfOvNOjuYXr7j7vGa1tW8G851noBsCXtd6YgvH2O8MT3fnm4nNsvUm+4UA==";
+        };
+        _ZpyZjhRx = {
+            "id" = "ZpyZjhRx";
+            "file" = "HyLobby-1.0.3-26.1+_fabric.jar";
+            "hash" = "sha512-8LJ3u9zcAz0RW6X2bfqbogRZV8U8m6y7zM6m1LmkkdxhtUkJxnhq3X1lVyh4PDT4ln3GCi7RzgtTxnj4QJn/EQ==";
+        };
+        _vfJn87bl = {
+            "id" = "vfJn87bl";
+            "file" = "HyLobby-1.0.3-26.2+_fabric.jar";
+            "hash" = "sha512-TrN336oxlYz0rABuTh0F1WGHalx4tK889Gol8vYr8UE4r58iOWuKPx6mzjT1KmQUATMj3fKqYRBZmwTLir59gA==";
+        };
+        _1Sc4sYb9 = {
+            "id" = "1Sc4sYb9";
+            "file" = "HyLobby-1.0.3-26.3+_fabric.jar";
+            "hash" = "sha512-PUsTHM7M9MZl6oSc6sHEkZ/2Lk2kNXX/8rMSUEdeWd96xLipHg5/abWfT7843WsCVoLKpN1DK1uceCb/KV1MzA==";
+        };
     in {
         "4gWDYR3T" = _4gWDYR3T;
         "7qAfMKaf" = _7qAfMKaf;
@@ -50,13 +70,17 @@ let
         "8WdxLq57" = _8WdxLq57;
         "n4t60bY3" = _n4t60bY3;
         "ohApd2dK" = _ohApd2dK;
-        "fabric-26.2" = _4DSJ64tC;
-        "fabric-26.1.2" = _MTSicNvg;
-        "fabric-26.1.1" = _MTSicNvg;
-        "fabric-26.1" = _MTSicNvg;
-        "fabric-26.3" = _8WdxLq57;
+        "du8QN4XC" = _du8QN4XC;
+        "ZpyZjhRx" = _ZpyZjhRx;
+        "vfJn87bl" = _vfJn87bl;
+        "1Sc4sYb9" = _1Sc4sYb9;
+        "fabric-26.2" = _vfJn87bl;
+        "fabric-26.1.2" = _ZpyZjhRx;
+        "fabric-26.1.1" = _ZpyZjhRx;
+        "fabric-26.1" = _ZpyZjhRx;
+        "fabric-26.3" = _1Sc4sYb9;
         "forge-1.8.9" = _7qAfMKaf;
-        "ornithe-1.8.9" = _ohApd2dK;
+        "ornithe-1.8.9" = _du8QN4XC;
         "pkg-0.0.0-26.2+_fabric" = _4gWDYR3T;
         "pkg-1.0.0-1.8.9_forge" = _7qAfMKaf;
         "pkg-1.0.0-1.8.9_ornithe" = _aIx3Ou0e;
@@ -65,7 +89,11 @@ let
         "pkg-1.0.0-26.3+_fabric" = _8WdxLq57;
         "pkg-1.0.1-1.8.9" = _n4t60bY3;
         "pkg-1.0.2-1.8.9" = _ohApd2dK;
-        "default" = _ohApd2dK;
+        "pkg-1.0.3-1.8.9" = _du8QN4XC;
+        "pkg-1.0.3-26.1+" = _ZpyZjhRx;
+        "pkg-1.0.3-26.2+" = _vfJn87bl;
+        "pkg-1.0.3-26.3+" = _1Sc4sYb9;
+        "default" = _1Sc4sYb9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hylobby";

@@ -26,19 +26,37 @@ let
             "file" = "3D_Food v1.5.zip";
             "hash" = "sha512-GiN/snvu41VIuyCgptdoPfWHu1bsGiDCp3jTDmGQZn3bC2oLuuKQgXVlITRMilIBNx69ZEMm7HyN+VVsy7TpjQ==";
         };
+        _AayN2Trs = {
+            "id" = "AayN2Trs";
+            "file" = "3D_Food v1.6.zip";
+            "hash" = "sha512-S7qT19ehDK8AraKLrmV4vqCOklCLEL4lxMU+eMTv6J++D652E+mgiMBef+fLFKuATAQh4SBUPVxljnhljVn9aA==";
+        };
+        _htjrmiXp = {
+            "id" = "htjrmiXp";
+            "file" = "3D_Food v1.7.zip";
+            "hash" = "sha512-U8+jqSs8II+c29AY3T1glymNohL5JoqAZfoPINUJ17WAE8p1xPZakVat9S58q1ckhxGiYv1Fqj1ctM6JINsMEQ==";
+        };
+        _CqGQmNTV = {
+            "id" = "CqGQmNTV";
+            "file" = "3D_Food v1.8.zip";
+            "hash" = "sha512-4rDS+AkH7dv7wdlRObO6qLAsVW7acCosQdVVmIL2zWrNPmG0r8RYzUFUe0m0hRkUcTYRs6qA6MZspPcbNJYPgA==";
+        };
     in {
         "RDqXH4RK" = _RDqXH4RK;
         "Zec52hjU" = _Zec52hjU;
         "EwQeSxCO" = _EwQeSxCO;
         "F2hExqhF" = _F2hExqhF;
         "9ikK7loe" = _9ikK7loe;
-        "minecraft-1.21.5" = _9ikK7loe;
-        "minecraft-1.21.6" = _9ikK7loe;
-        "minecraft-1.21.7" = _9ikK7loe;
-        "minecraft-1.21.8" = _9ikK7loe;
-        "minecraft-1.21.9" = _9ikK7loe;
-        "minecraft-1.21.10" = _9ikK7loe;
-        "minecraft-1.21.11" = _9ikK7loe;
+        "AayN2Trs" = _AayN2Trs;
+        "htjrmiXp" = _htjrmiXp;
+        "CqGQmNTV" = _CqGQmNTV;
+        "minecraft-1.21.5" = _CqGQmNTV;
+        "minecraft-1.21.6" = _CqGQmNTV;
+        "minecraft-1.21.7" = _CqGQmNTV;
+        "minecraft-1.21.8" = _CqGQmNTV;
+        "minecraft-1.21.9" = _CqGQmNTV;
+        "minecraft-1.21.10" = _CqGQmNTV;
+        "minecraft-1.21.11" = _CqGQmNTV;
         "minecraft-1.20" = _F2hExqhF;
         "minecraft-1.20.1" = _F2hExqhF;
         "minecraft-23w31a" = _F2hExqhF;
@@ -95,16 +113,21 @@ let
         "minecraft-24w44a" = _F2hExqhF;
         "minecraft-24w45a" = _F2hExqhF;
         "minecraft-24w46a" = _F2hExqhF;
-        "minecraft-1.21.4" = _F2hExqhF;
-        "minecraft-26.1" = _9ikK7loe;
-        "minecraft-26.1.1" = _9ikK7loe;
-        "minecraft-26.1.2" = _9ikK7loe;
+        "minecraft-1.21.4" = _CqGQmNTV;
+        "minecraft-26.1" = _CqGQmNTV;
+        "minecraft-26.1.1" = _CqGQmNTV;
+        "minecraft-26.1.2" = _CqGQmNTV;
+        "minecraft-26.3" = _CqGQmNTV;
+        "minecraft-26.2" = _CqGQmNTV;
         "pkg-1.1" = _RDqXH4RK;
         "pkg-1.2" = _Zec52hjU;
         "pkg-1.3" = _EwQeSxCO;
         "pkg-1.4" = _F2hExqhF;
         "pkg-1.5" = _9ikK7loe;
-        "default" = _9ikK7loe;
+        "pkg-1.6" = _AayN2Trs;
+        "pkg-1.7" = _htjrmiXp;
+        "pkg-1.8" = _CqGQmNTV;
+        "default" = _CqGQmNTV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "3d-foods";

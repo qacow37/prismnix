@@ -31,6 +31,11 @@ let
             "file" = "cosmeticarmor-1.0.0.jar";
             "hash" = "sha512-iz5m2lkgOhmOiBqZKTM3y+hdz+t9X6PXTOy3Yr0tuZ/9Rna2/jjNQEc6VW2MPtqmayCvlCPuZ8YxubR81lzAWw==";
         };
+        _RQgw2eqJ = {
+            "id" = "RQgw2eqJ";
+            "file" = "cosmetic-armor-1.0.3.jar";
+            "hash" = "sha512-U/3U36QCdjrJ51gtKZfSrDfj5o1azSQuyZQTpPsR7qvP0EMFEESe3Fj2W9bmpGFAVmBhxiKPho8dlbkaNpJdIw==";
+        };
     in {
         "DZDT4HWL" = _DZDT4HWL;
         "z7xf2Zc0" = _z7xf2Zc0;
@@ -38,12 +43,13 @@ let
         "honmc4iU" = _honmc4iU;
         "wMthe54D" = _wMthe54D;
         "225w6wxW" = _225w6wxW;
+        "RQgw2eqJ" = _RQgw2eqJ;
         "fabric-1.21" = _z7xf2Zc0;
-        "fabric-1.21.1" = _wMthe54D;
-        "fabric-1.21.2" = _wMthe54D;
-        "fabric-1.21.3" = _wMthe54D;
-        "fabric-1.21.4" = _wMthe54D;
-        "fabric-1.21.5" = _wMthe54D;
+        "fabric-1.21.1" = _RQgw2eqJ;
+        "fabric-1.21.2" = _RQgw2eqJ;
+        "fabric-1.21.3" = _RQgw2eqJ;
+        "fabric-1.21.4" = _RQgw2eqJ;
+        "fabric-1.21.5" = _RQgw2eqJ;
         "fabric-b1.7" = _honmc4iU;
         "fabric-b1.7.2" = _honmc4iU;
         "fabric-b1.7.3" = _honmc4iU;
@@ -60,7 +66,8 @@ let
         "pkg-1.0.0-b1.7.3" = _225w6wxW;
         "pkg-1.0.1-b1.7.3" = _honmc4iU;
         "pkg-1.0.2" = _wMthe54D;
-        "default" = _225w6wxW;
+        "pkg-1.0.3" = _RQgw2eqJ;
+        "default" = _RQgw2eqJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armor-cosmetics";

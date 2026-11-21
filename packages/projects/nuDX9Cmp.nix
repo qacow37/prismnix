@@ -526,6 +526,16 @@ let
             "file" = "End-Parasitize and Convert All-0.148n-1.20.1.jar";
             "hash" = "sha512-T2LrWGEI9i2hrWUA+c64nS/Uew8EKKlPWmI0J+8V0MlhbI4kMJwMfU6p9kMqfZ78vpfkXG9NGd1TPG63Ep0e7A==";
         };
+        _hcb4Js0O = {
+            "id" = "hcb4Js0O";
+            "file" = "End-Parasitize and Convert All-0.148o-1.20.1.jar";
+            "hash" = "sha512-5E9jfRm3lZSyvpw+qoyFrEgUg9sr6H3VoGcF/xWuuLPZm6YL0kK1gKoaC0/IujDFzNi/sdURgxUf+MBoB67OAQ==";
+        };
+        _WemAhj7C = {
+            "id" = "WemAhj7C";
+            "file" = "End-Parasitize and Convert All-0.148o-26.1.2.jar";
+            "hash" = "sha512-/YSKik/9WukLsAfHYJj3zLaLp5BkTr5jsh39aYzsVY4yNwmGb7Pmn9QKUMqc8zpvBeLURvgkYyq6h66mUgCUAQ==";
+        };
     in {
         "LbUCbmhx" = _LbUCbmhx;
         "IG51hd1O" = _IG51hd1O;
@@ -632,9 +642,11 @@ let
         "4zdDa6mK" = _4zdDa6mK;
         "vrXHg21j" = _vrXHg21j;
         "YArL296J" = _YArL296J;
-        "forge-1.20.1" = _YArL296J;
+        "hcb4Js0O" = _hcb4Js0O;
+        "WemAhj7C" = _WemAhj7C;
+        "forge-1.20.1" = _hcb4Js0O;
         "forge-1.12.2" = _GU2CXfkn;
-        "neoforge-26.1.2" = _twIc6C1k;
+        "neoforge-26.1.2" = _WemAhj7C;
         "pkg-0.3.3" = _LbUCbmhx;
         "pkg-0.3.3a" = _IG51hd1O;
         "pkg-0.3.3b" = _1vxdz2mH;
@@ -724,7 +736,8 @@ let
         "pkg-0.148l" = _4zdDa6mK;
         "pkg-0.148m" = _vrXHg21j;
         "pkg-0.148n" = _YArL296J;
-        "default" = _YArL296J;
+        "pkg-0.148o" = _WemAhj7C;
+        "default" = _WemAhj7C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epca";

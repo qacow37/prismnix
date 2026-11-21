@@ -46,6 +46,11 @@ let
             "file" = "buddys_project-0.01-neoforge-1.21.1.jar";
             "hash" = "sha512-rzsLb861ARHeQW5/ZoFsBP0767OfJMuAYAtUsQ3InwERbuujHtQCIy7IQMs0TpZwwaZgHgiHuGXdR/FPujKxiA==";
         };
+        _Og5jDC0F = {
+            "id" = "Og5jDC0F";
+            "file" = "buddys_project-0.02-neoforge-1.21.1.jar";
+            "hash" = "sha512-Fe1yR6PJh58JwAEabd4nL56g+Y0Y5uQDNjG/59r7YZ5HtPV0vkbKxulHQF9bm5MZmGvsepXD3/HPo4xcJER69w==";
+        };
     in {
         "WmrMRC7O" = _WmrMRC7O;
         "Z0xeI0P3" = _Z0xeI0P3;
@@ -56,8 +61,11 @@ let
         "bckAjZVj" = _bckAjZVj;
         "A8qiKDkL" = _A8qiKDkL;
         "uPH90yHW" = _uPH90yHW;
-        "forge-1.20.1" = _A8qiKDkL;
-        "neoforge-1.21.1" = _uPH90yHW;
+        "Og5jDC0F" = _Og5jDC0F;
+        "forge-1.20.1" = _Og5jDC0F;
+        "forge-1.21.1" = _Og5jDC0F;
+        "neoforge-1.21.1" = _Og5jDC0F;
+        "neoforge-1.20.1" = _Og5jDC0F;
         "pkg-1.0.0" = _WmrMRC7O;
         "pkg-1.0.1" = _Z0xeI0P3;
         "pkg-1.0.4" = _8rBAICGZ;
@@ -67,7 +75,8 @@ let
         "pkg-1.4.0" = _bckAjZVj;
         "pkg-1.4.1" = _A8qiKDkL;
         "pkg-0.01" = _uPH90yHW;
-        "default" = _uPH90yHW;
+        "pkg-0.02" = _Og5jDC0F;
+        "default" = _Og5jDC0F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-buddys-project-mwe";

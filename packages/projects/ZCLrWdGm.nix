@@ -136,6 +136,11 @@ let
             "file" = "yttr-9.20.1138.jar";
             "hash" = "sha512-bGdCgF2sPiCs6n+8r8ygp4s1GlHT5MRG2cZP+Xg7J0YWKxwX6N+Rsj/YK24Ks4iLDZPCWe+AQUHmiB/SdO6Q2g==";
         };
+        _Y4i17D4X = {
+            "id" = "Y4i17D4X";
+            "file" = "yttr-9.20.1152.jar";
+            "hash" = "sha512-hGirrSx8CbGLj2cBd0dimgy3vKeSQ3jwVLqVPhJSLXopZHtRlnWVzEsKNCLXYSaBxVWfEZHoeTrAg0l7Xt+DTg==";
+        };
     in {
         "9J3l60Cj" = _9J3l60Cj;
         "cVQNIfxq" = _cVQNIfxq;
@@ -164,6 +169,7 @@ let
         "CBr9m2yT" = _CBr9m2yT;
         "hteZiggd" = _hteZiggd;
         "YdSYc6al" = _YdSYc6al;
+        "Y4i17D4X" = _Y4i17D4X;
         "fabric-1.16.3" = _9J3l60Cj;
         "fabric-1.16.4" = _9J3l60Cj;
         "fabric-1.16.5" = _9J3l60Cj;
@@ -171,18 +177,18 @@ let
         "fabric-1.19" = _9RO9dtyX;
         "fabric-1.19.1" = _9RO9dtyX;
         "fabric-1.19.2" = _9RO9dtyX;
-        "fabric-1.20.1" = _YdSYc6al;
-        "fabric-1.20" = _YdSYc6al;
+        "fabric-1.20.1" = _Y4i17D4X;
+        "fabric-1.20" = _Y4i17D4X;
         "quilt-1.18.2" = _cVQNIfxq;
         "quilt-1.19" = _9RO9dtyX;
         "quilt-1.19.1" = _9RO9dtyX;
         "quilt-1.19.2" = _9RO9dtyX;
-        "quilt-1.20" = _YdSYc6al;
-        "quilt-1.20.1" = _YdSYc6al;
-        "forge-1.20" = _YdSYc6al;
-        "forge-1.20.1" = _YdSYc6al;
-        "neoforge-1.20" = _YdSYc6al;
-        "neoforge-1.20.1" = _YdSYc6al;
+        "quilt-1.20" = _Y4i17D4X;
+        "quilt-1.20.1" = _Y4i17D4X;
+        "forge-1.20" = _Y4i17D4X;
+        "forge-1.20.1" = _Y4i17D4X;
+        "neoforge-1.20" = _Y4i17D4X;
+        "neoforge-1.20.1" = _Y4i17D4X;
         "pkg-5.417+1.16.5" = _9J3l60Cj;
         "pkg-7.626+1.18.2" = _cVQNIfxq;
         "pkg-7.638+1.19.2" = _ic0rXb1F;
@@ -210,7 +216,8 @@ let
         "pkg-9.20.1124" = _CBr9m2yT;
         "pkg-9.20.1125" = _hteZiggd;
         "pkg-9.20.1138" = _YdSYc6al;
-        "default" = _YdSYc6al;
+        "pkg-9.20.1152" = _Y4i17D4X;
+        "default" = _Y4i17D4X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yttr";

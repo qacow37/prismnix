@@ -91,6 +91,16 @@ let
             "file" = "crd_broadcasts-neoforge-1.5.0+1.21.1.jar";
             "hash" = "sha512-iSlqJyBrqouVJ1d+pPEUl6tnH003rpAVdUlvVNxk1T7+V0nGVxY+gimbdou9A60x+6OiPG9190LfpP1iGjnwPw==";
         };
+        _PkGYDT1r = {
+            "id" = "PkGYDT1r";
+            "file" = "crd_broadcasts-fabric-1.6.0+1.21.1.jar";
+            "hash" = "sha512-QI43xhDuXDaJYdSKjSJFBUInOCwH+gUOjwdulE9l6nR80Eb9gxqDbGDY98YcBSEY9VRa2fD0p5tsM+7EzIpWkw==";
+        };
+        _e5L8p2ck = {
+            "id" = "e5L8p2ck";
+            "file" = "crd_broadcasts-neoforge-1.6.0+1.21.1.jar";
+            "hash" = "sha512-YU0aD1VLPNbgSTuhhb9BKDnkYth2u32fa+5/uRBEA9Jl9KUJbTMvTjRL6VuQolgCjTvzHKdC3yW1XqrEhchXPg==";
+        };
     in {
         "UhBvHDLm" = _UhBvHDLm;
         "YatqnLAJ" = _YatqnLAJ;
@@ -110,8 +120,10 @@ let
         "VZ5p3Nry" = _VZ5p3Nry;
         "N6NCrIQQ" = _N6NCrIQQ;
         "DrdEeckl" = _DrdEeckl;
-        "fabric-1.21.1" = _N6NCrIQQ;
-        "neoforge-1.21.1" = _DrdEeckl;
+        "PkGYDT1r" = _PkGYDT1r;
+        "e5L8p2ck" = _e5L8p2ck;
+        "fabric-1.21.1" = _PkGYDT1r;
+        "neoforge-1.21.1" = _e5L8p2ck;
         "pkg-1.0.0+1.21.1" = _YatqnLAJ;
         "pkg-1.1.0+1.21.1" = _DLX7EGBC;
         "pkg-1.1.1+1.21.1" = _2jEvgI9p;
@@ -121,7 +133,8 @@ let
         "pkg-1.4.0+1.21.1" = _VGvc3RbP;
         "pkg-1.4.1+1.21.1" = _VZ5p3Nry;
         "pkg-1.5.0+1.21.1" = _DrdEeckl;
-        "default" = _DrdEeckl;
+        "pkg-1.6.0+1.21.1" = _e5L8p2ck;
+        "default" = _e5L8p2ck;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crd-broadcasts";

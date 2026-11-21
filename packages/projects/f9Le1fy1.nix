@@ -126,6 +126,16 @@ let
             "file" = "simply_pots 3.11.0 1.20.1 (forge).jar";
             "hash" = "sha512-80L7bB9FaziaMCRB7CNw6jcJzQvXLRCgPcDOu/3e5JgfTqHOC96EyeQ6AQKF7/HUw4bL5OwUt+2s85xbSxmwNg==";
         };
+        _XfJqmbtC = {
+            "id" = "XfJqmbtC";
+            "file" = "simply_pots 3.12.0 1.20.1 (forge).jar";
+            "hash" = "sha512-0Fn9N3t4/uuq4c7QE87c3CSZ4XqdSO7YFXbcU5zk3ENu5agAAKSMifWOd4GywD2d3c3JQhJpYvVstN9tqol3kA==";
+        };
+        _mOt3Kogu = {
+            "id" = "mOt3Kogu";
+            "file" = "simply_pots 3.12.0 1.21.1 (neoforge).jar";
+            "hash" = "sha512-SPTr1yvPZ+94CaXGOBPcZAoPLEiS9n8QyYmLu5ZZTEhBGI3ZFCmbSUBL/z/oeMXgr+QqYabF0niTIvB3wCGAnA==";
+        };
     in {
         "hWBrDBQA" = _hWBrDBQA;
         "8io80LfC" = _8io80LfC;
@@ -152,9 +162,11 @@ let
         "EeDDYaOY" = _EeDDYaOY;
         "QIZHAvl3" = _QIZHAvl3;
         "IK14PGQU" = _IK14PGQU;
-        "forge-1.20.1" = _IK14PGQU;
+        "XfJqmbtC" = _XfJqmbtC;
+        "mOt3Kogu" = _mOt3Kogu;
+        "forge-1.20.1" = _XfJqmbtC;
         "neoforge-1.20.6" = _jG0p95lx;
-        "neoforge-1.21.1" = _EeDDYaOY;
+        "neoforge-1.21.1" = _mOt3Kogu;
         "neoforge-1.21.4" = _1AjJeoQJ;
         "neoforge-1.21.8" = _QIZHAvl3;
         "pkg-1.0.0" = _hWBrDBQA;
@@ -169,7 +181,8 @@ let
         "pkg-3.7.3" = _nznuUc5a;
         "pkg-3.10.1" = _QIZHAvl3;
         "pkg-3.11.0" = _IK14PGQU;
-        "default" = _IK14PGQU;
+        "pkg-3.12.0" = _mOt3Kogu;
+        "default" = _mOt3Kogu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simply-pots";

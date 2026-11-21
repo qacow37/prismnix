@@ -76,6 +76,11 @@ let
             "file" = "applied_ammo_box-1.20.1-1.2.4.jar";
             "hash" = "sha512-JwqopvQT0w8QX5T4g9DlKpSG4sEOqk09DZCSQCY1TEq3A9dnqe0nLgC3+2wE1MuVIfQltFM8Ssmw+3qL+6Ki3g==";
         };
+        _q740Kanb = {
+            "id" = "q740Kanb";
+            "file" = "applied_ammo_box-1.20.1-1.2.5.jar";
+            "hash" = "sha512-9/mbTKP6ffALB1DX3LfdkblzQ7xcnyu74fyADxwlCx9bolcQpQ1soKECI2Xephl+1yfy+/IaFYsqhoAYv3uN9A==";
+        };
     in {
         "5sMx8DpR" = _5sMx8DpR;
         "klC2PLr3" = _klC2PLr3;
@@ -92,7 +97,8 @@ let
         "sWiLdXp0" = _sWiLdXp0;
         "j28CweGv" = _j28CweGv;
         "twqLQ9U3" = _twqLQ9U3;
-        "forge-1.20.1" = _twqLQ9U3;
+        "q740Kanb" = _q740Kanb;
+        "forge-1.20.1" = _q740Kanb;
         "neoforge-1.21.1" = _j28CweGv;
         "pkg-0.2.0" = _5sMx8DpR;
         "pkg-0.3.0" = _klC2PLr3;
@@ -109,7 +115,8 @@ let
         "pkg-1.21.1-1.2.3-hotfix2" = _sWiLdXp0;
         "pkg-1.21.1-1.2.4" = _j28CweGv;
         "pkg-1.20.1-1.2.4" = _twqLQ9U3;
-        "default" = _twqLQ9U3;
+        "pkg-1.20.1-1.2.5" = _q740Kanb;
+        "default" = _q740Kanb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-applied-ammo-box";

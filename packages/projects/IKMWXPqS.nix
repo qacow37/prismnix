@@ -151,6 +151,16 @@ let
             "file" = "AverageDPS-neo-1.21.1_v1.2.2.jar";
             "hash" = "sha512-qheva8YIFuQ/B8Taolag+r6ta3RiyWbts6V8Iq13T/n37uhE76DuRIDBai/J/2Y0Dr6qnj03vfPreSnKQdEHoQ==";
         };
+        _BfwR4BAe = {
+            "id" = "BfwR4BAe";
+            "file" = "AverageDPS-neo-1.21.1_v1.2.3.jar";
+            "hash" = "sha512-mn5ax40OXgsXSwO5DcKoS4VBFJ3ddLAFiwpiZl87q3YgCFh/E8DmbZtzpDFYiFf81a4m+T8bdo2M6BxogoOoMA==";
+        };
+        _XMjYVGYs = {
+            "id" = "XMjYVGYs";
+            "file" = "AverageDPS-forge-1.20.1_v1.2.3.jar";
+            "hash" = "sha512-5XN6/IL2S2Q9WNBaCVcT3mzNofgrmgBZx+0u/E2zGIB37R+ZPwYh8gwZje5zXajOfBDRI755WxetwwYH2IT5+Q==";
+        };
     in {
         "O2hoaLFK" = _O2hoaLFK;
         "r4lDmUpO" = _r4lDmUpO;
@@ -182,8 +192,10 @@ let
         "SYknfQ1t" = _SYknfQ1t;
         "MRP9xhDw" = _MRP9xhDw;
         "ZJnEFDd6" = _ZJnEFDd6;
-        "forge-1.20.1" = _MRP9xhDw;
-        "neoforge-1.21.1" = _ZJnEFDd6;
+        "BfwR4BAe" = _BfwR4BAe;
+        "XMjYVGYs" = _XMjYVGYs;
+        "forge-1.20.1" = _XMjYVGYs;
+        "neoforge-1.21.1" = _BfwR4BAe;
         "neoforge-26.1" = _rpPiwYM2;
         "neoforge-26.1.1" = _rpPiwYM2;
         "neoforge-26.1.2" = _SYknfQ1t;
@@ -207,7 +219,8 @@ let
         "pkg-1.2.0" = _iB82hkRe;
         "pkg-1.2.1" = _SYknfQ1t;
         "pkg-1.2.2" = _ZJnEFDd6;
-        "default" = _ZJnEFDd6;
+        "pkg-1.2.3" = _XMjYVGYs;
+        "default" = _XMjYVGYs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "average-dps";

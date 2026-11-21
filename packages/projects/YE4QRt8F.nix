@@ -666,6 +666,16 @@ let
             "file" = "useless-reptile-0.14.3-26.3.jar";
             "hash" = "sha512-j/Nj83v4MknKiEP3cDTTEFP1gEhDEEKv9FJxD0uxNjlQKUi2x5ixCfu+tlszAU5oHE+dN+SXqbQqLgWDWZuLtw==";
         };
+        _eYLSdDsU = {
+            "id" = "eYLSdDsU";
+            "file" = "useless-reptile-0.15.0+26.1.2.jar";
+            "hash" = "sha512-ZnrS2p35abHUq1S7Us2hXDXO16kBUHfdzYe1oOd19mpPLBsS5YRY9P37Xam9f7BnSJsAZXk0/ldwm2wGQamoYA==";
+        };
+        _BnhKyJFO = {
+            "id" = "BnhKyJFO";
+            "file" = "useless-reptile-0.15.0+26.3.jar";
+            "hash" = "sha512-JAUsqqlvdg+yv2C1p4mSegcjBLbos5w+QcDyEtYvZE+5b3UTtuWqU9YbHP0Wtn9t3/ahGSXDf3IXkALAGvctGQ==";
+        };
     in {
         "4eaOxuh0" = _4eaOxuh0;
         "t60ZvxNk" = _t60ZvxNk;
@@ -800,6 +810,8 @@ let
         "YAWa3s1c" = _YAWa3s1c;
         "vIfEHTCL" = _vIfEHTCL;
         "iZWK9bmg" = _iZWK9bmg;
+        "eYLSdDsU" = _eYLSdDsU;
+        "BnhKyJFO" = _BnhKyJFO;
         "fabric-1.19.2" = _RXjiSNPs;
         "fabric-22w43a" = _OzNTeRf6;
         "fabric-22w45a" = _h8NFeMCI;
@@ -819,11 +831,11 @@ let
         "fabric-1.21.7" = _rE8lD5RK;
         "fabric-1.21.8" = _rE8lD5RK;
         "fabric-1.21.11" = _jGGPMBUS;
-        "fabric-26.1" = _vIfEHTCL;
-        "fabric-26.1.1" = _vIfEHTCL;
-        "fabric-26.1.2" = _vIfEHTCL;
+        "fabric-26.1" = _eYLSdDsU;
+        "fabric-26.1.1" = _eYLSdDsU;
+        "fabric-26.1.2" = _eYLSdDsU;
         "fabric-26.2" = _VFNShszQ;
-        "fabric-26.3" = _iZWK9bmg;
+        "fabric-26.3" = _BnhKyJFO;
         "pkg-0.1.0" = _4eaOxuh0;
         "pkg-0.1.1" = _t60ZvxNk;
         "pkg-0.1.2" = _6nxmqEiR;
@@ -957,7 +969,9 @@ let
         "pkg-0.14.2-26.3" = _YAWa3s1c;
         "pkg-0.14.3-26.1.2" = _vIfEHTCL;
         "pkg-0.14.3-26.3" = _iZWK9bmg;
-        "default" = _iZWK9bmg;
+        "pkg-0.15.0+26.1.2" = _eYLSdDsU;
+        "pkg-0.15.0+26.3" = _BnhKyJFO;
+        "default" = _BnhKyJFO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "useless-reptile";

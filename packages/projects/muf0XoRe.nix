@@ -1396,6 +1396,11 @@ let
             "file" = "repurposed_structures-7.8.4+26.3-fabric.jar";
             "hash" = "sha512-EVd7H/QOkui575rDqDB/27vw/rMbPxbparyn9txXoDoaN301199pYa7afjGGLsVSrnLrqRUS2nqG+H3FSqWYXQ==";
         };
+        _x253ZohV = {
+            "id" = "x253ZohV";
+            "file" = "repurposed_structures-7.8.5+26.3-fabric.jar";
+            "hash" = "sha512-ziagtrf4WazJC2UXL+U8NkckzgUCKa9Ruyn6wdAzhK4xO7uNp24Nf4PW2WqYHGPwrEznuZj5SdsUNbhgyTPK6w==";
+        };
     in {
         "35dtx51R" = _35dtx51R;
         "E2iWqSXl" = _E2iWqSXl;
@@ -1676,6 +1681,7 @@ let
         "KOlXtsJY" = _KOlXtsJY;
         "fl0s2Ue2" = _fl0s2Ue2;
         "9jHXeIeI" = _9jHXeIeI;
+        "x253ZohV" = _x253ZohV;
         "fabric-1.16.5" = _5yP9SNTr;
         "fabric-1.17" = _F70cRVpm;
         "fabric-1.17.1" = _F70cRVpm;
@@ -1709,7 +1715,7 @@ let
         "fabric-1.21.11" = _LgshXq1u;
         "fabric-26.1" = _qcp0GuuQ;
         "fabric-26.2" = _CrmgMIJp;
-        "fabric-26.3" = _9jHXeIeI;
+        "fabric-26.3" = _x253ZohV;
         "quilt-1.19" = _dgE3oMcH;
         "quilt-1.19.1" = _dgE3oMcH;
         "quilt-1.19.2" = _TajvjPIp;
@@ -1996,7 +2002,8 @@ let
         "pkg-7.8.1+26.3-fabric" = _KOlXtsJY;
         "pkg-7.8.2+26.3-fabric" = _fl0s2Ue2;
         "pkg-7.8.4+26.3-fabric" = _9jHXeIeI;
-        "default" = _9jHXeIeI;
+        "pkg-7.8.5+26.3-fabric" = _x253ZohV;
+        "default" = _x253ZohV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "repurposed-structures-fabric";

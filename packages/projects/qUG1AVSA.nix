@@ -31,6 +31,21 @@ let
             "file" = "sauce-1.21.1-0.0.62.jar";
             "hash" = "sha512-b/4nuuOisHVeBBFqQteH0beEe/ov7ysjZbzQEDV0RE4ooTrMmUKOIo9NXunEdecwQp5h61ZwfqrJLbH4kaH6Sg==";
         };
+        _f1LwSjXI = {
+            "id" = "f1LwSjXI";
+            "file" = "sauce-1.21.1-0.0.72.jar";
+            "hash" = "sha512-ipMJrWgODJq6eGBujdXorRPbBsxzuWxgPW6+zSbuWVpswne061HhW35Dfb8FoL7Zpz5A39bpzpl1SdsqdrYP1g==";
+        };
+        _jP4IZlhb = {
+            "id" = "jP4IZlhb";
+            "file" = "sauce-1.21.1-0.0.73.jar";
+            "hash" = "sha512-nzCEjbRyoIU5SSuYN/uQyzVQC+8N+vSDAV8Rf8CO0FhzzSJcBgSApKCLnb/nRLWY/ZACKQ96gBKMgKzRWY6YSw==";
+        };
+        _h2xTdDAG = {
+            "id" = "h2xTdDAG";
+            "file" = "sauce-1.21.1-0.0.74.jar";
+            "hash" = "sha512-6xoLKqgUMCvptX4JWUzDbqKZ3Jcx3hypobJpOgnE0NzsWvGkUOhKR04pa0sEe3uAPT4blGgofE1yK6rSr0Prrg==";
+        };
     in {
         "1XG1tqtZ" = _1XG1tqtZ;
         "IpsHKx9x" = _IpsHKx9x;
@@ -38,15 +53,21 @@ let
         "uIzZ8Lrj" = _uIzZ8Lrj;
         "QfZEiMMs" = _QfZEiMMs;
         "gveR4LCK" = _gveR4LCK;
-        "neoforge-1.21" = _gveR4LCK;
-        "neoforge-1.21.1" = _gveR4LCK;
+        "f1LwSjXI" = _f1LwSjXI;
+        "jP4IZlhb" = _jP4IZlhb;
+        "h2xTdDAG" = _h2xTdDAG;
+        "neoforge-1.21" = _h2xTdDAG;
+        "neoforge-1.21.1" = _h2xTdDAG;
         "pkg-0.0.32" = _1XG1tqtZ;
         "pkg-0.0.42" = _IpsHKx9x;
         "pkg-0.0.47" = _Xt9kUIq8;
         "pkg-0.0.50" = _uIzZ8Lrj;
         "pkg-0.0.61" = _QfZEiMMs;
         "pkg-0.0.62" = _gveR4LCK;
-        "default" = _gveR4LCK;
+        "pkg-0.0.72" = _f1LwSjXI;
+        "pkg-0.0.73" = _jP4IZlhb;
+        "pkg-0.0.74" = _h2xTdDAG;
+        "default" = _h2xTdDAG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sauce-lib";

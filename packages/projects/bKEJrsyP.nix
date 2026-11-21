@@ -101,6 +101,11 @@ let
             "file" = "bits-n-pieces-1.0.7.1.jar";
             "hash" = "sha512-01Y/Ej8oeSMHke6O63SDn77u9/YGMSS/oXqKb5+LzUqptWiV2pTz11K0VSJMVH+tUqmb2971w4WDgrhZ0iT+TA==";
         };
+        _tnJjsN8s = {
+            "id" = "tnJjsN8s";
+            "file" = "bitsnpieces-2.0.2.jar";
+            "hash" = "sha512-tl3Ckn4Xbm1JDRxhxY2pO2zpbfYK2+CrD/0tyDHxtArFXc/3uBhvBwSkQUmcpw7j7ENShD06pLzl3Ooj1qT62w==";
+        };
     in {
         "nH2k0u2X" = _nH2k0u2X;
         "S9UjThrn" = _S9UjThrn;
@@ -122,8 +127,9 @@ let
         "4IOpYYzg" = _4IOpYYzg;
         "UvBa5qCX" = _UvBa5qCX;
         "iKAOR7cM" = _iKAOR7cM;
+        "tnJjsN8s" = _tnJjsN8s;
         "fabric-1.21.1" = _cLFuoIxY;
-        "neoforge-1.21.1" = _iKAOR7cM;
+        "neoforge-1.21.1" = _tnJjsN8s;
         "pkg-1.0.0" = _S9UjThrn;
         "pkg-1.0.1" = _XHZXOZ1y;
         "pkg-1.0" = _oYPSn1P3;
@@ -140,7 +146,8 @@ let
         "pkg-1.0.6.4" = _zEwWcm0m;
         "pkg-1.0.7" = _4IOpYYzg;
         "pkg-1.0.7.1" = _iKAOR7cM;
-        "default" = _iKAOR7cM;
+        "pkg-2.0.2" = _tnJjsN8s;
+        "default" = _tnJjsN8s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bits-n-pieces";

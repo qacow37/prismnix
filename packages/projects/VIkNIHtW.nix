@@ -1116,6 +1116,16 @@ let
             "file" = "PTS-Deco-2026.16.0-Fabric26.3.jar";
             "hash" = "sha512-1rg311cr8JZnqU+sxprMAm2zwfcT8+UzNPA06FmCOMy7JY3IJ6rtNWJgR3ajWbXMcYHvJQ37lkvzImgiKZbp7A==";
         };
+        _gcl6DyKJ = {
+            "id" = "gcl6DyKJ";
+            "file" = "PTS-Deco-2026.17.0-NeoForge26.3.jar";
+            "hash" = "sha512-noEZrQzRsY8TcSKUqotVpYmf6n1+dJ+PMSHL37DoYf5knsMyezT25CE8AOfCjIcRJgaGflVkEoa/crBEUiedOw==";
+        };
+        _a0d8u7zU = {
+            "id" = "a0d8u7zU";
+            "file" = "PTS-Deco-2026.17.0-Fabric26.3.jar";
+            "hash" = "sha512-NI7zx6m1H6/jXHz2CoxHhgfpYpWxYMU+o3Aj2M6N/UF0q2W5aIsaRZi3YcTr72ciKhyA1kzBh8MPBHydg4xaMg==";
+        };
     in {
         "gXwvTDUc" = _gXwvTDUc;
         "AFD7ZtJ7" = _AFD7ZtJ7;
@@ -1340,6 +1350,8 @@ let
         "HbuJJbUV" = _HbuJJbUV;
         "Db730w53" = _Db730w53;
         "gQr9XKtI" = _gQr9XKtI;
+        "gcl6DyKJ" = _gcl6DyKJ;
+        "a0d8u7zU" = _a0d8u7zU;
         "forge-1.19.2" = _RKmFZqQy;
         "forge-1.19.4" = _OzYSzRhy;
         "forge-1.20.1" = _A442ExRC;
@@ -1401,7 +1413,7 @@ let
         "fabric-26.1.1" = _e44jTLLt;
         "fabric-26.1.2" = _gVmVZfyD;
         "fabric-26.2" = _tcZ2rzPh;
-        "fabric-26.3" = _gQr9XKtI;
+        "fabric-26.3" = _a0d8u7zU;
         "neoforge-1.20.4" = _NoxCyjkF;
         "neoforge-1.21.1" = _NBkrRFFg;
         "neoforge-1.21.8" = _EsRsbvrB;
@@ -1423,7 +1435,7 @@ let
         "neoforge-26.1.1" = _ytKjrPIo;
         "neoforge-26.1.2" = _12kBzErC;
         "neoforge-26.2" = _H8AxSHIO;
-        "neoforge-26.3" = _Db730w53;
+        "neoforge-26.3" = _gcl6DyKJ;
         "pkg-forge3.0.9-1.19.2" = _gXwvTDUc;
         "pkg-fabric3.0.9-1.19.2" = _AFD7ZtJ7;
         "pkg-forge3.0.9-1.19.4" = _PU2Rfs72;
@@ -1640,7 +1652,9 @@ let
         "pkg-15.0-fabric26.3" = _HbuJJbUV;
         "pkg-2026.16.0-neoforge26.3" = _Db730w53;
         "pkg-2026.16.0-fabric26.3" = _gQr9XKtI;
-        "default" = _gQr9XKtI;
+        "pkg-2026.17.0-neoforge26.3" = _gcl6DyKJ;
+        "pkg-2026.17.0-fabric26.3" = _a0d8u7zU;
+        "default" = _a0d8u7zU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pts-deco";

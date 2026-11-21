@@ -116,6 +116,11 @@ let
             "file" = "citresewn-continuation-1.2.2-fork.13+26.2.jar";
             "hash" = "sha512-Ug83xsLI3OStJkj459gZPJ9Hlsg4mO0Pk3EjI3Y2LFTN2+TEdu8yRRYulTXH0ed5l0D0QX0FGmuvKH2qD2hYQg==";
         };
+        _iBhWTHTr = {
+            "id" = "iBhWTHTr";
+            "file" = "citresewn-continuation-1.2.2-fork.14+26.3.jar";
+            "hash" = "sha512-8zbwGSGL7ipkgrOSrdGvNrtuXA+ZQz9Gc/Ma9ATv9TEdKhkjYAZ/5SYDLMOKiLmfNFr8R2WnppImUztVjF2RXg==";
+        };
     in {
         "Z6K6AYax" = _Z6K6AYax;
         "1NmKoSzq" = _1NmKoSzq;
@@ -140,12 +145,14 @@ let
         "wwFXSCaw" = _wwFXSCaw;
         "jp0YyIYD" = _jp0YyIYD;
         "VftogBGR" = _VftogBGR;
+        "iBhWTHTr" = _iBhWTHTr;
         "fabric-1.21.11" = _euCUBM7p;
         "fabric-1.21.10" = _jp0YyIYD;
         "fabric-26.1" = _wwFXSCaw;
         "fabric-26.1.1" = _wwFXSCaw;
         "fabric-26.1.2" = _wwFXSCaw;
         "fabric-26.2" = _VftogBGR;
+        "fabric-26.3" = _iBhWTHTr;
         "neoforge-1.21.10" = _ckHqh4WI;
         "neoforge-1.21.11" = _5uqgGJWW;
         "pkg-1.2.2-fork.2+1.21.11" = _Z6K6AYax;
@@ -168,7 +175,8 @@ let
         "pkg-1.2.2-fork.12+26.1.2" = _wwFXSCaw;
         "pkg-1.2.2-fork.9+1.21.10" = _jp0YyIYD;
         "pkg-1.2.2-fork.13+26.2" = _VftogBGR;
-        "default" = _VftogBGR;
+        "pkg-1.2.2-fork.14+26.3" = _iBhWTHTr;
+        "default" = _iBhWTHTr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cit-resewn-continuation";

@@ -236,6 +236,16 @@ let
             "file" = "Cobblemon AFP 1.9.2-1.21.1-NeoForge-NoGEB.jar";
             "hash" = "sha512-zxNjitbjAFXOKqwFnvWxwTWl6Qgwoh/ps62hDmnDR2SWE8p1nr9/Wl3XC4cQw2pHIxHxGP3Pu1w1M0BgNCT2rQ==";
         };
+        _Ak6t2J2O = {
+            "id" = "Ak6t2J2O";
+            "file" = "Cobblemon AFP 2.0.0-1.21.1-Fabric.jar";
+            "hash" = "sha512-k43jYY2ip7ZerjSKIjWQ3+HryONB+j/Q6LQbc2BXH86aKdQl/K8+fBkhi8rhjZxCHXVZY2IlEzsvC3hTM0hKYA==";
+        };
+        _CIQg9AgQ = {
+            "id" = "CIQg9AgQ";
+            "file" = "Cobblemon AFP 2.0.0-1.21.1-NeoForge.jar";
+            "hash" = "sha512-KmQF84xinAtglUvLc4iJYCQNQY4VqS99oc6q2/wUF4vLPmD8namMk56aKpfrae8xsNg25ajuLkNtVQYPS7MsQg==";
+        };
     in {
         "QXtUDDxw" = _QXtUDDxw;
         "vpCpBSGf" = _vpCpBSGf;
@@ -284,14 +294,16 @@ let
         "RlifngcZ" = _RlifngcZ;
         "MVqsFs5U" = _MVqsFs5U;
         "KSPGJWMv" = _KSPGJWMv;
+        "Ak6t2J2O" = _Ak6t2J2O;
+        "CIQg9AgQ" = _CIQg9AgQ;
         "datapack-1.19.2" = _uu00feFk;
         "datapack-1.20.1" = _qE3ZkYNE;
         "fabric-1.20.1" = _t8eKNo6X;
-        "fabric-1.21.1" = _MVqsFs5U;
+        "fabric-1.21.1" = _Ak6t2J2O;
         "forge-1.20.1" = _rc6SmSHa;
-        "forge-1.21.1" = _KSPGJWMv;
+        "forge-1.21.1" = _CIQg9AgQ;
         "neoforge-1.20.1" = _rc6SmSHa;
-        "neoforge-1.21.1" = _KSPGJWMv;
+        "neoforge-1.21.1" = _CIQg9AgQ;
         "pkg-1.0" = _QXtUDDxw;
         "pkg-1.1" = _vpCpBSGf;
         "pkg-1.1.5" = _lcD6lbWT;
@@ -322,7 +334,8 @@ let
         "pkg-1.9.1" = _OPmSsKeh;
         "pkg-1.9.2" = _RlifngcZ;
         "pkg-1.9.2b" = _KSPGJWMv;
-        "default" = _KSPGJWMv;
+        "pkg-2.0.0" = _CIQg9AgQ;
+        "default" = _CIQg9AgQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-alatias-fakemon-pack";

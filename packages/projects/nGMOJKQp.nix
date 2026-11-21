@@ -216,6 +216,11 @@ let
             "file" = "anvilcraft_pigsplus-neoforge-2.15.1.jar";
             "hash" = "sha512-2mkFMQoWfrL1oLOE3Wlf4A4xFviAcGJxEbLQvmpHpRALVB+BbkE7ZbIijyE6FyhPH+FjJStKZCvDAayIqnNL5A==";
         };
+        _GpLlVA9p = {
+            "id" = "GpLlVA9p";
+            "file" = "anvilcraft_pigsplus-neoforge-2.16.0.jar";
+            "hash" = "sha512-k0ZdmyQcpO22IJW95WsHwX10DMhcnVO1UKbsKCq4YFNdnpzZt5NKiUPgVl4E/6Gh0ZFUqCqd+dddfALXmdt7yA==";
+        };
     in {
         "u75ZgTau" = _u75ZgTau;
         "ViJYQrRq" = _ViJYQrRq;
@@ -260,7 +265,8 @@ let
         "HQwi29V0" = _HQwi29V0;
         "eQtHmulX" = _eQtHmulX;
         "gX9Hg4er" = _gX9Hg4er;
-        "neoforge-1.21.1" = _gX9Hg4er;
+        "GpLlVA9p" = _GpLlVA9p;
+        "neoforge-1.21.1" = _GpLlVA9p;
         "pkg-0.1.0" = _u75ZgTau;
         "pkg-0.1.1" = _ViJYQrRq;
         "pkg-0.1.2" = _vNzUmwjk;
@@ -304,7 +310,8 @@ let
         "pkg-2.14.1" = _HQwi29V0;
         "pkg-2.15.0" = _eQtHmulX;
         "pkg-2.15.1" = _gX9Hg4er;
-        "default" = _gX9Hg4er;
+        "pkg-2.16.0" = _GpLlVA9p;
+        "default" = _GpLlVA9p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anvilcraftpigsplus";

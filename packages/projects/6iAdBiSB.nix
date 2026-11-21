@@ -671,6 +671,46 @@ let
             "file" = "SimpleSorterR-neoforge-26.3-3.6.3.jar";
             "hash" = "sha512-KAWvQs9AnA4l7MdYnhI8guCGjAjDUNatxFWrBe8N7wf8kFi6fcX8VgmwWeLqVrCKLyiXIg8Dms7hxep9p0NA6g==";
         };
+        _i3LpZIIj = {
+            "id" = "i3LpZIIj";
+            "file" = "SimpleSorterR-1.21.1-Sophisticated-Edition-3.6.3.jar";
+            "hash" = "sha512-tWFX8Ckux9rOr8S2E1eGmPFdWpL8zpkKKsMBZS+V61vXE5gzMxszU/tEdNMjAmlNxAbe+w1WWJWFiPd3qEuQuA==";
+        };
+        _NHtd803Y = {
+            "id" = "NHtd803Y";
+            "file" = "SimpleSorterR-1.21.4-Sophisticated-Edition-3.6.3.jar";
+            "hash" = "sha512-L/yTPkemhEzDiUm5HXRWUBTUpVxheoDkeXdnPu1eacipxbienOSX+ImjUUXmuaPoMKMHTgK16a5FI2CXe1MzUQ==";
+        };
+        _vMkSVgYa = {
+            "id" = "vMkSVgYa";
+            "file" = "SimpleSorterR-1.21.8-Sophisticated-Edition-3.6.3.jar";
+            "hash" = "sha512-w1U1ZXmi++m0OtthQ063g4TyljUwNEct7+4feHmQkHNqXY5ZnuH4wSFQqiZu8rTpSdlkcopCg1aZkStapQWF+g==";
+        };
+        _sjfYzXf1 = {
+            "id" = "sjfYzXf1";
+            "file" = "SimpleSorterR-1.21.10-Sophisticated-Edition-3.6.3.jar";
+            "hash" = "sha512-E6k2iGEW6TZ4e0+vO5Geti7TjLtaRtWtCw51cBIT71I7LCQZgIA7Qc976i2zzq5hAlvPqa8+MXVOgr7GWRFZtg==";
+        };
+        _WfdJ0p3l = {
+            "id" = "WfdJ0p3l";
+            "file" = "SimpleSorterR-1.21.11-Sophisticated-Edition-3.6.3.jar";
+            "hash" = "sha512-7tQu+9sUkoxz9PSYtFVxNQDwb0jjQ/YyNl4F7yvh7Px/d7HPjyXB8C5Fq9mJYc32kkPGDSK3HsZfsZisLHzlmw==";
+        };
+        _uQXPZo7m = {
+            "id" = "uQXPZo7m";
+            "file" = "SimpleSorterR-26.1-Sophisticated-Edition-3.6.3.jar";
+            "hash" = "sha512-jIs1MsbSrOIl1XbY7fj6dovYmTeUaSt5lnRp4wWq9f/DxDdreOafcH7Fc6pVgxP63/3IpbfeCCH8IBvYm4PDqw==";
+        };
+        _j89H1BcM = {
+            "id" = "j89H1BcM";
+            "file" = "SimpleSorterR-26.2-Sophisticated-Edition-3.6.3.jar";
+            "hash" = "sha512-T4CxwM4I3mvr+mJLjEbASTdpIXz1swprGGz9umy+qD3ZKWKBjDmz8wjpPkaqKGD0pPrV+JtGGKH5Gbk4vc9RmQ==";
+        };
+        _CunJh6I6 = {
+            "id" = "CunJh6I6";
+            "file" = "SimpleSorterR-26.3-Sophisticated-Edition-3.6.3.jar";
+            "hash" = "sha512-Hd33V1T2DCUNYU0/T2MCR7IPGBn/RmYEMDNEub9pE9JttbWGEWrHG2AeohwMUcE+Sn5YVwWtsC8KKVedrQzw+A==";
+        };
     in {
         "NYgBeRwM" = _NYgBeRwM;
         "5U1bDvEF" = _5U1bDvEF;
@@ -806,6 +846,14 @@ let
         "n2lLeSU2" = _n2lLeSU2;
         "Qu5Gff3B" = _Qu5Gff3B;
         "HMl5Fbe0" = _HMl5Fbe0;
+        "i3LpZIIj" = _i3LpZIIj;
+        "NHtd803Y" = _NHtd803Y;
+        "vMkSVgYa" = _vMkSVgYa;
+        "sjfYzXf1" = _sjfYzXf1;
+        "WfdJ0p3l" = _WfdJ0p3l;
+        "uQXPZo7m" = _uQXPZo7m;
+        "j89H1BcM" = _j89H1BcM;
+        "CunJh6I6" = _CunJh6I6;
         "fabric-1.21.1" = _4Kc27ZNG;
         "fabric-1.21.11" = _EOLgLqJo;
         "fabric-1.21" = _4Kc27ZNG;
@@ -842,18 +890,18 @@ let
         "forge-1.21" = _qzBKZoV7;
         "forge-1.20" = _3NKWWXxw;
         "neoforge-1.20.1" = _3NKWWXxw;
-        "neoforge-1.21.1" = _X2eGR46Z;
-        "neoforge-1.21.11" = _G1NrmK6C;
-        "neoforge-1.21.10" = _AFIpnsQF;
+        "neoforge-1.21.1" = _i3LpZIIj;
+        "neoforge-1.21.11" = _WfdJ0p3l;
+        "neoforge-1.21.10" = _sjfYzXf1;
         "neoforge-1.21.9" = _O5nynBgO;
-        "neoforge-1.21.8" = _P7gx52uW;
-        "neoforge-26.1" = _n2lLeSU2;
-        "neoforge-26.1.1" = _n2lLeSU2;
-        "neoforge-26.1.2" = _n2lLeSU2;
+        "neoforge-1.21.8" = _vMkSVgYa;
+        "neoforge-26.1" = _uQXPZo7m;
+        "neoforge-26.1.1" = _uQXPZo7m;
+        "neoforge-26.1.2" = _uQXPZo7m;
         "neoforge-1.21" = _F56xxeNr;
-        "neoforge-1.21.4" = _gUShbCiy;
-        "neoforge-26.2" = _Qu5Gff3B;
-        "neoforge-26.3" = _HMl5Fbe0;
+        "neoforge-1.21.4" = _NHtd803Y;
+        "neoforge-26.2" = _j89H1BcM;
+        "neoforge-26.3" = _CunJh6I6;
         "neoforge-1.20" = _3NKWWXxw;
         "pkg-1.0.0" = _1ZLx9LiC;
         "pkg-SimplesorterR" = _5bdBoywa;
@@ -871,7 +919,8 @@ let
         "pkg-3.6.1" = _7FmfuY8O;
         "pkg-3.6.2" = _DYanvVhu;
         "pkg-3.6.3" = _HMl5Fbe0;
-        "default" = _HMl5Fbe0;
+        "pkg-SimpleSorterR-Sophisticated-Edit" = _CunJh6I6;
+        "default" = _CunJh6I6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simplesorterr";

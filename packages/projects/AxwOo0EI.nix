@@ -51,6 +51,11 @@ let
             "file" = "avatar-legend-reforged-1.3.1.jar";
             "hash" = "sha512-oWk7xXco8QYa327kucTEkUTXeOBU2AuXqmzBsbfj7xTod7rl50YMCBPVPPdt8jRH4qq/v6BjPS4JteC0EHwcFQ==";
         };
+        _Gf28LqJK = {
+            "id" = "Gf28LqJK";
+            "file" = "avatar-legend-reforged-1.3.2.jar";
+            "hash" = "sha512-6iZ4Y+/UVrGrwsRrrmue2DBFlt/2JBaC1WZwWum2LQDZDwp64OoaN/zRNYflJEOUzNeU2O2xshyyzPjKNAfvGA==";
+        };
     in {
         "5kac4oHu" = _5kac4oHu;
         "MBr1v5WJ" = _MBr1v5WJ;
@@ -62,7 +67,8 @@ let
         "fmzrmmu5" = _fmzrmmu5;
         "kW6P6ZVI" = _kW6P6ZVI;
         "HX0wtPJs" = _HX0wtPJs;
-        "neoforge-1.21.1" = _HX0wtPJs;
+        "Gf28LqJK" = _Gf28LqJK;
+        "neoforge-1.21.1" = _Gf28LqJK;
         "pkg-1.0.0" = _5kac4oHu;
         "pkg-1.0.1" = _MBr1v5WJ;
         "pkg-1.0.2" = _CogSMtmd;
@@ -73,7 +79,8 @@ let
         "pkg-1.2.1" = _fmzrmmu5;
         "pkg-1.3.0" = _kW6P6ZVI;
         "pkg-1.3.1" = _HX0wtPJs;
-        "default" = _HX0wtPJs;
+        "pkg-1.3.2" = _Gf28LqJK;
+        "default" = _Gf28LqJK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "avatar-legend-reforged";
