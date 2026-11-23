@@ -263,7 +263,7 @@ it is recommended to set these options:
                     # Patterns to allow
                     {
                         type = "prefix";
-                        value = "resourcepacks/"
+                        value = "resourcepacks/";
                     }
                 ];
             };
