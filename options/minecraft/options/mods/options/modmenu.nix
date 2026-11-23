@@ -15,17 +15,17 @@
 
         sorting = lib.mkOption {
           type = lib.types.enum [
-            "ASCENDING"
-            "DESCENDING"
-            "HAS_UPDATE"
+            "ascending"
+            "descending"
+            "has_update"
           ];
-          default = "ASCENDING";
-          example = "DESCENDING";
+          default = "ascending";
+          example = "descending";
           description = ''
             How Mod Menu orders the mods:
-            - `ASCENDING`
-            - `DESCENDING`
-            - `HAS_UPDATE`
+            - `ascending`
+            - `decending`
+            - `has_update`
           '';
         };
         count = {
@@ -57,17 +57,17 @@
           };
           channel = lib.mkOption {
             type = lib.types.enum [
-              "ALPHA"
-              "BETA"
-              "RELEASE"
+              "alpha"
+              "beta"
+              "release"
             ];
-            default = "RELEASE";
-            example = "ALPHA";
+            default = "release";
+            example = "alpha";
             description = ''
               The channel that the checker uses to check for new mod versions:
-              - `ALPHA`
-              - `BETA`
-              - `RELEASE`
+              - `alpha`
+              - `beta`
+              - `release`
             '';
           };
           blacklist = lib.mkOption {
@@ -131,37 +131,37 @@
         button = {
           mods_style = lib.mkOption {
             type = lib.types.enum [
-              "CLASSIC"
-              "REPLACE_REALMS"
-              "SHRINK"
-              "ICON"
+              "classic"
+              "replace_realms"
+              "shrink"
+              "icon"
             ];
-            default = "ICON";
-            example = "CLASSIC";
+            default = "icon";
+            example = "classic";
             description = ''
               The style of the Mods button:
-              - `CLASSIC`
-              - `REPLACE_REALMS`
-              - `SHRINK`
-              - `ICON`
+              - `classic`
+              - `replace_realms`
+              - `shrink`
+              - `icon`
             '';
           };
 
           game_menu_style = lib.mkOption {
             type = lib.types.enum [
-              "CLASSIC"
-              "REPLACE_REALMS"
-              "SHRINK"
-              "ICON"
+              "classic"
+              "replace_realms"
+              "shrink"
+              "icon"
             ];
-            default = "ICON";
-            example = "SHRINK";
+            default = "icon";
+            example = "shrink";
             description = ''
               The style of the button in the game menu:
-              - `CLASSIC`
-              - `REPLACE_REALMS`
-              - `SHRINK`
-              - `ICON`
+              - `classic`
+              - `replace_realms`
+              - `shrink`
+              - `icon`
             '';
           };
 
@@ -176,35 +176,35 @@
         display = {
           mod_count_location = lib.mkOption {
             type = lib.types.enum [
-              "TITLE_SCREEN"
-              "MODS_BUTTON"
-              "TITLE_SCREEN_AND_MODS_BUTTON"
-              "NONE"
+              "title_screen"
+              "mods_button"
+              "title_screen_and_mods_button"
+              "none"
             ];
-            default = "TITLE_SCREEN";
-            example = "MODS_BUTTON";
+            default = "title_screen";
+            example = "mods_button";
             description = ''
               Where to display the mod count:
-              - `TITLE_SCREEN`
-              - `MODS_BUTTON`
-              - `TITLE_SCREEN_AND_MODS_BUTTON`
-              - `NONE`
+              - `title_screen`
+              - `mods_button`
+              - `title_screen_and_mods_button`
+              - `none`
             '';
           };
 
           show_libraries = lib.mkOption {
             type = lib.types.enum [
-              "FALSE"
-              "WITH_CONFIG"
-              "TRUE"
+              "false"
+              "with_config"
+              "true"
             ];
-            default = "WITH_CONFIG";
-            example = "TRUE";
+            default = "with_config";
+            example = "true";
             description = ''
               When to show library mods:
-              - `FALSE`
-              - `WITH_CONFIG`
-              - `TRUE`
+              - `false`
+              - `with_config`
+              - `true`
             '';
           };
 
