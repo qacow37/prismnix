@@ -45,6 +45,6 @@ attribute set of (submodule)
 ```
 
 *Declared by:*
- - [/nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/file\.nix](file:///nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/file.nix)
+ - [/nix/store/6xm16b3fq7cmgill8y0m09hzr7qrn1ca-source/options/file\.nix](file:///nix/store/6xm16b3fq7cmgill8y0m09hzr7qrn1ca-source/options/file.nix)
 
 

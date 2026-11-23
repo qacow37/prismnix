@@ -18,7 +18,7 @@ false
 ```
 
 *Declared by:*
- - [/nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/minecraft](file:///nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/minecraft)
+ - [/nix/store/6xm16b3fq7cmgill8y0m09hzr7qrn1ca-source/options/minecraft](file:///nix/store/6xm16b3fq7cmgill8y0m09hzr7qrn1ca-source/options/minecraft)
 
 
 
@@ -53,7 +53,7 @@ list of package
 ```
 
 *Declared by:*
- - [/nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/minecraft](file:///nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/minecraft)
+ - [/nix/store/6xm16b3fq7cmgill8y0m09hzr7qrn1ca-source/options/minecraft](file:///nix/store/6xm16b3fq7cmgill8y0m09hzr7qrn1ca-source/options/minecraft)
 
 
 
@@ -75,7 +75,7 @@ a JSON object
 ```
 
 *Declared by:*
- - [/nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/minecraft](file:///nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/minecraft)
+ - [/nix/store/6xm16b3fq7cmgill8y0m09hzr7qrn1ca-source/options/minecraft](file:///nix/store/6xm16b3fq7cmgill8y0m09hzr7qrn1ca-source/options/minecraft)
 
 
 
@@ -99,6 +99,6 @@ string
 ```
 
 *Declared by:*
- - [/nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/minecraft](file:///nix/store/f1qkq1gbi99kmwbjdszgcq9vn34bi27v-source/options/minecraft)
+ - [/nix/store/6xm16b3fq7cmgill8y0m09hzr7qrn1ca-source/options/minecraft](file:///nix/store/6xm16b3fq7cmgill8y0m09hzr7qrn1ca-source/options/minecraft)
 
 

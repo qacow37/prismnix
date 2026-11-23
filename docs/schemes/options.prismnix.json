@@ -44,6 +44,10 @@
                                                 {
                                                     "type": "file",
                                                     "name": "fabric-language-kotlin"
+                                                },
+                                                {
+                                                    "type": "file",
+                                                    "name": "modmenu"
                                                 }
                                             ]
                                         },
