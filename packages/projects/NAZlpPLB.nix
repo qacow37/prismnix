@@ -46,6 +46,11 @@ let
             "file" = "traditional_craft-1.0.5.3-forge-1.20.1.jar";
             "hash" = "sha512-XeAMbuMPxZ51zLB8jZqIVCaPs9lKe+G3OPSYzmfpFp2WFrNivJEiR8Y4yCHZ5Plq9aqZ4zUQDquYuMbEW2IlnA==";
         };
+        _lLu0W8uZ = {
+            "id" = "lLu0W8uZ";
+            "file" = "traditional_craft-1.0.5.4-forge-1.20.1.jar";
+            "hash" = "sha512-oQJfyb8+t/kMf/s6OKlsKFvoP9nCM+jv4TacERwmP046DG4/oLaYJ0zVjfKErMyfsKSZ1FwtitiP9tzo+ZkyGA==";
+        };
     in {
         "fkUlnwwj" = _fkUlnwwj;
         "IKFuzBwS" = _IKFuzBwS;
@@ -56,7 +61,8 @@ let
         "mLJNfSAE" = _mLJNfSAE;
         "RffGLuKA" = _RffGLuKA;
         "TRa5QLNU" = _TRa5QLNU;
-        "forge-1.20.1" = _TRa5QLNU;
+        "lLu0W8uZ" = _lLu0W8uZ;
+        "forge-1.20.1" = _lLu0W8uZ;
         "pkg-1.0.0" = _fkUlnwwj;
         "pkg-1.0.1" = _IKFuzBwS;
         "pkg-1.0.2" = _sxBMyS4P;
@@ -66,7 +72,8 @@ let
         "pkg-1.0.5.1" = _mLJNfSAE;
         "pkg-1.0.5.2" = _RffGLuKA;
         "pkg-1.0.5.3" = _TRa5QLNU;
-        "default" = _TRa5QLNU;
+        "pkg-1.0.5.4" = _lLu0W8uZ;
+        "default" = _lLu0W8uZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "traditionalcraft";

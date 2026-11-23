@@ -76,6 +76,11 @@ let
             "file" = "roxy-1.21.1-NeoForge-0.4.2.jar";
             "hash" = "sha512-N5wSG6+5Ac6tWu2KX5leltm8NqY1+HBFHvQnWHPfsZ9dNUDs3BwvBxfOaOJLnyC2w7khl0T44a25A05dzwlKrw==";
         };
+        _JJlkgYxJ = {
+            "id" = "JJlkgYxJ";
+            "file" = "roxy-1.21.1-NeoForge-0.4.2.1.jar";
+            "hash" = "sha512-Fas0pjSzpHokOBm0CHMrajPhlbA+8Q60ByYvFM0fG+B3QRbFMvAoab7o7FtP5TWXey8dFCQAZLHxQ9FNSBRa5w==";
+        };
     in {
         "iZGvaaTz" = _iZGvaaTz;
         "1VwITImN" = _1VwITImN;
@@ -92,7 +97,8 @@ let
         "cDmwpuYr" = _cDmwpuYr;
         "VnJRhuAn" = _VnJRhuAn;
         "NLiP3Sr3" = _NLiP3Sr3;
-        "neoforge-1.21.1" = _NLiP3Sr3;
+        "JJlkgYxJ" = _JJlkgYxJ;
+        "neoforge-1.21.1" = _JJlkgYxJ;
         "pkg-0.1.0-neoforge+mc1.21.1" = _iZGvaaTz;
         "pkg-0.1.4-neoforge+mc1.21.1" = _1VwITImN;
         "pkg-0.1.5-neoforge+mc1.21.1" = _bAb6XuNm;
@@ -108,7 +114,8 @@ let
         "pkg-0.4.0-neoforge+mc1.21.1" = _cDmwpuYr;
         "pkg-0.4.1-neoforge+mc1.21.1" = _VnJRhuAn;
         "pkg-0.4.2-neoforge+mc1.21.1" = _NLiP3Sr3;
-        "default" = _NLiP3Sr3;
+        "pkg-0.4.2.1-neoforge+mc1.21.1" = _JJlkgYxJ;
+        "default" = _JJlkgYxJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "roxy";

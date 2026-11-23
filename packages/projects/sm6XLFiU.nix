@@ -71,6 +71,16 @@ let
             "file" = "echo-wireless-redstone-1.5.jar";
             "hash" = "sha512-+0hhjGBV1JssnJfzeEfrqmvGozQW8ZD4lFZKTII4dVVaNEykxl3ZJRVaMF8vlg27OQ3o+HrXvK8GfXjJKXZyag==";
         };
+        _wjFOUzLr = {
+            "id" = "wjFOUzLr";
+            "file" = "dp_dash_echo_redstone_V1.7.zip";
+            "hash" = "sha512-fMUHOwKgcTIQYF9jCT2L+ezXNmmm74HxDhjtBSTkIOE6ipiLwUDg9fkuZBoEXKnNcbJVjQC3cAI35OIV0DePXw==";
+        };
+        _x0mUH7sP = {
+            "id" = "x0mUH7sP";
+            "file" = "echo-wireless-redstone-1.7.jar";
+            "hash" = "sha512-oRVWELnH6x+YSJZA8RmR/jswWbXqvFJ35HxA+tUzkRf8wm29phBBEmFM+Fa3US9D7GqQpSZg7MzdBoLHLh3ZXQ==";
+        };
     in {
         "jBevrsJ8" = _jBevrsJ8;
         "FQ3vi8YH" = _FQ3vi8YH;
@@ -86,36 +96,43 @@ let
         "QFgODHnY" = _QFgODHnY;
         "G3utF1E9" = _G3utF1E9;
         "BFW66IsW" = _BFW66IsW;
+        "wjFOUzLr" = _wjFOUzLr;
+        "x0mUH7sP" = _x0mUH7sP;
         "datapack-1.21.4" = _V2UaJr0Q;
         "datapack-1.21.5" = _bDhwuvU5;
         "datapack-1.21.9" = _InpPh5bb;
         "datapack-1.21.10" = _InpPh5bb;
         "datapack-1.21.11" = _InpPh5bb;
         "datapack-26.1" = _G3utF1E9;
+        "datapack-26.3" = _wjFOUzLr;
         "fabric-1.21.4" = _unwNtLMN;
         "fabric-1.21.5" = _DM7ER1JK;
         "fabric-1.21.9" = _QFgODHnY;
         "fabric-1.21.10" = _QFgODHnY;
         "fabric-1.21.11" = _QFgODHnY;
         "fabric-26.1" = _BFW66IsW;
+        "fabric-26.3" = _x0mUH7sP;
         "forge-1.21.4" = _unwNtLMN;
         "forge-1.21.5" = _DM7ER1JK;
         "forge-1.21.9" = _QFgODHnY;
         "forge-1.21.10" = _QFgODHnY;
         "forge-1.21.11" = _QFgODHnY;
         "forge-26.1" = _BFW66IsW;
+        "forge-26.3" = _x0mUH7sP;
         "neoforge-1.21.4" = _unwNtLMN;
         "neoforge-1.21.5" = _DM7ER1JK;
         "neoforge-1.21.9" = _QFgODHnY;
         "neoforge-1.21.10" = _QFgODHnY;
         "neoforge-1.21.11" = _QFgODHnY;
         "neoforge-26.1" = _BFW66IsW;
+        "neoforge-26.3" = _x0mUH7sP;
         "quilt-1.21.4" = _unwNtLMN;
         "quilt-1.21.5" = _DM7ER1JK;
         "quilt-1.21.9" = _QFgODHnY;
         "quilt-1.21.10" = _QFgODHnY;
         "quilt-1.21.11" = _QFgODHnY;
         "quilt-26.1" = _BFW66IsW;
+        "quilt-26.3" = _x0mUH7sP;
         "pkg-1.0" = _V2UaJr0Q;
         "pkg-1.0+mod" = _unwNtLMN;
         "pkg-1.1" = _KEbz4LBZ;
@@ -128,7 +145,9 @@ let
         "pkg-1.4+mod" = _QFgODHnY;
         "pkg-1.5" = _G3utF1E9;
         "pkg-1.5+mod" = _BFW66IsW;
-        "default" = _BFW66IsW;
+        "pkg-1.7" = _wjFOUzLr;
+        "pkg-1.7+mod" = _x0mUH7sP;
+        "default" = _x0mUH7sP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "echo-wireless-redstone";

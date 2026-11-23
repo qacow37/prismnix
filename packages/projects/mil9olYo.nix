@@ -46,6 +46,11 @@ let
             "file" = "northstar_aeronautics_compat-0.1.9.jar";
             "hash" = "sha512-EtMRcvb2c+9LBBpYQA7n6lXyYy/Dyv0sMBJEOCM7gfqferAmUv3e9No19N+/Rv5kTAE7SgAf/Gw1ZJhVishK0w==";
         };
+        _5qIjxaDo = {
+            "id" = "5qIjxaDo";
+            "file" = "northstar_aeronautics_compat-0.2.0.jar";
+            "hash" = "sha512-Zs/tLmJzhxhPGQZDRAMSg4UIjZwppYe5Qndl1FsoOEB4xhx9Lpua9UdzT64Ukmp6hIjenyLykWJag5qpIWoQGw==";
+        };
     in {
         "LJ5bGjQy" = _LJ5bGjQy;
         "Ofb8Plq2" = _Ofb8Plq2;
@@ -56,7 +61,8 @@ let
         "Sl0xym2m" = _Sl0xym2m;
         "wcFUCHhI" = _wcFUCHhI;
         "2V9tPQ6g" = _2V9tPQ6g;
-        "neoforge-1.21.1" = _2V9tPQ6g;
+        "5qIjxaDo" = _5qIjxaDo;
+        "neoforge-1.21.1" = _5qIjxaDo;
         "pkg-0.1.1" = _LJ5bGjQy;
         "pkg-0.1.2" = _Ofb8Plq2;
         "pkg-0.1.3" = _qrLgM5KU;
@@ -66,7 +72,8 @@ let
         "pkg-0.1.7" = _Sl0xym2m;
         "pkg-0.1.8" = _wcFUCHhI;
         "pkg-0.1.9" = _2V9tPQ6g;
-        "default" = _2V9tPQ6g;
+        "pkg-0.2.0" = _5qIjxaDo;
+        "default" = _5qIjxaDo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "northstar-aeronautics-compat";

@@ -41,6 +41,26 @@ let
             "file" = "core-companion-2.4.33.jar";
             "hash" = "sha512-4ic9kQ1xCYcUhfSHfb+URCdDcbePRZQQ77Y/+fdvEqml3AH4OPVRHVJWI3W1mo1sYBre+6ScCUDvpP19yubkWw==";
         };
+        _A3U4dMTv = {
+            "id" = "A3U4dMTv";
+            "file" = "core-companion-2.4.7.jar";
+            "hash" = "sha512-wmygwrTikeVyM27ICZAVsJ0xWJ4X1WnawdceveuKGlw9f9MGAsksssGgmTfvxWJ5kXtbaEa7OarcKXcKnmtYfg==";
+        };
+        _xicxXLvs = {
+            "id" = "xicxXLvs";
+            "file" = "core-companion-2.4.7.jar";
+            "hash" = "sha512-L3n8jjo455KSVWLiUppOqrXWvihVM056PVSAsg6KNoMEmXKFdfIwwZW/3i1zf+zFHs8ezvkIdLo8JXBvWP7Jtw==";
+        };
+        _eovEXZxL = {
+            "id" = "eovEXZxL";
+            "file" = "core-companion-2.4.7.jar";
+            "hash" = "sha512-S9eRDUg+E0SKSJBX9xYasODETqOsKBT2uHJR4jVGpLvRNlpZ5kP+3/HWN1yclJaoeWgYVyLRohd6R0f5l8QbAA==";
+        };
+        _XTCL8c2Y = {
+            "id" = "XTCL8c2Y";
+            "file" = "core-companion-2.4.7.jar";
+            "hash" = "sha512-uCKYOVW4/fBG0/7q0pn+kG+DVXIuRG7h9efj3zuOtuy1mVIo8zQGXBqLA5XuUJvIAyAJR7pIRFJG/jw+Rqs4xw==";
+        };
     in {
         "GNtJIoAM" = _GNtJIoAM;
         "JntwpCFB" = _JntwpCFB;
@@ -50,9 +70,16 @@ let
         "lS0ZQb4c" = _lS0ZQb4c;
         "fGEE7xHz" = _fGEE7xHz;
         "UFUYuMdk" = _UFUYuMdk;
+        "A3U4dMTv" = _A3U4dMTv;
+        "xicxXLvs" = _xicxXLvs;
+        "eovEXZxL" = _eovEXZxL;
+        "XTCL8c2Y" = _XTCL8c2Y;
         "fabric-1.21.8" = _QnF4TiiA;
         "fabric-1.21.11" = _lS0ZQb4c;
-        "fabric-26.3" = _UFUYuMdk;
+        "fabric-26.3" = _A3U4dMTv;
+        "fabric-26.2" = _xicxXLvs;
+        "fabric-1.20.1" = _eovEXZxL;
+        "fabric-1.21.1" = _XTCL8c2Y;
         "pkg-1.0" = _GNtJIoAM;
         "pkg-2.0" = _JntwpCFB;
         "pkg-2.1.0" = _ROxbOmg2;
@@ -60,7 +87,8 @@ let
         "pkg-2.3" = _lS0ZQb4c;
         "pkg-2.4.5" = _fGEE7xHz;
         "pkg-2.4.6" = _UFUYuMdk;
-        "default" = _UFUYuMdk;
+        "pkg-2.4.7" = _XTCL8c2Y;
+        "default" = _XTCL8c2Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "core-companion";

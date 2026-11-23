@@ -66,6 +66,16 @@ let
             "file" = "bingosplashcommunity-1.1.2-26.3.jar";
             "hash" = "sha512-71h6f244CIzdDO0mH2MmCe2XS3OdM01waICWomeKTOGBG5dq1ZsQzZrYAHvUMj3sj2IrJMpDMIgDj46wQZ8vig==";
         };
+        _5uEX7SCV = {
+            "id" = "5uEX7SCV";
+            "file" = "bingosplashcommunity-1.1.3-26.2.jar";
+            "hash" = "sha512-1hLfwiSwg1qAF6DfXCuA77usPhKPYprdmcdv13KpQQQXTuujQJFOapn4lCfPZhIl+FJ8DIQ1snJuSt5c8aZP6Q==";
+        };
+        _ksmOrRbv = {
+            "id" = "ksmOrRbv";
+            "file" = "bingosplashcommunity-1.1.3-26.3.jar";
+            "hash" = "sha512-WxQC51Yld798ZCWhFWNVvrG53igCW/gEkzNdKuUcAH/Oe9uby375t+J8ikEwY3Ds5IhH+w3/MqBd+5tgFKSd5Q==";
+        };
     in {
         "AHgMNWPY" = _AHgMNWPY;
         "5uOn3ZUO" = _5uOn3ZUO;
@@ -80,11 +90,13 @@ let
         "IezMPWpd" = _IezMPWpd;
         "euyMkqv6" = _euyMkqv6;
         "Xh18OxFF" = _Xh18OxFF;
+        "5uEX7SCV" = _5uEX7SCV;
+        "ksmOrRbv" = _ksmOrRbv;
         "fabric-1.21.10" = _OuzIiFSC;
         "fabric-1.21.11" = _UBk0x2Oo;
         "fabric-26.1.2" = _IezMPWpd;
-        "fabric-26.2" = _euyMkqv6;
-        "fabric-26.3" = _Xh18OxFF;
+        "fabric-26.2" = _5uEX7SCV;
+        "fabric-26.3" = _ksmOrRbv;
         "pkg-1.0.0" = _AHgMNWPY;
         "pkg-1.0.1" = _5uOn3ZUO;
         "pkg-1.0.2" = _tk4O1iyd;
@@ -92,7 +104,8 @@ let
         "pkg-1.1.0" = _neK0k1Ob;
         "pkg-1.1.1" = _4yyT62jg;
         "pkg-1.1.2" = _Xh18OxFF;
-        "default" = _Xh18OxFF;
+        "pkg-1.1.3" = _ksmOrRbv;
+        "default" = _ksmOrRbv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bingosplashcommunity";

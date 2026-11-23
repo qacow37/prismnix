@@ -81,6 +81,16 @@ let
             "file" = "astemirlib_re-1.20.1-forge-1.2.987-SNAPSHOT.jar";
             "hash" = "sha512-XrUheTreQNHMwGJXs0+ltiB+EO7q8CHwFb9gr7UHgkYNceA+5zVPXdQwggYVz+bQYXmOqmRaNLuVOyYnolBl+w==";
         };
+        _OwQfaMME = {
+            "id" = "OwQfaMME";
+            "file" = "astemirlib_re-1.21.1-fabric-1.2.988-SNAPSHOT.jar";
+            "hash" = "sha512-AFTkRblTwqMa1F+mmgIMxZ6KVrksL//Lk94M1TFDQ6xbTI/w9BZOLiCjATwiobkGBKmSLuwZDqvC6+GwqLtMzw==";
+        };
+        _sRcfgtNX = {
+            "id" = "sRcfgtNX";
+            "file" = "astemirlib_re-1.21.1-forge-1.2.988-SNAPSHOT.jar";
+            "hash" = "sha512-Zf8EEheJHXo89XFvuFMoCjz34eqkEJB9Rska1N4uXy7IqM7I9saasP0oSGAKR40PhoukQz/2++grO1B0P3ilUg==";
+        };
     in {
         "1af4tpbA" = _1af4tpbA;
         "2hh34jSZ" = _2hh34jSZ;
@@ -98,10 +108,12 @@ let
         "P9OGDnTA" = _P9OGDnTA;
         "S0bOgXlm" = _S0bOgXlm;
         "ytBLjQBC" = _ytBLjQBC;
+        "OwQfaMME" = _OwQfaMME;
+        "sRcfgtNX" = _sRcfgtNX;
         "fabric-1.20.1" = _S0bOgXlm;
-        "fabric-1.21.1" = _P9OGDnTA;
+        "fabric-1.21.1" = _OwQfaMME;
         "forge-1.20.1" = _ytBLjQBC;
-        "neoforge-1.21.1" = _2aNaHqk3;
+        "neoforge-1.21.1" = _sRcfgtNX;
         "pkg-Fabric-1.20.1-1.2.984-SNAPSHOT" = _1af4tpbA;
         "pkg-Forge-1.20.1-1.2.984-SNAPSHOT" = _2hh34jSZ;
         "pkg-Fabric-1.21.1-1.2.984-SNAPSHOT" = _C5NRzrtB;
@@ -116,7 +128,9 @@ let
         "pkg-Fabric-1.21.1-1.2.987-SNAPSHOT" = _P9OGDnTA;
         "pkg-Fabric-1.20.1-1.2.987-SNAPSHOT" = _S0bOgXlm;
         "pkg-Forge-1.20.1-1.2.987-SNAPSHOT" = _ytBLjQBC;
-        "default" = _ytBLjQBC;
+        "pkg-Fabric-1.21.1-1.2.988-SNAPSHOT" = _OwQfaMME;
+        "pkg-NeoForge-1.21.1-1.2.988-SNAPSHOT" = _sRcfgtNX;
+        "default" = _sRcfgtNX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "astemir-re-lib";

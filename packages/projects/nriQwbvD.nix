@@ -576,6 +576,46 @@ let
             "file" = "litematica-printer-dev515.jar";
             "hash" = "sha512-PejhN0uu79VRgUmLKoLXWGIWLrhqsOlL8wohiwLLRTqrMpV/zssD7Bzz9IRkOhVfj4vdgm+Z1wDYKK5Dnos0aw==";
         };
+        _1ik4qAO8 = {
+            "id" = "1ik4qAO8";
+            "file" = "litematica-printer-dev516.jar";
+            "hash" = "sha512-FNBPyJEA8xFve/cp8SobpKB22vna+WQ+Rl3utVMmqsM5z0WYE7AqOpd/lq+mfEw83jUXiCDe399CvwTGm8TwbA==";
+        };
+        _pfrBz2zk = {
+            "id" = "pfrBz2zk";
+            "file" = "litematica-printer-dev517.jar";
+            "hash" = "sha512-NjrxH+bhx9SMLrII+pJ9NEhTrFbWvAE+m10exRvgvi6/BKVjTTHus8tgC+JuHqHkAl7UBd6UygFu8OM8N79+sg==";
+        };
+        _Lx18hYai = {
+            "id" = "Lx18hYai";
+            "file" = "litematica-printer-dev518.jar";
+            "hash" = "sha512-xwN63Jg3VAUrYKl1CpvYEkZTVGValL1/8Z9dzqKfVwag8Ja17herKz7rHLLbBBRPhHpXOf/0QiivxXTzGZZLjA==";
+        };
+        _VuhHyBV1 = {
+            "id" = "VuhHyBV1";
+            "file" = "litematica-printer-dev519.jar";
+            "hash" = "sha512-Y8C71swkUcQxM5HyBTntT5V3mt50Yqoos8bDpgvPxudPeC3AaNClLk2aaI6nEv9TLbJpYJc0a8fx9gPEWuRddw==";
+        };
+        _3jBwyIsq = {
+            "id" = "3jBwyIsq";
+            "file" = "litematica-printer-dev520.jar";
+            "hash" = "sha512-5oL5uHSY5V7K6tSw7nsiB1Ta29NPQUWttebFp+40GZ2tiuaZhj3vZeEFxIxw3u6lMt7Ai+61QNu71TxzFua2aA==";
+        };
+        _nlOACcQf = {
+            "id" = "nlOACcQf";
+            "file" = "litematica-printer-dev521.jar";
+            "hash" = "sha512-aNpJ8bWN3asOnHAJWHQ43wefNo8m53VTZHijKrOPsYf+MouRmhfcYxeYuCMLKNBhd5EN8CoYSHA2Xm8fJdtuUA==";
+        };
+        _i8UYeAYE = {
+            "id" = "i8UYeAYE";
+            "file" = "litematica-printer-dev523.jar";
+            "hash" = "sha512-jlVjJQjrE7ucnYyssywb8y8lMyGYT2JhHn/hvirO5kVeIYf43+1gz01NgHPlX9QI0yEcwmyA6dTalgePRZogzQ==";
+        };
+        _QwdwOsWy = {
+            "id" = "QwdwOsWy";
+            "file" = "litematica-printer-dev525.jar";
+            "hash" = "sha512-m/i+P6vS6Hbh0qoDU+YrFjFQkm+6EONbxuNknnSsMk8P/AGKUeUAWaf7bJUVZYBGOtidHQINEh4QCGV1eZtpQA==";
+        };
     in {
         "iM0YFug1" = _iM0YFug1;
         "jcUSgzrI" = _jcUSgzrI;
@@ -692,6 +732,14 @@ let
         "O4uWHNQP" = _O4uWHNQP;
         "ktUdg0j4" = _ktUdg0j4;
         "nzUX3o7c" = _nzUX3o7c;
+        "1ik4qAO8" = _1ik4qAO8;
+        "pfrBz2zk" = _pfrBz2zk;
+        "Lx18hYai" = _Lx18hYai;
+        "VuhHyBV1" = _VuhHyBV1;
+        "3jBwyIsq" = _3jBwyIsq;
+        "nlOACcQf" = _nlOACcQf;
+        "i8UYeAYE" = _i8UYeAYE;
+        "QwdwOsWy" = _QwdwOsWy;
         "fabric-1.18.2" = _RFucyDlp;
         "fabric-1.19.4" = _RFucyDlp;
         "fabric-1.20.1" = _RFucyDlp;
@@ -709,12 +757,12 @@ let
         "fabric-1.21.8" = _RFucyDlp;
         "fabric-1.21.9" = _RFucyDlp;
         "fabric-1.21.10" = _RFucyDlp;
-        "fabric-1.21.11" = _RFucyDlp;
-        "fabric-26.1" = _nzUX3o7c;
-        "fabric-26.1.1" = _nzUX3o7c;
-        "fabric-26.1.2" = _nzUX3o7c;
-        "fabric-26.2" = _nzUX3o7c;
-        "fabric-26.3" = _nzUX3o7c;
+        "fabric-1.21.11" = _QwdwOsWy;
+        "fabric-26.1" = _QwdwOsWy;
+        "fabric-26.1.1" = _QwdwOsWy;
+        "fabric-26.1.2" = _QwdwOsWy;
+        "fabric-26.2" = _QwdwOsWy;
+        "fabric-26.3" = _QwdwOsWy;
         "pkg-0.7.2.1-Hana-dev348" = _iM0YFug1;
         "pkg-0.7.2.1-Hana-beta21" = _jcUSgzrI;
         "pkg-0.7.2.1-Hana-dev377" = _QyyT6C7K;
@@ -830,7 +878,15 @@ let
         "pkg-Hana-Dev513" = _O4uWHNQP;
         "pkg-Hana-Dev514" = _ktUdg0j4;
         "pkg-Hana-Dev515" = _nzUX3o7c;
-        "default" = _nzUX3o7c;
+        "pkg-Hana-Dev516" = _1ik4qAO8;
+        "pkg-Hana-Dev517" = _pfrBz2zk;
+        "pkg-Hana-Dev518" = _Lx18hYai;
+        "pkg-Hana-Dev519" = _VuhHyBV1;
+        "pkg-Hana-Dev520" = _3jBwyIsq;
+        "pkg-Hana-Dev521" = _nlOACcQf;
+        "pkg-Hana-Dev523" = _i8UYeAYE;
+        "pkg-Hana-Dev525" = _QwdwOsWy;
+        "default" = _QwdwOsWy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "litematica-printer-hana";

@@ -326,6 +326,11 @@ let
             "file" = "Werewolves-1.21-2.0.3.4.jar";
             "hash" = "sha512-XJMMyiiP04acTNOtnEQK6CmZboD7NOdT9Ub28vb9v17eVpO1x9IYLAwpd16ruqb/+ALAWHt8fHvsYs5kSf4nYA==";
         };
+        _LoRUcXwm = {
+            "id" = "LoRUcXwm";
+            "file" = "Werewolves-26.1.2-2.0.0-alpha.1.jar";
+            "hash" = "sha512-wrPO+8reMcTbZ5y2z+/KF1tUEYO2RMHeJwvEu64KvZBysDY5XjqePqrL495UE4WlY61ciPoQ7S9sAohyZ9v5Ww==";
+        };
     in {
         "PFjs3FbJ" = _PFjs3FbJ;
         "4a6k0AYN" = _4a6k0AYN;
@@ -392,6 +397,7 @@ let
         "iqhyUp1d" = _iqhyUp1d;
         "zkd687ts" = _zkd687ts;
         "nCpthLs4" = _nCpthLs4;
+        "LoRUcXwm" = _LoRUcXwm;
         "forge-1.18.2" = _5roJlEbK;
         "forge-1.19.2" = _MJkboI9N;
         "forge-1.16.5" = _F4fEQiif;
@@ -401,6 +407,7 @@ let
         "neoforge-1.20.4" = _hjuXAKhR;
         "neoforge-1.21" = _nCpthLs4;
         "neoforge-1.21.1" = _zkd687ts;
+        "neoforge-26.1.2" = _LoRUcXwm;
         "pkg-1.18.2-0.6.0-beta.1" = _PFjs3FbJ;
         "pkg-1.18.2-1.8-0.6.0-beta.3" = _4a6k0AYN;
         "pkg-1.18.2-0.6.0" = _Kg0UpUkS;
@@ -466,7 +473,8 @@ let
         "pkg-1.21-2.0.3.1" = _iqhyUp1d;
         "pkg-1.21-2.0.3.3" = _zkd687ts;
         "pkg-1.21-2.0.3.4" = _nCpthLs4;
-        "default" = _nCpthLs4;
+        "pkg-26.1.2-2.0.0-alpha.1" = _LoRUcXwm;
+        "default" = _LoRUcXwm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "werewolves";

@@ -16,16 +16,24 @@ let
             "file" = "sugarcane-plusplus-1.0.1.jar";
             "hash" = "sha512-Mhd04hhpANlUfXjXNEG01suM69BtXXEKcmJ0nDB3/sLN/qci7LBTcQ4WwqSONEL2TKj7Cv/zQ7ypRxHoA/5seA==";
         };
+        _NJLIfmyU = {
+            "id" = "NJLIfmyU";
+            "file" = "sugarcane-plusplus-1.0.2.jar";
+            "hash" = "sha512-rnn0RAxj0P0cseU/9AinI9B4JILBA1XAAh1TiT7+1HrslfPYB8pIXJxrQEOyWAZCtQpnSWDg3vhuxZU/XtSkIA==";
+        };
     in {
         "PuzffGJc" = _PuzffGJc;
         "3ngNFTET" = _3ngNFTET;
         "vzw7qthD" = _vzw7qthD;
+        "NJLIfmyU" = _NJLIfmyU;
         "fabric-1.21.10" = _PuzffGJc;
         "fabric-1.21.11" = _3ngNFTET;
         "fabric-26.2" = _vzw7qthD;
+        "fabric-26.3" = _NJLIfmyU;
         "pkg-1.0.0" = _PuzffGJc;
         "pkg-1.0.1" = _vzw7qthD;
-        "default" = _vzw7qthD;
+        "pkg-1.0.2" = _NJLIfmyU;
+        "default" = _NJLIfmyU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sugarcane++";

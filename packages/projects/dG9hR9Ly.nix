@@ -151,6 +151,16 @@ let
             "file" = "Tridot-1.21.1-1.1.5.jar";
             "hash" = "sha512-czKLOs5/O16Lmu7507OBSccZS0WA278rpsaoY6WGXsLH5JuNn8k5uCjwi6JkVnQ+6IMe7uaf5dj0otiPmA8ESw==";
         };
+        _jlvsIOLi = {
+            "id" = "jlvsIOLi";
+            "file" = "Tridot-1.20.1-1.1.7.jar";
+            "hash" = "sha512-Zk5Irz2vSw4FRCrpCjgko9bEA8QoiZUtvAT3Ib3RxsD7etASmke5UYhXI1HVAAMXQWYzwdxzFs7hMDM77dvC7A==";
+        };
+        _gN3eRiZg = {
+            "id" = "gN3eRiZg";
+            "file" = "Tridot-1.21.1-1.1.7.jar";
+            "hash" = "sha512-6TzWdzrlCPk1SiHi/sRBCUpNQD9UjZC6n2wyVmY/Dd7zQh7OxpT74cSqSVU3JR56/coBrT7RPpjTipk9BTtLow==";
+        };
     in {
         "vm6ha9iN" = _vm6ha9iN;
         "5wizSLNm" = _5wizSLNm;
@@ -182,7 +192,9 @@ let
         "MUp9zlZs" = _MUp9zlZs;
         "9qaBgoGl" = _9qaBgoGl;
         "jSIMa5JT" = _jSIMa5JT;
-        "forge-1.20.1" = _9qaBgoGl;
+        "jlvsIOLi" = _jlvsIOLi;
+        "gN3eRiZg" = _gN3eRiZg;
+        "forge-1.20.1" = _jlvsIOLi;
         "forge-1.20.2" = _IvGFC0ds;
         "forge-1.20.3" = _IvGFC0ds;
         "forge-1.20.4" = _IvGFC0ds;
@@ -194,7 +206,7 @@ let
         "neoforge-1.20.4" = _DuMwBqtL;
         "neoforge-1.20.5" = _DuMwBqtL;
         "neoforge-1.20.6" = _DuMwBqtL;
-        "neoforge-1.21.1" = _jSIMa5JT;
+        "neoforge-1.21.1" = _gN3eRiZg;
         "pkg-1.20.1-1.0.25" = _vm6ha9iN;
         "pkg-1.20.1-1.0.42" = _5wizSLNm;
         "pkg-1.20.1-1.0.43" = _lnxS7QrA;
@@ -224,7 +236,9 @@ let
         "pkg-1.21.1-1.1.3" = _13wnDGVX;
         "pkg-1.20.1-1.1.5" = _9qaBgoGl;
         "pkg-1.21.1-1.1.5" = _jSIMa5JT;
-        "default" = _jSIMa5JT;
+        "pkg-1.20.1-1.1.7" = _jlvsIOLi;
+        "pkg-1.21.1-1.1.7" = _gN3eRiZg;
+        "default" = _gN3eRiZg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tridot";

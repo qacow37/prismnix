@@ -156,6 +156,16 @@ let
             "file" = "extra-bows-fabric-1.1.2-1.20.1.jar";
             "hash" = "sha512-TkT3SsRNs7XxglZebrofpZyhSSMp/7FgszjMWtceng/skY6yIOlakBGpc//cxGTJq0hOtj68PC/rQ4hM22lqog==";
         };
+        _Ea94bnNB = {
+            "id" = "Ea94bnNB";
+            "file" = "extra-bows-fabric-1.1.3-1.20.1.jar";
+            "hash" = "sha512-dBWC/28lHIQ6Vby/azr6IUV8VngFtRmhfbFSCRVwbkBppAvRbU/hf3RVveXV1U0m6e4rySHHRjFtTz2/kV5qWg==";
+        };
+        _CTyeX720 = {
+            "id" = "CTyeX720";
+            "file" = "extra-bows-forge-1.1.3-1.20.1.jar";
+            "hash" = "sha512-F++jIp2ryAFwyBTCYi41/sKtiQDH1qIZqUjrbNqbU9RbV3fjizFGCQFn+mDDcUsn10VwEcISZPjcgftGZDsz7g==";
+        };
     in {
         "cAde4Dlz" = _cAde4Dlz;
         "2PzGEhTq" = _2PzGEhTq;
@@ -188,6 +198,8 @@ let
         "81w33cFB" = _81w33cFB;
         "Y92URaTR" = _Y92URaTR;
         "qiGMPyo9" = _qiGMPyo9;
+        "Ea94bnNB" = _Ea94bnNB;
+        "CTyeX720" = _CTyeX720;
         "datapack-1.21.9" = _sXhVW7P7;
         "datapack-1.21.10" = _sXhVW7P7;
         "datapack-1.21.11" = _Q1PnY8jf;
@@ -199,7 +211,7 @@ let
         "forge-1.21.10" = _nVMJgY2s;
         "forge-1.21" = _pENkFduo;
         "forge-1.21.1" = _pENkFduo;
-        "forge-1.20.1" = _Y92URaTR;
+        "forge-1.20.1" = _CTyeX720;
         "neoforge-1.21.9" = _nVMJgY2s;
         "neoforge-1.21.10" = _nVMJgY2s;
         "neoforge-1.21" = _pENkFduo;
@@ -210,7 +222,7 @@ let
         "fabric-1.21.10" = _mPEqNLHn;
         "fabric-1.21" = _f0bx5xiI;
         "fabric-1.21.1" = _81w33cFB;
-        "fabric-1.20.1" = _qiGMPyo9;
+        "fabric-1.20.1" = _Ea94bnNB;
         "pkg-1.0" = _cAde4Dlz;
         "pkg-1.0+mod" = _2PzGEhTq;
         "pkg-1.1" = _sXhVW7P7;
@@ -229,12 +241,13 @@ let
         "pkg-1.1.2-neoforge-mod" = _dKfdlhIG;
         "pkg-1.2.1" = _Qorgb1T0;
         "pkg-1.1.3-neoforge-mod" = _dEw4QOIf;
-        "pkg-1.1.3-fabric-mod" = _2lx9gSO6;
+        "pkg-1.1.3-fabric-mod" = _Ea94bnNB;
         "pkg-1.1.1-forge-mod" = _48hSipvu;
         "pkg-1.1.4-neoforge-mod" = _RBJYhF43;
         "pkg-1.1.4-fabric-mod" = _81w33cFB;
         "pkg-1.1.2-forge-mod" = _Y92URaTR;
-        "default" = _qiGMPyo9;
+        "pkg-1.1.3-forge-mod" = _CTyeX720;
+        "default" = _CTyeX720;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extra-bows";

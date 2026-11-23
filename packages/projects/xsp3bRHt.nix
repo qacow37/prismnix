@@ -46,6 +46,11 @@ let
             "file" = "better_beacon_range-0.4.0-1.21.11.jar";
             "hash" = "sha512-ilR0YoYwq6s8jSAzBspSnvA1q/uitgk6v1tGObPaVx47RMetXV+dZ09OXTGpQijEHe09hejjsBxdhBeKGlhTkA==";
         };
+        _GNY1dwrL = {
+            "id" = "GNY1dwrL";
+            "file" = "better_beacon_range-0.4.0-26.3.jar";
+            "hash" = "sha512-sXg7IHsHRLIpa7YkaUgbg2CZbWjWcwKt0GqidQWis0LIiZGtupGdDKywlvBhNAY87mbeG8/t6XAr+lQuOOEV6Q==";
+        };
     in {
         "Whsk2Uzm" = _Whsk2Uzm;
         "5MUV6Vzo" = _5MUV6Vzo;
@@ -56,12 +61,14 @@ let
         "T9l4JijW" = _T9l4JijW;
         "PMlVdYpL" = _PMlVdYpL;
         "teNMHdVP" = _teNMHdVP;
+        "GNY1dwrL" = _GNY1dwrL;
         "fabric-1.21.5" = _NqzrHKYp;
         "fabric-1.21.4" = _DuqzK9H4;
         "fabric-1.21.7" = _6ETBY9SX;
         "fabric-1.21.8" = _T9l4JijW;
         "fabric-1.21.10" = _PMlVdYpL;
         "fabric-1.21.11" = _teNMHdVP;
+        "fabric-26.3" = _GNY1dwrL;
         "pkg-0.3.0-1.21.5" = _Whsk2Uzm;
         "pkg-0.3.1-1.21.4" = _5MUV6Vzo;
         "pkg-0.3.1-1.21.5" = _pAELCVGp;
@@ -71,7 +78,8 @@ let
         "pkg-0.4.0-1.21.8" = _T9l4JijW;
         "pkg-0.4.0-1.21.10" = _PMlVdYpL;
         "pkg-0.4.0-1.21.11" = _teNMHdVP;
-        "default" = _teNMHdVP;
+        "pkg-0.4.0-26.3" = _GNY1dwrL;
+        "default" = _GNY1dwrL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-beacon-range-was-taken";

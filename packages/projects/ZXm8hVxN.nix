@@ -231,6 +231,11 @@ let
             "file" = "numismatic-overhaul-0.2.19+1.20.jar";
             "hash" = "sha512-VpiyEjSVvYnj6zKbbfMX0utk9WZN7hgu9RCKsZ/cfmQt0lWMIlba14l+s4OOJ3ZxCXy34S3ZIFnta7hylqv5lA==";
         };
+        _bDriw9KE = {
+            "id" = "bDriw9KE";
+            "file" = "numismatic-overhaul-0.4.0+1.21.jar";
+            "hash" = "sha512-dG4eL+Etb3sVjKDVx6UOkZhUuLNhHUe4FmIBGGKuQTXC2hiAjyhsLIEsYDL/3QjS4OHYZxqfCBOt34ns/upl8A==";
+        };
     in {
         "RC1TGhqM" = _RC1TGhqM;
         "w1oarWbm" = _w1oarWbm;
@@ -278,6 +283,7 @@ let
         "nMuxLkSq" = _nMuxLkSq;
         "Ls16xJ6W" = _Ls16xJ6W;
         "PKrV9xEP" = _PKrV9xEP;
+        "bDriw9KE" = _bDriw9KE;
         "fabric-1.18" = _4W6fpplJ;
         "fabric-1.18.1" = _4W6fpplJ;
         "fabric-1.18.2" = _H7xIR63z;
@@ -291,7 +297,7 @@ let
         "fabric-1.20.2" = _ceXDy4BG;
         "fabric-1.20.3" = _Rr3Lgu4l;
         "fabric-1.20.4" = _Rr3Lgu4l;
-        "fabric-1.21.1" = _Ls16xJ6W;
+        "fabric-1.21.1" = _bDriw9KE;
         "quilt-1.19" = _7IIOWmX4;
         "quilt-1.19.1" = _7IIOWmX4;
         "quilt-1.19.2" = _7IIOWmX4;
@@ -347,7 +353,8 @@ let
         "pkg-0.2.18+1.20" = _nMuxLkSq;
         "pkg-0.3.5+1.21" = _Ls16xJ6W;
         "pkg-0.2.19+1.20" = _PKrV9xEP;
-        "default" = _PKrV9xEP;
+        "pkg-0.4.0+1.21" = _bDriw9KE;
+        "default" = _bDriw9KE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "numismatic-overhaul";

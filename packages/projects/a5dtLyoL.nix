@@ -191,6 +191,26 @@ let
             "file" = "sporesrp-1.10.2-neo.jar";
             "hash" = "sha512-DHI/FjW1yADDvvRsWsvnol9V1e0cDBHA4+KB+6Du4VmcxAsEK2fsM5kIYN7cv0qGDA+xDf3VGkWSUn/uS0vwQg==";
         };
+        _xzMN7XGy = {
+            "id" = "xzMN7XGy";
+            "file" = "sporesrp-1.11.0.jar";
+            "hash" = "sha512-JI1YXxRTenN/aSZkbOHy//VnEvcjLHapJmBaIgUVcNLDpReZfZYKt4UARQ15pbsWKJ6p+GFbKTF58E/OqBIUWA==";
+        };
+        _1uBC1z7C = {
+            "id" = "1uBC1z7C";
+            "file" = "sporesrp-1.11.0-neo.jar";
+            "hash" = "sha512-/FHIwolX1JgNP3ZQ+Svw0/foO8RlXO+iQNBMJ6suRCn7ZX1EUB8tM5Z6fC2mmDEQlfVWadLpgxrzofKDDPCH/A==";
+        };
+        _QcaShyqI = {
+            "id" = "QcaShyqI";
+            "file" = "sporesrp-1.11.1.jar";
+            "hash" = "sha512-zRo4wTts6759BggR17a4P9+DAkgT/lMQCrdJA7FVTKCR59hWj1OPxsK715ibzlXD3/aLeJPi9G9eC8Yh6qJO3w==";
+        };
+        _gwT3dFuH = {
+            "id" = "gwT3dFuH";
+            "file" = "sporesrp-1.11.1-neo.jar";
+            "hash" = "sha512-9dKzpNBsngGwBvH77mwEjMvC5lUWpcciwZnKlxPaRm3FJ1YLSDD18J4/3M4XTNced9IXYu0/B7NnGxykwgiqzg==";
+        };
     in {
         "UCZQWk0m" = _UCZQWk0m;
         "LwjPMuMJ" = _LwjPMuMJ;
@@ -230,8 +250,12 @@ let
         "OlcvM1TQ" = _OlcvM1TQ;
         "zBIeKlUw" = _zBIeKlUw;
         "djg0Dr4f" = _djg0Dr4f;
-        "forge-1.20.1" = _zBIeKlUw;
-        "neoforge-1.21.1" = _djg0Dr4f;
+        "xzMN7XGy" = _xzMN7XGy;
+        "1uBC1z7C" = _1uBC1z7C;
+        "QcaShyqI" = _QcaShyqI;
+        "gwT3dFuH" = _gwT3dFuH;
+        "forge-1.20.1" = _QcaShyqI;
+        "neoforge-1.21.1" = _gwT3dFuH;
         "pkg-1.0.0" = _UCZQWk0m;
         "pkg-1.1.0" = _LwjPMuMJ;
         "pkg-1.2.0" = _8XAv2qn0;
@@ -259,7 +283,9 @@ let
         "pkg-1.10.0" = _huhZtsMh;
         "pkg-1.10.1" = _OlcvM1TQ;
         "pkg-1.10.2" = _djg0Dr4f;
-        "default" = _djg0Dr4f;
+        "pkg-1.11.0" = _1uBC1z7C;
+        "pkg-1.11.1" = _gwT3dFuH;
+        "default" = _gwT3dFuH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sporesrp!";

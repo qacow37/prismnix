@@ -111,6 +111,11 @@ let
             "file" = "searchcarefully-1201.10.0.jar";
             "hash" = "sha512-3J+Z8NHjrqytJ5KbaMrQmHb6tLk95cbcyI3+Uv8vUQCwbQWMi+EI/6wpHLNTFf4mGR8zVGIM91Bn5uOyrpYtgQ==";
         };
+        _p8y04Jem = {
+            "id" = "p8y04Jem";
+            "file" = "searchcarefully-1201.10.1.jar";
+            "hash" = "sha512-JkK3jxFpkduHyfhhfTXe198wWHs+PO1hHsg7krEBQmbLeJWVFRsHUL1XEO7x/QHK6U6Ebwz6RVd537oTdZZsEQ==";
+        };
     in {
         "1G6eClgq" = _1G6eClgq;
         "R8n07fZg" = _R8n07fZg;
@@ -134,7 +139,8 @@ let
         "dVTCUm5v" = _dVTCUm5v;
         "Rw56Vuaf" = _Rw56Vuaf;
         "Sx7OIPTh" = _Sx7OIPTh;
-        "forge-1.20.1" = _Sx7OIPTh;
+        "p8y04Jem" = _p8y04Jem;
+        "forge-1.20.1" = _p8y04Jem;
         "pkg-1.0.0" = _1G6eClgq;
         "pkg-1.0.1" = _R8n07fZg;
         "pkg-1.0.2" = _yFPqcFbo;
@@ -157,7 +163,8 @@ let
         "pkg-1201.9.2" = _dVTCUm5v;
         "pkg-1201.9.3" = _Rw56Vuaf;
         "pkg-1201.10.0" = _Sx7OIPTh;
-        "default" = _Sx7OIPTh;
+        "pkg-1201.10.1" = _p8y04Jem;
+        "default" = _p8y04Jem;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "searchcarefully";

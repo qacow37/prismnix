@@ -206,6 +206,16 @@ let
             "file" = "TextAnimator-1.21.1-NeoForge-3.2.3.jar";
             "hash" = "sha512-kjsGWZCJVPoGZtJPuZlcEVlls0dX1KzYj4ZFBDBcRUFw0HKwIIkyJWzDEgJ1Z04hhdmk7HvJn67MR62s2Vljag==";
         };
+        _OnQjmWBz = {
+            "id" = "OnQjmWBz";
+            "file" = "TextAnimator-26.1.2-NeoForge-26.1.0.jar";
+            "hash" = "sha512-UqrXK0G/Z7mnvEbl9Ev67MInjqc14IvyphWUv/3EctxrCOuSor5O5B96Vy2FPZq1+zxGElDVQmBY+sa65oWjcA==";
+        };
+        _WwK6AZRc = {
+            "id" = "WwK6AZRc";
+            "file" = "TextAnimator-26.1.2-Fabric-26.1.0.jar";
+            "hash" = "sha512-9fGTwRFYB9o2ssAWSbGviDKvI74VSLTBZVg7QcwFzA/9tpWsZtXm3DecGv5qyA+gDR2QrNE9RVjw7FNWQ87YaQ==";
+        };
     in {
         "fGKKKWxd" = _fGKKKWxd;
         "q76JEckE" = _q76JEckE;
@@ -248,19 +258,30 @@ let
         "hF0Zpoh9" = _hF0Zpoh9;
         "x5aApexA" = _x5aApexA;
         "KF9W8Z1P" = _KF9W8Z1P;
+        "OnQjmWBz" = _OnQjmWBz;
+        "WwK6AZRc" = _WwK6AZRc;
         "fabric-1.19.2" = _GHXTjxR0;
         "fabric-1.20" = _K7xaTxzc;
         "fabric-1.20.1" = _K7xaTxzc;
         "fabric-1.21.1" = _x5aApexA;
+        "fabric-26.1.2" = _WwK6AZRc;
+        "fabric-26.1" = _WwK6AZRc;
+        "fabric-26.1.1" = _WwK6AZRc;
         "forge-1.19.2" = _cUlFzNOD;
         "forge-1.20" = _B0lm1Mcy;
         "forge-1.20.1" = _B0lm1Mcy;
         "quilt-1.20" = _K7xaTxzc;
         "quilt-1.20.1" = _K7xaTxzc;
         "quilt-1.21.1" = _x5aApexA;
+        "quilt-26.1.2" = _WwK6AZRc;
+        "quilt-26.1" = _WwK6AZRc;
+        "quilt-26.1.1" = _WwK6AZRc;
         "neoforge-1.20" = _B0lm1Mcy;
         "neoforge-1.20.1" = _B0lm1Mcy;
         "neoforge-1.21.1" = _KF9W8Z1P;
+        "neoforge-26.1.2" = _OnQjmWBz;
+        "neoforge-26.1" = _OnQjmWBz;
+        "neoforge-26.1.1" = _OnQjmWBz;
         "pkg-1.1.0" = _fGKKKWxd;
         "pkg-1.1.1" = _q76JEckE;
         "pkg-1.1.2" = _GHXTjxR0;
@@ -291,7 +312,9 @@ let
         "pkg-3.2.2+neoforge" = _hF0Zpoh9;
         "pkg-3.2.3+fabric" = _x5aApexA;
         "pkg-3.2.3+neoforge" = _KF9W8Z1P;
-        "default" = _KF9W8Z1P;
+        "pkg-26.1.0+neoforge" = _OnQjmWBz;
+        "pkg-26.1.0+fabric" = _WwK6AZRc;
+        "default" = _WwK6AZRc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "text-animator";

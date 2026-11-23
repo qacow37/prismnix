@@ -31,6 +31,16 @@ let
             "file" = "ddjade-neoforge-1.1.1.jar";
             "hash" = "sha512-IY1xREPGqJgRZAgU1QaZW7uZp2FjGitbGAHVRpw6rPI9lYjcARAfBSWdrL6jvsMwyQy7o/BMpcNFP6G2r9GagA==";
         };
+        _wJDLZA0g = {
+            "id" = "wJDLZA0g";
+            "file" = "ddjade-neoforge-1.1.1.jar";
+            "hash" = "sha512-YJARPWtW5xHbgMsu5brY4HMXYGoSP1OXItxJvb3C257+y3zaOyzp18d9odxCkVCCM6pcp1VD46D+1eCl1F6GqA==";
+        };
+        _5KAk52P7 = {
+            "id" = "5KAk52P7";
+            "file" = "ddjade-fabric-1.1.1.jar";
+            "hash" = "sha512-HDeNfUCPd41mr91xy2v5fOhuq4aoHg7rSvFmB0NvZF7M7kYGpomlNoJu2I9WzSiORxGPqvDLBObx5jEFJFXtzw==";
+        };
     in {
         "s4MDeyo0" = _s4MDeyo0;
         "RmNoOEHb" = _RmNoOEHb;
@@ -38,12 +48,14 @@ let
         "wAuMlClU" = _wAuMlClU;
         "mfumlgOs" = _mfumlgOs;
         "4e3PeM39" = _4e3PeM39;
-        "fabric-1.21.1" = _mfumlgOs;
-        "neoforge-1.21.1" = _4e3PeM39;
+        "wJDLZA0g" = _wJDLZA0g;
+        "5KAk52P7" = _5KAk52P7;
+        "fabric-1.21.1" = _5KAk52P7;
+        "neoforge-1.21.1" = _wJDLZA0g;
         "pkg-1.0.0" = _RmNoOEHb;
         "pkg-1.1.0" = _wAuMlClU;
-        "pkg-1.1.1" = _4e3PeM39;
-        "default" = _4e3PeM39;
+        "pkg-1.1.1" = _5KAk52P7;
+        "default" = _5KAk52P7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ddjade";

@@ -876,6 +876,11 @@ let
             "file" = "customrecipe-1.5.2+26.3.jar";
             "hash" = "sha512-SJxeKXGGTApkl0iFkYiW7WECFl/zetfy9leG/FZR1Chwp7z9RxsEuC7GN5nlN7w0EyKZtyiQ26eHQYtDYLuaUg==";
         };
+        _3Qb8hz0U = {
+            "id" = "3Qb8hz0U";
+            "file" = "customrecipe-1.5.2+1.20.1.jar";
+            "hash" = "sha512-5w0ZUfO6bdieXy758zIrnOf3CdVUAWcp6spUBf9lLmN7Gxjf4ZBZFZKv6SoRD3GmryXcJ22+lOwkKnajn/MMrQ==";
+        };
     in {
         "HhpxWPBJ" = _HhpxWPBJ;
         "Wxiz6GOU" = _Wxiz6GOU;
@@ -1052,9 +1057,10 @@ let
         "JKqOBsML" = _JKqOBsML;
         "ofoFqOa4" = _ofoFqOa4;
         "MFYTg9Db" = _MFYTg9Db;
+        "3Qb8hz0U" = _3Qb8hz0U;
         "fabric-1.21.11" = _foVLMiwq;
         "fabric-1.21.1" = _bL8Rt6BW;
-        "fabric-1.20.1" = _m22Uw9hR;
+        "fabric-1.20.1" = _3Qb8hz0U;
         "fabric-26.2" = _ofoFqOa4;
         "fabric-1.21.8" = _xDcPRpaM;
         "fabric-26.3" = _MFYTg9Db;
@@ -1246,7 +1252,8 @@ let
         "pkg-1.5.2-26.1.x-(Fabric)" = _JKqOBsML;
         "pkg-1.5.2-26.2-(Fabric)" = _ofoFqOa4;
         "pkg-1.5.2-26.3-(Fabric)" = _MFYTg9Db;
-        "default" = _MFYTg9Db;
+        "pkg-1.5.2-1.20.1-(Fabric)" = _3Qb8hz0U;
+        "default" = _3Qb8hz0U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "recipescreator";

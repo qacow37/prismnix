@@ -111,6 +111,11 @@ let
             "file" = "BetterTimber-4.9.1.jar";
             "hash" = "sha512-eYJMGMZH2OjUSK/x36lROt41gOJqsZ928K3MtMRxHWgrcbfj91iLvY01MSWBPPpCacDa1q8tvIRC62gB2rnwxQ==";
         };
+        _hs5wtBXc = {
+            "id" = "hs5wtBXc";
+            "file" = "BetterTimber-4.10.0.jar";
+            "hash" = "sha512-/iuiLUZezGPi387pJwE/w770ioz0x+73annZGdI/weWYI0qw4H/EvReyrdRYd3UjwIa37bMibIr7hOfz9AK5/Q==";
+        };
     in {
         "cs7UPg24" = _cs7UPg24;
         "Vz2artvo" = _Vz2artvo;
@@ -134,6 +139,7 @@ let
         "PFUYnbH6" = _PFUYnbH6;
         "WBX5YCPI" = _WBX5YCPI;
         "bam6YeRi" = _bam6YeRi;
+        "hs5wtBXc" = _hs5wtBXc;
         "bukkit-1.21.3" = _Pqy6Sl2F;
         "bukkit-1.21.1" = _Pqy6Sl2F;
         "bukkit-1.21.2" = _Pqy6Sl2F;
@@ -148,11 +154,11 @@ let
         "paper-1.21" = _Pqy6Sl2F;
         "paper-1.21.10" = _Pqy6Sl2F;
         "paper-1.21.11" = _Pqy6Sl2F;
-        "paper-26.3" = _bam6YeRi;
-        "paper-26.1" = _bam6YeRi;
-        "paper-26.1.1" = _bam6YeRi;
-        "paper-26.1.2" = _bam6YeRi;
-        "paper-26.2" = _bam6YeRi;
+        "paper-26.3" = _hs5wtBXc;
+        "paper-26.1" = _hs5wtBXc;
+        "paper-26.1.1" = _hs5wtBXc;
+        "paper-26.1.2" = _hs5wtBXc;
+        "paper-26.2" = _hs5wtBXc;
         "spigot-1.21.3" = _Pqy6Sl2F;
         "spigot-1.21.1" = _Pqy6Sl2F;
         "spigot-1.21.2" = _Pqy6Sl2F;
@@ -167,16 +173,16 @@ let
         "purpur-1.21" = _Pqy6Sl2F;
         "purpur-1.21.10" = _Pqy6Sl2F;
         "purpur-1.21.11" = _Pqy6Sl2F;
-        "purpur-26.3" = _bam6YeRi;
-        "purpur-26.1" = _bam6YeRi;
-        "purpur-26.1.1" = _bam6YeRi;
-        "purpur-26.1.2" = _bam6YeRi;
-        "purpur-26.2" = _bam6YeRi;
-        "folia-26.1" = _bam6YeRi;
-        "folia-26.1.1" = _bam6YeRi;
-        "folia-26.1.2" = _bam6YeRi;
-        "folia-26.2" = _bam6YeRi;
-        "folia-26.3" = _bam6YeRi;
+        "purpur-26.3" = _hs5wtBXc;
+        "purpur-26.1" = _hs5wtBXc;
+        "purpur-26.1.1" = _hs5wtBXc;
+        "purpur-26.1.2" = _hs5wtBXc;
+        "purpur-26.2" = _hs5wtBXc;
+        "folia-26.1" = _hs5wtBXc;
+        "folia-26.1.1" = _hs5wtBXc;
+        "folia-26.1.2" = _hs5wtBXc;
+        "folia-26.2" = _hs5wtBXc;
+        "folia-26.3" = _hs5wtBXc;
         "pkg-1.0" = _cs7UPg24;
         "pkg-1.1" = _Vz2artvo;
         "pkg-2.0" = _WFeLxDSD;
@@ -199,7 +205,8 @@ let
         "pkg-4.8.0" = _PFUYnbH6;
         "pkg-4.9.0" = _WBX5YCPI;
         "pkg-4.9.1" = _bam6YeRi;
-        "default" = _bam6YeRi;
+        "pkg-4.10.0" = _hs5wtBXc;
+        "default" = _hs5wtBXc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bettertimber";

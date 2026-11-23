@@ -996,6 +996,21 @@ let
             "file" = "insanesurvivaloverhaul-5.16.2.0-beta.jar";
             "hash" = "sha512-kyOcBQ6n2dyn+ysSbdnhjtA7eVi9NFTJYE9H7v2KSM54e1z6Yu+MIh/z9CyiaPE11jMj9p/2KgDiG8zgrUZQlA==";
         };
+        _xNu6BZvq = {
+            "id" = "xNu6BZvq";
+            "file" = "insanesurvivaloverhaul-5.16.3.0-beta.jar";
+            "hash" = "sha512-YcmjpPL4bgfLQ5K+VtN7ljKJP0ZWp5xe+oBQYM2OhB+76xbk3aRi/pl3cahdkmAEjEUGORBvoiT73CSCxPppTQ==";
+        };
+        _DJ8jS9lQ = {
+            "id" = "DJ8jS9lQ";
+            "file" = "insanesurvivaloverhaul-5.16.4.0-beta.jar";
+            "hash" = "sha512-/nTrCsCebFOxJygMZChP/jxjJiaY/55HAFbIGO/h+DDpZ8QqJ8lsY6vVKy8SUQaag/Dueq4qGVQrhF1Cv/SOrQ==";
+        };
+        _T3Ow1AbC = {
+            "id" = "T3Ow1AbC";
+            "file" = "insanesurvivaloverhaul-5.16.5.0-beta.jar";
+            "hash" = "sha512-4zFukUtjJRFbBm8pbs5TPV6053/O5RX9CqDVQR4lVe7EuYE60Zq4noRVybLhwbEmbNZjobs+qlMAlwEeFnicNg==";
+        };
     in {
         "SzffhwC1" = _SzffhwC1;
         "pfzWiFvb" = _pfzWiFvb;
@@ -1196,13 +1211,16 @@ let
         "DPX6KUg6" = _DPX6KUg6;
         "5QdMmKew" = _5QdMmKew;
         "M43ibguC" = _M43ibguC;
+        "xNu6BZvq" = _xNu6BZvq;
+        "DJ8jS9lQ" = _DJ8jS9lQ;
+        "T3Ow1AbC" = _T3Ow1AbC;
         "forge-1.18.2" = _SzffhwC1;
         "forge-1.19.4" = _pfzWiFvb;
         "forge-1.20.1" = _VbQyyeJv;
         "forge-1.19.2" = _kpc80kKK;
         "forge-1.12.2" = _MCHmu8jt;
         "neoforge-1.20.1" = _WelTMcOS;
-        "neoforge-1.21.1" = _M43ibguC;
+        "neoforge-1.21.1" = _T3Ow1AbC;
         "pkg-2.12.12" = _SzffhwC1;
         "pkg-2.15.0" = _pfzWiFvb;
         "pkg-3.7.1" = _PPvtsUVs;
@@ -1396,7 +1414,10 @@ let
         "pkg-5.15.2.0" = _DPX6KUg6;
         "pkg-5.16.1.0-beta" = _5QdMmKew;
         "pkg-5.16.2.0-beta" = _M43ibguC;
-        "default" = _M43ibguC;
+        "pkg-5.16.3.0-beta" = _xNu6BZvq;
+        "pkg-5.16.4.0-beta" = _DJ8jS9lQ;
+        "pkg-5.16.5.0-beta" = _T3Ow1AbC;
+        "default" = _T3Ow1AbC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "iguanatweaks-reborn";

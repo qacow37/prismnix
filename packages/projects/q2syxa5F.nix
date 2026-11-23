@@ -31,6 +31,16 @@ let
             "file" = "§5§lEsperial §d§lEnd Sky§8.zip";
             "hash" = "sha512-Y7qxlHZW09P+gkM7VKIjSxQyddv6XnPeCDd1h4nKrGZiezXHr7mD2svLJkkfS7a2XvmQIL59hA9PDhGAS+cqAg==";
         };
+        _We4QKvYw = {
+            "id" = "We4QKvYw";
+            "file" = "§5§lEsperial §d§lEnd Sky§8.zip";
+            "hash" = "sha512-bptRCF4BPgIpy4Dm69EEsKZZrEskAgF7DSpM9VhLh8liOQ8xqEiJec2IPlQmHQvucHSwm4NRSF180ecRorfv/Q==";
+        };
+        _ezqghglX = {
+            "id" = "ezqghglX";
+            "file" = "§5§lEsperial §d§lEnd Sky§8.zip";
+            "hash" = "sha512-WUcSsnG/aV3fiHma23cdLVQvPqD0qwPTd/5lwkmOYglgBL2PpMJ9vzG6yuSYFRx7+Hst81dmPmFXJigNW29Csg==";
+        };
     in {
         "ZUEPj6mo" = _ZUEPj6mo;
         "QiEiirZD" = _QiEiirZD;
@@ -38,6 +48,8 @@ let
         "t5mhrT68" = _t5mhrT68;
         "mPx17ulO" = _mPx17ulO;
         "EOsTfyTs" = _EOsTfyTs;
+        "We4QKvYw" = _We4QKvYw;
+        "ezqghglX" = _ezqghglX;
         "minecraft-1.21.5" = _mDNtsoI8;
         "minecraft-1.21.6" = _mDNtsoI8;
         "minecraft-1.21.7" = _mDNtsoI8;
@@ -45,18 +57,20 @@ let
         "minecraft-1.21.9" = _mDNtsoI8;
         "minecraft-1.21.10" = _mDNtsoI8;
         "minecraft-1.21.11" = _mDNtsoI8;
-        "minecraft-26.1" = _mDNtsoI8;
-        "minecraft-26.1.1" = _mDNtsoI8;
-        "minecraft-26.1.2" = _mDNtsoI8;
-        "minecraft-26.2" = _mDNtsoI8;
-        "minecraft-26.3" = _EOsTfyTs;
+        "minecraft-26.1" = _ezqghglX;
+        "minecraft-26.1.1" = _ezqghglX;
+        "minecraft-26.1.2" = _ezqghglX;
+        "minecraft-26.2" = _ezqghglX;
+        "minecraft-26.3" = _ezqghglX;
         "pkg-1.0.0" = _ZUEPj6mo;
         "pkg-1.1.0" = _QiEiirZD;
         "pkg-2.0" = _mDNtsoI8;
         "pkg-2.1.0" = _t5mhrT68;
         "pkg-2.2.0" = _mPx17ulO;
         "pkg-2.2.0.1" = _EOsTfyTs;
-        "default" = _EOsTfyTs;
+        "pkg-2.2.0.2" = _We4QKvYw;
+        "pkg-2.2.0.3" = _ezqghglX;
+        "default" = _ezqghglX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "esperial-skies";

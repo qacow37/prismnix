@@ -296,6 +296,21 @@ let
             "file" = "agritechtwo-3.0.0.5+neoforge-mc-26.2.jar";
             "hash" = "sha512-zv88d74N2BWXYHF/itWzMrD7ubvd/kSgj9vDDabIvl9yBA8VQ9LeGDbPhwZ7ebRCMSLc/p8NSz3gbQi+bUm8sA==";
         };
+        _MgEEBHXJ = {
+            "id" = "MgEEBHXJ";
+            "file" = "agritech-1.1.0.5+fabric-mc26.1.2.jar";
+            "hash" = "sha512-GAO0tpEapcxnfEhwo1bELrp0YYp0r2/nEKkmC5RbU05vOnQdnNabTkzXI3bwIzY/q9izoI9iF4pTu+j33TqyHA==";
+        };
+        _3ynSma1D = {
+            "id" = "3ynSma1D";
+            "file" = "agritech-2.0.0.5+fabric-mc26.2.jar";
+            "hash" = "sha512-s86KLA2cjqiLjXWuDoegQgDIq3IsSlOYlbZczvTc3O3in9gUIieXIIMKjpZfKVgztCLZ7S9tUZjr9uVeo2H9PQ==";
+        };
+        _h2y8LZud = {
+            "id" = "h2y8LZud";
+            "file" = "agritech-3.0.0.2+fabric-mc26.3.jar";
+            "hash" = "sha512-5NjxRKXuVNANh0HRsXmgUsbWmKrKmXFyj+I8HFP2dgEqRbBQl0Q7fOdI0nR7Ti2zlllAOA/Dw5mrGN822HN2Cg==";
+        };
     in {
         "yrNRIcE9" = _yrNRIcE9;
         "FkKarfPD" = _FkKarfPD;
@@ -356,13 +371,16 @@ let
         "XAP7qiZS" = _XAP7qiZS;
         "AtQTH0eJ" = _AtQTH0eJ;
         "iACvXkg9" = _iACvXkg9;
+        "MgEEBHXJ" = _MgEEBHXJ;
+        "3ynSma1D" = _3ynSma1D;
+        "h2y8LZud" = _h2y8LZud;
         "neoforge-1.21.1" = _DE3C5pel;
         "neoforge-26.1.2" = _AtQTH0eJ;
         "neoforge-26.2" = _iACvXkg9;
         "neoforge-26.3" = _XAP7qiZS;
-        "fabric-26.1.2" = _YYISCx9X;
-        "fabric-26.2" = _OL53JsX6;
-        "fabric-26.3" = _S3v7ruDC;
+        "fabric-26.1.2" = _MgEEBHXJ;
+        "fabric-26.2" = _3ynSma1D;
+        "fabric-26.3" = _h2y8LZud;
         "pkg-1.0.8-mc-1.21.1" = _yrNRIcE9;
         "pkg-1.0.8-mc-26.1.2" = _FkKarfPD;
         "pkg-1.0.11-mc-26.1.2" = _7JjazDbh;
@@ -422,7 +440,10 @@ let
         "pkg-4.0.0.2+neoforge-mc-26.3" = _XAP7qiZS;
         "pkg-2.2.2.5+neoforge-mc-26.1.2" = _AtQTH0eJ;
         "pkg-3.0.0.5+neoforge-mc-26.2" = _iACvXkg9;
-        "default" = _iACvXkg9;
+        "pkg-1.1.0.5+fabric-mc26.1.2" = _MgEEBHXJ;
+        "pkg-2.0.0.5+fabric-mc26.2" = _3ynSma1D;
+        "pkg-3.0.0.2+fabric-mc26.3" = _h2y8LZud;
+        "default" = _h2y8LZud;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "agritech";

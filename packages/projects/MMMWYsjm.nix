@@ -501,6 +501,21 @@ let
             "file" = "UtilitiX-26.1.1.jar";
             "hash" = "sha512-3jJdMvVpF00/S0Q+rLgj20U4CEB2ZHXEf6bCEXow6RSZQDWAScUFxNAOyAwv4E31Tm6gUmI0zQN7O16pOAMhGA==";
         };
+        _fYvBJ5X0 = {
+            "id" = "fYvBJ5X0";
+            "file" = "UtilitiX-21.1.7.jar";
+            "hash" = "sha512-sV/ek6JlCScgVUGD8HiH3lCXOMQ2w9rmHt4v/9AekVPOHFoCHQCi6Mq1/qGceyBV4Sjlj9MJijH+RJlrMheGPg==";
+        };
+        _eoFoAhVF = {
+            "id" = "eoFoAhVF";
+            "file" = "UtilitiX-26.1.2.jar";
+            "hash" = "sha512-dnnLTxq07d7247J3sYVhrw8ft2CvxJRufjCNRVLKc/Q/2TfOxe+QaDlMR8PINOEnw/adCgGKT9OA5SbEMzK9KA==";
+        };
+        _r68qCdKs = {
+            "id" = "r68qCdKs";
+            "file" = "UtilitiX-1.20.1-0.8.29.jar";
+            "hash" = "sha512-Mv832eglCyLWSmu8NeIViTL2MbsaZhbSDL8jXADPAjV+ervor1vblvfgq4hqyMh8GKvOkEd7oyyfBw1dFlNJ9Q==";
+        };
     in {
         "UWj1pgbA" = _UWj1pgbA;
         "ym3fmXVE" = _ym3fmXVE;
@@ -602,6 +617,9 @@ let
         "dXCPPM3u" = _dXCPPM3u;
         "9Uii3X7C" = _9Uii3X7C;
         "fvCtfP9g" = _fvCtfP9g;
+        "fYvBJ5X0" = _fYvBJ5X0;
+        "eoFoAhVF" = _eoFoAhVF;
+        "r68qCdKs" = _r68qCdKs;
         "forge-1.17.1" = _k3PJ73mJ;
         "forge-1.18" = _lm8Tkywi;
         "forge-1.18.1" = _pu6Q0jcd;
@@ -612,10 +630,10 @@ let
         "forge-1.19" = _5Hby0lDB;
         "forge-1.19.1" = _12gGp60q;
         "forge-1.19.2" = _35ZqUXMI;
-        "forge-1.20.1" = _sUSIa3Sy;
-        "neoforge-1.20.1" = _sUSIa3Sy;
-        "neoforge-1.21.1" = _dXCPPM3u;
-        "neoforge-26.1.2" = _fvCtfP9g;
+        "forge-1.20.1" = _r68qCdKs;
+        "neoforge-1.20.1" = _r68qCdKs;
+        "neoforge-1.21.1" = _fYvBJ5X0;
+        "neoforge-26.1.2" = _eoFoAhVF;
         "pkg-1.17.1-0.2.7" = _UWj1pgbA;
         "pkg-1.17.1-0.2.8" = _ym3fmXVE;
         "pkg-1.17.1-0.2.9" = _fcqCYg2N;
@@ -716,7 +734,10 @@ let
         "pkg-21.1.6" = _dXCPPM3u;
         "pkg-26.1.0" = _9Uii3X7C;
         "pkg-26.1.1" = _fvCtfP9g;
-        "default" = _fvCtfP9g;
+        "pkg-21.1.7" = _fYvBJ5X0;
+        "pkg-26.1.2" = _eoFoAhVF;
+        "pkg-1.20.1-0.8.29" = _r68qCdKs;
+        "default" = _r68qCdKs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "utilitix";

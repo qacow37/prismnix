@@ -101,6 +101,11 @@ let
             "file" = "ms_extras-1.0.19-neoforge-1.21.1.jar";
             "hash" = "sha512-iCkrHQesMbHv5UmSmInimelYW1NJDEGqSkIOUlX95ZCq/PALxu2mx0r8ps0qY9/yqn371/tK++A61h9f1CH6GA==";
         };
+        _IctH3w2q = {
+            "id" = "IctH3w2q";
+            "file" = "ms_extras-1.1.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-f2pfwqAniYsDD9kF4PqQTLJUoFNYw8SwXrIpMZ8tpK3NXd7oIR1DyL7gTl9UCAV9WSt6+PiHiAIKOwKruYpFFg==";
+        };
     in {
         "RHb1f2y2" = _RHb1f2y2;
         "QZiMWNas" = _QZiMWNas;
@@ -122,7 +127,8 @@ let
         "b2x6TObZ" = _b2x6TObZ;
         "jE23EjA4" = _jE23EjA4;
         "KgG5a89G" = _KgG5a89G;
-        "neoforge-1.21.1" = _KgG5a89G;
+        "IctH3w2q" = _IctH3w2q;
+        "neoforge-1.21.1" = _IctH3w2q;
         "pkg-1.0.0" = _RHb1f2y2;
         "pkg-1.0.1" = _QZiMWNas;
         "pkg-1.0.2" = _4Twt3xzp;
@@ -143,7 +149,8 @@ let
         "pkg-1.0.17" = _b2x6TObZ;
         "pkg-1.0.18" = _jE23EjA4;
         "pkg-1.0.19" = _KgG5a89G;
-        "default" = _KgG5a89G;
+        "pkg-1.1.1" = _IctH3w2q;
+        "default" = _IctH3w2q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ms_extras";

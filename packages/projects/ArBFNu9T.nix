@@ -381,6 +381,26 @@ let
             "file" = "companions-fabric-1.20.1-1.3.8.jar";
             "hash" = "sha512-NfelV5pogvGTP1Gz1JCGsynzxfLUPmrF/1otCAb4VZNTjSGBDv7unLH8NO8L5Ahsrtax1eDTBd9jmhR5XDDIgQ==";
         };
+        _dXDXozPt = {
+            "id" = "dXDXozPt";
+            "file" = "companions-forge-1.20.1-1.3.9.jar";
+            "hash" = "sha512-vsW9rKdLVM5QVmstncBRKWdlmjkCtfMh83k9opNHzAQxT8pMEwYw5OMzRl45T2OG7GHzhCMa8OXkK4EGoStacg==";
+        };
+        _T2IEGTmZ = {
+            "id" = "T2IEGTmZ";
+            "file" = "companions-fabric-1.20.1-1.3.9.jar";
+            "hash" = "sha512-QnKAPWYHW5BLnChttko82xqnyldksHrJQYHwdFR0SW4+mPw4cv+qYT+tyMLv2EmOeO1Osv0dK6FOu1vx+MVmcQ==";
+        };
+        _PHKqALF8 = {
+            "id" = "PHKqALF8";
+            "file" = "companions-fabric-1.21.1-1.3.9.jar";
+            "hash" = "sha512-ycePKnCeZIgfaq9PGgQbhcPTdMHSw0lnzbxdIXXoALZP68uxHSke8qPB1/fY7mcc2rmB7uVrV83EjNx5EDHXjQ==";
+        };
+        _ZPnBgXjW = {
+            "id" = "ZPnBgXjW";
+            "file" = "companions-neoforge-1.21.1-1.3.9.jar";
+            "hash" = "sha512-vF9zIKL+nG5L3FMbsmF3zNGzbNXs+lCNdtWeVPLPw9YlFT+kTubeted6y9tqP4jOooRnNYvR2TWTF0xTCsGBoA==";
+        };
     in {
         "cF4zuvUN" = _cF4zuvUN;
         "4V8Nv1AU" = _4V8Nv1AU;
@@ -458,14 +478,18 @@ let
         "JcFu0L9W" = _JcFu0L9W;
         "Hkg7qYdX" = _Hkg7qYdX;
         "kue0Y74h" = _kue0Y74h;
-        "fabric-1.20" = _kue0Y74h;
-        "fabric-1.20.1" = _kue0Y74h;
-        "fabric-1.21" = _BSBEOUmI;
-        "fabric-1.21.1" = _BSBEOUmI;
-        "forge-1.20" = _Hkg7qYdX;
-        "forge-1.20.1" = _Hkg7qYdX;
-        "neoforge-1.21" = _JcFu0L9W;
-        "neoforge-1.21.1" = _JcFu0L9W;
+        "dXDXozPt" = _dXDXozPt;
+        "T2IEGTmZ" = _T2IEGTmZ;
+        "PHKqALF8" = _PHKqALF8;
+        "ZPnBgXjW" = _ZPnBgXjW;
+        "fabric-1.20" = _T2IEGTmZ;
+        "fabric-1.20.1" = _T2IEGTmZ;
+        "fabric-1.21" = _PHKqALF8;
+        "fabric-1.21.1" = _PHKqALF8;
+        "forge-1.20" = _dXDXozPt;
+        "forge-1.20.1" = _dXDXozPt;
+        "neoforge-1.21" = _ZPnBgXjW;
+        "neoforge-1.21.1" = _ZPnBgXjW;
         "pkg-1.0.0" = _4V8Nv1AU;
         "pkg-1.0.3" = _MEnKmgXU;
         "pkg-1.0.4" = _wHuOxAkY;
@@ -488,7 +512,8 @@ let
         "pkg-1.3.6" = _lLjOgs2F;
         "pkg-1.3.7" = _Tj0TRXIx;
         "pkg-1.3.8" = _kue0Y74h;
-        "default" = _kue0Y74h;
+        "pkg-1.3.9" = _ZPnBgXjW;
+        "default" = _ZPnBgXjW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "companions-mod";

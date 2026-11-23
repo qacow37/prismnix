@@ -26,19 +26,26 @@ let
             "file" = "tfc_season_notifier-1.20.1-1.1.1.jar";
             "hash" = "sha512-81fhoIDYAuxKatN5ujoVt9oLctLRf/bA63bMjfQuEVCyGczEr7f6132ww0Vkjv5wlORTAt+lkeDXCozemx4dVQ==";
         };
+        _K5izvehc = {
+            "id" = "K5izvehc";
+            "file" = "tfc_season_notifier-1.20.1-1.2.0.jar";
+            "hash" = "sha512-b18ODBxDG/MKwlZ2fwxNxBB9J0mnW/bazUDDW62S2zNNt9SIu+eEt15j4sNlGh289Yt06EPGU+1bZjd+ydep8A==";
+        };
     in {
         "Z4PVFXWB" = _Z4PVFXWB;
         "72690pU5" = _72690pU5;
         "m8iMiCat" = _m8iMiCat;
         "kjX3MvOW" = _kjX3MvOW;
         "ZsMm1shS" = _ZsMm1shS;
-        "forge-1.20.1" = _ZsMm1shS;
+        "K5izvehc" = _K5izvehc;
+        "forge-1.20.1" = _K5izvehc;
         "pkg-1.20.1-1.0.0" = _Z4PVFXWB;
         "pkg-1.20.1-1.0.1" = _72690pU5;
         "pkg-1.20.1-1.0.2" = _m8iMiCat;
         "pkg-1.20.1-1.1.0" = _kjX3MvOW;
         "pkg-1.20.1-1.1.1" = _ZsMm1shS;
-        "default" = _ZsMm1shS;
+        "pkg-1.20.1-1.2.0" = _K5izvehc;
+        "default" = _K5izvehc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tfc-season-notifier";

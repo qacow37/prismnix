@@ -51,6 +51,46 @@ let
             "file" = "phonemod-1.21.1fabric-1.0.jar";
             "hash" = "sha512-R4JkvKb7si5oqfRCWpqkMX+h4JyMR0fF/lAyqEJG0r6z8da9+Dirn6CGQMJhsV+AFFUQAScTz0YbBu7ijOX4og==";
         };
+        _oZg7Hgdp = {
+            "id" = "oZg7Hgdp";
+            "file" = "simple-denwys-phone-1.1.0-forge-1.20.1.jar";
+            "hash" = "sha512-evPnS6mzpD/LnxPRZHlQ97+FwDFuu0cXe7HciBpTrgPux6oF5pDd+mhfl53JTWMH6QWIkYzbHtJBH4V1Xj2pWA==";
+        };
+        _Vqo92F5C = {
+            "id" = "Vqo92F5C";
+            "file" = "simple-denwys-phone-1.1.0-fabric-1.20.1.jar";
+            "hash" = "sha512-0ciElDnZPMaS6/NmKBRTdPVsZfvoN+iqrnvXiw1tzJOKgJlUCEqQbO1QNNY/DZU8PjFCTcdov8KbhitzGnRsug==";
+        };
+        _2cR0rHFJ = {
+            "id" = "2cR0rHFJ";
+            "file" = "simple-denwys-phone-1.1.0-fabric-1.20.4.jar";
+            "hash" = "sha512-VhN/Uxc5FR8grIv4zdKh48xIWVkh2U9vKDxuLbBWXq6pzcapozj71hOxesBYnVNetduTYG9N66mdVH8JFATUKA==";
+        };
+        _1IMoEBit = {
+            "id" = "1IMoEBit";
+            "file" = "simple-denwys-phone-1.1.0-fabric-1.21-1.21.1.jar";
+            "hash" = "sha512-1qw/+2/wRIz3Z860rEwrzCzgqg02zQkQ9nxar3VdkYEZq62qqyR7gRhBX+q7mDbh0qZLvDYM4LVCBNB5xVzbUA==";
+        };
+        _6yTBbdcD = {
+            "id" = "6yTBbdcD";
+            "file" = "simple-denwys-phone-1.1.0-fabric-1.21.8.jar";
+            "hash" = "sha512-3I3lsLwu8qWYaPVIAsmtNupP45r6i6D2P8c75itCHf42U4yY88W7ocOzKdz1OkbnaKsG52npUetRZzPX3g9tyA==";
+        };
+        _WNL2UJ9m = {
+            "id" = "WNL2UJ9m";
+            "file" = "simple-denwys-phone-1.1.0-fabric-1.21.11.jar";
+            "hash" = "sha512-Cr5K0dfmwYP0o7c2+udXD7QKmBssZtJNAWGsEbPtccCg1qkw5qn0cBuOtl9a8+UEmhQ9n9Yz1DMqNhbbzx3NJA==";
+        };
+        _6MYlIiim = {
+            "id" = "6MYlIiim";
+            "file" = "simple-denwys-phone-1.1.0-fabric-26.2.jar";
+            "hash" = "sha512-mUvrJJnNLlFptTDl1yibTe2za/oKEAo51REP49LTBrPqg1fBmP6k3pddmBVVUpzlBO3w8Ohbc4vmBOogxVl7UQ==";
+        };
+        _yfEZHNKZ = {
+            "id" = "yfEZHNKZ";
+            "file" = "simple-denwys-phone-1.1.0-fabric-26.3.jar";
+            "hash" = "sha512-Ckw5lK3S0zN+PWPmI+e+4WGsov5Dzl/o0pmWsnVmGAq3vWd8a+qJ/c9+DgXeOzWwUMoYixVhKiLCgdAn8z7MuA==";
+        };
     in {
         "nIowbxCS" = _nIowbxCS;
         "aQ9wf9rV" = _aQ9wf9rV;
@@ -62,18 +102,32 @@ let
         "3OtKsDBG" = _3OtKsDBG;
         "H7RsIwJD" = _H7RsIwJD;
         "uHWefBaC" = _uHWefBaC;
-        "forge-1.20.1" = _5khATBBd;
+        "oZg7Hgdp" = _oZg7Hgdp;
+        "Vqo92F5C" = _Vqo92F5C;
+        "2cR0rHFJ" = _2cR0rHFJ;
+        "1IMoEBit" = _1IMoEBit;
+        "6yTBbdcD" = _6yTBbdcD;
+        "WNL2UJ9m" = _WNL2UJ9m;
+        "6MYlIiim" = _6MYlIiim;
+        "yfEZHNKZ" = _yfEZHNKZ;
+        "forge-1.20.1" = _oZg7Hgdp;
         "forge-1.18.2" = _fcaK3HDy;
         "forge-1.19.2" = _LYvGhgN2;
         "forge-1.21" = _ytkVo8ov;
         "forge-1.21.1" = _bDrFgaCY;
         "neoforge-1.21.1" = _aQ9wf9rV;
-        "fabric-1.20.1" = _3OtKsDBG;
-        "fabric-1.21" = _H7RsIwJD;
-        "fabric-1.21.1" = _uHWefBaC;
+        "fabric-1.20.1" = _Vqo92F5C;
+        "fabric-1.21" = _1IMoEBit;
+        "fabric-1.21.1" = _1IMoEBit;
+        "fabric-1.20.4" = _2cR0rHFJ;
+        "fabric-1.21.8" = _6yTBbdcD;
+        "fabric-1.21.11" = _WNL2UJ9m;
+        "fabric-26.2" = _6MYlIiim;
+        "fabric-26.3" = _yfEZHNKZ;
         "pkg-0.1" = _aQ9wf9rV;
         "pkg-1.0" = _uHWefBaC;
-        "default" = _uHWefBaC;
+        "pkg-1.1.0" = _yfEZHNKZ;
+        "default" = _yfEZHNKZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-denwys-phone";

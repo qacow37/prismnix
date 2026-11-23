@@ -121,6 +121,21 @@ let
             "file" = "cobbletcg-1.6.0.jar";
             "hash" = "sha512-iyppRBF7QJ+weUXsaYcFm32OMPmEecAiAEQ3nyK/GJOvNqhfNnT6vrmk2XhidcI22g8kGMtp7ukkEBkzSigPxg==";
         };
+        _IiE2BKcw = {
+            "id" = "IiE2BKcw";
+            "file" = "cobbletcg-1.7.0.jar";
+            "hash" = "sha512-VU+x6cB0SkYFic53wLC52AHzw1hPC1baE+EN29MSP5l0hOYXnOoyfMfZ38MMyE01+hGSBN0v/c216E9ib3rXYA==";
+        };
+        _HV3icUsO = {
+            "id" = "HV3icUsO";
+            "file" = "cobbletcg-1.7.1.jar";
+            "hash" = "sha512-AaCPPmCXRZgZN50llWg0dIBr9nj6tiArf15kcjog7giaIds9Q6KA5OBt4k9pLi65EJ3IJj1FqBm0rIDbLN9MNg==";
+        };
+        _v4APZ4JR = {
+            "id" = "v4APZ4JR";
+            "file" = "cobbletcg-1.7.2.jar";
+            "hash" = "sha512-EB+V/B4nyH4eRq/lBlv4+JrFXi5ExRZBX2ozhOr8TMxqgoYM7ljep5WZjXtqXjFCQEgKrRI7hLI1PQxWH39svQ==";
+        };
     in {
         "dhjoa37o" = _dhjoa37o;
         "9EAi5D6H" = _9EAi5D6H;
@@ -146,7 +161,10 @@ let
         "ssZbF8Y2" = _ssZbF8Y2;
         "n6OMdV5O" = _n6OMdV5O;
         "7sl5fRfb" = _7sl5fRfb;
-        "fabric-1.21.1" = _7sl5fRfb;
+        "IiE2BKcw" = _IiE2BKcw;
+        "HV3icUsO" = _HV3icUsO;
+        "v4APZ4JR" = _v4APZ4JR;
+        "fabric-1.21.1" = _v4APZ4JR;
         "pkg-CobbleTCG-0.9.3" = _dhjoa37o;
         "pkg-CobbleTCG-0.9.4" = _9EAi5D6H;
         "pkg-CobbleTCG-0.9.7" = _Us1MOcJj;
@@ -171,7 +189,10 @@ let
         "pkg-CobbleTCG-1.4.3" = _ssZbF8Y2;
         "pkg-CobbleTCG-1.5.0" = _n6OMdV5O;
         "pkg-CobbleTCG-1.6.0" = _7sl5fRfb;
-        "default" = _7sl5fRfb;
+        "pkg-ScalperTCG-1.7.0" = _IiE2BKcw;
+        "pkg-ScalperTCG-1.7.1" = _HV3icUsO;
+        "pkg-ScalperTCG-1.7.2" = _v4APZ4JR;
+        "default" = _v4APZ4JR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobbletcg";

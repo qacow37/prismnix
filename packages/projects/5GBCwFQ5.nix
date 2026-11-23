@@ -236,6 +236,36 @@ let
             "file" = "taczfixes-3.1.3-neoforge.jar";
             "hash" = "sha512-jNY0ytTe+xCkUSyr38A1BpmuinMqJ0D8aOTpJnCbYFnfRCmnmyUWHNkRa8+ASAgmtdJVovCHX3JWmUU0FK7Nkw==";
         };
+        _8uiugVtQ = {
+            "id" = "8uiugVtQ";
+            "file" = "taczfixes-3.1.4-forge.jar";
+            "hash" = "sha512-MAKeiV6crdybsnQU38DrwWTjMMR1YDwXteSrLcBW9+Li+zhjCdxyozjbEHCw4WhpK+Z5ZKXdpFrPAcD8zY9hew==";
+        };
+        _yUPkxagp = {
+            "id" = "yUPkxagp";
+            "file" = "taczfixes-3.1.4-neoforge.jar";
+            "hash" = "sha512-1Z8oy4A4iqtKRjICgYOAprvcRmPdor4po10B+q9adO5WIjeEtjxJbiftChyLgPs5mpB5gfOtiPjazFn+xYgDpw==";
+        };
+        _kDJryOAz = {
+            "id" = "kDJryOAz";
+            "file" = "taczfixes-3.1.4-forge.jar";
+            "hash" = "sha512-CsK7rImxSAUZQ8nSQL1AWmryT4GdjjActfuo7Bz9lY2MMAi0IH/DHhzIVYgMHutXjYy+Xo1dqpKmAYjD66KJIQ==";
+        };
+        _aZPny9z9 = {
+            "id" = "aZPny9z9";
+            "file" = "taczfixes-3.1.4-neoforge.jar";
+            "hash" = "sha512-WSBjtjBGYX8YWQYGu/Do6MRhRWWLbAAtq6hlNzwTm1MGfyZ08Khr4fcgJHXxOzI5bplghT8QsE4Zf6QxwI31kg==";
+        };
+        _L8nkJ7FZ = {
+            "id" = "L8nkJ7FZ";
+            "file" = "taczfixes-3.1.4-neoforge.jar";
+            "hash" = "sha512-yqJ2ArXlfSI7ksGeMjUzB2P1DDUTqM6QDPJCB6ZY61Y8zWfO44nn01ZIUG4Izzm4J+0beyxG05PopD4pi7hLDA==";
+        };
+        _VFqCv6lm = {
+            "id" = "VFqCv6lm";
+            "file" = "taczfixes-3.1.4-forge.jar";
+            "hash" = "sha512-Fwa8WCIAnEi/qWdM54l7Es9NWmqBfR/xN1PIP3CTIYjMIzTimWxFLDUIrVmVYgab1yED9GG2vlhqj9Jibl8JPQ==";
+        };
     in {
         "BtrXWP7P" = _BtrXWP7P;
         "ec42WyS6" = _ec42WyS6;
@@ -284,8 +314,14 @@ let
         "VUiWUgpF" = _VUiWUgpF;
         "qbb3N888" = _qbb3N888;
         "X1OODoia" = _X1OODoia;
-        "forge-1.20.1" = _qbb3N888;
-        "neoforge-1.21.1" = _X1OODoia;
+        "8uiugVtQ" = _8uiugVtQ;
+        "yUPkxagp" = _yUPkxagp;
+        "kDJryOAz" = _kDJryOAz;
+        "aZPny9z9" = _aZPny9z9;
+        "L8nkJ7FZ" = _L8nkJ7FZ;
+        "VFqCv6lm" = _VFqCv6lm;
+        "forge-1.20.1" = _VFqCv6lm;
+        "neoforge-1.21.1" = _L8nkJ7FZ;
         "pkg-2.0.0" = _BtrXWP7P;
         "pkg-1.9.6" = _ec42WyS6;
         "pkg-2.0.0.2" = _B78oudu8;
@@ -331,7 +367,10 @@ let
         "pkg-3.1.0-hotfix5" = _pQWADQqx;
         "pkg-3.1.2-hotfix2" = _VUiWUgpF;
         "pkg-3.1.3-release" = _X1OODoia;
-        "default" = _X1OODoia;
+        "pkg-3.1.4-release" = _yUPkxagp;
+        "pkg-3.1.4-hotfix2" = _aZPny9z9;
+        "pkg-3.1.4-hotfix3" = _VFqCv6lm;
+        "default" = _VFqCv6lm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-fixes";

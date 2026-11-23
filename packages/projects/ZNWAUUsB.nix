@@ -61,6 +61,11 @@ let
             "file" = "amble-1.1.14-1.20.1+forge-beta.jar";
             "hash" = "sha512-TamkBfcNbdXgZTY739elJfwL9oL3iT3M0/kCw9k1pUdYoHv6ERz6Ozp3katPh2uqa74RCxi9LK4rWPDQ+B/mgg==";
         };
+        _kDIYZWCD = {
+            "id" = "kDIYZWCD";
+            "file" = "amblekit-1.1.16-dev.323+mc.1.20.1.jar";
+            "hash" = "sha512-lve0HiFo/OMH8wx8DwTrPCFcylM3i6cWkE5Tdfd+Fac/qW//TuIpwCAkx6L92HO/lh0gupfifyYdoy7dxJH6WQ==";
+        };
     in {
         "8iuP3hUc" = _8iuP3hUc;
         "VvcQTzQe" = _VvcQTzQe;
@@ -74,12 +79,13 @@ let
         "fxnaLkCn" = _fxnaLkCn;
         "1Xvc0qhJ" = _1Xvc0qhJ;
         "icTF9K2m" = _icTF9K2m;
-        "fabric-1.20.1" = _1Xvc0qhJ;
-        "fabric-1.20.2" = _Gxyxyc6q;
-        "fabric-1.20.3" = _Gxyxyc6q;
-        "fabric-1.20.4" = _Gxyxyc6q;
-        "fabric-1.20.5" = _Gxyxyc6q;
-        "fabric-1.20.6" = _Gxyxyc6q;
+        "kDIYZWCD" = _kDIYZWCD;
+        "fabric-1.20.1" = _kDIYZWCD;
+        "fabric-1.20.2" = _kDIYZWCD;
+        "fabric-1.20.3" = _kDIYZWCD;
+        "fabric-1.20.4" = _kDIYZWCD;
+        "fabric-1.20.5" = _kDIYZWCD;
+        "fabric-1.20.6" = _kDIYZWCD;
         "forge-1.20.1" = _icTF9K2m;
         "pkg-1.1.1.30-1.20.1-beta" = _8iuP3hUc;
         "pkg-1.1.2-1.20.1-beta" = _VvcQTzQe;
@@ -92,7 +98,8 @@ let
         "pkg-1.1.13-1.20.1-beta" = _fxnaLkCn;
         "pkg-1.1.14.79-1.20.1-beta" = _1Xvc0qhJ;
         "pkg-1.1.14-1.20.1+forge-beta" = _icTF9K2m;
-        "default" = _icTF9K2m;
+        "pkg-1.1.16+mc.1.20.1" = _kDIYZWCD;
+        "default" = _kDIYZWCD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "amblekit";

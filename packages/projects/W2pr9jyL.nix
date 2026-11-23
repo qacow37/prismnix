@@ -116,6 +116,11 @@ let
             "file" = "cobblemon-additions-4.3.0.jar";
             "hash" = "sha512-qceYNyb1sP23oi8P4Has1jMzrOzrxtJESkDyM2caVGT+XhpQr5SM1mahM3EkURo3y3g19EmQ8GqyZ3P2LjIhRw==";
         };
+        _AgwIqfiD = {
+            "id" = "AgwIqfiD";
+            "file" = "cobblemon-additions-5.0.0-RC4.jar";
+            "hash" = "sha512-e9bb67whDzKCfphaZVrIUwOp96JpntjvPgYzGYs9mh85QNx9i2H4HE2VKakO+Qund0sbX2O1bgpf1s4PKfYuoA==";
+        };
     in {
         "ii8bWXW2" = _ii8bWXW2;
         "8tEPhYWr" = _8tEPhYWr;
@@ -140,9 +145,10 @@ let
         "degN5DK4" = _degN5DK4;
         "9PMzbD4o" = _9PMzbD4o;
         "NVitD9gY" = _NVitD9gY;
+        "AgwIqfiD" = _AgwIqfiD;
         "datapack-1.20.1" = _DASKc3El;
         "datapack-1.21.1" = _J1wqmyOI;
-        "fabric-1.21.1" = _NVitD9gY;
+        "fabric-1.21.1" = _AgwIqfiD;
         "fabric-1.21.2" = _NVitD9gY;
         "fabric-1.21.3" = _NVitD9gY;
         "fabric-1.21.4" = _NVitD9gY;
@@ -176,7 +182,8 @@ let
         "pkg-4.1.6" = _degN5DK4;
         "pkg-4.2.1" = _9PMzbD4o;
         "pkg-4.3.0" = _NVitD9gY;
-        "default" = _NVitD9gY;
+        "pkg-5.0.0" = _AgwIqfiD;
+        "default" = _AgwIqfiD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-additions";

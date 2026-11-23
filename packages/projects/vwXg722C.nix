@@ -11,15 +11,22 @@ let
             "file" = "Just 3D Foods.zip";
             "hash" = "sha512-dubzQl5AegVK3UfEXF9MZsIYKmLbC4QLl2rFCzSrPhUuynkAc93JKYUQ05ftBCQ8X8yT28YaIB+9hDhtaolS/A==";
         };
+        _Tc3irVxn = {
+            "id" = "Tc3irVxn";
+            "file" = "Just 3D Foods.zip";
+            "hash" = "sha512-fO5ys8qZNTpAzaXS+HqSjnQYtTrWgLIz8SlGsYvwK/5RJGi0q3EIO/WsyZExh1GNKUJsrlTJrNixCVlJ+8I0aw==";
+        };
     in {
         "nKUMBKV0" = _nKUMBKV0;
         "JKusESvP" = _JKusESvP;
-        "minecraft-1.21.9" = _JKusESvP;
-        "minecraft-1.21.10" = _JKusESvP;
-        "minecraft-1.21.11" = _JKusESvP;
+        "Tc3irVxn" = _Tc3irVxn;
+        "minecraft-1.21.9" = _Tc3irVxn;
+        "minecraft-1.21.10" = _Tc3irVxn;
+        "minecraft-1.21.11" = _Tc3irVxn;
         "pkg-1.0" = _nKUMBKV0;
         "pkg-1.1" = _JKusESvP;
-        "default" = _JKusESvP;
+        "pkg-1.2" = _Tc3irVxn;
+        "default" = _Tc3irVxn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "just-3d-foods";

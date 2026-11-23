@@ -551,6 +551,26 @@ let
             "file" = "ponderer-1.21.1-fabric-1.12.0.jar";
             "hash" = "sha512-Hy+E0DYxGpQg8dWGqXLLUvzE2Wa3XnAxyIEBhl4Z+UHLOPhbObQ14p+tf1fxW/tQSyfKwD40qbsY82C1oUTB5w==";
         };
+        _7K48osQe = {
+            "id" = "7K48osQe";
+            "file" = "pondererlib-1.21.1-neoforge-0.1.2.jar";
+            "hash" = "sha512-fKWEjEIMLerNU3txEiRcrXudNK5YTlxk7vsa1wPRI+fju8rjTFcfIprPbE39S9Cp+/OABAtaK4ty42AvJOhNAQ==";
+        };
+        _nIMhePBz = {
+            "id" = "nIMhePBz";
+            "file" = "ponderer-1.21.1-neoforge-1.12.1.jar";
+            "hash" = "sha512-5vHPxk1zm98P+9tuBNdYvaXlA+5JcXZObALYt6TVcJJQMfmkZnethEa8aCrp6qzLHJEpT4/bTyZJYm7Lh3Bvmg==";
+        };
+        _Ab5Sq3Vo = {
+            "id" = "Ab5Sq3Vo";
+            "file" = "pondererlib-1.21.1-fabric-0.1.2.jar";
+            "hash" = "sha512-b5/HwZxt6ZoX6lmKl+2UEAzzLGQC5M1e2j0mQd3sd5NTzqxoftfev2S8fIBWiq9uwSkMfgeJGQoiStYzApfr2Q==";
+        };
+        _fcxuIfLQ = {
+            "id" = "fcxuIfLQ";
+            "file" = "ponderer-1.21.1-fabric-1.12.1.jar";
+            "hash" = "sha512-Pgl6WP/JYtD7rM16jvSaFLCWDMlcuX2z0pg1ur8Wc98eSCp03V0Yk6Lmp0MhwdRJedKsUhB8bbXs2sbtDTyjtA==";
+        };
     in {
         "F87iKeTi" = _F87iKeTi;
         "KwGlLjL7" = _KwGlLjL7;
@@ -662,10 +682,14 @@ let
         "8UWz9exc" = _8UWz9exc;
         "KTYujICo" = _KTYujICo;
         "z0xJq131" = _z0xJq131;
-        "neoforge-1.21.1" = _8UWz9exc;
+        "7K48osQe" = _7K48osQe;
+        "nIMhePBz" = _nIMhePBz;
+        "Ab5Sq3Vo" = _Ab5Sq3Vo;
+        "fcxuIfLQ" = _fcxuIfLQ;
+        "neoforge-1.21.1" = _nIMhePBz;
         "forge-1.20.1" = _uTS55Mx3;
         "fabric-1.20.1" = _ElxBKTXf;
-        "fabric-1.21.1" = _z0xJq131;
+        "fabric-1.21.1" = _fcxuIfLQ;
         "minecraft-1.20.1" = _eAnONipp;
         "minecraft-1.21.1" = _eAnONipp;
         "pkg-1.0.0" = _eAnONipp;
@@ -711,7 +735,10 @@ let
         "pkg-1.11.0" = _ElxBKTXf;
         "pkg-lib-0.1.1" = _KTYujICo;
         "pkg-1.12.0" = _z0xJq131;
-        "default" = _z0xJq131;
+        "pkg-lib-0.1.2-1.21.1-neoforge" = _7K48osQe;
+        "pkg-1.12.1" = _fcxuIfLQ;
+        "pkg-lib-0.1.2-1.21.1-fabric" = _Ab5Sq3Vo;
+        "default" = _fcxuIfLQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-ponderer";

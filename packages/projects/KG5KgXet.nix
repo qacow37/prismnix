@@ -21,18 +21,25 @@ let
             "file" = "Dystoria-Minimap-Icons.zip";
             "hash" = "sha512-cw8sj/avU8HiKLF2am2Fls9+KT39qGvG/zpdOg9YWIknMiewlg2cEzZYA91AGKbbhx7W2YcfiVqCIE8IXQMKkQ==";
         };
+        _mQHZGgXr = {
+            "id" = "mQHZGgXr";
+            "file" = "Dystoria-Minimap-Icons.zip";
+            "hash" = "sha512-2J/OaV7QUJtLWqAu0VMcTtw0e9ResJl5GieVccc4zejgT4Gc5cpJdr8wiGRRhfqkrvBLo3aWFfSfh/27W9yv2A==";
+        };
     in {
         "TzCxN7Qe" = _TzCxN7Qe;
         "AtF2jUdV" = _AtF2jUdV;
         "HXStg9Xd" = _HXStg9Xd;
         "djL7Y19Q" = _djL7Y19Q;
-        "minecraft-1.21.1" = _djL7Y19Q;
-        "minecraft-1.21" = _djL7Y19Q;
+        "mQHZGgXr" = _mQHZGgXr;
+        "minecraft-1.21.1" = _mQHZGgXr;
+        "minecraft-1.21" = _mQHZGgXr;
         "pkg-1" = _TzCxN7Qe;
         "pkg-2" = _AtF2jUdV;
         "pkg-3.0" = _HXStg9Xd;
         "pkg-4.0" = _djL7Y19Q;
-        "default" = _djL7Y19Q;
+        "pkg-4.1" = _mQHZGgXr;
+        "default" = _mQHZGgXr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dystoria-minimap-icons";

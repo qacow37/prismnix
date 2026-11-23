@@ -66,6 +66,11 @@ let
             "file" = "InfinityTotem-1.0.0+1.21.1.jar";
             "hash" = "sha512-KB3QCKTN51lp+XotUoBn0OPlGmAlzW7XyRGugvb9bDHY5Yt0SY36oMZ5CElkIVUwTs/8S/vhHXZgWKdH8duLtw==";
         };
+        _1ykkHfd8 = {
+            "id" = "1ykkHfd8";
+            "file" = "InfinityTotem-1.0.0+26.3.jar";
+            "hash" = "sha512-oRXH8Y3xfE6i00ZY5m7X/zzdzQwIcfZ/uCgZS+p3izQbGQrdinDTP5QBAg7BYEN+QuTI/qIIEjTFOSOU8PjmeQ==";
+        };
     in {
         "tn4hwWa7" = _tn4hwWa7;
         "afQ80N33" = _afQ80N33;
@@ -80,10 +85,12 @@ let
         "rMwVYDYU" = _rMwVYDYU;
         "7bm1PAbe" = _7bm1PAbe;
         "bm8tNSfx" = _bm8tNSfx;
+        "1ykkHfd8" = _1ykkHfd8;
         "fabric-1.20.1" = _tn4hwWa7;
         "fabric-1.21" = _afQ80N33;
         "fabric-1.21.1" = _hhDM4dax;
         "fabric-26.2" = _7bm1PAbe;
+        "fabric-26.3" = _1ykkHfd8;
         "forge-1.20.1" = _ITTL1761;
         "forge-1.21" = _tpdP4r0B;
         "forge-1.21.1" = _ADBjA3Gp;
@@ -93,8 +100,8 @@ let
         "forge-1.19.2" = _AsYaO89Z;
         "forge-1.18.2" = _rMwVYDYU;
         "neoforge-1.21.1" = _bm8tNSfx;
-        "pkg-1.0.0" = _bm8tNSfx;
-        "default" = _bm8tNSfx;
+        "pkg-1.0.0" = _1ykkHfd8;
+        "default" = _1ykkHfd8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "infinitytotem";

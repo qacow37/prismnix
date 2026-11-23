@@ -171,6 +171,11 @@ let
             "file" = "AdPother-1.20.1-8.1.53.0-build.2380.jar";
             "hash" = "sha512-rEJCFw625b7ZiWexJMOuUr1JRybHed8Jij8gsK+2eXm13gL3Iyu+kKzp/klK0Xc+TYnpMaXEiB3Ntow5MNQeUw==";
         };
+        _Hh4gO7aq = {
+            "id" = "Hh4gO7aq";
+            "file" = "AdPother-1.21.1-9.1.15.0-NeoForge-build.1399.jar";
+            "hash" = "sha512-7JQuel1Kx6HMaQ0EP4FfNjCOk7pogXtDlLTBzn1RhFt50rocJ853U6w7qrdij7DMMqQ+H6wKiI9TGwVyGst7Ug==";
+        };
     in {
         "OhXpN84v" = _OhXpN84v;
         "D2L4WQIM" = _D2L4WQIM;
@@ -206,13 +211,14 @@ let
         "mogBTwaI" = _mogBTwaI;
         "4c797aEW" = _4c797aEW;
         "g4Zuw1Lj" = _g4Zuw1Lj;
+        "Hh4gO7aq" = _Hh4gO7aq;
         "fabric-26.2" = _s7kB7wTY;
         "fabric-26.3" = _bzioWbum;
         "forge-26.2" = _CNQgjjJV;
         "forge-1.20.1" = _g4Zuw1Lj;
         "forge-26.3" = _INyAnCyF;
         "neoforge-26.2" = _WfD0R3Lx;
-        "neoforge-1.21.1" = _4c797aEW;
+        "neoforge-1.21.1" = _Hh4gO7aq;
         "neoforge-26.3" = _mogBTwaI;
         "pkg-26.2.0.0" = _TcTYIqsW;
         "pkg-9.1.8.0" = _tDUTQWaM;
@@ -235,7 +241,8 @@ let
         "pkg-26.3.0.2" = _mogBTwaI;
         "pkg-9.1.14.0" = _4c797aEW;
         "pkg-8.1.53.0" = _g4Zuw1Lj;
-        "default" = _g4Zuw1Lj;
+        "pkg-9.1.15.0" = _Hh4gO7aq;
+        "default" = _Hh4gO7aq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pollution-of-the-realms";

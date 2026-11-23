@@ -181,6 +181,11 @@ let
             "file" = "endless_backrooms-0.4.5.jar";
             "hash" = "sha512-G/NkO/ThzTo0l2YWHtdaPRKhDfx5o5syN+f6FQjy7JUf4/AsTFVVJbdD8sZAap6WR4wpfLvJdu3Q+3chwgfBOw==";
         };
+        _95SKYGNS = {
+            "id" = "95SKYGNS";
+            "file" = "endless_backrooms-0.5.0.jar";
+            "hash" = "sha512-OjESdXncwak7CqUd+yuIFv6nQE0O0eAApCSYhPqkXbAJmVbMicoqCevhASeQd/KczPBxR+q4jC3ET84adOrj4g==";
+        };
     in {
         "wyEWVu6d" = _wyEWVu6d;
         "3tVw7glx" = _3tVw7glx;
@@ -218,10 +223,11 @@ let
         "wEnLnLuS" = _wEnLnLuS;
         "eBwHz4TK" = _eBwHz4TK;
         "AMuG1tAw" = _AMuG1tAw;
-        "fabric-1.20" = _AMuG1tAw;
-        "fabric-1.20.1" = _AMuG1tAw;
-        "quilt-1.20" = _AMuG1tAw;
-        "quilt-1.20.1" = _AMuG1tAw;
+        "95SKYGNS" = _95SKYGNS;
+        "fabric-1.20" = _95SKYGNS;
+        "fabric-1.20.1" = _95SKYGNS;
+        "quilt-1.20" = _95SKYGNS;
+        "quilt-1.20.1" = _95SKYGNS;
         "pkg-0.1.0" = _wyEWVu6d;
         "pkg-0.1.1" = _3tVw7glx;
         "pkg-0.1.2" = _1vqqwpmQ;
@@ -258,7 +264,8 @@ let
         "pkg-0.4.4" = _wEnLnLuS;
         "pkg-0.4.4-fixed" = _eBwHz4TK;
         "pkg-0.4.5" = _AMuG1tAw;
-        "default" = _AMuG1tAw;
+        "pkg-0.5.0" = _95SKYGNS;
+        "default" = _95SKYGNS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "endless_backrooms";

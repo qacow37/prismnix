@@ -161,6 +161,56 @@ let
             "file" = "flashlight-2.1.0-neoforge-26.1-26.2.jar";
             "hash" = "sha512-O3e7df/Jc2+SsOazYzvPA2peMiWHnK6NpGQQKDElmDFftqGvSmfKNzN6lLS3l5Q/7mfGNjJYOfU9f7OnVdZnmA==";
         };
+        _ARxNYfkO = {
+            "id" = "ARxNYfkO";
+            "file" = "flashlight-fabric-1.21.1-3.0.0-beta.1-fabric-1.21.1.jar";
+            "hash" = "sha512-7jaSR4SS0OwW4v4v527qQSy5QqmxY5U1PE9UDtosna1hF0l8+gFvqxy05NzTQrcTfCn3FJs0E8eh4PO619u9gA==";
+        };
+        _yGqmQQ6S = {
+            "id" = "yGqmQQ6S";
+            "file" = "flashlight-fabric-1.21.11-3.0.0-beta.1-fabric-1.21.11.jar";
+            "hash" = "sha512-ILOl8vJ1UpG3ACytePhDTtdmvw9PDk3o4ZJ0LvEHHXPGntWg9nir5ABIrxj1B4gD7UfxoHXzBKQnE6FGsRmipA==";
+        };
+        _oZCoxszo = {
+            "id" = "oZCoxszo";
+            "file" = "flashlight-3.0.0-beta.1-fabric-26.1.jar";
+            "hash" = "sha512-OmtvQ2/GSBS0h6lwjku24HBUdq9xdkkCqSxXE+flx5fKLzI7042E1ylS6jbk1nbd79Dpjizq1TstpRx44VoiQw==";
+        };
+        _74GW7gk4 = {
+            "id" = "74GW7gk4";
+            "file" = "flashlight-3.0.0-beta.1-fabric-26.2.jar";
+            "hash" = "sha512-ne2osK448XPWE5yDaL7TcDdIauIoZa4KzP6IKe9qVyk4t6Cfu6Eh6AnTOwxQ0XbVGp/YDO7BVRo1xhB7ki6kRQ==";
+        };
+        _YdinH8QW = {
+            "id" = "YdinH8QW";
+            "file" = "flashlight-fabric-26.3-3.0.0-beta.1-fabric-26.3.jar";
+            "hash" = "sha512-ahe46xtrvT9Zq9o03nrmneYfgfqGfZHQ6/uD0yGkN7ufFh7/jljAeahapEWVfEuTHSL7gsQ5WwenLnCXbeRcjg==";
+        };
+        _2Svnlzip = {
+            "id" = "2Svnlzip";
+            "file" = "flashlight-3.0.0-beta.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-W0jMRyOz9ElQP+VwBQk69t447hYTdYHD8kBpyCa4OLOCEib9+9JSDL4MXZq5M7pjB0l5SksNs7D/S2w1dp1plQ==";
+        };
+        _wJHjvQY6 = {
+            "id" = "wJHjvQY6";
+            "file" = "flashlight-neoforge-1.21.11-3.0.0-beta.1-neoforge-1.21.11.jar";
+            "hash" = "sha512-J9VMxbFVgcdiqDebymC5qPCmQtkARGN2nNkVdeEtK9JCTEHDZzeUEzd46xrBvQmOVkvvpGG3TjXk7Tal6kKzNQ==";
+        };
+        _KRX0MvPo = {
+            "id" = "KRX0MvPo";
+            "file" = "flashlight-3.0.0-beta.1-neoforge-26.1.jar";
+            "hash" = "sha512-ALtKec0OTG0FAXil8GsWxtVdriQFqy9Nnw6GePYLoL7EzYuwR7+sSxVQWKQX7+kdtp+gUJC3+ySPKAeKrofGgQ==";
+        };
+        _mfPsELGR = {
+            "id" = "mfPsELGR";
+            "file" = "flashlight-3.0.0-beta.1-neoforge-26.2.jar";
+            "hash" = "sha512-pYd/kBcUu6y9Z70IG3YLALpoYsvf4cLEmZk8Js638ymo08kndrB4j2iDwlfABZ/rw/8vgwiXmmxs0FbChiL3yA==";
+        };
+        _LHtTx43e = {
+            "id" = "LHtTx43e";
+            "file" = "flashlight-3.0.0-beta.1-neoforge-26.3.jar";
+            "hash" = "sha512-+CCA+QRJ9JV+pdIkizjbq9+OMW1u0u/i/pSaoMwFp/duwQlv3yvY91jHZ9TBY7DZ/wWg4mtH+rCdyjOezILHuA==";
+        };
     in {
         "nxxk1VQq" = _nxxk1VQq;
         "d9NHCRtj" = _d9NHCRtj;
@@ -194,6 +244,16 @@ let
         "THm1hRBi" = _THm1hRBi;
         "ODep8Jnf" = _ODep8Jnf;
         "gd5iTIkF" = _gd5iTIkF;
+        "ARxNYfkO" = _ARxNYfkO;
+        "yGqmQQ6S" = _yGqmQQ6S;
+        "oZCoxszo" = _oZCoxszo;
+        "74GW7gk4" = _74GW7gk4;
+        "YdinH8QW" = _YdinH8QW;
+        "2Svnlzip" = _2Svnlzip;
+        "wJHjvQY6" = _wJHjvQY6;
+        "KRX0MvPo" = _KRX0MvPo;
+        "mfPsELGR" = _mfPsELGR;
+        "LHtTx43e" = _LHtTx43e;
         "forge-1.20.1" = _dkQtiEhc;
         "forge-1.20.2" = _dkQtiEhc;
         "forge-1.20.3" = _dkQtiEhc;
@@ -201,23 +261,24 @@ let
         "forge-1.20.5" = _dkQtiEhc;
         "forge-1.20.6" = _dkQtiEhc;
         "forge-1.12.2" = _d9NHCRtj;
-        "neoforge-1.21.1" = _gWhkqgh6;
-        "neoforge-1.21.2" = _gWhkqgh6;
-        "neoforge-1.21.3" = _gWhkqgh6;
-        "neoforge-1.21.4" = _gWhkqgh6;
-        "neoforge-1.21.5" = _gWhkqgh6;
-        "neoforge-1.21.6" = _gWhkqgh6;
-        "neoforge-1.21.7" = _gWhkqgh6;
-        "neoforge-1.21.8" = _gWhkqgh6;
-        "neoforge-1.21.9" = _gWhkqgh6;
-        "neoforge-1.21.10" = _gWhkqgh6;
-        "neoforge-1.21.11" = _gWhkqgh6;
-        "neoforge-26.1" = _gd5iTIkF;
+        "neoforge-1.21.1" = _2Svnlzip;
+        "neoforge-1.21.2" = _2Svnlzip;
+        "neoforge-1.21.3" = _2Svnlzip;
+        "neoforge-1.21.4" = _2Svnlzip;
+        "neoforge-1.21.5" = _2Svnlzip;
+        "neoforge-1.21.6" = _2Svnlzip;
+        "neoforge-1.21.7" = _2Svnlzip;
+        "neoforge-1.21.8" = _2Svnlzip;
+        "neoforge-1.21.9" = _2Svnlzip;
+        "neoforge-1.21.10" = _2Svnlzip;
+        "neoforge-1.21.11" = _wJHjvQY6;
+        "neoforge-26.1" = _KRX0MvPo;
         "neoforge-26.1.1" = _gd5iTIkF;
         "neoforge-26.1.2" = _gd5iTIkF;
-        "neoforge-26.2" = _gd5iTIkF;
-        "fabric-1.21.11" = _rGIAbkNk;
-        "fabric-1.21.1" = _ewJWhj18;
+        "neoforge-26.2" = _mfPsELGR;
+        "neoforge-26.3" = _LHtTx43e;
+        "fabric-1.21.11" = _yGqmQQ6S;
+        "fabric-1.21.1" = _ARxNYfkO;
         "fabric-1.21.2" = _KR0yIG7r;
         "fabric-1.21.3" = _7qhvcoeW;
         "fabric-1.21.4" = _xPwVG9QA;
@@ -227,10 +288,11 @@ let
         "fabric-1.21.8" = _pbwNfoLI;
         "fabric-1.21.9" = _ZiAJ1XAu;
         "fabric-1.21.10" = _ACYKYsN7;
-        "fabric-26.1" = _THm1hRBi;
-        "fabric-26.1.1" = _THm1hRBi;
-        "fabric-26.1.2" = _THm1hRBi;
-        "fabric-26.2" = _THm1hRBi;
+        "fabric-26.1" = _oZCoxszo;
+        "fabric-26.1.1" = _oZCoxszo;
+        "fabric-26.1.2" = _oZCoxszo;
+        "fabric-26.2" = _74GW7gk4;
+        "fabric-26.3" = _YdinH8QW;
         "pkg-1.0.0" = _nxxk1VQq;
         "pkg-1.0.0+1.12.2" = _d9NHCRtj;
         "pkg-2.0.0-Forge" = _6RKhEUbc;
@@ -252,7 +314,17 @@ let
         "pkg-2.1.0-fabric-26.1-26.2" = _THm1hRBi;
         "pkg-2.1.0-neoforge-26.1-26.2" = _ODep8Jnf;
         "pkg-2.1.0-neoforge-26.1-26.2-Hotfix" = _gd5iTIkF;
-        "default" = _gd5iTIkF;
+        "pkg-3.0.0-beta.1-fabric-1.21.1" = _ARxNYfkO;
+        "pkg-3.0.0-beta.1-fabric-1.21.11" = _yGqmQQ6S;
+        "pkg-3.0.0-beta.1-fabric-26.1" = _oZCoxszo;
+        "pkg-3.0.0-beta.1-fabric-26.2" = _74GW7gk4;
+        "pkg-3.0.0-beta.1-fabric-26.3" = _YdinH8QW;
+        "pkg-3.0.0-beta.1-neoforge-1.21.1" = _2Svnlzip;
+        "pkg-3.0.0-beta.1-neoforge-1.21.11" = _wJHjvQY6;
+        "pkg-3.0.0-beta.1-neoforge-26.1" = _KRX0MvPo;
+        "pkg-3.0.0-beta.1-neoforge-26.2" = _mfPsELGR;
+        "pkg-3.0.0-beta.1-neoforge-26.3" = _LHtTx43e;
+        "default" = _LHtTx43e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamic-flashlight";

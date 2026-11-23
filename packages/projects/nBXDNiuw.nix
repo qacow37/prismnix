@@ -81,6 +81,11 @@ let
             "file" = "cclive-utilities-26.3-1.8.1.jar";
             "hash" = "sha512-5KVZY0qFaG4bWTg/BH+cFJT/L6NZt+2GgSbqWaCrBdh4SripBVGlkDTmu8rsRgS4Pw6FaAOW7W2B8Pd3ujxyEQ==";
         };
+        _5S68FDWL = {
+            "id" = "5S68FDWL";
+            "file" = "cclive-utilities-26.3-1.8.2.jar";
+            "hash" = "sha512-akMEoBO/ETxDvscioZsLnDG8X1RE+09kFGbuo/bZp2C7ROWS6BOrwagt1gzJYuS+V0ypxzge2VK/sQqoHiaOHg==";
+        };
     in {
         "naCp6yNK" = _naCp6yNK;
         "hx92ii75" = _hx92ii75;
@@ -98,10 +103,11 @@ let
         "TiYZC72B" = _TiYZC72B;
         "7sUC7bVK" = _7sUC7bVK;
         "qCphA1uK" = _qCphA1uK;
+        "5S68FDWL" = _5S68FDWL;
         "fabric-1.21.7" = _PUU5fDef;
         "fabric-1.21.8" = _PUU5fDef;
         "fabric-26.1.2" = _Vk5Nkp0q;
-        "fabric-26.3" = _qCphA1uK;
+        "fabric-26.3" = _5S68FDWL;
         "pkg-1.4.0" = _naCp6yNK;
         "pkg-1.4.1" = _hx92ii75;
         "pkg-1.4.2" = _i7cD1Q90;
@@ -116,7 +122,8 @@ let
         "pkg-1.7.2" = _TiYZC72B;
         "pkg-26.3-1.8.0" = _7sUC7bVK;
         "pkg-26.3-1.8.1" = _qCphA1uK;
-        "default" = _qCphA1uK;
+        "pkg-26.3-1.8.2" = _5S68FDWL;
+        "default" = _5S68FDWL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cclive-utilities";

@@ -31,6 +31,11 @@ let
             "file" = "treasureenchant-1.1.0.jar";
             "hash" = "sha512-O0KPe9DofPdRW87OkajGlm3lFEbSpclMAPO1C0p19BTPp9puCipTPV2hG7jCnslSW38oV8vTNK9sJD7XSz7Bnw==";
         };
+        _YmHPAYMz = {
+            "id" = "YmHPAYMz";
+            "file" = "treasureenchant-2.1.0.0-forge-1.20.1.jar";
+            "hash" = "sha512-2IjWlY559c9erASzHjLW4yA+4GF5aw6MIIM/wrrb+5hep/9l7THLdPozMRrImb7nYkAkvwfNFjpbu58+K0r8TQ==";
+        };
     in {
         "Zf5okBJz" = _Zf5okBJz;
         "3eBMoBSv" = _3eBMoBSv;
@@ -38,7 +43,8 @@ let
         "wI36dk9Q" = _wI36dk9Q;
         "zcaRxmQe" = _zcaRxmQe;
         "HpAepNrP" = _HpAepNrP;
-        "forge-1.20.1" = _Zf5okBJz;
+        "YmHPAYMz" = _YmHPAYMz;
+        "forge-1.20.1" = _YmHPAYMz;
         "fabric-1.20.1" = _3eBMoBSv;
         "fabric-1.21.1" = _EzZtDiTK;
         "fabric-1.21.11" = _HpAepNrP;
@@ -47,7 +53,8 @@ let
         "pkg-2.0.1-forge-1.20.1" = _Zf5okBJz;
         "pkg-2.0.0-fabric-1.20.1" = _3eBMoBSv;
         "pkg-1.1.0" = _HpAepNrP;
-        "default" = _HpAepNrP;
+        "pkg-2.1.0.0-forge-1.20.1" = _YmHPAYMz;
+        "default" = _YmHPAYMz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visual-villager-trade-edit";

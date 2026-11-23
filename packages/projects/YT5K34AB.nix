@@ -166,6 +166,11 @@ let
             "file" = "tombstone-1.20.1-9.1.5.jar";
             "hash" = "sha512-Vyg8Xc6USk6uxCQKDSuzPVxvAJpbanpzNPSMKGqhfs15TnAl/4fmG1VVzilmfrKtM22S5CNdE4TgFytIXiMzig==";
         };
+        _px9I5hub = {
+            "id" = "px9I5hub";
+            "file" = "tombstone-1.12.2-4.8.1.jar";
+            "hash" = "sha512-haodmd7veKI6KX5ZPJwoKuG1uXvWAQiqM08WkraK/AnsMeEoWO3tqdwnmgYNXR4qNWkeY1Q1svNFHSClBNMV4w==";
+        };
     in {
         "6bJBFm2h" = _6bJBFm2h;
         "T4kHto2f" = _T4kHto2f;
@@ -200,7 +205,8 @@ let
         "I34Nt5pp" = _I34Nt5pp;
         "7nkZMT16" = _7nkZMT16;
         "nTAliy2r" = _nTAliy2r;
-        "forge-1.12.2" = _zLwFOXYW;
+        "px9I5hub" = _px9I5hub;
+        "forge-1.12.2" = _px9I5hub;
         "forge-1.13.2" = _T4kHto2f;
         "forge-1.14.2" = _kOleiPYi;
         "forge-1.15.2" = _fPIleJ9z;
@@ -254,7 +260,8 @@ let
         "pkg-neoforge-26.2-9.9.4" = _I34Nt5pp;
         "pkg-forge-26.2-9.9.4" = _7nkZMT16;
         "pkg-forge-1.20.1-9.1.5" = _nTAliy2r;
-        "default" = _nTAliy2r;
+        "pkg-forge-1.12.2-4.8.1" = _px9I5hub;
+        "default" = _px9I5hub;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "corail-tombstone";

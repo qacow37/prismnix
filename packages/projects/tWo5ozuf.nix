@@ -191,6 +191,11 @@ let
             "file" = "FlowFont_69.0-88.0_1.3.zip";
             "hash" = "sha512-GW7Oac1pLwItbssV3d3qgfBqugAcCAAhOCHwy5c40JhLgyC5hN679wF/MDY4F4KwkI41QS0MNJx8wIOA5vGuOw==";
         };
+        _U07CQQvu = {
+            "id" = "U07CQQvu";
+            "file" = "FlowFont_69.0-97.1_1.4.zip";
+            "hash" = "sha512-uOXFeuQiLe1iDMBYlrSYHdAZjGO0+ZlFlpMD5+maZulJ982vUzN7DoSS4tyM4hglhesmmTr+uFOQ5n3bT+nFHw==";
+        };
     in {
         "bwGFmKJD" = _bwGFmKJD;
         "YH3FcCsj" = _YH3FcCsj;
@@ -230,6 +235,7 @@ let
         "fU95ANDD" = _fU95ANDD;
         "BNPjwaYJ" = _BNPjwaYJ;
         "5gLGdCu1" = _5gLGdCu1;
+        "U07CQQvu" = _U07CQQvu;
         "minecraft-1.20" = _YDKDl6g5;
         "minecraft-1.20.1" = _YDKDl6g5;
         "minecraft-1.20.2" = _RMU0eehu;
@@ -246,20 +252,22 @@ let
         "minecraft-1.21.6" = _iFkj2SSU;
         "minecraft-1.21.7" = _2RDPba2X;
         "minecraft-1.21.8" = _2RDPba2X;
-        "minecraft-1.21.9" = _5gLGdCu1;
-        "minecraft-1.21.10" = _5gLGdCu1;
-        "minecraft-1.21.11" = _5gLGdCu1;
-        "minecraft-26.1" = _5gLGdCu1;
-        "minecraft-26.1.1" = _5gLGdCu1;
-        "minecraft-26.1.2" = _5gLGdCu1;
-        "minecraft-26.2" = _5gLGdCu1;
+        "minecraft-1.21.9" = _U07CQQvu;
+        "minecraft-1.21.10" = _U07CQQvu;
+        "minecraft-1.21.11" = _U07CQQvu;
+        "minecraft-26.1" = _U07CQQvu;
+        "minecraft-26.1.1" = _U07CQQvu;
+        "minecraft-26.1.2" = _U07CQQvu;
+        "minecraft-26.2" = _U07CQQvu;
+        "minecraft-26.3" = _U07CQQvu;
         "pkg-0.1" = _ZIU3e1KU;
         "pkg-0.2" = _KR9ZJfXE;
         "pkg-1.0" = _9KhhNzci;
         "pkg-1.1" = _fU95ANDD;
         "pkg-1.2" = _BNPjwaYJ;
         "pkg-1.3" = _5gLGdCu1;
-        "default" = _5gLGdCu1;
+        "pkg-1.4" = _U07CQQvu;
+        "default" = _U07CQQvu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flowfont";

@@ -451,6 +451,121 @@ let
             "file" = "Better Revive - 2.2.3 - NeoForge - 26.3.jar";
             "hash" = "sha512-3hcTmzXHIrrBWMpuYEkgQDJdPanvo0FgByWhBLhVteboM3AXBr65YxA+aXGlmj83PbulN1GoQJJuAyNxAyl2Lg==";
         };
+        _4E6yhYRC = {
+            "id" = "4E6yhYRC";
+            "file" = "Better Revive - 2.2.4 - Fabric - 1.20.1.jar";
+            "hash" = "sha512-do8RatwYCGXkqorl8X7zWs9uyA2HpplVoxAbatBis2W60B0CkIvVBzXX5BiFzaWaAXnWvRoPYAgzhHiMgHcWkQ==";
+        };
+        _T91rdSAs = {
+            "id" = "T91rdSAs";
+            "file" = "Better Revive - 2.2.4 - Fabric - 1.21.1.jar";
+            "hash" = "sha512-ztMIc6ggMkjxq9/5j749EET88TXFIp2A9cM5cy6p8z4oYLKO27ZljuGA7C2qSczi8F5N8G/l5v93Hrzpd97DZA==";
+        };
+        _YHAyTU6b = {
+            "id" = "YHAyTU6b";
+            "file" = "Better Revive - 2.2.4 - Fabric - 26.1.jar";
+            "hash" = "sha512-tZ0YJpNeEnPoGvsXGfslUKeMD4tlc27sc4XXBaBzIb7x0pGHzRpacBlCmMLJsUIaTUWzgIE0DnxdKB/5uWxYyQ==";
+        };
+        _lKyoI3yb = {
+            "id" = "lKyoI3yb";
+            "file" = "Better Revive - 2.2.4 - Fabric - 26.2.jar";
+            "hash" = "sha512-lZwX/H6SnXEototYbx0UWWKqa5vPWCOForo6L10dmQZue0E69eHhN95RwNQRkUDUTR7Dlra3OXBkmqg+DYw8YA==";
+        };
+        _PA7tFMeP = {
+            "id" = "PA7tFMeP";
+            "file" = "Better Revive - 2.2.4 - Fabric - 26.3.jar";
+            "hash" = "sha512-pbpdgM70IIwJJnSHyMl5+XdfWo9awPKWlvGbMqc6KSgUACHOpl6/2WU2gvQBVUy6b6bE89tgZhLxufTGeIug9A==";
+        };
+        _ePxj9zAy = {
+            "id" = "ePxj9zAy";
+            "file" = "Better Revive - 2.2.4 - Forge - 1.20.1.jar";
+            "hash" = "sha512-CPElLxgPS5wrE9t82t4esbNGJ0M+OoDuxRkjo9GWth46ipwF4kiGcxSHiHfMNg765B2X2ZStws9UdXn7bBW6kA==";
+        };
+        _UeFE4aom = {
+            "id" = "UeFE4aom";
+            "file" = "Better Revive - 2.2.4 - Forge - 1.21.1.jar";
+            "hash" = "sha512-sM2zpNnJ3oBzn0mMc4L8/ImsJXUqDUPiAmzYJdzx7KakFm4Z9mZ37FJkT588wXhbzGYMBq7pkqWJmEvItBKtFQ==";
+        };
+        _CIATIzEY = {
+            "id" = "CIATIzEY";
+            "file" = "Better Revive - 2.2.4 - Forge - 26.1.1.jar";
+            "hash" = "sha512-KeVMm5IHOIBSpvwMloZVKryhg2LKJncgIY2BflA4W+W/1EmKtUg/t0w0Z8PzuYArPhFveD5KvDc+KWjlVkeojw==";
+        };
+        _VYaoLloH = {
+            "id" = "VYaoLloH";
+            "file" = "Better Revive - 2.2.4 - Forge - 26.1.2.jar";
+            "hash" = "sha512-QQ0VcRs1b9ooy5hylDDkGxX4hgjvusPlD4fLl5MfsTtPgbBuTTMTuo1i4YHjlg5k78MHZY9AQ8pPc7+2wQ6ipQ==";
+        };
+        _7bEvBIHP = {
+            "id" = "7bEvBIHP";
+            "file" = "Better Revive - 2.2.4 - Forge - 26.1.jar";
+            "hash" = "sha512-xBNeVBFSlMY73G95lt8keyGxsPF/S+fxqSdfTzy+5K9VlfUYCOJJGxD9dxy6H/4Qhyu8Zon5zmGQMS8JSC1kaQ==";
+        };
+        _gN0fqYMc = {
+            "id" = "gN0fqYMc";
+            "file" = "Better Revive - 2.2.4 - Forge - 26.2.jar";
+            "hash" = "sha512-HwGE0I88cDqFyyYxie7fF/ngsE4Z1eFAyVgTqSbIUFsufGyLXNvy2XzNNv4YNR50btGBCjfN/9cMxSHHfYWKdA==";
+        };
+        _Y48CUl49 = {
+            "id" = "Y48CUl49";
+            "file" = "Better Revive - 2.2.4 - Forge - 26.3.jar";
+            "hash" = "sha512-dW9nbuDnvJorjY2hFr0A/FMaYpXA+w/Bo8uCLvCuX5bNH/qcbk6rUxqdVHS/4j7iv3ljjCSM7yS+H5Pz8OQLjA==";
+        };
+        _FbEIsNJL = {
+            "id" = "FbEIsNJL";
+            "file" = "Better Revive - 2.2.4 - NeoForge - 1.20.1.jar";
+            "hash" = "sha512-L+YfWIpv/DGa0BC6/i1OUg+Q0IJeDbFcRWmils5DEpDXuzMaRUcsbZ7bt6i5LD1/QN2deY1z3zt7xQKW6x7O3w==";
+        };
+        _G3ceSZVq = {
+            "id" = "G3ceSZVq";
+            "file" = "Better Revive - 2.2.4 - NeoForge - 1.21.1.jar";
+            "hash" = "sha512-WqUgvNvlwg/+mXqDnLfSk1+rA1PgLflga5rRq6UP8xLKMZfYrgv5qYeubcowJRxBMIxT/OSg0YI+d8qZymWFnw==";
+        };
+        _6OVjAbEr = {
+            "id" = "6OVjAbEr";
+            "file" = "Better Revive - 2.2.4 - NeoForge - 26.1.1.jar";
+            "hash" = "sha512-EAja7iZ0CDxEZMTihY2F5zUqTa7QD+qrBj/JUQjjXzQJ4ZrTU9XX4gZJ2w6lztLeJgF5aydUGmPt9mA2KAZdUA==";
+        };
+        _MjFproEO = {
+            "id" = "MjFproEO";
+            "file" = "Better Revive - 2.2.4 - NeoForge - 26.1.2.jar";
+            "hash" = "sha512-nGBOK2G0ktiKTulOkze89+ZLzcC6VlqN3HbJl1Hx74yQ3+ezOQMgHyUt0K0O/zqNdOaPDsasUQS82fiFGGlu8w==";
+        };
+        _dCfL6BsL = {
+            "id" = "dCfL6BsL";
+            "file" = "Better Revive - 2.2.4 - NeoForge - 26.1.jar";
+            "hash" = "sha512-L+BYx2ZbmNmF1qLkHjfXsQFAs/UMFaq5E2fBe+roKdO5V5KTOtswajMjOIPpeB1ftiR25AYzXJKp0jZ6hl7KUg==";
+        };
+        _SOTkKuIp = {
+            "id" = "SOTkKuIp";
+            "file" = "Better Revive - 2.2.4 - NeoForge - 26.2.jar";
+            "hash" = "sha512-x1lxcWi9JvkxZwZ/zgyAJBs4TdN3RTX6csmxn732pcgg9qu94CktG8inOA16E5/RX1CGkwd6k+QaDC/N5sF3NA==";
+        };
+        _9yxYEHZD = {
+            "id" = "9yxYEHZD";
+            "file" = "Better Revive - 2.2.4 - NeoForge - 26.3.jar";
+            "hash" = "sha512-e8mVIz2XGneHE432vyfQbjmNlcG7tNHQ3sFwvLHxiJq1kTb9v5GQx6zIXBRQufNW84l7XtahYAN2a6xaPYb8uw==";
+        };
+        _HmYc8cpX = {
+            "id" = "HmYc8cpX";
+            "file" = "Better Revive - 2.2.5 - Fabric - 1.20.1.jar";
+            "hash" = "sha512-lgxfzYBhbFNDwb4P1YTdnXlAiPiyO4Ni80iOgyC2XGR4lv76jraOe//UQaxs+tCsaWeN+yTlR+bvAUptSe7pgA==";
+        };
+        _3MGcJzgy = {
+            "id" = "3MGcJzgy";
+            "file" = "Better Revive - 2.2.5 - Fabric - 26.1.jar";
+            "hash" = "sha512-EdSwxz2kHEukTZ3hxG1uJe+4XIh8P/+4PMejqLGP7Fl1IpDgzSCatA20KsVHJ4skpuywORj2yL7wKSjaLKZeww==";
+        };
+        _z0impsrM = {
+            "id" = "z0impsrM";
+            "file" = "Better Revive - 2.2.5 - Fabric - 26.2.jar";
+            "hash" = "sha512-5o03Yl/IrNyAP5aOVl2Ks7ZmAA+2iv5FPWaWgON21WuB0YUwmJ582hPwaGpyHghlb7Npm3zCd0b+JO8IoogDMw==";
+        };
+        _qH6vZOjL = {
+            "id" = "qH6vZOjL";
+            "file" = "Better Revive - 2.2.5 - Fabric - 26.3.jar";
+            "hash" = "sha512-GAhgimdgpdiq9r+kFsYTzvQPjdwexJMhLZCcRs5hMpRZ0dJHWYtdnNeqNUMEwYGkz0uFL/1IrwhpbxdmmGAaug==";
+        };
     in {
         "Bma3oFTx" = _Bma3oFTx;
         "66gktisx" = _66gktisx;
@@ -542,27 +657,50 @@ let
         "atBw5wcY" = _atBw5wcY;
         "pecSEBu6" = _pecSEBu6;
         "9Cf81QHh" = _9Cf81QHh;
-        "fabric-1.21.1" = _sFSmtpON;
-        "fabric-26.1" = _VIc2Mun9;
-        "fabric-26.1.1" = _VIc2Mun9;
-        "fabric-26.1.2" = _VIc2Mun9;
-        "fabric-26.2" = _pdnQcJ3C;
-        "fabric-1.20.1" = _rvpYYZuV;
-        "fabric-26.3" = _9nL0QRH2;
-        "neoforge-1.21.1" = _YpfM37Gs;
-        "neoforge-26.1" = _atBw5wcY;
-        "neoforge-26.1.1" = _oxCSlfbX;
-        "neoforge-26.1.2" = _btomu23h;
-        "neoforge-26.2" = _pecSEBu6;
-        "neoforge-1.20.1" = _bXtrLVRp;
-        "neoforge-26.3" = _9Cf81QHh;
-        "forge-1.20.1" = _Mi5pn3ob;
-        "forge-26.2" = _Lkxk77KH;
-        "forge-26.1.2" = _RsCotAhg;
-        "forge-26.1.1" = _NKOklHaN;
-        "forge-26.1" = _Haytd6Ez;
-        "forge-1.21.1" = _iqaIWyyF;
-        "forge-26.3" = _k8PBwDUD;
+        "4E6yhYRC" = _4E6yhYRC;
+        "T91rdSAs" = _T91rdSAs;
+        "YHAyTU6b" = _YHAyTU6b;
+        "lKyoI3yb" = _lKyoI3yb;
+        "PA7tFMeP" = _PA7tFMeP;
+        "ePxj9zAy" = _ePxj9zAy;
+        "UeFE4aom" = _UeFE4aom;
+        "CIATIzEY" = _CIATIzEY;
+        "VYaoLloH" = _VYaoLloH;
+        "7bEvBIHP" = _7bEvBIHP;
+        "gN0fqYMc" = _gN0fqYMc;
+        "Y48CUl49" = _Y48CUl49;
+        "FbEIsNJL" = _FbEIsNJL;
+        "G3ceSZVq" = _G3ceSZVq;
+        "6OVjAbEr" = _6OVjAbEr;
+        "MjFproEO" = _MjFproEO;
+        "dCfL6BsL" = _dCfL6BsL;
+        "SOTkKuIp" = _SOTkKuIp;
+        "9yxYEHZD" = _9yxYEHZD;
+        "HmYc8cpX" = _HmYc8cpX;
+        "3MGcJzgy" = _3MGcJzgy;
+        "z0impsrM" = _z0impsrM;
+        "qH6vZOjL" = _qH6vZOjL;
+        "fabric-1.21.1" = _T91rdSAs;
+        "fabric-26.1" = _3MGcJzgy;
+        "fabric-26.1.1" = _3MGcJzgy;
+        "fabric-26.1.2" = _3MGcJzgy;
+        "fabric-26.2" = _z0impsrM;
+        "fabric-1.20.1" = _HmYc8cpX;
+        "fabric-26.3" = _qH6vZOjL;
+        "neoforge-1.21.1" = _G3ceSZVq;
+        "neoforge-26.1" = _dCfL6BsL;
+        "neoforge-26.1.1" = _6OVjAbEr;
+        "neoforge-26.1.2" = _MjFproEO;
+        "neoforge-26.2" = _SOTkKuIp;
+        "neoforge-1.20.1" = _FbEIsNJL;
+        "neoforge-26.3" = _9yxYEHZD;
+        "forge-1.20.1" = _ePxj9zAy;
+        "forge-26.2" = _gN0fqYMc;
+        "forge-26.1.2" = _VYaoLloH;
+        "forge-26.1.1" = _CIATIzEY;
+        "forge-26.1" = _7bEvBIHP;
+        "forge-1.21.1" = _UeFE4aom;
+        "forge-26.3" = _Y48CUl49;
         "pkg-1.2.5" = _6PiH0tSu;
         "pkg-1.2.6" = _Gll62dpo;
         "pkg-1.2.6-1" = _VAytLP2l;
@@ -581,7 +719,9 @@ let
         "pkg-2.2.1" = _AjWP4BRz;
         "pkg-2.2.2" = _NjTBjhZ6;
         "pkg-2.2.3" = _9Cf81QHh;
-        "default" = _9Cf81QHh;
+        "pkg-2.2.4" = _9yxYEHZD;
+        "pkg-2.2.5" = _qH6vZOjL;
+        "default" = _qH6vZOjL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-revive";

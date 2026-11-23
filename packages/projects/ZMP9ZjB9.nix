@@ -351,6 +351,11 @@ let
             "file" = "ait-1.2.12-release+mc.1.20.1.jar";
             "hash" = "sha512-FCVrld+TrwuOqHLtECDKbUKQb5dfOM+eR2l3DnXNu/xKQZoRLVq6n5CVStww99b0TzqhAnrn/PrqY/w9uSKmWQ==";
         };
+        _1rYDbNpb = {
+            "id" = "1rYDbNpb";
+            "file" = "ait-1.3.0-release+mc.1.20.1.jar";
+            "hash" = "sha512-nqXxMZtEFF7tC72T5qOClMgSbQcq6FoGntfmAZeMDTmLMDioAcHsJMao0qV+53ToD5mjwgYnfchd4+mvd98FAw==";
+        };
     in {
         "Q4kxa77f" = _Q4kxa77f;
         "1T6VW5TB" = _1T6VW5TB;
@@ -422,8 +427,9 @@ let
         "dkk7bTqy" = _dkk7bTqy;
         "vQBXcmCj" = _vQBXcmCj;
         "iqoMsymS" = _iqoMsymS;
+        "1rYDbNpb" = _1rYDbNpb;
         "forge-1.16.5" = _mO1D3gVh;
-        "fabric-1.20.1" = _iqoMsymS;
+        "fabric-1.20.1" = _1rYDbNpb;
         "quilt-1.20.1" = _BZsFt7sC;
         "pkg-1.0.0" = _Q4kxa77f;
         "pkg-1.0.1" = _1T6VW5TB;
@@ -495,7 +501,8 @@ let
         "pkg-1.2.10.2824-1.20.1-release" = _dkk7bTqy;
         "pkg-1.2.11.2825-1.20.1-release" = _vQBXcmCj;
         "pkg-1.2.12-release+mc.1.20.1" = _iqoMsymS;
-        "default" = _iqoMsymS;
+        "pkg-1.3.0-release+mc.1.20.1" = _1rYDbNpb;
+        "default" = _1rYDbNpb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ait";

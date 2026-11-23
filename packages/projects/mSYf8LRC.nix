@@ -81,6 +81,11 @@ let
             "file" = "NuclearRadiation-1.21.1-1.0.22.jar";
             "hash" = "sha512-E/0ZsPIujEXlNGXWyaOFMdnwdUZH/I/SUDyKv2gxjwd+/kanleZUz7iBGFdXo4hmm4x/q3alh6cBJpN8jg1wNw==";
         };
+        _g1Z9Zn6H = {
+            "id" = "g1Z9Zn6H";
+            "file" = "nuclear_radiation-26.1.2-1.0.0.jar";
+            "hash" = "sha512-/Rx36ku91EbvX1kc6BZW4dNbeS46FUuma00IJxM+cbmn6249/dqyaeOzSDjohzhPULTgDGs8FdnOY0OBYoyhaA==";
+        };
     in {
         "U6vMBryy" = _U6vMBryy;
         "Cb46fHgq" = _Cb46fHgq;
@@ -98,8 +103,9 @@ let
         "lsYGVNX9" = _lsYGVNX9;
         "UfoLpl5Y" = _UfoLpl5Y;
         "DonrNIve" = _DonrNIve;
+        "g1Z9Zn6H" = _g1Z9Zn6H;
         "neoforge-1.21.1" = _DonrNIve;
-        "neoforge-26.1.2" = _tPi45TCu;
+        "neoforge-26.1.2" = _g1Z9Zn6H;
         "pkg-1.0.0-beta1" = _U6vMBryy;
         "pkg-1.0.0-beta8" = _Cb46fHgq;
         "pkg-1.0.3" = _znRoLbSB;
@@ -116,7 +122,8 @@ let
         "pkg-1.0.20" = _lsYGVNX9;
         "pkg-1.0.21" = _UfoLpl5Y;
         "pkg-1.0.22" = _DonrNIve;
-        "default" = _DonrNIve;
+        "pkg-26.1.2-1.0.0" = _g1Z9Zn6H;
+        "default" = _g1Z9Zn6H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nuclear-radiation";

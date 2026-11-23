@@ -171,6 +171,11 @@ let
             "file" = "collapsible-game-rules-1.0.47+26.3.jar";
             "hash" = "sha512-qiy4EYh3Wg7di31URJyEr8cYkJKKC9SY/UlMnMVwTu9jXXycDfr5VOnTM54I1zhWLYHrtKNp1SxRg3q7c1QqUQ==";
         };
+        _CdGPiCav = {
+            "id" = "CdGPiCav";
+            "file" = "collapsible-game-rules-1.0.48+26.3.jar";
+            "hash" = "sha512-zD4WZp9XUg7awcpgsMroIz1wGE9SOECjwqiK7MYTztc+m8Weay80HL5zRFjmxtwpli1MutWyUvDtI7CsTyNhug==";
+        };
     in {
         "4g8AKlqE" = _4g8AKlqE;
         "iQxRpuWh" = _iQxRpuWh;
@@ -206,6 +211,7 @@ let
         "uVyHPvbo" = _uVyHPvbo;
         "o9oPwMeC" = _o9oPwMeC;
         "fuNtH8o4" = _fuNtH8o4;
+        "CdGPiCav" = _CdGPiCav;
         "fabric-26.1-snapshot-1" = _iQxRpuWh;
         "fabric-26.1-snapshot-2" = _iQxRpuWh;
         "fabric-26.1-snapshot-3" = _iQxRpuWh;
@@ -241,9 +247,9 @@ let
         "fabric-26.2-pre-6" = _uVyHPvbo;
         "fabric-26.2-rc-1" = _uVyHPvbo;
         "fabric-26.2-rc-2" = _uVyHPvbo;
-        "fabric-26.2" = _fuNtH8o4;
+        "fabric-26.2" = _CdGPiCav;
         "fabric-26.2-snapshot-1" = _uVyHPvbo;
-        "fabric-26.3" = _fuNtH8o4;
+        "fabric-26.3" = _CdGPiCav;
         "fabric-26.4-snapshot-1" = _uVyHPvbo;
         "pkg-1.0.0+build.7" = _4g8AKlqE;
         "pkg-1.0.0+build.8" = _iQxRpuWh;
@@ -279,7 +285,8 @@ let
         "pkg-1.0.31+26.2" = _uVyHPvbo;
         "pkg-1.0.46+26.3" = _o9oPwMeC;
         "pkg-1.0.47+26.3" = _fuNtH8o4;
-        "default" = _fuNtH8o4;
+        "pkg-1.0.48+26.3" = _CdGPiCav;
+        "default" = _CdGPiCav;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "collapsible-gamerules";

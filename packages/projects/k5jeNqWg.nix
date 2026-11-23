@@ -61,6 +61,76 @@ let
             "file" = "nyctophobia-neoforge-mc1.21.8-2.0.0.jar";
             "hash" = "sha512-3Rm45FlEi0fg+5vLd26p5CfYUgJnjxH0051u+bEsbu7PDWBq8Yvz0Oj3Vm6DWyZUJlaBM28jVUveHgdX0TYekw==";
         };
+        _VXFnJjvH = {
+            "id" = "VXFnJjvH";
+            "file" = "nyctophobia-fabric-mc1.20.1-2.0.1.jar";
+            "hash" = "sha512-KmufNaILdTTPu4WpmLA+YdyAwLTvgs3lKa2LpX25dX7o0eAogiDYrEthaskHlM4lJa+J2sRqt7AGcwG4Rl451Q==";
+        };
+        _E50Dl4gT = {
+            "id" = "E50Dl4gT";
+            "file" = "nyctophobia-forge-mc1.20.1-2.0.1.jar";
+            "hash" = "sha512-RXEwxM2CAZeNlZXNflMGCZKPV3xC5Fo4LLA5duCAXhMT0BjLBsNgEqGvUp7fvKSagxAWzE+HNMeE2x6BupGg5A==";
+        };
+        _vlg35xCp = {
+            "id" = "vlg35xCp";
+            "file" = "nyctophobia-fabric-mc1.21.1-2.0.1.jar";
+            "hash" = "sha512-+Px4AzQCvXnwOR6Aiv3TZ4kOK8aR4RADiJOZ0Vmh30ucNjmFVLerJlM5ZJTyRwhE5Ln5fhrKE3Ikjs6h013Ehw==";
+        };
+        _NUshrhit = {
+            "id" = "NUshrhit";
+            "file" = "nyctophobia-neoforge-mc1.21.1-2.0.1.jar";
+            "hash" = "sha512-dUZnkEbhs2Igk3BviPTkUUcdug4PvOzXNgttBk1NvpglHXcQDgshgfm5m8pTYMMqOA41ACE12N+DpCHFH8On0A==";
+        };
+        _lj1zXOVl = {
+            "id" = "lj1zXOVl";
+            "file" = "nyctophobia-fabric-mc1.21.8-2.0.1.jar";
+            "hash" = "sha512-0DgjkJu7GeFsUnMRuqJVUuamX6yWbPSxp8O0bs949IRQBrqjLG9sKwn+473Mfu2dpybi0L/w3KJTo8ZEHNYF1Q==";
+        };
+        _Py9Sk7Sm = {
+            "id" = "Py9Sk7Sm";
+            "file" = "nyctophobia-neoforge-mc1.21.8-2.0.1.jar";
+            "hash" = "sha512-7fILjypcvXFGCt6UEAeCmb+EMrBf6hvHG9uV4ayv2yBNyyP7arEKMZeUZcgJipvuN5HwMrJZhYdwWs1tNk6mmQ==";
+        };
+        _A1Turdvm = {
+            "id" = "A1Turdvm";
+            "file" = "nyctophobia-fabric-mc1.21.11-2.0.0.jar";
+            "hash" = "sha512-19sJra4vlcnjgCWqggmQfkgCjvA/cmuD4/d9EoJOtFhNgNzJ4QjmksNZ5hGnNBJrUP+68x6FGbHuQ/uv01BAkQ==";
+        };
+        _baKWAqsW = {
+            "id" = "baKWAqsW";
+            "file" = "nyctophobia-neoforge-mc1.21.11-2.0.0.jar";
+            "hash" = "sha512-yQv/ugOnRsHOQCx+KjzDWDhSO30tGS09d+eZnoJLUWTZDqKhs4P54NVEJx0DRypQ69baKoMD1oQ5OqX/TPPyBw==";
+        };
+        _34wtn0xi = {
+            "id" = "34wtn0xi";
+            "file" = "nyctophobia-fabric-mc26.1.2-2.0.0.jar";
+            "hash" = "sha512-10hYFbSSMEIFEkKjGXizA0u0+jgBke9C3eVQFbkMUP89hzYovfygGogVtGv4pvE8O1r8DpYMWouaRR4XR2wYpQ==";
+        };
+        _175ISMZY = {
+            "id" = "175ISMZY";
+            "file" = "nyctophobia-neoforge-mc26.1.2-2.0.0.jar";
+            "hash" = "sha512-Rp5io6BklUgpxYeDDN20gpp5t7SbdQBFgYucH5iTo5oVDGIKUUgdpHJyrpwXTo4+ZVMBmHnU+Jedtd1B/3ZfUQ==";
+        };
+        _jDJ2iOgp = {
+            "id" = "jDJ2iOgp";
+            "file" = "nyctophobia-fabric-mc26.2-2.0.0.jar";
+            "hash" = "sha512-XquRnl6yHwQFg4A+ZzRCozEHPRBDs5VTeyDWeF7D/knKVgVpHNKNMnMsa0ULg/CpMidCEKdXRKEBC6mWTFVWhQ==";
+        };
+        _NmJKoGwb = {
+            "id" = "NmJKoGwb";
+            "file" = "nyctophobia-neoforge-mc26.2-2.0.0.jar";
+            "hash" = "sha512-zY7MzLgS5PHIIdCNWMFf289cibj+UxuM4rbcEp4ECq9SQMe7eVnGDjtDCtFX9vqX6BbO1SZkBw/b+RV0iDOX0w==";
+        };
+        _QhgA0EBZ = {
+            "id" = "QhgA0EBZ";
+            "file" = "nyctophobia-fabric-mc26.3-2.0.0.jar";
+            "hash" = "sha512-4lBGbqzJzZ/OCYwX0/Lvj/i4SwdTeAPm7HDGaB8Y0HOZFgMYDip0LlGaWKJgCjVkjA56rT5vt6Msh7Snc4bokA==";
+        };
+        _YahHiIte = {
+            "id" = "YahHiIte";
+            "file" = "nyctophobia-neoforge-mc26.3-2.0.0.jar";
+            "hash" = "sha512-nYW5n+F8urH0pkNvUdlAiTQWXJQ+Tl+ilIV0hjWO36Nwb7VEtvR8KwAr542YRRKZ8UyMzbPFe9moiAyt+gPDLw==";
+        };
     in {
         "3xEAkD4L" = _3xEAkD4L;
         "BBrfyFgj" = _BBrfyFgj;
@@ -74,19 +144,41 @@ let
         "JCC0cnaN" = _JCC0cnaN;
         "7qbsvQ6H" = _7qbsvQ6H;
         "3RdJKITo" = _3RdJKITo;
+        "VXFnJjvH" = _VXFnJjvH;
+        "E50Dl4gT" = _E50Dl4gT;
+        "vlg35xCp" = _vlg35xCp;
+        "NUshrhit" = _NUshrhit;
+        "lj1zXOVl" = _lj1zXOVl;
+        "Py9Sk7Sm" = _Py9Sk7Sm;
+        "A1Turdvm" = _A1Turdvm;
+        "baKWAqsW" = _baKWAqsW;
+        "34wtn0xi" = _34wtn0xi;
+        "175ISMZY" = _175ISMZY;
+        "jDJ2iOgp" = _jDJ2iOgp;
+        "NmJKoGwb" = _NmJKoGwb;
+        "QhgA0EBZ" = _QhgA0EBZ;
+        "YahHiIte" = _YahHiIte;
         "fabric-1.19.2" = _3xEAkD4L;
         "fabric-1.19.3" = _eEfODkZe;
         "fabric-1.20" = _gF2Deboo;
-        "fabric-1.20.1" = _c179pWfN;
-        "fabric-1.21.1" = _HfnagIJp;
-        "fabric-1.21.8" = _7qbsvQ6H;
+        "fabric-1.20.1" = _VXFnJjvH;
+        "fabric-1.21.1" = _vlg35xCp;
+        "fabric-1.21.8" = _lj1zXOVl;
+        "fabric-1.21.11" = _A1Turdvm;
+        "fabric-26.1.2" = _34wtn0xi;
+        "fabric-26.2" = _jDJ2iOgp;
+        "fabric-26.3" = _QhgA0EBZ;
         "forge-1.19.2" = _BBrfyFgj;
         "forge-1.19.3" = _kzknT6lo;
         "forge-1.20" = _mq21a1qZ;
-        "forge-1.20.1" = _IMx2xz8h;
-        "neoforge-1.20.1" = _IMx2xz8h;
-        "neoforge-1.21.1" = _JCC0cnaN;
-        "neoforge-1.21.8" = _3RdJKITo;
+        "forge-1.20.1" = _E50Dl4gT;
+        "neoforge-1.20.1" = _E50Dl4gT;
+        "neoforge-1.21.1" = _NUshrhit;
+        "neoforge-1.21.8" = _Py9Sk7Sm;
+        "neoforge-1.21.11" = _baKWAqsW;
+        "neoforge-26.1.2" = _175ISMZY;
+        "neoforge-26.2" = _NmJKoGwb;
+        "neoforge-26.3" = _YahHiIte;
         "pkg-1.5" = _3xEAkD4L;
         "pkg-1.2" = _BBrfyFgj;
         "pkg-1.3" = _kzknT6lo;
@@ -95,7 +187,14 @@ let
         "pkg-2.0.0+mc1.20.1" = _IMx2xz8h;
         "pkg-2.0.0+mc1.21.1" = _JCC0cnaN;
         "pkg-2.0.0+mc1.21.8" = _3RdJKITo;
-        "default" = _3RdJKITo;
+        "pkg-2.0.1+mc1.20.1" = _E50Dl4gT;
+        "pkg-2.0.1+mc1.21.1" = _NUshrhit;
+        "pkg-2.0.1+mc1.21.8" = _Py9Sk7Sm;
+        "pkg-2.0.0+mc1.21.11" = _baKWAqsW;
+        "pkg-2.0.0+mc26.1.2" = _175ISMZY;
+        "pkg-2.0.0+mc26.2" = _NmJKoGwb;
+        "pkg-2.0.0+mc26.3" = _YahHiIte;
+        "default" = _YahHiIte;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nyctophobia";

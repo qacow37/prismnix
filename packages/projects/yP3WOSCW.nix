@@ -126,6 +126,16 @@ let
             "file" = "industrialdeco-1.2.0.jar";
             "hash" = "sha512-fA8lTewwsuDLjxhnCOyGMSMkn1HS+lmXoHbxo9KkQvdVz/klzqH13wPOzxEYbfpNwvzbxpCbSjOR6VXAoagvUw==";
         };
+        _cALVz7jH = {
+            "id" = "cALVz7jH";
+            "file" = "industrialdeco-1.3.0.jar";
+            "hash" = "sha512-JjoTOSOQeFkt3mH1lmDyjW14bf5va68AZkiqGLjeVDhBrOR05lwicnNeqmYzhBSIBV9cADBOGVVluTy6oXcYtg==";
+        };
+        _TxMsjPci = {
+            "id" = "TxMsjPci";
+            "file" = "industrialdeco-1.3.0.jar";
+            "hash" = "sha512-8mysYsaerXFIV20XqFILS7/ojGf4ez9DvsRak0Bv/73ZprgdnfCC6R3OiXWGZ0luH9cNebKzV2pJks3Acyb7AQ==";
+        };
     in {
         "ag9ejWgI" = _ag9ejWgI;
         "Qix0YEJH" = _Qix0YEJH;
@@ -152,9 +162,11 @@ let
         "ODMZ27VX" = _ODMZ27VX;
         "reXIcpcM" = _reXIcpcM;
         "dQJOyCv0" = _dQJOyCv0;
-        "forge-1.20" = _reXIcpcM;
-        "forge-1.20.1" = _reXIcpcM;
-        "neoforge-1.21.1" = _dQJOyCv0;
+        "cALVz7jH" = _cALVz7jH;
+        "TxMsjPci" = _TxMsjPci;
+        "forge-1.20" = _TxMsjPci;
+        "forge-1.20.1" = _TxMsjPci;
+        "neoforge-1.21.1" = _cALVz7jH;
         "pkg-0.0.1" = _ag9ejWgI;
         "pkg-0.0.2" = _Qix0YEJH;
         "pkg-0.0.3" = _g3QX13yS;
@@ -172,7 +184,8 @@ let
         "pkg-1.0.2" = _Ttm575OB;
         "pkg-1.1.0" = _ODMZ27VX;
         "pkg-1.2.0" = _dQJOyCv0;
-        "default" = _dQJOyCv0;
+        "pkg-1.3.0" = _TxMsjPci;
+        "default" = _TxMsjPci;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "industrialdeco";

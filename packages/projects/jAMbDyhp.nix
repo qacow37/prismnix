@@ -91,6 +91,26 @@ let
             "file" = "Hyrule_Terrors-fabric-2.3.0-1.21.1.jar";
             "hash" = "sha512-+WkaU79YOqKqdyutRpy6CXYo5RQ+vB7qQSFI1gBz7RrddpB8pF/eqbAaQhx/Ex5PxedKNGNYqLaRlyByvaN22g==";
         };
+        _inEoHJHW = {
+            "id" = "inEoHJHW";
+            "file" = "Hyrule_Terrors-fabric-2.4.0-1.20.1.jar";
+            "hash" = "sha512-sTB0LjOb9sN0EJrVDjaRKvheJSqyn/oQM54PQpvyTnMkhncDUv+Iee3OqUWsFtdjP6ne0+Y8dMHtDLrZzzPoIw==";
+        };
+        _kZC0znEt = {
+            "id" = "kZC0znEt";
+            "file" = "Hyrule_Terrors-forge-2.4.0-1.20.1.jar";
+            "hash" = "sha512-XKApbpwfg8ePgO9PezxQ0jQZZozAWuev1JRNkB1hsS2hsDTSI0UAEI0toUELXSQd0mIDPSVwcPC7nvSewkxS0g==";
+        };
+        _Gg5kwfcU = {
+            "id" = "Gg5kwfcU";
+            "file" = "Hyrule_Terrors-neoforge-2.4.0-1.21.1.jar";
+            "hash" = "sha512-Oo/dzknjOzPb/Ue+zXby8Uoj4qQ81SdwKS1mdpgTD1c9l+eqVKja925OKWZYYQKqcnK3hO0opjMAtC6pCDFaSQ==";
+        };
+        _R3B83w5L = {
+            "id" = "R3B83w5L";
+            "file" = "Hyrule_Terrors-fabric-2.4.0-1.21.1.jar";
+            "hash" = "sha512-o2RP/VGbmT1C8VlRfsGmZEo30PCLCSzekswLL9W7qQrGerSRsaS0WOdyLMOnBqseV91D7T6jetr+/1E2GYx2kQ==";
+        };
     in {
         "8GqAhEjW" = _8GqAhEjW;
         "vYHe4DRk" = _vYHe4DRk;
@@ -110,10 +130,14 @@ let
         "BCHVgfLu" = _BCHVgfLu;
         "pLMURGcW" = _pLMURGcW;
         "jhTSP86G" = _jhTSP86G;
-        "forge-1.20.1" = _DKaA7Vrl;
-        "fabric-1.20.1" = _Kifyt3Ee;
-        "fabric-1.21.1" = _jhTSP86G;
-        "neoforge-1.21.1" = _pLMURGcW;
+        "inEoHJHW" = _inEoHJHW;
+        "kZC0znEt" = _kZC0znEt;
+        "Gg5kwfcU" = _Gg5kwfcU;
+        "R3B83w5L" = _R3B83w5L;
+        "forge-1.20.1" = _kZC0znEt;
+        "fabric-1.20.1" = _inEoHJHW;
+        "fabric-1.21.1" = _R3B83w5L;
+        "neoforge-1.21.1" = _Gg5kwfcU;
         "pkg-1.1.0" = _vYHe4DRk;
         "pkg-1.2.2-1.21.1" = _x1zPzuVt;
         "pkg-2.0.2" = _TApBkIls;
@@ -123,7 +147,9 @@ let
         "pkg-2.2.0" = _Kifyt3Ee;
         "pkg-2.2.2-1.21.1" = _BCHVgfLu;
         "pkg-2.3.0-1.21.1" = _jhTSP86G;
-        "default" = _jhTSP86G;
+        "pkg-2.4.0-1.20.1" = _kZC0znEt;
+        "pkg-2.4.0-1.21.1" = _R3B83w5L;
+        "default" = _R3B83w5L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zelda-hyrule-terrors";

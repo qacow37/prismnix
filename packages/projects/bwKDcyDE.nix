@@ -176,6 +176,16 @@ let
             "file" = "nemuelch-1.17.1-1.20.1.jar";
             "hash" = "sha512-Lb6ByxUdBMEzCc0icRYtUFs8FBlAdo6Jb+0TPwocrJIh/ji+Elsflr633QYwp/LbQV0AFP3WVMIpQvPtqkcF7A==";
         };
+        _dWH7wMgF = {
+            "id" = "dWH7wMgF";
+            "file" = "nemuelch-1.18.0-1.20.1.jar";
+            "hash" = "sha512-jx8QwxrsyYvPpFQTTRjzg3ZW0AKHCiJikA3pwQIMLn3eW7qMZ3Fj9DsIuj6Z9pMMLYXpjqa0a6zu7rKNhH3pzA==";
+        };
+        _ZZcV2GSe = {
+            "id" = "ZZcV2GSe";
+            "file" = "nemuelch-1.19.0-1.20.1.jar";
+            "hash" = "sha512-xOGXtJeXSpNg+BCozrdRtzthtxvAa0oy8vZGSBiRut+KUD1iuPLQ9OTz4uuqce+N4I9jlE5fWtWYfhy8Ks286w==";
+        };
     in {
         "fSoVDZeQ" = _fSoVDZeQ;
         "G5kaRgVL" = _G5kaRgVL;
@@ -212,10 +222,12 @@ let
         "D7LvHpxW" = _D7LvHpxW;
         "NhAqslws" = _NhAqslws;
         "exX0HhjI" = _exX0HhjI;
+        "dWH7wMgF" = _dWH7wMgF;
+        "ZZcV2GSe" = _ZZcV2GSe;
         "fabric-1.18.2" = _Pfnak3Vh;
         "fabric-1.18" = _cLy8CRKn;
         "fabric-1.18.1" = _Pfnak3Vh;
-        "fabric-1.20.1" = _exX0HhjI;
+        "fabric-1.20.1" = _ZZcV2GSe;
         "quilt-1.18" = _Sh1gUE83;
         "quilt-1.18.1" = _Sh1gUE83;
         "pkg-1.3.0-1.18.2" = _fSoVDZeQ;
@@ -253,7 +265,9 @@ let
         "pkg-1.16.0-1.20.1" = _D7LvHpxW;
         "pkg-1.17.0-1.20.1" = _NhAqslws;
         "pkg-1.17.1-1.20.1" = _exX0HhjI;
-        "default" = _exX0HhjI;
+        "pkg-1.18.0-1.20.1" = _dWH7wMgF;
+        "pkg-1.19.0-1.20.1" = _ZZcV2GSe;
+        "default" = _ZZcV2GSe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nemuelch";

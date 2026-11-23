@@ -176,6 +176,21 @@ let
             "file" = "bigbrain-2.2.9-1.21.1.jar";
             "hash" = "sha512-0OTVJJHeXdnvcld6Lif3vQc/v0JbBzBsq2BsSPb8Do8PnA2IvajFfrK6n2miwV8OPVncYxSyZ0MlVTJ+rfXUWw==";
         };
+        _cJHGKc6Q = {
+            "id" = "cJHGKc6Q";
+            "file" = "bigbrain-3.0.1-26.3.0.jar";
+            "hash" = "sha512-z8i/2FMRPBxgw7An3l615sm5nxJIYxHUEdiai6X3QdHv0URFW7A0mOZtQkP/w2JkDUzZeEyFyaVyUJHdv9M8sA==";
+        };
+        _X4dI1THY = {
+            "id" = "X4dI1THY";
+            "file" = "bigbrain-1.20.1-1.7.9.jar";
+            "hash" = "sha512-BcdJjm8PZtSCnrfKNM9IXJQXcgKIQzur4ye06j8sC6XOZ7No++pnfRdtQx9z18In+YQ/W/84xbsXAeW2yOP28g==";
+        };
+        _oECiw0mD = {
+            "id" = "oECiw0mD";
+            "file" = "bigbrain-2.2.10-1.21.1.jar";
+            "hash" = "sha512-uq98Cxqb1U0PvwRui9nVnTp00PzciU20GC7fyCuiz6ChED4QbF1zUFPmILYADn5J2LndIzd+SY7E+xiHKqBVwA==";
+        };
     in {
         "BYUN1VrJ" = _BYUN1VrJ;
         "PYqTu2mG" = _PYqTu2mG;
@@ -212,16 +227,19 @@ let
         "c5DBfEz9" = _c5DBfEz9;
         "oX39bTPd" = _oX39bTPd;
         "Fc2cZvpx" = _Fc2cZvpx;
+        "cJHGKc6Q" = _cJHGKc6Q;
+        "X4dI1THY" = _X4dI1THY;
+        "oECiw0mD" = _oECiw0mD;
         "forge-1.19.3" = _PYqTu2mG;
         "forge-1.19.4" = _sht5OISr;
         "forge-1.19.2" = _V8DzQK8V;
         "forge-1.20" = _cvYvOC2G;
-        "forge-1.20.1" = _c5DBfEz9;
+        "forge-1.20.1" = _X4dI1THY;
         "forge-1.20.2" = _4VWzUMjR;
         "neoforge-1.21" = _89YBePbE;
-        "neoforge-1.20.1" = _c5DBfEz9;
-        "neoforge-1.21.1" = _Fc2cZvpx;
-        "neoforge-26.3" = _oX39bTPd;
+        "neoforge-1.20.1" = _X4dI1THY;
+        "neoforge-1.21.1" = _oECiw0mD;
+        "neoforge-26.3" = _cJHGKc6Q;
         "pkg-1.6.2" = _BYUN1VrJ;
         "pkg-1.6.3" = _PYqTu2mG;
         "pkg-1.19.4-1.6.3" = _QNn7o1VX;
@@ -257,7 +275,10 @@ let
         "pkg-1.7.8" = _c5DBfEz9;
         "pkg-3.0.0" = _oX39bTPd;
         "pkg-2.2.9" = _Fc2cZvpx;
-        "default" = _Fc2cZvpx;
+        "pkg-3.0.1" = _cJHGKc6Q;
+        "pkg-1.7.9" = _X4dI1THY;
+        "pkg-2.2.10" = _oECiw0mD;
+        "default" = _oECiw0mD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "big-brain";

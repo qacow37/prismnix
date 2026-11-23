@@ -186,6 +186,21 @@ let
             "file" = "Chimes-v2.1.2-26.2-NeoForge.jar";
             "hash" = "sha512-FOvRUuOt/D79KO0M8p7nZLw6o0RANxwXpicR5BoBCUcg/GN6pXjBfuxHyzQ+QxHwZ8cwcNARyXO5+1U6burRLw==";
         };
+        _RCUREW7b = {
+            "id" = "RCUREW7b";
+            "file" = "Chimes-v2.2.0-26.3-Forge.jar";
+            "hash" = "sha512-PukivEkJUJsGEBd3ueAFE9X2hdDaJTBa4s9Jd0X6O3PqVxH7RuHqFkQnoTDV5gHhHxaDvQ7bxOARn9iWEVcjwA==";
+        };
+        _bwzF6R4M = {
+            "id" = "bwzF6R4M";
+            "file" = "Chimes-v2.2.0-26.3-Fabric.jar";
+            "hash" = "sha512-9QFG4KUl7+oREWcwrr40afw34m6MeJlwT24lzzuXHFWxvXKvhK4KQknu47UrsvrYP1CE748HBBaLY8UXGReP4g==";
+        };
+        _nLUpm7Sn = {
+            "id" = "nLUpm7Sn";
+            "file" = "Chimes-v2.2.0-26.3-NeoForge.jar";
+            "hash" = "sha512-JqnuLWMDvBnFIHisQSweHPSglz44YfH55KWe+xHfmxUWApn+7MnMSuE9ydaX2wcpiHne7RgLA2wxxwp8V5buGg==";
+        };
     in {
         "GIdaKS1h" = _GIdaKS1h;
         "tTolHGQS" = _tTolHGQS;
@@ -224,6 +239,9 @@ let
         "mvJXcubK" = _mvJXcubK;
         "djJczP1W" = _djJczP1W;
         "XgFqbbnW" = _XgFqbbnW;
+        "RCUREW7b" = _RCUREW7b;
+        "bwzF6R4M" = _bwzF6R4M;
+        "nLUpm7Sn" = _nLUpm7Sn;
         "forge-1.20" = _3BBPocXc;
         "forge-1.20.1" = _3BBPocXc;
         "forge-1.20.2" = _NhQrku69;
@@ -247,6 +265,7 @@ let
         "forge-26.1.1" = _gG6U3rhm;
         "forge-26.1.2" = _gG6U3rhm;
         "forge-26.2" = _mvJXcubK;
+        "forge-26.3" = _RCUREW7b;
         "neoforge-1.20" = _3BBPocXc;
         "neoforge-1.20.1" = _3BBPocXc;
         "neoforge-1.20.2" = _wP1JsyQR;
@@ -270,6 +289,7 @@ let
         "neoforge-26.1.1" = _OHJZldZs;
         "neoforge-26.1.2" = _OHJZldZs;
         "neoforge-26.2" = _XgFqbbnW;
+        "neoforge-26.3" = _nLUpm7Sn;
         "fabric-1.20" = _vPGqp9iv;
         "fabric-1.20.1" = _vPGqp9iv;
         "fabric-1.20.2" = _N5OOW0zk;
@@ -293,10 +313,12 @@ let
         "fabric-26.1.1" = _15uCxBwK;
         "fabric-26.1.2" = _15uCxBwK;
         "fabric-26.2" = _djJczP1W;
+        "fabric-26.3" = _bwzF6R4M;
         "pkg-2.1.0" = _tTolHGQS;
         "pkg-2.1.1" = _VSAVoYQ5;
         "pkg-2.1.2" = _XgFqbbnW;
-        "default" = _XgFqbbnW;
+        "pkg-2.2.0" = _nLUpm7Sn;
+        "default" = _nLUpm7Sn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chimes";

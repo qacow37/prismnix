@@ -251,6 +251,16 @@ let
             "file" = "elevatorid-1.20.1-1.9.2-forge.jar";
             "hash" = "sha512-JmOEIkN8fpb/O6zv7Ziuu6iJcTIPHADJa4iSH2VYttf92kFiV+paJxrSGQBfJfQOMZqmu4ud6ykMITaAUTpUYQ==";
         };
+        _AtlrxH6J = {
+            "id" = "AtlrxH6J";
+            "file" = "elevatorid-neoforge-26.1.2-1.16.4.jar";
+            "hash" = "sha512-QkW9YU67Z418scwDpnAukq4/WfQ8isNGLm5y/dOyMCj25U4jEYC05Tc30GeRxJgmhZVSBMDbjd2O8J3zPwN9Cw==";
+        };
+        _nwdprcPV = {
+            "id" = "nwdprcPV";
+            "file" = "elevatorid-fabric-26.1.2-1.16.4.jar";
+            "hash" = "sha512-M5ei8p3VOGVx3KMCWvi1erDnkGBLfo7rIsyoejWOIjWKNPHSHp4jQNC61nTgUNsRto0csCWsMxyuj6FaOYYUnQ==";
+        };
     in {
         "vRsfyfzW" = _vRsfyfzW;
         "ysLPxfPt" = _ysLPxfPt;
@@ -302,6 +312,8 @@ let
         "rNKheZ5b" = _rNKheZ5b;
         "8Z3hxGYQ" = _8Z3hxGYQ;
         "4cGzS2MW" = _4cGzS2MW;
+        "AtlrxH6J" = _AtlrxH6J;
+        "nwdprcPV" = _nwdprcPV;
         "forge-1.20.1" = _4cGzS2MW;
         "forge-1.16.3" = _ysLPxfPt;
         "forge-1.16.4" = _ysLPxfPt;
@@ -328,9 +340,9 @@ let
         "neoforge-1.21.9" = _zsmwKOUB;
         "neoforge-1.21.10" = _zsmwKOUB;
         "neoforge-1.21.11" = _IgV9zzL6;
-        "neoforge-26.1" = _m91X4rrm;
-        "neoforge-26.1.1" = _m91X4rrm;
-        "neoforge-26.1.2" = _m91X4rrm;
+        "neoforge-26.1" = _AtlrxH6J;
+        "neoforge-26.1.1" = _AtlrxH6J;
+        "neoforge-26.1.2" = _AtlrxH6J;
         "neoforge-26.2" = _hdRujm81;
         "neoforge-26.3" = _rNKheZ5b;
         "fabric-1.21" = _IYcefR0v;
@@ -344,9 +356,9 @@ let
         "fabric-1.21.9" = _HljZmdWE;
         "fabric-1.21.10" = _HljZmdWE;
         "fabric-1.21.11" = _GY7sN2TR;
-        "fabric-26.1" = _DvtKyW5t;
-        "fabric-26.1.1" = _DvtKyW5t;
-        "fabric-26.1.2" = _DvtKyW5t;
+        "fabric-26.1" = _nwdprcPV;
+        "fabric-26.1.1" = _nwdprcPV;
+        "fabric-26.1.2" = _nwdprcPV;
         "fabric-26.2" = _Dx1HL6RR;
         "fabric-26.3" = _8Z3hxGYQ;
         "pkg-1.20.1-1.9" = _vRsfyfzW;
@@ -399,7 +411,9 @@ let
         "pkg-neoforge-26.3-1.16.6" = _rNKheZ5b;
         "pkg-fabric-26.3-1.16.6" = _8Z3hxGYQ;
         "pkg-1.20.1-1.9.2-forge" = _4cGzS2MW;
-        "default" = _4cGzS2MW;
+        "pkg-neoforge-26.1.2-1.16.4" = _AtlrxH6J;
+        "pkg-fabric-26.1.2-1.16.4" = _nwdprcPV;
+        "default" = _nwdprcPV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elevatormod";

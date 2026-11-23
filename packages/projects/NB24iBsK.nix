@@ -186,6 +186,36 @@ let
             "file" = "ppe_essentials-neoforge-26.3-1.7.0.jar";
             "hash" = "sha512-ANdsPbU24NwrYNC4mA6zplE2/e88h9R/QjX3arws4MfOoEslzzUvtw30Ua9MSlmyIsLC1/Ij71zfLywL9jSigQ==";
         };
+        _KLBlzMHV = {
+            "id" = "KLBlzMHV";
+            "file" = "ppe_essentials-fabric-1.21.1-1.8.0.jar";
+            "hash" = "sha512-YlXNx1PkN0jsthW0XBbeCHTl0wCShPDjGbFDBFmUsN8n624YjJdpeoTCbimIcNmjcCD/A4yVmkc21R5pfPoVqA==";
+        };
+        _BCHzzGck = {
+            "id" = "BCHzzGck";
+            "file" = "ppe_essentials-neoforge-1.21.1-1.8.0.jar";
+            "hash" = "sha512-JmtMYE74Nqc8TH4fsjJLyIPcfx1Ww8XxoPLMrpjrshth/JBQoi8OIMGS3dBecmLXVViSNA+ewQnFRCCXy0Ccxw==";
+        };
+        _LGHXg0tQ = {
+            "id" = "LGHXg0tQ";
+            "file" = "ppe_essentials-fabric-26.1.2-1.8.0.jar";
+            "hash" = "sha512-wD/1ZKRE10RW1N9dHNbelfHmq1Elq/UorhhBXcVmSB5fjuS2hfWAJQkK0KzMEwvrez26w3VS56qiVn+E2x9SdQ==";
+        };
+        _XvBt5jd0 = {
+            "id" = "XvBt5jd0";
+            "file" = "ppe_essentials-neoforge-26.1.2-1.8.0.jar";
+            "hash" = "sha512-OG22Y74xJ+lY3WI1750bbrZCT+pXL/uqnLRZWWwkcDyMt0KgW6HinWRVs9HRfeNWtdybb1LQoP3MZl56V6f23Q==";
+        };
+        _xXj5ZQM7 = {
+            "id" = "xXj5ZQM7";
+            "file" = "ppe_essentials-fabric-26.3-1.8.0.jar";
+            "hash" = "sha512-eB3gn121aTxer1WHid33yBsQgQ2LFYExqYR4vXZNbWD0GHtIS9Sdrol+AWErABTkJ+cGn7GU4m+wWMLV7lGN4A==";
+        };
+        _JN1rzOrK = {
+            "id" = "JN1rzOrK";
+            "file" = "ppe_essentials-neoforge-26.3-1.8.0.jar";
+            "hash" = "sha512-XIcQTcYcvsgSzb19duXoyG7VctV2vGO0jOuom6pIK0Xf7OQBZ7d54SB3zgUBkdrki5W4+iVVlmaKYS3MC+UHvg==";
+        };
     in {
         "AkJvxj2P" = _AkJvxj2P;
         "JTrWQVCX" = _JTrWQVCX;
@@ -224,14 +254,20 @@ let
         "mHB9YVoL" = _mHB9YVoL;
         "qpZjtso7" = _qpZjtso7;
         "s6JA2Enj" = _s6JA2Enj;
-        "neoforge-1.21.1" = _Qwdc0CRP;
+        "KLBlzMHV" = _KLBlzMHV;
+        "BCHzzGck" = _BCHzzGck;
+        "LGHXg0tQ" = _LGHXg0tQ;
+        "XvBt5jd0" = _XvBt5jd0;
+        "xXj5ZQM7" = _xXj5ZQM7;
+        "JN1rzOrK" = _JN1rzOrK;
+        "neoforge-1.21.1" = _BCHzzGck;
         "neoforge-1.21.11" = _y5NNlexO;
-        "neoforge-26.1.2" = _mHB9YVoL;
-        "neoforge-26.3" = _s6JA2Enj;
-        "fabric-1.21.1" = _YCKbfJx8;
+        "neoforge-26.1.2" = _XvBt5jd0;
+        "neoforge-26.3" = _JN1rzOrK;
+        "fabric-1.21.1" = _KLBlzMHV;
         "fabric-1.21.11" = _nKUt0QF1;
-        "fabric-26.1.2" = _O10YVQ5j;
-        "fabric-26.3" = _qpZjtso7;
+        "fabric-26.1.2" = _LGHXg0tQ;
+        "fabric-26.3" = _xXj5ZQM7;
         "pkg-1.1.1" = _AkJvxj2P;
         "pkg-1.2.0" = _zhMooA9o;
         "pkg-1.3.0" = _Die48EnF;
@@ -241,7 +277,8 @@ let
         "pkg-1.6.0" = _MOAMWoDL;
         "pkg-1.6.1" = _giA8jKm1;
         "pkg-1.7.0" = _s6JA2Enj;
-        "default" = _s6JA2Enj;
+        "pkg-1.8.0" = _JN1rzOrK;
+        "default" = _JN1rzOrK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ppe-essentials";

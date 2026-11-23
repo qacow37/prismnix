@@ -31,6 +31,21 @@ let
             "file" = "sophisticated_emerald_upgrade-1.0.6.jar";
             "hash" = "sha512-8BShVBSSHcCttPLBwwlhYvfw+EF5oyawWJwXxZEdJbyA5c5P3hW/yAta5o0cf6uk4rEIqssPS08szbbcCLXvvQ==";
         };
+        _XMlI7HHe = {
+            "id" = "XMlI7HHe";
+            "file" = "sophisticated_emerald_upgrade-1.0.8.jar";
+            "hash" = "sha512-uM0JxGVLlOAKRepNtiulRxdQZ3/yKX0TV65THsAF5vKkpthrPTTkCXx5cPjqkAOrqIR9kubO1OkJLhgQ0ds7aw==";
+        };
+        _jzaLN1OG = {
+            "id" = "jzaLN1OG";
+            "file" = "sophisticated_emerald_upgrade-1.0.8.jar";
+            "hash" = "sha512-Tb6lR6+X08VLfH8f4vzoraEVNSq1GB614Xi95LiIN5Vgd1u/zVtvrmKHI7Ijgbcsw8o2AGGShwYLlE2DzfeqxA==";
+        };
+        _QG0YDami = {
+            "id" = "QG0YDami";
+            "file" = "sophisticated_emerald_upgrade-1.0.8.jar";
+            "hash" = "sha512-UnqzRzOlTJ5XeoeF6lKsvjH8BKH74uXjM1Eij3vupjl2PEVhJ5sLblZdIJ2IcfChVp7S5YmcVrMFr07R3jXsbA==";
+        };
     in {
         "MtnvEiK0" = _MtnvEiK0;
         "ippP98ZZ" = _ippP98ZZ;
@@ -38,22 +53,26 @@ let
         "aBABL3Nv" = _aBABL3Nv;
         "L6tCE9U5" = _L6tCE9U5;
         "byxteGGk" = _byxteGGk;
+        "XMlI7HHe" = _XMlI7HHe;
+        "jzaLN1OG" = _jzaLN1OG;
+        "QG0YDami" = _QG0YDami;
         "neoforge-1.21" = _MtnvEiK0;
-        "neoforge-1.21.1" = _L6tCE9U5;
+        "neoforge-1.21.1" = _XMlI7HHe;
         "neoforge-1.21.2" = _MtnvEiK0;
         "neoforge-1.21.3" = _MtnvEiK0;
         "neoforge-1.21.4" = _MtnvEiK0;
         "neoforge-1.21.5" = _MtnvEiK0;
         "neoforge-1.21.8" = _MtnvEiK0;
-        "neoforge-1.21.11" = _NrOezCBu;
-        "neoforge-26.1.1" = _byxteGGk;
-        "neoforge-26.1.2" = _byxteGGk;
-        "neoforge-26.2" = _byxteGGk;
+        "neoforge-1.21.11" = _jzaLN1OG;
+        "neoforge-26.1.1" = _QG0YDami;
+        "neoforge-26.1.2" = _QG0YDami;
+        "neoforge-26.2" = _QG0YDami;
         "pkg-1.0.3-NeoForge-1.21.1" = _MtnvEiK0;
         "pkg-1.0.4" = _aBABL3Nv;
         "pkg-1.0.5" = _L6tCE9U5;
         "pkg-1.0.6" = _byxteGGk;
-        "default" = _byxteGGk;
+        "pkg-1.0.8" = _QG0YDami;
+        "default" = _QG0YDami;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sophisticated-backpackstorage-emerald-upgrade";

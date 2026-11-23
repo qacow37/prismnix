@@ -656,6 +656,26 @@ let
             "file" = "okcore-26.11.21.1.jar";
             "hash" = "sha512-y+JV0K6ZsfJZ2sEBjSDd3SNsJbPBk17fCUgq7yGaa3bqW26q41i1Y7sYfVKNIsSwQ++6a5BwE12eVh/TVb2LoQ==";
         };
+        _bZNO0rAC = {
+            "id" = "bZNO0rAC";
+            "file" = "okcore-26.11.22.0.jar";
+            "hash" = "sha512-3M+5t9q8vWS1kwQbCJ4RUt4+ArUm+RwnGXrHwYJ1jyFKC1YzgDsxd9J8HOjOUjIR7vFHJMQugRTh+xmmGiwtDA==";
+        };
+        _Zd4UyxxP = {
+            "id" = "Zd4UyxxP";
+            "file" = "okcore-26.11.22.1.jar";
+            "hash" = "sha512-NbQBKZCfIsRbIq86CP2rvk4nVAWtuPFndENVAxAoKyhxS9fFa/x+ZlwiDR4FzPI2A5uW5zKe7qicVBCa+6Xvkg==";
+        };
+        _FM8NG3Pz = {
+            "id" = "FM8NG3Pz";
+            "file" = "okcore-26.11.22.2.jar";
+            "hash" = "sha512-NLDOmVYlU0HpncCD9q0ELee8/DSzCUod8xKE746Qj/8nq8b4bFxuwLfuN3d0nmX8USEE08iN0m+ga7KsTHFuBQ==";
+        };
+        _uZ3ov7g3 = {
+            "id" = "uZ3ov7g3";
+            "file" = "okcore-26.11.23.0.jar";
+            "hash" = "sha512-9aPbJ9uB7h2Uec3VJpVp6ZCVWK3ufpWO9858tsc3ZrU503N+T0VLPOgg0imceUzhPegtmCSO4kHbpsOtc/9UcQ==";
+        };
     in {
         "8a8doypa" = _8a8doypa;
         "n0PTagCb" = _n0PTagCb;
@@ -788,7 +808,11 @@ let
         "7WUOC0FL" = _7WUOC0FL;
         "tilcU1fW" = _tilcU1fW;
         "tTimxW0c" = _tTimxW0c;
-        "forge-1.7.10" = _tTimxW0c;
+        "bZNO0rAC" = _bZNO0rAC;
+        "Zd4UyxxP" = _Zd4UyxxP;
+        "FM8NG3Pz" = _FM8NG3Pz;
+        "uZ3ov7g3" = _uZ3ov7g3;
+        "forge-1.7.10" = _uZ3ov7g3;
         "pkg-1.2.4" = _8a8doypa;
         "pkg-1.2.5" = _n0PTagCb;
         "pkg-1.2.6" = _NS623V7Z;
@@ -920,7 +944,11 @@ let
         "pkg-26.11.20.1" = _7WUOC0FL;
         "pkg-26.11.21.0" = _tilcU1fW;
         "pkg-26.11.21.1" = _tTimxW0c;
-        "default" = _tTimxW0c;
+        "pkg-26.11.22.0" = _bZNO0rAC;
+        "pkg-26.11.22.1" = _Zd4UyxxP;
+        "pkg-26.11.22.2" = _FM8NG3Pz;
+        "pkg-26.11.23.0" = _uZ3ov7g3;
+        "default" = _uZ3ov7g3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ok-core";

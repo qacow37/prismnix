@@ -66,6 +66,16 @@ let
             "file" = "Verity-MiMo-Direct.jar";
             "hash" = "sha512-sdY5aUlo3Hb0Sp0ahe4mGooAQWlIZ4vRv6glKHPQRz7enC98GQty8o4whz6LmgrHnC/S575Us1aXN0YjHPcK+w==";
         };
+        _wKwlwzFb = {
+            "id" = "wKwlwzFb";
+            "file" = "Verity-MiMo-Direct.jar";
+            "hash" = "sha512-I5jTu8oGHvTTA7eCwxRqend6Hx9jUg/nmaV8wshheK2f6hYHk6WYLS5j6JfZ13v4Wj90X13n7zFu33sM6VfWPQ==";
+        };
+        _iUkChIot = {
+            "id" = "iUkChIot";
+            "file" = "Verity-MiMo-Addon.jar";
+            "hash" = "sha512-GRrRmTxRe5lYVtFMWQA4x21pfHrMpj6ANGLEanU4m5LeZ5qXiQJU1EwIKlH34k+6rl7fpzl+gfx2tKOoGIoiHw==";
+        };
     in {
         "gOKKHsmA" = _gOKKHsmA;
         "SqfwtCTQ" = _SqfwtCTQ;
@@ -80,7 +90,9 @@ let
         "BW3VSScN" = _BW3VSScN;
         "zFjd6VVM" = _zFjd6VVM;
         "WzXVT9No" = _WzXVT9No;
-        "forge-1.20.1" = _WzXVT9No;
+        "wKwlwzFb" = _wKwlwzFb;
+        "iUkChIot" = _iUkChIot;
+        "forge-1.20.1" = _iUkChIot;
         "pkg-1.0.0-Addon" = _gOKKHsmA;
         "pkg-1.0.0-Direct" = _SqfwtCTQ;
         "pkg-1.1.0-Direct" = _Qkuv1Fu7;
@@ -94,7 +106,9 @@ let
         "pkg-1.3.0-Direct" = _BW3VSScN;
         "pkg-1.3.0-Addon" = _zFjd6VVM;
         "pkg-1.4.1-Direct" = _WzXVT9No;
-        "default" = _WzXVT9No;
+        "pkg-1.5.1-Direct" = _wKwlwzFb;
+        "pkg-1.5.1-Addon" = _iUkChIot;
+        "default" = _iUkChIot;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "verity-mimottsasr";

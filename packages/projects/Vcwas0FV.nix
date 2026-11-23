@@ -126,6 +126,11 @@ let
             "file" = "WelshieRail Metro C69 Stock.zip";
             "hash" = "sha512-WcgSGVL5VBTil61VMIZo1DZ/5G7DzE5Im3tDFhhQ/ZDA4aPOGjDeu8Sxsy0Zmq3gnRFlCziNKiRU6ZjpVhrXqw==";
         };
+        _3cQQQaP3 = {
+            "id" = "3cQQQaP3";
+            "file" = "WR Class 360.zip";
+            "hash" = "sha512-5DuoqaqNuTxEmqQxxaFtNXro8y82gUx9xquhd6TaPnezB6qcJCLrOOE+FS+6sfPVbaUQFVF69/I2n+7nqQHG9w==";
+        };
     in {
         "j3X9ii1D" = _j3X9ii1D;
         "njj1I3W2" = _njj1I3W2;
@@ -152,11 +157,12 @@ let
         "khurdMWr" = _khurdMWr;
         "9fXH1pjc" = _9fXH1pjc;
         "gApX4hyK" = _gApX4hyK;
+        "3cQQQaP3" = _3cQQQaP3;
         "minecraft-1.19" = _vRrJembv;
         "minecraft-1.19.1" = _vRrJembv;
         "minecraft-1.19.2" = _vRrJembv;
-        "minecraft-1.20.3" = _gApX4hyK;
-        "minecraft-1.20.4" = _gApX4hyK;
+        "minecraft-1.20.3" = _3cQQQaP3;
+        "minecraft-1.20.4" = _3cQQQaP3;
         "minecraft-1.20" = _khurdMWr;
         "minecraft-1.20.1" = _khurdMWr;
         "pkg-3" = _j3X9ii1D;
@@ -184,7 +190,8 @@ let
         "pkg-91" = _khurdMWr;
         "pkg-1972" = _9fXH1pjc;
         "pkg-18" = _gApX4hyK;
-        "default" = _gApX4hyK;
+        "pkg-3602" = _3cQQQaP3;
+        "default" = _3cQQQaP3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "welshierail";

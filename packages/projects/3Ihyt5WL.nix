@@ -171,6 +171,11 @@ let
             "file" = "taczaddon-1.2.0-hotfix-neoforge-1.21.1.jar";
             "hash" = "sha512-XpttD2Djzv02Is1HkAM9M44OxtdlJYvkwTOqinASspe6PAdQM4M0vAGZFQCNSAdJQrLIHECmEXK3tChKDGtaXw==";
         };
+        _oAbxqquR = {
+            "id" = "oAbxqquR";
+            "file" = "taczaddon-1.2.0-hotfix-forge-1.20.1.jar";
+            "hash" = "sha512-T9Xm/2y+odTZzC2Jm0Od0B6bNSd9oQdHZJyuheSUEEU2aF5l3/6PZAvyZZp7cmFZngYFt7KJdOaW1ya+DvUyQg==";
+        };
     in {
         "3NIbKy25" = _3NIbKy25;
         "pM1iMYkx" = _pM1iMYkx;
@@ -206,7 +211,8 @@ let
         "ObdwJQ6q" = _ObdwJQ6q;
         "NCqxgoYa" = _NCqxgoYa;
         "PRLossw6" = _PRLossw6;
-        "forge-1.20.1" = _ObdwJQ6q;
+        "oAbxqquR" = _oAbxqquR;
+        "forge-1.20.1" = _oAbxqquR;
         "forge-1.20" = _iHOljyTA;
         "forge-1.20.2" = _iHOljyTA;
         "forge-1.20.3" = _iHOljyTA;
@@ -230,8 +236,8 @@ let
         "pkg-1.1.8.1" = _KRI9qZLg;
         "pkg-1.1.8.2" = _u3luODNG;
         "pkg-1.1.8.3" = _QK3Z3Gsy;
-        "pkg-1.2.0" = _PRLossw6;
-        "default" = _PRLossw6;
+        "pkg-1.2.0" = _oAbxqquR;
+        "default" = _oAbxqquR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "taczaddon";

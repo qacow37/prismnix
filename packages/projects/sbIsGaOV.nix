@@ -171,6 +171,26 @@ let
             "file" = "dragonlib-3.0.29+mc1.21.1-fabric.jar";
             "hash" = "sha512-64d3moiaevn8OchbM69prdyJW67D3i8AXZ4SRv1zDPpPXTPAIObkEMc7aTyNm2SruSIAwIu8QtSlAGbeVHWHpw==";
         };
+        _A3N4mPWX = {
+            "id" = "A3N4mPWX";
+            "file" = "dragonlib-3.1.0-beta.1+mc1.20.1-fabric.jar";
+            "hash" = "sha512-RBslfhny4Iivl8F3mjjVfxw/BXukyicG5LAQN/M0rzKGOysTz1JBzEMEgYvPuTENsG6wVKct14yLYhD2nwPXRw==";
+        };
+        _AjzleM7H = {
+            "id" = "AjzleM7H";
+            "file" = "dragonlib-3.1.0-beta.1+mc1.20.1-forge.jar";
+            "hash" = "sha512-VrPUhLyhb+7nE48m3fCh4ahi4m6tzDVRcnO0St1X7YpYytNTCJMm2lVpc2L4N0rpeELrtEcp72sEr3DeD3Rujw==";
+        };
+        _ZkzwhGm8 = {
+            "id" = "ZkzwhGm8";
+            "file" = "dragonlib-3.1.0-beta.1+mc1.21.1-neoforge.jar";
+            "hash" = "sha512-oM2b0w0AkOEm+EscviZCdf5DfKf2dvTBTcEsSVgomBYBpXT8q5EjXnLqycjdMM1r3aPHimKrbGA+lzccBb5EOQ==";
+        };
+        _pH7YUHV8 = {
+            "id" = "pH7YUHV8";
+            "file" = "dragonlib-3.1.0-beta.1+mc1.21.1-fabric.jar";
+            "hash" = "sha512-mtGYqtCp+UtCNezhZlwTqniGUBvbYd3StUQ4JItad6ojLN1Yl1jXH8nqLAGx5Q7C/cll5XcP3Tygo81XTeFOVg==";
+        };
     in {
         "ouDrJsOo" = _ouDrJsOo;
         "Et4NV8fM" = _Et4NV8fM;
@@ -206,11 +226,15 @@ let
         "uTj9SemI" = _uTj9SemI;
         "y30Bx41r" = _y30Bx41r;
         "uGgUEkf1" = _uGgUEkf1;
-        "fabric-1.20.1" = _HOY8RMW9;
-        "fabric-1.21.1" = _uGgUEkf1;
-        "forge-1.20.1" = _uTj9SemI;
-        "neoforge-1.20.1" = _uTj9SemI;
-        "neoforge-1.21.1" = _y30Bx41r;
+        "A3N4mPWX" = _A3N4mPWX;
+        "AjzleM7H" = _AjzleM7H;
+        "ZkzwhGm8" = _ZkzwhGm8;
+        "pH7YUHV8" = _pH7YUHV8;
+        "fabric-1.20.1" = _A3N4mPWX;
+        "fabric-1.21.1" = _pH7YUHV8;
+        "forge-1.20.1" = _AjzleM7H;
+        "neoforge-1.20.1" = _AjzleM7H;
+        "neoforge-1.21.1" = _ZkzwhGm8;
         "pkg-1.20.1-beta-3.0.14" = _Et4NV8fM;
         "pkg-1.20.1-beta-3.0.15" = _kC5mz1cR;
         "pkg-1.20.1-beta-3.0.16" = _ecywNRQ7;
@@ -230,7 +254,11 @@ let
         "pkg-3.0.29+1.20.1-forge" = _uTj9SemI;
         "pkg-3.0.29+1.21.1-neoforge" = _y30Bx41r;
         "pkg-3.0.29+1.21.1-fabric" = _uGgUEkf1;
-        "default" = _uGgUEkf1;
+        "pkg-3.1.0-beta.1+1.20.1-fabric" = _A3N4mPWX;
+        "pkg-3.1.0-beta.1+1.20.1-forge" = _AjzleM7H;
+        "pkg-3.1.0-beta.1+1.21.1-neoforge" = _ZkzwhGm8;
+        "pkg-3.1.0-beta.1+1.21.1-fabric" = _pH7YUHV8;
+        "default" = _pH7YUHV8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragonlib";

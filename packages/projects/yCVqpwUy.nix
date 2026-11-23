@@ -896,6 +896,16 @@ let
             "file" = "Nova-0.25.0-alpha.7+MC-26.3.jar";
             "hash" = "sha512-Zsmn2NBmzzk6IgL+yjfDvHI+MsbKMHRgKNMmuC+PPOQSa2g34v4ZrUuhhxvAbolpnCU/UveVKZJRHNSSBcRMoQ==";
         };
+        _U8I64YcF = {
+            "id" = "U8I64YcF";
+            "file" = "Nova-0.25.0-alpha.8+MC-26.3.jar";
+            "hash" = "sha512-0ftC6RM+YTVaE39gZMJXOXx784YIcpQRf1RsTdDBVCHD7tHNkXQwNxD0meiJ2Lg1jwxWuBkzZtMXN4UVAaeSJQ==";
+        };
+        _Rc8p5ips = {
+            "id" = "Rc8p5ips";
+            "file" = "Nova-0.25.0-alpha.9+MC-26.3.jar";
+            "hash" = "sha512-0FDk5S+li/sSYF6o3tLRG5zHHk8Ekd9Lyntnzril2QD5am/i9e7HQH4Yo8Y5Gf8QFHFzwb3nZBP8rS31L/arFA==";
+        };
     in {
         "XQUzOp1N" = _XQUzOp1N;
         "quYhJv5u" = _quYhJv5u;
@@ -1076,6 +1086,8 @@ let
         "KL74PEBk" = _KL74PEBk;
         "DmhHiCmy" = _DmhHiCmy;
         "exIlSt2T" = _exIlSt2T;
+        "U8I64YcF" = _U8I64YcF;
+        "Rc8p5ips" = _Rc8p5ips;
         "paper-1.19.3" = _XQUzOp1N;
         "paper-1.19.4" = _oqVN6JSD;
         "paper-1.20" = _YJsDfOn9;
@@ -1095,7 +1107,7 @@ let
         "paper-26.1.2" = _5GcXzCBb;
         "paper-26.2-rc-2" = _yZRfILpl;
         "paper-26.2" = _I0MMDtD5;
-        "paper-26.3" = _exIlSt2T;
+        "paper-26.3" = _Rc8p5ips;
         "purpur-1.19.3" = _XQUzOp1N;
         "purpur-1.19.4" = _oqVN6JSD;
         "purpur-1.20" = _YJsDfOn9;
@@ -1115,7 +1127,7 @@ let
         "purpur-26.1.2" = _5GcXzCBb;
         "purpur-26.2-rc-2" = _yZRfILpl;
         "purpur-26.2" = _I0MMDtD5;
-        "purpur-26.3" = _exIlSt2T;
+        "purpur-26.3" = _Rc8p5ips;
         "spigot-1.19.3" = _XQUzOp1N;
         "spigot-1.19.4" = _oqVN6JSD;
         "spigot-1.20" = _YJsDfOn9;
@@ -1299,7 +1311,9 @@ let
         "pkg-0.25.0-alpha.5" = _KL74PEBk;
         "pkg-0.25.0-alpha.6" = _DmhHiCmy;
         "pkg-0.25.0-alpha.7" = _exIlSt2T;
-        "default" = _exIlSt2T;
+        "pkg-0.25.0-alpha.8" = _U8I64YcF;
+        "pkg-0.25.0-alpha.9" = _Rc8p5ips;
+        "default" = _Rc8p5ips;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nova-framework";

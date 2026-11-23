@@ -31,6 +31,16 @@ let
             "file" = "MagicDonutUtils-26.3.jar";
             "hash" = "sha512-nUKD8n3YOwR+ydkteeDtBPJKY3ThN5PwFhqQLUwb9Rlvo/mbPKoVvwsAYVX6W1aSS7IAdnq0P3rnx/3pY+IzNg==";
         };
+        _nkBMA0Yr = {
+            "id" = "nkBMA0Yr";
+            "file" = "MagicDonutUtils-26.3.1.jar";
+            "hash" = "sha512-lEVCw0tX5M2M0XE+8Y6UuXLLhw3uVudGPFHuA9R1274kIKyZsH4HCZVSvtGMQVirlgWoIJVwBKac7UU219u/TQ==";
+        };
+        _gcgjZRwm = {
+            "id" = "gcgjZRwm";
+            "file" = "MagicDonutUtils-1.4.3.jar";
+            "hash" = "sha512-yJoFLX/e0w3VeJN9lCU73dX0DwZ7jPBM6BwNwq1tWf0pBZsAHr9WCFGdd9CLGkE+kVsRGh1TEldxBefpkMS3Lg==";
+        };
     in {
         "KzOkIX2U" = _KzOkIX2U;
         "OwYZtcTs" = _OwYZtcTs;
@@ -38,16 +48,20 @@ let
         "f87hHGRx" = _f87hHGRx;
         "9muQCcjL" = _9muQCcjL;
         "BQ3KTUTa" = _BQ3KTUTa;
+        "nkBMA0Yr" = _nkBMA0Yr;
+        "gcgjZRwm" = _gcgjZRwm;
         "fabric-1.21.11" = _xmYjzPZ1;
         "fabric-26.1.2" = _f87hHGRx;
         "fabric-26.2" = _9muQCcjL;
-        "fabric-26.3" = _BQ3KTUTa;
+        "fabric-26.3" = _gcgjZRwm;
         "pkg-0.1.0" = _KzOkIX2U;
         "pkg-0.1.1" = _OwYZtcTs;
         "pkg-0.1.2" = _xmYjzPZ1;
         "pkg-1.3" = _9muQCcjL;
         "pkg-26.3" = _BQ3KTUTa;
-        "default" = _BQ3KTUTa;
+        "pkg-1.4.2" = _nkBMA0Yr;
+        "pkg-1.4.3" = _gcgjZRwm;
+        "default" = _gcgjZRwm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mdu";

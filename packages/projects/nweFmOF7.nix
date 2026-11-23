@@ -206,6 +206,11 @@ let
             "file" = "chineseweapons-neoforge-1.21.1-1.2.1.6.jar";
             "hash" = "sha512-B0G9WdJfG9eIYaUoQuZVKMwz1slBrFFpW6iU5M+a+tPyozJz3x8VzBkhk28CS2TAN5sGUIpjkwkxJhMG09e/yA==";
         };
+        _u6AGENUY = {
+            "id" = "u6AGENUY";
+            "file" = "chineseweapons-fabric-1.20.1-1.2.0.jar";
+            "hash" = "sha512-UROe/00y58rjCO9Q1kVIR9/Ct8fgk7Ld+5L7kpUNjc3wsXh9Z0GTun5gcrt5rXq6mlJW0MxRSbRGyumepFBf8g==";
+        };
     in {
         "9JqPS1Pe" = _9JqPS1Pe;
         "yCfL1XNC" = _yCfL1XNC;
@@ -248,6 +253,7 @@ let
         "yqxgfqle" = _yqxgfqle;
         "IiNCE2fh" = _IiNCE2fh;
         "zSZ9iL7Y" = _zSZ9iL7Y;
+        "u6AGENUY" = _u6AGENUY;
         "forge-1.20.1" = _IiNCE2fh;
         "forge-1.20.2" = _7JlMSPpN;
         "forge-1.20.3" = _7JlMSPpN;
@@ -263,7 +269,7 @@ let
         "neoforge-26.1.2" = _Ju9J6CUG;
         "neoforge-26.1.1" = _Ju9J6CUG;
         "neoforge-26.1" = _Ju9J6CUG;
-        "fabric-1.20.1" = _pxQ0rdmM;
+        "fabric-1.20.1" = _u6AGENUY;
         "fabric-1.21.1" = _Is6Nw4U7;
         "fabric-26.1.2" = _sZ64VgYk;
         "fabric-26.1.1" = _sZ64VgYk;
@@ -279,7 +285,7 @@ let
         "pkg-1.1.9-fix" = _cilCBhpK;
         "pkg-1.1.10" = _inUGHkmn;
         "pkg-1.1.11" = _Y2mlLgG0;
-        "pkg-1.2.0" = _qHrQzUUB;
+        "pkg-1.2.0" = _u6AGENUY;
         "pkg-1.2.0-fix" = _7JlMSPpN;
         "pkg-1.2.1" = _E6W2FV3D;
         "pkg-1.2.1.1" = _F6kUFAFd;
@@ -290,7 +296,7 @@ let
         "pkg-1.2.1.6" = _zSZ9iL7Y;
         "pkg-1.2.1.7" = _yqxgfqle;
         "pkg-1.2.1.8" = _IiNCE2fh;
-        "default" = _zSZ9iL7Y;
+        "default" = _u6AGENUY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chinese-weapons";

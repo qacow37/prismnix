@@ -286,6 +286,11 @@ let
             "file" = "FastAsyncWorldEdit-Paper-2.16.2.jar";
             "hash" = "sha512-MZ9slhsBIG3H2c8D6BBdh9S7dpj+gsRAWv00Zom5SFQcBTVdymK72cxF/z3mrptIEILJ/F9OAuKx+8M6nlbkBA==";
         };
+        _lmHhJ4ZF = {
+            "id" = "lmHhJ4ZF";
+            "file" = "FastAsyncWorldEdit-Paper-2.16.3.jar";
+            "hash" = "sha512-uxM+XPHsrIxgRNNeNJ6NZTYXmy9TxrxBk99WQ/GhvPyY41Im9ccYp1O4mtAfm+0ePio/kD7U+zTDn5sSMvO93g==";
+        };
     in {
         "EalAAGQd" = _EalAAGQd;
         "TJu9z7Fu" = _TJu9z7Fu;
@@ -344,6 +349,7 @@ let
         "A1gBu4MM" = _A1gBu4MM;
         "b9Fl6Ct5" = _b9Fl6Ct5;
         "JOyEqKdC" = _JOyEqKdC;
+        "lmHhJ4ZF" = _lmHhJ4ZF;
         "paper-1.16.5" = _3Ol5px08;
         "paper-1.17.1" = _3qSFAzTe;
         "paper-1.18.2" = _YSQCH9EW;
@@ -360,22 +366,22 @@ let
         "paper-1.20.5" = _o8Ytdhc5;
         "paper-1.20.6" = _zAlVhTdU;
         "paper-1.21" = _o8Ytdhc5;
-        "paper-1.21.1" = _JOyEqKdC;
+        "paper-1.21.1" = _lmHhJ4ZF;
         "paper-1.21.2" = _N86xPK8R;
         "paper-1.21.3" = _cf5QSDJ7;
-        "paper-1.21.4" = _JOyEqKdC;
-        "paper-1.21.7" = _JOyEqKdC;
-        "paper-1.21.8" = _JOyEqKdC;
-        "paper-1.21.5" = _JOyEqKdC;
-        "paper-1.21.6" = _JOyEqKdC;
-        "paper-1.21.9" = _JOyEqKdC;
-        "paper-1.21.10" = _JOyEqKdC;
-        "paper-1.21.11" = _JOyEqKdC;
-        "paper-26.1" = _JOyEqKdC;
-        "paper-26.1.1" = _JOyEqKdC;
-        "paper-26.1.2" = _JOyEqKdC;
-        "paper-26.2" = _JOyEqKdC;
-        "paper-26.3" = _JOyEqKdC;
+        "paper-1.21.4" = _lmHhJ4ZF;
+        "paper-1.21.7" = _lmHhJ4ZF;
+        "paper-1.21.8" = _lmHhJ4ZF;
+        "paper-1.21.5" = _lmHhJ4ZF;
+        "paper-1.21.6" = _lmHhJ4ZF;
+        "paper-1.21.9" = _lmHhJ4ZF;
+        "paper-1.21.10" = _lmHhJ4ZF;
+        "paper-1.21.11" = _lmHhJ4ZF;
+        "paper-26.1" = _lmHhJ4ZF;
+        "paper-26.1.1" = _lmHhJ4ZF;
+        "paper-26.1.2" = _lmHhJ4ZF;
+        "paper-26.2" = _lmHhJ4ZF;
+        "paper-26.3" = _lmHhJ4ZF;
         "purpur-1.16.5" = _Iqxr889F;
         "purpur-1.17.1" = _Iqxr889F;
         "purpur-1.18.2" = _Iqxr889F;
@@ -474,7 +480,8 @@ let
         "pkg-2.16.0" = _U2dcKa9T;
         "pkg-2.16.1" = _b9Fl6Ct5;
         "pkg-2.16.2" = _JOyEqKdC;
-        "default" = _JOyEqKdC;
+        "pkg-2.16.3" = _lmHhJ4ZF;
+        "default" = _lmHhJ4ZF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fastasyncworldedit";

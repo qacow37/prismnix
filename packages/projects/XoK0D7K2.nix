@@ -106,6 +106,16 @@ let
             "file" = "pokebadges-fabric-2.0.0.jar";
             "hash" = "sha512-PSM+fPWfGsSQpPhVh/l4jh251HAHKR2m7yzZJnjnKmGySzeEDSGBnIMwGvBs45Xtr9Dp/wvtMR94s4nlv9FfVg==";
         };
+        _5kETFGke = {
+            "id" = "5kETFGke";
+            "file" = "pokebadges-fabric-2.1.jar";
+            "hash" = "sha512-Ft51Xqnj2hI+6lEGqavLwNQsIAMHAbY4DdQIot05H6WgtlxTePWsbm6o2E/efZhEkrOZIrbhTCY4vV5rAPEP/Q==";
+        };
+        _ydYnDYPQ = {
+            "id" = "ydYnDYPQ";
+            "file" = "pokebadges-neoforge-2.1.jar";
+            "hash" = "sha512-WbWetYt8EKq9aVaygxh2sZ0R4qvUS8yT3zDeetY1THjOwyuTdNpiPLa8kv5fpLjyDgnnbLWjPb2X7ARFiu4DYQ==";
+        };
     in {
         "ElbqgK4W" = _ElbqgK4W;
         "MBPC17OD" = _MBPC17OD;
@@ -128,8 +138,10 @@ let
         "Pau7oPa0" = _Pau7oPa0;
         "phljl8AJ" = _phljl8AJ;
         "r7ocZJ6w" = _r7ocZJ6w;
-        "neoforge-1.21.1" = _phljl8AJ;
-        "fabric-1.21.1" = _r7ocZJ6w;
+        "5kETFGke" = _5kETFGke;
+        "ydYnDYPQ" = _ydYnDYPQ;
+        "neoforge-1.21.1" = _ydYnDYPQ;
+        "fabric-1.21.1" = _5kETFGke;
         "pkg-1.0" = _MBPC17OD;
         "pkg-1.1" = _Aipnqr0H;
         "pkg-1.2" = _UvhrBVVr;
@@ -141,7 +153,8 @@ let
         "pkg-1.6" = _rgSEL8DL;
         "pkg-1.6.1" = _Pau7oPa0;
         "pkg-2.0.0" = _r7ocZJ6w;
-        "default" = _r7ocZJ6w;
+        "pkg-2.1" = _ydYnDYPQ;
+        "default" = _ydYnDYPQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pokebadges";

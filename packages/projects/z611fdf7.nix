@@ -151,6 +151,11 @@ let
             "file" = "CreateNuclearFabric-2.0.1-local+1.20.1-fabric.jar";
             "hash" = "sha512-6V8G2m2XPKEFLorM51vlbbhbIWOTR5gMhRe/zG7drXE2nQC8JKHQoA7bmsPOVbmAzIoQ50TmhoxmmtiB3CZv5A==";
         };
+        _uTHdAs6t = {
+            "id" = "uTHdAs6t";
+            "file" = "createnuclear-2.0.2-neoforge.jar";
+            "hash" = "sha512-fq6pGDFXXMZqh4d/6+jcLNAZK5OLOjW7pCzXqT1nkHZLNe+99lEviEP9gRpj7LuGG0Le6VTNWNjjEHHVnrLViQ==";
+        };
     in {
         "WDEL0qsl" = _WDEL0qsl;
         "lr7D4F6V" = _lr7D4F6V;
@@ -182,9 +187,10 @@ let
         "zNIyk0mQ" = _zNIyk0mQ;
         "w5YuGu86" = _w5YuGu86;
         "P13KcFm1" = _P13KcFm1;
+        "uTHdAs6t" = _uTHdAs6t;
         "fabric-1.20.1" = _P13KcFm1;
         "forge-1.20.1" = _w5YuGu86;
-        "neoforge-1.21.1" = _zNIyk0mQ;
+        "neoforge-1.21.1" = _uTHdAs6t;
         "neoforge-1.21" = _xtU5Fcuw;
         "pkg-1.0.0-rc01" = _WDEL0qsl;
         "pkg-1.0.0" = _lr7D4F6V;
@@ -206,8 +212,8 @@ let
         "pkg-1.4.1" = _KArjaK66;
         "pkg-2.0.0" = _P13KcFm1;
         "pkg-2.0.1" = _zNIyk0mQ;
-        "pkg-2.0.2" = _w5YuGu86;
-        "default" = _P13KcFm1;
+        "pkg-2.0.2" = _uTHdAs6t;
+        "default" = _uTHdAs6t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "createnuclear";

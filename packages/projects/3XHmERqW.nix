@@ -36,6 +36,11 @@ let
             "file" = "crlib-1.0.0.jar";
             "hash" = "sha512-RpkQJMLz0z96FI44seSrVO0UGuLuPPHfDcaG/ilPeqATDNPcLqgKgfgJteVu4drXkxHXaw06p3WzbNWNsf3MDg==";
         };
+        _H3A5LBrY = {
+            "id" = "H3A5LBrY";
+            "file" = "crlib-1.1.0.jar";
+            "hash" = "sha512-dhDVeFwS3MQu8pN5Gt6VdMhsHM2t2CeyCks9WSb3/5Ze/KRjw1yc3Zsgg9Htq7AxCeAJS88IjRFw03/t0+v8cQ==";
+        };
     in {
         "IJ0jlUxq" = _IJ0jlUxq;
         "nV3BxE0Z" = _nV3BxE0Z;
@@ -44,7 +49,9 @@ let
         "2E9LuECm" = _2E9LuECm;
         "irSyyC1U" = _irSyyC1U;
         "XAe96EYK" = _XAe96EYK;
+        "H3A5LBrY" = _H3A5LBrY;
         "forge-1.20.1" = _nQQO5mdT;
+        "forge-1.18.2" = _H3A5LBrY;
         "neoforge-1.21.1" = _nV3BxE0Z;
         "neoforge-1.21.11" = _K0j8su3x;
         "neoforge-26.1.2" = _2E9LuECm;
@@ -54,7 +61,8 @@ let
         "pkg-1.0.1" = _nV3BxE0Z;
         "pkg-0.0.9-1.21.11" = _K0j8su3x;
         "pkg-1.0.1-1.20.1" = _nQQO5mdT;
-        "default" = _XAe96EYK;
+        "pkg-1.1.0" = _H3A5LBrY;
+        "default" = _H3A5LBrY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crlib";

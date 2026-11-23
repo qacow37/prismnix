@@ -266,6 +266,16 @@ let
             "file" = "morerelics-1.7.7-forRelics-0.12.8-1.0-1.21.1.jar";
             "hash" = "sha512-qxuk70Og6el+Ftq6SotANpEUEljfBL0xzZ8NOrw5hyRpFGN8z57WHlUSaZLjk0AzHFg2WnhYqG0xinskKGrBjw==";
         };
+        _N51REAWP = {
+            "id" = "N51REAWP";
+            "file" = "morerelics-1.8.0-1.21.1.jar";
+            "hash" = "sha512-fWtl74BjpWl23+H1cOw7b71W4w1MobJhbvrUqBQypMmRqIdhx78opi9tgwTPN6vI2H3cApaYm8hkZGib4OSv3Q==";
+        };
+        _chrDqI1c = {
+            "id" = "chrDqI1c";
+            "file" = "morerelics-1.8.0-1.20.1.jar";
+            "hash" = "sha512-sgxoVfOg8JListnto3WcS7slqlBzrQ3J5KSDiWQqgPVNhOwf2XdEiD9ffoqI5X2m/PxC0l0G4xenVsqtyhEyQA==";
+        };
     in {
         "XpnRxUFv" = _XpnRxUFv;
         "wvSO9JIj" = _wvSO9JIj;
@@ -320,8 +330,10 @@ let
         "xmL9iQXg" = _xmL9iQXg;
         "d70gIvfg" = _d70gIvfg;
         "vFU5WdGv" = _vFU5WdGv;
-        "neoforge-1.21.1" = _vFU5WdGv;
-        "forge-1.20.1" = _d70gIvfg;
+        "N51REAWP" = _N51REAWP;
+        "chrDqI1c" = _chrDqI1c;
+        "neoforge-1.21.1" = _N51REAWP;
+        "forge-1.20.1" = _chrDqI1c;
         "pkg-1.0.0" = _XpnRxUFv;
         "pkg-1.0.1" = _wvSO9JIj;
         "pkg-1.1.0" = _SAYKZgs1;
@@ -352,7 +364,8 @@ let
         "pkg-1.7.6" = _vbHCU5LK;
         "pkg-1.7.7" = _d70gIvfg;
         "pkg-1.7.7-forRelics-0.12.8-1.0" = _vFU5WdGv;
-        "default" = _vFU5WdGv;
+        "pkg-1.8.0" = _chrDqI1c;
+        "default" = _chrDqI1c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-relics";

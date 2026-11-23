@@ -211,6 +211,41 @@ let
             "file" = "ftbquesttransl-1.20.1-fabric-1.5.0.jar";
             "hash" = "sha512-wVYHBY/+f8JyZqExyFvGAzYs87i0T265Zii4e6zQ10iKo3JDC0gjD1OQGAoJ7JIXNzIdNCju8S7T910K79hkKg==";
         };
+        _j1pC6Bxt = {
+            "id" = "j1pC6Bxt";
+            "file" = "ftbquesttransl-1.21.1-neoforge-1.5.1.jar";
+            "hash" = "sha512-4RRpQ0fGuMWzVQb6hCJUmtDyMhKwubbFIWEx/Om8xVvYEZU1iFPjlrIN5cW2MaX4wtGom9AjA2CNfu9eXqgHEg==";
+        };
+        _FtbCWPO6 = {
+            "id" = "FtbCWPO6";
+            "file" = "ftbquesttransl-1.21.1-fabric-1.5.1.jar";
+            "hash" = "sha512-0fU0dMghrZH39hUbOuC9IMoaPwaViPFNbCpqck1qruHTDg3c10HxHKFy0DcbgriGAnyJSVsYknnt80yH8+T1/g==";
+        };
+        _WuyMdluh = {
+            "id" = "WuyMdluh";
+            "file" = "ftbquesttransl-1.20.4-neoforge-1.5.1.jar";
+            "hash" = "sha512-SON62ALB7r7D/YkSzO9w3MimQCU29GHRBVolE7erjLghijOpJudfWal+5XvweviM35XeKTzRtNJTLX6JX3FDUA==";
+        };
+        _AzyF1tju = {
+            "id" = "AzyF1tju";
+            "file" = "ftbquesttransl-1.20.4-fabric-1.5.1.jar";
+            "hash" = "sha512-eLwClRZ8JFUTLcsS+4E5JQt4w9hHIyAWPJdzrHFN0RW6wpBPkaYuQx/I8V3KjUglCFuxoRU+ZQY6ooODzuCxNA==";
+        };
+        _LGtOv4qM = {
+            "id" = "LGtOv4qM";
+            "file" = "ftbquesttransl-1.20.1-forge-1.5.1.jar";
+            "hash" = "sha512-vN4gsrrXvvMjTUyw3yg7XzVuaBGzC2mgQpGzlWTGdMCWvPODourTmf+z+zx5t0JcWwoIe8E6/A+fhECTKOdVhA==";
+        };
+        _1vggOqeI = {
+            "id" = "1vggOqeI";
+            "file" = "ftbquesttransl-1.20.1-fabric-1.5.1.jar";
+            "hash" = "sha512-yo7BqYG2yBVZqCPsN6PhuMuf1klyvJN4WtPoGPpxCAJdN6wt6tX5Fvn332/Xp+6uXM0qFzuatKAR+tWQz2bhGg==";
+        };
+        _DEJUVi70 = {
+            "id" = "DEJUVi70";
+            "file" = "ftbquesttransl-26.1.2-neoforge-1.5.1.jar";
+            "hash" = "sha512-rOwpFLJlNQTeVQvX81aW1aOPTFYhiQjhUL6kcFD43kMh9Rysf2KUIRqfaU9l318f0FZw9A5+Ch2jKzQXiz2w+Q==";
+        };
     in {
         "Ks8YAl6p" = _Ks8YAl6p;
         "g6pEjtCW" = _g6pEjtCW;
@@ -254,12 +289,20 @@ let
         "BPDKw8CQ" = _BPDKw8CQ;
         "3tnJ0Dmz" = _3tnJ0Dmz;
         "e5y0quyf" = _e5y0quyf;
-        "fabric-1.21.1" = _hf1tcw3c;
-        "fabric-1.20.1" = _e5y0quyf;
-        "fabric-1.20.4" = _BPDKw8CQ;
-        "neoforge-1.21.1" = _cBR3lUhV;
-        "neoforge-1.20.4" = _DSlcW6Gc;
-        "forge-1.20.1" = _3tnJ0Dmz;
+        "j1pC6Bxt" = _j1pC6Bxt;
+        "FtbCWPO6" = _FtbCWPO6;
+        "WuyMdluh" = _WuyMdluh;
+        "AzyF1tju" = _AzyF1tju;
+        "LGtOv4qM" = _LGtOv4qM;
+        "1vggOqeI" = _1vggOqeI;
+        "DEJUVi70" = _DEJUVi70;
+        "fabric-1.21.1" = _FtbCWPO6;
+        "fabric-1.20.1" = _1vggOqeI;
+        "fabric-1.20.4" = _AzyF1tju;
+        "neoforge-1.21.1" = _j1pC6Bxt;
+        "neoforge-1.20.4" = _WuyMdluh;
+        "neoforge-26.1.2" = _DEJUVi70;
+        "forge-1.20.1" = _LGtOv4qM;
         "forge-1.20.4" = _DSlcW6Gc;
         "pkg-1.0.0" = _g6pEjtCW;
         "pkg-1.1.0" = _d2OpIfQX;
@@ -282,7 +325,10 @@ let
         "pkg-1.5.0" = _hf1tcw3c;
         "pkg-1.5.0-1.20.4" = _BPDKw8CQ;
         "pkg-1.5.0-1.20.1" = _e5y0quyf;
-        "default" = _e5y0quyf;
+        "pkg-1.5.1" = _DEJUVi70;
+        "pkg-1.5.1-1.20.4" = _AzyF1tju;
+        "pkg-1.5.1-1.20.1" = _1vggOqeI;
+        "default" = _DEJUVi70;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ftb-quest-translator";

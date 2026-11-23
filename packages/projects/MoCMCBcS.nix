@@ -171,6 +171,21 @@ let
             "file" = "slashblade-finale-blade-sanctum-2.9.4-hotfix2-26.1.2-fabric-sources.jar";
             "hash" = "sha512-J6ev7cTB3ZUBmQY1F7g8Irh//KQnY1mIw51CvNa6Dky9nA6rYN8g+ojdeIp+C+LNkUH9aBW1eom6b64P5rEhuQ==";
         };
+        _sZOYnWQ9 = {
+            "id" = "sZOYnWQ9";
+            "file" = "slashblade：finale-blade-sanctum-2.9.4-hotfix3-1.20.1-forge.jar";
+            "hash" = "sha512-A4rQkXFdAKvbmwrdXueRAqnoXnBx8VVm84q6an0I6gd7zXhO5pSDR3lEUHDOCsObpzy1oPkxyFhYzJN3tVWOvw==";
+        };
+        _1tqFawR3 = {
+            "id" = "1tqFawR3";
+            "file" = "slashblade：finale-blade-sanctum-2.9.4-hotfix3-1.21.1-neoforge.jar";
+            "hash" = "sha512-kPlkCGiqcaPHWgCVXkUL7R0qrqh1RgLU98ImoI1TA5e3lCikMam9ddV9PvHf89v+5aXItwc4DMsyAtGhykdA8w==";
+        };
+        _SN7IS0MD = {
+            "id" = "SN7IS0MD";
+            "file" = "slashblade-finale-blade-sanctum-2.9.4-hotfix3-26.1.2-fabric.jar";
+            "hash" = "sha512-hT3ckpjZZen6VB7KyVHa++a1sXHf4fBGo58r6DSfb7jvygAJ8ZJXow2N4XemYE0uHUswbUYksd7Uvu3fmRRxuQ==";
+        };
     in {
         "iuHpLWqf" = _iuHpLWqf;
         "ReMWKtvV" = _ReMWKtvV;
@@ -206,9 +221,12 @@ let
         "MDbgmhDy" = _MDbgmhDy;
         "eL2pQdhe" = _eL2pQdhe;
         "K6iIVwsU" = _K6iIVwsU;
-        "forge-1.20.1" = _MIVkRsc4;
-        "neoforge-1.21.1" = _eL2pQdhe;
-        "fabric-26.1.2" = _K6iIVwsU;
+        "sZOYnWQ9" = _sZOYnWQ9;
+        "1tqFawR3" = _1tqFawR3;
+        "SN7IS0MD" = _SN7IS0MD;
+        "forge-1.20.1" = _sZOYnWQ9;
+        "neoforge-1.21.1" = _1tqFawR3;
+        "fabric-26.1.2" = _SN7IS0MD;
         "pkg-2.0.1-hotfix" = _iuHpLWqf;
         "pkg-2.1.1" = _ReMWKtvV;
         "pkg-2.2.5" = _FGjJ5yh3;
@@ -243,7 +261,10 @@ let
         "pkg-2.9.4-1.21.1-neoforge" = _MDbgmhDy;
         "pkg-2.9.4-hotfix2-1.21.1-neoforge" = _eL2pQdhe;
         "pkg-2.9.4-26.1.2-fabric" = _K6iIVwsU;
-        "default" = _K6iIVwsU;
+        "pkg-2.9.4-hotfix3-1.20.1-forge" = _sZOYnWQ9;
+        "pkg-2.9.4-hotfix3-1.21.1-neoforge" = _1tqFawR3;
+        "pkg-2.9.4-hotfix3-26.1.2-fabric" = _SN7IS0MD;
+        "default" = _SN7IS0MD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "annihilationbladeex";

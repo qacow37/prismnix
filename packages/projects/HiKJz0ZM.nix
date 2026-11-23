@@ -161,6 +161,11 @@ let
             "file" = "BetterTacticalPresentation-2.0.2.jar";
             "hash" = "sha512-Xzdmk1IYPaNJa9hpWgpJZwIIpFPh70daCunWNJ3NW7PELZbxZHnxESCErRye5DRQROqfWiJaS9QMe19Ye4endA==";
         };
+        _qSsnO8Zs = {
+            "id" = "qSsnO8Zs";
+            "file" = "BetterTacticalPresentation-2.1.0.jar";
+            "hash" = "sha512-rU9E8xg+2OztUcYJZJQDAcfAYhdxYKBEi9SQXF5tnB5nJgb8++esAlUXAJ5yW5E1TWhRgn7DqWDWzlGVuSPjDA==";
+        };
     in {
         "lbde5QWN" = _lbde5QWN;
         "ulSiUrud" = _ulSiUrud;
@@ -194,7 +199,8 @@ let
         "qzEF8AlY" = _qzEF8AlY;
         "Al1Neila" = _Al1Neila;
         "LVzQnGAz" = _LVzQnGAz;
-        "forge-1.20.1" = _LVzQnGAz;
+        "qSsnO8Zs" = _qSsnO8Zs;
+        "forge-1.20.1" = _qSsnO8Zs;
         "pkg-1.0.0" = _lbde5QWN;
         "pkg-1.1.0" = _ulSiUrud;
         "pkg-1.1.1" = _6LU7uN5h;
@@ -227,7 +233,8 @@ let
         "pkg-2.0.0" = _qzEF8AlY;
         "pkg-2.0.1" = _Al1Neila;
         "pkg-2.0.2" = _LVzQnGAz;
-        "default" = _LVzQnGAz;
+        "pkg-2.1.0" = _qSsnO8Zs;
+        "default" = _qSsnO8Zs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "btpmod";

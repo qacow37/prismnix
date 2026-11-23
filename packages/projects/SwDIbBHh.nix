@@ -1136,6 +1136,16 @@ let
             "file" = "enchantwithmob-26.3-36.6.0.jar";
             "hash" = "sha512-0fx7VrrkfJ8owtA+01uQfHTJlBgoniDaFePqC9kdxDsxDBdgw0Fj6/70hXHIeQmWYfHYzQqjJRdp1wDmCiJ0/g==";
         };
+        _Nczk58DV = {
+            "id" = "Nczk58DV";
+            "file" = "enchantwithmob-26.1.2-34.5.1.jar";
+            "hash" = "sha512-ZaKOrRDTIeyyVNGOKJTeUXla5kO01XPg8bG2mNQO7Tgu3uBXS+K5jcakCo9Hrtrt3PedKN3DJ1yw4DKMx1GXoQ==";
+        };
+        _7Ko20h0V = {
+            "id" = "7Ko20h0V";
+            "file" = "enchantwithmob-26.3-36.6.1.jar";
+            "hash" = "sha512-gU3tT3HZ5wcaMd4CW2JnhMrGHu/ymtTxSKmEJzmjH/pAmjVcZ+NcJKm7hBeuwOl7KrX/RtY3OVu/anqf78f1uw==";
+        };
     in {
         "713fyJ1M" = _713fyJ1M;
         "xPi7XQvO" = _xPi7XQvO;
@@ -1364,6 +1374,8 @@ let
         "UNUBsXIE" = _UNUBsXIE;
         "BxJSXnXY" = _BxJSXnXY;
         "GmnxpXM0" = _GmnxpXM0;
+        "Nczk58DV" = _Nczk58DV;
+        "7Ko20h0V" = _7Ko20h0V;
         "forge-1.20.1" = _1UcKN8Qz;
         "forge-1.19.2" = _tzcrsKzv;
         "forge-1.18.2" = _LQQJAPgf;
@@ -1394,9 +1406,9 @@ let
         "neoforge-26.1-snapshot-7" = _ujL9LC8h;
         "neoforge-26.1" = _MZYzDbao;
         "neoforge-26.1.1" = _MZYzDbao;
-        "neoforge-26.1.2" = _rxySgMyM;
+        "neoforge-26.1.2" = _Nczk58DV;
         "neoforge-26.2" = _CG79xU7h;
-        "neoforge-26.3" = _GmnxpXM0;
+        "neoforge-26.3" = _7Ko20h0V;
         "pkg-1.20.1-11.0.1" = _713fyJ1M;
         "pkg-1.19.2-7.10.1" = _xPi7XQvO;
         "pkg-1.20.1-11.1.0" = _V0JqVUtb;
@@ -1623,7 +1635,9 @@ let
         "pkg-26.3-36.5.0" = _UNUBsXIE;
         "pkg-1.21.1-21.7.0" = _BxJSXnXY;
         "pkg-26.3-36.6.0" = _GmnxpXM0;
-        "default" = _GmnxpXM0;
+        "pkg-26.1.2-34.5.1" = _Nczk58DV;
+        "pkg-26.3-36.6.1" = _7Ko20h0V;
+        "default" = _7Ko20h0V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantwithmob";

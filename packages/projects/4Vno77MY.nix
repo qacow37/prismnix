@@ -271,6 +271,16 @@ let
             "file" = "letsdo-bloomingnature-fabric-1.1.12.jar";
             "hash" = "sha512-ZLG+8OwDC8+BUq/VST0lHiadK4Q82NcVPryVFZcA9rhyBcz72PFlmE2tHeCGdS3qCtrEOpNAftLRFcdp0kIICA==";
         };
+        _dOizS4YH = {
+            "id" = "dOizS4YH";
+            "file" = "letsdo-bloomingnature-fabric-1.1.13.jar";
+            "hash" = "sha512-y0NBdrJ+A3RvxaiNGWYrkeb0fm0wqnWSWQDslX0ksYgqn/94TRk6Ovlq6foNxwwGpCTl5uvVDmuOie1tY4FHeg==";
+        };
+        _dCtNaW7X = {
+            "id" = "dCtNaW7X";
+            "file" = "letsdo-bloomingnature-neoforge-1.1.13.jar";
+            "hash" = "sha512-pgBewk1WxNPfaTSNibLcZjn9pwD8AUVuFjKHsa1rbnah4AXvN8DOh7hzMNxarH7J7Qd9QnzCF0T0fML0VcYqKw==";
+        };
     in {
         "ZDARKldH" = _ZDARKldH;
         "BPyDHA6o" = _BPyDHA6o;
@@ -326,11 +336,13 @@ let
         "UCozRXqE" = _UCozRXqE;
         "EKgADGat" = _EKgADGat;
         "IdlNUFbp" = _IdlNUFbp;
+        "dOizS4YH" = _dOizS4YH;
+        "dCtNaW7X" = _dCtNaW7X;
         "fabric-1.20.1" = _j67RfSlZ;
-        "fabric-1.21.1" = _IdlNUFbp;
+        "fabric-1.21.1" = _dOizS4YH;
         "forge-1.20.1" = _FEPCy4JB;
         "neoforge-1.20.1" = _i8mHpIF4;
-        "neoforge-1.21.1" = _EKgADGat;
+        "neoforge-1.21.1" = _dCtNaW7X;
         "quilt-1.20.1" = _Fcnwocfp;
         "pkg-1.0.0" = _ZDARKldH;
         "pkg-1.0.1" = _BPyDHA6o;
@@ -360,7 +372,8 @@ let
         "pkg-1.1.10" = _oIvgUYmu;
         "pkg-1.1.11" = _UCozRXqE;
         "pkg-1.1.12" = _IdlNUFbp;
-        "default" = _IdlNUFbp;
+        "pkg-1.1.13" = _dCtNaW7X;
+        "default" = _dCtNaW7X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-do-bloomingnature";

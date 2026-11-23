@@ -56,6 +56,11 @@ let
             "file" = "playershells-1.21.1-0.0.11.jar";
             "hash" = "sha512-L8Q49KYw+o0pvUNSUbpRUTBya2iQsf9w6+EbOCeGCM1d+VNC9K8W1+YntMjrpHvdZLaWNCuEPXRadfX0uGzIjg==";
         };
+        _oAFfnynr = {
+            "id" = "oAFfnynr";
+            "file" = "playershells-26.1.2-1.0.0.jar";
+            "hash" = "sha512-AZojfuZQrUlX0Hn1WtbY1bQ6upqP1nFGAUWIIfWL0e2MFMDWeSNFU5IG4mOdNwmy1w3JsA1vFKEh9Ht4tXLh2Q==";
+        };
     in {
         "ltSoxlEu" = _ltSoxlEu;
         "8yLrg9RN" = _8yLrg9RN;
@@ -68,8 +73,10 @@ let
         "Jv1shIrY" = _Jv1shIrY;
         "j8QHRUgG" = _j8QHRUgG;
         "tr1E1gFZ" = _tr1E1gFZ;
+        "oAFfnynr" = _oAFfnynr;
         "neoforge-1.21.1" = _tr1E1gFZ;
         "neoforge-1.20.1" = _Jv1shIrY;
+        "neoforge-26.1.2" = _oAFfnynr;
         "pkg-1.21.1-0.0.1" = _ltSoxlEu;
         "pkg-1.21.1-0.0.2" = _8yLrg9RN;
         "pkg-1.21.1-0.0.3" = _drlzbl85;
@@ -81,7 +88,8 @@ let
         "pkg-1.20.1-0.0.9" = _Jv1shIrY;
         "pkg-1.21.1-0.0.10" = _j8QHRUgG;
         "pkg-1.21.1-0.0.11" = _tr1E1gFZ;
-        "default" = _tr1E1gFZ;
+        "pkg-26.1.2-1.0.0" = _oAFfnynr;
+        "default" = _oAFfnynr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "player-shells";

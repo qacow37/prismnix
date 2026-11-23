@@ -226,6 +226,21 @@ let
             "file" = "dtbetternether-26.1.2-2.4.0.jar";
             "hash" = "sha512-XANPqjL8Z/T58f1YIfA6STCVLPw+MLv7TuhpwaBcZakYfrGzCCju4rOxqVlrvf6MqmOApyK0u6GF1cG0MSd8Zg==";
         };
+        _VjzAzLYP = {
+            "id" = "VjzAzLYP";
+            "file" = "dtbetternether-1.20.1-2.4.0h.jar";
+            "hash" = "sha512-ETdEsNA4ciORoWChQ+DzcDn8Ax36hb06d+fWZVw05m7Z0z0Kyfrr5mjeNnowXfwcVMHE9lSyImz5xYQyL3z/eA==";
+        };
+        _Ldf9GQrQ = {
+            "id" = "Ldf9GQrQ";
+            "file" = "dtbetternether-1.21.1-2.4.0h.jar";
+            "hash" = "sha512-jQhIec58vFVadOmPp0HzHCo7YMDCW/Dsy02ZsHPdp2P0vRWggrelUeCA+AqjTt2+wHVX/YHv/8D+h3kVMs+j8g==";
+        };
+        _655my2Gt = {
+            "id" = "655my2Gt";
+            "file" = "dtbetternether-26.1.2-2.4.0h.jar";
+            "hash" = "sha512-aZWd3wDSA0WjDj76Zai6e/DOOTJnsqKpkUAYEl8D5Fa8vDjRfJvCsK6yfn4wPbomp2nPwawvVrTLfAgjFBj5Wg==";
+        };
     in {
         "hYVRrzkH" = _hYVRrzkH;
         "BJ0GXsrI" = _BJ0GXsrI;
@@ -272,9 +287,12 @@ let
         "yx3qE5pA" = _yx3qE5pA;
         "OoyZy3kj" = _OoyZy3kj;
         "JNrejGDj" = _JNrejGDj;
-        "forge-1.20.1" = _yx3qE5pA;
-        "neoforge-1.21.1" = _OoyZy3kj;
-        "neoforge-26.1.2" = _JNrejGDj;
+        "VjzAzLYP" = _VjzAzLYP;
+        "Ldf9GQrQ" = _Ldf9GQrQ;
+        "655my2Gt" = _655my2Gt;
+        "forge-1.20.1" = _VjzAzLYP;
+        "neoforge-1.21.1" = _Ldf9GQrQ;
+        "neoforge-26.1.2" = _655my2Gt;
         "pkg-1.20.1-1.0.0" = _hYVRrzkH;
         "pkg-1.21.1-1.0.0" = _BJ0GXsrI;
         "pkg-1.20.1-1.1.0" = _sLGJTpNc;
@@ -320,7 +338,10 @@ let
         "pkg-1.20.1-2.4.0" = _yx3qE5pA;
         "pkg-1.21.1-2.4.0" = _OoyZy3kj;
         "pkg-26.1.2-2.4.0" = _JNrejGDj;
-        "default" = _JNrejGDj;
+        "pkg-1.20.1-2.4.0h" = _VjzAzLYP;
+        "pkg-1.21.1-2.4.0h" = _Ldf9GQrQ;
+        "pkg-26.1.2-2.4.0h" = _655my2Gt;
+        "default" = _655my2Gt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamictrees-betternether";

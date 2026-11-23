@@ -91,6 +91,21 @@ let
             "file" = "trimresonance-fabric-3.0.2.jar";
             "hash" = "sha512-eWDhOd/j2PHPihf7YQ6DSy0ShYRwImVzNjDxtq0f84MvuWWyZix5GAbRQFxbXB2EK1TwcLYCIzCI8ENK/8lkPw==";
         };
+        _YCuanHxV = {
+            "id" = "YCuanHxV";
+            "file" = "trimresonance-fabric-3.0.3.jar";
+            "hash" = "sha512-PNlI3QBgRDOKVumlVTtOpv5EwWJ/gwB2vqtqt6Wr2dKcLUp6g2mHWyCyNVvlPGSH+fP+ctvzjB2nwu8l3MV4Dw==";
+        };
+        _AISYrIb3 = {
+            "id" = "AISYrIb3";
+            "file" = "trimresonance-forge-3.0.3.jar";
+            "hash" = "sha512-sHv8BoVBLn7mVQoIZL2axXi93UZXTUrWnXEKjKyP83Av5frsF25txsFiQdhSHorl6yWOIQSxSdelBJD/ihpIPQ==";
+        };
+        _iRGJ8815 = {
+            "id" = "iRGJ8815";
+            "file" = "trimresonance-neoforge-3.0.3.jar";
+            "hash" = "sha512-d9naksAKeaXplA8teP/h2ipvFO0J3RZsFaJO15PsFuGDQBES15fhehYFr4We+mcGzvu1CG6IXgbHOtLv80aM3A==";
+        };
     in {
         "UrjucMfd" = _UrjucMfd;
         "njUfLVBH" = _njUfLVBH;
@@ -110,14 +125,17 @@ let
         "zy7wwjE5" = _zy7wwjE5;
         "hQW0qQLt" = _hQW0qQLt;
         "aVMnvWyY" = _aVMnvWyY;
+        "YCuanHxV" = _YCuanHxV;
+        "AISYrIb3" = _AISYrIb3;
+        "iRGJ8815" = _iRGJ8815;
         "fabric-1.21.11" = _njUfLVBH;
         "fabric-26.1.2" = _tcMafYLA;
         "fabric-26.2" = _q5mZLmQ8;
-        "fabric-26.3" = _aVMnvWyY;
+        "fabric-26.3" = _YCuanHxV;
         "neoforge-26.1.2" = _YucBHI6u;
         "neoforge-26.2" = _VOoXyGzq;
-        "neoforge-26.3" = _zy7wwjE5;
-        "forge-26.3" = _hQW0qQLt;
+        "neoforge-26.3" = _iRGJ8815;
+        "forge-26.3" = _AISYrIb3;
         "pkg-1.0.0" = _UrjucMfd;
         "pkg-1.0.1" = _njUfLVBH;
         "pkg-2.0.0" = _YucBHI6u;
@@ -127,7 +145,8 @@ let
         "pkg-3.0.0" = _EbzmMWAc;
         "pkg-3.0.1" = _TdHke3fT;
         "pkg-3.0.2" = _aVMnvWyY;
-        "default" = _aVMnvWyY;
+        "pkg-3.0.3" = _iRGJ8815;
+        "default" = _iRGJ8815;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trim-resonance";

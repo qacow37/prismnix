@@ -51,6 +51,11 @@ let
             "file" = "cobbletwoclient-2.2.13.jar";
             "hash" = "sha512-1wQ//A+maN2qrqdzzNj5639h85jzpcHHSXiXSsF2s25fAilzSjlfnoVAVQAAXXl0RSqSVFTiHxgCldBmrpyLXw==";
         };
+        _7gWJL8Re = {
+            "id" = "7gWJL8Re";
+            "file" = "cobbletwoclient-2.2.25.jar";
+            "hash" = "sha512-yZGAH6mT4Nh3TEjwHSKtxbfIme8WJDGANUToGxZbRfTck9wiDTrnXmn7O6zoY72J6m6LDuNuHRCkN/P4DrG7QQ==";
+        };
     in {
         "XOi0Vixp" = _XOi0Vixp;
         "DOEddPtd" = _DOEddPtd;
@@ -62,7 +67,8 @@ let
         "SDRBrEhu" = _SDRBrEhu;
         "mu0VvaQb" = _mu0VvaQb;
         "i1FQ17Dt" = _i1FQ17Dt;
-        "fabric-1.21.1" = _i1FQ17Dt;
+        "7gWJL8Re" = _7gWJL8Re;
+        "fabric-1.21.1" = _7gWJL8Re;
         "fabric-1.21.11" = _i1FQ17Dt;
         "fabric-1.21.10" = _i1FQ17Dt;
         "fabric-1.21.9" = _i1FQ17Dt;
@@ -82,7 +88,8 @@ let
         "pkg-2.2.11" = _SDRBrEhu;
         "pkg-2.2.12" = _mu0VvaQb;
         "pkg-2.2.13" = _i1FQ17Dt;
-        "default" = _i1FQ17Dt;
+        "pkg-2.2.25" = _7gWJL8Re;
+        "default" = _7gWJL8Re;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobbletwoclient";

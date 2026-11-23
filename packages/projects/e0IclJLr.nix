@@ -626,6 +626,46 @@ let
             "file" = "rftoolsbuilder-1.21-7.0.8.jar";
             "hash" = "sha512-3any5CKDGqhWlhHS5r+NrNK2qHHFyFdz3vlVUQ4c7jiaN9mi+DR3XCM2Jb59MAPBmdKqZijMDsV8aP173kdRBQ==";
         };
+        _gb9dnUA4 = {
+            "id" = "gb9dnUA4";
+            "file" = "rftoolsbuilder-1.20-6.0.12.jar";
+            "hash" = "sha512-EPACEW+q+dp+okGMQS+ioRKrQo1uVb90Vq7i05VMWKienhYX0PT13by47hM3KMEi0ZzbGjJe39gqJBjSF38Utg==";
+        };
+        _RzIYXJwi = {
+            "id" = "RzIYXJwi";
+            "file" = "rftoolsbuilder-1.21-7.0.9.jar";
+            "hash" = "sha512-H3o1BcUNoLEy9FXsqFT2x6AVru2U+RdDGEGcAzkGe2bJaHGK9Vi6puMrdqP31dE58BDtENn0RbFd7Fha1+207w==";
+        };
+        _nHGzkl4a = {
+            "id" = "nHGzkl4a";
+            "file" = "rftoolsbuilder-26.1.2-8.0.1.jar";
+            "hash" = "sha512-jls+cRE9y4Xc7PieXPWJ/5yvCfud5yQvAr61/QCvzvc4aOqPFXWtCejPV2U9ass3wwQ6hmOgxAldpN0UzsonMQ==";
+        };
+        _rndAPp8C = {
+            "id" = "rndAPp8C";
+            "file" = "rftoolsbuilder-fabric-26.1.2-8.0.1-fabric.jar";
+            "hash" = "sha512-k0NFj1bAo3H+Ls/NoRNDXC4lxGIk1FZuDTIK9ashcigAmvvLqAvY2oncv8lNR1Y0zYgg9kXH1oYM7Dz/Q9ncOw==";
+        };
+        _JvvxBLck = {
+            "id" = "JvvxBLck";
+            "file" = "rftoolsbuilder-26.2-9.0.1.jar";
+            "hash" = "sha512-y3rCUQftMehdMe597oRbPOkw0EL8SyRbDgt7eCKr1+lYwIYNHWbkd3oGnvkeMXMuze+OTyUNKpE9LMIWzmFNZA==";
+        };
+        _KJuQyZVO = {
+            "id" = "KJuQyZVO";
+            "file" = "rftoolsbuilder-fabric-26.2-9.0.1-fabric.jar";
+            "hash" = "sha512-5YPBewq7ifi4UyYAvKUHlqEKCbVL0HqgJgPlZnN3+92rEQjiOMCbje+1Nu01wv9zmV3W9Ca7epUTT/NMNE7pnA==";
+        };
+        _rl2RfTPD = {
+            "id" = "rl2RfTPD";
+            "file" = "rftoolsbuilder-26.3-10.0.1.jar";
+            "hash" = "sha512-6zCYM9vPKkOzBPpn3jsEmTyTKbFtnqQI6FzbD67zcsDcV6zRukdisCDZMp+p78+mjqMQaT1HfdV+XNdqSiy9+w==";
+        };
+        _fkmBaVz2 = {
+            "id" = "fkmBaVz2";
+            "file" = "rftoolsbuilder-fabric-26.3-10.0.1-fabric.jar";
+            "hash" = "sha512-zh/sa5NyAIMuqAY8R3gIHG41nO7/N5GVL4kSwQWyJ63jfWMbL0se1gC9F6J0bV96n5cwq+jkvj6I4uOOhQmZtQ==";
+        };
     in {
         "LD479cPW" = _LD479cPW;
         "NEgHxNrx" = _NEgHxNrx;
@@ -752,6 +792,14 @@ let
         "5QNVaIHE" = _5QNVaIHE;
         "5wxNTLy4" = _5wxNTLy4;
         "Rd4jSkcq" = _Rd4jSkcq;
+        "gb9dnUA4" = _gb9dnUA4;
+        "RzIYXJwi" = _RzIYXJwi;
+        "nHGzkl4a" = _nHGzkl4a;
+        "rndAPp8C" = _rndAPp8C;
+        "JvvxBLck" = _JvvxBLck;
+        "KJuQyZVO" = _KJuQyZVO;
+        "rl2RfTPD" = _rl2RfTPD;
+        "fkmBaVz2" = _fkmBaVz2;
         "forge-1.14.4" = _AXJqL25h;
         "forge-1.15.2" = _tKoHFoQP;
         "forge-1.16.2" = _oNvs8Rsw;
@@ -765,14 +813,14 @@ let
         "forge-1.19.2" = _LyjevT0q;
         "forge-1.19.3" = _LyjevT0q;
         "forge-1.19.4" = _LyjevT0q;
-        "forge-1.20.1" = _5wxNTLy4;
-        "neoforge-1.21.1" = _Rd4jSkcq;
-        "neoforge-26.1.2" = _9X2H6nFM;
-        "neoforge-26.2" = _1vs3GAgF;
-        "neoforge-26.3" = _5QNVaIHE;
-        "fabric-26.1.2" = _Y8zogU8z;
-        "fabric-26.2" = _Bh1ruo2I;
-        "fabric-26.3" = _qZBKEH1s;
+        "forge-1.20.1" = _gb9dnUA4;
+        "neoforge-1.21.1" = _RzIYXJwi;
+        "neoforge-26.1.2" = _nHGzkl4a;
+        "neoforge-26.2" = _JvvxBLck;
+        "neoforge-26.3" = _rl2RfTPD;
+        "fabric-26.1.2" = _rndAPp8C;
+        "fabric-26.2" = _KJuQyZVO;
+        "fabric-26.3" = _fkmBaVz2;
         "pkg-1.14-1.2.4-alpha" = _LD479cPW;
         "pkg-1.14-1.2.5-alpha" = _NEgHxNrx;
         "pkg-1.14-1.2.6-alpha" = _ZdTcat1F;
@@ -898,7 +946,15 @@ let
         "pkg-26.3-10.0.0" = _5QNVaIHE;
         "pkg-1.20-6.0.11" = _5wxNTLy4;
         "pkg-1.21-7.0.8" = _Rd4jSkcq;
-        "default" = _Rd4jSkcq;
+        "pkg-1.20-6.0.12" = _gb9dnUA4;
+        "pkg-1.21-7.0.9" = _RzIYXJwi;
+        "pkg-26.1.2-8.0.1" = _nHGzkl4a;
+        "pkg-26.1.2-8.0.1-fabric" = _rndAPp8C;
+        "pkg-26.2-9.0.1" = _JvvxBLck;
+        "pkg-26.2-9.0.1-fabric" = _KJuQyZVO;
+        "pkg-26.3-10.0.1" = _rl2RfTPD;
+        "pkg-26.3-10.0.1-fabric" = _fkmBaVz2;
+        "default" = _fkmBaVz2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rftools-builder";

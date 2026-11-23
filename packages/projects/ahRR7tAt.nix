@@ -131,6 +131,26 @@ let
             "file" = "Recording-Tools-1.1.1.jar";
             "hash" = "sha512-1qhXcx75yBgLWKmtY6PQOQNoy7kFZHQuwUQc0V9T8gQqlRIVKOwKinTdO9a3tR1uUWtoXy6X5O4m4k2jJ/2sqg==";
         };
+        _OCL2HImq = {
+            "id" = "OCL2HImq";
+            "file" = "Recording-Tools-1.1.2.jar";
+            "hash" = "sha512-79cTs1NnJUpjooKw4loz6osbvQaz8H64OdikWgaz75C83LIbIyjxKaGJ/PuV6oUjz8t5sCWt8eUMPm/5L7c39Q==";
+        };
+        _7TigDmai = {
+            "id" = "7TigDmai";
+            "file" = "Recording-Tools-1.1.2.jar";
+            "hash" = "sha512-igOttOf79MMimVO6PkG+dcq6mKV572lEpdwras+8UVbjKzLKxL+6zGuNA/hoWi3mNLMF2Q+qRt6wUnfH0c/SHw==";
+        };
+        _11MRejMj = {
+            "id" = "11MRejMj";
+            "file" = "Recording-Tools-1.1.2.jar";
+            "hash" = "sha512-IqQs2/U4svzJqv0YGCY9XYg06YBAy/lAfrqoXRJXMhVBAc+EdMdJeD7A1gDfR3Gyn55psXmIAmd5+LxOLNmQ3Q==";
+        };
+        _ZGIE1Ank = {
+            "id" = "ZGIE1Ank";
+            "file" = "Recording-Tools-1.1.2.jar";
+            "hash" = "sha512-0GIQf7Qj+Nv06F4+NkO5eX+NHoAy8bZ6nDEr4JNclipaJ3ToFPWtEhoKDzGrUmAfOZ7IYHzbcZrM5LPoH6k8DA==";
+        };
     in {
         "3s7dfJnP" = _3s7dfJnP;
         "W0rXi13l" = _W0rXi13l;
@@ -158,12 +178,16 @@ let
         "9py1fsTc" = _9py1fsTc;
         "pynChrMe" = _pynChrMe;
         "2fw0nPVU" = _2fw0nPVU;
-        "fabric-1.21.11" = _kz0qvYJ2;
-        "fabric-26.1" = _9py1fsTc;
-        "fabric-26.1.1" = _9py1fsTc;
-        "fabric-26.1.2" = _9py1fsTc;
-        "fabric-26.2" = _pynChrMe;
-        "fabric-26.3" = _2fw0nPVU;
+        "OCL2HImq" = _OCL2HImq;
+        "7TigDmai" = _7TigDmai;
+        "11MRejMj" = _11MRejMj;
+        "ZGIE1Ank" = _ZGIE1Ank;
+        "fabric-1.21.11" = _OCL2HImq;
+        "fabric-26.1" = _7TigDmai;
+        "fabric-26.1.1" = _7TigDmai;
+        "fabric-26.1.2" = _7TigDmai;
+        "fabric-26.2" = _11MRejMj;
+        "fabric-26.3" = _ZGIE1Ank;
         "pkg-1.0.1" = _3s7dfJnP;
         "pkg-1.0.2" = _W0rXi13l;
         "pkg-1.0.3" = _7nnS6chh;
@@ -171,7 +195,8 @@ let
         "pkg-1.0.5" = _rIIhw5nY;
         "pkg-1.1.0" = _hCGDnCg3;
         "pkg-1.1.1" = _2fw0nPVU;
-        "default" = _2fw0nPVU;
+        "pkg-1.1.2" = _ZGIE1Ank;
+        "default" = _ZGIE1Ank;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "recording-tools";

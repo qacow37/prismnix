@@ -131,6 +131,16 @@ let
             "file" = "maid_restaurant-0.2.9.jar";
             "hash" = "sha512-NUdfVTavz6wottEpG6o7f3xl3ZciSol1ZssBbwqCAXIGfScXvmzsc5/v+XefCzmkDwaG+2Ia0cwhiRSKLhz+aw==";
         };
+        _8XPkxYD4 = {
+            "id" = "8XPkxYD4";
+            "file" = "maid_restaurant-0.5.0-1.21.1.jar";
+            "hash" = "sha512-8922Q0x99VevkR7dA3jsjvU2gMSzNHe+OrPs2ZcSv18KVitLflS2Pj4WqKAFBBpecNZvogW5V8jzMhmnI+j1WQ==";
+        };
+        _NEbCW5OI = {
+            "id" = "NEbCW5OI";
+            "file" = "maid_restaurant-0.5.0-1.20.1.jar";
+            "hash" = "sha512-73NDRXE0IvayXKMyiR5/HDVZ5rqfkDSd8Sr+m3wL+QCTMJ7s7KD28yLbZje0bgEnuWafIMdiFll2qZelWdzktg==";
+        };
     in {
         "Onqxmq8A" = _Onqxmq8A;
         "FpgiLYUi" = _FpgiLYUi;
@@ -158,8 +168,10 @@ let
         "aFkANRma" = _aFkANRma;
         "jweBDmoH" = _jweBDmoH;
         "vEgMAYm3" = _vEgMAYm3;
-        "neoforge-1.21.1" = _vEgMAYm3;
-        "forge-1.20.1" = _jweBDmoH;
+        "8XPkxYD4" = _8XPkxYD4;
+        "NEbCW5OI" = _NEbCW5OI;
+        "neoforge-1.21.1" = _8XPkxYD4;
+        "forge-1.20.1" = _NEbCW5OI;
         "pkg-0.1.3" = _Onqxmq8A;
         "pkg-0.1.4" = _T7493pID;
         "pkg-0.1.5" = _qVUMH83G;
@@ -175,7 +187,8 @@ let
         "pkg-0.2.7" = _g00ihhnv;
         "pkg-0.2.8" = _aFkANRma;
         "pkg-0.2.9" = _vEgMAYm3;
-        "default" = _vEgMAYm3;
+        "pkg-0.5.0" = _NEbCW5OI;
+        "default" = _NEbCW5OI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "maid-restaurant";

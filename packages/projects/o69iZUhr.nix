@@ -16,15 +16,29 @@ let
             "file" = "efscale-1.0.4alpha.jar";
             "hash" = "sha512-BY0CPmMeyVIDyfUd412/d1OgNHw6EsdflNcG7WMoA2y2BePrqqVW7t6RlvQjqypvm1YPGDIgchShMthFMLG0MQ==";
         };
+        _pYqcyGJ1 = {
+            "id" = "pYqcyGJ1";
+            "file" = "efscale-1.0.5-alpha-pmweather.jar";
+            "hash" = "sha512-GlmUdzVWFTdup8jXh/7eHWsbkjnGJ1SQZzKjDeCeRAhl3ae7BBx+nXqp9CMUvNbjuqOZsQH7j636VvMOPdSGSA==";
+        };
+        _tHabNeow = {
+            "id" = "tHabNeow";
+            "file" = "efscale-1.0.6-alpha-pmweather.jar";
+            "hash" = "sha512-CI43Pq0mwSHldJMDE6j/wWUNlH2nc62HJZ8qpYuh1maWFPTmMx+xN/l8hIBtlruGMXzur9Ml/phWdIN1DCrzKQ==";
+        };
     in {
         "k7f3I81d" = _k7f3I81d;
         "DMvSKg5J" = _DMvSKg5J;
         "vEk3oiK7" = _vEk3oiK7;
-        "neoforge-1.21.1" = _vEk3oiK7;
+        "pYqcyGJ1" = _pYqcyGJ1;
+        "tHabNeow" = _tHabNeow;
+        "neoforge-1.21.1" = _tHabNeow;
         "pkg-1.0.2" = _k7f3I81d;
         "pkg-1.0.3" = _DMvSKg5J;
         "pkg-1.0.4" = _vEk3oiK7;
-        "default" = _vEk3oiK7;
+        "pkg-1.0.5-alpha" = _pYqcyGJ1;
+        "pkg-1.0.5-alpha-FIXED" = _tHabNeow;
+        "default" = _tHabNeow;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ef-announcer-protomanlys-weather";

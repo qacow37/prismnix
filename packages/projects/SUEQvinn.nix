@@ -511,6 +511,11 @@ let
             "file" = "moreores-7.0+26.2.jar";
             "hash" = "sha512-jWItCdhaHmBmukX3R6qB1pBZEcM2GJfSC8AohkzGNvXPR4aPcX8gID9ShNKhnNodgWtk2mtQqyXPilDzQvlRlQ==";
         };
+        _4BNBC5J5 = {
+            "id" = "4BNBC5J5";
+            "file" = "moreores-7.0+26.3.jar";
+            "hash" = "sha512-disvsLJD04ttZ6ilkNeeUSW9++oknIR6RqioKHnFZzqYfANwUllJ7GByRTMSn6lekiP23GyPwxl/4idIoPZLmQ==";
+        };
     in {
         "aIU2iDKb" = _aIU2iDKb;
         "hp1hTVmU" = _hp1hTVmU;
@@ -614,6 +619,7 @@ let
         "a1IHKTkZ" = _a1IHKTkZ;
         "MWU0JD9I" = _MWU0JD9I;
         "NyZW0RK3" = _NyZW0RK3;
+        "4BNBC5J5" = _4BNBC5J5;
         "fabric-1.20.4" = _hp1hTVmU;
         "fabric-1.20.6" = _VzAKC9eD;
         "fabric-1.21-pre4" = _So7libM1;
@@ -632,6 +638,7 @@ let
         "fabric-26.1.1" = _MWU0JD9I;
         "fabric-26.1.2" = _MWU0JD9I;
         "fabric-26.2" = _NyZW0RK3;
+        "fabric-26.3" = _4BNBC5J5;
         "pkg-1.0-1.20.4" = _aIU2iDKb;
         "pkg-1.1-1.20.4" = _hp1hTVmU;
         "pkg-1.0+1.20.6" = _mArCzOJr;
@@ -734,7 +741,8 @@ let
         "pkg-7.0+1.21.11" = _a1IHKTkZ;
         "pkg-7.0+26.1.x" = _MWU0JD9I;
         "pkg-7.0+26.2" = _NyZW0RK3;
-        "default" = _NyZW0RK3;
+        "pkg-7.0+26.3" = _4BNBC5J5;
+        "default" = _4BNBC5J5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moreores+";

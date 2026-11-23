@@ -6036,6 +6036,11 @@ let
             "file" = "moonlight-1.21.1-3.8.3-fabric.jar";
             "hash" = "sha512-KEUSAqc/ofBba9/MyaKpL3PNugcFnj7P2GyyJZSkV27Yxa3f9PMYaUQVykpwkTvtCEUQXMOej0riG/9yzAogwg==";
         };
+        _7DFP2ylr = {
+            "id" = "7DFP2ylr";
+            "file" = "moonlight-1.21.1-3.8.4-fabric.jar";
+            "hash" = "sha512-777YRD5FAd5DN9uDvZQVbRhJ2Mky1SPWG6xB9z0xfKxYE6TaRzXvIRAWTqh2CQG7FZr2dXSDaLFE1NqZQ9ys1g==";
+        };
     in {
         "2vA7za0R" = _2vA7za0R;
         "HnzRVHve" = _HnzRVHve;
@@ -7244,6 +7249,7 @@ let
         "rF6052yd" = _rF6052yd;
         "yBea1yLM" = _yBea1yLM;
         "uANIaPO7" = _uANIaPO7;
+        "7DFP2ylr" = _7DFP2ylr;
         "forge-1.16.5" = _2vA7za0R;
         "forge-1.19.2" = _4R7I44b3;
         "forge-1.19.1" = _TdrX8qHu;
@@ -7263,7 +7269,7 @@ let
         "fabric-1.20.1" = _AHGZEddk;
         "fabric-1.20.4" = _aeiy0BML;
         "fabric-1.21" = _Oseln6Nb;
-        "fabric-1.21.1" = _uANIaPO7;
+        "fabric-1.21.1" = _7DFP2ylr;
         "fabric-26.1.2" = _Z4zBrgxb;
         "neoforge-1.20.4" = _UnP0v4AC;
         "neoforge-1.20.1" = _rF6052yd;
@@ -8272,7 +8278,8 @@ let
         "pkg-1.20-2.16.39-fabric" = _AHGZEddk;
         "pkg-1.20-2.16.39-forge" = _rF6052yd;
         "pkg-1.21.1-3.8.3" = _uANIaPO7;
-        "default" = _uANIaPO7;
+        "pkg-1.21.1-3.8.4" = _7DFP2ylr;
+        "default" = _7DFP2ylr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moonlight";

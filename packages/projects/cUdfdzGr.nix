@@ -41,6 +41,21 @@ let
             "file" = "backbone-neoforge-1.2.1.jar";
             "hash" = "sha512-Ywn81HcwKO4BGeboTWROLRbk8OXfHrRWeeH1wHwhoiOfzQqJjGH/hBzDGB3fvPznwHkKUx+tTgNLI/wSXue7jw==";
         };
+        _PSr1xEwS = {
+            "id" = "PSr1xEwS";
+            "file" = "backbone-fabric-1.2.2.jar";
+            "hash" = "sha512-JYIqFqUrYfipoRyN6RwJcpn3PenI1lobHiFAejZ/kg+DHVv+YGUS6ygMg/L6gd/52pwurMOyHksho8IS2taHtQ==";
+        };
+        _sQMGaOaQ = {
+            "id" = "sQMGaOaQ";
+            "file" = "backbone-neoforge-1.2.2.jar";
+            "hash" = "sha512-CDp5nCR05mOKzKq5pAbumsRMf+l5pPl2BTv1iUgnCzxHurN7KDa5cvGyua+TarzEq46i+RBI+rv/zK8+01RTBA==";
+        };
+        _PLihP7TD = {
+            "id" = "PLihP7TD";
+            "file" = "backbone-neoforge-1.2.3.jar";
+            "hash" = "sha512-vQFzKb1DQ/24lYTHCeTGXJkj1BZ+IpNbntQkjbPkP5KcPoo9J2eXOK+U8o3Q77D+otBrM+xpJ0wpburUuIhvmQ==";
+        };
     in {
         "wGcRtd1k" = _wGcRtd1k;
         "OdIptyiZ" = _OdIptyiZ;
@@ -50,14 +65,17 @@ let
         "IhffGPBo" = _IhffGPBo;
         "zJwE9jLc" = _zJwE9jLc;
         "UGhIObOh" = _UGhIObOh;
-        "fabric-1.21.1" = _zJwE9jLc;
-        "fabric-1.21.2" = _zJwE9jLc;
-        "fabric-1.21.3" = _zJwE9jLc;
-        "fabric-1.21.4" = _zJwE9jLc;
-        "neoforge-1.21.1" = _UGhIObOh;
-        "neoforge-1.21.2" = _UGhIObOh;
-        "neoforge-1.21.3" = _UGhIObOh;
-        "neoforge-1.21.4" = _UGhIObOh;
+        "PSr1xEwS" = _PSr1xEwS;
+        "sQMGaOaQ" = _sQMGaOaQ;
+        "PLihP7TD" = _PLihP7TD;
+        "fabric-1.21.1" = _PSr1xEwS;
+        "fabric-1.21.2" = _PSr1xEwS;
+        "fabric-1.21.3" = _PSr1xEwS;
+        "fabric-1.21.4" = _PSr1xEwS;
+        "neoforge-1.21.1" = _PLihP7TD;
+        "neoforge-1.21.2" = _PLihP7TD;
+        "neoforge-1.21.3" = _PLihP7TD;
+        "neoforge-1.21.4" = _PLihP7TD;
         "pkg-1.0-1.21-fabric" = _wGcRtd1k;
         "pkg-1.0-1.21-neo" = _OdIptyiZ;
         "pkg-1.1-1.21-fabric" = _Ly6vIHjM;
@@ -66,7 +84,10 @@ let
         "pkg-1.2-1.21-neo" = _IhffGPBo;
         "pkg-1.2.1-1.21-fabric" = _zJwE9jLc;
         "pkg-1.2.1-1.21-neo" = _UGhIObOh;
-        "default" = _UGhIObOh;
+        "pkg-1.2.2-1.21-fabric" = _PSr1xEwS;
+        "pkg-1.2.2-1.21-neo" = _sQMGaOaQ;
+        "pkg-1.2.3-1.21-neo" = _PLihP7TD;
+        "default" = _PLihP7TD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "backbone";

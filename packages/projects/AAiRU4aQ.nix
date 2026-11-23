@@ -161,6 +161,16 @@ let
             "file" = "letsdo-wildernature-fabric-1.1.8.jar";
             "hash" = "sha512-X9COq+ZKicv7xzdgbqwYCfSs9FM+JxhBTO9gGepPvBt1MjdsaHdd/c4R6+EVNUcBn75t+lssCjz9S2uX7yl1vg==";
         };
+        _ljrLExc4 = {
+            "id" = "ljrLExc4";
+            "file" = "letsdo-wildernature-fabric-1.1.9.jar";
+            "hash" = "sha512-h+0cK67UJ9z9vjwirvcTbrpR1yBkHzYvas+uA78Ph8LuLgMgsg+0oPNGJaJlgZ9ckq3jG8me0JR8rx4UroycqA==";
+        };
+        _H3PXg2EV = {
+            "id" = "H3PXg2EV";
+            "file" = "letsdo-wildernature-neoforge-1.1.9.jar";
+            "hash" = "sha512-Ymp4lIc8fsMy/u/FhxVa7u5SL5P5d9RlH6OSqNEmHyQkJ/rjxGhgZDvDhOuz8+GNLoUZK1iRepI0q1OUGpABIg==";
+        };
     in {
         "GvJw7BSd" = _GvJw7BSd;
         "FzRLwHfB" = _FzRLwHfB;
@@ -194,11 +204,13 @@ let
         "2KItSWon" = _2KItSWon;
         "iwC56pNh" = _iwC56pNh;
         "z8Eb5lpS" = _z8Eb5lpS;
+        "ljrLExc4" = _ljrLExc4;
+        "H3PXg2EV" = _H3PXg2EV;
         "forge-1.20.1" = _MOt4yaRr;
         "neoforge-1.20.1" = _qR7hZ2XI;
-        "neoforge-1.21.1" = _iwC56pNh;
+        "neoforge-1.21.1" = _H3PXg2EV;
         "fabric-1.20.1" = _mRS9jw1s;
-        "fabric-1.21.1" = _z8Eb5lpS;
+        "fabric-1.21.1" = _ljrLExc4;
         "quilt-1.20.1" = _6IzdThGc;
         "pkg-1.0.0" = _FzRLwHfB;
         "pkg-1.0.1" = _7dA3FcQ5;
@@ -216,7 +228,8 @@ let
         "pkg-1.1.6" = _BRIgSDra;
         "pkg-1.1.7" = _2KItSWon;
         "pkg-1.1.8" = _z8Eb5lpS;
-        "default" = _z8Eb5lpS;
+        "pkg-1.1.9" = _H3PXg2EV;
+        "default" = _H3PXg2EV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-do-wildernature";

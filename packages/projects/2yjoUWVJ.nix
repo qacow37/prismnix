@@ -301,6 +301,26 @@ let
             "file" = "Vanitas_88.0_1.3.zip";
             "hash" = "sha512-go3coOhoycI/rd4lmN8U4yHEG3KfPJfmN8jIfG1tysLh4LjVzk0bey3gYEFZEObEkyHesWzn4vzfZ5mw7OhUbg==";
         };
+        _enoLWDJA = {
+            "id" = "enoLWDJA";
+            "file" = "Vanitas_75.0_1.4.zip";
+            "hash" = "sha512-c6HbQSTi8rJXbD4+fYi8t5LyKxM5QCZpOm/2iXtMwRX5AWSPAATfrfAjSPNoaNMp4qE+lZ2t8tZ34cBk4vttiA==";
+        };
+        _JvmxIxHS = {
+            "id" = "JvmxIxHS";
+            "file" = "Vanitas_84.0_1.4.zip";
+            "hash" = "sha512-9IwNHFiNskmaJ+sOqi63opaNx6P4j3aKEjaHvDX5ZMyBsg+6+ZF+nmOjQwq/3zMMBLKZmvsUPWvH6Ap2VSY7Rg==";
+        };
+        _MbmOtXD7 = {
+            "id" = "MbmOtXD7";
+            "file" = "Vanitas_88.0_1.4.zip";
+            "hash" = "sha512-eBQfbLrx8sd8XANhFSrjYsIJaYD2GkLc19Ab2RN2qPUaOJCc4lXF1nE9ZakuDS5JKnGkopYFp3k1DcugefvTbw==";
+        };
+        _Oj8eEnd8 = {
+            "id" = "Oj8eEnd8";
+            "file" = "Vanitas_97.1_1.4.zip";
+            "hash" = "sha512-LnrWrUQyEY4Iq2sHR5arAseuwJaQky8tIX7yeOe3Ogu0zf8bQnJm1wC6zsKxEDEGBXDM1Mab1t7x0W3nFuP2PA==";
+        };
     in {
         "i2Ub6R1a" = _i2Ub6R1a;
         "VBD9gSXh" = _VBD9gSXh;
@@ -362,6 +382,10 @@ let
         "ltntKr13" = _ltntKr13;
         "AxEOLMM2" = _AxEOLMM2;
         "WCPqxZAn" = _WCPqxZAn;
+        "enoLWDJA" = _enoLWDJA;
+        "JvmxIxHS" = _JvmxIxHS;
+        "MbmOtXD7" = _MbmOtXD7;
+        "Oj8eEnd8" = _Oj8eEnd8;
         "minecraft-1.6.1" = _tv6iZzqh;
         "minecraft-1.6.2" = _tv6iZzqh;
         "minecraft-1.6.4" = _tv6iZzqh;
@@ -413,11 +437,12 @@ let
         "minecraft-1.21.8" = _E1E7WZzT;
         "minecraft-1.21.9" = _IZHH3f3b;
         "minecraft-1.21.10" = _IZHH3f3b;
-        "minecraft-1.21.11" = _AxEOLMM2;
-        "minecraft-26.1" = _AxEOLMM2;
-        "minecraft-26.1.1" = _AxEOLMM2;
-        "minecraft-26.1.2" = _AxEOLMM2;
-        "minecraft-26.2" = _WCPqxZAn;
+        "minecraft-1.21.11" = _enoLWDJA;
+        "minecraft-26.1" = _JvmxIxHS;
+        "minecraft-26.1.1" = _JvmxIxHS;
+        "minecraft-26.1.2" = _JvmxIxHS;
+        "minecraft-26.2" = _MbmOtXD7;
+        "minecraft-26.3" = _Oj8eEnd8;
         "pkg-0.1" = _rmZycRqZ;
         "pkg-0.2" = _ZyiaxJfx;
         "pkg-0.2.1" = _IBpgU5C7;
@@ -426,7 +451,8 @@ let
         "pkg-1.1" = _ltntKr13;
         "pkg-1.2" = _AxEOLMM2;
         "pkg-1.3" = _WCPqxZAn;
-        "default" = _WCPqxZAn;
+        "pkg-1.4" = _Oj8eEnd8;
+        "default" = _Oj8eEnd8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanitas";

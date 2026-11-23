@@ -586,6 +586,11 @@ let
             "file" = "earthmobsmod-26.3-31.6.0.jar";
             "hash" = "sha512-IuhPOjdkNvFVwIfsMhYs3LwHdo1NNHAtrjL1hGShSTbX072wvs58wQR7Ad3INs52tReun7IjGC524G0AcIz2Mg==";
         };
+        _mLTB0M9C = {
+            "id" = "mLTB0M9C";
+            "file" = "earthmobsmod-26.3-31.6.2.jar";
+            "hash" = "sha512-KJ1+S+cEcZ7ENKHpVRKnRlrutbj21wuZOaytplUy07PxMHrfACJIWFurG2ZQXSPfZmdCoe86i8qS1tKVD3nvrg==";
+        };
     in {
         "zycHh01Q" = _zycHh01Q;
         "LmQXQ8u1" = _LmQXQ8u1;
@@ -704,6 +709,7 @@ let
         "JHJG5EQE" = _JHJG5EQE;
         "RUDEQfch" = _RUDEQfch;
         "LmLuXpg4" = _LmLuXpg4;
+        "mLTB0M9C" = _mLTB0M9C;
         "forge-1.20.1" = _l8g8eoEi;
         "forge-1.19.2" = _ggzA7RdR;
         "forge-1.20.2" = _fisohsCx;
@@ -727,7 +733,7 @@ let
         "neoforge-26.1.1" = _lBrzlBa4;
         "neoforge-26.1.2" = _MNcGvEv5;
         "neoforge-26.2" = _fCqXyMDK;
-        "neoforge-26.3" = _LmLuXpg4;
+        "neoforge-26.3" = _mLTB0M9C;
         "pkg-1.20.1-9.0.1" = _zycHh01Q;
         "pkg-1.19.2-9.1.0" = _LmQXQ8u1;
         "pkg-1.20.2-10.0.0" = _CXUIxzzX;
@@ -845,7 +851,8 @@ let
         "pkg-26.3-31.4.0" = _JHJG5EQE;
         "pkg-26.3-31.5.0" = _RUDEQfch;
         "pkg-26.3-31.6.0" = _LmLuXpg4;
-        "default" = _LmLuXpg4;
+        "pkg-26.3-31.6.2" = _mLTB0M9C;
+        "default" = _mLTB0M9C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "earthmobs";

@@ -271,6 +271,26 @@ let
             "file" = "modifiedbiomesource-neoforge-0.0.4+hotfix+26.3.jar";
             "hash" = "sha512-ZWw7nt9KZ3o5z9NOCBQ36PmbEWS5ckfWNH2qk/U7+Eza3PPN7bYtCa3Ep/RaTlGzuCFBFlthKre6n27UrV+Rvg==";
         };
+        _Qeq2S9zL = {
+            "id" = "Qeq2S9zL";
+            "file" = "modifiedbiomesource-fabric-0.0.5+1.20.1.jar";
+            "hash" = "sha512-Vmfv7RDxZhZVh4P+VMKxn6n5MFOinHDvTBj5bZgpQZ3KAjt3VU1dkV7yoaUt94fVos3zsXa9OVd68lmMdFK9ZQ==";
+        };
+        _lC55qJjU = {
+            "id" = "lC55qJjU";
+            "file" = "modifiedbiomesource-forge-0.0.5+1.20.1.jar";
+            "hash" = "sha512-2w48WKLM+upEDlF/TkKLrWTVIEHihcMa6TqqrVshWuI4yfzHtMunS1aHJq48SN9KzMeA7X7JYf+1zFLroDn1BA==";
+        };
+        _408HegmQ = {
+            "id" = "408HegmQ";
+            "file" = "modifiedbiomesource-fabric-0.0.5+1.21.1.jar";
+            "hash" = "sha512-RbteD7WgiC7Ppy94H2b8y2ll0SJ4Zwv1RmRJBBvzIFT3zEaGRG2KXnT+0cXDWrOiZ0XKRPgubIhrX3Gx6NqbOw==";
+        };
+        _UHWTUM9l = {
+            "id" = "UHWTUM9l";
+            "file" = "modifiedbiomesource-neoforge-0.0.5+1.21.1.jar";
+            "hash" = "sha512-+3Q3HjN3OCx4Y7PmImQlCJb3w4wou7cRPyf2B4uWaAm/6m0iP6gJJfgW3fL/fJy1QVtgGbEiPykcZcWYBPVl4A==";
+        };
     in {
         "zUSSluW2" = _zUSSluW2;
         "o9pxehBc" = _o9pxehBc;
@@ -326,9 +346,13 @@ let
         "Ovvy7vhW" = _Ovvy7vhW;
         "St0OAjYr" = _St0OAjYr;
         "qasUGwsS" = _qasUGwsS;
-        "fabric-1.20.1" = _9SVuIMX3;
+        "Qeq2S9zL" = _Qeq2S9zL;
+        "lC55qJjU" = _lC55qJjU;
+        "408HegmQ" = _408HegmQ;
+        "UHWTUM9l" = _UHWTUM9l;
+        "fabric-1.20.1" = _Qeq2S9zL;
         "fabric-1.21" = _r6i2qPRK;
-        "fabric-1.21.1" = _nWORAdkx;
+        "fabric-1.21.1" = _408HegmQ;
         "fabric-1.21.2" = _Rf7vLifh;
         "fabric-1.21.3" = _Rf7vLifh;
         "fabric-1.21.4" = _Rf7vLifh;
@@ -344,10 +368,10 @@ let
         "fabric-26.1.2" = _3Ei5A3Hk;
         "fabric-26.2" = _JQMDsuBr;
         "fabric-26.3" = _St0OAjYr;
-        "forge-1.20.1" = _nMzllBZm;
-        "neoforge-1.20.1" = _nMzllBZm;
+        "forge-1.20.1" = _lC55qJjU;
+        "neoforge-1.20.1" = _lC55qJjU;
         "neoforge-1.21" = _WjQEIMVZ;
-        "neoforge-1.21.1" = _s6Z9fGh1;
+        "neoforge-1.21.1" = _UHWTUM9l;
         "neoforge-1.21.2" = _f6T8Sjx9;
         "neoforge-1.21.3" = _f6T8Sjx9;
         "neoforge-1.21.4" = _f6T8Sjx9;
@@ -390,7 +414,9 @@ let
         "pkg-0.0.4+26.2" = _x3z9ZuQs;
         "pkg-0.0.4+26.3" = _Ovvy7vhW;
         "pkg-0.0.4+hotfix+26.3" = _qasUGwsS;
-        "default" = _qasUGwsS;
+        "pkg-0.0.5+1.20.1" = _lC55qJjU;
+        "pkg-0.0.5+1.21.1" = _UHWTUM9l;
+        "default" = _UHWTUM9l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modifiedbiomesource";

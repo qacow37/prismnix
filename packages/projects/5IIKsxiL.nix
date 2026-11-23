@@ -1026,6 +1026,36 @@ let
             "file" = "ExtremeSoundMuffler-3.57_Fabric-1.21.jar";
             "hash" = "sha512-SkBRTmXUbhasS+A9S2U2gyAxw/lZQFhBpRT1892i+K0gNYslAXYqYHxxVzZ5clmIS/uDzEttdPT0yqkroHS5sA==";
         };
+        _ndLSXDqK = {
+            "id" = "ndLSXDqK";
+            "file" = "ExtremeSoundMuffler-4.05_NeoForge-1.21.11.jar";
+            "hash" = "sha512-shOnW8cxJ5wO0dYtEGXFldUHDcdIr1F5aa8uP5+VpJqEiXGIoL8ixyqTcVqjlY3R12AIQzMZKqPi/73unF4uqQ==";
+        };
+        _HA04THYK = {
+            "id" = "HA04THYK";
+            "file" = "ExtremeSoundMuffler-4.05_Fabric-1.21.11.jar";
+            "hash" = "sha512-XdZa0biLxinH95Q/CwJ9PTEX/ZrlowNQ47jYzG0VNnNeMPayXk2KuBcp5gUGMB5WpEJvPgFhUgiH8/Ih1NGg7w==";
+        };
+        _V3RfjR5G = {
+            "id" = "V3RfjR5G";
+            "file" = "ExtremeSoundMuffler-4.05_NeoForge-26.2.jar";
+            "hash" = "sha512-p9JE3bcpAc1kJ5hWz/jIA3KwRYsSZICgXBpRzt765v4Dz+BBNkHPaI1r9mz2NJ/vkeVGNNZX5A5VN/x2raXstg==";
+        };
+        _u1npTTWI = {
+            "id" = "u1npTTWI";
+            "file" = "ExtremeSoundMuffler-4.05_Fabric-26.2.jar";
+            "hash" = "sha512-rtO8QbVwoUF+EkAwMUCTTluq25utro08V6s9UJes63qcTFjt+H7wjcNSbIB2Qe5Ao8vJbOd14/c5NjmvR71Xag==";
+        };
+        _7PuvfGIc = {
+            "id" = "7PuvfGIc";
+            "file" = "ExtremeSoundMuffler-4.06_NeoForge-26.3.jar";
+            "hash" = "sha512-YiuF0IdzEpYZLX9RNU0OUoqdshndpmDjKoIjT71rssA0suYwO7dkovkrHxxlsu/GaAMY1Oq3kFtFMoJAgAH/tQ==";
+        };
+        _i9a3Jk7q = {
+            "id" = "i9a3Jk7q";
+            "file" = "ExtremeSoundMuffler-4.06_Fabric-26.3.jar";
+            "hash" = "sha512-TGA8BTTYiadzDYPIJArgquuxa9qB0Gl6KaemYWHpaE/rPnp7bGEfYpivKGdYBGZwn6fYH58d4JRGrOQ1Ma2t4g==";
+        };
     in {
         "U6evcL6T" = _U6evcL6T;
         "UQ5p8ttU" = _UQ5p8ttU;
@@ -1232,6 +1262,12 @@ let
         "REw9JB5b" = _REw9JB5b;
         "nUCCmquN" = _nUCCmquN;
         "XTqPji8i" = _XTqPji8i;
+        "ndLSXDqK" = _ndLSXDqK;
+        "HA04THYK" = _HA04THYK;
+        "V3RfjR5G" = _V3RfjR5G;
+        "u1npTTWI" = _u1npTTWI;
+        "7PuvfGIc" = _7PuvfGIc;
+        "i9a3Jk7q" = _i9a3Jk7q;
         "fabric-1.18" = _HZ8sss3f;
         "fabric-1.18.1" = _HZ8sss3f;
         "fabric-1.18.2" = _HZ8sss3f;
@@ -1256,12 +1292,12 @@ let
         "fabric-1.21.8" = _LkYjeu3e;
         "fabric-1.21.9" = _EijT31af;
         "fabric-1.21.10" = _EijT31af;
-        "fabric-1.21.11" = _DJqOIvpE;
+        "fabric-1.21.11" = _HA04THYK;
         "fabric-26.1" = _a9vPUqGn;
         "fabric-26.1.1" = _a9vPUqGn;
         "fabric-26.1.2" = _otbBAIDN;
-        "fabric-26.2" = _9ZvItKAD;
-        "fabric-26.3" = _REw9JB5b;
+        "fabric-26.2" = _u1npTTWI;
+        "fabric-26.3" = _i9a3Jk7q;
         "forge-1.18" = _D2Pb8vRB;
         "forge-1.18.1" = _D2Pb8vRB;
         "forge-1.18.2" = _D2Pb8vRB;
@@ -1291,12 +1327,12 @@ let
         "neoforge-1.21.8" = _f0cMRwNR;
         "neoforge-1.21.9" = _4u2gZieY;
         "neoforge-1.21.10" = _4u2gZieY;
-        "neoforge-1.21.11" = _HXOgf94n;
+        "neoforge-1.21.11" = _ndLSXDqK;
         "neoforge-26.1" = _VzJbw45d;
         "neoforge-26.1.1" = _VzJbw45d;
         "neoforge-26.1.2" = _Qlrur9qU;
-        "neoforge-26.2" = _4MhUb3FF;
-        "neoforge-26.3" = _Ic2JcUBs;
+        "neoforge-26.2" = _V3RfjR5G;
+        "neoforge-26.3" = _7PuvfGIc;
         "pkg-3.27-1.18.x-fabric" = _U6evcL6T;
         "pkg-3.27-1.18.x-forge" = _UQ5p8ttU;
         "pkg-3.27-1.19-forge" = _Lp0MX7EG;
@@ -1404,7 +1440,10 @@ let
         "pkg-4.04-1.21.11" = _DJqOIvpE;
         "pkg-4.05-26.3" = _REw9JB5b;
         "pkg-3.57-1.21.1" = _XTqPji8i;
-        "default" = _XTqPji8i;
+        "pkg-4.05-1.21.11" = _HA04THYK;
+        "pkg-4.05-26.2" = _u1npTTWI;
+        "pkg-4.06-26.3" = _i9a3Jk7q;
+        "default" = _i9a3Jk7q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extreme_sound_muffler";

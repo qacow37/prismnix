@@ -251,6 +251,16 @@ let
             "file" = "michael9r9rs-rpg-loot-(modern-port)-26.3.jar";
             "hash" = "sha512-5XIpDlqWxZUuWxnh23GUTrkHrKlB9cretsIhVJ0vzWX/TrEe1NXxGOIk+FJbNGxvCCqPzGVl2dAsPz6qqbY5yQ==";
         };
+        _K6OxJYA4 = {
+            "id" = "K6OxJYA4";
+            "file" = "26.3 RPG Loot v.1.2.zip";
+            "hash" = "sha512-0SmYz2Rj42i3VvT3LO/6EeY96IJRdTUdVMJcGeMksUs46OUtNQ9i/0WuAmE7Xe5k/e6irGs4P6ZfjJrh+UZJ4Q==";
+        };
+        _b0mYoHWu = {
+            "id" = "b0mYoHWu";
+            "file" = "michael9r9rs-rpg-loot-modern-port-26.3.jar";
+            "hash" = "sha512-3O3njxjxZFxzkLWGxoH2LMSD+DGOjVW+0jS7rpk8rvzzZCvpXwE9BuXN2Z35ohDPIqOkPDTqYtZOOOCt7gO86A==";
+        };
     in {
         "oP9Z8pue" = _oP9Z8pue;
         "dotjI9tZ" = _dotjI9tZ;
@@ -302,6 +312,8 @@ let
         "mMk0oK8X" = _mMk0oK8X;
         "pb3vp9Gc" = _pb3vp9Gc;
         "H72t89lw" = _H72t89lw;
+        "K6OxJYA4" = _K6OxJYA4;
+        "b0mYoHWu" = _b0mYoHWu;
         "datapack-1.21.11" = _VBatLC5R;
         "datapack-26.1" = _sVGShzbn;
         "datapack-26.1.1" = _sVGShzbn;
@@ -309,7 +321,7 @@ let
         "datapack-1.21.9" = _GDgmsCxD;
         "datapack-1.21.10" = _GDgmsCxD;
         "datapack-26.2" = _RJfwnIDy;
-        "datapack-26.3" = _pb3vp9Gc;
+        "datapack-26.3" = _K6OxJYA4;
         "fabric-26.2" = _mMk0oK8X;
         "fabric-1.21.11" = _FKmtuzll;
         "fabric-1.21.9" = _AmnGEG7b;
@@ -317,7 +329,7 @@ let
         "fabric-26.1" = _DZwSnLEd;
         "fabric-26.1.1" = _DZwSnLEd;
         "fabric-26.1.2" = _DZwSnLEd;
-        "fabric-26.3" = _H72t89lw;
+        "fabric-26.3" = _b0mYoHWu;
         "forge-26.2" = _mMk0oK8X;
         "forge-1.21.11" = _FKmtuzll;
         "forge-1.21.9" = _AmnGEG7b;
@@ -325,7 +337,7 @@ let
         "forge-26.1" = _DZwSnLEd;
         "forge-26.1.1" = _DZwSnLEd;
         "forge-26.1.2" = _DZwSnLEd;
-        "forge-26.3" = _H72t89lw;
+        "forge-26.3" = _b0mYoHWu;
         "neoforge-26.2" = _mMk0oK8X;
         "neoforge-1.21.11" = _FKmtuzll;
         "neoforge-1.21.9" = _AmnGEG7b;
@@ -333,7 +345,7 @@ let
         "neoforge-26.1" = _DZwSnLEd;
         "neoforge-26.1.1" = _DZwSnLEd;
         "neoforge-26.1.2" = _DZwSnLEd;
-        "neoforge-26.3" = _H72t89lw;
+        "neoforge-26.3" = _b0mYoHWu;
         "quilt-26.2" = _mMk0oK8X;
         "quilt-1.21.11" = _FKmtuzll;
         "quilt-1.21.9" = _AmnGEG7b;
@@ -341,7 +353,7 @@ let
         "quilt-26.1" = _DZwSnLEd;
         "quilt-26.1.1" = _DZwSnLEd;
         "quilt-26.1.2" = _DZwSnLEd;
-        "quilt-26.3" = _H72t89lw;
+        "quilt-26.3" = _b0mYoHWu;
         "pkg-1.21.11" = _VBatLC5R;
         "pkg-26.1.2" = _sVGShzbn;
         "pkg-1.21.10" = _GDgmsCxD;
@@ -350,9 +362,9 @@ let
         "pkg-26.1.2+mod" = _DZwSnLEd;
         "pkg-1.21.10+mod" = _AmnGEG7b;
         "pkg-1.21.11+mod" = _FKmtuzll;
-        "pkg-26.3" = _pb3vp9Gc;
-        "pkg-26.3+mod" = _H72t89lw;
-        "default" = _H72t89lw;
+        "pkg-26.3" = _K6OxJYA4;
+        "pkg-26.3+mod" = _b0mYoHWu;
+        "default" = _b0mYoHWu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "michael9r9rs-rpg-loot-modern-port";

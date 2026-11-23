@@ -106,6 +106,26 @@ let
             "file" = "bedrockoid-0.1.2.jar";
             "hash" = "sha512-z0V78BF5PaBP797zrjF1cf4/jHJLVmzL2ZANOZz6Q3fsJw3s86O7nM+hc7Ebb/8AQSyQ6eQ10gEBRA6ctScu0w==";
         };
+        _NFMH5CGv = {
+            "id" = "NFMH5CGv";
+            "file" = "bedrockoid-0.2.jar";
+            "hash" = "sha512-c+gnoQEvyJhwnpcPut5gaotByYtZmC+r8205K7XASOtOCn+8WKr0pWLZumDfQq+3iuuIoe715g/DespcoHbCwQ==";
+        };
+        _RnEaJdGi = {
+            "id" = "RnEaJdGi";
+            "file" = "bedrockoid-0.2.jar";
+            "hash" = "sha512-lUiFToCyfOQLR/4zbk5eV7QXLAOHoFlZVC8TdzOyQIKgGnhiOS5OF35sDmznr/TtPkf1YqsqEg5wtGlkUmBWVw==";
+        };
+        _Buuiq7Op = {
+            "id" = "Buuiq7Op";
+            "file" = "bedrockoid-0.2.jar";
+            "hash" = "sha512-ugjnav9bvftAzo1ukJHRbvD+UpprGYdfvy+nOk3uH53sDK3lSM3pA9bJ1O2H0WsxJZDf9Yh2x3WSAEpGN8EeTQ==";
+        };
+        _SHBjFQm7 = {
+            "id" = "SHBjFQm7";
+            "file" = "bedrockoid-0.2.jar";
+            "hash" = "sha512-07BgLbKrafbBdn7vbp+8kRalT92ii046Coa99+7evKCzqUmPCteMUtItK4ivmW8HFStz7ZsDQiVwc816/XVoOw==";
+        };
     in {
         "w70OlSDo" = _w70OlSDo;
         "wxBnNun4" = _wxBnNun4;
@@ -128,13 +148,17 @@ let
         "GlUxjN3r" = _GlUxjN3r;
         "xDA5YUdK" = _xDA5YUdK;
         "8or6XOIQ" = _8or6XOIQ;
-        "forge-1.20.1" = _8or6XOIQ;
-        "fabric-1.20.1" = _KEYxKOTY;
-        "fabric-1.21.1" = _GlUxjN3r;
+        "NFMH5CGv" = _NFMH5CGv;
+        "RnEaJdGi" = _RnEaJdGi;
+        "Buuiq7Op" = _Buuiq7Op;
+        "SHBjFQm7" = _SHBjFQm7;
+        "forge-1.20.1" = _RnEaJdGi;
+        "fabric-1.20.1" = _NFMH5CGv;
+        "fabric-1.21.1" = _SHBjFQm7;
         "fabric-1.21.4" = _pS4qniES;
         "fabric-1.21.10" = _QPrNy8OV;
         "fabric-1.21.11" = _UuyxpPK5;
-        "neoforge-1.21.1" = _xDA5YUdK;
+        "neoforge-1.21.1" = _Buuiq7Op;
         "neoforge-1.21.4" = _PUKSItjD;
         "neoforge-1.21.10" = _PwxGqtI8;
         "neoforge-1.21.11" = _ZzwXY0UT;
@@ -159,7 +183,11 @@ let
         "pkg-0.1.4-fabric" = _GlUxjN3r;
         "pkg-0.1.5-neoforge" = _xDA5YUdK;
         "pkg-0.1.2-forge" = _8or6XOIQ;
-        "default" = _8or6XOIQ;
+        "pkg-0.2-fabric" = _NFMH5CGv;
+        "pkg-0.2-forge" = _RnEaJdGi;
+        "pkg-0.2-neoforge-1.21.1" = _Buuiq7Op;
+        "pkg-0.2-fabric-1.21.1" = _SHBjFQm7;
+        "default" = _SHBjFQm7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bedrockoid";

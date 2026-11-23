@@ -81,6 +81,11 @@ let
             "file" = "jarjar-0.4.1-beta.jar";
             "hash" = "sha512-9shycB56sPBoWB3yXMfIh/qdjgftkYMa/n+Dljaic0+QtEYaQ3N9BUvO2XpO1wYzHm6RZqbI3Dwo4c9B6pm2aQ==";
         };
+        _iak5BM74 = {
+            "id" = "iak5BM74";
+            "file" = "jarjar-0.4.2-beta.jar";
+            "hash" = "sha512-H5oGR+3dizSWBvSV3w3MSYP+brHp870h8ozkqwWfQPybwiovTC1QhtHABOcmdL0XTOcrM1JKTsvjjn8G0eFyBw==";
+        };
     in {
         "9KbUhYWj" = _9KbUhYWj;
         "pmX8nJ5l" = _pmX8nJ5l;
@@ -98,7 +103,8 @@ let
         "zjtzinBr" = _zjtzinBr;
         "6bguuxwl" = _6bguuxwl;
         "fcgTMTQU" = _fcgTMTQU;
-        "forge-1.7.10" = _fcgTMTQU;
+        "iak5BM74" = _iak5BM74;
+        "forge-1.7.10" = _iak5BM74;
         "pkg-0.1.1-beta" = _9KbUhYWj;
         "pkg-0.2.1-beta" = _pmX8nJ5l;
         "pkg-0.2.2-beta" = _OlXsXuDm;
@@ -115,7 +121,8 @@ let
         "pkg-0.3.7-beta" = _zjtzinBr;
         "pkg-0.4.0-beta" = _6bguuxwl;
         "pkg-0.4.1-beta" = _fcgTMTQU;
-        "default" = _fcgTMTQU;
+        "pkg-0.4.2-beta" = _iak5BM74;
+        "default" = _iak5BM74;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jarjar";

@@ -81,6 +81,16 @@ let
             "file" = "ancientsand-forge-1.0.8-1.21.jar";
             "hash" = "sha512-ufZIGL9KqYac73s6lk0c4/2zCmOpytS4Kkg2I7N9wotlCEfDm1pA64G8hlw2YD/eoYoazLPY0ltnzLI0lnqFjA==";
         };
+        _sdSNj1vy = {
+            "id" = "sdSNj1vy";
+            "file" = "ancientsand-2.0-1.20.1-forge.jar";
+            "hash" = "sha512-+DtcWcSlOyBCcT//qS4yJZMKhPymMwAho4Omyi2j5VxDZSK320Z9yCX0w9hNzp+5uUeoT3B0vv5uNQe8V3ckjA==";
+        };
+        _URHK5yrj = {
+            "id" = "URHK5yrj";
+            "file" = "ancientsand-2.0-1.21.1-neo.jar";
+            "hash" = "sha512-U959degneqGFSTNyQFpZH3bqng84/Os7AiX0PlJjqQsR3+9I92J+c2IyP47dJe+B65shct68tTvxLbkdwBQU0A==";
+        };
     in {
         "WxPPiJkC" = _WxPPiJkC;
         "3dkuVXrR" = _3dkuVXrR;
@@ -98,11 +108,14 @@ let
         "VbwU9w7X" = _VbwU9w7X;
         "UQtoaQMo" = _UQtoaQMo;
         "e8SMxTG5" = _e8SMxTG5;
-        "forge-1.20.1" = _UQtoaQMo;
+        "sdSNj1vy" = _sdSNj1vy;
+        "URHK5yrj" = _URHK5yrj;
+        "forge-1.20.1" = _sdSNj1vy;
         "forge-1.21" = _e8SMxTG5;
         "forge-1.20.2" = _UQtoaQMo;
-        "neoforge-1.20.1" = _UQtoaQMo;
+        "neoforge-1.20.1" = _sdSNj1vy;
         "neoforge-1.20.2" = _UQtoaQMo;
+        "neoforge-1.21.1" = _URHK5yrj;
         "pkg-1.0.0" = _WxPPiJkC;
         "pkg-1.0.1" = _3dkuVXrR;
         "pkg-1.0.2" = _ITZ5LNg4;
@@ -112,7 +125,8 @@ let
         "pkg-1.0.6" = _okFo4Lbt;
         "pkg-1.0.7" = _VbwU9w7X;
         "pkg-1.0.8" = _e8SMxTG5;
-        "default" = _e8SMxTG5;
+        "pkg-2.0" = _URHK5yrj;
+        "default" = _URHK5yrj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ancient-sands";

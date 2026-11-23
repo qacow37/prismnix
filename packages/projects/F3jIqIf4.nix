@@ -186,6 +186,21 @@ let
             "file" = "eymistakens-hud-1.2.5-1.jar";
             "hash" = "sha512-B2sldT7XQQDcMfINtOIbTD4fn9RCE85Mf5bUGzApoaRC0PJXhtLgKY6uXfyZe375zB861xkOA+TZGzRXHVj0PA==";
         };
+        _zWCO0a0J = {
+            "id" = "zWCO0a0J";
+            "file" = "eymistakens-hud-1.2.6+1.21.9-1.21.11.jar";
+            "hash" = "sha512-XKwGa0OxiWKuNJwJ4OO37xPTmrQ/P3mAlEr42AoBVcg/hkRHhq+e1FRWjejAV5lPdrQFjVQVHUzK8Jai459I5A==";
+        };
+        _Hp0OByL8 = {
+            "id" = "Hp0OByL8";
+            "file" = "eymistakens-hud-1.2.6+26.1-26.2.jar";
+            "hash" = "sha512-I0v9HeDT58JhJSYemNktXJY3eMdQ8qWRO1wusfzwZAvVPirztUR+5Npc8Ke0kF48cSDTRFW4X1ABXMVWYqaqrA==";
+        };
+        _U7hBvJnO = {
+            "id" = "U7hBvJnO";
+            "file" = "eymistakens-hud-1.2.6+26.3.jar";
+            "hash" = "sha512-5Ojp0Blnx1zu/MSYsjl+M68xMKIlX/fYeGy2bhyFOwuqXO2yE2jq4gvCrnsUIpOkupOS3/7QmlGSam/HntYzsQ==";
+        };
     in {
         "ysbpVtzy" = _ysbpVtzy;
         "C657F5KV" = _C657F5KV;
@@ -224,18 +239,21 @@ let
         "IeNsMVvo" = _IeNsMVvo;
         "kkqxGUA5" = _kkqxGUA5;
         "WbbLhtkz" = _WbbLhtkz;
+        "zWCO0a0J" = _zWCO0a0J;
+        "Hp0OByL8" = _Hp0OByL8;
+        "U7hBvJnO" = _U7hBvJnO;
         "fabric-1.21.6" = _N04H9Bst;
         "fabric-1.21.7" = _N04H9Bst;
         "fabric-1.21.8" = _N04H9Bst;
-        "fabric-1.21.9" = _N04H9Bst;
-        "fabric-1.21.10" = _N04H9Bst;
-        "fabric-1.21.11" = _N04H9Bst;
+        "fabric-1.21.9" = _zWCO0a0J;
+        "fabric-1.21.10" = _zWCO0a0J;
+        "fabric-1.21.11" = _zWCO0a0J;
         "fabric-1.21.5" = _iuIwpC9q;
-        "fabric-26.1" = _m8MdrC7x;
-        "fabric-26.1.1" = _m8MdrC7x;
-        "fabric-26.1.2" = _m8MdrC7x;
-        "fabric-26.2" = _m8MdrC7x;
-        "fabric-26.3" = _WbbLhtkz;
+        "fabric-26.1" = _Hp0OByL8;
+        "fabric-26.1.1" = _Hp0OByL8;
+        "fabric-26.1.2" = _Hp0OByL8;
+        "fabric-26.2" = _Hp0OByL8;
+        "fabric-26.3" = _U7hBvJnO;
         "pkg-1.0.0" = _ysbpVtzy;
         "pkg-1.0.1" = _C657F5KV;
         "pkg-1.0.2" = _iuIwpC9q;
@@ -272,7 +290,10 @@ let
         "pkg-1.2.4" = _IeNsMVvo;
         "pkg-1.2.5" = _kkqxGUA5;
         "pkg-1.2.5-1" = _WbbLhtkz;
-        "default" = _WbbLhtkz;
+        "pkg-1.2.6+1.21.9-1.21.11" = _zWCO0a0J;
+        "pkg-1.2.6+26.1-26.2" = _Hp0OByL8;
+        "pkg-1.2.6+26.3" = _U7hBvJnO;
+        "default" = _U7hBvJnO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eymistakenshud";

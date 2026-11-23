@@ -61,6 +61,26 @@ let
             "file" = "skyblock_translator-1.2.2+mc1.21.11.jar";
             "hash" = "sha512-FGPlK+Xrltv4VYTUTzBDWUfc6I7DpgcLQVhkXO7+WkCv6gT8h3dZMrcmomf74TReXwTa4s6/Bz2GnFqDPBGIxQ==";
         };
+        _SUVGpkXH = {
+            "id" = "SUVGpkXH";
+            "file" = "skyblock_translator-1.3.0+mc1.21.11.jar";
+            "hash" = "sha512-BZkArcDTTeCZmpaZcVRnYkRTey3Z6vhrCWbzP08ynIjum9O8YRdWnodPvgqUXBSm2xKYKU/X1/nOmP2B4RZHIQ==";
+        };
+        _MGxeNWzX = {
+            "id" = "MGxeNWzX";
+            "file" = "skyblock_translator-1.3.0+mc26.2.jar";
+            "hash" = "sha512-ekwC9iBPhYbLsK0M7+sf1yuHBrT5JeIr4+aZGoX7In1S1VnBc9YR4WJKSNgGbFMjZfKUvq3Uv1lSCYIUbUEBXw==";
+        };
+        _UPVf1qxS = {
+            "id" = "UPVf1qxS";
+            "file" = "skyblock_translator-1.3.0+mc26.1.2.jar";
+            "hash" = "sha512-zFZPIMlmfme2lK1KIcZINu4nsreegDPRN2+X9Rimk4hk8CLb4sGGPCK7AaU8xr7VkkiCyWY2CfUZ+dxb/fE9gw==";
+        };
+        _CRLn21Zf = {
+            "id" = "CRLn21Zf";
+            "file" = "skyblock_translator-1.3.0+mc26.3.jar";
+            "hash" = "sha512-BvIOI03nci9WUPEZburkZGJm8TVCF6iIANQKm6i4gvkP0AChZ1bM6PpOo7uhGVFr5wriXup8lB9fYXCVuIGSUw==";
+        };
     in {
         "L6HmvWTh" = _L6HmvWTh;
         "Mh5JG6nC" = _Mh5JG6nC;
@@ -74,12 +94,16 @@ let
         "BCqaFufm" = _BCqaFufm;
         "2XZE3UyL" = _2XZE3UyL;
         "iGCBqvfq" = _iGCBqvfq;
-        "fabric-1.21.11" = _iGCBqvfq;
+        "SUVGpkXH" = _SUVGpkXH;
+        "MGxeNWzX" = _MGxeNWzX;
+        "UPVf1qxS" = _UPVf1qxS;
+        "CRLn21Zf" = _CRLn21Zf;
+        "fabric-1.21.11" = _SUVGpkXH;
         "fabric-26.1" = _OHDj3eim;
         "fabric-26.1.1" = _OHDj3eim;
-        "fabric-26.1.2" = _2XZE3UyL;
-        "fabric-26.2" = _FlS76Ms6;
-        "fabric-26.3" = _BCqaFufm;
+        "fabric-26.1.2" = _UPVf1qxS;
+        "fabric-26.2" = _MGxeNWzX;
+        "fabric-26.3" = _CRLn21Zf;
         "pkg-1.0.0" = _L6HmvWTh;
         "pkg-1.1.0" = _Gm9u8CxX;
         "pkg-1.2.0" = _LkuIinoT;
@@ -87,7 +111,11 @@ let
         "pkg-v1.2.2+mc26.3" = _BCqaFufm;
         "pkg-v1.2.2+mc26.1.2" = _2XZE3UyL;
         "pkg-v1.2.2+mc1.21.11" = _iGCBqvfq;
-        "default" = _iGCBqvfq;
+        "pkg-v1.3.0+mc1.21.11" = _SUVGpkXH;
+        "pkg-v1.3.0+mc26.2" = _MGxeNWzX;
+        "pkg-v1.3.0+mc26.1.2" = _UPVf1qxS;
+        "pkg-v1.3.0+mc26.3" = _CRLn21Zf;
+        "default" = _CRLn21Zf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyblock-translator";

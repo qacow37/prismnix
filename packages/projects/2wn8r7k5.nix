@@ -41,6 +41,11 @@ let
             "file" = "hexic-2.2.0+1288b7f.jar";
             "hash" = "sha512-xdOek/UUsR2+KINAG2qyVmgZQ7FgFWqvzgieMZXC+hq53JWTDEIpopCk0OzY/zfnErP1O9tZrNtSgsPj3HhGNQ==";
         };
+        _JkPGdW3S = {
+            "id" = "JkPGdW3S";
+            "file" = "hexic-2.2.0+c2d87a9.jar";
+            "hash" = "sha512-lBMAbr5pFGeeIrNKIFrsxjMTxHQi8ztbQeTbPHLxJtpnMq1xUG3mezYg4wWkz9XFvFL8GVExQ5uynDy/fRn8+A==";
+        };
     in {
         "AG7hwInN" = _AG7hwInN;
         "ad9yYcib" = _ad9yYcib;
@@ -50,7 +55,8 @@ let
         "kIBiQuE8" = _kIBiQuE8;
         "IPoHQL6D" = _IPoHQL6D;
         "8WmsVgHw" = _8WmsVgHw;
-        "fabric-1.20.1" = _8WmsVgHw;
+        "JkPGdW3S" = _JkPGdW3S;
+        "fabric-1.20.1" = _JkPGdW3S;
         "pkg-1.4.5" = _AG7hwInN;
         "pkg-1.4.6" = _ad9yYcib;
         "pkg-1.4.7-pre.2" = _B0DL1Yf9;
@@ -59,7 +65,8 @@ let
         "pkg-2.1.1" = _kIBiQuE8;
         "pkg-2.2.0+540ca93" = _IPoHQL6D;
         "pkg-2.2.0+1288b7f" = _8WmsVgHw;
-        "default" = _8WmsVgHw;
+        "pkg-2.2.0+c2d87a9" = _JkPGdW3S;
+        "default" = _JkPGdW3S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hexic";

@@ -81,6 +81,11 @@ let
             "file" = "chatmacro-26.2.jar";
             "hash" = "sha512-Z/tvwIrw1yccd1PWY3QA29ebDzW84NCINuzJ2E2Kmq2BviQQx27rVNKC//d26lRcX8sT9Qx8s+fPBBmLWZNpYw==";
         };
+        _iuFZyqq0 = {
+            "id" = "iuFZyqq0";
+            "file" = "chatmacro-26.3.jar";
+            "hash" = "sha512-nUp80c+jvxsyUdRGJUwpmfnqZ0hVVdLgsojHw9oKNsfIfsHwG9d+MwW0JzKYBiJo0ibv3BL0beAxLFbp9bSU+w==";
+        };
     in {
         "CCLKRmzY" = _CCLKRmzY;
         "2x4d039b" = _2x4d039b;
@@ -98,6 +103,7 @@ let
         "D6NWOTn9" = _D6NWOTn9;
         "K5b1gQ1h" = _K5b1gQ1h;
         "mdLxB35f" = _mdLxB35f;
+        "iuFZyqq0" = _iuFZyqq0;
         "fabric-1.21" = _CCLKRmzY;
         "fabric-1.21.1" = _2x4d039b;
         "fabric-1.21.2" = _U3ZQuFyZ;
@@ -113,6 +119,7 @@ let
         "fabric-26.1.1" = _D6NWOTn9;
         "fabric-26.1.2" = _K5b1gQ1h;
         "fabric-26.2" = _mdLxB35f;
+        "fabric-26.3" = _iuFZyqq0;
         "pkg-1.21" = _CCLKRmzY;
         "pkg-1.21.1" = _2x4d039b;
         "pkg-1.21.2" = _U3ZQuFyZ;
@@ -128,7 +135,8 @@ let
         "pkg-26.1.1" = _D6NWOTn9;
         "pkg-26.1.2" = _K5b1gQ1h;
         "pkg-26.2" = _mdLxB35f;
-        "default" = _mdLxB35f;
+        "pkg-26.3" = _iuFZyqq0;
+        "default" = _iuFZyqq0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chat-macro";

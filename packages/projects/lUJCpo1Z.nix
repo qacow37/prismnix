@@ -231,6 +231,21 @@ let
             "file" = "Throwing-Disc-Backport-1.1.0.2-1.16.5-forge.jar";
             "hash" = "sha512-wirGkMn277PrBE6cRkZHbBdOv2fCX4ZpqhxtkX+qApUzMzyBLBH/w4ot8IYga5TIHYM4LrY0PRMAwv2sTcogQw==";
         };
+        _rvd9AqCz = {
+            "id" = "rvd9AqCz";
+            "file" = "Throwing-Disc-Backport-1.1.0.2-1.20.4-forge.jar";
+            "hash" = "sha512-rsbkkM1Dkaw4mGojDYEDXFAkwzR7OAYE1cTT95jFXbRi35X/QkJVNkOjbekaIWn7DBkHFcwB+nj7vNHn7nJulA==";
+        };
+        _WzaoN7ek = {
+            "id" = "WzaoN7ek";
+            "file" = "Throwing-Disc-Backport-1.1.0.2-1.20.4-neoforge.jar";
+            "hash" = "sha512-xIOwqpmvhbA4nWhnh6j/9ZRFOciTEAwzafdkt/3U7lk0KV4Ftk/72PfqJiJeK5eIBD5nP1H2n5mXfIA5AlaJtw==";
+        };
+        _Fm5xxUrw = {
+            "id" = "Fm5xxUrw";
+            "file" = "Throwing-Disc-Backport-1.1.0.2-1.20.4-fabric.jar";
+            "hash" = "sha512-pjbnU6ggWKb/8rpdvMxbOFQjMGUHOlCS3iz1MO4thy+Tu5RH8746W7NkkMr0cTVCVewPVQLU/DlokYOsBB+zKg==";
+        };
     in {
         "M5mSmsm5" = _M5mSmsm5;
         "TrKjcxgU" = _TrKjcxgU;
@@ -278,6 +293,9 @@ let
         "MeJKey0u" = _MeJKey0u;
         "9pveqvel" = _9pveqvel;
         "AMuDn0X5" = _AMuDn0X5;
+        "rvd9AqCz" = _rvd9AqCz;
+        "WzaoN7ek" = _WzaoN7ek;
+        "Fm5xxUrw" = _Fm5xxUrw;
         "fabric-1.20.1" = _8M0bPJzz;
         "fabric-1.21.1" = _2gIpoKVf;
         "fabric-1.21.4" = _QQo02cC8;
@@ -287,6 +305,7 @@ let
         "fabric-26.2" = _2DfUT2uh;
         "fabric-26.3" = _XCK43BhE;
         "fabric-1.16.5" = _9pveqvel;
+        "fabric-1.20.4" = _Fm5xxUrw;
         "neoforge-1.20.1" = _2CiOHDQs;
         "neoforge-1.21.1" = _JyL06tCJ;
         "neoforge-1.21.4" = _zI6eWrc2;
@@ -295,18 +314,20 @@ let
         "neoforge-26.1.2" = _tPqJggoQ;
         "neoforge-26.2" = _7aeBCpoa;
         "neoforge-26.3" = _vTZxTCym;
+        "neoforge-1.20.4" = _WzaoN7ek;
         "forge-1.20.1" = _VU1FO30g;
         "forge-1.12.2" = _WSBBhkBc;
         "forge-1.16.5" = _AMuDn0X5;
+        "forge-1.20.4" = _rvd9AqCz;
         "pkg-0.0.0.1" = _M5mSmsm5;
         "pkg-1.0.0.0" = _TrKjcxgU;
         "pkg-1.0.0.1" = _8KSjDrDC;
         "pkg-1.0.0.2" = _LnFn629m;
         "pkg-1.0.0.3" = _94zepkyC;
         "pkg-1.1.0.1" = _8pV4QmAu;
-        "pkg-1.1.0.2" = _9pveqvel;
+        "pkg-1.1.0.2" = _Fm5xxUrw;
         "pkg-1.1.0.2-1.16.5-forge" = _AMuDn0X5;
-        "default" = _AMuDn0X5;
+        "default" = _Fm5xxUrw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "throwing-disc-backport";

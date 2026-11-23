@@ -16911,6 +16911,16 @@ let
             "file" = "wynntils-4.2.18-fabric+MC-1.21.11.jar";
             "hash" = "sha512-YccXPHlGtOrY/iX/L1FFgxkJvr9BpZqwb8j/0xOhqukq+TwERB7+dYcRajxMWH2LMSGv3NUTHQlLZKwgh5dneQ==";
         };
+        _YKGt6mmN = {
+            "id" = "YKGt6mmN";
+            "file" = "wynntils-4.2.19-fabric+MC-1.21.11.jar";
+            "hash" = "sha512-g8ynYyobYVnH8gbiGNtI8cNulQ6Y9MXoL/3AQGIJDL5R7gB0OaA5v9dIe0tcKlcJgAxzTRmnC4yJuH0l+m2yhg==";
+        };
+        _GPX77kBR = {
+            "id" = "GPX77kBR";
+            "file" = "wynntils-4.2.19-neoforge+MC-1.21.11.jar";
+            "hash" = "sha512-1Glmu745kygLjqh4AZQtfxzt+oztu+Kz/uRdSC1f+Ig73ZQ34Bfn/9YBJ4JyocuB59O/z1uTGhARByqYkMR03w==";
+        };
     in {
         "bqlWhLUY" = _bqlWhLUY;
         "EhyKGtAM" = _EhyKGtAM;
@@ -20294,6 +20304,8 @@ let
         "QrZNnkYG" = _QrZNnkYG;
         "Hps2w3Ar" = _Hps2w3Ar;
         "rFyKV858" = _rFyKV858;
+        "YKGt6mmN" = _YKGt6mmN;
+        "GPX77kBR" = _GPX77kBR;
         "forge-1.12.2" = _42Q2H4Qu;
         "forge-1.20.2" = _ww1waI8Y;
         "forge-1.19.3" = _3cYPEina;
@@ -20302,13 +20314,13 @@ let
         "fabric-1.21" = _NcbIp00x;
         "fabric-1.21.1" = _NcbIp00x;
         "fabric-1.21.4" = _XJt5jHxs;
-        "fabric-1.21.11" = _rFyKV858;
+        "fabric-1.21.11" = _YKGt6mmN;
         "fabric-1.19.3" = _wTEVmC4n;
         "fabric-1.19.4" = _qdw8rKjJ;
         "neoforge-1.21" = _QJMkNR1I;
         "neoforge-1.21.1" = _QJMkNR1I;
         "neoforge-1.21.4" = _nLGKpG7x;
-        "neoforge-1.21.11" = _Hps2w3Ar;
+        "neoforge-1.21.11" = _GPX77kBR;
         "quilt-1.19.3" = _ZFh2eC0A;
         "quilt-1.19.4" = _Py0LtOlc;
         "pkg-v1.12.0" = _bqlWhLUY;
@@ -21595,7 +21607,8 @@ let
         "pkg-v0.0.3-alpha.402" = _qdw8rKjJ;
         "pkg-v4.2.17" = _QrZNnkYG;
         "pkg-v4.2.18" = _rFyKV858;
-        "default" = _rFyKV858;
+        "pkg-v4.2.19" = _GPX77kBR;
+        "default" = _GPX77kBR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wynntils";

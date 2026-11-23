@@ -161,6 +161,11 @@ let
             "file" = "WildernessBound Light.zip";
             "hash" = "sha512-FPK2VVsUX8cDDX/feoCVMUVORv0J3msIawe7jQbAvB8gaT0Svh1/uMn4HBAl+tOvGgVFkvV3Q8Y3Ko49caSyOA==";
         };
+        _2kSJta3L = {
+            "id" = "2kSJta3L";
+            "file" = "Deep Freeze.zip";
+            "hash" = "sha512-tKsQ/92S/hBaHgEB0HEePsYYeTZqChu673pSA/ZvBae+thY+tIv56oyj8bu6/fFzohOJyDLrqPBa1Dl6EDuqVQ==";
+        };
     in {
         "vRvWbkR3" = _vRvWbkR3;
         "vwzzFWMg" = _vwzzFWMg;
@@ -194,6 +199,7 @@ let
         "vnrWJSEl" = _vnrWJSEl;
         "RalEHthI" = _RalEHthI;
         "32AMc3JR" = _32AMc3JR;
+        "2kSJta3L" = _2kSJta3L;
         "minecraft-1.13" = _vRvWbkR3;
         "minecraft-1.13.1" = _vRvWbkR3;
         "minecraft-1.13.2" = _vRvWbkR3;
@@ -254,6 +260,7 @@ let
         "minecraft-26.2-snapshot-7" = _ZJZpZzuO;
         "minecraft-26.2" = _vnrWJSEl;
         "minecraft-26.3" = _32AMc3JR;
+        "minecraft-26.4-snapshot-10" = _2kSJta3L;
         "pkg-1.13" = _vRvWbkR3;
         "pkg-1.14" = _vwzzFWMg;
         "pkg-1.16" = _24moARIk;
@@ -286,7 +293,8 @@ let
         "pkg-26.2-1" = _vnrWJSEl;
         "pkg-26.3-1" = _RalEHthI;
         "pkg-26.3-2" = _32AMc3JR;
-        "default" = _32AMc3JR;
+        "pkg-26.4-1" = _2kSJta3L;
+        "default" = _2kSJta3L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "update-edition";

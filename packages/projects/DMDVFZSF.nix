@@ -96,6 +96,16 @@ let
             "file" = "letsdo-lilis_lucky_lures-fabric-1.1.5.jar";
             "hash" = "sha512-sRWu7IViI8IPjk1bjJz+ly90K27Y5oU/bUnU6lccvoCzksOPYkuOR1ueilftHc19UG4X6LI3ViGa8nNFkpzkLQ==";
         };
+        _ZM6OI3Wa = {
+            "id" = "ZM6OI3Wa";
+            "file" = "letsdo-lilis_lucky_lures-fabric-1.1.6.jar";
+            "hash" = "sha512-udvlBGZoCYOWXznt0RCsw4uOB+Q8IP7jTRoWDfRxq0/cbn/gb2PvkfoeFPL+Zzjn/MU//WA+PkW5mLrwUT2HHg==";
+        };
+        _ynjA1rrI = {
+            "id" = "ynjA1rrI";
+            "file" = "letsdo-lilis_lucky_lures-neoforge-1.1.6.jar";
+            "hash" = "sha512-G10v8u6pGK7CflNDBu7/ZaVoFIuD/fdspNzj0FGJRkFnpo0ghXvxJjUJO+kpjNMkJgKWT+Q7eMVzx5hJfR6ILg==";
+        };
     in {
         "r3oBGB6V" = _r3oBGB6V;
         "6O3eMXtb" = _6O3eMXtb;
@@ -116,10 +126,12 @@ let
         "uetOfrLU" = _uetOfrLU;
         "RTFJOHAV" = _RTFJOHAV;
         "l2BJormI" = _l2BJormI;
+        "ZM6OI3Wa" = _ZM6OI3Wa;
+        "ynjA1rrI" = _ynjA1rrI;
         "forge-1.20.1" = _Jj8XQNhw;
         "fabric-1.20.1" = _ioN1lw2R;
-        "fabric-1.21.1" = _l2BJormI;
-        "neoforge-1.21.1" = _RTFJOHAV;
+        "fabric-1.21.1" = _ZM6OI3Wa;
+        "neoforge-1.21.1" = _ynjA1rrI;
         "pkg-1.0.0" = _6O3eMXtb;
         "pkg-1.0.1" = _dmfnjQ0o;
         "pkg-1.0.2" = _ioN1lw2R;
@@ -130,7 +142,8 @@ let
         "pkg-1.1.3" = _jthdaDwE;
         "pkg-1.1.4" = _uetOfrLU;
         "pkg-1.1.5" = _l2BJormI;
-        "default" = _l2BJormI;
+        "pkg-1.1.6" = _ynjA1rrI;
+        "default" = _ynjA1rrI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-do-lilis-lucky-lures";

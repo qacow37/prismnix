@@ -146,6 +146,11 @@ let
             "file" = "youkaisfeasts-1.1.2.jar";
             "hash" = "sha512-LHpbtFmzd/gTrExn6Dyy2WFrB/BtDk5JxveywBsnAbEfA3QiLjI2ee4octhlahEnfgWToxeozdVku7Mnc+/UvQ==";
         };
+        _wO1Dq6PM = {
+            "id" = "wO1Dq6PM";
+            "file" = "youkaisfeasts-1.1.3.jar";
+            "hash" = "sha512-V4ZKRRwMp/UCCB+upajOo70hD6pg84i5tNwN5JvWV83qiMS4sm7z8uhnrO7YQ0OFaaZj6dv0r8GKU/tPbruZEQ==";
+        };
     in {
         "kND9tmqF" = _kND9tmqF;
         "VIh8p0dp" = _VIh8p0dp;
@@ -176,9 +181,10 @@ let
         "7XQHaHCq" = _7XQHaHCq;
         "omvhS3Wy" = _omvhS3Wy;
         "nPxyA8G2" = _nPxyA8G2;
+        "wO1Dq6PM" = _wO1Dq6PM;
         "forge-1.20.1" = _omvhS3Wy;
         "neoforge-1.20.1" = _omvhS3Wy;
-        "neoforge-1.21.1" = _nPxyA8G2;
+        "neoforge-1.21.1" = _wO1Dq6PM;
         "pkg-0.3.0" = _kND9tmqF;
         "pkg-0.3.1" = _VIh8p0dp;
         "pkg-0.3.2" = _f883zYct;
@@ -206,7 +212,8 @@ let
         "pkg-0.5.1" = _7XQHaHCq;
         "pkg-0.5.2" = _omvhS3Wy;
         "pkg-1.1.2" = _nPxyA8G2;
-        "default" = _nPxyA8G2;
+        "pkg-1.1.3" = _wO1Dq6PM;
+        "default" = _wO1Dq6PM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gensokyo-delight-youkais-feasts";

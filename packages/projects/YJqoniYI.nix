@@ -51,6 +51,11 @@ let
             "file" = "cc-aeroworks-1.5.0.jar";
             "hash" = "sha512-HcFM1kPaPMmclVa1CbRzzCwPmX5YbCGfYEsPhPAx3HCtmG5LtqXeiq0tntdsUl2snsw049pDHEKEwW4Djo8+BA==";
         };
+        _uShaR1Af = {
+            "id" = "uShaR1Af";
+            "file" = "cc-aeroworks-1.5.5.jar";
+            "hash" = "sha512-ifM5nU5NRB3HB9Ld5X+nXrSl4/77/aS7FMzOklFKLoNrWxHzAaAdSbyDNgK2j1w9HcpKD5Nh4FEJ9nx+PylrMg==";
+        };
     in {
         "LGkYw9EO" = _LGkYw9EO;
         "toe5cMJS" = _toe5cMJS;
@@ -62,7 +67,8 @@ let
         "d74ViNgm" = _d74ViNgm;
         "T01cJu0b" = _T01cJu0b;
         "EEgCpJyz" = _EEgCpJyz;
-        "neoforge-1.21.1" = _EEgCpJyz;
+        "uShaR1Af" = _uShaR1Af;
+        "neoforge-1.21.1" = _uShaR1Af;
         "pkg-1.0.0" = _LGkYw9EO;
         "pkg-1.1.0" = _toe5cMJS;
         "pkg-1.1.1" = _bcI7Kdd8;
@@ -73,7 +79,8 @@ let
         "pkg-1.3.4" = _d74ViNgm;
         "pkg-1.4.1" = _T01cJu0b;
         "pkg-1.5.0" = _EEgCpJyz;
-        "default" = _EEgCpJyz;
+        "pkg-1.5.5" = _uShaR1Af;
+        "default" = _uShaR1Af;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cc-aeroworks";

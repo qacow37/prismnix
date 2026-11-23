@@ -11,13 +11,20 @@ let
             "file" = "faster-projectiles-1.0.0.jar";
             "hash" = "sha512-gnc6k344lI956LmaQ39cOkNSyPIrr8MFsh2yjzXta0XJ0G2B6RT0fJTrcNv2nJPlNS7gG8XH6GLwRlnJQrJZdA==";
         };
+        _nsHggxvR = {
+            "id" = "nsHggxvR";
+            "file" = "faster-projectiles-1.0.0.jar";
+            "hash" = "sha512-2EXMu+gEgz8Q3tMm6ETTB5M51dEez+rpjhGr0U9xWPM3QZncDCu4kdeLwuqlgNWFTywVCbOnS+vpIb+QSso5pw==";
+        };
     in {
         "FXxnF9Ie" = _FXxnF9Ie;
         "GAVA8dif" = _GAVA8dif;
+        "nsHggxvR" = _nsHggxvR;
         "fabric-1.21.4" = _FXxnF9Ie;
         "fabric-1.21.11" = _GAVA8dif;
-        "pkg-1.0.0" = _GAVA8dif;
-        "default" = _GAVA8dif;
+        "fabric-26.1.2" = _nsHggxvR;
+        "pkg-1.0.0" = _nsHggxvR;
+        "default" = _nsHggxvR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fast-projectiles";

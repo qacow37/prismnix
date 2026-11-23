@@ -76,6 +76,21 @@ let
             "file" = "reimagined-intro-fabric-1.21.11-4.0.0.jar";
             "hash" = "sha512-cXUuuprlIrytcG/g0L2oqcjyImXp9vuL/RRYXsRX2wxc/0qnhJh2L5KxfzHB8lVZwuFUq2i/DJnV7rxBdPjFpw==";
         };
+        _oGcRoERx = {
+            "id" = "oGcRoERx";
+            "file" = "reimagined-intro-fabric-1.21.1-4.0.0.jar";
+            "hash" = "sha512-NH1g55zxx5xwSgtppsZ0w23Gv5ib1MmQrfPSY/hSRu4buDchPXUyYaxHkZk+Of/+wuTqxgWobWm1/n5cHmDKHg==";
+        };
+        _LlhCMClL = {
+            "id" = "LlhCMClL";
+            "file" = "reimagined-intro-neoforge-1.21.11-4.0.0.jar";
+            "hash" = "sha512-M0cgn/W4ts2Vz49l2Gt3lpvMJ1PMwWoeGdLW20ty3a779LF0czHR/LQ+lwF9ogxwOGX4jE/GnlSkxreyovr9IQ==";
+        };
+        _Umklzy0p = {
+            "id" = "Umklzy0p";
+            "file" = "reimagined-intro-neoforge-1.21.1-4.0.0.jar";
+            "hash" = "sha512-XBmpaFwJzeXFD/pEj/ZPtM4LFaupqgrVqIGERhAaLl75dl3B/4CQy0TmUsHJEu6dr66DR1BpzFDJK/GbDGgAsg==";
+        };
     in {
         "pBwAXYJm" = _pBwAXYJm;
         "UFvUDi5S" = _UFvUDi5S;
@@ -92,7 +107,10 @@ let
         "QIKiRk7Q" = _QIKiRk7Q;
         "gLGFPCoj" = _gLGFPCoj;
         "ot64jWoj" = _ot64jWoj;
-        "fabric-1.21.1" = _gLGFPCoj;
+        "oGcRoERx" = _oGcRoERx;
+        "LlhCMClL" = _LlhCMClL;
+        "Umklzy0p" = _Umklzy0p;
+        "fabric-1.21.1" = _oGcRoERx;
         "fabric-1.21.4" = _pBwAXYJm;
         "fabric-1.21.6" = _pBwAXYJm;
         "fabric-1.21.7" = _pBwAXYJm;
@@ -103,11 +121,11 @@ let
         "fabric-26.1.2" = _P7j7avMC;
         "fabric-26.2" = _P7j7avMC;
         "fabric-26.3" = _aEvKcB2K;
-        "neoforge-1.21.11" = _QUyY2qTP;
+        "neoforge-1.21.11" = _LlhCMClL;
         "neoforge-26.1.2" = _QUyY2qTP;
         "neoforge-26.2" = _QUyY2qTP;
         "neoforge-26.3" = _holp66l4;
-        "neoforge-1.21.1" = _QIKiRk7Q;
+        "neoforge-1.21.1" = _Umklzy0p;
         "pkg-1.0.0-fabric" = _pBwAXYJm;
         "pkg-2.0.0-fabric" = _UFvUDi5S;
         "pkg-2.0.0-neoforge" = _92b6Gwux;
@@ -119,9 +137,11 @@ let
         "pkg-3.0.0-neoforge-1.21.1" = _QIKiRk7Q;
         "pkg-4.0.0-fabric-26.3" = _aEvKcB2K;
         "pkg-4.0.0-neoforge-26.3" = _holp66l4;
-        "pkg-4.0.0-fabric-1.21.1" = _gLGFPCoj;
+        "pkg-4.0.0-fabric-1.21.1" = _oGcRoERx;
         "pkg-4.0.0-fabric-1.21.11" = _ot64jWoj;
-        "default" = _ot64jWoj;
+        "pkg-4.0.0-neoforge-1.21.11" = _LlhCMClL;
+        "pkg-4.0.0-neoforge-1.21.1" = _Umklzy0p;
+        "default" = _Umklzy0p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reimagined-intro";

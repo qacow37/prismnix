@@ -236,6 +236,11 @@ let
             "file" = "mi-tweaks-1.9.6-1.21.1.jar";
             "hash" = "sha512-W2ivU3kQ8wKIgyjrqwDbW/hs/YiSzbz7IYMtJOn+lwvuljHfc5B56y4SCc8HY8f+hYfIz6HjOsKS8FN/y5FMww==";
         };
+        _sh0Epvpp = {
+            "id" = "sh0Epvpp";
+            "file" = "mi-tweaks-1.9.7-1.21.1.jar";
+            "hash" = "sha512-LxoufuLZ+UlV5SPS+WS3iG+AI2VQfXBE3jj+ytAb5cgLuZorGrdjkqAafeoF0d908tgirwFKpoodupqxMmFg7Q==";
+        };
     in {
         "e2s65qrn" = _e2s65qrn;
         "qYgInF9D" = _qYgInF9D;
@@ -284,9 +289,10 @@ let
         "BimxmXmL" = _BimxmXmL;
         "Nm3Lzvre" = _Nm3Lzvre;
         "pE9B1wce" = _pE9B1wce;
+        "sh0Epvpp" = _sh0Epvpp;
         "neoforge-1.20.4" = _X2tqhFnG;
         "neoforge-1.21" = _o36NkFhO;
-        "neoforge-1.21.1" = _pE9B1wce;
+        "neoforge-1.21.1" = _sh0Epvpp;
         "pkg-1.0.0+1.20.4" = _e2s65qrn;
         "pkg-1.0.1+1.20.4" = _qYgInF9D;
         "pkg-1.0.2+1.20.4" = _fpqIm9jk;
@@ -334,7 +340,8 @@ let
         "pkg-1.9.4-1.21.1" = _BimxmXmL;
         "pkg-1.9.5-1.21.1" = _Nm3Lzvre;
         "pkg-1.9.6-1.21.1" = _pE9B1wce;
-        "default" = _pE9B1wce;
+        "pkg-1.9.7-1.21.1" = _sh0Epvpp;
+        "default" = _sh0Epvpp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mi-tweaks";

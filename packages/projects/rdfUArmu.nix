@@ -106,6 +106,11 @@ let
             "file" = "RainShield-26.1.2-2.0.0.jar";
             "hash" = "sha512-W5CRRBTd9QpDoiYepSNPLf8CUPxhQxcFx556L2o80mKr3tFRGT4CruSpMmcNuJkT/ncMyev7FR/+tkbeozTq8w==";
         };
+        _b8OE9BBL = {
+            "id" = "b8OE9BBL";
+            "file" = "RainShield-26.3-2.1.0.jar";
+            "hash" = "sha512-GS1QnNNqCmy+wIVSFSs6St5+KE5srylF4/HxkFPIwpcWhbXlrgyA40aZb6GYacFU89oeUGjDVJQgaiQipLqpXw==";
+        };
     in {
         "nejkU17x" = _nejkU17x;
         "HZr2tYOM" = _HZr2tYOM;
@@ -128,6 +133,7 @@ let
         "LOz6DU6y" = _LOz6DU6y;
         "NyhXeRGH" = _NyhXeRGH;
         "BiDQe5DX" = _BiDQe5DX;
+        "b8OE9BBL" = _b8OE9BBL;
         "forge-1.18.1" = _nejkU17x;
         "forge-1.18.2" = _HZr2tYOM;
         "forge-1.19" = _w1OtekBa;
@@ -146,6 +152,7 @@ let
         "neoforge-1.21.8" = _LOz6DU6y;
         "neoforge-1.21.11" = _NyhXeRGH;
         "neoforge-26.1.2" = _BiDQe5DX;
+        "neoforge-26.3" = _b8OE9BBL;
         "pkg-1.0.0" = _nejkU17x;
         "pkg-1.1.0" = _HZr2tYOM;
         "pkg-1.1.1" = _w1OtekBa;
@@ -158,11 +165,11 @@ let
         "pkg-1.2.0" = _i0HawjQQ;
         "pkg-2.0.0" = _BiDQe5DX;
         "pkg-2.0.1" = _90dxAzuv;
-        "pkg-2.1.0" = _s5FWJ24R;
+        "pkg-2.1.0" = _b8OE9BBL;
         "pkg-2.2.0" = _kFp1WGnz;
         "pkg-2.3.0" = _LOz6DU6y;
         "pkg-2.4.0" = _NyhXeRGH;
-        "default" = _BiDQe5DX;
+        "default" = _b8OE9BBL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rain-shield";
