@@ -149,19 +149,15 @@
 
           game_menu_style = lib.mkOption {
             type = lib.types.enum [
-              "classic"
-              "replace_realms"
-              "shrink"
               "icon"
+              "insert"
             ];
             default = "icon";
-            example = "shrink";
+            example = "insert";
             description = ''
               The style of the button in the game menu:
-              - `classic`
-              - `replace_realms`
-              - `shrink`
               - `icon`
+              - `insert`
             '';
           };
 
