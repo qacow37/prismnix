@@ -101,6 +101,16 @@ let
             "file" = "kingdomsieges-neoforge-1.21.1-1.1.1.jar";
             "hash" = "sha512-oj1LNJm6DdtI302oxEaxJuv2P/G8U7IqcQSIoFqw3tezFyANHRhgi1ddQDQflzUT4h+QKoJh0Ve8zpXup4GFdg==";
         };
+        _7IqjbvGV = {
+            "id" = "7IqjbvGV";
+            "file" = "kingdomsieges-fabric-1.21.1-1.1.2.jar";
+            "hash" = "sha512-4EKm9/21mWv4wvlBfPrO98eCreVx97p7iD1D7+iTkkIGwRSa65cbS8wgakGBmCB3O0pOufdgdAesg+DUhvNZdg==";
+        };
+        _JKm2i8XS = {
+            "id" = "JKm2i8XS";
+            "file" = "kingdomsieges-neoforge-1.21.1-1.1.2.jar";
+            "hash" = "sha512-QKcwCDtM9WKrDxEAxdToNMrj0qmO8YpVHQZ+d6/hO71cFObCHGF+kr7EG16IYjuZGDYzVhS81BmO3dUJThNQLg==";
+        };
     in {
         "7wqPQTYQ" = _7wqPQTYQ;
         "AfsGiVi0" = _AfsGiVi0;
@@ -122,10 +132,12 @@ let
         "FfPzR3Un" = _FfPzR3Un;
         "HQQojC2r" = _HQQojC2r;
         "sTkBJMHe" = _sTkBJMHe;
+        "7IqjbvGV" = _7IqjbvGV;
+        "JKm2i8XS" = _JKm2i8XS;
         "fabric-1.20.1" = _bmtK4XsN;
-        "fabric-1.21.1" = _HQQojC2r;
+        "fabric-1.21.1" = _7IqjbvGV;
         "forge-1.20.1" = _4FsJjIwf;
-        "neoforge-1.21.1" = _sTkBJMHe;
+        "neoforge-1.21.1" = _JKm2i8XS;
         "pkg-0.1.0" = _7wqPQTYQ;
         "pkg-0.1.1" = _AfsGiVi0;
         "pkg-0.1.2" = _mfvoL5vV;
@@ -140,7 +152,8 @@ let
         "pkg-1.0.0" = _bmtK4XsN;
         "pkg-1.1.0" = _FfPzR3Un;
         "pkg-1.1.1" = _sTkBJMHe;
-        "default" = _sTkBJMHe;
+        "pkg-1.1.2" = _JKm2i8XS;
+        "default" = _JKm2i8XS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kingdoms-sieges";

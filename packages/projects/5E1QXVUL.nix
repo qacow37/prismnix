@@ -21,15 +21,22 @@ let
             "file" = "NaturalDecorMod_NOBIOMES_1.20.1_V1.9.5.jar";
             "hash" = "sha512-0egQjPl3K5x9b5DiATlH/AhcPElwy17NqOrZqLwWXaA1Q29V4tx5Fxr9D7JdFNeRRFdkoBspw27iMj9HbVeHvw==";
         };
+        _RwQnvNeC = {
+            "id" = "RwQnvNeC";
+            "file" = "NaturalDecorMod_1.20.1Forge_V1.10.jar";
+            "hash" = "sha512-+0PBhY1HwLUKPRqWRvETpt97mWgUeVdCNuWGo60vdYefCvnO9lepyE8pP+4ordJNgVZl6hpQWbeyEKNGfpaeaw==";
+        };
     in {
         "2EJ5FT8S" = _2EJ5FT8S;
         "PZUw7rzA" = _PZUw7rzA;
         "HH75wsyd" = _HH75wsyd;
         "lfwB8jLh" = _lfwB8jLh;
-        "forge-1.20.1" = _lfwB8jLh;
+        "RwQnvNeC" = _RwQnvNeC;
+        "forge-1.20.1" = _RwQnvNeC;
         "neoforge-1.21.1" = _HH75wsyd;
         "pkg-1.9.5" = _lfwB8jLh;
-        "default" = _lfwB8jLh;
+        "pkg-1.10" = _RwQnvNeC;
+        "default" = _RwQnvNeC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "natural-decor-mod";

@@ -221,6 +221,11 @@ let
             "file" = "gloom_raiders-1.4.3-forge-1.20.1.jar";
             "hash" = "sha512-izIaJ2zyGXUnen1S/DO5mNmnk50Wc3ooBlbXv5xOrWmhb4uhCVrYoYCBKVjVRYJZVRb9M3Qk/BMbdqUHtgucHQ==";
         };
+        _FAzFoNUe = {
+            "id" = "FAzFoNUe";
+            "file" = "gloom_raiders-1.4.4-forge-1.20.1.jar";
+            "hash" = "sha512-5jDjYgofloXyu1+FacpBxdJgWWO/T7ypu77T7IDooAg8skAj1rNLHmhsDp3DS4yNtAxLIQfA4fDRvLUX1EtAmg==";
+        };
     in {
         "73kKjyRi" = _73kKjyRi;
         "HImLLpXj" = _HImLLpXj;
@@ -266,7 +271,8 @@ let
         "VtNRkZ6e" = _VtNRkZ6e;
         "DnfdhCzZ" = _DnfdhCzZ;
         "y1kyocJj" = _y1kyocJj;
-        "forge-1.20.1" = _y1kyocJj;
+        "FAzFoNUe" = _FAzFoNUe;
+        "forge-1.20.1" = _FAzFoNUe;
         "pkg-1.0.0" = _73kKjyRi;
         "pkg-1.0.1" = _HImLLpXj;
         "pkg-1.0.2" = _UezVuiUp;
@@ -311,7 +317,8 @@ let
         "pkg-1.4.1" = _VtNRkZ6e;
         "pkg-1.4.2" = _DnfdhCzZ;
         "pkg-1.4.3" = _y1kyocJj;
-        "default" = _y1kyocJj;
+        "pkg-1.4.4" = _FAzFoNUe;
+        "default" = _FAzFoNUe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gloom-raiders";

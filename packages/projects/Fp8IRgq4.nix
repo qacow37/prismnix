@@ -161,6 +161,11 @@ let
             "file" = "Dimensional-Paintings-26.2-11.0.0.jar";
             "hash" = "sha512-VXdHaBP7/G1uNyKM8wozefi+MTM65j4Rv1wXiFBrgRkj7Wi80mYbqNyuhetbLRxv/rLp5Zl+kWKytuDjivMHMA==";
         };
+        _HbwUiG0O = {
+            "id" = "HbwUiG0O";
+            "file" = "Dimensional-Paintings-26.3-12.0.0.jar";
+            "hash" = "sha512-kpydVTLl+pC/PKj5pe2u9dmb/Kd4BJXHT0eY1qeJhMNjJVvV5EClVbmku4GqqkpmZld7JPzlgvyhfEfARAtxLA==";
+        };
     in {
         "ifR9Qr40" = _ifR9Qr40;
         "iWgknxJE" = _iWgknxJE;
@@ -194,6 +199,7 @@ let
         "ZqCoM2UG" = _ZqCoM2UG;
         "ConmjFjg" = _ConmjFjg;
         "pwhU7dzX" = _pwhU7dzX;
+        "HbwUiG0O" = _HbwUiG0O;
         "forge-1.18.2" = _9FhHUisW;
         "forge-1.17.1" = _bZGgnrtW;
         "forge-1.16.5" = _cll8py15;
@@ -217,6 +223,7 @@ let
         "neoforge-1.21.11" = _ZqCoM2UG;
         "neoforge-26.1.2" = _ConmjFjg;
         "neoforge-26.2" = _pwhU7dzX;
+        "neoforge-26.3" = _HbwUiG0O;
         "pkg-1.2.3.0" = _ifR9Qr40;
         "pkg-1.2.0.0" = _iWgknxJE;
         "pkg-1.2.1.0" = _hc5G3goZ;
@@ -249,7 +256,8 @@ let
         "pkg-9.0.0" = _ZqCoM2UG;
         "pkg-10.0.0" = _ConmjFjg;
         "pkg-11.0.0" = _pwhU7dzX;
-        "default" = _pwhU7dzX;
+        "pkg-12.0.0" = _HbwUiG0O;
+        "default" = _HbwUiG0O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dimensional-paintings";

@@ -51,6 +51,16 @@ let
             "file" = "trident-killers-1.4.jar";
             "hash" = "sha512-GFIX6lYALp0lPgiqSVdeSL40fg03eF9y3IYdcbkkWi9Tz975aow0tP6Cbtood1wlnBFQ+nvNOkToY90W/SUN1w==";
         };
+        _oU6y6edJ = {
+            "id" = "oU6y6edJ";
+            "file" = "dash_trident_killers_V1.5.zip";
+            "hash" = "sha512-fB05YD9Nrj4hiUoEpONvqsiBZPK1x9wVQcQB6NZN9CYP0jsDihFe2tIBhUVyPp11VTvY2mrL/XwHEjEYhCt8gw==";
+        };
+        _vdAwbVuO = {
+            "id" = "vdAwbVuO";
+            "file" = "trident-killers-1.5.jar";
+            "hash" = "sha512-wqwTMqV1uDXuiip2FEJBXT080qoOMwWQKhQKstzqGAcLkHII15P8/huQGXCHQ1N8FlX391WYTdDxCpCtDpuCbw==";
+        };
     in {
         "MqCPLSVW" = _MqCPLSVW;
         "KP2rpYvV" = _KP2rpYvV;
@@ -62,31 +72,38 @@ let
         "ed9gMS1c" = _ed9gMS1c;
         "uibo9qe4" = _uibo9qe4;
         "wALolSqv" = _wALolSqv;
+        "oU6y6edJ" = _oU6y6edJ;
+        "vdAwbVuO" = _vdAwbVuO;
         "datapack-1.21.5" = _4GwBeHAz;
         "datapack-1.21.9" = _h5D78Azz;
         "datapack-1.21.10" = _h5D78Azz;
         "datapack-1.21.11" = _h5D78Azz;
         "datapack-26.1" = _uibo9qe4;
+        "datapack-26.3" = _oU6y6edJ;
         "fabric-1.21.5" = _ZIdHdbH7;
         "fabric-1.21.9" = _ed9gMS1c;
         "fabric-1.21.10" = _ed9gMS1c;
         "fabric-1.21.11" = _ed9gMS1c;
         "fabric-26.1" = _wALolSqv;
+        "fabric-26.3" = _vdAwbVuO;
         "forge-1.21.5" = _ZIdHdbH7;
         "forge-1.21.9" = _ed9gMS1c;
         "forge-1.21.10" = _ed9gMS1c;
         "forge-1.21.11" = _ed9gMS1c;
         "forge-26.1" = _wALolSqv;
+        "forge-26.3" = _vdAwbVuO;
         "neoforge-1.21.5" = _ZIdHdbH7;
         "neoforge-1.21.9" = _ed9gMS1c;
         "neoforge-1.21.10" = _ed9gMS1c;
         "neoforge-1.21.11" = _ed9gMS1c;
         "neoforge-26.1" = _wALolSqv;
+        "neoforge-26.3" = _vdAwbVuO;
         "quilt-1.21.5" = _ZIdHdbH7;
         "quilt-1.21.9" = _ed9gMS1c;
         "quilt-1.21.10" = _ed9gMS1c;
         "quilt-1.21.11" = _ed9gMS1c;
         "quilt-26.1" = _wALolSqv;
+        "quilt-26.3" = _vdAwbVuO;
         "pkg-1.0" = _MqCPLSVW;
         "pkg-1.0+mod" = _KP2rpYvV;
         "pkg-1.1" = _4GwBeHAz;
@@ -97,7 +114,9 @@ let
         "pkg-1.3+mod" = _ed9gMS1c;
         "pkg-1.4" = _uibo9qe4;
         "pkg-1.4+mod" = _wALolSqv;
-        "default" = _wALolSqv;
+        "pkg-1.5" = _oU6y6edJ;
+        "pkg-1.5+mod" = _vdAwbVuO;
+        "default" = _vdAwbVuO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trident-killers";

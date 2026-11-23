@@ -121,6 +121,11 @@ let
             "file" = "minopp-1.5.0+26.1.2-neoforge.jar";
             "hash" = "sha512-ReZsP3P2vtWsRC84VhrX4XZrgBNM7Pn148if4lEBtM4PFAjMM1Gd13A4x/KffK97Q323MAbdoUo2oAZOYQ0oLw==";
         };
+        _QtmdsSul = {
+            "id" = "QtmdsSul";
+            "file" = "minopp-1.5.0+1.20.1-forge.jar";
+            "hash" = "sha512-vOjEia9I91NJr/MiqENZonPFr2xSn3u7LUAmHyiRZ8E41sqCGx4C07r8M9LNSE0fKLwvEUnG6kTfUeK+mshlaA==";
+        };
     in {
         "fMPcZf2i" = _fMPcZf2i;
         "Wf5gBAWZ" = _Wf5gBAWZ;
@@ -146,6 +151,7 @@ let
         "TcPBp8ux" = _TcPBp8ux;
         "wDe5lXCZ" = _wDe5lXCZ;
         "mqrDlAEd" = _mqrDlAEd;
+        "QtmdsSul" = _QtmdsSul;
         "neoforge-1.21" = _q41pvN08;
         "neoforge-1.21.1" = _TcPBp8ux;
         "neoforge-26.1" = _mqrDlAEd;
@@ -158,8 +164,8 @@ let
         "fabric-26.1" = _wDe5lXCZ;
         "fabric-26.1.1" = _wDe5lXCZ;
         "fabric-26.1.2" = _wDe5lXCZ;
-        "forge-1.20" = _r4WKH34g;
-        "forge-1.20.1" = _r4WKH34g;
+        "forge-1.20" = _QtmdsSul;
+        "forge-1.20.1" = _QtmdsSul;
         "pkg-1.0.3+1.21.1+NeoForge" = _fMPcZf2i;
         "pkg-1.0.3+1.21.1+Fabric" = _Wf5gBAWZ;
         "pkg-1.0.4+1.21.1+fabric" = _gXcu94lJ;
@@ -184,7 +190,8 @@ let
         "pkg-1.5.0+1.21.1-neoforge" = _TcPBp8ux;
         "pkg-1.5.0+26.1.2-fabric" = _wDe5lXCZ;
         "pkg-1.5.0+26.1.2-neoforge" = _mqrDlAEd;
-        "default" = _mqrDlAEd;
+        "pkg-1.5.0+1.20.1-forge.2" = _QtmdsSul;
+        "default" = _QtmdsSul;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minopp";

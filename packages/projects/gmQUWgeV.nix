@@ -36,6 +36,11 @@ let
             "file" = "ars_sable-1.21.1-1.2.1.jar";
             "hash" = "sha512-oD7u1hlxMSuGiRENm+9ZBBxvmw3DOxDH9aeSzw/oq6AEwH8NgxdrijgMucGE2VV78PjwHX4Y8U7FVQWv7iKXvw==";
         };
+        _WtlMfM2T = {
+            "id" = "WtlMfM2T";
+            "file" = "ars_sable-1.21.1-1.3.0.jar";
+            "hash" = "sha512-76d+A+dBLYOoRzEuJ/YW48oX7gHOcTh1OQwpWID1G3UaBYdidTohUFwXARKrniOo2ihWXhgAHjeX9f7Jbdt2fw==";
+        };
     in {
         "g0qNDrzq" = _g0qNDrzq;
         "WWDh3QyK" = _WWDh3QyK;
@@ -44,8 +49,9 @@ let
         "mLHvoc3C" = _mLHvoc3C;
         "Dfd7emSI" = _Dfd7emSI;
         "Hs4Th70Z" = _Hs4Th70Z;
-        "neoforge-1.21.1" = _Hs4Th70Z;
-        "neoforge-1.21" = _Hs4Th70Z;
+        "WtlMfM2T" = _WtlMfM2T;
+        "neoforge-1.21.1" = _WtlMfM2T;
+        "neoforge-1.21" = _WtlMfM2T;
         "pkg-1.1.0" = _g0qNDrzq;
         "pkg-1.1.1" = _WWDh3QyK;
         "pkg-1.1.2" = _zGMfKGIU;
@@ -53,7 +59,8 @@ let
         "pkg-1.1.4" = _mLHvoc3C;
         "pkg-1.2.0" = _Dfd7emSI;
         "pkg-1.2.1" = _Hs4Th70Z;
-        "default" = _Hs4Th70Z;
+        "pkg-1.3.0" = _WtlMfM2T;
+        "default" = _WtlMfM2T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ars-sable";

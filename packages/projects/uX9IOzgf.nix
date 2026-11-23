@@ -51,6 +51,16 @@ let
             "file" = "mobsuseshields-0.9.2.1+1.21.1.jar";
             "hash" = "sha512-K2sK4oalyrTV9uvVJl/FDL0uGmD2q/dd43PXuklqpXjwkqJSK8hi7xWV6l0U19xFi+v/iuM94bp1jR83Knm3sw==";
         };
+        _rJkuZTsw = {
+            "id" = "rJkuZTsw";
+            "file" = "mobsuseshields-1.0.0-1.20.1.jar";
+            "hash" = "sha512-ZSiHPjgv8XBAaSZPYzZtvr3cZ3pUQlfAUZIn0UO+LC6NqH2vY8Jm+1QBzRrt4Ns8jayPTsKFT/e2nZJTRCo54w==";
+        };
+        _ITvpXJ7e = {
+            "id" = "ITvpXJ7e";
+            "file" = "mobsuseshields-1.0.0-1.21.1.jar";
+            "hash" = "sha512-fYKGMiXhoFyp5ZBxe1D+LUHWLN4I5/PUEPNpdLnfKJ9TwUZJYdaBsHrFquq0sROh4v0uNyM7z/mN7/8Or6lhOA==";
+        };
     in {
         "KshJxEgC" = _KshJxEgC;
         "gVR6ej6Y" = _gVR6ej6Y;
@@ -62,8 +72,10 @@ let
         "H2oi0NFq" = _H2oi0NFq;
         "QRm43D74" = _QRm43D74;
         "Hc5jqXNN" = _Hc5jqXNN;
-        "forge-1.20.1" = _nZiHeQ0a;
-        "neoforge-1.21.1" = _Hc5jqXNN;
+        "rJkuZTsw" = _rJkuZTsw;
+        "ITvpXJ7e" = _ITvpXJ7e;
+        "forge-1.20.1" = _rJkuZTsw;
+        "neoforge-1.21.1" = _ITvpXJ7e;
         "neoforge-1.21.11" = _QRm43D74;
         "pkg-0.8.2" = _KshJxEgC;
         "pkg-0.8.3.1" = _gVR6ej6Y;
@@ -75,7 +87,9 @@ let
         "pkg-0.9.2+1.21.11" = _H2oi0NFq;
         "pkg-0.9.2.1+1.21.11" = _QRm43D74;
         "pkg-0.9.2.1+1.21.1" = _Hc5jqXNN;
-        "default" = _Hc5jqXNN;
+        "pkg-1.0.0+1.20.1" = _rJkuZTsw;
+        "pkg-1.0.0+1.21.1" = _ITvpXJ7e;
+        "default" = _ITvpXJ7e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mobs-use-shields";

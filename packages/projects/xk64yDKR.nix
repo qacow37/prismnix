@@ -151,6 +151,11 @@ let
             "file" = "Dog-Disc 26.3 (Fabric).jar";
             "hash" = "sha512-PbKpna/TUc33xSSGmqOYvq8/wV/3nk/5PxuNE8MI0tnFOAEVR+n1cgBXXUNnXtsO4Eta9f+5De2mTG6yEo+ZZg==";
         };
+        _Sd8ANH0n = {
+            "id" = "Sd8ANH0n";
+            "file" = "Dog-Disc 1.21.1 (Fabric).jar";
+            "hash" = "sha512-qNp21LxMlEuj0uTvaSqFqbwX1tnrR21MWlV/P0F1NW7cxOeUmdMCaXDO0OQFnZGpTOue460cblNNME3/BEXr6w==";
+        };
     in {
         "SB0VQkr3" = _SB0VQkr3;
         "WiBM4N49" = _WiBM4N49;
@@ -182,6 +187,7 @@ let
         "VC5nWsab" = _VC5nWsab;
         "VxwEoi6z" = _VxwEoi6z;
         "37jT6J3b" = _37jT6J3b;
+        "Sd8ANH0n" = _Sd8ANH0n;
         "forge-1.12.2" = _SB0VQkr3;
         "forge-1.14.4" = _WiBM4N49;
         "forge-1.15.2" = _IARyhtnR;
@@ -202,6 +208,7 @@ let
         "fabric-26.2" = _Nhethc6j;
         "fabric-1.21.11" = _VC5nWsab;
         "fabric-26.3" = _37jT6J3b;
+        "fabric-1.21.1" = _Sd8ANH0n;
         "neoforge-1.20.1" = _R6ETMXkg;
         "neoforge-1.20.4" = _GjZb4RlD;
         "neoforge-1.20.6" = _h7PQGGuf;
@@ -233,7 +240,8 @@ let
         "pkg-V26.2" = _Nhethc6j;
         "pkg-V1.21.11" = _VC5nWsab;
         "pkg-V26.3" = _37jT6J3b;
-        "default" = _37jT6J3b;
+        "pkg-V1.21.1" = _Sd8ANH0n;
+        "default" = _Sd8ANH0n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "c418-dog-java-port";

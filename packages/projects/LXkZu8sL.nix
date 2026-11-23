@@ -311,6 +311,16 @@ let
             "file" = "alivecombat-1.6.0-all.jar";
             "hash" = "sha512-CrOmUqZw8Qhog3Ig5Gmw3AM3Pq0/vV3eXgZ3GVgDQJBrtY+JS75+oLxQxWJMTOwNhHiK6Bhl1RoRBrvA8dNWQg==";
         };
+        _bszTux2g = {
+            "id" = "bszTux2g";
+            "file" = "alivecombat-1.6.1.jar";
+            "hash" = "sha512-TeHmQJaSkLNYXW8qada87M/SJYYYfmxWU+fmZA/KuINOifVz16XZ0McW1vpzWMTn/+kxWmNw2gJUgiLs/0s0WA==";
+        };
+        _bZdMTDIS = {
+            "id" = "bZdMTDIS";
+            "file" = "alivecombat-1.6.1-all.jar";
+            "hash" = "sha512-0PGhkr34ta2P4Bjip7PA9Q9zQGOK+BOF2c/WRGOhEPOVpSgqOi2/2HIXiEKp9ZPotJ+5avnpG6VTRMx5qr86oA==";
+        };
     in {
         "Ar8CTtRS" = _Ar8CTtRS;
         "24121970" = _24121970;
@@ -374,15 +384,17 @@ let
         "ImMNQhbS" = _ImMNQhbS;
         "mHujOLQ0" = _mHujOLQ0;
         "wsiAZoZo" = _wsiAZoZo;
+        "bszTux2g" = _bszTux2g;
+        "bZdMTDIS" = _bZdMTDIS;
         "forge-1.19.3" = _Mvqlf3cx;
         "forge-1.19.2" = _Mvqlf3cx;
-        "forge-1.20.1" = _wsiAZoZo;
+        "forge-1.20.1" = _bZdMTDIS;
         "neoforge-1.20.4" = _EMqCwufD;
-        "neoforge-1.21.1" = _mHujOLQ0;
+        "neoforge-1.21.1" = _bszTux2g;
         "neoforge-1.20.6" = _ImMNQhbS;
         "neoforge-1.21.10" = _c9YWlegc;
         "neoforge-1.21.11" = _bqgkouZE;
-        "neoforge-1.20.1" = _wsiAZoZo;
+        "neoforge-1.20.1" = _bZdMTDIS;
         "pkg-1.1" = _Ar8CTtRS;
         "pkg-1.2" = _q38h5tW4;
         "pkg-1.3" = _Mvqlf3cx;
@@ -411,7 +423,8 @@ let
         "pkg-1.5.8" = _hvJkfBZg;
         "pkg-1.5.9" = _ImMNQhbS;
         "pkg-1.6.0" = _wsiAZoZo;
-        "default" = _wsiAZoZo;
+        "pkg-1.6.1" = _bZdMTDIS;
+        "default" = _bZdMTDIS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alivecombat";

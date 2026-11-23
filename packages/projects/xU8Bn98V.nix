@@ -266,6 +266,11 @@ let
             "file" = "Fabricord-526.1.2.r191+env1.20.5-1.21.5.jar";
             "hash" = "sha512-J9InF+NCBaEQurPgyb6qh6VS2XnRpJd3xmJP/E7Snfrunc7sPsb5+I14BexhqJWF2INoN4rVj0PSZA5MFObgRQ==";
         };
+        _A6xpL6d6 = {
+            "id" = "A6xpL6d6";
+            "file" = "Fabricord-526.1.0.r191+env26.3.jar";
+            "hash" = "sha512-dIEjhZXyFVFx/ryWXvttGbspg+4cZIgThjrEgNZ8q9U+Rl6d67ev4ZWMKTD+Jq532y8JZeb6zN+NnCEGGp2ZYA==";
+        };
     in {
         "6HsEzeAF" = _6HsEzeAF;
         "m58Q8dmA" = _m58Q8dmA;
@@ -320,6 +325,7 @@ let
         "SJDT7ZM6" = _SJDT7ZM6;
         "pVsjJerD" = _pVsjJerD;
         "PZF5xt8Z" = _PZF5xt8Z;
+        "A6xpL6d6" = _A6xpL6d6;
         "fabric-1.20.1" = _m4UFw3L9;
         "fabric-1.20.4" = _weEsi5yJ;
         "fabric-1.20.6" = _PZF5xt8Z;
@@ -366,6 +372,7 @@ let
         "fabric-1.21.9" = _SJDT7ZM6;
         "fabric-1.21.10" = _SJDT7ZM6;
         "fabric-1.21.11" = _SJDT7ZM6;
+        "fabric-26.3" = _A6xpL6d6;
         "pkg-1.0+1-1.20.1" = _6HsEzeAF;
         "pkg-1.1-1.20.1" = _m58Q8dmA;
         "pkg-2.0-1.20.1" = _4LvWqDy3;
@@ -401,7 +408,8 @@ let
         "pkg-2026.1.1+1.21.9-1.21.11" = _SJDT7ZM6;
         "pkg-2026.1.1+26.1-26.1.2" = _pVsjJerD;
         "pkg-2026.1.2+1.20.5-1.21.5" = _PZF5xt8Z;
-        "default" = _PZF5xt8Z;
+        "pkg-2026.1.0+26.3" = _A6xpL6d6;
+        "default" = _A6xpL6d6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fabricord";

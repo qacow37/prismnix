@@ -81,6 +81,11 @@ let
             "file" = "climbable_ropes-2.2.2.jar";
             "hash" = "sha512-gpSGBEaJwE1WUo41k6LU+tYP6Gk+pxrzi/XytLsLCCWPq9cjWvaXMRlf1TIqdHgEvMiY2+UMq1aFDAXRbMld7Q==";
         };
+        _MQNJGin9 = {
+            "id" = "MQNJGin9";
+            "file" = "climbable_ropes-2.2.3.jar";
+            "hash" = "sha512-AMW0D3/i+P5t39sguT+bpMIa3BTjvj8LoQmCwGE4YodLKsAKxOtCGqKhHlG5nlfblVKsI/eZdpVLCe+vMPigKg==";
+        };
     in {
         "NHwZLkPQ" = _NHwZLkPQ;
         "y38CtZAR" = _y38CtZAR;
@@ -98,7 +103,8 @@ let
         "TTGedLb3" = _TTGedLb3;
         "HmIHKOOs" = _HmIHKOOs;
         "1r3CmpkA" = _1r3CmpkA;
-        "neoforge-1.21.1" = _1r3CmpkA;
+        "MQNJGin9" = _MQNJGin9;
+        "neoforge-1.21.1" = _MQNJGin9;
         "pkg-1.6.1" = _NHwZLkPQ;
         "pkg-1.6.2" = _y38CtZAR;
         "pkg-1.7.0" = _xMaWlplO;
@@ -115,7 +121,8 @@ let
         "pkg-2.2.0" = _TTGedLb3;
         "pkg-2.2.1" = _HmIHKOOs;
         "pkg-2.2.2" = _1r3CmpkA;
-        "default" = _1r3CmpkA;
+        "pkg-2.2.3" = _MQNJGin9;
+        "default" = _MQNJGin9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-aeronautics-climbable-rope";

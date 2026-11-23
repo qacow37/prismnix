@@ -1641,6 +1641,21 @@ let
             "file" = "colossalchests-26.1.2-neoforge-1.9.1-20.jar";
             "hash" = "sha512-RzrY4f4RZtgZaMAgJ93+ZAL+dkebG5ZjNva+lKAO8NoKLtNLNwwJub88MT6HshikZLy/WXtbFzAehC2Sl/EKHQ==";
         };
+        _PQ8DAvbG = {
+            "id" = "PQ8DAvbG";
+            "file" = "colossalchests-26.1.2-forge-1.9.1-625.jar";
+            "hash" = "sha512-J/y+1SYv1EAioY5QM8XqW8vA/4+mlf6LvRV5VBrfKL44Y4PDy7F/3ZzYAhV8kPYg+WHDNHx4NgG632YI8RORDw==";
+        };
+        _XnvtDrs0 = {
+            "id" = "XnvtDrs0";
+            "file" = "colossalchests-26.1.2-fabric-1.9.1-625.jar";
+            "hash" = "sha512-NlI+ElErRhU0aP8PYIJHS4XOEbWzihRFq/Sh4e8CwiPljydN4xhN/+lmY+Uusmv1d2IlSE7DUbHRFJs31zCtWA==";
+        };
+        _2yQ59IID = {
+            "id" = "2yQ59IID";
+            "file" = "colossalchests-26.1.2-neoforge-1.9.1-625.jar";
+            "hash" = "sha512-6/OGIVKwxz7mHG4332KoZl0fFNL3UzcpQBWFAO99OpBB9QUQSxM9bkHqDJRuCv2UXd9QAwIhCLrucp+FtfXc9g==";
+        };
     in {
         "Yy9FvquA" = _Yy9FvquA;
         "fFR5HtBN" = _fFR5HtBN;
@@ -1970,6 +1985,9 @@ let
         "ME5OY6qI" = _ME5OY6qI;
         "IpORiMBp" = _IpORiMBp;
         "UTUVN5zg" = _UTUVN5zg;
+        "PQ8DAvbG" = _PQ8DAvbG;
+        "XnvtDrs0" = _XnvtDrs0;
+        "2yQ59IID" = _2yQ59IID;
         "forge-1.18.2" = _HwfG2N3q;
         "forge-1.19" = _a3RXDOjK;
         "forge-1.19.2" = _aZsCmR0t;
@@ -1983,7 +2001,7 @@ let
         "forge-1.21.10" = _yfXQpmNY;
         "forge-1.21.11" = _2WIIabSw;
         "forge-26.1.1" = _bgEEGtq2;
-        "forge-26.1.2" = _IpORiMBp;
+        "forge-26.1.2" = _PQ8DAvbG;
         "forge-26.2" = _bRjrWJjK;
         "forge-26.3" = _FjiBRKje;
         "neoforge-1.20.4" = _ZrxDW9Oa;
@@ -1995,7 +2013,7 @@ let
         "neoforge-1.21.10" = _XOm6iG0q;
         "neoforge-1.21.11" = _W9cPLVxE;
         "neoforge-26.1.1" = _kypnC1on;
-        "neoforge-26.1.2" = _UTUVN5zg;
+        "neoforge-26.1.2" = _2yQ59IID;
         "neoforge-26.2" = _UPfQ2omP;
         "neoforge-26.3" = _Y4GP8Auh;
         "fabric-1.21.1" = _EKxWfpxP;
@@ -2005,7 +2023,7 @@ let
         "fabric-1.21.10" = _khShypYw;
         "fabric-1.21.11" = _JD2BySlm;
         "fabric-26.1.1" = _2SQVXWrm;
-        "fabric-26.1.2" = _ME5OY6qI;
+        "fabric-26.1.2" = _XnvtDrs0;
         "fabric-26.2" = _GszUpjmI;
         "fabric-26.3" = _pqKuD90i;
         "quilt-1.21.1" = _EKxWfpxP;
@@ -2015,7 +2033,7 @@ let
         "quilt-1.21.10" = _khShypYw;
         "quilt-1.21.11" = _JD2BySlm;
         "quilt-26.1.1" = _2SQVXWrm;
-        "quilt-26.1.2" = _ME5OY6qI;
+        "quilt-26.1.2" = _XnvtDrs0;
         "quilt-26.2" = _GszUpjmI;
         "quilt-26.3" = _pqKuD90i;
         "pkg-1.8.3" = _Yy9FvquA;
@@ -2139,7 +2157,8 @@ let
         "pkg-26.3-1.8.16-321" = _jcBSi5fV;
         "pkg-26.3-1.8.16-322" = _Y4GP8Auh;
         "pkg-26.1.2-1.9.1-20" = _UTUVN5zg;
-        "default" = _UTUVN5zg;
+        "pkg-26.1.2-1.9.1-625" = _2yQ59IID;
+        "default" = _2yQ59IID;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colossal-chests";

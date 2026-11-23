@@ -56,6 +56,11 @@ let
             "file" = "fullbright-1.1.2+26.3.jar";
             "hash" = "sha512-7gzO1lo7L4/Yf+H8g0iw4ae/gaiO7JKlLsm3MMNukhAfsDOt4pHplzeqxjWHEQQiYr4yQAeV0ecWl/6AINijcA==";
         };
+        _4GZN7VYU = {
+            "id" = "4GZN7VYU";
+            "file" = "fullbright-1.1.3+1.8.9.jar";
+            "hash" = "sha512-r088l4WmlwoUcCJ5lqTRROlD21dUJWDtk79Qaoiexttc1mXUwYVdmS479dLWvsQne8PqRoSnA3Ltfj1mFHsHLw==";
+        };
     in {
         "vPAWC5W4" = _vPAWC5W4;
         "sJppla7e" = _sJppla7e;
@@ -68,7 +73,8 @@ let
         "GBlCd2Jc" = _GBlCd2Jc;
         "TlMsgs7t" = _TlMsgs7t;
         "iGQuh64U" = _iGQuh64U;
-        "ornithe-1.8.9" = _sJppla7e;
+        "4GZN7VYU" = _4GZN7VYU;
+        "ornithe-1.8.9" = _4GZN7VYU;
         "fabric-1.21.1" = _6t2B3Rtm;
         "fabric-1.21.4" = _t7Erhe3d;
         "fabric-1.21.5" = _vDtqDFUx;
@@ -82,7 +88,8 @@ let
         "fabric-26.3" = _iGQuh64U;
         "pkg-v1.1.1" = _vPAWC5W4;
         "pkg-v1.1.2" = _iGQuh64U;
-        "default" = _iGQuh64U;
+        "pkg-v1.1.3" = _4GZN7VYU;
+        "default" = _4GZN7VYU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "polyfullbright";

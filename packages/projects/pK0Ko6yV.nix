@@ -121,6 +121,21 @@ let
             "file" = "trophymanager-1.21.1-2.2.1.jar";
             "hash" = "sha512-mtVdKgZ9RUZEKX0u5uqQUX0BxmsOz5LwSPBzVjjzmLnTCmX9+g+9pCy9QC4Q1D6KYJUQ9ApJ5woP1icQh6IcDQ==";
         };
+        _AG6TbsXd = {
+            "id" = "AG6TbsXd";
+            "file" = "trophymanager-1.21.1-3.1.0.jar";
+            "hash" = "sha512-Mrp00g1xSf2TEjgWa5Y78jnCwLlmA9tm8ppS1gP1eTSXi+FuVQ/QA9ONJikboL9PVjgjwuD8CyO1DkmOUPnXRA==";
+        };
+        _JTmc4qdX = {
+            "id" = "JTmc4qdX";
+            "file" = "trophymanager-26.1.2-3.1.0.jar";
+            "hash" = "sha512-0MyzNi+USw3JhVygxQJN8e8vqn72hHQoTHVJW5WO422ZMN8/Pwo5brfQvFNLrVQm5eZcQvQCSvm18XdmUyvd4g==";
+        };
+        _LDR5OsCO = {
+            "id" = "LDR5OsCO";
+            "file" = "trophymanager-1.21.1-3.1.1.jar";
+            "hash" = "sha512-SobjBTD6yI/NMZb2CUXgiKtOdOIoSKwx7HFuiUGdz0yKAjKpRpSvDx4vSh16R55nXZdffC1lrfgUfxmr+LsgXA==";
+        };
     in {
         "6rlfz2Pt" = _6rlfz2Pt;
         "1WCtLN9l" = _1WCtLN9l;
@@ -146,6 +161,9 @@ let
         "d7ZmOwtr" = _d7ZmOwtr;
         "3oaVWbQz" = _3oaVWbQz;
         "ZQSzbHiL" = _ZQSzbHiL;
+        "AG6TbsXd" = _AG6TbsXd;
+        "JTmc4qdX" = _JTmc4qdX;
+        "LDR5OsCO" = _LDR5OsCO;
         "forge-1.16.5" = _9VJkPdTl;
         "forge-1.17.1" = _ERL0fBNf;
         "forge-1.18" = _d9GQ3LP3;
@@ -158,7 +176,8 @@ let
         "forge-1.20" = _n8nskXZu;
         "forge-1.20.1" = _n8nskXZu;
         "neoforge-1.21" = _3oaVWbQz;
-        "neoforge-1.21.1" = _ZQSzbHiL;
+        "neoforge-1.21.1" = _LDR5OsCO;
+        "neoforge-26.1.2" = _JTmc4qdX;
         "pkg-0" = _6rlfz2Pt;
         "pkg-1" = _1WCtLN9l;
         "pkg-2" = _ERL0fBNf;
@@ -183,7 +202,10 @@ let
         "pkg-1.21.1-2.1.8" = _d7ZmOwtr;
         "pkg-1.21.1-2.1.9" = _3oaVWbQz;
         "pkg-1.21.1-2.2.1" = _ZQSzbHiL;
-        "default" = _ZQSzbHiL;
+        "pkg-1.21.1-3.1.0" = _AG6TbsXd;
+        "pkg-26.1.2-3.1.0" = _JTmc4qdX;
+        "pkg-1.21.1-3.1.1" = _LDR5OsCO;
+        "default" = _LDR5OsCO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jonns-trophies";

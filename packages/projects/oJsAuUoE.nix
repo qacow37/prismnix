@@ -166,6 +166,11 @@ let
             "file" = "Sapixcraft 32x r1.9 26.2.zip";
             "hash" = "sha512-Kk8Q5Pbfq76usznSsnOE3kzOqp2pxfkbBVmxpQoMMYG2Q8zz6CnSdSteMcYzSkw7ZEs9/0y+8DW/D6V0tKyR7g==";
         };
+        _1JA2TTZi = {
+            "id" = "1JA2TTZi";
+            "file" = "Sapixcraft 32x r1.9a 26.3.zip";
+            "hash" = "sha512-UGV+ZDlEO5OdwYNtgcCO2CypNo2zNjKb5fx/ZJGrPir9KdLvD1xrSgMiv9LSW7YnwW32/DJI+gTWZU1BDrG7jQ==";
+        };
     in {
         "lYslTVWE" = _lYslTVWE;
         "KdlX1k4H" = _KdlX1k4H;
@@ -200,6 +205,7 @@ let
         "zfxwAkqD" = _zfxwAkqD;
         "cmFRNTVr" = _cmFRNTVr;
         "4Rir400V" = _4Rir400V;
+        "1JA2TTZi" = _1JA2TTZi;
         "minecraft-1.19" = _lYslTVWE;
         "minecraft-1.19.1" = _lYslTVWE;
         "minecraft-1.19.2" = _lYslTVWE;
@@ -249,7 +255,7 @@ let
         "minecraft-26.3-snapshot-8" = _eJKD3bGC;
         "minecraft-26.3-snapshot-9" = _eJKD3bGC;
         "minecraft-26.3-snapshot-10" = _eJKD3bGC;
-        "minecraft-26.3" = _zfxwAkqD;
+        "minecraft-26.3" = _1JA2TTZi;
         "pkg-1.19.2_r1-32x" = _lYslTVWE;
         "pkg-Sapixcraft_16x_1.18r1" = _KdlX1k4H;
         "pkg-Sapixcraft_32x_1.19.3r1" = _EtbZr5tj;
@@ -277,9 +283,9 @@ let
         "pkg-r1.6" = _4hwTRpJ5;
         "pkg-r1.7" = _tqJ5LO5R;
         "pkg-r1.8" = _cmFRNTVr;
-        "pkg-r1.9a" = _mR2UCxhR;
+        "pkg-r1.9a" = _1JA2TTZi;
         "pkg-r1.9" = _4Rir400V;
-        "default" = _4Rir400V;
+        "default" = _1JA2TTZi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sapixcraft";

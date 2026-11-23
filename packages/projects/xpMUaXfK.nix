@@ -621,6 +621,11 @@ let
             "file" = "turnbattle-2.0.31.jar";
             "hash" = "sha512-e3zSm0cB/1OVpVj+QLHz6nzCkSmay0XMLh/A4FYLz0lGbVp7dHKB3Tqm+wDE6H57UTrmaBzgefEFjgSf4ec7eA==";
         };
+        _hHIeWDqz = {
+            "id" = "hHIeWDqz";
+            "file" = "turnbattle-2.0.32.jar";
+            "hash" = "sha512-2Z6F+O31QVJQELhsZidkYlu1OiKq3tBUqSwr7BUwHwlTgWyiO7CTwQjMgZqbLhUovD0npwuDQ1iqog4RRPKQqw==";
+        };
     in {
         "p3YiWU15" = _p3YiWU15;
         "3ACyHjtD" = _3ACyHjtD;
@@ -746,8 +751,9 @@ let
         "wlPKFtw2" = _wlPKFtw2;
         "j37HqrWi" = _j37HqrWi;
         "Jz469zGg" = _Jz469zGg;
+        "hHIeWDqz" = _hHIeWDqz;
         "fabric-1.20.1" = _nadHIqFG;
-        "fabric-1.21.1" = _Jz469zGg;
+        "fabric-1.21.1" = _hHIeWDqz;
         "pkg-1.3.12" = _p3YiWU15;
         "pkg-1.3.15" = _3ACyHjtD;
         "pkg-1.3.16" = _AG8qDeiS;
@@ -868,7 +874,8 @@ let
         "pkg-2.0.29" = _wlPKFtw2;
         "pkg-2.0.30" = _j37HqrWi;
         "pkg-2.0.31" = _Jz469zGg;
-        "default" = _Jz469zGg;
+        "pkg-2.0.32" = _hHIeWDqz;
+        "default" = _hHIeWDqz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "soulbound-turnbattle";

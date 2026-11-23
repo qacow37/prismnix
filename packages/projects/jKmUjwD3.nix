@@ -176,6 +176,16 @@ let
             "file" = "MTR-YUM-forge-1.20.1-1.4.0.jar";
             "hash" = "sha512-C+QgmsLS6XTes1XNOY9vDvKw4yzW79F+vTZR/8k8LUk7GMvZHMcY1SuHmAy610EWEOKxqxE969NPJtKnanIi/w==";
         };
+        _WBg4bLE7 = {
+            "id" = "WBg4bLE7";
+            "file" = "MTR-YUM-forge-1.20.1-1.5.2.jar";
+            "hash" = "sha512-dWgzPo+9VLq2B2ziMtanNF1sjJpIf7QqxGko1zvsA7dgHXM7u3j6Pz+DUwdJg1V3O6Dfc5Ngmo5BKPGFZR3hyA==";
+        };
+        _QViJtuOr = {
+            "id" = "QViJtuOr";
+            "file" = "MTR-YUM-fabric-1.20.1-1.5.2.jar";
+            "hash" = "sha512-Z3EEnYIQxmhvUXeI54EM+53QN0Wt0v3yPB1QxDVgbGMlAD/WJv9grm1n+mWwmxY6b9EsiiHIYFIjC51CSozQUA==";
+        };
     in {
         "RIIhxsQT" = _RIIhxsQT;
         "X8HPDvEN" = _X8HPDvEN;
@@ -212,12 +222,14 @@ let
         "KVA65Yvr" = _KVA65Yvr;
         "nJdar1hW" = _nJdar1hW;
         "3MIJ0UTD" = _3MIJ0UTD;
-        "fabric-1.20.1" = _nJdar1hW;
+        "WBg4bLE7" = _WBg4bLE7;
+        "QViJtuOr" = _QViJtuOr;
+        "fabric-1.20.1" = _QViJtuOr;
         "fabric-1.19.4" = _Eoyoiepj;
         "fabric-1.19.2" = _KVA65Yvr;
         "fabric-1.18.2" = _QlnXprdd;
         "fabric-1.17.1" = _FDg1jQn9;
-        "forge-1.20.1" = _3MIJ0UTD;
+        "forge-1.20.1" = _WBg4bLE7;
         "pkg-1.0.0" = _O7DCrLIV;
         "pkg-1.0.1" = _SqwIVPTg;
         "pkg-1.0.2" = _GH0pEoSY;
@@ -228,7 +240,8 @@ let
         "pkg-1.2.3" = _Fhtq4mqS;
         "pkg-1.3.0" = _EkXo24a1;
         "pkg-1.4.0" = _3MIJ0UTD;
-        "default" = _3MIJ0UTD;
+        "pkg-1.5.2" = _QViJtuOr;
+        "default" = _QViJtuOr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtr-yomi-utility-mod";

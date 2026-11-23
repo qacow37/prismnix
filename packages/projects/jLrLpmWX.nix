@@ -501,6 +501,11 @@ let
             "file" = "crystal_tools-26.3.0.0-alpha1.jar";
             "hash" = "sha512-24YaiJVn2Ujk32Rw8cAdmRScE+1CMeFrXlmQ55ED3hUaVR1dFe3ZswxZZMzW+xhua06keo8f8DXyEqjfH4zgOg==";
         };
+        _ZyrKBrRx = {
+            "id" = "ZyrKBrRx";
+            "file" = "crystal_tools-26.3.0.0-beta1.jar";
+            "hash" = "sha512-W8rQWYuFHG0cv3EuIP1WyNM4WPhZez6szxgjX6a2uqYDYM08KS82xpvtttM3i3Go5s/hq7dz4wUYJ81BQooEtg==";
+        };
     in {
         "GlwyaThi" = _GlwyaThi;
         "ASv9gg34" = _ASv9gg34;
@@ -602,6 +607,7 @@ let
         "Qw10JG1h" = _Qw10JG1h;
         "7KgCIllb" = _7KgCIllb;
         "t5s5ltIt" = _t5s5ltIt;
+        "ZyrKBrRx" = _ZyrKBrRx;
         "forge-1.19.2" = _IVJgC0uJ;
         "forge-1.20.1" = _nGXMjrON;
         "forge-1.20" = _40Ir0NjF;
@@ -624,7 +630,7 @@ let
         "neoforge-26.1.1" = _Qw10JG1h;
         "neoforge-26.1.2" = _Qw10JG1h;
         "neoforge-26.2" = _7KgCIllb;
-        "neoforge-26.3" = _t5s5ltIt;
+        "neoforge-26.3" = _ZyrKBrRx;
         "pkg-1.4.1" = _GlwyaThi;
         "pkg-1.4.2-beta" = _ASv9gg34;
         "pkg-1.4.2" = _eGIyyIY4;
@@ -725,7 +731,8 @@ let
         "pkg-26.1.1.2" = _Qw10JG1h;
         "pkg-26.2.0.3" = _7KgCIllb;
         "pkg-26.3.0.0-alpha1" = _t5s5ltIt;
-        "default" = _t5s5ltIt;
+        "pkg-26.3.0.0-beta1" = _ZyrKBrRx;
+        "default" = _ZyrKBrRx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crystal-tools";

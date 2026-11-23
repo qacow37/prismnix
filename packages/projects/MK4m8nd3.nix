@@ -126,6 +126,11 @@ let
             "file" = "zoni_mod-4.1.8-forge-1.20.1.jar";
             "hash" = "sha512-pCyfVe+C0tS+OC1FB+gdxe2OcqPlzyClKf9iVLvg6nMirgA+vPXX9QzyocB6TJaC18SNllAse00bFYpdxGBvzw==";
         };
+        _IzFSIoqv = {
+            "id" = "IzFSIoqv";
+            "file" = "zoni_mod-4.1.9-forge-1.20.1.jar";
+            "hash" = "sha512-gwfVUHp62NW8LY202gNuQ41V3Z3paIGVXlxdQKTWsy9uNsmquu0SeQZdorHwVrrIg7kn6Xytq6mz/3TCAEoPMw==";
+        };
     in {
         "IJ6UiswY" = _IJ6UiswY;
         "aH85tKDX" = _aH85tKDX;
@@ -152,9 +157,10 @@ let
         "LMRWJBzi" = _LMRWJBzi;
         "ufbkXnKB" = _ufbkXnKB;
         "ni7D4r8M" = _ni7D4r8M;
+        "IzFSIoqv" = _IzFSIoqv;
         "forge-1.16.5" = _IJ6UiswY;
         "forge-1.18.2" = _aH85tKDX;
-        "forge-1.20.1" = _ni7D4r8M;
+        "forge-1.20.1" = _IzFSIoqv;
         "pkg-1.2.4" = _IJ6UiswY;
         "pkg-1.0" = _aH85tKDX;
         "pkg-3.9.11" = _gVHZ66po;
@@ -180,7 +186,8 @@ let
         "pkg-4.1.6" = _LMRWJBzi;
         "pkg-4.1.7" = _ufbkXnKB;
         "pkg-4.1.8" = _ni7D4r8M;
-        "default" = _ni7D4r8M;
+        "pkg-4.1.9" = _IzFSIoqv;
+        "default" = _IzFSIoqv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zonis-anime-weapons";

@@ -31,6 +31,16 @@ let
             "file" = "burnt_dt-neoforge-1.21.1-1.2.6.jar";
             "hash" = "sha512-3CvaIHrU0xsHClxd7pq3619Et6gvi6v22RAnpVIXvNa2lSyR4m3/yUPi7aSL4n5IoPkl+Evo68ptYKSHYQdKUA==";
         };
+        _Nk6nyOp9 = {
+            "id" = "Nk6nyOp9";
+            "file" = "burnt_dt-fabric-1.21.1-1.2.7.jar";
+            "hash" = "sha512-VtOw5Dhy6uuuVuckTkN+vFhcFJeT08nvDJn8f2Gmcq2d4PLE2NSt3mjND83/jaX1yZFFIDrrG0+i3J4ySORWXQ==";
+        };
+        _83v5N5UW = {
+            "id" = "83v5N5UW";
+            "file" = "burnt_dt-neoforge-1.21.1-1.2.7.jar";
+            "hash" = "sha512-LFGO8jn4+myDcnmq+iDJsApHdmiFNnV/vGwHIC+X3Os/Bm4QWoO/McISNmDvMoINYBCIizKnpgheP9sG/6m2Eg==";
+        };
     in {
         "cGwLBWZC" = _cGwLBWZC;
         "oIjVeIza" = _oIjVeIza;
@@ -38,13 +48,16 @@ let
         "SdMuu1kt" = _SdMuu1kt;
         "2PnPpuIY" = _2PnPpuIY;
         "lEu29vFE" = _lEu29vFE;
-        "neoforge-1.21.1" = _lEu29vFE;
-        "fabric-1.21.1" = _2PnPpuIY;
+        "Nk6nyOp9" = _Nk6nyOp9;
+        "83v5N5UW" = _83v5N5UW;
+        "neoforge-1.21.1" = _83v5N5UW;
+        "fabric-1.21.1" = _Nk6nyOp9;
         "pkg-1.1.0" = _cGwLBWZC;
         "pkg-1.1.1" = _oIjVeIza;
         "pkg-1.2.1" = _SdMuu1kt;
         "pkg-1.2.6" = _lEu29vFE;
-        "default" = _lEu29vFE;
+        "pkg-1.2.7" = _83v5N5UW;
+        "default" = _83v5N5UW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "burnt-dynamic-trees";

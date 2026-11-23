@@ -91,6 +91,16 @@ let
             "file" = "datetime-display-3.4.jar";
             "hash" = "sha512-h0rBvP1CsoNm8R2MNVdN5hHlA1a60mFVxwl0/nc7ngS6FZiF8xWexuHBJycN0IbfIS3iSSGEjeeatjkgy86iKA==";
         };
+        _JSNaznnj = {
+            "id" = "JSNaznnj";
+            "file" = "dp_dash_dt_display_V3.9.zip";
+            "hash" = "sha512-qGncJfSB+CaX6vgKTmJIHPEZpqoKdVBtM3WaNFkgRSQcxYp4aSBdeVE5hcbWxnYDNZa9KdhKiaHPKvYFaGYtVw==";
+        };
+        _VfwWosMQ = {
+            "id" = "VfwWosMQ";
+            "file" = "datetime-display-3.9.jar";
+            "hash" = "sha512-EmI0dFplbE6Unjv6GJUz1r8xX7OdWOlVKTqzh8kd+v2hrmPR3rQ14SiU7odL0EpzY3ZmKUI39L6tP4JzyvXvGw==";
+        };
     in {
         "3Sa9hvsj" = _3Sa9hvsj;
         "uZ3JjjmZ" = _uZ3JjjmZ;
@@ -110,26 +120,33 @@ let
         "NIMMFmf0" = _NIMMFmf0;
         "If42ystf" = _If42ystf;
         "OKXGjiwt" = _OKXGjiwt;
+        "JSNaznnj" = _JSNaznnj;
+        "VfwWosMQ" = _VfwWosMQ;
         "datapack-1.21.5" = _1zySE9Kd;
         "datapack-1.21.9" = _vkO79Fpl;
         "datapack-1.21.11" = _VFuXtXg1;
         "datapack-26.1" = _If42ystf;
+        "datapack-26.3" = _JSNaznnj;
         "fabric-1.21.5" = _jcxMXNcH;
         "fabric-1.21.9" = _7dgTIqzW;
         "fabric-1.21.11" = _NIMMFmf0;
         "fabric-26.1" = _OKXGjiwt;
+        "fabric-26.3" = _VfwWosMQ;
         "neoforge-1.21.5" = _jcxMXNcH;
         "neoforge-1.21.9" = _7dgTIqzW;
         "neoforge-1.21.11" = _NIMMFmf0;
         "neoforge-26.1" = _OKXGjiwt;
+        "neoforge-26.3" = _VfwWosMQ;
         "quilt-1.21.5" = _jcxMXNcH;
         "quilt-1.21.9" = _7dgTIqzW;
         "quilt-1.21.11" = _NIMMFmf0;
         "quilt-26.1" = _OKXGjiwt;
+        "quilt-26.3" = _VfwWosMQ;
         "forge-1.21.5" = _jcxMXNcH;
         "forge-1.21.9" = _7dgTIqzW;
         "forge-1.21.11" = _NIMMFmf0;
         "forge-26.1" = _OKXGjiwt;
+        "forge-26.3" = _VfwWosMQ;
         "pkg-1.0" = _3Sa9hvsj;
         "pkg-1.0+mod" = _uZ3JjjmZ;
         "pkg-1.1" = _QMFtLJu4;
@@ -148,7 +165,9 @@ let
         "pkg-3.3+mod" = _NIMMFmf0;
         "pkg-3.4" = _If42ystf;
         "pkg-3.4+mod" = _OKXGjiwt;
-        "default" = _OKXGjiwt;
+        "pkg-3.9" = _JSNaznnj;
+        "pkg-3.9+mod" = _VfwWosMQ;
+        "default" = _VfwWosMQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "datetime-display";

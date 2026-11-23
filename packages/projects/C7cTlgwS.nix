@@ -571,6 +571,11 @@ let
             "file" = "HammerAnimations-1.21.1-21.1.57.1.jar";
             "hash" = "sha512-myhGm+bKETc9Ps8lkWTxwEvZIOdFEkU18ak6wDHMmTNXWNtrvL/u0N2z+TUauB3rpz+Y4QrNYeKtOXxu15GaJg==";
         };
+        _QyF9waDI = {
+            "id" = "QyF9waDI";
+            "file" = "HammerAnimations-1.21.1-21.1.57.2.jar";
+            "hash" = "sha512-Bu5YMS9ZR3wvWM1RIqObmvSYnTU4MflTLVG5lbDrqtZFdoZeThYLXxx8sh4/gaMuu78cbgRF/lyu1bJ909gigQ==";
+        };
     in {
         "YmW3TreR" = _YmW3TreR;
         "zOyz1s06" = _zOyz1s06;
@@ -686,6 +691,7 @@ let
         "dj0GknP1" = _dj0GknP1;
         "4l8WFSUB" = _4l8WFSUB;
         "A0xk3efS" = _A0xk3efS;
+        "QyF9waDI" = _QyF9waDI;
         "forge-1.19.2" = _OtCp8QSc;
         "forge-1.12.2" = _4l8WFSUB;
         "forge-1.19.3" = _yM9zmBih;
@@ -694,7 +700,7 @@ let
         "forge-1.20.1" = _5mJx2S6N;
         "neoforge-1.20.1" = _5mJx2S6N;
         "neoforge-1.21" = _bgNIrN54;
-        "neoforge-1.21.1" = _A0xk3efS;
+        "neoforge-1.21.1" = _QyF9waDI;
         "pkg-19.2.1" = _YmW3TreR;
         "pkg-20.1.1" = _zOyz1s06;
         "pkg-12.2.5" = _QthoS3OA;
@@ -809,7 +815,8 @@ let
         "pkg-21.1.57" = _dj0GknP1;
         "pkg-12.2.57.1" = _4l8WFSUB;
         "pkg-21.1.57.1" = _A0xk3efS;
-        "default" = _A0xk3efS;
+        "pkg-21.1.57.2" = _QyF9waDI;
+        "default" = _QyF9waDI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hammer-animations";

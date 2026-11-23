@@ -106,6 +106,11 @@ let
             "file" = "warp_pipes-1.21.1-3.2.1-neoforge-all.jar";
             "hash" = "sha512-GuUH/itxy/WPMyjjgoeQn0N6vq/d7On7HV7qok07v6u1APmz12Sto1tKrpQcyjbv2lMG5CKYaPd+mWewIQzupQ==";
         };
+        _PnxsQFKt = {
+            "id" = "PnxsQFKt";
+            "file" = "warp_pipes-1.21.1-3.3.0-neoforge-all.jar";
+            "hash" = "sha512-O9qAYUtJ3aLiEsJypL1/sdOqItg8emyJYM56qbH+6mmO4lQ2LgmU8Gp4yc1VL4qsTJ22hUT5Jbo41jtjK75wCQ==";
+        };
     in {
         "HREp2H8E" = _HREp2H8E;
         "NrrgwcGn" = _NrrgwcGn;
@@ -128,13 +133,14 @@ let
         "yhLGQeoK" = _yhLGQeoK;
         "GvVJ8WsP" = _GvVJ8WsP;
         "Z1u7LN6E" = _Z1u7LN6E;
+        "PnxsQFKt" = _PnxsQFKt;
         "forge-1.19.2" = _qaonwPZn;
         "forge-1.20.1" = _u90J8otF;
         "neoforge-1.20.1" = _u90J8otF;
         "neoforge-1.20.4" = _lSrXfMuR;
         "neoforge-1.20.6" = _pWT3zLB2;
         "neoforge-1.21" = _FaexbLej;
-        "neoforge-1.21.1" = _Z1u7LN6E;
+        "neoforge-1.21.1" = _PnxsQFKt;
         "pkg-1.0" = _NrrgwcGn;
         "pkg-2.0" = _8VHblS5G;
         "pkg-2.1.0" = _baTUoQaU;
@@ -151,7 +157,8 @@ let
         "pkg-3.1.0" = _yhLGQeoK;
         "pkg-3.2.0" = _GvVJ8WsP;
         "pkg-3.2.1" = _Z1u7LN6E;
-        "default" = _Z1u7LN6E;
+        "pkg-3.3.0" = _PnxsQFKt;
+        "default" = _PnxsQFKt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wenxins-warp-pipes";

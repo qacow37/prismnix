@@ -56,6 +56,16 @@ let
             "file" = "KuvaLich-forge-1.20.1-2.7.0.jar";
             "hash" = "sha512-hciLSsaLljxvMDk0kLQi+GlBGHum2nZPOUMZn6Q2sHiP0HR/Ksij0yFLOyKoWqV/Z9XKDtK2NnWAQ78NZ+yr+A==";
         };
+        _VCnM1awV = {
+            "id" = "VCnM1awV";
+            "file" = "KuvaLich-forge-1.20.1-2.8.0.jar";
+            "hash" = "sha512-mn6pslWUISw4qtMuEBZpf3O+p81bsRKAYma/B8eE1fnqkyoNzYqXcwf0ruAIjyGNNniSopcu78VQN2KuzeIqng==";
+        };
+        _zPJ7umCu = {
+            "id" = "zPJ7umCu";
+            "file" = "KuvaLich-forge-1.20.1-2.8.1.jar";
+            "hash" = "sha512-NWtMoftI6rwR39UEMEO1zIt459B6xIEed5mUnzgKw5udmysbeWsHLjR1yh9GX9wHr22xafAwodMbhAwbkeWNEQ==";
+        };
     in {
         "p35pAe67" = _p35pAe67;
         "UVT4xnOg" = _UVT4xnOg;
@@ -68,7 +78,9 @@ let
         "HVzRKgaS" = _HVzRKgaS;
         "pZP5HGLE" = _pZP5HGLE;
         "IgKgiUxN" = _IgKgiUxN;
-        "forge-1.20.1" = _IgKgiUxN;
+        "VCnM1awV" = _VCnM1awV;
+        "zPJ7umCu" = _zPJ7umCu;
+        "forge-1.20.1" = _zPJ7umCu;
         "forge-1.12.2" = _UVT4xnOg;
         "pkg-2.0.0" = _UVT4xnOg;
         "pkg-2.1.0" = _tcYfvwla;
@@ -80,7 +92,9 @@ let
         "pkg-2.5.0" = _HVzRKgaS;
         "pkg-2.6.0" = _pZP5HGLE;
         "pkg-2.7.0" = _IgKgiUxN;
-        "default" = _IgKgiUxN;
+        "pkg-2.8.0" = _VCnM1awV;
+        "pkg-2.8.1" = _zPJ7umCu;
+        "default" = _zPJ7umCu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kuvalich";

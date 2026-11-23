@@ -711,6 +711,16 @@ let
             "file" = "deepresonance-1.21-6.0.2.jar";
             "hash" = "sha512-mCLSZSOIL52YoCdBjScxM9z0K9xGPWLm052GU3SkO53C7iF3lZn98oxCeMHJWSHQJr67tyIPJnUgLnHMV+JJ5w==";
         };
+        _e8VmFatV = {
+            "id" = "e8VmFatV";
+            "file" = "deepresonance-1.20-5.0.7.jar";
+            "hash" = "sha512-3al0ea7E2iyeuQ0ZsbF6WLxGe9/Lk6ZqsMawCnqTDvbZ2XSZIfhZj5MYC6ONmp3DaGq7+w0pTOIkCDjiWU9Mjg==";
+        };
+        _KhLYTazh = {
+            "id" = "KhLYTazh";
+            "file" = "deepresonance-1.21-6.0.3.jar";
+            "hash" = "sha512-7PUBYIo3zhJ22LV55pxheGv3JpVNJCuHQC2/twzenu+3JwMSH1asDumOK+Uh9P4Xws/+r+sFGLU0Ja2epn0Hwg==";
+        };
     in {
         "RZw1RzRl" = _RZw1RzRl;
         "eHjTeTET" = _eHjTeTET;
@@ -854,6 +864,8 @@ let
         "T2ESZOZB" = _T2ESZOZB;
         "ewGRGkV6" = _ewGRGkV6;
         "Ovv8ukvh" = _Ovv8ukvh;
+        "e8VmFatV" = _e8VmFatV;
+        "KhLYTazh" = _KhLYTazh;
         "forge-1.7.10" = _x31GwgEa;
         "forge-1.8.9" = _O3nIbH9C;
         "forge-1.9" = _2e61taEM;
@@ -873,8 +885,8 @@ let
         "forge-1.19.2" = _sFo0trOx;
         "forge-1.19.3" = _sFo0trOx;
         "forge-1.19.4" = _sFo0trOx;
-        "forge-1.20.1" = _ewGRGkV6;
-        "neoforge-1.21.1" = _Ovv8ukvh;
+        "forge-1.20.1" = _e8VmFatV;
+        "neoforge-1.21.1" = _KhLYTazh;
         "pkg-0.1.0" = _RZw1RzRl;
         "pkg-0.1.1" = _eHjTeTET;
         "pkg-0.2.0" = _z4SE7cb7;
@@ -1017,7 +1029,9 @@ let
         "pkg-1.21-6.0.1" = _T2ESZOZB;
         "pkg-1.20-5.0.6" = _ewGRGkV6;
         "pkg-1.21-6.0.2" = _Ovv8ukvh;
-        "default" = _Ovv8ukvh;
+        "pkg-1.20-5.0.7" = _e8VmFatV;
+        "pkg-1.21-6.0.3" = _KhLYTazh;
+        "default" = _KhLYTazh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "deep-resonance";

@@ -96,6 +96,11 @@ let
             "file" = "gooddreams-1.86.8-forge-1.20.1.jar";
             "hash" = "sha512-rZhm0PF1zbFiOJ7uY/evowGFIFdOsvIbIG7ksDqo9xV9XORy8XMhhCimngDrLE89KYqBPE+7nO9+5g4byeFZqQ==";
         };
+        _aUzsxirP = {
+            "id" = "aUzsxirP";
+            "file" = "gooddreams-1.0.1 Revamped (Demo_Release)-forge-1.20.1.jar";
+            "hash" = "sha512-SYXy6HTql9O/MAOCpbNeQjk9H77jqCDAC8fQai+QizBB9PNFzBo0iV3daVHOHLsPlRXTw8vAqQlLMPewVN91pQ==";
+        };
     in {
         "S2DSuZ9C" = _S2DSuZ9C;
         "5bDy4t7H" = _5bDy4t7H;
@@ -116,7 +121,8 @@ let
         "cdsefiQo" = _cdsefiQo;
         "A1lEn4Rg" = _A1lEn4Rg;
         "QeQmjm5O" = _QeQmjm5O;
-        "forge-1.20.1" = _QeQmjm5O;
+        "aUzsxirP" = _aUzsxirP;
+        "forge-1.20.1" = _aUzsxirP;
         "pkg-1.0.10" = _S2DSuZ9C;
         "pkg-1.15" = _5bDy4t7H;
         "pkg-1.20" = _A6RpL1fc;
@@ -136,7 +142,8 @@ let
         "pkg-1.80.0" = _cdsefiQo;
         "pkg-1.83.6" = _A1lEn4Rg;
         "pkg-1.86.8" = _QeQmjm5O;
-        "default" = _QeQmjm5O;
+        "pkg-1.0.1.Revamped.Demo." = _aUzsxirP;
+        "default" = _aUzsxirP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gooddreams.";

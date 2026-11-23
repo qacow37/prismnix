@@ -291,6 +291,11 @@ let
             "file" = "createdieselgenerators-1.21.1-1.3.15.jar";
             "hash" = "sha512-FQfrzQfTGFqsOubOdotNa6sWy285d20lqFDIEzpNxYJrjdvsoRLXavxk3qo37Bd8rEI3xsNGIcS2XnPYP4q0Pw==";
         };
+        _yzsE99E2 = {
+            "id" = "yzsE99E2";
+            "file" = "createdieselgenerators-1.21.1-1.3.16.jar";
+            "hash" = "sha512-r0O9vOtLNEODPujpf/e1FlFsO9eF77fk/WvvtDb2WWTlPq077HekXvhuuy2AV/nNbIX9ou/4dwfCx77NDjyF+w==";
+        };
     in {
         "GRxJKAXg" = _GRxJKAXg;
         "eSmqqzOx" = _eSmqqzOx;
@@ -350,10 +355,11 @@ let
         "7TPYyw7R" = _7TPYyw7R;
         "Kijd1iDy" = _Kijd1iDy;
         "UoPH8lO1" = _UoPH8lO1;
+        "yzsE99E2" = _yzsE99E2;
         "forge-1.19.2" = _i0FKUeRP;
         "forge-1.20.1" = _DTQVvA5H;
         "forge-1.18.2" = _240H0dbT;
-        "neoforge-1.21.1" = _UoPH8lO1;
+        "neoforge-1.21.1" = _yzsE99E2;
         "pkg-1.19.2-1.0" = _GRxJKAXg;
         "pkg-1.19.2-1.0b" = _eSmqqzOx;
         "pkg-1.19.2-1.0c" = _vTAgqyta;
@@ -412,7 +418,8 @@ let
         "pkg-1.21.1-1.3.13" = _7TPYyw7R;
         "pkg-1.21.1-1.3.14" = _Kijd1iDy;
         "pkg-1.21.1-1.3.15" = _UoPH8lO1;
-        "default" = _UoPH8lO1;
+        "pkg-1.21.1-1.3.16" = _yzsE99E2;
+        "default" = _yzsE99E2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-diesel-generators";

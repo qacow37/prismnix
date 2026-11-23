@@ -821,6 +821,11 @@ let
             "file" = "swinginglanterns-neoforge-26.3-2.1.1.jar";
             "hash" = "sha512-TX7mVuxf3Hdo1OZpzXv1UQWePCb+qDLGV67un2J4rz+ENqYbfF5kwuSbw1r9OB7tfMolerAm98Hy5t8elfTJ3g==";
         };
+        _QHt6lHf3 = {
+            "id" = "QHt6lHf3";
+            "file" = "swinginglanterns-paper-1.0.0.jar";
+            "hash" = "sha512-UyEyDUsrk7P2E2AEQuKX0aPFQdFt51vU0QAPQaBuB0NotFvHzD0GEQxSNriSxqJbdTv6CzDxp4k9ONRc9LDq7w==";
+        };
     in {
         "sp5WRaHk" = _sp5WRaHk;
         "amZ7HaT1" = _amZ7HaT1;
@@ -986,6 +991,7 @@ let
         "bvR9oA3D" = _bvR9oA3D;
         "Tp3V0Tb2" = _Tp3V0Tb2;
         "uEyhBU58" = _uEyhBU58;
+        "QHt6lHf3" = _QHt6lHf3;
         "fabric-1.21.10" = _bh9a396x;
         "fabric-1.21.11" = _bcdxFBXp;
         "fabric-1.21.1" = _2jgKzKM8;
@@ -1019,7 +1025,21 @@ let
         "neoforge-26.1.1" = _jB9Tg9Ln;
         "neoforge-26.1.2" = _jB9Tg9Ln;
         "neoforge-26.3" = _uEyhBU58;
-        "pkg-1.0.0" = _sp5WRaHk;
+        "paper-1.20.1" = _QHt6lHf3;
+        "paper-1.21.1" = _QHt6lHf3;
+        "paper-1.21.10" = _QHt6lHf3;
+        "paper-1.21.11" = _QHt6lHf3;
+        "paper-26.1.2" = _QHt6lHf3;
+        "paper-26.2" = _QHt6lHf3;
+        "paper-26.3" = _QHt6lHf3;
+        "purpur-1.20.1" = _QHt6lHf3;
+        "purpur-1.21.1" = _QHt6lHf3;
+        "purpur-1.21.10" = _QHt6lHf3;
+        "purpur-1.21.11" = _QHt6lHf3;
+        "purpur-26.1.2" = _QHt6lHf3;
+        "purpur-26.2" = _QHt6lHf3;
+        "purpur-26.3" = _QHt6lHf3;
+        "pkg-1.0.0" = _QHt6lHf3;
         "pkg-1.21.10-1.1.0" = _amZ7HaT1;
         "pkg-1.21.10-1.2.0" = _qMYz8fCZ;
         "pkg-1.21.11-1.2.0" = _Qk2aSTKT;
@@ -1099,7 +1119,7 @@ let
         "pkg-26.1-26.1.2-2.1.1" = _jB9Tg9Ln;
         "pkg-26.2-2.1.1" = _5JgZ8tO1;
         "pkg-26.3-2.1.1" = _uEyhBU58;
-        "default" = _uEyhBU58;
+        "default" = _QHt6lHf3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "swinging-lanterns";

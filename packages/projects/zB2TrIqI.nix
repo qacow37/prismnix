@@ -56,6 +56,11 @@ let
             "file" = "pasterdream-0.10.0.jar";
             "hash" = "sha512-mRBxZqNuum0Yqe11obcnkBV7u4ssvuFYPKcVk1+TZ7QZ/ZNsEB3ETJzUMTOC0nnevAMaCg4ugaPD0aoCcglazg==";
         };
+        _7xDyh8jQ = {
+            "id" = "7xDyh8jQ";
+            "file" = "pasterdream-0.2026.11.9.jar";
+            "hash" = "sha512-SeRyy/YxjzodiY8OtaY8KjxSZ7LSqyH+9MhnaMrH7owpp/Z3zoHQXIksILMkcJKooWgYHPBxn77FD2oxM6NjTw==";
+        };
     in {
         "wYaQWa3e" = _wYaQWa3e;
         "h9eFYPG7" = _h9eFYPG7;
@@ -68,7 +73,8 @@ let
         "bL303ouk" = _bL303ouk;
         "2ihKPNgG" = _2ihKPNgG;
         "1pZc8dxO" = _1pZc8dxO;
-        "neoforge-1.21.1" = _1pZc8dxO;
+        "7xDyh8jQ" = _7xDyh8jQ;
+        "neoforge-1.21.1" = _7xDyh8jQ;
         "pkg-0.0.3.3" = _wYaQWa3e;
         "pkg-0.0.4.0" = _h9eFYPG7;
         "pkg-0.9.0" = _Fo6vJEGb;
@@ -80,7 +86,8 @@ let
         "pkg-0.10.0-pre.3" = _bL303ouk;
         "pkg-0.10.0-pre.5" = _2ihKPNgG;
         "pkg-0.10.0" = _1pZc8dxO;
-        "default" = _1pZc8dxO;
+        "pkg-0.2026.11.9" = _7xDyh8jQ;
+        "default" = _7xDyh8jQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neopasterdream";

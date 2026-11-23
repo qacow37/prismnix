@@ -401,6 +401,21 @@ let
             "file" = "SBO-0.7.2-beta.3+26.3-fabric.jar";
             "hash" = "sha512-xvJXwM+FhngVNZH4pU6Q8iGvrYhGKdZjxn4R+fsgqJ3KpDKV1Zc1bFxNRuuWyUjesNJ9gqdggdN1yEZ32DaUVQ==";
         };
+        _W97B8R7q = {
+            "id" = "W97B8R7q";
+            "file" = "SBO-0.8.0+26.1.2-fabric.jar";
+            "hash" = "sha512-Wt8iCt3mdrwME/P32viOMfWxZbns6Q9FfFvNkJX6KFDMkqpBDbd7fDQgB9siX3uaY/4x9VBlejSQA+jp7TOiJQ==";
+        };
+        _HllM4tPE = {
+            "id" = "HllM4tPE";
+            "file" = "SBO-0.8.0+26.2-fabric.jar";
+            "hash" = "sha512-cy8da4Nk7J5XOfZnZBEueZpSJGUmYilAY7ChFPBsYZx4UGY59ltmegzxemruzStpzLq/vrWwyzWBZd3jvZbJ8Q==";
+        };
+        _8LUpZVV5 = {
+            "id" = "8LUpZVV5";
+            "file" = "SBO-0.8.0+26.3-fabric.jar";
+            "hash" = "sha512-oX0rC1ejoTqZFWSOd+s6a77XbuYHo6je8VDUlovIiPQKFJ7j50b/3WUqg02xfS28Gne87w9pcvA0RFb9cVhrHQ==";
+        };
     in {
         "iTmJSP8c" = _iTmJSP8c;
         "cx9WG89Z" = _cx9WG89Z;
@@ -482,16 +497,19 @@ let
         "6KBLU1TD" = _6KBLU1TD;
         "VYPMacEX" = _VYPMacEX;
         "dVRapcog" = _dVRapcog;
+        "W97B8R7q" = _W97B8R7q;
+        "HllM4tPE" = _HllM4tPE;
+        "8LUpZVV5" = _8LUpZVV5;
         "fabric-1.21.5" = _aqgOE9q4;
         "fabric-1.21.7" = _a4L52wAT;
         "fabric-1.21.8" = _a4L52wAT;
         "fabric-1.21.10" = _9PH6dAsU;
         "fabric-1.21.11" = _Y53FGlJj;
-        "fabric-26.1" = _6KBLU1TD;
-        "fabric-26.1.1" = _6KBLU1TD;
-        "fabric-26.1.2" = _6KBLU1TD;
-        "fabric-26.2" = _VYPMacEX;
-        "fabric-26.3" = _dVRapcog;
+        "fabric-26.1" = _W97B8R7q;
+        "fabric-26.1.1" = _W97B8R7q;
+        "fabric-26.1.2" = _W97B8R7q;
+        "fabric-26.2" = _HllM4tPE;
+        "fabric-26.3" = _8LUpZVV5;
         "pkg-beta0.0.1" = _iTmJSP8c;
         "pkg-beta0.0.2" = _cx9WG89Z;
         "pkg-beta0.0.3" = _UqLhP62Y;
@@ -569,7 +587,10 @@ let
         "pkg-0.7.2-beta.3-26.1.X" = _6KBLU1TD;
         "pkg-0.7.2-beta.3-26.2" = _VYPMacEX;
         "pkg-0.7.2-beta.3-26.3" = _dVRapcog;
-        "default" = _dVRapcog;
+        "pkg-0.8.0-26.1.X" = _W97B8R7q;
+        "pkg-0.8.0-26.2" = _HllM4tPE;
+        "pkg-0.8.0-26.3" = _8LUpZVV5;
+        "default" = _8LUpZVV5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyblock-overhaul";

@@ -61,6 +61,21 @@ let
             "file" = "astolfovisuals-2.0+26.3.jar";
             "hash" = "sha512-KuuFFtWFBVrbJ5z0Sp173yY4+3kE6xeZNz4/j+VKB1yDsPEQVgyoCWYWuFoBAhsEoarJIWvZ6hGInCa+jmI+LA==";
         };
+        _OHKgJmuc = {
+            "id" = "OHKgJmuc";
+            "file" = "astolfovisuals-2.0+1.21.11.jar";
+            "hash" = "sha512-amc+IJE5d3HSCmOsiw3XpQs38WqdPbBmZPRArnxV+x+AAaGYB0uiPg1mRd4wRv+912IzUeBJ8Idyo85KXWWehA==";
+        };
+        _RB0JR8Gq = {
+            "id" = "RB0JR8Gq";
+            "file" = "astolfovisuals-2.0+26.2.jar";
+            "hash" = "sha512-EIngFSP52hALB36WFelu21RjUg1dRAkKYLJuy6za9hTqkCLJQ/yv1aMaNwGDuFt7cw9nmml72+nDTkJPQHaqxw==";
+        };
+        _cemArq2X = {
+            "id" = "cemArq2X";
+            "file" = "astolfovisuals-2.0+26.3.jar";
+            "hash" = "sha512-UQ+ZIBsSn+D1CcRBKiJJMSl0n88dw90f7Vls5swPFp/ZlRBsGhsSVpdd2szWPdPqYo7kZ6kze8nX9wy03cnx4w==";
+        };
     in {
         "gfsPRLGC" = _gfsPRLGC;
         "LIXVOs0L" = _LIXVOs0L;
@@ -74,20 +89,23 @@ let
         "cxYmfpBz" = _cxYmfpBz;
         "tggXqI0P" = _tggXqI0P;
         "zzDarXDW" = _zzDarXDW;
+        "OHKgJmuc" = _OHKgJmuc;
+        "RB0JR8Gq" = _RB0JR8Gq;
+        "cemArq2X" = _cemArq2X;
         "fabric-1.21.4" = _Z7celnuR;
         "fabric-1.21.3" = _nCmL1YFQ;
         "fabric-1.21.2" = _GkAoyGOW;
-        "fabric-1.21.11" = _cxYmfpBz;
-        "fabric-26.2" = _tggXqI0P;
-        "fabric-26.3" = _zzDarXDW;
+        "fabric-1.21.11" = _OHKgJmuc;
+        "fabric-26.2" = _RB0JR8Gq;
+        "fabric-26.3" = _cemArq2X;
         "pkg-0.1" = _gfsPRLGC;
         "pkg-0.2" = _LIXVOs0L;
         "pkg-1.0" = _2YuPZsDV;
         "pkg-1.1" = _3IQdNQT7;
         "pkg-1.2" = _GkAoyGOW;
         "pkg-1.3" = _ifs94QbO;
-        "pkg-2.0" = _zzDarXDW;
-        "default" = _zzDarXDW;
+        "pkg-2.0" = _cemArq2X;
+        "default" = _cemArq2X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "astolforeborn";

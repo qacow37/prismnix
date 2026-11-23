@@ -136,6 +136,11 @@ let
             "file" = "NGB_26.2.zip";
             "hash" = "sha512-ykNMYiOmCDmmyZpLmZ+ms9cT56P7NiF5G+iGrfnu0lzHtqCr0LqxJdf8dGNU/+7JAbIT5yAEtMsshSbRL4/Txg==";
         };
+        _3oZpjN7T = {
+            "id" = "3oZpjN7T";
+            "file" = "NGB_26.3.zip";
+            "hash" = "sha512-aS3tkmmjuxxbRz+n/HVYHuwg6MgUi4Y1wI9czPcjPzyuIkVRvcUjSsq/qcCaaUnGetH4PPKt9z5fVQaO7kyUtA==";
+        };
     in {
         "Sr6pq0GR" = _Sr6pq0GR;
         "kObs4wn6" = _kObs4wn6;
@@ -164,6 +169,7 @@ let
         "xjSjPaWc" = _xjSjPaWc;
         "35edg9uA" = _35edg9uA;
         "DYDUirS7" = _DYDUirS7;
+        "3oZpjN7T" = _3oZpjN7T;
         "minecraft-1.13" = _Sr6pq0GR;
         "minecraft-1.13.1" = _Sr6pq0GR;
         "minecraft-1.13.2" = _Sr6pq0GR;
@@ -239,9 +245,10 @@ let
         "minecraft-26.1.1" = _35edg9uA;
         "minecraft-26.1.2" = _35edg9uA;
         "minecraft-26.2" = _DYDUirS7;
+        "minecraft-26.3" = _3oZpjN7T;
         "pkg-2" = _ysj3qYwX;
-        "pkg-1" = _DYDUirS7;
-        "default" = _DYDUirS7;
+        "pkg-1" = _3oZpjN7T;
+        "default" = _3oZpjN7T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glass-block";

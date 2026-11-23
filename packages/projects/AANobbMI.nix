@@ -1361,6 +1361,26 @@ let
             "file" = "sodium-neoforge-0.9.3-beta.5+mc26.3.jar";
             "hash" = "sha512-pGDXVC3KjqRh0W0vFyv96Tvt6VUPwHbUkQQZuKYsHcbBV69zyCd1/3zIlZBLqD7qwWCJJAvuxrretTzw/aRfZw==";
         };
+        _tFcTKXDx = {
+            "id" = "tFcTKXDx";
+            "file" = "sodium-fabric-0.9.3+mc26.3.jar";
+            "hash" = "sha512-+gh2MeRne1cTNpdEUrotITYMT4RDJcH+FpXuOQfDZ5ISrqkIFAXGeT1VkwuIZh1ithU0JFNxmifPERhJRmA9xA==";
+        };
+        _2R9btaY6 = {
+            "id" = "2R9btaY6";
+            "file" = "sodium-neoforge-0.9.3+mc26.3.jar";
+            "hash" = "sha512-KzkU5jLJIf88mShd58fFTlC9qNhtGVIFpd4udzKEnfWY9yMzeKXMYcLvm6OdPABL8cVH/oWlG79JahBPsWzgPw==";
+        };
+        _LHznwVbu = {
+            "id" = "LHznwVbu";
+            "file" = "sodium-neoforge-0.9.4-beta.1+mc26.3.jar";
+            "hash" = "sha512-5jqQza66mPNYeWYAUDrtWYeAsPhP94relY7dAw+RPZL5IhpYhkiPYglVn5x1YCh9h/pgeZogZ9EsW3nqw9EPBA==";
+        };
+        _6etTPjD5 = {
+            "id" = "6etTPjD5";
+            "file" = "sodium-fabric-0.9.4-beta.1+mc26.3.jar";
+            "hash" = "sha512-iwhVmP6a4EbSjZoRN2rJ4HOITgW/JqmI33jaqsqISCFBizWMv/TcVhDUgXCCtWq+V7w5L4pndRca3OMDBMO45A==";
+        };
     in {
         "yaoBL9D9" = _yaoBL9D9;
         "YAGZ1cCS" = _YAGZ1cCS;
@@ -1634,6 +1654,10 @@ let
         "WhPNIBJU" = _WhPNIBJU;
         "v7Lw0h1m" = _v7Lw0h1m;
         "CT6qQx01" = _CT6qQx01;
+        "tFcTKXDx" = _tFcTKXDx;
+        "2R9btaY6" = _2R9btaY6;
+        "LHznwVbu" = _LHznwVbu;
+        "6etTPjD5" = _6etTPjD5;
         "fabric-1.16.3" = _YAGZ1cCS;
         "fabric-1.16.4" = _YAGZ1cCS;
         "fabric-1.16.5" = _YAGZ1cCS;
@@ -1674,7 +1698,7 @@ let
         "fabric-26.2" = _xJZxADzI;
         "fabric-26.3-rc-1" = _FqtXxXy2;
         "fabric-26.3-rc-2" = _FqtXxXy2;
-        "fabric-26.3" = _v7Lw0h1m;
+        "fabric-26.3" = _6etTPjD5;
         "quilt-1.18.2" = _74Y5Z8fo;
         "quilt-1.19" = _rAfhHfow;
         "quilt-1.19.1" = _rAfhHfow;
@@ -1705,7 +1729,7 @@ let
         "neoforge-26.2" = _DmnNKsfS;
         "neoforge-26.3-rc-1" = _3rIu1i7C;
         "neoforge-26.3-rc-2" = _3rIu1i7C;
-        "neoforge-26.3" = _CT6qQx01;
+        "neoforge-26.3" = _LHznwVbu;
         "pkg-mc1.16.3-0.1.0" = _yaoBL9D9;
         "pkg-mc1.16.5-0.2.0" = _YAGZ1cCS;
         "pkg-mc1.17.1-0.3.0" = _1b0GhKHj;
@@ -1978,7 +2002,11 @@ let
         "pkg-mc1.21.4-0.6.4-neoforge" = _WhPNIBJU;
         "pkg-mc26.3-0.9.3-beta.5-fabric" = _v7Lw0h1m;
         "pkg-mc26.3-0.9.3-beta.5-neoforge" = _CT6qQx01;
-        "default" = _CT6qQx01;
+        "pkg-mc26.3-0.9.3-fabric" = _tFcTKXDx;
+        "pkg-mc26.3-0.9.3-neoforge" = _2R9btaY6;
+        "pkg-mc26.3-0.9.4-beta.1-neoforge" = _LHznwVbu;
+        "pkg-mc26.3-0.9.4-beta.1-fabric" = _6etTPjD5;
+        "default" = _6etTPjD5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sodium";

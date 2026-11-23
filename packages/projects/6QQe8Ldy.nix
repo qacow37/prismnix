@@ -2691,6 +2691,26 @@ let
             "file" = "hodgepodge-2.7.224.jar";
             "hash" = "sha512-D0D2JYDpTI6gem3+zR8mWXsB3wlJL04BUbfX9ga/Rq871blL+SD0mRJnnlT3HKKfJp53CNnpRWZQ3phd+nCd3Q==";
         };
+        _IrkSwjX4 = {
+            "id" = "IrkSwjX4";
+            "file" = "hodgepodge-2.8.5.jar";
+            "hash" = "sha512-FlqaeRdd7hLiI1Hh3F+vGDxS32cYweKm57aw343JitfA+eRbZpop3GWKFOxP+MPGnvl2kXWeFGCURMPnii4RMA==";
+        };
+        _Yok53RKQ = {
+            "id" = "Yok53RKQ";
+            "file" = "hodgepodge-2.7.225.jar";
+            "hash" = "sha512-8DHuQSW18oCNmlsXjY64QXj4lH8gDTMRhiV2eJgPEFYo6Y2n6zthKzHi4DvdsuS/2wYydrZOX6oFwjM+q1f0rA==";
+        };
+        _1VPeiV73 = {
+            "id" = "1VPeiV73";
+            "file" = "hodgepodge-2.7.226.jar";
+            "hash" = "sha512-FIQ9hu1IEXj2Cb71+200AnFR7FckdBQIsalNxveo5d8yz1TfEOsSin70cn4LzyDoiy/G1FNqx2+/1/w+QnJE7g==";
+        };
+        _aQCDyZW0 = {
+            "id" = "aQCDyZW0";
+            "file" = "hodgepodge-2.8.6.jar";
+            "hash" = "sha512-LWb/jC/a36QXp6/1sBKZdJCNr9O/Q+RNC5nSuvRm5QbSw09fxEOUJiwS6N06e+FVyzZMJmlZNuhXTwFR8Mlovw==";
+        };
     in {
         "hXRM2ICI" = _hXRM2ICI;
         "gLPkAGq1" = _gLPkAGq1;
@@ -3230,7 +3250,11 @@ let
         "zeGJynTr" = _zeGJynTr;
         "Q7VKuU43" = _Q7VKuU43;
         "caGmORvC" = _caGmORvC;
-        "forge-1.7.10" = _caGmORvC;
+        "IrkSwjX4" = _IrkSwjX4;
+        "Yok53RKQ" = _Yok53RKQ;
+        "1VPeiV73" = _1VPeiV73;
+        "aQCDyZW0" = _aQCDyZW0;
+        "forge-1.7.10" = _aQCDyZW0;
         "pkg-2.0.1" = _hXRM2ICI;
         "pkg-2.0.2" = _gLPkAGq1;
         "pkg-2.0.3" = _dIGGZkfj;
@@ -3764,7 +3788,11 @@ let
         "pkg-2.8.4" = _zeGJynTr;
         "pkg-2.7.223" = _Q7VKuU43;
         "pkg-2.7.224" = _caGmORvC;
-        "default" = _caGmORvC;
+        "pkg-2.8.5" = _IrkSwjX4;
+        "pkg-2.7.225" = _Yok53RKQ;
+        "pkg-2.7.226" = _1VPeiV73;
+        "pkg-2.8.6" = _aQCDyZW0;
+        "default" = _aQCDyZW0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hodgepodge";

@@ -211,6 +211,11 @@ let
             "file" = "revelationary-1.5.3+26.2.jar";
             "hash" = "sha512-SdDecttBWeuBV29C9IGyN8axuVSeGI624Zc4XPGe7N/FhgxA/fTDo6zEWg03xppGYXsVWqG1MLjv4R/pZ8ZS9w==";
         };
+        _ckEJGKXB = {
+            "id" = "ckEJGKXB";
+            "file" = "revelationary-1.6.0+26.3.jar";
+            "hash" = "sha512-nRlXr9aV5RjMogtjhcmQaqJ40/BpEhY42uWdXqzQJKs+S7xWuCEUp/0y7WhDiMokZXvuHRS8mUKHgh5ZgRI1ZA==";
+        };
     in {
         "GZpIJEDj" = _GZpIJEDj;
         "jvMieDnd" = _jvMieDnd;
@@ -254,6 +259,7 @@ let
         "3XGPyKNr" = _3XGPyKNr;
         "775bsBpl" = _775bsBpl;
         "pjeE2UUW" = _pjeE2UUW;
+        "ckEJGKXB" = _ckEJGKXB;
         "fabric-1.18.2" = _TTTlCzoW;
         "fabric-1.19.2" = _2d9fuEjc;
         "fabric-1.19.3" = _W0utXf6n;
@@ -272,6 +278,7 @@ let
         "fabric-26.1" = _fOEGIdAP;
         "fabric-26.1.1" = _fOEGIdAP;
         "fabric-26.2" = _pjeE2UUW;
+        "fabric-26.3" = _ckEJGKXB;
         "quilt-1.19.3" = _W0utXf6n;
         "quilt-1.19.2" = _2d9fuEjc;
         "quilt-1.19.4" = _dTnvfIjj;
@@ -313,7 +320,8 @@ let
         "pkg-1.5.1+1.21.1" = _3XGPyKNr;
         "pkg-1.5.2+1.21.1" = _775bsBpl;
         "pkg-1.5.3+26.2" = _pjeE2UUW;
-        "default" = _pjeE2UUW;
+        "pkg-1.6.0+26.3" = _ckEJGKXB;
+        "default" = _ckEJGKXB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "revelationary";

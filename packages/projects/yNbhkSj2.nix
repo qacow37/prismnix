@@ -601,6 +601,41 @@ let
             "file" = "firstaid-1.3.5+neoforge26.3.jar";
             "hash" = "sha512-wiA31uNdkWvLun4idV0HBngLhN/4Tbid7pICKU/iKtroTqB2GWkJTjUX5OJbMuZyGq525JZ2Vw29Qtl2tnqE+Q==";
         };
+        _uCXZGCn6 = {
+            "id" = "uCXZGCn6";
+            "file" = "firstaid-1.3.6+neoforge26.3.jar";
+            "hash" = "sha512-3wmcD6OeeHRRfmdUQ9KQrkKRj6aipHeHgx0wifsYgjM93zvGKzCmxe4KlH+JeB7MJ5jPoOvnKRhw0pOL096Zgg==";
+        };
+        _Z4uVspcj = {
+            "id" = "Z4uVspcj";
+            "file" = "firstaid-1.3.6+neoforge26.2.jar";
+            "hash" = "sha512-pIuTzgNvGn0wgggodc2EGy4OlNgJQdeONEtw4qqf77w1fG3zxZ5tOy8wncPqrXsREBOfaG/8gqoFSGhm4eKtsA==";
+        };
+        _WLe7DUE0 = {
+            "id" = "WLe7DUE0";
+            "file" = "firstaid-1.3.6+neoforge1.21.1.jar";
+            "hash" = "sha512-c2NvaAAIWCn2N/dhrqPf0dXIHf2RWwd1oqTQ532pOreIm3mcXHsubz5hlrksyIOaBptL5beFySnQSgy1OFp0/g==";
+        };
+        _zfQwDgqy = {
+            "id" = "zfQwDgqy";
+            "file" = "firstaid-1.3.6+forge1.20.1.jar";
+            "hash" = "sha512-2KG07RBdWQoCIaiY+Sdxxe5NaBoRbN/94tKHyvy+Tx4HTlDwUXGghlWP04VuknCEaUWdsa9Jj0P0PUuoWVgvog==";
+        };
+        _OixWn9II = {
+            "id" = "OixWn9II";
+            "file" = "firstaid-1.3.6+fabric26.3.jar";
+            "hash" = "sha512-fPn6X9KlW1aOfbbSHZJs7Qi6DsooQsQZQQo6IB518TMlfhO2lqBPxsg4h37qlyV4O9qf7ZLGH4qSeH/J7N3d8A==";
+        };
+        _OyACm3hZ = {
+            "id" = "OyACm3hZ";
+            "file" = "firstaid-1.3.6+fabric26.2.jar";
+            "hash" = "sha512-Vx9+ceWU6xya7lUkE28dyEPRKKSm7bE68+TZLePgqR5raONMAO6jiXWGL98NqrtxrDupC+g7/aDaiHWRRrtPsw==";
+        };
+        _WuJ9FDWc = {
+            "id" = "WuJ9FDWc";
+            "file" = "firstaid-1.3.6+fabric1.21.1.jar";
+            "hash" = "sha512-11tW7VwFTpPmtJpT4Dz+VgxbsSix0Nbr3U/NnAwOuesGGFBXhm/PyIGHisASM0sV4uH4GHx3TjrqXjKHIooDog==";
+        };
     in {
         "EydD9uQ1" = _EydD9uQ1;
         "rzWKUu5J" = _rzWKUu5J;
@@ -722,24 +757,31 @@ let
         "YxmBZVOr" = _YxmBZVOr;
         "KquA0FCW" = _KquA0FCW;
         "oIApXHGd" = _oIApXHGd;
-        "neoforge-1.21.1" = _YxmBZVOr;
+        "uCXZGCn6" = _uCXZGCn6;
+        "Z4uVspcj" = _Z4uVspcj;
+        "WLe7DUE0" = _WLe7DUE0;
+        "zfQwDgqy" = _zfQwDgqy;
+        "OixWn9II" = _OixWn9II;
+        "OyACm3hZ" = _OyACm3hZ;
+        "WuJ9FDWc" = _WuJ9FDWc;
+        "neoforge-1.21.1" = _WLe7DUE0;
         "neoforge-1.21.11" = _Vo0Y0kf5;
-        "neoforge-1.21.2" = _YxmBZVOr;
-        "neoforge-1.21.3" = _YxmBZVOr;
-        "neoforge-1.21.4" = _YxmBZVOr;
+        "neoforge-1.21.2" = _WLe7DUE0;
+        "neoforge-1.21.3" = _WLe7DUE0;
+        "neoforge-1.21.4" = _WLe7DUE0;
         "neoforge-26.1" = _MHPaqwo3;
         "neoforge-26.1.1" = _MHPaqwo3;
         "neoforge-26.1.2" = _MHPaqwo3;
-        "neoforge-26.2" = _KquA0FCW;
-        "neoforge-26.3" = _oIApXHGd;
+        "neoforge-26.2" = _Z4uVspcj;
+        "neoforge-26.3" = _uCXZGCn6;
         "fabric-1.21.11" = _wXBUJ24f;
-        "fabric-1.21.1" = _LH0i2S52;
+        "fabric-1.21.1" = _WuJ9FDWc;
         "fabric-26.1" = _d8N4OMtf;
         "fabric-26.1.1" = _d8N4OMtf;
         "fabric-26.1.2" = _d8N4OMtf;
-        "fabric-26.2" = _RW3TgH5V;
-        "fabric-26.3" = _SAKd2HZK;
-        "forge-1.20.1" = _GvQJDGBo;
+        "fabric-26.2" = _OyACm3hZ;
+        "fabric-26.3" = _OixWn9II;
+        "forge-1.20.1" = _zfQwDgqy;
         "pkg-0.1.0" = _RBvVEDMd;
         "pkg-1.1.0-pre" = _gy9jEwPR;
         "pkg-1.1.0" = _akivFgCc;
@@ -826,7 +868,14 @@ let
         "pkg-1.3.5+neoforge1.21.1" = _YxmBZVOr;
         "pkg-1.3.5+neoforge26.2" = _KquA0FCW;
         "pkg-1.3.5+neoforge26.3" = _oIApXHGd;
-        "default" = _oIApXHGd;
+        "pkg-1.3.6+neoforge26.3" = _uCXZGCn6;
+        "pkg-1.3.6+neoforge26.2" = _Z4uVspcj;
+        "pkg-1.3.6+neoforge1.21.1" = _WLe7DUE0;
+        "pkg-1.3.6+forge1.20.1" = _zfQwDgqy;
+        "pkg-1.3.6+fabric26.3" = _OixWn9II;
+        "pkg-1.3.6+fabric26.2" = _OyACm3hZ;
+        "pkg-1.3.6+fabric1.21.1" = _WuJ9FDWc;
+        "default" = _WuJ9FDWc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "first-aid-new";

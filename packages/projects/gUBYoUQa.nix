@@ -126,6 +126,21 @@ let
             "file" = "hoplite_tweaks-1.3.10-fabric+26.3.jar";
             "hash" = "sha512-lSAZ1jhpNpiWGEiZqNW87uvn4VInKaqB7VbrYafKPGEWDeQt37C8xFaBE3GUyFR8C4YgKlOuH0mdMCdG9MJ4xQ==";
         };
+        _fmiQ4ryK = {
+            "id" = "fmiQ4ryK";
+            "file" = "hoplite_tweaks-1.3.12-fabric+1.21.11.jar";
+            "hash" = "sha512-2PAuo8tdNc3ks4btNLcmggh6vtWj8aRw+KQz5BVtZo0qDD1BU0C+NZXXHAJ9TDXbgKEA6WHmR7surc4TfK16bQ==";
+        };
+        _cIBD0naQ = {
+            "id" = "cIBD0naQ";
+            "file" = "hoplite_tweaks-1.3.12-fabric+26.1.2.jar";
+            "hash" = "sha512-QxaXRFPEhIP7ynCbMy/BRVfttbV/2oWpwv/ikRuzZHzxC26/h1Bg5ci1NnCp1WBHwvaAx7cOCqjPruDLPhAY9Q==";
+        };
+        _AimF4eJ0 = {
+            "id" = "AimF4eJ0";
+            "file" = "hoplite_tweaks-1.3.12-fabric+26.2.jar";
+            "hash" = "sha512-nSY++Cp9tUes7u+kYjZMGwFqTNXDy29SKUiuPgXFTmfdABl01W3goROt5ngFjjkXRMR3Xqi+qy4KTw3orMJmBg==";
+        };
     in {
         "EnY42Vj1" = _EnY42Vj1;
         "VxsZ2ojL" = _VxsZ2ojL;
@@ -152,11 +167,14 @@ let
         "W9mi7EQY" = _W9mi7EQY;
         "GpGYadTN" = _GpGYadTN;
         "8JM35chS" = _8JM35chS;
-        "fabric-1.21.11" = _4J4Td6Bq;
-        "fabric-26.1" = _W9mi7EQY;
-        "fabric-26.1.1" = _W9mi7EQY;
-        "fabric-26.1.2" = _W9mi7EQY;
-        "fabric-26.2" = _GpGYadTN;
+        "fmiQ4ryK" = _fmiQ4ryK;
+        "cIBD0naQ" = _cIBD0naQ;
+        "AimF4eJ0" = _AimF4eJ0;
+        "fabric-1.21.11" = _fmiQ4ryK;
+        "fabric-26.1" = _cIBD0naQ;
+        "fabric-26.1.1" = _cIBD0naQ;
+        "fabric-26.1.2" = _cIBD0naQ;
+        "fabric-26.2" = _AimF4eJ0;
         "fabric-26.3" = _8JM35chS;
         "pkg-1.3.3-fabric+1.21.11" = _EnY42Vj1;
         "pkg-1.3.3-fabric+26.1.2" = _VxsZ2ojL;
@@ -183,7 +201,10 @@ let
         "pkg-1.3.10-fabric+26.1.2" = _W9mi7EQY;
         "pkg-1.3.10-fabric+26.2" = _GpGYadTN;
         "pkg-1.3.10-fabric+26.3" = _8JM35chS;
-        "default" = _8JM35chS;
+        "pkg-1.3.12-fabric+1.21.11" = _fmiQ4ryK;
+        "pkg-1.3.12-fabric+26.1.2" = _cIBD0naQ;
+        "pkg-1.3.12-fabric+26.2" = _AimF4eJ0;
+        "default" = _AimF4eJ0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hoplite-tweaks";

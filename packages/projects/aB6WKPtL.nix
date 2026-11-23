@@ -116,6 +116,11 @@ let
             "file" = "magicalscepter-1.2.1+26.2.jar";
             "hash" = "sha512-TpZIF0U3hPIo+Sx4GF1k1PyUqKnlm/EngZmurP8gfLFNePG+5ybZgP9kVGL9dcqu3bQk4xcy4EQUaWrpTraJAA==";
         };
+        _gUZFnPXx = {
+            "id" = "gUZFnPXx";
+            "file" = "magicalscepter-1.2.2+26.3.jar";
+            "hash" = "sha512-aciPKCZoPKFJFHb3kL2nSJbd558qbRQnpVuU2nertrZ1eycKD8tp3TYjiknRQ1Rl+MawIo5f9HCFoY6onC74dQ==";
+        };
     in {
         "r6TEvt13" = _r6TEvt13;
         "hJMAxDo9" = _hJMAxDo9;
@@ -140,6 +145,7 @@ let
         "c8cKqTeB" = _c8cKqTeB;
         "UOLb1ye5" = _UOLb1ye5;
         "viR2JaJM" = _viR2JaJM;
+        "gUZFnPXx" = _gUZFnPXx;
         "fabric-1.21.4-rc3" = _r6TEvt13;
         "fabric-1.21.4" = _CfUNU3d8;
         "fabric-1.21.5" = _OYFynPwJ;
@@ -151,6 +157,7 @@ let
         "fabric-1.21.11" = _c8cKqTeB;
         "fabric-26.1.2" = _UOLb1ye5;
         "fabric-26.2" = _viR2JaJM;
+        "fabric-26.3" = _gUZFnPXx;
         "pkg-0.1.0+mc.1.21.4-rc3" = _r6TEvt13;
         "pkg-0.1.0+mc.1.21.4" = _hJMAxDo9;
         "pkg-0.1.1+mc.1.21.4" = _QrhU1yiR;
@@ -174,7 +181,8 @@ let
         "pkg-1.2.1+mc.1.21.11" = _c8cKqTeB;
         "pkg-1.2.1+26.1.2" = _UOLb1ye5;
         "pkg-1.2.1+26.2" = _viR2JaJM;
-        "default" = _viR2JaJM;
+        "pkg-1.2.2+26.3" = _gUZFnPXx;
+        "default" = _gUZFnPXx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "magical-scepter";

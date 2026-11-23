@@ -348,7 +348,7 @@
         "fabric" = "0.20.1";
         "quilt" = "0.31.0-beta.6";
         "forge" = "64.1.6";
-        "neoforge" = "26.1.2.128";
+        "neoforge" = "26.1.2.129";
         "liteloader" = null;
     }
     {

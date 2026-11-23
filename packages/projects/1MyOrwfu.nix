@@ -81,6 +81,11 @@ let
             "file" = "Nautilus3D-26.2.zip";
             "hash" = "sha512-Y5zAP13nReFVrZ/zXBqcaihhRyMgvQPq6FGa+7WzH65d+tFCqExA/61oo/6dZXKrtYnxX8F35VwSD9N+jjFwSg==";
         };
+        _OjPIKNPa = {
+            "id" = "OjPIKNPa";
+            "file" = "Nautilus3D-26.3.zip";
+            "hash" = "sha512-ElJsQtH5Yp1kK1hvBSMjz5l9OV+3y/W2774lQeK8BwpDQC/jK4naMpfM1dVU6rH4FKB5c3iCoqX3fSZt7KAgMA==";
+        };
     in {
         "ewNb5hCx" = _ewNb5hCx;
         "pn6dbtsr" = _pn6dbtsr;
@@ -98,6 +103,7 @@ let
         "inNvmAu3" = _inNvmAu3;
         "eJtiM59o" = _eJtiM59o;
         "a5PFyRlb" = _a5PFyRlb;
+        "OjPIKNPa" = _OjPIKNPa;
         "minecraft-1.20" = _ewNb5hCx;
         "minecraft-1.20.1" = _ewNb5hCx;
         "minecraft-1.20.2" = _BYoL3YKt;
@@ -120,6 +126,17 @@ let
         "minecraft-26.1.1" = _a5PFyRlb;
         "minecraft-26.1.2" = _a5PFyRlb;
         "minecraft-26.2" = _a5PFyRlb;
+        "minecraft-26.3" = _OjPIKNPa;
+        "minecraft-26.4-snapshot-1" = _OjPIKNPa;
+        "minecraft-26.4-snapshot-4" = _OjPIKNPa;
+        "minecraft-26.4-snapshot-7" = _OjPIKNPa;
+        "minecraft-26.4-snapshot-10" = _OjPIKNPa;
+        "minecraft-26.4-snapshot-9" = _OjPIKNPa;
+        "minecraft-26.4-snapshot-6" = _OjPIKNPa;
+        "minecraft-26.4-snapshot-3" = _OjPIKNPa;
+        "minecraft-26.4-snapshot-2" = _OjPIKNPa;
+        "minecraft-26.4-snapshot-5" = _OjPIKNPa;
+        "minecraft-26.4-snapshot-8" = _OjPIKNPa;
         "pkg-V1.9" = _ewNb5hCx;
         "pkg-V1.9.1" = _pn6dbtsr;
         "pkg-V2.0.0" = _6yRlqNxG;
@@ -136,7 +153,8 @@ let
         "pkg-V2.6" = _inNvmAu3;
         "pkg-V2.6.1" = _eJtiM59o;
         "pkg-26.2" = _a5PFyRlb;
-        "default" = _a5PFyRlb;
+        "pkg-26.3" = _OjPIKNPa;
+        "default" = _OjPIKNPa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nautilus3d";

@@ -66,6 +66,11 @@ let
             "file" = "OutlinedOres 26.3.zip";
             "hash" = "sha512-wLfBVC7fNR4gmHC9NIwPpkmk/VO2A+cN9bsqQw5As5bTNcPB6spCJfnMU9fWc/ZER6EUITCtmekEZyJeOopAsA==";
         };
+        _8gUYl1oZ = {
+            "id" = "8gUYl1oZ";
+            "file" = "OutlinedOres 26.3.zip";
+            "hash" = "sha512-wLfBVC7fNR4gmHC9NIwPpkmk/VO2A+cN9bsqQw5As5bTNcPB6spCJfnMU9fWc/ZER6EUITCtmekEZyJeOopAsA==";
+        };
     in {
         "t4EsqCYz" = _t4EsqCYz;
         "zOULsMmx" = _zOULsMmx;
@@ -80,6 +85,7 @@ let
         "GSSbcftx" = _GSSbcftx;
         "ztVn9WfD" = _ztVn9WfD;
         "ju3YDOW7" = _ju3YDOW7;
+        "8gUYl1oZ" = _8gUYl1oZ;
         "minecraft-1.20" = _ju3YDOW7;
         "minecraft-1.20.1" = _ju3YDOW7;
         "minecraft-1.20.2" = _ju3YDOW7;
@@ -119,7 +125,7 @@ let
         "minecraft-26.1.1" = _ju3YDOW7;
         "minecraft-26.1.2" = _ju3YDOW7;
         "minecraft-26.2" = _ju3YDOW7;
-        "minecraft-26.3" = _ju3YDOW7;
+        "minecraft-26.3" = _8gUYl1oZ;
         "pkg-1.20-1.20.1" = _t4EsqCYz;
         "pkg-1.20.2" = _zOULsMmx;
         "pkg-1.20.3-1.20.4" = _5CLt0S3a;
@@ -133,7 +139,8 @@ let
         "pkg-1.21.9-1.21.10" = _GSSbcftx;
         "pkg-1.21.11" = _ztVn9WfD;
         "pkg-1.16-26.3" = _ju3YDOW7;
-        "default" = _ju3YDOW7;
+        "pkg-26.3" = _8gUYl1oZ;
+        "default" = _8gUYl1oZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "outlinedores";

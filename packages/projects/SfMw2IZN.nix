@@ -231,6 +231,11 @@ let
             "file" = "nvidium-0.4.4-beta7-26.3.jar";
             "hash" = "sha512-Ns/i8O/by/ROelNnRB6wZVJXVh+SlDSxqoIboEQvqEUjLK5zIOfa3SbyliFQuKQsFuT9HdPZTWpL0L+0b9/20Q==";
         };
+        _acRsteF6 = {
+            "id" = "acRsteF6";
+            "file" = "nvidium-0.4.4-beta8-26.3.jar";
+            "hash" = "sha512-t+6BJRxwMwCQugM507p2GeeE/ebI3w3r7SvXOQlAyqSOChMVfBGW5bs5RZUL9OmMp/VByaI0JCmbCp7Pj4WQsw==";
+        };
     in {
         "LXNe7fra" = _LXNe7fra;
         "tbibwExa" = _tbibwExa;
@@ -278,6 +283,7 @@ let
         "2VTUVLLs" = _2VTUVLLs;
         "KxpNZJ1R" = _KxpNZJ1R;
         "8mVK1zbk" = _8mVK1zbk;
+        "acRsteF6" = _acRsteF6;
         "fabric-1.19.4" = _WJV4pTzp;
         "fabric-1.20" = _WJV4pTzp;
         "fabric-1.20.1" = _J2fuM58R;
@@ -297,7 +303,7 @@ let
         "fabric-26.1.1" = _VqbIfKxa;
         "fabric-26.1.2" = _VqbIfKxa;
         "fabric-26.2" = _2VTUVLLs;
-        "fabric-26.3" = _8mVK1zbk;
+        "fabric-26.3" = _acRsteF6;
         "quilt-1.19.4" = _WJV4pTzp;
         "quilt-1.20" = _WJV4pTzp;
         "quilt-1.20.1" = _J2fuM58R;
@@ -351,7 +357,8 @@ let
         "pkg-0.4.4-beta6-26.2" = _2VTUVLLs;
         "pkg-0.4.4-beta6-26.3" = _KxpNZJ1R;
         "pkg-0.4.4-beta7-26.3" = _8mVK1zbk;
-        "default" = _8mVK1zbk;
+        "pkg-0.4.4-beta8-26.3" = _acRsteF6;
+        "default" = _acRsteF6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nvidium";

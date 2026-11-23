@@ -146,6 +146,16 @@ let
             "file" = "touhou-maid-affection-1.7.5.2.jar";
             "hash" = "sha512-H6wj6UUAPIMk+EeLvwWx5pnG/B52NidRKE6Ir+eJhdElExqRBmFJW2hvot7muN1Mz1bfJtdk7o7w3J++OclS2Q==";
         };
+        _qKh2A5Dz = {
+            "id" = "qKh2A5Dz";
+            "file" = "touhou-maid-affection-1.7.5.3.jar";
+            "hash" = "sha512-6M16B3ZANuFCL9MUSqQEILF+rF0NZDgyiElvlIlbPVhuGNcR9e/DvMyP/FxzgKxsGnwiLRIkleGpl6Hj+xhcng==";
+        };
+        _qYxCGtSs = {
+            "id" = "qYxCGtSs";
+            "file" = "touhou-maid-affection-1.7.5.3.jar";
+            "hash" = "sha512-mS8w9SnNY7RKLKWehU2UqWkJd3YHQxo0EM0J5e/Fgm2A14kBaNUrPc59Msk5fqoMaTdp6jRGgTR90ynYNyZhyw==";
+        };
     in {
         "wZ2DivE6" = _wZ2DivE6;
         "INLGQoai" = _INLGQoai;
@@ -176,8 +186,10 @@ let
         "B6scC7Cs" = _B6scC7Cs;
         "X0n8FKmu" = _X0n8FKmu;
         "hpRdLySN" = _hpRdLySN;
+        "qKh2A5Dz" = _qKh2A5Dz;
+        "qYxCGtSs" = _qYxCGtSs;
         "neoforge-1.21" = _INLGQoai;
-        "neoforge-1.21.1" = _X0n8FKmu;
+        "neoforge-1.21.1" = _qYxCGtSs;
         "neoforge-1.21.2" = _INLGQoai;
         "neoforge-1.21.3" = _INLGQoai;
         "neoforge-1.21.4" = _INLGQoai;
@@ -188,7 +200,7 @@ let
         "neoforge-1.21.9" = _INLGQoai;
         "neoforge-1.21.10" = _INLGQoai;
         "neoforge-1.21.11" = _INLGQoai;
-        "forge-1.20.1" = _hpRdLySN;
+        "forge-1.20.1" = _qKh2A5Dz;
         "pkg-1.1.0" = _wZ2DivE6;
         "pkg-1.2.0" = _INLGQoai;
         "pkg-1.3.0" = _dML6b4wC;
@@ -218,7 +230,9 @@ let
         "pkg-1.7.5.1+forge1.20.1" = _B6scC7Cs;
         "pkg-1.7.5.2" = _X0n8FKmu;
         "pkg-1.7.5.2+forge1.20.1" = _hpRdLySN;
-        "default" = _hpRdLySN;
+        "pkg-1.7.5.3+forge1.20.1" = _qKh2A5Dz;
+        "pkg-1.7.5.3" = _qYxCGtSs;
+        "default" = _qYxCGtSs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "touhou-maid-affection";

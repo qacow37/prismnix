@@ -5621,6 +5621,16 @@ let
             "file" = "polytone-26.1.2-6.9.4-neoforge.jar";
             "hash" = "sha512-Nq2ty07Gygi/7N0pfQTV1CoOKnaYp0JqwzGNWwi36lBLoYGMpd+QPM12mRLNhd0kEAhwVFNOLpJ/s1yu/1OEBg==";
         };
+        _g8FjkFeY = {
+            "id" = "g8FjkFeY";
+            "file" = "polytone-26.3-6.9.0-neoforge.jar";
+            "hash" = "sha512-OeUhm8N9559gQTQJY8MmqalKuK1bld83gyP7/IWO45JoDqBC8BOgGWDi6rXmvLP7iXjBRF9vllilpunCHWPtCQ==";
+        };
+        _M1v5q9id = {
+            "id" = "M1v5q9id";
+            "file" = "polytone-26.3-6.9.0-fabric.jar";
+            "hash" = "sha512-lKPYuSyvj4rSdd/fjaJ0IB046AKwr4BOFNfmk8xTDvpSXr8RM0hcfDRfUmMoDQB5fu5x8lV+XKK26I56ciyfiw==";
+        };
     in {
         "mB6nZzWZ" = _mB6nZzWZ;
         "Tx03b2mF" = _Tx03b2mF;
@@ -6746,6 +6756,8 @@ let
         "TICW4871" = _TICW4871;
         "1mwOQC9K" = _1mwOQC9K;
         "MErpfayo" = _MErpfayo;
+        "g8FjkFeY" = _g8FjkFeY;
+        "M1v5q9id" = _M1v5q9id;
         "forge-1.20" = _mB6nZzWZ;
         "forge-1.20.1" = _keUL5Iuv;
         "forge-1.19.2" = _oVGa6Ebi;
@@ -6769,7 +6781,7 @@ let
         "fabric-1.21.11" = _ZM2SxE1Q;
         "fabric-26.1.2" = _1mwOQC9K;
         "fabric-26.2" = _7umVUVy9;
-        "fabric-26.3" = _qM0zPlR5;
+        "fabric-26.3" = _M1v5q9id;
         "neoforge-1.20.4" = _kAOtg5Jp;
         "neoforge-1.20.1" = _YtyajnmT;
         "neoforge-1.19.2" = _HCGS7CeV;
@@ -6784,7 +6796,7 @@ let
         "neoforge-1.21.11" = _NqKH8Ajs;
         "neoforge-26.1.2" = _MErpfayo;
         "neoforge-26.2" = _TICW4871;
-        "neoforge-26.3" = _6aNLLVl0;
+        "neoforge-26.3" = _g8FjkFeY;
         "pkg-1.5.0" = _mB6nZzWZ;
         "pkg-1.2.1" = _BHkWt7ND;
         "pkg-1.6.0" = _bhztozuz;
@@ -7406,7 +7418,8 @@ let
         "pkg-26.1.2-6.9.1" = _p49itb5G;
         "pkg-26.2-6.11.0" = _TICW4871;
         "pkg-26.1.2-6.9.4" = _MErpfayo;
-        "default" = _MErpfayo;
+        "pkg-26.3-6.9.0" = _M1v5q9id;
+        "default" = _M1v5q9id;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "polytone";

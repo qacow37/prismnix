@@ -176,6 +176,11 @@ let
             "file" = "backslot-1.2.3.jar";
             "hash" = "sha512-qFspFfJG2g5u9Sad3vpti2OtdUUQA6eSfJCscaICbWuZNLJuHx4Y8dnlGZJD8Rxsjj3a46eV1eT3AM5Bk4QCcw==";
         };
+        _1qLgdO7R = {
+            "id" = "1qLgdO7R";
+            "file" = "backslot-1.2.3.jar";
+            "hash" = "sha512-UnuswbTvsZ451MJi2HLGqM4E8AjL+IW1Gnmh28NChwi+H4PLlj+KvkU+48yOuE+/ZJHpCB4f0QGtflMktgT4OQ==";
+        };
     in {
         "PfbfYCgZ" = _PfbfYCgZ;
         "f1tyX4M7" = _f1tyX4M7;
@@ -212,6 +217,7 @@ let
         "6JXl9Mfh" = _6JXl9Mfh;
         "C6ODbx06" = _C6ODbx06;
         "ZCIgfZ2X" = _ZCIgfZ2X;
+        "1qLgdO7R" = _1qLgdO7R;
         "fabric-1.21.5" = _m7Cwld1E;
         "fabric-1.20.1" = _3Fv5FnOc;
         "fabric-1.21.8" = _s5oTkrxG;
@@ -222,7 +228,7 @@ let
         "fabric-26.1.1" = _C6ODbx06;
         "fabric-26.1.2" = _C6ODbx06;
         "fabric-26.2" = _ZCIgfZ2X;
-        "fabric-26.3" = _6JXl9Mfh;
+        "fabric-26.3" = _1qLgdO7R;
         "quilt-1.21.5" = _m7Cwld1E;
         "quilt-1.20.1" = _3Fv5FnOc;
         "quilt-1.21.8" = _s5oTkrxG;
@@ -233,7 +239,7 @@ let
         "quilt-26.1.1" = _C6ODbx06;
         "quilt-26.1.2" = _C6ODbx06;
         "quilt-26.2" = _ZCIgfZ2X;
-        "quilt-26.3" = _6JXl9Mfh;
+        "quilt-26.3" = _1qLgdO7R;
         "pkg-1.0" = _PfbfYCgZ;
         "pkg-1.1.0" = _lLk5kzAh;
         "pkg-1.1.1" = _4k7wM0O6;
@@ -249,8 +255,8 @@ let
         "pkg-1.2.0" = _MKwW0ai0;
         "pkg-1.2.1" = _SZG2ulwC;
         "pkg-1.2.2" = _6JXl9Mfh;
-        "pkg-1.2.3" = _ZCIgfZ2X;
-        "default" = _ZCIgfZ2X;
+        "pkg-1.2.3" = _1qLgdO7R;
+        "default" = _1qLgdO7R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "backslot-mod";

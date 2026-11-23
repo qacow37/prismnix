@@ -166,6 +166,11 @@ let
             "file" = "visual_item_edit-2.0.0.1-neoforge-1.21.4.jar";
             "hash" = "sha512-Q3T66F2FeuAtHYxCDXLNoIn8I3dDYz1fmVTpxa3HdaA2JGKVWMRstMlulNYyw9UJ2+eJzMPk+TcEyeWEU3MfsQ==";
         };
+        _Jrg9uLJg = {
+            "id" = "Jrg9uLJg";
+            "file" = "visual_item_edit-2.0.1.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-wktDcS9T5M57pEpkTNYWnDVUVBU9Ij4JdrTV7NEEolxQHJ+7/r8CPqmXVdVAEm/3Q57NouFtX1GcGlGmWV5diw==";
+        };
     in {
         "DuxOab7P" = _DuxOab7P;
         "NIosYAKX" = _NIosYAKX;
@@ -200,7 +205,8 @@ let
         "eMEQLJk0" = _eMEQLJk0;
         "3yvGPJKP" = _3yvGPJKP;
         "Nv5pnxXC" = _Nv5pnxXC;
-        "neoforge-1.21.1" = _eMEQLJk0;
+        "Jrg9uLJg" = _Jrg9uLJg;
+        "neoforge-1.21.1" = _Jrg9uLJg;
         "neoforge-1.21.2" = _qiWIRjvJ;
         "neoforge-1.21.3" = _qiWIRjvJ;
         "neoforge-1.21.4" = _Nv5pnxXC;
@@ -249,7 +255,8 @@ let
         "pkg-2.0.0.1-neoforge-1.21.1" = _eMEQLJk0;
         "pkg-2.0.0.3-forge-1.20.1" = _3yvGPJKP;
         "pkg-2.0.0.1-neoforge-1.21.4" = _Nv5pnxXC;
-        "default" = _Nv5pnxXC;
+        "pkg-2.0.1.0-neoforge-1.21.1" = _Jrg9uLJg;
+        "default" = _Jrg9uLJg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visual-item-edit";

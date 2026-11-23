@@ -86,6 +86,11 @@ let
             "file" = "madparticle-26.2-2.jar";
             "hash" = "sha512-AyoBotOab9ImRSfVsvCMHoY2MsVVKVRSRI+bOA2Mt3VGFR4D9IGdwj9XvvzcA4PWal5QenbL9Fqd7VDU7nuvxg==";
         };
+        _TRDeWptg = {
+            "id" = "TRDeWptg";
+            "file" = "madparticle-26.3-0.jar";
+            "hash" = "sha512-dnlu7s//qkUm4BZtvEQrhwLaeoR4t9715lg5zs1/TYN7Mc8d/36F80tore5KgiI/+lM2ave3b0biDQWDSekWsQ==";
+        };
     in {
         "Zc9EMc9s" = _Zc9EMc9s;
         "BgiWBXqV" = _BgiWBXqV;
@@ -104,6 +109,7 @@ let
         "rt843Ymf" = _rt843Ymf;
         "sf3ypMi8" = _sf3ypMi8;
         "KdYNVZEu" = _KdYNVZEu;
+        "TRDeWptg" = _TRDeWptg;
         "forge-1.20.1" = _a64moqsT;
         "forge-1.20" = _a64moqsT;
         "forge-1.20.2" = _a64moqsT;
@@ -115,6 +121,7 @@ let
         "neoforge-26.1" = _rt843Ymf;
         "neoforge-26.1.1" = _rt843Ymf;
         "neoforge-26.2" = _KdYNVZEu;
+        "neoforge-26.3" = _TRDeWptg;
         "pkg-0.3.6.tc" = _Zc9EMc9s;
         "pkg-0.4.8.tc" = _BgiWBXqV;
         "pkg-0.4.28" = _mqoOmTXq;
@@ -132,7 +139,8 @@ let
         "pkg-26.1-4" = _rt843Ymf;
         "pkg-26.2-0" = _sf3ypMi8;
         "pkg-26.2-2" = _KdYNVZEu;
-        "default" = _KdYNVZEu;
+        "pkg-26.3-0" = _TRDeWptg;
+        "default" = _TRDeWptg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mad-particle";

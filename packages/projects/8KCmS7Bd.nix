@@ -1211,6 +1211,21 @@ let
             "file" = "iconexporter-26.3-neoforge-1.4.2-234.jar";
             "hash" = "sha512-OZ+R5YwB3mGtjC63ME7rZSK9C7KwaYzYyOtj0MuB3PUR+u9PqbfyUnRSc1YRfndCgA5v5tpixL6xsE8eZelZRQ==";
         };
+        _sQMxJ39l = {
+            "id" = "sQMxJ39l";
+            "file" = "iconexporter-26.3-fabric-1.4.2-236.jar";
+            "hash" = "sha512-XowMslGP1rNxeGwmaT8tra/o2NwUo3ES6DBRmPvZBmq2VJWEkTEbRMvgAIJf8LxS+ErTScy9ncbY0ILxebLnzA==";
+        };
+        _32I7Wa1J = {
+            "id" = "32I7Wa1J";
+            "file" = "iconexporter-26.3-forge-1.4.2-236.jar";
+            "hash" = "sha512-RT4aD9XvdaINzENPyYewPq19OyTP2FJoVIWR+o5DQLiYupH3vn17Wku8DJe2+Z8rYi+thql8O71KYS6a/FuzKQ==";
+        };
+        _XXbcR8zg = {
+            "id" = "XXbcR8zg";
+            "file" = "iconexporter-26.3-neoforge-1.4.2-236.jar";
+            "hash" = "sha512-LxpYAO5xs0FRUKg/gjHruw3miyTdcrOKpxwQgOGugzReVoR98VLgIJIdIJZ7ddnGTG85uWabfjKa8QOjAr/4Uw==";
+        };
     in {
         "m5ugn25x" = _m5ugn25x;
         "ROp9tBVz" = _ROp9tBVz;
@@ -1454,6 +1469,9 @@ let
         "ag9XUKr5" = _ag9XUKr5;
         "SIkgpONT" = _SIkgpONT;
         "a44VNRn4" = _a44VNRn4;
+        "sQMxJ39l" = _sQMxJ39l;
+        "32I7Wa1J" = _32I7Wa1J;
+        "XXbcR8zg" = _XXbcR8zg;
         "forge-1.18.2" = _P31kuepZ;
         "forge-1.19" = _StmCKrrt;
         "forge-1.19.2" = _2OoWDvlS;
@@ -1469,7 +1487,7 @@ let
         "forge-26.1.1" = _PRJeZROx;
         "forge-26.1.2" = _rH9OoIyG;
         "forge-26.2" = _oohOBMj1;
-        "forge-26.3" = _SIkgpONT;
+        "forge-26.3" = _32I7Wa1J;
         "neoforge-1.20.4" = _3iYu4slB;
         "neoforge-1.21" = _6ceEbU2d;
         "neoforge-1.21.1" = _Yx4hI5Ze;
@@ -1481,7 +1499,7 @@ let
         "neoforge-26.1.1" = _vtMpS4zh;
         "neoforge-26.1.2" = _7bkBSzwG;
         "neoforge-26.2" = _58iIHxTF;
-        "neoforge-26.3" = _a44VNRn4;
+        "neoforge-26.3" = _XXbcR8zg;
         "fabric-1.21.1" = _bbZzqPdK;
         "fabric-1.21.4" = _rHPWomsD;
         "fabric-1.21.7" = _5s1oHOMY;
@@ -1491,7 +1509,7 @@ let
         "fabric-26.1.1" = _2POqtzfW;
         "fabric-26.1.2" = _kp2xOOI6;
         "fabric-26.2" = _GVUc58op;
-        "fabric-26.3" = _ag9XUKr5;
+        "fabric-26.3" = _sQMxJ39l;
         "quilt-1.21.1" = _bbZzqPdK;
         "quilt-1.21.4" = _rHPWomsD;
         "quilt-1.21.7" = _5s1oHOMY;
@@ -1501,7 +1519,7 @@ let
         "quilt-26.1.1" = _2POqtzfW;
         "quilt-26.1.2" = _kp2xOOI6;
         "quilt-26.2" = _GVUc58op;
-        "quilt-26.3" = _ag9XUKr5;
+        "quilt-26.3" = _sQMxJ39l;
         "pkg-1.2.3" = _m5ugn25x;
         "pkg-1.19-1.2.3" = _ROp9tBVz;
         "pkg-1.18.2-1.2.4" = _4Q3HXfJi;
@@ -1594,7 +1612,8 @@ let
         "pkg-26.2-1.4.2-224" = _58iIHxTF;
         "pkg-26.3-1.4.2-231" = _HeCrbPWF;
         "pkg-26.3-1.4.2-234" = _a44VNRn4;
-        "default" = _a44VNRn4;
+        "pkg-26.3-1.4.2-236" = _XXbcR8zg;
+        "default" = _XXbcR8zg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "icon-exporter";

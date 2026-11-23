@@ -156,6 +156,21 @@ let
             "file" = "antiportals-neoforge-26.2-2.2.1.jar";
             "hash" = "sha512-WPciAiB2dayPfldcdTUz0W+JNHLvMUigyW738SsNaDrp5+0XoR9Iq7NTsCP0gR8azkeUMfbA6HdfvuStI2b6ew==";
         };
+        _J4p0Dy8Z = {
+            "id" = "J4p0Dy8Z";
+            "file" = "antiportals-fabric-26.3-2.2.1.jar";
+            "hash" = "sha512-UVMA4SC3l5SP4CM9SG41cEwSJvhs04a5bIyUriJNmL71bkJiLrDEgoDo/bN6+il6WYE0t/uWYO9Gv4Qlz+9piw==";
+        };
+        _EDHOaoej = {
+            "id" = "EDHOaoej";
+            "file" = "antiportals-forge-26.3-2.2.1.jar";
+            "hash" = "sha512-BSY4sfSx1obXbHe9iWBWJkjzdyNPBljcwz6HtYoi24AB4IiN+SMPKE7c3VR4dBPPU3WHxrY5axDH4A8pFF223g==";
+        };
+        _AiAtBrNY = {
+            "id" = "AiAtBrNY";
+            "file" = "antiportals-neoforge-26.3-2.2.1.jar";
+            "hash" = "sha512-o0cMUBELl7a9PQWAOyuJI5dCOSgcv8qj/aszZk+i6H8KofYXljeI+YefSbVuE8fLUR6zRZZaJz4mwSOZhy4g0g==";
+        };
     in {
         "ZiUpR3x0" = _ZiUpR3x0;
         "PtGFzHCS" = _PtGFzHCS;
@@ -188,6 +203,9 @@ let
         "NgN2ED3p" = _NgN2ED3p;
         "VNp9dx9A" = _VNp9dx9A;
         "pikmpKHU" = _pikmpKHU;
+        "J4p0Dy8Z" = _J4p0Dy8Z;
+        "EDHOaoej" = _EDHOaoej;
+        "AiAtBrNY" = _AiAtBrNY;
         "forge-1.16.5" = _4RLIYP1r;
         "forge-1.18.2" = _1ZsRn89T;
         "forge-1.20.1" = _f9n9JRKj;
@@ -209,6 +227,7 @@ let
         "forge-26.1.1" = _AfmIhro8;
         "forge-26.1.2" = _aLjYwOR7;
         "forge-26.2" = _VNp9dx9A;
+        "forge-26.3" = _EDHOaoej;
         "neoforge-1.21" = _35t5OYFd;
         "neoforge-1.21.1" = _UqlZlzXF;
         "neoforge-1.21.2" = _F1HHuPGr;
@@ -219,12 +238,14 @@ let
         "neoforge-26.1.1" = _Myh7EDVi;
         "neoforge-26.1.2" = _66zPyYBs;
         "neoforge-26.2" = _pikmpKHU;
+        "neoforge-26.3" = _AiAtBrNY;
         "fabric-1.21" = _7rdWCVMO;
         "fabric-1.21.1" = _jYiUrdUV;
         "fabric-26.1" = _C4q1Vl7R;
         "fabric-26.1.1" = _py68Ms8P;
         "fabric-26.1.2" = _oIdiG5Gc;
         "fabric-26.2" = _NgN2ED3p;
+        "fabric-26.3" = _J4p0Dy8Z;
         "pkg-2.0" = _ZiUpR3x0;
         "pkg-1.0" = _PtGFzHCS;
         "pkg-1.1" = _624fGoEl;
@@ -235,7 +256,8 @@ let
         "pkg-26.1.1-2.2.1" = _Myh7EDVi;
         "pkg-26.1.2-2.2.1" = _66zPyYBs;
         "pkg-26.2-2.2.1" = _pikmpKHU;
-        "default" = _pikmpKHU;
+        "pkg-26.3-2.2.1" = _AiAtBrNY;
+        "default" = _AiAtBrNY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "antiportals";

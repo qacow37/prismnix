@@ -236,6 +236,11 @@ let
             "file" = "plantsvszombies-1.10.4-neoforge-1.21.1.jar";
             "hash" = "sha512-KhwbSuRQXwwD3/p+gBvGMowXBIbgbOAZ3i459v8UKaITDAPsfBaTW25sbOOdtMubIqbWAAIBGhe1hsb6er+4Lw==";
         };
+        _rAc1g2Rt = {
+            "id" = "rAc1g2Rt";
+            "file" = "plantsvszombies-1.10.5-neoforge-1.21.1.jar";
+            "hash" = "sha512-PR5anrSLwi5TvEcoihAXNFtnEL3d5VyLsDaiA3RkcEzTm+xmfMwdz0Cu4c3XLvbZXKKx/iQrCXH5AUMIEYOKVQ==";
+        };
     in {
         "kAHLJQ5t" = _kAHLJQ5t;
         "zpztllqi" = _zpztllqi;
@@ -284,7 +289,8 @@ let
         "Vp71K24y" = _Vp71K24y;
         "zeJ51aoJ" = _zeJ51aoJ;
         "cFQLa2JL" = _cFQLa2JL;
-        "neoforge-1.21.1" = _cFQLa2JL;
+        "rAc1g2Rt" = _rAc1g2Rt;
+        "neoforge-1.21.1" = _rAc1g2Rt;
         "pkg-1.3.3" = _kAHLJQ5t;
         "pkg-1.4.1" = _zpztllqi;
         "pkg-1.4.4" = _amp9us5f;
@@ -330,7 +336,8 @@ let
         "pkg-1.10.2" = _Vp71K24y;
         "pkg-1.10.3" = _zeJ51aoJ;
         "pkg-1.10.4" = _cFQLa2JL;
-        "default" = _cFQLa2JL;
+        "pkg-1.10.5" = _rAc1g2Rt;
+        "default" = _rAc1g2Rt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "plants-vs-zombies-mythling";

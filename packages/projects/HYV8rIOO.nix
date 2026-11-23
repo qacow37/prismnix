@@ -166,6 +166,11 @@ let
             "file" = "!cleanroom-relauncher-1.3.0.jar";
             "hash" = "sha512-xNxeQuWvKqDTZRr4S0iji/oIgNq9XfHLHACwvXktPEakOdvRvOfBHnOW7UBukaNchA3nWBEmq/ynVXv09EB5NQ==";
         };
+        _58Bj0efv = {
+            "id" = "58Bj0efv";
+            "file" = "!cleanroom-relauncher-1.4.0.jar";
+            "hash" = "sha512-bHPPuNvkMEmVVVVIqy6TCHIWs4ayCYB1fPyjGqRqIccSYhOz7g/EmJlCUcjE+jHRikogu0kR+5A8A07rdmagJw==";
+        };
     in {
         "3oIVYoBF" = _3oIVYoBF;
         "pstL6Qgn" = _pstL6Qgn;
@@ -200,7 +205,8 @@ let
         "cfXkV0M6" = _cfXkV0M6;
         "WeO0okSh" = _WeO0okSh;
         "Chw7k3w8" = _Chw7k3w8;
-        "forge-1.12.2" = _Chw7k3w8;
+        "58Bj0efv" = _58Bj0efv;
+        "forge-1.12.2" = _58Bj0efv;
         "pkg-0.1.0" = _3oIVYoBF;
         "pkg-0.1.1" = _pstL6Qgn;
         "pkg-0.1.2" = _tPza9f7q;
@@ -234,7 +240,8 @@ let
         "pkg-1.2.0" = _cfXkV0M6;
         "pkg-1.2.1" = _WeO0okSh;
         "pkg-1.3.0" = _Chw7k3w8;
-        "default" = _Chw7k3w8;
+        "pkg-1.4.0" = _58Bj0efv;
+        "default" = _58Bj0efv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cleanroom-relauncher";

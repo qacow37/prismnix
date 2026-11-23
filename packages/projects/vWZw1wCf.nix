@@ -211,6 +211,11 @@ let
             "file" = "decorativecomputers-2.2.0-1.21.1.jar";
             "hash" = "sha512-ul3PQEdudiCFpMplcFx8MaNaUeCI0D3rCuEEGCAyjSSfv3VqFFnahku9+YZBCIGk3ARt7wj/woGUSNfDGjA7cw==";
         };
+        _7K33adEp = {
+            "id" = "7K33adEp";
+            "file" = "decorativecomputers-2.2.1-1.21.11-multeloader.jar";
+            "hash" = "sha512-soqjExx6iCEzBOzAJZ1xkDzQiv8TFkTRUcoy6gUYLpXxM46m8uX9T7+jqvwKG/k4zZI708Z4YjncLf1j2CKMkA==";
+        };
     in {
         "kDSwdsgp" = _kDSwdsgp;
         "Zrsgk3ur" = _Zrsgk3ur;
@@ -254,12 +259,13 @@ let
         "UnLNysVx" = _UnLNysVx;
         "4txO4kNQ" = _4txO4kNQ;
         "1UhDT2wU" = _1UhDT2wU;
+        "7K33adEp" = _7K33adEp;
         "fabric-1.20.1" = _kDSwdsgp;
         "fabric-1.21.8" = _Fvcr86og;
         "fabric-1.21.1" = _1UhDT2wU;
         "fabric-26.2" = _4txO4kNQ;
         "fabric-26.3" = _7O3pCiQ2;
-        "fabric-1.21.11" = _UnLNysVx;
+        "fabric-1.21.11" = _7K33adEp;
         "forge-1.19.4" = _Zrsgk3ur;
         "forge-1.20.1" = _NQPIhf9h;
         "forge-1.19.2" = _BWJKoefU;
@@ -275,10 +281,10 @@ let
         "neoforge-1.21.8" = _tfmaRuGr;
         "neoforge-26.2" = _4txO4kNQ;
         "neoforge-26.3" = _7O3pCiQ2;
-        "neoforge-1.21.11" = _UnLNysVx;
+        "neoforge-1.21.11" = _7K33adEp;
         "quilt-26.2" = _4txO4kNQ;
         "quilt-26.3" = _7O3pCiQ2;
-        "quilt-1.21.11" = _UnLNysVx;
+        "quilt-1.21.11" = _7K33adEp;
         "quilt-1.21.1" = _1UhDT2wU;
         "pkg-1.0.0" = _Zrsgk3ur;
         "pkg-1.0.2" = _ukgGI9jb;
@@ -298,7 +304,8 @@ let
         "pkg-2.1.0-1.21.11" = _UnLNysVx;
         "pkg-2.2.0-26.2" = _4txO4kNQ;
         "pkg-2.2.0-1.21.1" = _1UhDT2wU;
-        "default" = _1UhDT2wU;
+        "pkg-2.2.1-1.21.11" = _7K33adEp;
+        "default" = _7K33adEp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "decorative-computers";

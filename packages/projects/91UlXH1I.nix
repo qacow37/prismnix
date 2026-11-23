@@ -31,6 +31,11 @@ let
             "file" = "variantbarrels-4.0.jar";
             "hash" = "sha512-W5BZwYW0OqhFkbtvOOsuOfyPNhWwHTERqFVXZOheEOeONmoJyMzdyiWNupWrnpFNwHN0wHfJ57Dr+0k4ehyDPw==";
         };
+        _IudnwU5F = {
+            "id" = "IudnwU5F";
+            "file" = "variantbarrels-4.2.jar";
+            "hash" = "sha512-HcDeWpZncCntDIC5ueZEHljrYRdcnTi99WlBUdO7RXvWDgAPMgKifyFckXVjoxY5F2gIiwTgQAHHT70/dumaaw==";
+        };
     in {
         "L1EmF72n" = _L1EmF72n;
         "fFqfaHxV" = _fFqfaHxV;
@@ -38,6 +43,7 @@ let
         "MO40Wyk5" = _MO40Wyk5;
         "JQ7DboFM" = _JQ7DboFM;
         "kX601oJI" = _kX601oJI;
+        "IudnwU5F" = _IudnwU5F;
         "fabric-1.20" = _r5Vr4LHJ;
         "fabric-1.20.1" = _r5Vr4LHJ;
         "fabric-26.3" = _JQ7DboFM;
@@ -51,8 +57,8 @@ let
         "fabric-1.21.4" = _kX601oJI;
         "fabric-1.21.3" = _kX601oJI;
         "fabric-1.21.2" = _kX601oJI;
-        "fabric-1.21.1" = _kX601oJI;
-        "fabric-1.21" = _kX601oJI;
+        "fabric-1.21.1" = _IudnwU5F;
+        "fabric-1.21" = _IudnwU5F;
         "forge-1.21.1" = _MO40Wyk5;
         "neoforge-1.21.1" = _MO40Wyk5;
         "pkg-3.3.6" = _L1EmF72n;
@@ -61,7 +67,8 @@ let
         "pkg-3.2" = _MO40Wyk5;
         "pkg-5.0" = _JQ7DboFM;
         "pkg-4.0" = _kX601oJI;
-        "default" = _kX601oJI;
+        "pkg-4.2" = _IudnwU5F;
+        "default" = _IudnwU5F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "variant-barrels";

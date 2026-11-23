@@ -366,6 +366,11 @@ let
             "file" = "enhancedai-4.3.2.0-beta.jar";
             "hash" = "sha512-PFGQKsUQBHxfbyCQnRuuElXeVJQ9FMnBRpH1ZMhjmt+XGiiW6e51qoxZgeTjOvN9006S0NkakicPXrz43bqBYg==";
         };
+        _dwbyIM2a = {
+            "id" = "dwbyIM2a";
+            "file" = "enhancedai-4.3.3.0.jar";
+            "hash" = "sha512-iE3urW6Smjr2JIaZAa8WRCi6GPSF1SgTnQu8dHPPeuTDvkfNMjQ3mUB1fLpYb3hWNtL2AVJX5EK4e2ZjOBfb2Q==";
+        };
     in {
         "zRP6PBHS" = _zRP6PBHS;
         "yoUplQnB" = _yoUplQnB;
@@ -440,13 +445,14 @@ let
         "IBw8ag1Y" = _IBw8ag1Y;
         "XaYs6c5Z" = _XaYs6c5Z;
         "OsiLk0QT" = _OsiLk0QT;
+        "dwbyIM2a" = _dwbyIM2a;
         "forge-1.18.2" = _zRP6PBHS;
         "forge-1.19.2" = _yoUplQnB;
         "forge-1.20.1" = _FNZd08F4;
         "forge-1.20" = _X6qXUJQf;
         "neoforge-1.20" = _X6qXUJQf;
         "neoforge-1.20.1" = _IkY3PBuf;
-        "neoforge-1.21.1" = _OsiLk0QT;
+        "neoforge-1.21.1" = _dwbyIM2a;
         "pkg-1.6.10" = _zRP6PBHS;
         "pkg-1.8.5" = _yoUplQnB;
         "pkg-2.0.5" = _Swy0t5Wq;
@@ -519,7 +525,8 @@ let
         "pkg-4.2.7.2" = _IBw8ag1Y;
         "pkg-4.3.1.0" = _XaYs6c5Z;
         "pkg-4.3.2.0-beta" = _OsiLk0QT;
-        "default" = _OsiLk0QT;
+        "pkg-4.3.3.0" = _dwbyIM2a;
+        "default" = _dwbyIM2a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhanced-ai";

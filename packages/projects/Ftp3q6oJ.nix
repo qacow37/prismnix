@@ -16,15 +16,22 @@ let
             "file" = "cc_modern-0.2.0.jar";
             "hash" = "sha512-WeuXTw4toNYDIGBS4JSShRFwtMAVRMxDt69/4Q031iAfZoXNwjRRwg+zzyMeXzyj0j1O/eN1WDiYuj7cpGvtyw==";
         };
+        _kLXgvBxN = {
+            "id" = "kLXgvBxN";
+            "file" = "cc_modern-0.2.1.jar";
+            "hash" = "sha512-94cCK67zF5CEye1QUSY30vTYXT69eYDie0BY3OGsmfeMwBK3IEKQ41faN+UIRJMNZMnf1StHuQVLn+PFP+nlFg==";
+        };
     in {
         "oZTYLi1u" = _oZTYLi1u;
         "R5D4LN9O" = _R5D4LN9O;
         "ItLfawYb" = _ItLfawYb;
-        "neoforge-1.21.1" = _ItLfawYb;
+        "kLXgvBxN" = _kLXgvBxN;
+        "neoforge-1.21.1" = _kLXgvBxN;
         "pkg-0.1.0" = _oZTYLi1u;
         "pkg-0.1.1" = _R5D4LN9O;
         "pkg-0.2.0" = _ItLfawYb;
-        "default" = _ItLfawYb;
+        "pkg-0.2.1" = _kLXgvBxN;
+        "default" = _kLXgvBxN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cc_modern";

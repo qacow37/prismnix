@@ -81,6 +81,11 @@ let
             "file" = "daycounter-2.2.0+mc26.2.jar";
             "hash" = "sha512-9Muf14gIm4cU0GH7f9PDUDG6fA/tGuU5QnfxmuPNUeRr66Ns8AbBvQ2ucyl20a9SCTLjE5CKLznFqtx1c0s3iQ==";
         };
+        _omDUptIO = {
+            "id" = "omDUptIO";
+            "file" = "day-counter-3.0.0.jar";
+            "hash" = "sha512-swmG41+LfTtlS3etKgxNhf/kdLpOfZ1d1yhFZWTyRkkO2eNetJoYrLy++z9UFmCLQEtnUIJhEPIIv2LwE6fe5w==";
+        };
     in {
         "HTiME8Gb" = _HTiME8Gb;
         "eIyqrT83" = _eIyqrT83;
@@ -98,6 +103,7 @@ let
         "Jp9GyAz3" = _Jp9GyAz3;
         "Aencggug" = _Aencggug;
         "jI4GrN1g" = _jI4GrN1g;
+        "omDUptIO" = _omDUptIO;
         "fabric-1.21" = _NorIDGr6;
         "fabric-1.21.1" = _NorIDGr6;
         "fabric-1.21.2" = _NorIDGr6;
@@ -110,14 +116,20 @@ let
         "fabric-1.21.9" = _aJ8Ql7T6;
         "fabric-1.21.10" = _aJ8Ql7T6;
         "fabric-1.21.11" = _aJ8Ql7T6;
-        "fabric-26.1" = _Gm4q5DmV;
-        "fabric-26.1.1" = _Gm4q5DmV;
-        "fabric-26.1.2" = _Gm4q5DmV;
-        "fabric-26.2" = _Jp9GyAz3;
+        "fabric-26.1" = _omDUptIO;
+        "fabric-26.1.1" = _omDUptIO;
+        "fabric-26.1.2" = _omDUptIO;
+        "fabric-26.2" = _omDUptIO;
+        "fabric-26.3" = _omDUptIO;
         "neoforge-26.1" = _Aencggug;
         "neoforge-26.1.1" = _Aencggug;
         "neoforge-26.1.2" = _Aencggug;
         "neoforge-26.2" = _jI4GrN1g;
+        "quilt-26.3" = _omDUptIO;
+        "quilt-26.2" = _omDUptIO;
+        "quilt-26.1.2" = _omDUptIO;
+        "quilt-26.1.1" = _omDUptIO;
+        "quilt-26.1" = _omDUptIO;
         "pkg-1.0.0+mc1.21.7" = _HTiME8Gb;
         "pkg-1.1.0+mc1.21.7" = _eIyqrT83;
         "pkg-1.1.1+mc1.21.7" = _JHqWfacW;
@@ -132,7 +144,8 @@ let
         "pkg-2.1.0+mc26.2" = _3rskBDLN;
         "pkg-2.2.0+mc26.1.2" = _Aencggug;
         "pkg-2.2.0+mc26.2" = _jI4GrN1g;
-        "default" = _jI4GrN1g;
+        "pkg-3.0.0+mc26.3" = _omDUptIO;
+        "default" = _omDUptIO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mc-day-counter";

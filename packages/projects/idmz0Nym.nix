@@ -41,6 +41,16 @@ let
             "file" = "Japanese_PIDS v2.0.1.zip";
             "hash" = "sha512-M6g4OfhwhzzOoKnxelRjP7QcGWTQUwN420TMzjEEhr8G3sJoBXHKyZ2U2wSyVEHX3kOh/oslmICp4sM2jLVLgQ==";
         };
+        _59ovKQQb = {
+            "id" = "59ovKQQb";
+            "file" = "Japanese_PIDS v2.0.2.zip";
+            "hash" = "sha512-6tWAcUkE2oIywIM/+xyp+WEI8co+WYWNaMbZa3a+ZZEwmQW8CpSerbUQqsnGSQ0mMPl0z9HuJRCVNt5NGBKUNw==";
+        };
+        _oGTGJ71t = {
+            "id" = "oGTGJ71t";
+            "file" = "Japanese_PIDS v2.0.3.zip";
+            "hash" = "sha512-6xCN9Jjz2XQp+0fgd/aPuFOkez2bM5CAw8893eoGT9R0cNz7duWvcteDu4dKZ7Yo1KqQhtCJeL3LJg00mqzJ7A==";
+        };
     in {
         "MtEexcOF" = _MtEexcOF;
         "lScya2KK" = _lScya2KK;
@@ -50,8 +60,10 @@ let
         "lPK6LvYH" = _lPK6LvYH;
         "fFZT2OXP" = _fFZT2OXP;
         "EQtpAbrD" = _EQtpAbrD;
-        "minecraft-1.20" = _EQtpAbrD;
-        "minecraft-1.20.1" = _EQtpAbrD;
+        "59ovKQQb" = _59ovKQQb;
+        "oGTGJ71t" = _oGTGJ71t;
+        "minecraft-1.20" = _oGTGJ71t;
+        "minecraft-1.20.1" = _oGTGJ71t;
         "pkg-v1.0" = _MtEexcOF;
         "pkg-1.1" = _lScya2KK;
         "pkg-1.2" = _BL7YsbDO;
@@ -60,7 +72,9 @@ let
         "pkg-1.5" = _lPK6LvYH;
         "pkg-2.0" = _fFZT2OXP;
         "pkg-2.0.1" = _EQtpAbrD;
-        "default" = _EQtpAbrD;
+        "pkg-2.0.2" = _59ovKQQb;
+        "pkg-2.0.3" = _oGTGJ71t;
+        "default" = _oGTGJ71t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kr-japanese-pids";

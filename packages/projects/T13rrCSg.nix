@@ -121,6 +121,11 @@ let
             "file" = "blocky-outline-1.1.7-hydro.jar";
             "hash" = "sha512-Zwz4kDV6/0mkqOZgYAzYe97jqlRg92IVRwpIoN3v2Q7pPmGm2RJlqiegDNZ7+/4skskdvx0r7tbZvOXtfIr2Tg==";
         };
+        _8lG2FFj0 = {
+            "id" = "8lG2FFj0";
+            "file" = "blocky-outline-1.1.7-argon.jar";
+            "hash" = "sha512-3mahf2dng6wZSdmeAOmzP6myZ9n04T6JW3MoE40xHRoOunh066XEPgwPX48VdjG7yWlQ1ERw04B1yS8iy6SB9g==";
+        };
     in {
         "4Pydq01j" = _4Pydq01j;
         "CYFLzhCc" = _CYFLzhCc;
@@ -146,7 +151,8 @@ let
         "EC0Wjwkg" = _EC0Wjwkg;
         "mJApApSK" = _mJApApSK;
         "x8b4Fnow" = _x8b4Fnow;
-        "fabric-1.21.11" = _x8b4Fnow;
+        "8lG2FFj0" = _8lG2FFj0;
+        "fabric-1.21.11" = _8lG2FFj0;
         "fabric-1.21.2" = _GhzBu5ds;
         "fabric-1.21.3" = _GhzBu5ds;
         "fabric-1.21.4" = _GhzBu5ds;
@@ -196,7 +202,8 @@ let
         "pkg-1.1.5.1" = _EC0Wjwkg;
         "pkg-1.1.6.1" = _mJApApSK;
         "pkg-1.1.7-hydro" = _x8b4Fnow;
-        "default" = _x8b4Fnow;
+        "pkg-1.1.7-argon" = _8lG2FFj0;
+        "default" = _8lG2FFj0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blocky-outline";

@@ -241,6 +241,21 @@ let
             "file" = "dtbetterend-26.1.2-2.4.0.jar";
             "hash" = "sha512-TMWDm++jnQwgmWq+6B/iMmTd5/7oSUe25Ll0wUTisXp3JbU9bJUjxgseKoMaXEgdc9WvtAMhheghlMWWJJ3dCA==";
         };
+        _o5Vpg9az = {
+            "id" = "o5Vpg9az";
+            "file" = "dtbetterend-1.20.1-2.4.0h.jar";
+            "hash" = "sha512-dD8HuucGlCquolXm3QHL7fb7T/LdHebmLVNgshnje9EaKjZON96+DzMxEiNK6LxrbtEUdlMfebH1FamvLbnDXw==";
+        };
+        _bpaCRQFQ = {
+            "id" = "bpaCRQFQ";
+            "file" = "dtbetterend-1.21.1-2.4.0h.jar";
+            "hash" = "sha512-DP2/tyKkT+d/LxzyRE19cObrRDmc6N2K2NP+2zPPnq/SLp2+EFsB3JjAmbjWyayCz7WwyKyqrnH1AEA+kXf7fw==";
+        };
+        _guQevQSQ = {
+            "id" = "guQevQSQ";
+            "file" = "dtbetterend-26.1.2-2.4.0h.jar";
+            "hash" = "sha512-8oonrcD8wyxNuZL7wF33IF5BDqvnTXnibTR9d+C0UqV/qVnYcRs3j7stlLQxXR8NnYm5jt7groDBXwspBk+x5w==";
+        };
     in {
         "n2ZFo1XS" = _n2ZFo1XS;
         "9XjXQmUq" = _9XjXQmUq;
@@ -290,9 +305,12 @@ let
         "zdiL55QB" = _zdiL55QB;
         "h3VaUmSD" = _h3VaUmSD;
         "aPTm5lU7" = _aPTm5lU7;
-        "forge-1.20.1" = _zdiL55QB;
-        "neoforge-1.21.1" = _h3VaUmSD;
-        "neoforge-26.1.2" = _aPTm5lU7;
+        "o5Vpg9az" = _o5Vpg9az;
+        "bpaCRQFQ" = _bpaCRQFQ;
+        "guQevQSQ" = _guQevQSQ;
+        "forge-1.20.1" = _o5Vpg9az;
+        "neoforge-1.21.1" = _bpaCRQFQ;
+        "neoforge-26.1.2" = _guQevQSQ;
         "pkg-1.20.1-1.0.0" = _n2ZFo1XS;
         "pkg-1.21.1-1.0.0" = _9XjXQmUq;
         "pkg-1.20.1-1.1.0" = _iFJpDOYf;
@@ -341,7 +359,10 @@ let
         "pkg-1.20.1-2.4.0" = _zdiL55QB;
         "pkg-1.21.1-2.4.0" = _h3VaUmSD;
         "pkg-26.1.2-2.4.0" = _aPTm5lU7;
-        "default" = _aPTm5lU7;
+        "pkg-1.20.1-2.4.0h" = _o5Vpg9az;
+        "pkg-1.21.1-2.4.0h" = _bpaCRQFQ;
+        "pkg-26.1.2-2.4.0h" = _guQevQSQ;
+        "default" = _guQevQSQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamictrees-betterend";

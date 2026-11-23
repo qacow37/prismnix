@@ -396,6 +396,71 @@ let
             "file" = "ageratum-neoforge-26.1.2-0.0.1+build.153.jar";
             "hash" = "sha512-+4F13Iphv4dOJ8mCrVOnSpiv0qFwRW/XCc2nUHvg0x7uXdnNnTyUX5GpprpwNesBdydg//sYgQv3IYhVcvvVHg==";
         };
+        _VCvZ8Dv8 = {
+            "id" = "VCvZ8Dv8";
+            "file" = "ageratum-neoforge-26.1.2-0.0.1+build.154.jar";
+            "hash" = "sha512-7xC7Qi/lgq5C7sIzW7Oo3qXEd6xwEJq5XERrvYNxsxI/kidguGJlBtqVLl06/rAxCf2nDNubFe87QQtsvmL1uA==";
+        };
+        _AWk5pVx0 = {
+            "id" = "AWk5pVx0";
+            "file" = "ageratum-neoforge-1.21.1-0.0.1+build.155.jar";
+            "hash" = "sha512-RNN4eLIfDq5ZGQjy/gTQ4Deuep197xcO+67YjQbWGiFMxkUkRgrOzgNSHYYxpedSl9aOJqhq7V8W23+gSS8BJg==";
+        };
+        _KtrX1BVz = {
+            "id" = "KtrX1BVz";
+            "file" = "ageratum-neoforge-26.1.2-0.0.1+build.156.jar";
+            "hash" = "sha512-Z9w+5DoXrh59jJEbFqYr+Rpfg0RHlLY219wpV+ys9BdNaJ3UzwLTvSdNfTEqOn8zN3t8q8Uk+WYCHbommQbnsg==";
+        };
+        _uJZIwAAH = {
+            "id" = "uJZIwAAH";
+            "file" = "ageratum-neoforge-1.21.1-0.0.1+build.157.jar";
+            "hash" = "sha512-Hv0jkT4Q55D41s8+HT6Qz5YC3jev/VpU28dN1e/VuwJGEEhkh+AXZ5Nr76VmZBjVQxtOTX8QCdBHbW4JvjSEYA==";
+        };
+        _XwAin0er = {
+            "id" = "XwAin0er";
+            "file" = "ageratum-neoforge-26.1.2-0.0.1+build.158.jar";
+            "hash" = "sha512-pe9+FJ3bNQkvtALRlYa4R+GYw7xSOlpPnrGTle23Z6MGU7iOmB6BOTLeeahBIh4apJgFo2gW5JmkHMNtZTHz3g==";
+        };
+        _hqBSLKNR = {
+            "id" = "hqBSLKNR";
+            "file" = "ageratum-neoforge-1.21.1-0.0.1+build.159.jar";
+            "hash" = "sha512-8/mT86Zv8CXtb5nt1DhzWOQ43Zv8zcZv6MGONa8wT3jw0BQt5uQqxmoyyUCIS19zdIjB+Px9+ueXoqnV5WR9LQ==";
+        };
+        _zPTdDPnY = {
+            "id" = "zPTdDPnY";
+            "file" = "ageratum-neoforge-1.21.1-0.0.1+build.160.jar";
+            "hash" = "sha512-XrZfUxpJxFsu2SjrN1LOUYCIM/LYBmjnzxXiwgIxK9lDGAHri09UVv+/mfYEaAAiXmycLNVdvCV6s+gSpaMTlA==";
+        };
+        _IBQJik6m = {
+            "id" = "IBQJik6m";
+            "file" = "ageratum-neoforge-26.2-0.0.1+build.162.jar";
+            "hash" = "sha512-clcDbyzEI9UgU+I4R2u05ZXA5Kbwejuo792l3osiIuP5OJA6CN+k5f/t/t3TNgdcI8XeYTOWWN/mWfkD1gncIA==";
+        };
+        _1NdZnB5B = {
+            "id" = "1NdZnB5B";
+            "file" = "ageratum-neoforge-26.3-0.0.1+build.161.jar";
+            "hash" = "sha512-qG4+Zi/3Bz3wIwMtKYKC28suU0D+XjWGk6xWfBtBNLOxhEjv0JEpXHq4UEkRUNenMXOhmW/7dzQTk4OMn0iRFg==";
+        };
+        _GMnIC6LD = {
+            "id" = "GMnIC6LD";
+            "file" = "ageratum-neoforge-1.21.1-1.0.0.jar";
+            "hash" = "sha512-bXv4UtprufNKyJ6GvBRsZj9mRAvvvbWJjSP4Yu28XnQwwY/cAAgyAfQurgpTcwoyUVZEL6A9FRDsvY4zGIriOQ==";
+        };
+        _jmIhToLH = {
+            "id" = "jmIhToLH";
+            "file" = "ageratum-neoforge-26.1.2-1.0.0.jar";
+            "hash" = "sha512-cAu2Qb5BZ9Fn1xV2GS40eb9Zo4mdwHKWxguoJJHhWnWnu1aGZmkNLBKE4lwEVrIfyu3sEDCfMxJFvNRWonbAfw==";
+        };
+        _WGzZSyTw = {
+            "id" = "WGzZSyTw";
+            "file" = "ageratum-neoforge-26.2-1.0.0.jar";
+            "hash" = "sha512-YVgmBgZfFKRvxsdWu4PUgjq0gN1N7VoYDwTsJLV47HOiUE39EiXhbbTWvuNeadZ3lqenPTPv4rht8hSdzbWCWA==";
+        };
+        _V3k34YZ7 = {
+            "id" = "V3k34YZ7";
+            "file" = "ageratum-neoforge-26.3-1.0.0.jar";
+            "hash" = "sha512-NXyF/sRv5azrc61ZH1PyMkDNLLPZxoEb2eaBiYtPbOGJlvcBcRBzEiBgAU1o8/T5wT0mo2fzl8YHIbC04GPjhA==";
+        };
     in {
         "4hilXNXj" = _4hilXNXj;
         "j0bvlS2c" = _j0bvlS2c;
@@ -476,8 +541,23 @@ let
         "WQbYgfkT" = _WQbYgfkT;
         "FVMXwgoY" = _FVMXwgoY;
         "FARJ8Jzx" = _FARJ8Jzx;
-        "neoforge-1.21.1" = _FVMXwgoY;
-        "neoforge-26.1.2" = _FARJ8Jzx;
+        "VCvZ8Dv8" = _VCvZ8Dv8;
+        "AWk5pVx0" = _AWk5pVx0;
+        "KtrX1BVz" = _KtrX1BVz;
+        "uJZIwAAH" = _uJZIwAAH;
+        "XwAin0er" = _XwAin0er;
+        "hqBSLKNR" = _hqBSLKNR;
+        "zPTdDPnY" = _zPTdDPnY;
+        "IBQJik6m" = _IBQJik6m;
+        "1NdZnB5B" = _1NdZnB5B;
+        "GMnIC6LD" = _GMnIC6LD;
+        "jmIhToLH" = _jmIhToLH;
+        "WGzZSyTw" = _WGzZSyTw;
+        "V3k34YZ7" = _V3k34YZ7;
+        "neoforge-1.21.1" = _GMnIC6LD;
+        "neoforge-26.1.2" = _jmIhToLH;
+        "neoforge-26.2" = _WGzZSyTw;
+        "neoforge-26.3" = _V3k34YZ7;
         "pkg-1.21.1-0.0.1+build.66" = _4hilXNXj;
         "pkg-1.21.1-0.0.1+build.67" = _j0bvlS2c;
         "pkg-1.21.1-0.0.1+build.68" = _4Db9RyIp;
@@ -555,7 +635,20 @@ let
         "pkg-1.21.1-0.0.1+build.151" = _WQbYgfkT;
         "pkg-1.21.1-0.0.1+build.152" = _FVMXwgoY;
         "pkg-26.1.2-0.0.1+build.153" = _FARJ8Jzx;
-        "default" = _FARJ8Jzx;
+        "pkg-26.1.2-0.0.1+build.154" = _VCvZ8Dv8;
+        "pkg-1.21.1-0.0.1+build.155" = _AWk5pVx0;
+        "pkg-26.1.2-0.0.1+build.156" = _KtrX1BVz;
+        "pkg-1.21.1-0.0.1+build.157" = _uJZIwAAH;
+        "pkg-26.1.2-0.0.1+build.158" = _XwAin0er;
+        "pkg-1.21.1-0.0.1+build.159" = _hqBSLKNR;
+        "pkg-1.21.1-0.0.1+build.160" = _zPTdDPnY;
+        "pkg-26.2-0.0.1+build.162" = _IBQJik6m;
+        "pkg-26.3-0.0.1+build.161" = _1NdZnB5B;
+        "pkg-1.21.1-1.0.0" = _GMnIC6LD;
+        "pkg-26.1.2-1.0.0" = _jmIhToLH;
+        "pkg-26.2-1.0.0" = _WGzZSyTw;
+        "pkg-26.3-1.0.0" = _V3k34YZ7;
+        "default" = _V3k34YZ7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ageratum";

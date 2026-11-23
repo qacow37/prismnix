@@ -26,14 +26,26 @@ let
             "file" = "animalhatmod-1.1.1-neoforge-1.21.1.jar";
             "hash" = "sha512-F437TCnfyhW3ZXc+EDUFgQkQb/rT0ui46gRBDEvG1sq/C57bSDzUmlwJVDa4UjxwW7dzVYydFlEjH3bL0Yp69g==";
         };
+        _meNhoHGu = {
+            "id" = "meNhoHGu";
+            "file" = "animalhatmod-1.2.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-QMow0Ta/DY7mEJX8ugfjncnpPaYVDWmFIOT1ZQeq6ScULmDz8364irdWhPo+S4O4ofsUFWPf4aHvfPqm4acZMw==";
+        };
+        _V20RpUvX = {
+            "id" = "V20RpUvX";
+            "file" = "animalhatmod-1.2.0-forge-1.20.1.jar";
+            "hash" = "sha512-CuEIOljCRn9Ah///3THamKzhYRhf3tX4CAijb96Qjg2zeGLPB+LVpqX1t1dBptmRX+HT2ilrY/aUI0lpPT9jZg==";
+        };
     in {
         "lp5S7cys" = _lp5S7cys;
         "KyKrRjW4" = _KyKrRjW4;
         "RsX2a9Fz" = _RsX2a9Fz;
         "1t0i04gp" = _1t0i04gp;
         "mHsEo1Tg" = _mHsEo1Tg;
-        "forge-1.20.1" = _RsX2a9Fz;
-        "neoforge-1.21.1" = _mHsEo1Tg;
+        "meNhoHGu" = _meNhoHGu;
+        "V20RpUvX" = _V20RpUvX;
+        "forge-1.20.1" = _V20RpUvX;
+        "neoforge-1.21.1" = _meNhoHGu;
         "neoforge-1.21.2" = _mHsEo1Tg;
         "neoforge-1.21.3" = _mHsEo1Tg;
         "neoforge-1.21.4" = _mHsEo1Tg;
@@ -47,7 +59,8 @@ let
         "pkg-1.0.0" = _KyKrRjW4;
         "pkg-1.1.0" = _1t0i04gp;
         "pkg-1.1.1" = _mHsEo1Tg;
-        "default" = _mHsEo1Tg;
+        "pkg-1.2.0" = _V20RpUvX;
+        "default" = _V20RpUvX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animal-hats-yeah";

@@ -46,6 +46,11 @@ let
             "file" = "NoJoinLeaveMessage-1.4-1.21.11.jar";
             "hash" = "sha512-SSnTVRBt2wXzg1jwHztdpaQ/6NS1BUgzz3NVpJYYoz0zUnikBOdgRgtZicGZ/gueEYwl1sD47z2zhgcJD3jd3Q==";
         };
+        _Hq7fkFgN = {
+            "id" = "Hq7fkFgN";
+            "file" = "NoJoinLeaveMessage-1.4-26.3.jar";
+            "hash" = "sha512-5MnZJfbpsJwA/8jfSbUjgFEgYPq0rVbdzB3OoADcvYpoc7mxNQFHG+Wts5fA6ZaJg9MGsOI61JiNzIs5nWjssQ==";
+        };
     in {
         "U2TW4gj0" = _U2TW4gj0;
         "EDMAVkFf" = _EDMAVkFf;
@@ -56,6 +61,7 @@ let
         "Inxnfujd" = _Inxnfujd;
         "4lgnNLYv" = _4lgnNLYv;
         "OM515qUi" = _OM515qUi;
+        "Hq7fkFgN" = _Hq7fkFgN;
         "fabric-1.21" = _U2TW4gj0;
         "fabric-1.21.1" = _EDMAVkFf;
         "fabric-1.21.3" = _g3jqChgD;
@@ -65,6 +71,7 @@ let
         "fabric-1.21.8" = _Inxnfujd;
         "fabric-1.21.10" = _4lgnNLYv;
         "fabric-1.21.11" = _OM515qUi;
+        "fabric-26.3" = _Hq7fkFgN;
         "pkg-1.0" = _U2TW4gj0;
         "pkg-1.1" = _EDMAVkFf;
         "pkg-1.2" = _g3jqChgD;
@@ -74,7 +81,8 @@ let
         "pkg-1.4-1.21.8" = _Inxnfujd;
         "pkg-1.4-1.21.10" = _4lgnNLYv;
         "pkg-1.4-1.21.11" = _OM515qUi;
-        "default" = _OM515qUi;
+        "pkg-1.4-26.3" = _Hq7fkFgN;
+        "default" = _Hq7fkFgN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-join-leave-messages";

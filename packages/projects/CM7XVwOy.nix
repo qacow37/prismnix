@@ -131,6 +131,11 @@ let
             "file" = "§dCWSM §eProgrammer Art Fix.zip";
             "hash" = "sha512-QVgyFhs4QKbZz3vvPgb5ctWw6TesH35qUmR19vrtDtyBL+tMMi/bZFcjH3B0hzI7Jte/UHRDF6ZnDArxRkvuMg==";
         };
+        _RxKJZ8Qo = {
+            "id" = "RxKJZ8Qo";
+            "file" = "§dCWSM §eProgrammer Art Fix.zip";
+            "hash" = "sha512-s7IF2fQ7f9GwbkXjMtTX87NP0E/ORxjjCPOUA39MMa0/zXTR+Rw0futEGyXUodGsQot9phVH32DcRSSFciKZRQ==";
+        };
     in {
         "rOb7umMw" = _rOb7umMw;
         "lLo8WM0P" = _lLo8WM0P;
@@ -158,8 +163,9 @@ let
         "eoujuSBo" = _eoujuSBo;
         "4oKnk1hK" = _4oKnk1hK;
         "Ltw1wbrq" = _Ltw1wbrq;
-        "minecraft-1.19.4" = _Ltw1wbrq;
-        "minecraft-1.20.1" = _Ltw1wbrq;
+        "RxKJZ8Qo" = _RxKJZ8Qo;
+        "minecraft-1.19.4" = _RxKJZ8Qo;
+        "minecraft-1.20.1" = _RxKJZ8Qo;
         "minecraft-1.16.5" = _lLo8WM0P;
         "minecraft-1.18.2" = _lLo8WM0P;
         "pkg-1.0" = _rOb7umMw;
@@ -185,7 +191,8 @@ let
         "pkg-1.4" = _eoujuSBo;
         "pkg-1.4.01" = _4oKnk1hK;
         "pkg-1.4.1" = _Ltw1wbrq;
-        "default" = _Ltw1wbrq;
+        "pkg-1.4.2" = _RxKJZ8Qo;
+        "default" = _RxKJZ8Qo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cwsm-programmer-art-fix";

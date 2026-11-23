@@ -431,6 +431,46 @@ let
             "file" = "infusedpower-0.9.95_ALPHA_TEST-fabric-1.21.1.jar";
             "hash" = "sha512-/G6eoP/qr2bhuct9JD/mMu7cpiY23lY+knp1qS8NW96GwFPhgGXu4JCew7FMRTlfwMmmBGIU5L/3MuVqiig6kw==";
         };
+        _CgwhNhOu = {
+            "id" = "CgwhNhOu";
+            "file" = "infusedpower-0.9.95_BETA-fabric-1.21.1.jar";
+            "hash" = "sha512-DcjQgK7krris804J7xpxql0OqPp3vgOOXutobpXPsNYXOKpoqs9onK8XoQL2gjSXdyBUgawe3b0nWlk1izsa6A==";
+        };
+        _EJAngxcZ = {
+            "id" = "EJAngxcZ";
+            "file" = "infusedpower-0.9.95_BETA-fabric-26.2.jar";
+            "hash" = "sha512-+fAXMezlg34HVeWXzzy+2fZA1oisXHNerp3CFAxhaoJFFsRy1DzWM7IAQ/B3BHN+V25YeZjEPZwUBkQ5hAclkA==";
+        };
+        _wzS3BAor = {
+            "id" = "wzS3BAor";
+            "file" = "infusedpower-0.9.95_BETA-fabric-26.3.jar";
+            "hash" = "sha512-K3iHR9WEPeKel7SltYhYsbZH7vER0k9DhRCb//flx57m4jn+JDooDf0QDkuAdoeIrHWiX2IHQyNp/sI2f3Md9w==";
+        };
+        _IL9UIdrv = {
+            "id" = "IL9UIdrv";
+            "file" = "infusedpower-0.9.95_BETA-forge-1.20.1.jar";
+            "hash" = "sha512-1Zq1MI/tcO4dzs92aSMgH/COtSCjCxrrr73A9DtFQkp2TSSk/aigjRN6I8KiU4tFRvZMK3gRvgHOper6g8pUJQ==";
+        };
+        _SkrIVX5H = {
+            "id" = "SkrIVX5H";
+            "file" = "infusedpower-0.9.95_BETA-neoforge-1.21.1.jar";
+            "hash" = "sha512-9+DOmI0HILP8QL9QtPPbGawndVYTdqFSdu/a6zGgz5E3Iu+JLV5RAvibQpAE0h1PBNGO5qxSRnww6EnbWX5/tw==";
+        };
+        _eKyU9Yd0 = {
+            "id" = "eKyU9Yd0";
+            "file" = "infusedpower-0.9.95_BETA-neoforge-26.1.2.jar";
+            "hash" = "sha512-8xjFil+4vEtovkY35ZND9xeh86KfOpETmV85ROScbKQ83UNDQ7w8mTdbCCxMQwxN7WYU3Ff4KvRJp3ZEAIeuVw==";
+        };
+        _R8uL7rGu = {
+            "id" = "R8uL7rGu";
+            "file" = "infusedpower-0.9.95_BETA-neoforge-26.2.jar";
+            "hash" = "sha512-ZE3PjXaJfS1hk9oez26ZHXtW45O0sJcNDqbErE/R0vJ6xE50yULYbPObGv4T6dFQ7159qqmdhxEYNSIZK5TuEQ==";
+        };
+        _eRys1YSu = {
+            "id" = "eRys1YSu";
+            "file" = "infusedpower-0.9.95_BETA-neoforge-26.3.jar";
+            "hash" = "sha512-7Z4rE8rzrsg9OnU/1qMO0xfjdGz1UDr1/DkhS6S5BrxwkyAbzCf04+2RbCdXBBVr4errVmASEOxbM5eul20XwQ==";
+        };
     in {
         "o96Z7m8W" = _o96Z7m8W;
         "PLwRJtqF" = _PLwRJtqF;
@@ -518,20 +558,28 @@ let
         "3caV9SBI" = _3caV9SBI;
         "dzQaeow5" = _dzQaeow5;
         "LfsePkP8" = _LfsePkP8;
-        "fabric-1.21.1" = _LfsePkP8;
+        "CgwhNhOu" = _CgwhNhOu;
+        "EJAngxcZ" = _EJAngxcZ;
+        "wzS3BAor" = _wzS3BAor;
+        "IL9UIdrv" = _IL9UIdrv;
+        "SkrIVX5H" = _SkrIVX5H;
+        "eKyU9Yd0" = _eKyU9Yd0;
+        "R8uL7rGu" = _R8uL7rGu;
+        "eRys1YSu" = _eRys1YSu;
+        "fabric-1.21.1" = _CgwhNhOu;
         "fabric-1.21.11" = _dzQaeow5;
         "fabric-1.21.10" = _rWI9kKrG;
         "fabric-1.21.9" = _7hzkIMzt;
-        "fabric-26.2" = _jRmIjYfq;
-        "fabric-26.3" = _NXkUK2wk;
-        "neoforge-26.2" = _TOF9nBEi;
-        "neoforge-1.21.1" = _X5cLYpi6;
+        "fabric-26.2" = _EJAngxcZ;
+        "fabric-26.3" = _wzS3BAor;
+        "neoforge-26.2" = _R8uL7rGu;
+        "neoforge-1.21.1" = _SkrIVX5H;
         "neoforge-1.21.9" = _7CIzKo02;
         "neoforge-1.21.10" = _k4E0RtDR;
         "neoforge-1.21.11" = _zUxVD72n;
-        "neoforge-26.3" = _226eRKPK;
-        "neoforge-26.1.2" = _kZokqLvj;
-        "forge-1.20.1" = _smVxGsoV;
+        "neoforge-26.3" = _eRys1YSu;
+        "neoforge-26.1.2" = _eKyU9Yd0;
+        "forge-1.20.1" = _IL9UIdrv;
         "pkg-0.9.7-beta+1.21.1" = _o96Z7m8W;
         "pkg-0.9.7-beta+1.21.11" = _PLwRJtqF;
         "pkg-0.9.72+26.2" = _KLjoec8H;
@@ -585,7 +633,12 @@ let
         "pkg-0.9.94+1.21.11" = _3caV9SBI;
         "pkg-0.9.94-b+1.21.11" = _dzQaeow5;
         "pkg-0.9.95-alpha+1.21.1" = _LfsePkP8;
-        "default" = _LfsePkP8;
+        "pkg-0.9.95-beta+1.21.1" = _SkrIVX5H;
+        "pkg-0.9.95-beta+26.2" = _R8uL7rGu;
+        "pkg-0.9.95-beta+26.3" = _eRys1YSu;
+        "pkg-0.9.95-beta+1.20.1" = _IL9UIdrv;
+        "pkg-0.9.95-beta+26.1.2" = _eKyU9Yd0;
+        "default" = _eRys1YSu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "infused-power";

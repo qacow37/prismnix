@@ -531,6 +531,16 @@ let
             "file" = "elementals-neoforge-1.21.1-5.1.5.jar";
             "hash" = "sha512-9X5UR4cCxDp9FC7xhsuxAhgPjMkWcy+zxH0EwV15S6s8Jzxq37xS+QUmndB3EB0Y33i4LkcxsTuX8ZEcCjyuCA==";
         };
+        _8FX9nSGi = {
+            "id" = "8FX9nSGi";
+            "file" = "elementals-neoforge-1.21.1-5.1.6.jar";
+            "hash" = "sha512-/Fhq8Vt806vTJzbbq1+spu7TgHfe3nhdC7VpRpJPRIZhQLsEELA7PkNx9UnpWTovcYaeBO31B7W/EbB6nxk8zg==";
+        };
+        _3PjSR9wu = {
+            "id" = "3PjSR9wu";
+            "file" = "elementals-fabric-1.21.1-5.1.6.jar";
+            "hash" = "sha512-yRMUNI4zASJXXo+ULKobCW9j6qWyWWUw42On/7ByEnIfuX5LIa5nJtCENNvNv/dmrabD3qn8nylW3H3Muwngjg==";
+        };
     in {
         "h4UO5BWE" = _h4UO5BWE;
         "DnipEj5q" = _DnipEj5q;
@@ -638,9 +648,11 @@ let
         "O9gtWieB" = _O9gtWieB;
         "W2HbJ2LO" = _W2HbJ2LO;
         "XfHO9f29" = _XfHO9f29;
+        "8FX9nSGi" = _8FX9nSGi;
+        "3PjSR9wu" = _3PjSR9wu;
         "fabric-1.20.1" = _OC2KLhmH;
-        "fabric-1.21.1" = _W2HbJ2LO;
-        "neoforge-1.21.1" = _XfHO9f29;
+        "fabric-1.21.1" = _3PjSR9wu;
+        "neoforge-1.21.1" = _8FX9nSGi;
         "pkg-1.0.0" = _h4UO5BWE;
         "pkg-1.0.1" = _DnipEj5q;
         "pkg-1.0.2" = _QlHjp1bl;
@@ -724,7 +736,8 @@ let
         "pkg-5.0.3" = _7WyLmvkH;
         "pkg-5.0.4" = _O9gtWieB;
         "pkg-5.1.5" = _XfHO9f29;
-        "default" = _XfHO9f29;
+        "pkg-5.1.6" = _3PjSR9wu;
+        "default" = _3PjSR9wu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elemental";

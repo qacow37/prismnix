@@ -1321,6 +1321,11 @@ let
             "file" = "kingdomkeys-1.21.1-2.9.5d.jar";
             "hash" = "sha512-Jf+hTe9OQDJAcTXmKgtg7LY16zV81Xa6FkYfLzes1U+jm1RrDPNI5D/rrGcga8jlVsfW0icALI1W0ppgf4gg/Q==";
         };
+        _fso9RqR7 = {
+            "id" = "fso9RqR7";
+            "file" = "kingdomkeys-1.21.1-2.9.5e.jar";
+            "hash" = "sha512-EBtY6jGpApqaDB/vVGKz3DvX193lH1nXusYwECkgiommGyM7xcNatWKyrD3+ScRJaP6BPKuusdCsXIPTe7C4yw==";
+        };
     in {
         "OfOTa4rl" = _OfOTa4rl;
         "k7WJLcDb" = _k7WJLcDb;
@@ -1586,6 +1591,7 @@ let
         "kX66JSf7" = _kX66JSf7;
         "StxcWxOM" = _StxcWxOM;
         "r27k3oof" = _r27k3oof;
+        "fso9RqR7" = _fso9RqR7;
         "forge-1.5.2" = _OfOTa4rl;
         "forge-1.6.2" = _FOx5Sp5O;
         "forge-1.6.4" = _bHfTmppT;
@@ -1609,7 +1615,7 @@ let
         "forge-1.19.4" = _cVzv5Wcg;
         "forge-1.20.1" = _BCAy9Iw9;
         "neoforge-1.20.1" = _nQTQfjyi;
-        "neoforge-1.21.1" = _r27k3oof;
+        "neoforge-1.21.1" = _fso9RqR7;
         "pkg-0.3.0" = _OfOTa4rl;
         "pkg-0.3.2" = _k7WJLcDb;
         "pkg-0.3.3" = _pCPdNqiL;
@@ -1871,7 +1877,8 @@ let
         "pkg-2.9.5b-1.21.1" = _kX66JSf7;
         "pkg-2.9.5c-1.21.1" = _StxcWxOM;
         "pkg-2.9.5d-1.21.1" = _r27k3oof;
-        "default" = _r27k3oof;
+        "pkg-2.9.5e-1.21.1" = _fso9RqR7;
+        "default" = _fso9RqR7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kingdom-keys-2";

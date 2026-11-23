@@ -741,6 +741,16 @@ let
             "file" = "toneko-neoforge-2.0.2.jar";
             "hash" = "sha512-zpDQphh5GwA5DGEmZnYtCPHPTY+WJzieKgmtkBIUAnSoADgpI4HpP1Jnizr0THCvESPIleQwCrZni+d1PKxZaQ==";
         };
+        _LPVJD9rO = {
+            "id" = "LPVJD9rO";
+            "file" = "toneko-fabric-2.0.3.jar";
+            "hash" = "sha512-YrSr0zQgFGAgPM/u+R/5yZF2vjSMLWOE17jzyFjild1pBeJnVImHnlFu4W2xenTLiVneqPxbkjSagh82+oylHg==";
+        };
+        _hun0Mwzd = {
+            "id" = "hun0Mwzd";
+            "file" = "toneko-neoforge-2.0.3.jar";
+            "hash" = "sha512-bASY5pSnA5Wg/Q2yRW1GN21VAq5M/vnN+L3EOR733//eAGehSDIt2psmkDmdakt7UF9a36Yo1gMvXgLFZECJMQ==";
+        };
     in {
         "xzOOs7mS" = _xzOOs7mS;
         "TZcSEzFZ" = _TZcSEzFZ;
@@ -890,6 +900,8 @@ let
         "FKINpDB1" = _FKINpDB1;
         "XBWtiQgS" = _XBWtiQgS;
         "ejeJI9hK" = _ejeJI9hK;
+        "LPVJD9rO" = _LPVJD9rO;
+        "hun0Mwzd" = _hun0Mwzd;
         "fabric-1.19.2" = _LQ0SsQpV;
         "fabric-1.19.3" = _LQ0SsQpV;
         "fabric-1.19.4" = _LQ0SsQpV;
@@ -905,7 +917,7 @@ let
         "fabric-1.20.6" = _GVFlifLp;
         "fabric-1.21.1" = _BP2dF6m5;
         "fabric-1.21.4" = _m66fKgnP;
-        "fabric-26.1.2" = _XBWtiQgS;
+        "fabric-26.1.2" = _LPVJD9rO;
         "quilt-1.19.2" = _LQ0SsQpV;
         "quilt-1.19.3" = _LQ0SsQpV;
         "quilt-1.19.4" = _LQ0SsQpV;
@@ -920,7 +932,7 @@ let
         "quilt-1.21.1" = _NqOLVGFZ;
         "neoforge-1.21" = _ytAtEo73;
         "neoforge-1.21.1" = _QNyuLzq3;
-        "neoforge-26.1.2" = _ejeJI9hK;
+        "neoforge-26.1.2" = _hun0Mwzd;
         "pkg-0.1.7" = _xzOOs7mS;
         "pkg-0.1.8" = _TZcSEzFZ;
         "pkg-0.2.0" = _g3xwxBN7;
@@ -1026,7 +1038,8 @@ let
         "pkg-2.0.0" = _9yoPjhuO;
         "pkg-2.0.1" = _FKINpDB1;
         "pkg-2.0.2" = _ejeJI9hK;
-        "default" = _ejeJI9hK;
+        "pkg-2.0.3" = _hun0Mwzd;
+        "default" = _hun0Mwzd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tonekomod";

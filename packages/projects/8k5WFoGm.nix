@@ -151,6 +151,11 @@ let
             "file" = "splinecart-forge-1.20.1-0.5.5+1.20.1.jar";
             "hash" = "sha512-bEkajCdzMWZNalSR0L82tYGyYvcLAvI24qrC+FXLel7rLMlNDXAXG/hNUQXyela2++y3ddeMBo8fKTMJjg9ezQ==";
         };
+        _ZnGhn5oB = {
+            "id" = "ZnGhn5oB";
+            "file" = "splinecart-neoforge-1.21.1-0.5.2+1.21.1.jar";
+            "hash" = "sha512-eygw5tdTndgxitb9sJSlbayie7jsANj3nMrc8cQW75pKjB3T92FK/X9sfKbCFNIzzcdujl5fmaUtXG3QR0jboA==";
+        };
     in {
         "85thYZ2d" = _85thYZ2d;
         "vPFgMEgS" = _vPFgMEgS;
@@ -182,6 +187,7 @@ let
         "hadpoRFG" = _hadpoRFG;
         "4kLQAd1I" = _4kLQAd1I;
         "KwyDqI5s" = _KwyDqI5s;
+        "ZnGhn5oB" = _ZnGhn5oB;
         "fabric-26.1.2" = _85thYZ2d;
         "fabric-26.2" = _acF35r7c;
         "fabric-1.21.11" = _qk36KBWV;
@@ -191,7 +197,7 @@ let
         "neoforge-26.2" = _tlje2kWE;
         "neoforge-26.3" = _z88B6Glx;
         "neoforge-1.21.11" = _yyrQYAaB;
-        "neoforge-1.21.1" = _NRn2i3Di;
+        "neoforge-1.21.1" = _ZnGhn5oB;
         "forge-1.20.1" = _KwyDqI5s;
         "pkg-0.3.3+26.1.2" = _85thYZ2d;
         "pkg-0.4.4+26.2" = _vPFgMEgS;
@@ -216,7 +222,8 @@ let
         "pkg-0.5.1+1.21.1" = _NRn2i3Di;
         "pkg-0.5.1+1.20.1" = _4kLQAd1I;
         "pkg-0.5.5+1.20.1" = _KwyDqI5s;
-        "default" = _KwyDqI5s;
+        "pkg-0.5.2+1.21.1" = _ZnGhn5oB;
+        "default" = _ZnGhn5oB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pw_splinecart";

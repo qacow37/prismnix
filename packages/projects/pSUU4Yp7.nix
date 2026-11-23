@@ -71,6 +71,31 @@ let
             "file" = "MobileNetworks-4.2.0.jar";
             "hash" = "sha512-nxLz8X4zLgpES8ERulppeP0xFf8r5zHtk4c/ugiqiqMukG1QqOYRnY9oMcq9u3f202QSve6Hgg2AXct3IN8C7g==";
         };
+        _DYebkn4n = {
+            "id" = "DYebkn4n";
+            "file" = "MobileNetworks-4.5.0.jar";
+            "hash" = "sha512-+wwR5dVYa8ER2hm2sb8mvi1DqxxTAu033CKYSU0oggv6U9Ia/q+khxoBz6+1ffGrMvtQyeYuwvyLZ1i1cpFFpg==";
+        };
+        _GJkSpwKz = {
+            "id" = "GJkSpwKz";
+            "file" = "MobileNetworks-4.5.0-neoforge-1.20.1.jar";
+            "hash" = "sha512-VHpX6QoVjw3dMr5J0J7obCltWmM4I+Ywu4ccu99vU1Jie1yXvFW67BCAfXUrlGxZS/cmB6UOE6ifNRi+3lrNZw==";
+        };
+        _RGa2S8J3 = {
+            "id" = "RGa2S8J3";
+            "file" = "MobileNetworks-4.5.0-forge-1.20.1.jar";
+            "hash" = "sha512-RsORKsoAa/5HIU302X4Jnm8TqKXZDyRhHSbORK2ALot2h+CH3iB6z5LkUiljHU08I1vzfmvi0q8h5PdfFM93qQ==";
+        };
+        _hPuiSJcA = {
+            "id" = "hPuiSJcA";
+            "file" = "MobileNetworks-4.5.0-fabric-1.20.1.jar";
+            "hash" = "sha512-BT9njKFMXYSuW9mqVGH4bBGViOPwH9M0MbblvyGEDVwLdR4cXaQFEUsa9XlihbteEFXnlGMmlDKnhUcDxrIWsg==";
+        };
+        _Rqm8NXP0 = {
+            "id" = "Rqm8NXP0";
+            "file" = "MobileNetworks-4.5.0-fabric-1.21.1.jar";
+            "hash" = "sha512-16bj8DHUFj52Cv1qG7Y8dBvB/Vydl6OY4Cd2GSVOauPoHNfY1y7B/vhHS/61FQLx4Istc3HOvqNz/hBQI1UaQQ==";
+        };
     in {
         "OguYQH1o" = _OguYQH1o;
         "uvJWLvrr" = _uvJWLvrr;
@@ -86,8 +111,16 @@ let
         "1pHqPm44" = _1pHqPm44;
         "gS5aIRsu" = _gS5aIRsu;
         "fsZihaP8" = _fsZihaP8;
-        "neoforge-1.21.1" = _fsZihaP8;
-        "neoforge-1.20.1" = _MFO6K81h;
+        "DYebkn4n" = _DYebkn4n;
+        "GJkSpwKz" = _GJkSpwKz;
+        "RGa2S8J3" = _RGa2S8J3;
+        "hPuiSJcA" = _hPuiSJcA;
+        "Rqm8NXP0" = _Rqm8NXP0;
+        "neoforge-1.21.1" = _DYebkn4n;
+        "neoforge-1.20.1" = _GJkSpwKz;
+        "forge-1.20.1" = _RGa2S8J3;
+        "fabric-1.20.1" = _hPuiSJcA;
+        "fabric-1.21.1" = _Rqm8NXP0;
         "pkg-1.0.1" = _OguYQH1o;
         "pkg-2.0.1" = _uvJWLvrr;
         "pkg-2.0.2" = _VJRYkRlN;
@@ -101,7 +134,8 @@ let
         "pkg-4.0.3" = _1pHqPm44;
         "pkg-4.1.0" = _gS5aIRsu;
         "pkg-4.2.0" = _fsZihaP8;
-        "default" = _fsZihaP8;
+        "pkg-4.5.0" = _Rqm8NXP0;
+        "default" = _Rqm8NXP0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mobile-networks";

@@ -91,6 +91,11 @@ let
             "file" = "BetterAFK-2.10.0.jar";
             "hash" = "sha512-wCiHNV19xF8cGd8BhrNA/K6Ung8f2B9RtEon/V5y1zpF3Brpcfpo64RjXzdgJuP9NA6+D3IvqQupCSHha3D80Q==";
         };
+        _NJA7XMKt = {
+            "id" = "NJA7XMKt";
+            "file" = "BetterAFK-2.11.0.jar";
+            "hash" = "sha512-OfjQ7xs3ihJqwuEpDQkUh483TU1lvsCdu1C+OPE1NXv4MxgFGYy+GB9CEk/DVIA21EF7HGN35z6oljNLb0cG6w==";
+        };
     in {
         "iMF6aTa2" = _iMF6aTa2;
         "xjnrwTaL" = _xjnrwTaL;
@@ -110,6 +115,7 @@ let
         "8r8DrH6N" = _8r8DrH6N;
         "kFkV6e4X" = _kFkV6e4X;
         "nHM4E3XS" = _nHM4E3XS;
+        "NJA7XMKt" = _NJA7XMKt;
         "bukkit-1.21.1" = _ZIPpoJN5;
         "bukkit-1.21.2" = _ZIPpoJN5;
         "bukkit-1.21.3" = _ZIPpoJN5;
@@ -124,11 +130,11 @@ let
         "paper-1.21" = _ZIPpoJN5;
         "paper-1.21.10" = _ZIPpoJN5;
         "paper-1.21.11" = _ZIPpoJN5;
-        "paper-26.3" = _nHM4E3XS;
-        "paper-26.1" = _nHM4E3XS;
-        "paper-26.1.1" = _nHM4E3XS;
-        "paper-26.1.2" = _nHM4E3XS;
-        "paper-26.2" = _nHM4E3XS;
+        "paper-26.3" = _NJA7XMKt;
+        "paper-26.1" = _NJA7XMKt;
+        "paper-26.1.1" = _NJA7XMKt;
+        "paper-26.1.2" = _NJA7XMKt;
+        "paper-26.2" = _NJA7XMKt;
         "purpur-1.21.1" = _ZIPpoJN5;
         "purpur-1.21.2" = _ZIPpoJN5;
         "purpur-1.21.3" = _ZIPpoJN5;
@@ -136,11 +142,11 @@ let
         "purpur-1.21" = _ZIPpoJN5;
         "purpur-1.21.10" = _ZIPpoJN5;
         "purpur-1.21.11" = _ZIPpoJN5;
-        "purpur-26.3" = _nHM4E3XS;
-        "purpur-26.1" = _nHM4E3XS;
-        "purpur-26.1.1" = _nHM4E3XS;
-        "purpur-26.1.2" = _nHM4E3XS;
-        "purpur-26.2" = _nHM4E3XS;
+        "purpur-26.3" = _NJA7XMKt;
+        "purpur-26.1" = _NJA7XMKt;
+        "purpur-26.1.1" = _NJA7XMKt;
+        "purpur-26.1.2" = _NJA7XMKt;
+        "purpur-26.2" = _NJA7XMKt;
         "spigot-1.21.1" = _ZIPpoJN5;
         "spigot-1.21.2" = _ZIPpoJN5;
         "spigot-1.21.3" = _ZIPpoJN5;
@@ -148,11 +154,11 @@ let
         "spigot-1.21" = _ZIPpoJN5;
         "spigot-1.21.10" = _ZIPpoJN5;
         "spigot-1.21.11" = _ZIPpoJN5;
-        "folia-26.1" = _nHM4E3XS;
-        "folia-26.1.1" = _nHM4E3XS;
-        "folia-26.1.2" = _nHM4E3XS;
-        "folia-26.2" = _nHM4E3XS;
-        "folia-26.3" = _nHM4E3XS;
+        "folia-26.1" = _NJA7XMKt;
+        "folia-26.1.1" = _NJA7XMKt;
+        "folia-26.1.2" = _NJA7XMKt;
+        "folia-26.2" = _NJA7XMKt;
+        "folia-26.3" = _NJA7XMKt;
         "pkg-1.0" = _iMF6aTa2;
         "pkg-b2.0" = _xjnrwTaL;
         "pkg-2.0" = _iS1xIvgV;
@@ -171,7 +177,8 @@ let
         "pkg-2.9.1" = _8r8DrH6N;
         "pkg-2.9.2" = _kFkV6e4X;
         "pkg-2.10.0" = _nHM4E3XS;
-        "default" = _nHM4E3XS;
+        "pkg-2.11.0" = _NJA7XMKt;
+        "default" = _NJA7XMKt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterafk";

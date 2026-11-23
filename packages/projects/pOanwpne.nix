@@ -46,6 +46,11 @@ let
             "file" = "alphaesletters-mod-1.0.0.jar";
             "hash" = "sha512-HW+3K5dNCbRRIPGL4T9ADa6V0cmJPENgCKMbh+fejJ9lHxsN9M7xAFv4QHUh5u9dF00NF2ee5XQZTldHZEEtQw==";
         };
+        _yBNFZj02 = {
+            "id" = "yBNFZj02";
+            "file" = "openletters-mod-2.0.jar";
+            "hash" = "sha512-kCTgWRHbZ+OCi0KflRLzTAie3XPxa6tJH0wRf4WMG4X0sweNCR3iYpwvnBFhN7P5ttody+ogouVB4wdWn4WAjw==";
+        };
     in {
         "fQyI0w5o" = _fQyI0w5o;
         "s0yarT1h" = _s0yarT1h;
@@ -56,6 +61,7 @@ let
         "8GpZmR4t" = _8GpZmR4t;
         "IjFtnKyj" = _IjFtnKyj;
         "8MwK9usc" = _8MwK9usc;
+        "yBNFZj02" = _yBNFZj02;
         "fabric-1.18" = _Mtc5l8Na;
         "fabric-1.18.1" = _Mtc5l8Na;
         "fabric-1.18.2" = _Mtc5l8Na;
@@ -67,12 +73,14 @@ let
         "fabric-1.21.3" = _8GpZmR4t;
         "fabric-1.19.4" = _IjFtnKyj;
         "fabric-1.20.1" = _8MwK9usc;
+        "fabric-1.21.4" = _yBNFZj02;
         "pkg-0.1.0" = _fQyI0w5o;
         "pkg-0.4.0" = _s0yarT1h;
         "pkg-0.7.0" = _Mtc5l8Na;
         "pkg-1.0" = _8MwK9usc;
         "pkg-1.1" = _8GpZmR4t;
-        "default" = _8MwK9usc;
+        "pkg-2.0" = _yBNFZj02;
+        "default" = _yBNFZj02;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alphaes-letters";

@@ -66,6 +66,11 @@ let
             "file" = "NyaLib-0.21.1.jar";
             "hash" = "sha512-5FFsh4NRpntPM1JlL3MJHYfjOA1PZxRR9aX/LkZ0NxkdHiMbqRyA3Tkss8Xc+dBS4MlLJsEaPcgh2SPPTOsNvA==";
         };
+        _LMJNfUpw = {
+            "id" = "LMJNfUpw";
+            "file" = "NyaLib-0.22.0.jar";
+            "hash" = "sha512-VxA5Fc6T/8HSIfAZe/nB3QutfVsVd1l713R4fxG+GtkplG33ln63kF2HPERm1A4t3H3t6vt9zsenBECGMTsyJw==";
+        };
     in {
         "cQr3dofe" = _cQr3dofe;
         "yVL1qYGq" = _yVL1qYGq;
@@ -80,7 +85,8 @@ let
         "N39rJS0e" = _N39rJS0e;
         "N0evz516" = _N0evz516;
         "IIo2Fa2m" = _IIo2Fa2m;
-        "babric-b1.7.3" = _IIo2Fa2m;
+        "LMJNfUpw" = _LMJNfUpw;
+        "babric-b1.7.3" = _LMJNfUpw;
         "fabric-b1.7.3" = _IIo2Fa2m;
         "pkg-0.13.0" = _cQr3dofe;
         "pkg-0.16.0" = _yVL1qYGq;
@@ -95,7 +101,8 @@ let
         "pkg-0.20.1" = _N39rJS0e;
         "pkg-0.21.0" = _N0evz516;
         "pkg-0.21.1" = _IIo2Fa2m;
-        "default" = _IIo2Fa2m;
+        "pkg-0.22.0" = _LMJNfUpw;
+        "default" = _LMJNfUpw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nyalib";

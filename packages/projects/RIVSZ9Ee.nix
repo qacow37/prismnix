@@ -91,6 +91,16 @@ let
             "file" = "spare-no-items-4.1.jar";
             "hash" = "sha512-v+0ZIWas/o6fPoi1BDmGoM0UZhJzBfkvgB0VdLUY6eJtQy7nqUH4CXCoITxppkndDV94rlGJ94xLu+5UFkP4Mg==";
         };
+        _ZwIdb1NN = {
+            "id" = "ZwIdb1NN";
+            "file" = "dp_dash_sni_V4.3.zip";
+            "hash" = "sha512-wRnHSVV3uivmPvamm5x2CKUvZfjW4veu8NWkpYC4jquCKZ5/H7sOSmIAvb1CsZt/hgAZ5KkhNKO8rB2KIlzLCg==";
+        };
+        _LdzjdBkV = {
+            "id" = "LdzjdBkV";
+            "file" = "spare-no-items-4.3.jar";
+            "hash" = "sha512-ibdCcgAEoliDMSSH6aAjSYDmIItkLTJhXibUcO1XMyvg8BaQbBUxUWwF96lm7obeDDBd4vGB9GN7yw1LPaK4Ng==";
+        };
     in {
         "ahI9FOto" = _ahI9FOto;
         "mhsLKolV" = _mhsLKolV;
@@ -110,24 +120,31 @@ let
         "VaSUUtwt" = _VaSUUtwt;
         "sUlCpAxW" = _sUlCpAxW;
         "DwuIe6ha" = _DwuIe6ha;
+        "ZwIdb1NN" = _ZwIdb1NN;
+        "LdzjdBkV" = _LdzjdBkV;
         "datapack-1.21.9" = _5XV8wvXI;
         "datapack-1.21.10" = _5XV8wvXI;
         "datapack-1.21.11" = _gAYEg3Zv;
         "datapack-26.1" = _sUlCpAxW;
+        "datapack-26.3" = _ZwIdb1NN;
         "fabric-1.21.9" = _JTnqGiWg;
         "fabric-1.21.10" = _JTnqGiWg;
         "fabric-1.21.11" = _VaSUUtwt;
         "fabric-26.1" = _DwuIe6ha;
+        "fabric-26.3" = _LdzjdBkV;
         "neoforge-1.21.9" = _JTnqGiWg;
         "neoforge-1.21.10" = _JTnqGiWg;
         "neoforge-1.21.11" = _VaSUUtwt;
         "neoforge-26.1" = _DwuIe6ha;
+        "neoforge-26.3" = _LdzjdBkV;
         "quilt-1.21.9" = _JTnqGiWg;
         "quilt-1.21.10" = _JTnqGiWg;
         "quilt-1.21.11" = _VaSUUtwt;
         "quilt-26.1" = _DwuIe6ha;
+        "quilt-26.3" = _LdzjdBkV;
         "forge-1.21.11" = _VaSUUtwt;
         "forge-26.1" = _DwuIe6ha;
+        "forge-26.3" = _LdzjdBkV;
         "pkg-1.0" = _ahI9FOto;
         "pkg-1.0+mod" = _mhsLKolV;
         "pkg-1.1" = _Nunb2BxO;
@@ -146,7 +163,9 @@ let
         "pkg-4.0+mod" = _VaSUUtwt;
         "pkg-4.1" = _sUlCpAxW;
         "pkg-4.1+mod" = _DwuIe6ha;
-        "default" = _DwuIe6ha;
+        "pkg-4.3" = _ZwIdb1NN;
+        "pkg-4.3+mod" = _LdzjdBkV;
+        "default" = _LdzjdBkV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spare-no-items";

@@ -296,6 +296,16 @@ let
             "file" = "knightsheraldry-neoforge-1.21.1-1.2.0.jar";
             "hash" = "sha512-EIddbTYxDYCZxxtOKsRbATjW1/cfvpiTHw41YakbYgip6jZ8MVsZu4SjV0K+9PhOM2ccml57jy4CTS12/Eh6Uw==";
         };
+        _nMqTPERW = {
+            "id" = "nMqTPERW";
+            "file" = "knightsheraldry-fabric-1.21.1-1.3.0.jar";
+            "hash" = "sha512-zYCLBNVam2ZGjRYUNUmCa30i/y16Q8eg2UApD6BJtmD3WhWLKSwKATrFAPZB8KPhQEi1nYoSiCI5Mj1TTXLSkg==";
+        };
+        _3eimrnnG = {
+            "id" = "3eimrnnG";
+            "file" = "knightsheraldry-neoforge-1.21.1-1.3.0.jar";
+            "hash" = "sha512-wuMiAcES57g85uEi/9RqE7iLP6trJJxPIIKmRK5awLKlWmJ6vkfEQhFlpe96N8NKR55FK/zGRf5mPkiwokAxkA==";
+        };
     in {
         "Owm89wMc" = _Owm89wMc;
         "ehwATaix" = _ehwATaix;
@@ -356,10 +366,12 @@ let
         "jJQ5PX0u" = _jJQ5PX0u;
         "2gQPOSOB" = _2gQPOSOB;
         "kiWYX0Sf" = _kiWYX0Sf;
+        "nMqTPERW" = _nMqTPERW;
+        "3eimrnnG" = _3eimrnnG;
         "fabric-1.20.1" = _sN3uwM0e;
-        "fabric-1.21.1" = _2gQPOSOB;
+        "fabric-1.21.1" = _nMqTPERW;
         "forge-1.20.1" = _Wi1fjMwL;
-        "neoforge-1.21.1" = _kiWYX0Sf;
+        "neoforge-1.21.1" = _3eimrnnG;
         "pkg-beta-1" = _Owm89wMc;
         "pkg-0.2.0" = _ehwATaix;
         "pkg-0.2.1" = _DbnUztAP;
@@ -410,7 +422,8 @@ let
         "pkg-1.0.0-rev8" = _sN3uwM0e;
         "pkg-1.1.0" = _jJQ5PX0u;
         "pkg-1.2.0" = _kiWYX0Sf;
-        "default" = _kiWYX0Sf;
+        "pkg-1.3.0" = _3eimrnnG;
+        "default" = _3eimrnnG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "knights-and-heraldry";

@@ -161,6 +161,16 @@ let
             "file" = "letsdo-furniture-fabric-1.1.10.jar";
             "hash" = "sha512-bFlPZCOl79+aGxeJUAwb8O0Cpp8wN9vESks9BUbs+o6QdCsfNBmw+ct0leC3haHZ4oUjcg12OZ7JT//yWpHijg==";
         };
+        _vDVlzKtd = {
+            "id" = "vDVlzKtd";
+            "file" = "letsdo-furniture-fabric-1.1.11.jar";
+            "hash" = "sha512-vk/btVfc+/kk/DeYExDSQowpTjH1uEm35Dh+Wc/Hb0yga9Z6JHiCQdhOgLx1Ass3W0yR/jwC2CwLNFat8TcedA==";
+        };
+        _vVtpdidG = {
+            "id" = "vVtpdidG";
+            "file" = "letsdo-furniture-neoforge-1.1.11.jar";
+            "hash" = "sha512-rLYxFTxwGVdmJmJDaCBEHWXgSOIDjrjDnkNIJ3hfp2b35DPcXJJFAH/BJTaAUg81M0k9qrCPL8V3uN/jMuDafg==";
+        };
     in {
         "IN7ZYtXf" = _IN7ZYtXf;
         "KMkSN9t0" = _KMkSN9t0;
@@ -194,11 +204,13 @@ let
         "HMQI68aY" = _HMQI68aY;
         "FxbGZtS6" = _FxbGZtS6;
         "ywtEJYFd" = _ywtEJYFd;
+        "vDVlzKtd" = _vDVlzKtd;
+        "vVtpdidG" = _vVtpdidG;
         "forge-1.20.1" = _CGCP1SRw;
         "neoforge-1.20.1" = _CGCP1SRw;
-        "neoforge-1.21.1" = _FxbGZtS6;
+        "neoforge-1.21.1" = _vVtpdidG;
         "fabric-1.20.1" = _oG5DC7IV;
-        "fabric-1.21.1" = _ywtEJYFd;
+        "fabric-1.21.1" = _vDVlzKtd;
         "quilt-1.20.1" = _oG5DC7IV;
         "pkg-1.0.0" = _KMkSN9t0;
         "pkg-1.0.1" = _2umJtAxR;
@@ -216,7 +228,8 @@ let
         "pkg-1.1.8" = _Ky2UP9WR;
         "pkg-1.1.9" = _HMQI68aY;
         "pkg-1.1.10" = _ywtEJYFd;
-        "default" = _ywtEJYFd;
+        "pkg-1.1.11" = _vVtpdidG;
+        "default" = _vVtpdidG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-do-furniture";

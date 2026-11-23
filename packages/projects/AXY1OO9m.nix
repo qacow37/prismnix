@@ -171,6 +171,26 @@ let
             "file" = "CobbleFurnies-fabric-1.2.jar";
             "hash" = "sha512-nLWj8eRgS7MPifH6ms2DwmC/aFIgGselC0DROvyAsJVJ2mVfdPndjKCQ5XVkIvAoZdsaMurYV8dMZk4sljJe4A==";
         };
+        _DF2yOg9I = {
+            "id" = "DF2yOg9I";
+            "file" = "CobbleFurnies-NeoForge-1.21.1-1.2.1.jar";
+            "hash" = "sha512-6rCeG+qpSeVZeQ+is42zJ/Mae7MSMyJEm9GKGly05+FlDP3gAYmRSMPWfwUEgxCRRqe34KHAGWVYUY3oxfDdIw==";
+        };
+        _yKsrxgkQ = {
+            "id" = "yKsrxgkQ";
+            "file" = "CobbleFurnies-Fabric-1.21.1-1.2.1.jar";
+            "hash" = "sha512-CENAC49xf0WTnCQNmSueGW+ndBv9TURqFC9ntgKnmXVLdLUOorWuZpPjgcDl1IyhXibxYmsuQ9jPrmWBHCc8tg==";
+        };
+        _yov2fVOd = {
+            "id" = "yov2fVOd";
+            "file" = "CobbleFurnies-NeoForge-26.3-1.2.1.jar";
+            "hash" = "sha512-IMAT0JyOncuTc94HhE6N2lQpqIh1jRYXNX7/kPr+z63o0re/TnHbASutAd+K78sqaFDvGkwxoWOZcA+1C6ELow==";
+        };
+        _OzhVwZs9 = {
+            "id" = "OzhVwZs9";
+            "file" = "CobbleFurnies-Fabric-26.3-1.2.1.jar";
+            "hash" = "sha512-Nk1JHlyegqW6w7nNchGxMrH/ew3NHgEx+tVMGwIEGdT/hbP9mJWUIhLdDPxsSjmjmRC4YNXiwmfVjafqx3mHpA==";
+        };
     in {
         "MywKvM8e" = _MywKvM8e;
         "TuCzkGhy" = _TuCzkGhy;
@@ -206,8 +226,14 @@ let
         "kjN188h5" = _kjN188h5;
         "Ynk3uYUi" = _Ynk3uYUi;
         "54k31lEX" = _54k31lEX;
-        "fabric-1.21.1" = _54k31lEX;
-        "neoforge-1.21.1" = _Ynk3uYUi;
+        "DF2yOg9I" = _DF2yOg9I;
+        "yKsrxgkQ" = _yKsrxgkQ;
+        "yov2fVOd" = _yov2fVOd;
+        "OzhVwZs9" = _OzhVwZs9;
+        "fabric-1.21.1" = _yKsrxgkQ;
+        "fabric-26.3" = _OzhVwZs9;
+        "neoforge-1.21.1" = _DF2yOg9I;
+        "neoforge-26.3" = _yov2fVOd;
         "pkg-0.1" = _TuCzkGhy;
         "pkg-0.2" = _ICztJTpf;
         "pkg-0.2.1" = _i6rOFN4d;
@@ -225,7 +251,9 @@ let
         "pkg-1.0" = _FeaNqZjR;
         "pkg-1.1" = _kjN188h5;
         "pkg-1.2" = _54k31lEX;
-        "default" = _54k31lEX;
+        "pkg-1.2.1-1.21.1" = _yKsrxgkQ;
+        "pkg-1.2.1-26.3" = _OzhVwZs9;
+        "default" = _OzhVwZs9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblefurnies";

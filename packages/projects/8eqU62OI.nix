@@ -161,6 +161,36 @@ let
             "file" = "pokebike-neoforge-4.0.jar";
             "hash" = "sha512-pjaDOGI8zTbrfCqNN+E0qMpUVr/uu48I3Q615GEvpU8mwivxCKof4l+vl8rLY7AqWSJ+7cq7Vh/j+grC2XeGdA==";
         };
+        _OwV9Rt7b = {
+            "id" = "OwV9Rt7b";
+            "file" = "pokebike-forge-1.20.1-4.1.jar";
+            "hash" = "sha512-16nNn5tl0z90xZLCzvDiwQnTHAnW9MOymNRBiiXiOLewud3rWZ+MooZN1lcGmG4W5CNdu7W6pc9ipWg6U8ifrw==";
+        };
+        _xPAJZGtw = {
+            "id" = "xPAJZGtw";
+            "file" = "pokebike-fabric-1.20.1-4.1.jar";
+            "hash" = "sha512-wo8xtKahaTxpie8u9e+AhfybvGUcrlDctB/yr8pOpHgzY4oZ9mfD9+fo174qB6ONPoz5cncK9/pHuc5OyyumRw==";
+        };
+        _Th8KA7no = {
+            "id" = "Th8KA7no";
+            "file" = "pokebike-forge-1.19.2-4.1.jar";
+            "hash" = "sha512-Eq4gPMv0ItwhDvlU1pdemZKa7zwlu7Ey3ngL2as1b6tTToKzPhPb9wamHnZC1lJf5pFtYiTxjWg9jI1J0xj6zg==";
+        };
+        _Niwnl7SH = {
+            "id" = "Niwnl7SH";
+            "file" = "pokebike-fabric-1.19.2-4.1.jar";
+            "hash" = "sha512-f5k42ryoWpBklWt9TLK3gof/tiSOqYWFhaiT3r5pd4YTHWlvLzGxl7fsulPOUrjqfEzVRougYRrcl+mMQqZG8Q==";
+        };
+        _zT6NmonI = {
+            "id" = "zT6NmonI";
+            "file" = "pokebike-neoforge-1.21.1-4.1.jar";
+            "hash" = "sha512-MmSfAivQVr0Nf0DqA5BdFOpmjp5f5dOCaQn9zZ/Q6WemgL33hkoODjmv8LMamRYF+MwNPat/pYTUXfWUJfmoKw==";
+        };
+        _LNuA6ENV = {
+            "id" = "LNuA6ENV";
+            "file" = "pokebike-fabric-1.21.1-4.1.jar";
+            "hash" = "sha512-YiGTtvarEJDR9Q0TgvXh6qH3pVeSXKdUTpPawX4t/AvazvNdRi8/aZPw7523M/2Klf7yjBTcNCWMDT1uBz8sRQ==";
+        };
     in {
         "GMWbdxCy" = _GMWbdxCy;
         "JKDn9xEC" = _JKDn9xEC;
@@ -194,8 +224,16 @@ let
         "Us8koRQY" = _Us8koRQY;
         "AK9vIaHl" = _AK9vIaHl;
         "m4jGQbcm" = _m4jGQbcm;
-        "fabric-1.21.1" = _AK9vIaHl;
-        "neoforge-1.21.1" = _m4jGQbcm;
+        "OwV9Rt7b" = _OwV9Rt7b;
+        "xPAJZGtw" = _xPAJZGtw;
+        "Th8KA7no" = _Th8KA7no;
+        "Niwnl7SH" = _Niwnl7SH;
+        "zT6NmonI" = _zT6NmonI;
+        "LNuA6ENV" = _LNuA6ENV;
+        "fabric-1.21.1" = _LNuA6ENV;
+        "fabric-1.20.1" = _xPAJZGtw;
+        "fabric-1.19.2" = _Niwnl7SH;
+        "neoforge-1.21.1" = _zT6NmonI;
         "neoforge-1.21.2" = _XuOKUH6Z;
         "neoforge-1.21.3" = _XuOKUH6Z;
         "neoforge-1.21.4" = _XuOKUH6Z;
@@ -209,6 +247,8 @@ let
         "neoforge-26.1" = _XuOKUH6Z;
         "neoforge-26.1.1" = _XuOKUH6Z;
         "neoforge-26.1.2" = _XuOKUH6Z;
+        "forge-1.20.1" = _OwV9Rt7b;
+        "forge-1.19.2" = _Th8KA7no;
         "pkg-1.0" = _JKDn9xEC;
         "pkg-1.1" = _SzWTStTB;
         "pkg-1.2" = _rTMdN8pH;
@@ -226,7 +266,8 @@ let
         "pkg-2.0.1" = _PXki8vb3;
         "pkg-3.0" = _Us8koRQY;
         "pkg-4.0" = _m4jGQbcm;
-        "default" = _m4jGQbcm;
+        "pkg-4.1" = _LNuA6ENV;
+        "default" = _LNuA6ENV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pokebike";

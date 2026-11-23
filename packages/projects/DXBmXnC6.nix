@@ -111,6 +111,26 @@ let
             "file" = "Elemental-Reactions-NeoForge-4.2.0-26.3.jar";
             "hash" = "sha512-KEEY0/WGhEsZXYtlIRfVW7em/VzKhellxbJRfqWb3/OiaoSvz1In/1G/aWhKPZn5C8s6pQlqb+FAa43IDC45sg==";
         };
+        _fAn6lsLQ = {
+            "id" = "fAn6lsLQ";
+            "file" = "Elemental-Reactions-NeoForge-4.2.1-26.3.jar";
+            "hash" = "sha512-3Sjdpp0rmOK2NwvAt+1CL8OOezNvW9sagkl/cq9me6dV/LM3I0WaLKNkytxAKmiGtGULDwH2/ftWTGoO4/eodQ==";
+        };
+        _PuImIsVj = {
+            "id" = "PuImIsVj";
+            "file" = "Elemental-Reactions-NeoForge-3.2.0-26.2.jar";
+            "hash" = "sha512-G8u9UMdVeukuw+06NILqi4TJn2GVAL5TrbYNMAe46n+u1fHGjreXdQ8rkltotpYKvyLtHpIig0p1gx7WJR9Ueg==";
+        };
+        _iaPcapz7 = {
+            "id" = "iaPcapz7";
+            "file" = "Elemental-Reactions-NeoForge-1.21.1-2.2.0.jar";
+            "hash" = "sha512-PwLApqARgEDxLKLZofw2ncnryplo0ABZG/bcPXl1ArjTpIxK/QspFxEh5g5EwVLaEiSfEZ9kVYm8wVTRxXaO6Q==";
+        };
+        _sqcTrQFq = {
+            "id" = "sqcTrQFq";
+            "file" = "Elemental-Reactions-Forge-1.20.1-1.8.1.jar";
+            "hash" = "sha512-ICzNVjKjMqjw5PHCBynSIPBb3IILINlkVnne3aeX3yaQelF+2wJI/inPz9t4nu2k4/Q3kC7kKvS1bdr8wCb5oA==";
+        };
     in {
         "HDb1F8xD" = _HDb1F8xD;
         "ZZ3pr9FC" = _ZZ3pr9FC;
@@ -134,10 +154,14 @@ let
         "e9j1ntyX" = _e9j1ntyX;
         "heUCibQs" = _heUCibQs;
         "6Xah9qS9" = _6Xah9qS9;
-        "forge-1.20.1" = _2MZnlmAw;
-        "neoforge-1.21.1" = _AhAjkcjG;
-        "neoforge-26.2" = _e9j1ntyX;
-        "neoforge-26.3" = _6Xah9qS9;
+        "fAn6lsLQ" = _fAn6lsLQ;
+        "PuImIsVj" = _PuImIsVj;
+        "iaPcapz7" = _iaPcapz7;
+        "sqcTrQFq" = _sqcTrQFq;
+        "forge-1.20.1" = _sqcTrQFq;
+        "neoforge-1.21.1" = _iaPcapz7;
+        "neoforge-26.2" = _PuImIsVj;
+        "neoforge-26.3" = _fAn6lsLQ;
         "pkg-1.1.0" = _HDb1F8xD;
         "pkg-1.3.0" = _ZZ3pr9FC;
         "pkg-1.4.0" = _cdP3dc2E;
@@ -160,7 +184,11 @@ let
         "pkg-3.1.0" = _e9j1ntyX;
         "pkg-4.1.0" = _heUCibQs;
         "pkg-4.2.0" = _6Xah9qS9;
-        "default" = _6Xah9qS9;
+        "pkg-4.2.1" = _fAn6lsLQ;
+        "pkg-3.2.0" = _PuImIsVj;
+        "pkg-2.2.0" = _iaPcapz7;
+        "pkg-1.8.1" = _sqcTrQFq;
+        "default" = _sqcTrQFq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elementalcraft-reactions";

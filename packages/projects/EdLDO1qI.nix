@@ -271,6 +271,11 @@ let
             "file" = "ClassArtifacts-forge-1.20.1_v2.2.0.jar";
             "hash" = "sha512-idV81RhwXPwK3v2CoCsNV0K7S7lD2JWzSa5c+vnKWS1PoYAgwEixeUEUV8USqlklJzFyBp3ZtggAHq1BKiCTZA==";
         };
+        _V4N3tF0V = {
+            "id" = "V4N3tF0V";
+            "file" = "ClassArtifacts-forge-1.20.1_v2.2.1.jar";
+            "hash" = "sha512-/aiMGgzM7VKIkaQELDP6rH1juJrJtjj3UDp3Lrdyxjz4UuGaQXcYlpD2tDUx8vlbr0EHS5bTy0MXKT4LJTn9Pg==";
+        };
     in {
         "qL9zZe2h" = _qL9zZe2h;
         "hvabW3cE" = _hvabW3cE;
@@ -326,7 +331,8 @@ let
         "eqw4AVhW" = _eqw4AVhW;
         "wOwtOyo0" = _wOwtOyo0;
         "aiWumUCS" = _aiWumUCS;
-        "forge-1.20.1" = _aiWumUCS;
+        "V4N3tF0V" = _V4N3tF0V;
+        "forge-1.20.1" = _V4N3tF0V;
         "forge-1.20.2" = _rR277XnF;
         "forge-1.20.3" = _rR277XnF;
         "forge-1.20.4" = _rR277XnF;
@@ -370,7 +376,8 @@ let
         "pkg-2.1.8" = _staMFUi5;
         "pkg-2.1.9" = _ZJq9nF2n;
         "pkg-2.2.0" = _aiWumUCS;
-        "default" = _aiWumUCS;
+        "pkg-2.2.1" = _V4N3tF0V;
+        "default" = _V4N3tF0V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rpg-class-artifacts";

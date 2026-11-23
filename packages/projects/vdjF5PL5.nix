@@ -411,6 +411,11 @@ let
             "file" = "dynamictrees-neoforge-26.1.2-1.8.0-BETA04.jar";
             "hash" = "sha512-kkza7TSW4Mp/U3FUF2RIZpAdQ9Tfojj3u54oMDAwlvO08/GaiNs3n8/5nt5HPyRSM0APhw5jGOZchk7rvAOXFg==";
         };
+        _EfG1HBXA = {
+            "id" = "EfG1HBXA";
+            "file" = "DynamicTrees-1.20.1-1.4.12.jar";
+            "hash" = "sha512-z4xsj9GTIb5AdGpKXJGmSc5Rd/NztYxWNlOuJGSfHrDb8fs+PYaSiAkNQwHr7s1EmKMMRe8rsExjkKCPWUXwVw==";
+        };
     in {
         "xfRW8BpS" = _xfRW8BpS;
         "FBKBu64t" = _FBKBu64t;
@@ -494,11 +499,12 @@ let
         "AejMebCy" = _AejMebCy;
         "49BjyewB" = _49BjyewB;
         "djcEepCM" = _djcEepCM;
+        "EfG1HBXA" = _EfG1HBXA;
         "forge-1.16.4" = _xfRW8BpS;
         "forge-1.16.5" = _xfRW8BpS;
         "forge-1.18.2" = _8gAgdf1j;
         "forge-1.19.2" = _byXgtF59;
-        "forge-1.20.1" = _iGSXZxgo;
+        "forge-1.20.1" = _EfG1HBXA;
         "neoforge-1.21.1" = _G4uJ0UA0;
         "neoforge-26.1.2" = _djcEepCM;
         "fabric-1.21.1" = _AejMebCy;
@@ -585,7 +591,8 @@ let
         "pkg-1.7.2-BETA" = _AejMebCy;
         "pkg-1.8.0-BETA03" = _49BjyewB;
         "pkg-1.8.0-BETA04" = _djcEepCM;
-        "default" = _djcEepCM;
+        "pkg-1.20.1-1.4.12" = _EfG1HBXA;
+        "default" = _EfG1HBXA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamictrees";

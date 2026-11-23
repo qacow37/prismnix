@@ -71,6 +71,11 @@ let
             "file" = "angellib-1.0.2.jar";
             "hash" = "sha512-8BY/DYvOafD4XAbMMam0k8gK/DWNqEl14EU2SlgNJnPI+318WxbDuEsIz/4Z3AIoElQn6RA84pPPBnXSd9nBvA==";
         };
+        _rt8FNnuZ = {
+            "id" = "rt8FNnuZ";
+            "file" = "angellib-1.0.3.jar";
+            "hash" = "sha512-ly6ts6piyWKkkYGULU9WIx1sPvdB5672mAm6SNVUl67QeiCUME4CYbYJztaXEmJqIENDAhmr86gt9RSZK+3BKQ==";
+        };
     in {
         "koT5bgtP" = _koT5bgtP;
         "2j4WNl8Q" = _2j4WNl8Q;
@@ -86,7 +91,8 @@ let
         "NOJ9KnpK" = _NOJ9KnpK;
         "hWmGJi5y" = _hWmGJi5y;
         "4aSU7QPY" = _4aSU7QPY;
-        "forge-1.7.10" = _4aSU7QPY;
+        "rt8FNnuZ" = _rt8FNnuZ;
+        "forge-1.7.10" = _rt8FNnuZ;
         "pkg-0.0.45" = _koT5bgtP;
         "pkg-0.0.46" = _2j4WNl8Q;
         "pkg-0.0.47" = _KAQQ745B;
@@ -101,7 +107,8 @@ let
         "pkg-1.0.0" = _NOJ9KnpK;
         "pkg-1.0.1" = _hWmGJi5y;
         "pkg-1.0.2" = _4aSU7QPY;
-        "default" = _4aSU7QPY;
+        "pkg-1.0.3" = _rt8FNnuZ;
+        "default" = _rt8FNnuZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "angellib";

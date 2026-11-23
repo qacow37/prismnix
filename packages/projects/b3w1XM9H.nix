@@ -236,6 +236,16 @@ let
             "file" = "sootychimneys-fabric-26.2-1.3.5.jar";
             "hash" = "sha512-TERoyrszYBxisqBdOE/KydufuiV2JQOiViUg5XTeqYFX9/27NN2H1VP+me++Ir5FISq60kI2OoqqKDpxJOaubg==";
         };
+        _1WIbsTUw = {
+            "id" = "1WIbsTUw";
+            "file" = "sootychimneys-neoforge-26.3-1.3.5.jar";
+            "hash" = "sha512-rI9RjbNq/gEH17ztJhbpC+bgpRbHGDvbz9mYHT+snzMionpqUZQjBjnBpcggLdnrBMyPd730bX4tYbP3y7ixxQ==";
+        };
+        _h4tIDbnY = {
+            "id" = "h4tIDbnY";
+            "file" = "sootychimneys-fabric-26.3-1.3.5.jar";
+            "hash" = "sha512-QmbvRfJ91ov/MfUpfIXdwLqSyYEkTAnhRAWtMeIHj5vUsSpVZVyohmrHkdFJAwiz4tOxU3k+D2exX7ntGGbQIw==";
+        };
     in {
         "o3AVHJ7c" = _o3AVHJ7c;
         "41gIJ92H" = _41gIJ92H;
@@ -284,6 +294,8 @@ let
         "sUuTA9z2" = _sUuTA9z2;
         "oGXgVuSt" = _oGXgVuSt;
         "vlLaEG7o" = _vlLaEG7o;
+        "1WIbsTUw" = _1WIbsTUw;
+        "h4tIDbnY" = _h4tIDbnY;
         "forge-1.18.2" = _ZEvxeorp;
         "forge-1.19.2" = _IdmSySlD;
         "forge-1.19.3" = _WzXDpB40;
@@ -300,6 +312,7 @@ let
         "neoforge-26.1.1" = _sTCe0lrT;
         "neoforge-26.1.2" = _sTCe0lrT;
         "neoforge-26.2" = _oGXgVuSt;
+        "neoforge-26.3" = _1WIbsTUw;
         "fabric-1.21" = _SpaItGFa;
         "fabric-1.21.1" = _sUuTA9z2;
         "fabric-1.21.4" = _FRAcJGh2;
@@ -312,6 +325,7 @@ let
         "fabric-26.1.1" = _a2MIBiG2;
         "fabric-26.1.2" = _a2MIBiG2;
         "fabric-26.2" = _vlLaEG7o;
+        "fabric-26.3" = _h4tIDbnY;
         "quilt-1.21" = _SpaItGFa;
         "quilt-1.21.1" = _SpaItGFa;
         "pkg-1.0.0" = _nqkn50NW;
@@ -327,8 +341,8 @@ let
         "pkg-1.2.4" = _sygsmg1N;
         "pkg-1.3.3" = _xVKiQNYC;
         "pkg-1.3.4" = _SzOP2RQg;
-        "pkg-1.3.5" = _vlLaEG7o;
-        "default" = _vlLaEG7o;
+        "pkg-1.3.5" = _h4tIDbnY;
+        "default" = _h4tIDbnY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sooty-chimneys";

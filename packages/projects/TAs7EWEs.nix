@@ -11,13 +11,20 @@ let
             "file" = "towed-1.2.0.jar";
             "hash" = "sha512-i7icpsYRyS5U1VC0MZzbxjQ4KDNMU/VapWU4WoGaUWKn1Q/Qn9xXXkzfbKwiZnKscjfUTTuN+KWbPIlRN+rbhw==";
         };
+        _cVpH244Y = {
+            "id" = "cVpH244Y";
+            "file" = "towed-1.3.0.jar";
+            "hash" = "sha512-I6+aaVH0NYCKJTiB6M611VaVjPqBAgGYEngvmHa4M4H89y7qu5t2uIbAFS9TraPuOgqAPzBx/t4jfE5NlUr+Aw==";
+        };
     in {
         "kpS5QFUx" = _kpS5QFUx;
         "lyPZNTBl" = _lyPZNTBl;
-        "neoforge-1.21.1" = _lyPZNTBl;
+        "cVpH244Y" = _cVpH244Y;
+        "neoforge-1.21.1" = _cVpH244Y;
         "pkg-v1.0.0" = _kpS5QFUx;
         "pkg-v1.2.0" = _lyPZNTBl;
-        "default" = _lyPZNTBl;
+        "pkg-v1.3.0" = _cVpH244Y;
+        "default" = _cVpH244Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-towed";

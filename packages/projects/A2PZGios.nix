@@ -436,6 +436,21 @@ let
             "file" = "worldportal-neoforge-0.0.13+26.3.jar";
             "hash" = "sha512-UyoNjV0S6ngviAhiQ4BnWfN7HWSBmJUi50yCGQ+QHdiez1Ne61phsN8k2WzTFEmPPWvyhVz1+tir8SljvFIJIA==";
         };
+        _JaeG6Fdq = {
+            "id" = "JaeG6Fdq";
+            "file" = "worldportal-fabric-0.0.14+1.20.1.jar";
+            "hash" = "sha512-BK3mAt7nsTmYZVbGf+d4S1L1BLHyVpkBSXCvCRViK8seAoS8UqWvuvK82LH2VoIWh5MDSw3brxLmjETVYoMGcA==";
+        };
+        _FtAu1baS = {
+            "id" = "FtAu1baS";
+            "file" = "worldportal-forge-0.0.14+1.20.1.jar";
+            "hash" = "sha512-SqUwxIJ0Ory6eHipb6mCsm9p20Yns5PXIGXlwQWFziwvUFiSlgw1+vlY/KQCjwTXC92svP8uHKUy5oGYzj9Zyg==";
+        };
+        _d5mlMqGh = {
+            "id" = "d5mlMqGh";
+            "file" = "worldportal-neoforge-0.0.14+1.20.1.jar";
+            "hash" = "sha512-8NJcmMi+7z9SvBBLIe4V0c44gAzYhrEvATgrHxoyVH/c4i8ffq/kFYU1MQFXdoWuaMPATeW2u+K4UGpP6FaJNA==";
+        };
     in {
         "zAIpb2Y3" = _zAIpb2Y3;
         "ylP9ciFX" = _ylP9ciFX;
@@ -524,7 +539,10 @@ let
         "zcZ5uce0" = _zcZ5uce0;
         "SwLr0KBg" = _SwLr0KBg;
         "2GLtmQI4" = _2GLtmQI4;
-        "fabric-1.20.1" = _SoWHRhAT;
+        "JaeG6Fdq" = _JaeG6Fdq;
+        "FtAu1baS" = _FtAu1baS;
+        "d5mlMqGh" = _d5mlMqGh;
+        "fabric-1.20.1" = _JaeG6Fdq;
         "fabric-1.21" = _VP9a1CTk;
         "fabric-1.21.1" = _K7EmhnKl;
         "fabric-1.21.2" = _i2odFpaW;
@@ -542,8 +560,8 @@ let
         "fabric-26.1.2" = _dYv0mTHI;
         "fabric-26.2" = _dYv0mTHI;
         "fabric-26.3" = _SwLr0KBg;
-        "forge-1.20.1" = _IDacghwd;
-        "neoforge-1.20.1" = _SALDlIH9;
+        "forge-1.20.1" = _FtAu1baS;
+        "neoforge-1.20.1" = _d5mlMqGh;
         "neoforge-1.21" = _kitApnnw;
         "neoforge-1.21.1" = _bgV0JZ46;
         "neoforge-1.21.2" = _5EqRE3bd;
@@ -599,7 +617,8 @@ let
         "pkg-0.0.13+1.21.1" = _bgV0JZ46;
         "pkg-0.0.13+26.1" = _zcZ5uce0;
         "pkg-0.0.13+26.3" = _2GLtmQI4;
-        "default" = _2GLtmQI4;
+        "pkg-0.0.14+1.20.1" = _d5mlMqGh;
+        "default" = _d5mlMqGh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "worldportal";

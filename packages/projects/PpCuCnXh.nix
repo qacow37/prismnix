@@ -101,6 +101,26 @@ let
             "file" = "HyBedWars-1.2.0-26.3+_fabric.jar";
             "hash" = "sha512-qyivARmTKX7qOKVXcQsMB9bwEo4o43XfkmoHI4Vp3pY2ryiK8Gk1SK78T/d7+quh1n8OVPb8KFgGV4SNLRblFA==";
         };
+        _qT17S7PZ = {
+            "id" = "qT17S7PZ";
+            "file" = "HyBedWars-1.2.1-1.8.9_ornithe.jar";
+            "hash" = "sha512-kuxs8h9J+CMUmaBLnUo5EeP3q3qpJav/heveNL1fsZYuAOnQfHHGu8U7w1YpeMqRD0Tz89RDi01AJstSFirdyQ==";
+        };
+        _mCeoDd8L = {
+            "id" = "mCeoDd8L";
+            "file" = "HyBedWars-1.2.1-26.1+_fabric.jar";
+            "hash" = "sha512-hKVziTYZnbRv1r5rydAApr9WZA1KQCqlfwJ+MxQqJ3qggvaZ2lqB/4iXYi9U7KyjzRX3bvddy3jlh1ztJ1c82Q==";
+        };
+        _VRUbcMGt = {
+            "id" = "VRUbcMGt";
+            "file" = "HyBedWars-1.2.1-26.2+_fabric.jar";
+            "hash" = "sha512-ev+/6mh26iqv2b+uPkh9OquEKd6Xn4Iv5BMz5JIRMbbKOR5Hf5JjbcDDl640kUO1YQ19Ng9HmQzUgqlfdzO9rA==";
+        };
+        _BrD1KDTT = {
+            "id" = "BrD1KDTT";
+            "file" = "HyBedWars-1.2.1-26.3+_fabric.jar";
+            "hash" = "sha512-IeJUBuY/TZepDtwhG1k6cbgyc2G+NtiHjdjJU8LuJQecISH2xPJWr1EOodM8pm4Bndm3NcCaOwRB/Wia9lIshw==";
+        };
     in {
         "aFUdJLPj" = _aFUdJLPj;
         "Z5g2Ek4q" = _Z5g2Ek4q;
@@ -122,13 +142,17 @@ let
         "ELhZPKgC" = _ELhZPKgC;
         "jD2hsQbf" = _jD2hsQbf;
         "xyL2EfP5" = _xyL2EfP5;
-        "fabric-26.2" = _jD2hsQbf;
-        "fabric-26.1.2" = _ELhZPKgC;
-        "fabric-26.1.1" = _ELhZPKgC;
-        "fabric-26.1" = _ELhZPKgC;
-        "fabric-26.3" = _xyL2EfP5;
+        "qT17S7PZ" = _qT17S7PZ;
+        "mCeoDd8L" = _mCeoDd8L;
+        "VRUbcMGt" = _VRUbcMGt;
+        "BrD1KDTT" = _BrD1KDTT;
+        "fabric-26.2" = _VRUbcMGt;
+        "fabric-26.1.2" = _mCeoDd8L;
+        "fabric-26.1.1" = _mCeoDd8L;
+        "fabric-26.1" = _mCeoDd8L;
+        "fabric-26.3" = _BrD1KDTT;
         "forge-1.8.9" = _8QsQuwwq;
-        "ornithe-1.8.9" = _qbjItHZX;
+        "ornithe-1.8.9" = _qT17S7PZ;
         "pkg-0.0.0-26.2+_fabric" = _aFUdJLPj;
         "pkg-1.0.0-1.8.9_forge" = _Z5g2Ek4q;
         "pkg-1.0.0-1.8.9_ornithe" = _jM4n7sBL;
@@ -149,7 +173,11 @@ let
         "pkg-1.2.0-26.1+" = _ELhZPKgC;
         "pkg-1.2.0-26.2+" = _jD2hsQbf;
         "pkg-1.2.0-26.3+" = _xyL2EfP5;
-        "default" = _xyL2EfP5;
+        "pkg-1.2.1-1.8.9" = _qT17S7PZ;
+        "pkg-1.2.1-26.1+" = _mCeoDd8L;
+        "pkg-1.2.1-26.2+" = _VRUbcMGt;
+        "pkg-1.2.1-26.3+" = _BrD1KDTT;
+        "default" = _BrD1KDTT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hybedwars";

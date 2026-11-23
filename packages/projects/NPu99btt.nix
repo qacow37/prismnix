@@ -21,17 +21,24 @@ let
             "file" = "createrailgun-1.0.3.jar";
             "hash" = "sha512-dPG7ShGlSoX7bSqPOEtfk18dh/Cq/EC1iVKiOq+X3dKKLPfHQd0MOY/vTqEK4Pb6cKu8hgJARyPuC7Qtc0taTQ==";
         };
+        _Gk7sDCCM = {
+            "id" = "Gk7sDCCM";
+            "file" = "createrailgun-1.0.4.jar";
+            "hash" = "sha512-T86Hth/OtYDkP+Vb4AwuEE+96yomj04Qt6V4ccuzQ/ACGrJ95S7YyT3gF0VkE3hXPI+FDa96S6/dkQPKZN4QOg==";
+        };
     in {
         "4p4I8Djq" = _4p4I8Djq;
         "JlmjHAKS" = _JlmjHAKS;
         "lkYAVjPv" = _lkYAVjPv;
         "biD9dbhy" = _biD9dbhy;
-        "neoforge-1.21.1" = _biD9dbhy;
+        "Gk7sDCCM" = _Gk7sDCCM;
+        "neoforge-1.21.1" = _Gk7sDCCM;
         "pkg-1.0.0" = _4p4I8Djq;
         "pkg-1.0.1" = _JlmjHAKS;
         "pkg-1.0.2" = _lkYAVjPv;
         "pkg-1.0.3" = _biD9dbhy;
-        "default" = _biD9dbhy;
+        "pkg-1.0.4" = _Gk7sDCCM;
+        "default" = _Gk7sDCCM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-railgun";

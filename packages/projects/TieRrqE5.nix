@@ -286,6 +286,36 @@ let
             "file" = "cozytips-fabric-26.3-1.3.0.jar";
             "hash" = "sha512-sR9ey0Ae8E9q/1Dkd8nhSh6N6bbnwWa28dIFEKfyx73OBDL20rLzbvYAGHx+gbYztjFipBlZ5XMaYX2oCHAOmA==";
         };
+        _ceEsBf4N = {
+            "id" = "ceEsBf4N";
+            "file" = "cozytips-fabric-1.20.1-1.4.0.jar";
+            "hash" = "sha512-BaS+lhJWhUbGxCa/mttkVoelYHQ4fovkmqmcmbbdx+3Q4RUIw9bs4soWcUG+It+jsXFcqvU20SQZCSkA5TRHiw==";
+        };
+        _X1tpjFH5 = {
+            "id" = "X1tpjFH5";
+            "file" = "cozytips-fabric-1.21.1-1.4.0.jar";
+            "hash" = "sha512-d3nbT5DeU++glT/bzhFr7bLDDQaiewM9tCnqH3dEVjt6oG6Tj+PVwXgUO4lPKhFZQir+xawIE+AuPaDavl1vfQ==";
+        };
+        _ibbO9c4O = {
+            "id" = "ibbO9c4O";
+            "file" = "cozytips-fabric-1.21.11-1.4.0.jar";
+            "hash" = "sha512-pIrdGSsSRhMdQnYAGTzerNRqF+jDypJjff463qclwlpWmv6QvG379hl3SNYj0rOSpINXxM/hYdgazzoOBO9Chw==";
+        };
+        _MIqruJgr = {
+            "id" = "MIqruJgr";
+            "file" = "cozytips-fabric-26.1.2-1.4.0.jar";
+            "hash" = "sha512-Z+3VQIgSEWrHENhUh2zXcou0o9d4k3IdmkBxL71Sq+CaSRY9jqM/Qkdv/UGZT7Q+1mBTNSL8Kuv1ANa7DFQN3Q==";
+        };
+        _oV5Te9wx = {
+            "id" = "oV5Te9wx";
+            "file" = "cozytips-fabric-26.2-1.4.0.jar";
+            "hash" = "sha512-ISI9x2f41t0h0HldR9MChubwkUmYagxjmzbAKvEu7TbDp/iL/7Fioh/XePSufUAI/2DnyHokQp4OdbDhr5j8hQ==";
+        };
+        _wjtXRtWp = {
+            "id" = "wjtXRtWp";
+            "file" = "cozytips-fabric-26.3-1.4.0.jar";
+            "hash" = "sha512-jFvdlHYUjSGtu4F0bsB0bMCLpCjSjs+D2helHgJ3d5BXiOcr+aBGgi981gME0AE95hsynMysbEASFPtJeqtxWg==";
+        };
     in {
         "j277UUR0" = _j277UUR0;
         "6xVPIV5R" = _6xVPIV5R;
@@ -344,15 +374,21 @@ let
         "u6MSilZi" = _u6MSilZi;
         "wRk0WFRh" = _wRk0WFRh;
         "XvneFSxe" = _XvneFSxe;
+        "ceEsBf4N" = _ceEsBf4N;
+        "X1tpjFH5" = _X1tpjFH5;
+        "ibbO9c4O" = _ibbO9c4O;
+        "MIqruJgr" = _MIqruJgr;
+        "oV5Te9wx" = _oV5Te9wx;
+        "wjtXRtWp" = _wjtXRtWp;
         "fabric-1.20" = _rgbhvHzO;
-        "fabric-1.20.1" = _f1JxHJlI;
+        "fabric-1.20.1" = _ceEsBf4N;
         "fabric-1.20.2" = _HQJty5J2;
         "fabric-1.20.3" = _j1hLyoAd;
         "fabric-1.20.4" = _7prd3oLg;
         "fabric-1.20.5" = _o6kwbaGI;
         "fabric-1.20.6" = _W3aZ0ZDu;
         "fabric-1.21" = _CU55cdcZ;
-        "fabric-1.21.1" = _jWCYyoKo;
+        "fabric-1.21.1" = _X1tpjFH5;
         "fabric-1.21.2" = _TrI9deob;
         "fabric-1.21.3" = _hsZQ5ieV;
         "fabric-1.21.4" = _4phHBCr8;
@@ -362,17 +398,18 @@ let
         "fabric-1.21.8" = _EZ3XV7Jq;
         "fabric-1.21.9" = _JCXCcVAa;
         "fabric-1.21.10" = _8ABmBhZ6;
-        "fabric-1.21.11" = _vhYZyyIK;
+        "fabric-1.21.11" = _ibbO9c4O;
         "fabric-26.1" = _SMm0DPoe;
         "fabric-26.1.1" = _eMbx12NR;
-        "fabric-26.1.2" = _u6MSilZi;
-        "fabric-26.2" = _wRk0WFRh;
-        "fabric-26.3" = _XvneFSxe;
+        "fabric-26.1.2" = _MIqruJgr;
+        "fabric-26.2" = _oV5Te9wx;
+        "fabric-26.3" = _wjtXRtWp;
         "pkg-v1.0.0" = _26BDDGC8;
         "pkg-v1.1.0" = _dlKAfUqN;
         "pkg-v1.2.0" = _SQcvK4CW;
         "pkg-v1.3.0" = _XvneFSxe;
-        "default" = _XvneFSxe;
+        "pkg-v1.4.0" = _wjtXRtWp;
+        "default" = _wjtXRtWp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cozytips";

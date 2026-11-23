@@ -71,6 +71,16 @@ let
             "file" = "ReVespera VXPT 1.0.2 (Chocapic13 shader edit).zip";
             "hash" = "sha512-4+WXgqfNARZS50ZC5RZruqgZ4obkAcavXMyT6ARCYpD/7/BEkqWiVJ+NYdaTVTTWuG8hJRND9e4jDqO+eVElYw==";
         };
+        _vgjfnOWi = {
+            "id" = "vgjfnOWi";
+            "file" = "ReVespera_VXPT_1.0.6_(Chocapic13 shader edit).zip";
+            "hash" = "sha512-/87HvD5Mt0mnOJEMtAXQT4/h4c3pTFFLWlLkX+QEtQYrnHSguD0eVZAZ0d20f19GU7mvBvVOEqO3AppIKu5dDA==";
+        };
+        _45Bps2kh = {
+            "id" = "45Bps2kh";
+            "file" = "ReVespera VXPT 1.1.0 (Chocapic13 shader edit).zip";
+            "hash" = "sha512-2hUGLfwxABL0sGU3SquhAS6tLQObgWi5DHI/33wQZXPailV+kV7pyH/cM8CrR5HnnvdPH/5wMvYPmDsfpqbTeg==";
+        };
     in {
         "6Xs7eWrI" = _6Xs7eWrI;
         "myh9USO6" = _myh9USO6;
@@ -86,15 +96,17 @@ let
         "jXpnkNgi" = _jXpnkNgi;
         "51uQ44dM" = _51uQ44dM;
         "cM3gg0Cf" = _cM3gg0Cf;
-        "iris-1.21.8" = _cM3gg0Cf;
-        "iris-1.21.9" = _cM3gg0Cf;
-        "iris-1.21.10" = _cM3gg0Cf;
-        "iris-1.21.11" = _cM3gg0Cf;
-        "iris-26.1" = _cM3gg0Cf;
-        "iris-26.1.1" = _cM3gg0Cf;
-        "iris-26.1.2" = _cM3gg0Cf;
-        "iris-26.2" = _cM3gg0Cf;
-        "iris-26.3" = _cM3gg0Cf;
+        "vgjfnOWi" = _vgjfnOWi;
+        "45Bps2kh" = _45Bps2kh;
+        "iris-1.21.8" = _45Bps2kh;
+        "iris-1.21.9" = _45Bps2kh;
+        "iris-1.21.10" = _45Bps2kh;
+        "iris-1.21.11" = _45Bps2kh;
+        "iris-26.1" = _45Bps2kh;
+        "iris-26.1.1" = _45Bps2kh;
+        "iris-26.1.2" = _45Bps2kh;
+        "iris-26.2" = _45Bps2kh;
+        "iris-26.3" = _45Bps2kh;
         "iris-1.21.5" = _jXpnkNgi;
         "iris-1.21.6" = _jXpnkNgi;
         "iris-1.21.7" = _jXpnkNgi;
@@ -112,7 +124,9 @@ let
         "pkg-0.9.9" = _jXpnkNgi;
         "pkg-1.0.0" = _51uQ44dM;
         "pkg-1.0.2" = _cM3gg0Cf;
-        "default" = _cM3gg0Cf;
+        "pkg-1.0.6" = _vgjfnOWi;
+        "pkg-1.1.0" = _45Bps2kh;
+        "default" = _45Bps2kh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "revesperashader";

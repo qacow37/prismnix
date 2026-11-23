@@ -171,6 +171,16 @@ let
             "file" = "JustEnoughServerlessRecipes-neoforge-26.3-0.1.0.0.jar";
             "hash" = "sha512-6sJl0tc/lXoq95FIdAnigz9JTUWVscuRhZTmXrXRNaDRltAoYk3ksvXYzvpV1FscQtRYdUGOslK2n4vO459nuA==";
         };
+        _tcJiR4zz = {
+            "id" = "tcJiR4zz";
+            "file" = "JustEnoughServerlessRecipes-neoforge-26.3-0.1.1.0.jar";
+            "hash" = "sha512-f1Z+uwPtx1LcuTLWNLLfd/QpyCO2Z04FUHoHIqO48Wxu9qLj78r/zdG4IdWNk9BzFSd9OzBvi0ubwU0j70W/4Q==";
+        };
+        _zAGHmf5D = {
+            "id" = "zAGHmf5D";
+            "file" = "JustEnoughServerlessRecipes-fabric-26.3-0.1.1.0.jar";
+            "hash" = "sha512-fHKoC5FIeJTDNGwrmLhNZotY8Y8O7yOjAJrMvhJG3H/k8IQNaBKXQ2h3DNWQGprkto+jlHv2PU39nGpCZE1h7Q==";
+        };
     in {
         "NJBFikcW" = _NJBFikcW;
         "pMjh2xn7" = _pMjh2xn7;
@@ -206,6 +216,8 @@ let
         "Fh8u4Ltj" = _Fh8u4Ltj;
         "wiDUa0of" = _wiDUa0of;
         "4adQ1GQv" = _4adQ1GQv;
+        "tcJiR4zz" = _tcJiR4zz;
+        "zAGHmf5D" = _zAGHmf5D;
         "fabric-26.1" = _6QpAa7Hj;
         "fabric-26.1.1" = _6QpAa7Hj;
         "fabric-26.1.2" = _yZjp1w0c;
@@ -214,7 +226,7 @@ let
         "fabric-1.21.10" = _FdOuclmO;
         "fabric-1.21.11" = _ygA9MLJv;
         "fabric-26.2" = _U0BaDwMQ;
-        "fabric-26.3" = _wiDUa0of;
+        "fabric-26.3" = _zAGHmf5D;
         "neoforge-26.1" = _DmEVgz3Y;
         "neoforge-26.1.1" = _DmEVgz3Y;
         "neoforge-26.1.2" = _rnh329Ew;
@@ -228,7 +240,7 @@ let
         "neoforge-1.21.10" = _KcwIbbGm;
         "neoforge-1.21.11" = _t70qTUQ3;
         "neoforge-26.2" = _Fh8u4Ltj;
-        "neoforge-26.3" = _4adQ1GQv;
+        "neoforge-26.3" = _tcJiR4zz;
         "pkg-1.0.0" = _NJBFikcW;
         "pkg-1.1.0" = _aLtHu2BV;
         "pkg-1.1.1" = _UBwvOKbn;
@@ -237,7 +249,8 @@ let
         "pkg-1.2.2" = _iw30bMrk;
         "pkg-0.0.1.0" = _Fh8u4Ltj;
         "pkg-0.1.0.0" = _4adQ1GQv;
-        "default" = _4adQ1GQv;
+        "pkg-0.1.1.0" = _zAGHmf5D;
+        "default" = _zAGHmf5D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "just-enough-serverless-recipes";
