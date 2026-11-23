@@ -198,8 +198,8 @@
               "WITH_CONFIG"
               "TRUE"
             ];
-            default = "with_config";
-            example = "true";
+            default = "WITH_CONFIG";
+            example = "TRUE";
             description = ''
               When to show library mods:
               - `FALSE`
