@@ -3486,6 +3486,11 @@ let
             "file" = "modernfix-forge-5.28.0+mc1.20.1.jar";
             "hash" = "sha512-DQK25Fd0OgbbMQhGXdoU/gtvSfkv7EKzJbRCcmxUZsh81qHbHqtj3j2irCE6Emk5zF1rnCKow+SbmmqK+Gc5ew==";
         };
+        _Jj02bs5k = {
+            "id" = "Jj02bs5k";
+            "file" = "modernfix-forge-5.28.8+mc1.20.1.jar";
+            "hash" = "sha512-rL6VZ6+AcssZb4F1hDjSUL8Oj8LbK1RddKDh5OvSAje8gLDo8BwZ1jWHB8owCXe1klthdqeTtYzP6vKk3C7NVw==";
+        };
     in {
         "YmKitGGB" = _YmKitGGB;
         "bakWifEu" = _bakWifEu;
@@ -4184,12 +4189,13 @@ let
         "owm7aSw3" = _owm7aSw3;
         "PJeJimdc" = _PJeJimdc;
         "WGwPXD1c" = _WGwPXD1c;
+        "Jj02bs5k" = _Jj02bs5k;
         "forge-1.16.5" = _Cc0b1kXl;
         "forge-1.18.2" = _Vlkqd178;
         "forge-1.19.2" = _FqoRZlrr;
         "forge-1.19.4" = _NufUMuUS;
         "forge-1.20" = _euvIjfw2;
-        "forge-1.20.1" = _WGwPXD1c;
+        "forge-1.20.1" = _Jj02bs5k;
         "forge-1.16.4" = _Cc0b1kXl;
         "forge-1.20.2" = _6IhNexn2;
         "fabric-1.16.5" = _mDqpjmKe;
@@ -4636,7 +4642,8 @@ let
         "pkg-5.27.92+mc1.20.1" = _owm7aSw3;
         "pkg-5.27.93+mc1.20.1" = _PJeJimdc;
         "pkg-5.28.0+mc1.20.1" = _WGwPXD1c;
-        "default" = _WGwPXD1c;
+        "pkg-5.28.8+mc1.20.1" = _Jj02bs5k;
+        "default" = _Jj02bs5k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modernfix";

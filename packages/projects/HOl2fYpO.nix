@@ -151,6 +151,21 @@ let
             "file" = "YetAnotherThirst-fabric-1.21-1.6.0.jar";
             "hash" = "sha512-Mo0hgASuytnjKce9BzevGKY4zLlclQ1L+5G2enSU72N3OsO83z31vFP4hxMqtOJ8TrdeGSfx3R3/JdpY2CleTg==";
         };
+        _Ezr4rxds = {
+            "id" = "Ezr4rxds";
+            "file" = "YetAnotherThirst-forge-26.2-1.6.0.jar";
+            "hash" = "sha512-Jkc+YA6/BuZbR4IVv3ssFbDOlydrCFWWQUMo7khCC54uRR8nQy1gti5Dn6pRvIieJyksTPOLdeJZP+gObx147A==";
+        };
+        _Lps0hZor = {
+            "id" = "Lps0hZor";
+            "file" = "YetAnotherThirst-neoforge-26.2-1.6.0.jar";
+            "hash" = "sha512-aonWHuxkvcZB3EjKIXHqD1xA4DrbDczXBACCwcxk4v55lmR38X0Qavyz7Ca/9riGXzBv4ApB8/wq00bJYk1seg==";
+        };
+        _ZDFyv2pu = {
+            "id" = "ZDFyv2pu";
+            "file" = "YetAnotherThirst-fabric-26.2-1.6.0.jar";
+            "hash" = "sha512-Y1buqyDtep3hkj30ee5hWWHll6Ysj3P5vRX81pD3fT0rM5uy0G0HBZR6O7RsW85ShgVIseblt89lK0rPW4Dirw==";
+        };
     in {
         "gDblAANq" = _gDblAANq;
         "7yw25boS" = _7yw25boS;
@@ -182,15 +197,21 @@ let
         "Nwp646ft" = _Nwp646ft;
         "9rGGl2ST" = _9rGGl2ST;
         "TbZPHBvl" = _TbZPHBvl;
+        "Ezr4rxds" = _Ezr4rxds;
+        "Lps0hZor" = _Lps0hZor;
+        "ZDFyv2pu" = _ZDFyv2pu;
         "forge-1.20.1" = _FMr1rQua;
         "forge-1.21" = _Nwp646ft;
         "forge-1.21.1" = _Nwp646ft;
+        "forge-26.2" = _Ezr4rxds;
         "neoforge-1.20.1" = _MBVGsrq6;
         "neoforge-1.21" = _9rGGl2ST;
         "neoforge-1.21.1" = _9rGGl2ST;
+        "neoforge-26.2" = _Lps0hZor;
         "fabric-1.20.1" = _iPWOs4aQ;
         "fabric-1.21" = _TbZPHBvl;
         "fabric-1.21.1" = _TbZPHBvl;
+        "fabric-26.2" = _ZDFyv2pu;
         "pkg-1.20.1-1.4.2" = _7yw25boS;
         "pkg-1.21-1.4.2" = _WLK2PuLT;
         "pkg-1.20.1-1.4.3" = _CPksGqSU;
@@ -204,7 +225,8 @@ let
         "pkg-1.20.1-1.5.3" = _mTjlSvAM;
         "pkg-1.20.1-1.6.0" = _iPWOs4aQ;
         "pkg-1.21-1.6.0" = _TbZPHBvl;
-        "default" = _TbZPHBvl;
+        "pkg-26.2-1.6.0" = _ZDFyv2pu;
+        "default" = _ZDFyv2pu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yet-another-thirst";

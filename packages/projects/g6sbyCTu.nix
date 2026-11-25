@@ -196,6 +196,16 @@ let
             "file" = "fruitsdelight-1.1.3.jar";
             "hash" = "sha512-O9d69oj4qRKsfjOiy9B39jCxaiI1nwkWMIolZ3DhWFCkk6M0i3vXFGB7L/k7GO//Ca6kJKOBFHcKtvLs60LEkA==";
         };
+        _ShFcCgXD = {
+            "id" = "ShFcCgXD";
+            "file" = "fruitsdelight-1.2.14+2.jar";
+            "hash" = "sha512-vuIwUFAp+wcv+wXMAxNNNRI0Qy3wdJhiCfP7kty7oqN7FRP5uvZKQwaO4Rp46zL24Ew+mMTHyaJqLKjpLE/yog==";
+        };
+        _DdqsP3Mb = {
+            "id" = "DdqsP3Mb";
+            "file" = "fruitsdelight-1.1.4.jar";
+            "hash" = "sha512-zlfQ5/q4dc0dPwsdis6tNR5WqQVTm7+rHFIJ7MTJE/cfeWLXvVcQJPrRkwvstiUbnTpV4CvG38AoIHz822Bb1w==";
+        };
     in {
         "Ie0bNAgb" = _Ie0bNAgb;
         "tPNC0UTT" = _tPNC0UTT;
@@ -236,11 +246,13 @@ let
         "kLzQjFUo" = _kLzQjFUo;
         "TWbuEFZt" = _TWbuEFZt;
         "E7H5IrKI" = _E7H5IrKI;
-        "forge-1.20.1" = _E7H5IrKI;
+        "ShFcCgXD" = _ShFcCgXD;
+        "DdqsP3Mb" = _DdqsP3Mb;
+        "forge-1.20.1" = _DdqsP3Mb;
         "forge-1.19.2" = _tPNC0UTT;
-        "neoforge-1.20.1" = _E7H5IrKI;
+        "neoforge-1.20.1" = _DdqsP3Mb;
         "neoforge-1.21" = _TiVM1RjY;
-        "neoforge-1.21.1" = _TWbuEFZt;
+        "neoforge-1.21.1" = _ShFcCgXD;
         "pkg-1.0.9" = _Ie0bNAgb;
         "pkg-0.5.9" = _tPNC0UTT;
         "pkg-1.0.10" = _k6SnqxMm;
@@ -279,7 +291,9 @@ let
         "pkg-1.2.13" = _kLzQjFUo;
         "pkg-1.2.14" = _TWbuEFZt;
         "pkg-1.1.3" = _E7H5IrKI;
-        "default" = _E7H5IrKI;
+        "pkg-1.2.14+2" = _ShFcCgXD;
+        "pkg-1.1.4" = _DdqsP3Mb;
+        "default" = _DdqsP3Mb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fruits-delight";

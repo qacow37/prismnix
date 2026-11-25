@@ -86,6 +86,16 @@ let
             "file" = "toucanlib-fabric-1.21.1-0.5.0.jar";
             "hash" = "sha512-OT/gDGGY2Yh9c+bcKAR39uhu3/N3V1uNZEcuaB9gC9a8/9Kqgx/5PMN95NYw81ja3b8SGTMxUOQFRPDFtHDvIQ==";
         };
+        _E3VNeyP9 = {
+            "id" = "E3VNeyP9";
+            "file" = "toucanlib-neoforge-1.21.1-1.0.0.jar";
+            "hash" = "sha512-2qniD6ArVXQrSYr1Ra1mOC40CKyEBajIKtYfU6yY3p9lLQQ8uEg4QD6+ivAIWdgUb8BldP9BEA3FIEFx8GtoVw==";
+        };
+        _VIas7MSf = {
+            "id" = "VIas7MSf";
+            "file" = "toucanlib-fabric-1.21.1-1.0.0.jar";
+            "hash" = "sha512-1oMbtjGw2v7Xuxne5bOpyLWbCvlDoTGAQZnA25VVcLyUfUlVPzPEsIFNXEFQsHTv/NMZsY8X8QOs44qP0DFMSA==";
+        };
     in {
         "jnlGDvVa" = _jnlGDvVa;
         "l92i6lzK" = _l92i6lzK;
@@ -104,8 +114,10 @@ let
         "B5Z96bXx" = _B5Z96bXx;
         "jW4mP1dI" = _jW4mP1dI;
         "6xP0lwMi" = _6xP0lwMi;
-        "neoforge-1.21.1" = _jW4mP1dI;
-        "fabric-1.21.1" = _6xP0lwMi;
+        "E3VNeyP9" = _E3VNeyP9;
+        "VIas7MSf" = _VIas7MSf;
+        "neoforge-1.21.1" = _E3VNeyP9;
+        "fabric-1.21.1" = _VIas7MSf;
         "pkg-0.1.0" = _l92i6lzK;
         "pkg-0.1.2" = _I2EVpfWU;
         "pkg-0.1.4" = _EnEJQaCl;
@@ -115,7 +127,8 @@ let
         "pkg-0.3.1" = _npKBCMkt;
         "pkg-0.4.0" = _B5Z96bXx;
         "pkg-0.5.0" = _6xP0lwMi;
-        "default" = _6xP0lwMi;
+        "pkg-1.0.0" = _VIas7MSf;
+        "default" = _VIas7MSf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "toucan";

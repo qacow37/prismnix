@@ -86,6 +86,11 @@ let
             "file" = "Geyser-Recipe-Fix-1.5.jar";
             "hash" = "sha512-TpZL0cpgueV4ul3zY1TzlmzJ4PBBjh2GwDVlvNiCOARO9DV773tU0iIVcjYKsIKkewaYLsnI0LtlwXHQZgB/Pw==";
         };
+        _hYLlJi8w = {
+            "id" = "hYLlJi8w";
+            "file" = "Geyser-Recipe-Fix-1.6.jar";
+            "hash" = "sha512-AnOi/F4XGSv4dtwi92Jr38kAd8TkuK+azc+eO7+qRCADgxuGwR31o/ujCeXhi+wmU4YtZ+4zeVwqf1zIgLg3Mw==";
+        };
     in {
         "Pdi0hd3S" = _Pdi0hd3S;
         "O4XSo1i3" = _O4XSo1i3;
@@ -104,6 +109,7 @@ let
         "Zyuv47G0" = _Zyuv47G0;
         "lt0AMSt4" = _lt0AMSt4;
         "RmlFzVYY" = _RmlFzVYY;
+        "hYLlJi8w" = _hYLlJi8w;
         "paper-1.20.3" = _o6odeEIs;
         "paper-1.20.4" = _o6odeEIs;
         "paper-1.20" = _HUT9fA0q;
@@ -119,6 +125,10 @@ let
         "paper-1.21.8" = _RmlFzVYY;
         "paper-1.21.9" = _RmlFzVYY;
         "paper-1.21.10" = _RmlFzVYY;
+        "paper-26.3" = _hYLlJi8w;
+        "paper-26.2" = _hYLlJi8w;
+        "paper-26.1.2" = _hYLlJi8w;
+        "paper-1.21.11" = _hYLlJi8w;
         "purpur-1.20" = _HUT9fA0q;
         "purpur-1.20.1" = _HUT9fA0q;
         "purpur-1.20.2" = _HUT9fA0q;
@@ -134,6 +144,10 @@ let
         "purpur-1.21.8" = _RmlFzVYY;
         "purpur-1.21.9" = _RmlFzVYY;
         "purpur-1.21.10" = _RmlFzVYY;
+        "purpur-26.3" = _hYLlJi8w;
+        "purpur-26.2" = _hYLlJi8w;
+        "purpur-26.1.2" = _hYLlJi8w;
+        "purpur-1.21.11" = _hYLlJi8w;
         "pkg-1.0-SNAPSHOT" = _Pdi0hd3S;
         "pkg-1.1" = _O4XSo1i3;
         "pkg-1.2" = _iwnMw5Yz;
@@ -146,7 +160,8 @@ let
         "pkg-1.4" = _c3LQHeQd;
         "pkg-1.4.1" = _o6odeEIs;
         "pkg-1.5" = _RmlFzVYY;
-        "default" = _RmlFzVYY;
+        "pkg-1.6" = _hYLlJi8w;
+        "default" = _hYLlJi8w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "geyser-recipe-fix";

@@ -66,6 +66,16 @@ let
             "file" = "midas-hunger-2.2.4+1.21.jar";
             "hash" = "sha512-YB/H8kkNPlti1Akwl3szwgyH9lUVJUl1q1xM5QHpC5gz7hab3yAk126FhrqIP+K6Fc3xi2zxSEbKBC4L9G4lmg==";
         };
+        _bt2Vcb1o = {
+            "id" = "bt2Vcb1o";
+            "file" = "midas-hunger-fabric-2.3.0+1.21.1.jar";
+            "hash" = "sha512-gWDJ2epcM0qA1hr4w2GdUtRQWpHwpB8fvKapfprw7u7K99gx1PVkHbVaxVsTzh09qc3tYlFyQ9CfS5HI+xBsRQ==";
+        };
+        _c9yLZErF = {
+            "id" = "c9yLZErF";
+            "file" = "midas-hunger-neoforge-2.3.0+1.21.1.jar";
+            "hash" = "sha512-3pxBg8pn924R6AYJeOacdrxoop0NHMzxLkl2hSqeUb86FZrY9pknQnHCaDqILpdDgjTrJPLtcH1TDclv+Cei7w==";
+        };
     in {
         "zkoZ2z3d" = _zkoZ2z3d;
         "OOIVtTDd" = _OOIVtTDd;
@@ -80,6 +90,8 @@ let
         "ijqRsptb" = _ijqRsptb;
         "AolceQhX" = _AolceQhX;
         "5ALZjDUs" = _5ALZjDUs;
+        "bt2Vcb1o" = _bt2Vcb1o;
+        "c9yLZErF" = _c9yLZErF;
         "fabric-1.18" = _cpabN4pe;
         "fabric-1.18.1" = _cpabN4pe;
         "fabric-1.18.2" = _cpabN4pe;
@@ -93,7 +105,7 @@ let
         "fabric-1.20.3" = _AolceQhX;
         "fabric-1.20.4" = _AolceQhX;
         "fabric-1.21" = _5ALZjDUs;
-        "fabric-1.21.1" = _5ALZjDUs;
+        "fabric-1.21.1" = _bt2Vcb1o;
         "quilt-1.18" = _cpabN4pe;
         "quilt-1.18.1" = _cpabN4pe;
         "quilt-1.18.2" = _cpabN4pe;
@@ -113,6 +125,7 @@ let
         "neoforge-1.20.2" = _wDz2Rj56;
         "neoforge-1.20.3" = _wDz2Rj56;
         "neoforge-1.20.4" = _wDz2Rj56;
+        "neoforge-1.21.1" = _c9yLZErF;
         "pkg-2.0.0+1.18.1" = _zkoZ2z3d;
         "pkg-2.0.0+1.18.2" = _OOIVtTDd;
         "pkg-2.1.0+1.18.2" = _cpabN4pe;
@@ -126,7 +139,8 @@ let
         "pkg-2.2.2+1.20" = _ijqRsptb;
         "pkg-2.2.3+1.20" = _AolceQhX;
         "pkg-2.2.4+1.21" = _5ALZjDUs;
-        "default" = _5ALZjDUs;
+        "pkg-2.3.0+1.21.1" = _c9yLZErF;
+        "default" = _c9yLZErF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "midas-hunger";

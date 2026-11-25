@@ -221,6 +221,11 @@ let
             "file" = "SmoothGL-1.21.11.jar";
             "hash" = "sha512-AG5qurZE4qTEfVbCdF6uCwEoTdrf6FKH7F+KpL8dUVqjYjJ8MhtSFAR93BHH69vsBXx1HpKym1AHhdJXKrRcrA==";
         };
+        _AuRd8gj3 = {
+            "id" = "AuRd8gj3";
+            "file" = "smoothgl-v8-8.0-alpha.1-mc1.21.4.jar";
+            "hash" = "sha512-7g3SRnx078hsiAlsVAiYg4S0Hk2DvWdkRlXh5WA4jkSccLbr0b0nKR/P3VpOknW66pCLwVgSNynVniD6YosNYw==";
+        };
     in {
         "jv430j6i" = _jv430j6i;
         "KvV1eL4W" = _KvV1eL4W;
@@ -266,7 +271,8 @@ let
         "I9PCDZIV" = _I9PCDZIV;
         "OX6jduMq" = _OX6jduMq;
         "4LyMjDyb" = _4LyMjDyb;
-        "fabric-1.21.4" = _2U31WAv8;
+        "AuRd8gj3" = _AuRd8gj3;
+        "fabric-1.21.4" = _AuRd8gj3;
         "fabric-1.21.5" = _XcIecrwJ;
         "fabric-1.21.6" = _YoijsnrJ;
         "fabric-1.21.7" = _kdEZMmel;
@@ -380,7 +386,8 @@ let
         "pkg-7.0.1+1.21.9" = _I9PCDZIV;
         "pkg-7.0.1+1.21.10" = _OX6jduMq;
         "pkg-7.0.1+1.21.11" = _4LyMjDyb;
-        "default" = _4LyMjDyb;
+        "pkg-v8" = _AuRd8gj3;
+        "default" = _AuRd8gj3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smoothgl";

@@ -786,6 +786,46 @@ let
             "file" = "xnet-fabric-26.3-10.0.2-fabric.jar";
             "hash" = "sha512-2VM5py94KEt3ZDy618Sl2OYCs91SeDUVAF9K3yERuDhwiBYdTauYQM5YTViOYeJLej2PaPX1t2JqY4z0vyYcVg==";
         };
+        _fr0Oi0WK = {
+            "id" = "fr0Oi0WK";
+            "file" = "xnet-1.20-6.1.9.jar";
+            "hash" = "sha512-B23jE3gmWHCZ6tIakQscDd3sk7bk/2XlhaJ6GL2nQokTDE/QoSiXheS793mOWo5KDN3+sELHSZ4cvu1g2c7ycA==";
+        };
+        _us7sbS27 = {
+            "id" = "us7sbS27";
+            "file" = "xnet-1.21-7.0.9.jar";
+            "hash" = "sha512-SUWlTMey1ZhZWbsMKWEKxa0M4Mt245aF/lZX6V38P9aeEkhIn8RQ53Di3hgbbNvVY03Z1ouI1uAm83QQODNi3Q==";
+        };
+        _qrjVyMcC = {
+            "id" = "qrjVyMcC";
+            "file" = "xnet-26.1.2-8.0.3.jar";
+            "hash" = "sha512-yPkw59XVRTisRqtdPoTVpOYrP1gjvVDmtH/bzUKVi3Sg9HAEIuPNblZEkEy3MqDSNcqRewU04Peoa+FA5E+mtQ==";
+        };
+        _YjSRzCSB = {
+            "id" = "YjSRzCSB";
+            "file" = "xnet-fabric-26.1.2-8.0.3-fabric.jar";
+            "hash" = "sha512-04Zbgpo8lp/E740zV7SbW1OylPbn2lpa0MqNG3C/LHWN/vZbr/QONMv1kuhNGvtb607WVsH/pRNMNjrOoCbOxw==";
+        };
+        _uugSJZwC = {
+            "id" = "uugSJZwC";
+            "file" = "xnet-26.2-9.0.3.jar";
+            "hash" = "sha512-O83RgDV5BtJwbqiDSH7UKgkdDNxr79urMwEOyx71b8052uU6GW9g6bNY3BbSx33Yz8dxRb00BrcOfGuuAUIOfQ==";
+        };
+        _sELBKv1U = {
+            "id" = "sELBKv1U";
+            "file" = "xnet-fabric-26.2-9.0.3-fabric.jar";
+            "hash" = "sha512-VNzIJ1bx/lAajzz6MY6piZjf8iGnSMO+huY7iU6i5QYBHqW+LK6BY4/jTrJucT/hpM7m4ti/6Q/qGJI7kCcMxw==";
+        };
+        _M8SAdmTD = {
+            "id" = "M8SAdmTD";
+            "file" = "xnet-26.3-10.0.3.jar";
+            "hash" = "sha512-chxxCBl1CLsyK/J9c2qVkHGclio5Swks+wsYnMZdf9GUNxBstHx8bQbFn+ZiBR/UWjxLKBy50S+cmnazS1ld3g==";
+        };
+        _wQmdnxcS = {
+            "id" = "wQmdnxcS";
+            "file" = "xnet-fabric-26.3-10.0.3-fabric.jar";
+            "hash" = "sha512-ySfwi32+KQ9WoWrUQoMq31LGWClOo2WH+qmu1GzrUE/X2vWCQbj9Hray8pZltCkGwm9XgBC+c6N5FMcCbnqfsg==";
+        };
     in {
         "5CaY425Z" = _5CaY425Z;
         "j0jZB84O" = _j0jZB84O;
@@ -944,6 +984,14 @@ let
         "FKm6SnHa" = _FKm6SnHa;
         "KKCRvpuc" = _KKCRvpuc;
         "wuLtZtAW" = _wuLtZtAW;
+        "fr0Oi0WK" = _fr0Oi0WK;
+        "us7sbS27" = _us7sbS27;
+        "qrjVyMcC" = _qrjVyMcC;
+        "YjSRzCSB" = _YjSRzCSB;
+        "uugSJZwC" = _uugSJZwC;
+        "sELBKv1U" = _sELBKv1U;
+        "M8SAdmTD" = _M8SAdmTD;
+        "wQmdnxcS" = _wQmdnxcS;
         "forge-1.10.2" = _IEaCfUXj;
         "forge-1.11.2" = _IEaCfUXj;
         "forge-1.12" = _vdexSLRC;
@@ -962,14 +1010,14 @@ let
         "forge-1.19.2" = _XxEKOkkn;
         "forge-1.19.3" = _XxEKOkkn;
         "forge-1.19.4" = _XxEKOkkn;
-        "forge-1.20.1" = _W26zAm4b;
-        "neoforge-1.21.1" = _e68wMTxN;
-        "neoforge-26.1.2" = _FzjnEIjm;
-        "neoforge-26.2" = _cYEP7qAS;
-        "neoforge-26.3" = _KKCRvpuc;
-        "fabric-26.1.2" = _n75ZQQub;
-        "fabric-26.2" = _FKm6SnHa;
-        "fabric-26.3" = _wuLtZtAW;
+        "forge-1.20.1" = _fr0Oi0WK;
+        "neoforge-1.21.1" = _us7sbS27;
+        "neoforge-26.1.2" = _qrjVyMcC;
+        "neoforge-26.2" = _uugSJZwC;
+        "neoforge-26.3" = _M8SAdmTD;
+        "fabric-26.1.2" = _YjSRzCSB;
+        "fabric-26.2" = _sELBKv1U;
+        "fabric-26.3" = _wQmdnxcS;
         "pkg-0.0.1alpha" = _5CaY425Z;
         "pkg-0.0.2alpha" = _j0jZB84O;
         "pkg-0.1.0beta" = _86i62fPO;
@@ -1126,7 +1174,15 @@ let
         "pkg-26.2-9.0.2-fabric" = _FKm6SnHa;
         "pkg-26.3-10.0.2" = _KKCRvpuc;
         "pkg-26.3-10.0.2-fabric" = _wuLtZtAW;
-        "default" = _wuLtZtAW;
+        "pkg-1.20-6.1.9" = _fr0Oi0WK;
+        "pkg-1.21-7.0.9" = _us7sbS27;
+        "pkg-26.1.2-8.0.3" = _qrjVyMcC;
+        "pkg-26.1.2-8.0.3-fabric" = _YjSRzCSB;
+        "pkg-26.2-9.0.3" = _uugSJZwC;
+        "pkg-26.2-9.0.3-fabric" = _sELBKv1U;
+        "pkg-26.3-10.0.3" = _M8SAdmTD;
+        "pkg-26.3-10.0.3-fabric" = _wQmdnxcS;
+        "default" = _wQmdnxcS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xnet";

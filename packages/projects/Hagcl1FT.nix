@@ -966,6 +966,21 @@ let
             "file" = "neepmeat-0.36.1-beta+1.20.1.jar";
             "hash" = "sha512-vlVS0BCcLlqE82FEDrQNKD6X1J70W6LqBvDILk4h4i9OY93fcIIe2qziKuz/Wy+hIaeIGlND09z1E4BPPHT+qw==";
         };
+        _tD2vqe4T = {
+            "id" = "tD2vqe4T";
+            "file" = "neepmeat-0.37.0-beta+1.20.1.jar";
+            "hash" = "sha512-9aG1gZovivexnkdjA5aIZ4yGhi5gMm6OhzTNufN0d2CMzsEWiHpBIp9S1SA5wAt8ycKeyqDnatdhUZE7f+D+sw==";
+        };
+        _vUkB17YC = {
+            "id" = "vUkB17YC";
+            "file" = "neepmeat-0.37.1-beta+1.20.1.jar";
+            "hash" = "sha512-kIGZ25UKqELj/WfkW/mrK8DWHg8Qe2a8dga/I6V3mDhoy9bVB3jSzjkBSHFxrXRW4/5tvm52IPG+8AOdGPh/gQ==";
+        };
+        _CaVSXmAY = {
+            "id" = "CaVSXmAY";
+            "file" = "neepmeat-0.37.2-beta+1.20.1.jar";
+            "hash" = "sha512-qitsJweor4DXhJ7F0+ZO0YTA6LDRMdCAd/v0/ZH87ICRmvPlWBC/ikdVuFwf7mvU+CxAxfllylXNU2KDOmPHow==";
+        };
     in {
         "3WOS1rbl" = _3WOS1rbl;
         "Zjxitfdn" = _Zjxitfdn;
@@ -1160,11 +1175,14 @@ let
         "cGxEmOKu" = _cGxEmOKu;
         "TAqCFoz4" = _TAqCFoz4;
         "C6CPeCoJ" = _C6CPeCoJ;
+        "tD2vqe4T" = _tD2vqe4T;
+        "vUkB17YC" = _vUkB17YC;
+        "CaVSXmAY" = _CaVSXmAY;
         "fabric-1.18.2" = _UpyGZDDx;
         "fabric-1.18" = _UpyGZDDx;
         "fabric-1.18.1" = _UpyGZDDx;
         "fabric-1.19.2" = _hSGx9Rdv;
-        "fabric-1.20.1" = _C6CPeCoJ;
+        "fabric-1.20.1" = _CaVSXmAY;
         "pkg-0.1.1-alpha" = _3WOS1rbl;
         "pkg-0.1.2-alpha" = _Zjxitfdn;
         "pkg-0.1.3-alpha" = _H1P8DYew;
@@ -1358,7 +1376,10 @@ let
         "pkg-0.35.1-beta+1.20.1" = _cGxEmOKu;
         "pkg-0.36.0-beta+1.20.1" = _TAqCFoz4;
         "pkg-0.36.1-beta+1.20.1" = _C6CPeCoJ;
-        "default" = _C6CPeCoJ;
+        "pkg-0.37.0-beta+1.20.1" = _tD2vqe4T;
+        "pkg-0.37.1-beta+1.20.1" = _vUkB17YC;
+        "pkg-0.37.2-beta+1.20.1" = _CaVSXmAY;
+        "default" = _CaVSXmAY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neepmeat";

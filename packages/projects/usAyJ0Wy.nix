@@ -486,6 +486,11 @@ let
             "file" = "takeitout-1.2.1-26.3.jar";
             "hash" = "sha512-Yx3IHww2XgiFsL+HcInOT00VYYCghEt0oAm0Yb01BUKR0gg3vrFeth7nUPS3on/ZwtOGdYP0oTlCm6EzOP1SPQ==";
         };
+        _tD2gQzIy = {
+            "id" = "tD2gQzIy";
+            "file" = "TakeItOutPlugin-1.15.jar";
+            "hash" = "sha512-fdOYxt5km8NF0vHgwc9E2mTl1ZHkQKY9gvN/4wmRflKPFnB67rb7X4atHPTujuChvrHNqh7GqD5K0VhojBeyHQ==";
+        };
     in {
         "pCLFsAdp" = _pCLFsAdp;
         "ONXI42od" = _ONXI42od;
@@ -584,6 +589,7 @@ let
         "X3GGvI2V" = _X3GGvI2V;
         "8O7uEHPc" = _8O7uEHPc;
         "Fznx0TSi" = _Fznx0TSi;
+        "tD2gQzIy" = _tD2gQzIy;
         "fabric-1.21" = _BCyBD77F;
         "fabric-1.21.1" = _jZPbqO89;
         "fabric-1.21.4" = _KEvBaXvy;
@@ -665,6 +671,23 @@ let
         "neoforge-26.2" = _3Ij1zxdF;
         "neoforge-1.21.1" = _PZVgMB05;
         "forge-1.20.1" = _WVOeXOGB;
+        "java-agent-1.21.11" = _tD2gQzIy;
+        "java-agent-1.21.10" = _tD2gQzIy;
+        "java-agent-1.21.9" = _tD2gQzIy;
+        "java-agent-1.21.8" = _tD2gQzIy;
+        "java-agent-1.21.7" = _tD2gQzIy;
+        "java-agent-1.21.6" = _tD2gQzIy;
+        "java-agent-1.21.5" = _tD2gQzIy;
+        "java-agent-1.21.4" = _tD2gQzIy;
+        "java-agent-1.21.3" = _tD2gQzIy;
+        "java-agent-1.21.2" = _tD2gQzIy;
+        "java-agent-1.21.1" = _tD2gQzIy;
+        "java-agent-1.21" = _tD2gQzIy;
+        "java-agent-26.3" = _tD2gQzIy;
+        "java-agent-26.2" = _tD2gQzIy;
+        "java-agent-26.1.2" = _tD2gQzIy;
+        "java-agent-26.1.1" = _tD2gQzIy;
+        "java-agent-26.1" = _tD2gQzIy;
         "pkg-1.0-SNAPSHOT" = _ONXI42od;
         "pkg-1.01-SNAPSHOT" = _QPTDfXAX;
         "pkg-1.02-SNAPSHOT" = _O3ZXeBrA;
@@ -757,7 +780,8 @@ let
         "pkg-1.2.0-26.2" = _X3GGvI2V;
         "pkg-1.2.0-26.3" = _8O7uEHPc;
         "pkg-1.2.1-26.3" = _Fznx0TSi;
-        "default" = _Fznx0TSi;
+        "pkg-1.15" = _tD2gQzIy;
+        "default" = _tD2gQzIy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "takeitout";

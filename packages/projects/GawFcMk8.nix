@@ -336,6 +336,11 @@ let
             "file" = "[CS] Foundation-1.4.6.46.jar";
             "hash" = "sha512-EBF7krdeLOSOcum7dW/nngUTJMRzsj7w6KNUkG0Z2Sr84DRzQjReZ30XvVSHnvBNWsqOEQKCDC/m81aC8MgrNw==";
         };
+        _bodhyHzW = {
+            "id" = "bodhyHzW";
+            "file" = "[CS] Foundation-2.0.2.0-1.21.1.jar";
+            "hash" = "sha512-436osh7taZ1XAdgk04Mo+7kEXTMhsEzHtODWfG/2V5Zj5cTX/VBFz8ydNAjFpkSGT2itenGQGjy0DV+o4jdfxQ==";
+        };
     in {
         "YqFNDEfc" = _YqFNDEfc;
         "Q5etWZgl" = _Q5etWZgl;
@@ -404,11 +409,12 @@ let
         "7fAdonfM" = _7fAdonfM;
         "pUIlUYq9" = _pUIlUYq9;
         "C6gcYloD" = _C6gcYloD;
+        "bodhyHzW" = _bodhyHzW;
         "forge-1.19.2" = _AvDakFXi;
         "forge-1.20.1" = _C6gcYloD;
         "neoforge-1.20.4" = _J0DCRfuW;
         "neoforge-1.20.1" = _8t868grB;
-        "neoforge-1.21.1" = _HO5DCfDk;
+        "neoforge-1.21.1" = _bodhyHzW;
         "pkg-1.0.6-1.19.2" = _YqFNDEfc;
         "pkg-1.0.8-1.19.2" = _Q5etWZgl;
         "pkg-1.1.0-1.19.2" = _wNVDADcm;
@@ -476,7 +482,8 @@ let
         "pkg-1.4.6.41" = _7fAdonfM;
         "pkg-1.4.6.43" = _pUIlUYq9;
         "pkg-1.4.6.46" = _C6gcYloD;
-        "default" = _C6gcYloD;
+        "pkg-2.0.2.0" = _bodhyHzW;
+        "default" = _bodhyHzW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "csfoundation";

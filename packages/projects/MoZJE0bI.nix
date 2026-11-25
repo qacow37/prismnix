@@ -136,6 +136,11 @@ let
             "file" = "cobbletcg-1.7.2.jar";
             "hash" = "sha512-EB+V/B4nyH4eRq/lBlv4+JrFXi5ExRZBX2ozhOr8TMxqgoYM7ljep5WZjXtqXjFCQEgKrRI7hLI1PQxWH39svQ==";
         };
+        _7EwSsakw = {
+            "id" = "7EwSsakw";
+            "file" = "cobbletcg-1.7.3.jar";
+            "hash" = "sha512-Z5aE6VyuF6zxuc6EAaN5Dxzz/SUQttWBX11UdbvwJwcY/5Nq7dBxbW2hGNWgBRt9O/r3DTcEDxeYlOwYa4ALTw==";
+        };
     in {
         "dhjoa37o" = _dhjoa37o;
         "9EAi5D6H" = _9EAi5D6H;
@@ -164,7 +169,8 @@ let
         "IiE2BKcw" = _IiE2BKcw;
         "HV3icUsO" = _HV3icUsO;
         "v4APZ4JR" = _v4APZ4JR;
-        "fabric-1.21.1" = _v4APZ4JR;
+        "7EwSsakw" = _7EwSsakw;
+        "fabric-1.21.1" = _7EwSsakw;
         "pkg-CobbleTCG-0.9.3" = _dhjoa37o;
         "pkg-CobbleTCG-0.9.4" = _9EAi5D6H;
         "pkg-CobbleTCG-0.9.7" = _Us1MOcJj;
@@ -192,7 +198,8 @@ let
         "pkg-ScalperTCG-1.7.0" = _IiE2BKcw;
         "pkg-ScalperTCG-1.7.1" = _HV3icUsO;
         "pkg-ScalperTCG-1.7.2" = _v4APZ4JR;
-        "default" = _v4APZ4JR;
+        "pkg-ScalperTCG-1.7.3" = _7EwSsakw;
+        "default" = _7EwSsakw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobbletcg";

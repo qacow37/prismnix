@@ -86,6 +86,11 @@ let
             "file" = "(FABRIC) EssentialHomes 26.3.jar";
             "hash" = "sha512-O0KV/Qg15s2T3UAM7rhSQz50CSBCuSexd53VD6QJBIoSa82E2RL1lwmzDa8Z6j1UtJK6zszy36e8D3s1w4P7Ow==";
         };
+        _NbbjwbUV = {
+            "id" = "NbbjwbUV";
+            "file" = "(FORGE) EssentialHomes 26.3.jar";
+            "hash" = "sha512-+1fRRbZBr5PRlLzOavHG5muybVowt5VAyeqbB6nGLPy5gymEzWz8qtMN/pcBrINgY5qP/kgI33TlgI3AZV3vmg==";
+        };
     in {
         "X7TNerVp" = _X7TNerVp;
         "ZKmpyu74" = _ZKmpyu74;
@@ -104,6 +109,7 @@ let
         "ifLXkNEA" = _ifLXkNEA;
         "HVZYQMyP" = _HVZYQMyP;
         "sZSAwX0p" = _sZSAwX0p;
+        "NbbjwbUV" = _NbbjwbUV;
         "fabric-1.21.11" = _X7TNerVp;
         "fabric-26.1" = _9D2ptEys;
         "fabric-26.1.1" = _i46LIYvX;
@@ -115,14 +121,14 @@ let
         "forge-26.1.1" = _rm8dSyX1;
         "forge-26.1.2" = _OdMqfpMc;
         "forge-26.2" = _EMByBSoo;
-        "forge-26.3" = _HVZYQMyP;
+        "forge-26.3" = _NbbjwbUV;
         "pkg-1.21.11" = _ZKmpyu74;
         "pkg-26.1" = _9D2ptEys;
         "pkg-26.1.1" = _rm8dSyX1;
         "pkg-26.1.2" = _OdMqfpMc;
         "pkg-26.2" = _EMByBSoo;
-        "pkg-26.3" = _sZSAwX0p;
-        "default" = _sZSAwX0p;
+        "pkg-26.3" = _NbbjwbUV;
+        "default" = _NbbjwbUV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "essentialhomes";

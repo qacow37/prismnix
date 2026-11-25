@@ -186,6 +186,11 @@ let
             "file" = "jkbw-1.2.2.jar";
             "hash" = "sha512-gtfXps/Cn95xAGvnYqRgX0Pdo/5ASoxwOLK2unyB8qtNfMgUEnytq+NJBtxQWYVxmA1JcKEAIvLql/om1VuojA==";
         };
+        _BL1snYdj = {
+            "id" = "BL1snYdj";
+            "file" = "jkbw.v1.2.3.For.MC26.3.zip";
+            "hash" = "sha512-GXpqfOGgS13xK3G7KcXxVXrEaz9AmMkngbdkSc/Eu2wejnaDDmJuxD4+1mTVVFsOerfciMcYjYMR85IBfPZzbw==";
+        };
     in {
         "xbMGwvK4" = _xbMGwvK4;
         "pOdqVXoz" = _pOdqVXoz;
@@ -224,6 +229,7 @@ let
         "dBxdzlp8" = _dBxdzlp8;
         "chkg9tDE" = _chkg9tDE;
         "ILAxAUYv" = _ILAxAUYv;
+        "BL1snYdj" = _BL1snYdj;
         "datapack-1.20.3" = _wWslb1zF;
         "datapack-1.20.4" = _wWslb1zF;
         "datapack-1.20" = _YB1uXeOc;
@@ -238,6 +244,7 @@ let
         "datapack-26.1.1" = _9phg4N3h;
         "datapack-26.1.2" = _9phg4N3h;
         "datapack-26.2" = _chkg9tDE;
+        "datapack-26.3" = _BL1snYdj;
         "fabric-1.20" = _72CHMhjO;
         "fabric-1.20.1" = _72CHMhjO;
         "fabric-1.21" = _UavsIcif;
@@ -327,7 +334,8 @@ let
         "pkg-1.2.1+mod" = _dBxdzlp8;
         "pkg-1.2.2" = _chkg9tDE;
         "pkg-1.2.2+mod" = _ILAxAUYv;
-        "default" = _ILAxAUYv;
+        "pkg-1.2.3" = _BL1snYdj;
+        "default" = _BL1snYdj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jkbw";

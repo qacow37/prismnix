@@ -56,6 +56,16 @@ let
             "file" = "cobblemon-cards-fabric-2.0.0-beta.1.jar";
             "hash" = "sha512-/RA2iixK77lUJEpvUaXsJvpSiY7JgDuHKHBDYaFLepb00lpga39Snrwo1hfIfgVjm3vGYFabqUzpHGhl1gEm2Q==";
         };
+        _6NONmC55 = {
+            "id" = "6NONmC55";
+            "file" = "cobblemon-cards-neoforge-2.1.0.jar";
+            "hash" = "sha512-FmpKDBgdUN0Tii6ECDwjvGeclLPP/9U8frb7oyM3+Jt36uY+zTVQdYa9PVEAhIVVhGfE9NoGu/tW+jVhEmeZyw==";
+        };
+        _EJD6wwJM = {
+            "id" = "EJD6wwJM";
+            "file" = "cobblemon-cards-fabric-2.1.0.jar";
+            "hash" = "sha512-7390CLAZqVtgv8h8+WBi8DfWZDszEqLUHjx0oK5T2tF6WIVjG+ALdIggE9t/ClmzMrjkThycHNojcChfCEk4XA==";
+        };
     in {
         "GDam4B7R" = _GDam4B7R;
         "bjHmggNV" = _bjHmggNV;
@@ -68,15 +78,19 @@ let
         "O1OunsSQ" = _O1OunsSQ;
         "ODail0mu" = _ODail0mu;
         "EyvLNpdH" = _EyvLNpdH;
-        "fabric-1.21.1" = _EyvLNpdH;
-        "neoforge-1.21.1" = _ODail0mu;
+        "6NONmC55" = _6NONmC55;
+        "EJD6wwJM" = _EJD6wwJM;
+        "fabric-1.21.1" = _EJD6wwJM;
+        "neoforge-1.21.1" = _6NONmC55;
         "pkg-1.0.0" = _GDam4B7R;
         "pkg-1.0.1" = _20makVpy;
         "pkg-1.0.2" = _xv29KLq2;
         "pkg-1.0.3" = _FGGiwRkG;
         "pkg-1.0.4" = _O1OunsSQ;
         "pkg-2.0.0-beta.1" = _EyvLNpdH;
-        "default" = _EyvLNpdH;
+        "pkg-2.1.0+neoforge" = _6NONmC55;
+        "pkg-2.1.0+fabric" = _EJD6wwJM;
+        "default" = _EJD6wwJM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-cards";

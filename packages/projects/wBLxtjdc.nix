@@ -31,6 +31,11 @@ let
             "file" = "Golem_Girls_V2_1_21_x.zip";
             "hash" = "sha512-pAvodQyta0NdTZbj6b0SxP2LxnaFVZXOg+vbLTpdp+ffDPB8snWpOgBtNEgvr4SbEgHcihLMrXSPBQPa5wXJiA==";
         };
+        _cD5Epeql = {
+            "id" = "cD5Epeql";
+            "file" = "Golem_Girls_26.x_2.2.zip";
+            "hash" = "sha512-uxtb/OZ8Oq6TuOF9P3BQP2NcpXmsC42t/Rm6Hy0+tDLtHms+BqOM5uutGaUzMtlRcO5pKgl0P2uQlxfHex3xnw==";
+        };
     in {
         "nmhpFqI1" = _nmhpFqI1;
         "WxXxBSVW" = _WxXxBSVW;
@@ -38,6 +43,7 @@ let
         "zWfkfVsa" = _zWfkfVsa;
         "ZbYZpBSl" = _ZbYZpBSl;
         "e2oF3TdR" = _e2oF3TdR;
+        "cD5Epeql" = _cD5Epeql;
         "minecraft-1.21" = _e2oF3TdR;
         "minecraft-1.21.1" = _e2oF3TdR;
         "minecraft-1.21.2" = _e2oF3TdR;
@@ -50,15 +56,16 @@ let
         "minecraft-1.21.9" = _e2oF3TdR;
         "minecraft-1.21.10" = _e2oF3TdR;
         "minecraft-1.21.11" = _e2oF3TdR;
-        "minecraft-26.1" = _ZbYZpBSl;
-        "minecraft-26.1.1" = _ZbYZpBSl;
-        "minecraft-26.1.2" = _ZbYZpBSl;
-        "minecraft-26.2" = _ZbYZpBSl;
-        "minecraft-26.3" = _ZbYZpBSl;
+        "minecraft-26.1" = _cD5Epeql;
+        "minecraft-26.1.1" = _cD5Epeql;
+        "minecraft-26.1.2" = _cD5Epeql;
+        "minecraft-26.2" = _cD5Epeql;
+        "minecraft-26.3" = _cD5Epeql;
         "pkg-V1" = _WxXxBSVW;
         "pkg-V2" = _zWfkfVsa;
         "pkg-v2.1" = _e2oF3TdR;
-        "default" = _e2oF3TdR;
+        "pkg-2.2" = _cD5Epeql;
+        "default" = _cD5Epeql;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "golem-girl";

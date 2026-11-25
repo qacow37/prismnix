@@ -616,6 +616,21 @@ let
             "file" = "litematica-printer-dev525.jar";
             "hash" = "sha512-m/i+P6vS6Hbh0qoDU+YrFjFQkm+6EONbxuNknnSsMk8P/AGKUeUAWaf7bJUVZYBGOtidHQINEh4QCGV1eZtpQA==";
         };
+        _iURDYQly = {
+            "id" = "iURDYQly";
+            "file" = "litematica-printer-dev526.jar";
+            "hash" = "sha512-0XEvd+/8V1wWKLEanMwhdsSQxYxdVOwsGUjt32Ln7zDOzGqXBUrtZG2GctNy1at1l2vQBieF/8203xdK/RToNA==";
+        };
+        _dDMDGpSR = {
+            "id" = "dDMDGpSR";
+            "file" = "litematica-printer-dev527.jar";
+            "hash" = "sha512-s8SxlRZjFRcIm8BSTLspYNQR/XABj/GbHVx9qTsnm8nsLmwEvbqJU68qndyZDZyTXQARKGK4iQvgGwQoVO0gqQ==";
+        };
+        _GtvLDM5d = {
+            "id" = "GtvLDM5d";
+            "file" = "litematica-printer-beta30.jar";
+            "hash" = "sha512-VH4bIFvhqALge9gcBXAfeq34QFXW29fP/F9B1F5Z9hgy73Mq8TcDA7webSmiLDVoWxu1EGPx1iPCI3aF5VtoDQ==";
+        };
     in {
         "iM0YFug1" = _iM0YFug1;
         "jcUSgzrI" = _jcUSgzrI;
@@ -740,6 +755,9 @@ let
         "nlOACcQf" = _nlOACcQf;
         "i8UYeAYE" = _i8UYeAYE;
         "QwdwOsWy" = _QwdwOsWy;
+        "iURDYQly" = _iURDYQly;
+        "dDMDGpSR" = _dDMDGpSR;
+        "GtvLDM5d" = _GtvLDM5d;
         "fabric-1.18.2" = _RFucyDlp;
         "fabric-1.19.4" = _RFucyDlp;
         "fabric-1.20.1" = _RFucyDlp;
@@ -757,12 +775,12 @@ let
         "fabric-1.21.8" = _RFucyDlp;
         "fabric-1.21.9" = _RFucyDlp;
         "fabric-1.21.10" = _RFucyDlp;
-        "fabric-1.21.11" = _QwdwOsWy;
-        "fabric-26.1" = _QwdwOsWy;
-        "fabric-26.1.1" = _QwdwOsWy;
-        "fabric-26.1.2" = _QwdwOsWy;
-        "fabric-26.2" = _QwdwOsWy;
-        "fabric-26.3" = _QwdwOsWy;
+        "fabric-1.21.11" = _GtvLDM5d;
+        "fabric-26.1" = _GtvLDM5d;
+        "fabric-26.1.1" = _GtvLDM5d;
+        "fabric-26.1.2" = _GtvLDM5d;
+        "fabric-26.2" = _GtvLDM5d;
+        "fabric-26.3" = _GtvLDM5d;
         "pkg-0.7.2.1-Hana-dev348" = _iM0YFug1;
         "pkg-0.7.2.1-Hana-beta21" = _jcUSgzrI;
         "pkg-0.7.2.1-Hana-dev377" = _QyyT6C7K;
@@ -886,7 +904,10 @@ let
         "pkg-Hana-Dev521" = _nlOACcQf;
         "pkg-Hana-Dev523" = _i8UYeAYE;
         "pkg-Hana-Dev525" = _QwdwOsWy;
-        "default" = _QwdwOsWy;
+        "pkg-Hana-Dev526" = _iURDYQly;
+        "pkg-Hana-Dev527" = _dDMDGpSR;
+        "pkg-Hana-Beta30" = _GtvLDM5d;
+        "default" = _GtvLDM5d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "litematica-printer-hana";

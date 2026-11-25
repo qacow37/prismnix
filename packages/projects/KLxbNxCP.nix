@@ -191,6 +191,16 @@ let
             "file" = "lively-mons-1.11.2.jar";
             "hash" = "sha512-3RX28iJV1CmJYRl/IZj3o3w2NcjUUGjOox4lB7QeyuskP5b2lg1ITQN5FEYe+uoNC/96/CMneyNx58kdhPLk/g==";
         };
+        _gz71WrMN = {
+            "id" = "gz71WrMN";
+            "file" = "lively-mons-1.11.3.zip";
+            "hash" = "sha512-6WKTUoc+f6gsT974rliXt8Q1qG6lCcrjSCp2zXvM8ccXMDRLUXQDC1jIZpv5rLCh+UhXOhlmHCoyzM/cfF3qwA==";
+        };
+        _LPkZNr5m = {
+            "id" = "LPkZNr5m";
+            "file" = "lively-mons-1.11.3.jar";
+            "hash" = "sha512-UfZfH1MQM7oMPgxpCcJehlpWp/nvH1+8MRKljkyOt+F9Yo1UdyxIZ9a+KX8FQGbPwtg3vhmym97/0QAo7bNzpA==";
+        };
     in {
         "NEt8jtnm" = _NEt8jtnm;
         "9uHTpeOh" = _9uHTpeOh;
@@ -230,13 +240,15 @@ let
         "T5Q4xcIc" = _T5Q4xcIc;
         "EZgUZsK1" = _EZgUZsK1;
         "GTozFtH9" = _GTozFtH9;
+        "gz71WrMN" = _gz71WrMN;
+        "LPkZNr5m" = _LPkZNr5m;
         "datapack-1.20.1" = _ONBtVPgm;
-        "datapack-1.21.1" = _EZgUZsK1;
+        "datapack-1.21.1" = _gz71WrMN;
         "minecraft-1.21.1" = _bMsYAUfz;
-        "fabric-1.21.1" = _GTozFtH9;
-        "forge-1.21.1" = _GTozFtH9;
-        "neoforge-1.21.1" = _GTozFtH9;
-        "quilt-1.21.1" = _GTozFtH9;
+        "fabric-1.21.1" = _LPkZNr5m;
+        "forge-1.21.1" = _LPkZNr5m;
+        "neoforge-1.21.1" = _LPkZNr5m;
+        "quilt-1.21.1" = _LPkZNr5m;
         "pkg-1.0" = _NEt8jtnm;
         "pkg-1.1" = _9uHTpeOh;
         "pkg-1.1.1" = _rlc2UgVv;
@@ -275,7 +287,9 @@ let
         "pkg-1.11.1+mod" = _T5Q4xcIc;
         "pkg-1.11.2" = _EZgUZsK1;
         "pkg-1.11.2+mod" = _GTozFtH9;
-        "default" = _GTozFtH9;
+        "pkg-1.11.3" = _gz71WrMN;
+        "pkg-1.11.3+mod" = _LPkZNr5m;
+        "default" = _LPkZNr5m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lively-mons";

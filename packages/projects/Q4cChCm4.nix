@@ -76,6 +76,16 @@ let
             "file" = "§Cinnamon - 1.9.2§0.zip";
             "hash" = "sha512-eljEAVMtizXNCNuLp5rU3nrLYJOwETyWa8L8DRpjbnQDni+cLeLSbPvvoknVKdnrbXwm+wJcUlYtHnn7FL3t9w==";
         };
+        _rAw8qXF0 = {
+            "id" = "rAw8qXF0";
+            "file" = "§6Cinnamon - Hotfix 1.9.2.1§0.zip";
+            "hash" = "sha512-POH2yzH9aJU14LfCUqLkKuszDtChJdt9+RVJU+iWycOZ61e+H7i8IB/lJE9jchZZdz0c7/hYjEj1hKU4xFb3Ig==";
+        };
+        _D4QMlR7b = {
+            "id" = "D4QMlR7b";
+            "file" = "§6Cinnamon - Beta 1.9.3§0.zip";
+            "hash" = "sha512-owFp9yTGeURdPIcbODOd0U5/5KbiR2+C7kh9mcVF8XNOe7QYzYNSVol/WsPcqyYzDtaQo/Vo7PLCgPJFsNuGvw==";
+        };
     in {
         "KLV7aQro" = _KLV7aQro;
         "3kxJ9rAD" = _3kxJ9rAD;
@@ -92,6 +102,8 @@ let
         "9ulnkYSJ" = _9ulnkYSJ;
         "dIq4vCwc" = _dIq4vCwc;
         "lY9gGkvq" = _lY9gGkvq;
+        "rAw8qXF0" = _rAw8qXF0;
+        "D4QMlR7b" = _D4QMlR7b;
         "minecraft-1.21.10" = _lY9gGkvq;
         "minecraft-1.21.11" = _lY9gGkvq;
         "minecraft-1.6.1" = _QEatA24m;
@@ -224,11 +236,11 @@ let
         "minecraft-1.21.7" = _M49KUNoR;
         "minecraft-1.21.8" = _M49KUNoR;
         "minecraft-1.21.9" = _lY9gGkvq;
-        "minecraft-26.1" = _dIq4vCwc;
-        "minecraft-26.1.1" = _dIq4vCwc;
-        "minecraft-26.1.2" = _dIq4vCwc;
-        "minecraft-26.2" = _dIq4vCwc;
-        "minecraft-26.3" = _dIq4vCwc;
+        "minecraft-26.1" = _D4QMlR7b;
+        "minecraft-26.1.1" = _D4QMlR7b;
+        "minecraft-26.1.2" = _D4QMlR7b;
+        "minecraft-26.2" = _D4QMlR7b;
+        "minecraft-26.3" = _D4QMlR7b;
         "pkg-1.0.0" = _KLV7aQro;
         "pkg-1.1.0" = _3kxJ9rAD;
         "pkg-1.2.0" = _XeheMmdO;
@@ -244,7 +256,9 @@ let
         "pkg-1.9.0" = _9ulnkYSJ;
         "pkg-1.9.1" = _dIq4vCwc;
         "pkg-1.9.2" = _lY9gGkvq;
-        "default" = _lY9gGkvq;
+        "pkg-1.9.2.1" = _rAw8qXF0;
+        "pkg-1.9.3" = _D4QMlR7b;
+        "default" = _D4QMlR7b;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cinnamon-resource-pack";

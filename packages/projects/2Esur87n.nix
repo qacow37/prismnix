@@ -56,6 +56,26 @@ let
             "file" = "viewmodel_tuner-neoforge-1.21.1-1.1.0.jar";
             "hash" = "sha512-0vTRZydu0Oad2o86na5XrFieazSRjgCnju7C3EaQXOQYcrxEaZqGPBCMYF/eClhCQ5l51guorPk32VhMt4h/1Q==";
         };
+        _6VH1GZ8v = {
+            "id" = "6VH1GZ8v";
+            "file" = "viewmodel_tuner-forge-1.18.2-1.1.1.jar";
+            "hash" = "sha512-9tAIvd6eXAjm8vStIfxRfLbeqJhXKAR5sn5tWQiTl8Lwr4V7xah6ojjKAMmKfoGooa/LHW5W9AIQs7HaKVOp0Q==";
+        };
+        _HCu3CwEX = {
+            "id" = "HCu3CwEX";
+            "file" = "viewmodel_tuner-forge-1.19.2-1.1.1.jar";
+            "hash" = "sha512-qWdKSDawg7s2nky341Uy29qlse/cLpGsrM9ifUUGNRRrP6xOf6zM59IUZPr/7wuAI5xUM77mMQThXBQtCb0OCg==";
+        };
+        _rn6unx2g = {
+            "id" = "rn6unx2g";
+            "file" = "viewmodel_tuner-forge-1.20.1-1.1.1.jar";
+            "hash" = "sha512-islq/hCGB6rpCupWHy1FiF2A17yT8sj+6Wn1GlnGcDxoXgexepnAoo8kzO1+tjPdqj9lCo599wDkOcSyIKv5GA==";
+        };
+        _Um7UaTbi = {
+            "id" = "Um7UaTbi";
+            "file" = "viewmodel_tuner-neoforge-1.21.1-1.1.1.jar";
+            "hash" = "sha512-uyBYShybsa6sDLx9zHloxp67vVLsxXMRX4072lXmC92Nb5yyks4yuheYqZ/+TCt0KL0JKnip7zyrPwL1HKRZgQ==";
+        };
     in {
         "PlAxBz0A" = _PlAxBz0A;
         "Ul9w8Plx" = _Ul9w8Plx;
@@ -68,15 +88,19 @@ let
         "OVbgQVj3" = _OVbgQVj3;
         "tfdj1kS9" = _tfdj1kS9;
         "EBPTl19E" = _EBPTl19E;
-        "forge-1.20.1" = _tfdj1kS9;
+        "6VH1GZ8v" = _6VH1GZ8v;
+        "HCu3CwEX" = _HCu3CwEX;
+        "rn6unx2g" = _rn6unx2g;
+        "Um7UaTbi" = _Um7UaTbi;
+        "forge-1.20.1" = _rn6unx2g;
         "forge-1.20.2" = _PlAxBz0A;
         "forge-1.20.3" = _PlAxBz0A;
         "forge-1.20.4" = _PlAxBz0A;
         "forge-1.20.5" = _PlAxBz0A;
         "forge-1.20.6" = _PlAxBz0A;
-        "forge-1.18.2" = _MvW4ayKl;
-        "forge-1.19.2" = _OVbgQVj3;
-        "neoforge-1.21.1" = _EBPTl19E;
+        "forge-1.18.2" = _6VH1GZ8v;
+        "forge-1.19.2" = _HCu3CwEX;
+        "neoforge-1.21.1" = _Um7UaTbi;
         "pkg-1.0.2" = _PlAxBz0A;
         "pkg-1.0.3" = _6VLlegSz;
         "pkg-1.0.4" = _CCtFXbTd;
@@ -85,7 +109,11 @@ let
         "pkg-1.1.0+1.19.2-forge" = _OVbgQVj3;
         "pkg-1.1.0+1.20.1-forge" = _tfdj1kS9;
         "pkg-1.1.0+1.21.1-neoforge" = _EBPTl19E;
-        "default" = _EBPTl19E;
+        "pkg-1.1.1+1.18.2-forge" = _6VH1GZ8v;
+        "pkg-1.1.1+1.19.2-forge" = _HCu3CwEX;
+        "pkg-1.1.1+1.20.1-forge" = _rn6unx2g;
+        "pkg-1.1.1+1.21.1-neoforge" = _Um7UaTbi;
+        "default" = _Um7UaTbi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "viewmodel-tuner";

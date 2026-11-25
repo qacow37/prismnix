@@ -451,6 +451,11 @@ let
             "file" = "shippy_ships-1.0.28.3-NEOFORGE-MC-26.2.jar";
             "hash" = "sha512-v3H5kIOhoPunXMxnCgiEUP16v8R/W3uK6lMp+SsKQ6Oj3N3fytiCDmZA0eATTgzRFin2xaOQLH4q/kbvQVhnxQ==";
         };
+        _wnCvMsTI = {
+            "id" = "wnCvMsTI";
+            "file" = "shippy_ships-1.0.28.4-NEOFORGE-MC-26.3.jar";
+            "hash" = "sha512-ysXJYv76huNrBwopv1fHHiqvoBpj+nrRzi9YMdMZz7mq1tKXweTmXjsszPlrTAeKqAXffQtuYL7QXRD6eV+R/Q==";
+        };
     in {
         "GU9bK0ll" = _GU9bK0ll;
         "ELGpyPLo" = _ELGpyPLo;
@@ -542,6 +547,7 @@ let
         "dAXJHnTf" = _dAXJHnTf;
         "k35HEV3b" = _k35HEV3b;
         "COK0ZjdF" = _COK0ZjdF;
+        "wnCvMsTI" = _wnCvMsTI;
         "fabric-1.20.1" = _J3GaDBjE;
         "fabric-26.1" = _xUjX8S5k;
         "fabric-26.1.1" = _xUjX8S5k;
@@ -563,7 +569,7 @@ let
         "neoforge-26.1.1" = _k35HEV3b;
         "neoforge-26.1.2" = _k35HEV3b;
         "neoforge-26.2" = _COK0ZjdF;
-        "neoforge-26.3" = _vrK02nxe;
+        "neoforge-26.3" = _wnCvMsTI;
         "forge-1.20.1" = _XMcjPzBz;
         "pkg-1.0.5.4" = _VIXBwTO4;
         "pkg-1.0.8" = _jcZjcMNZ;
@@ -601,7 +607,8 @@ let
         "pkg-201.27" = _BgnXGv5S;
         "pkg-201.27.1" = _XMcjPzBz;
         "pkg-1.0.28.3" = _COK0ZjdF;
-        "default" = _COK0ZjdF;
+        "pkg-1.0.28.4" = _wnCvMsTI;
+        "default" = _wnCvMsTI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shippy-ships";

@@ -81,6 +81,21 @@ let
             "file" = "adventureitemstats-neoforge-0.8.0.jar";
             "hash" = "sha512-DWEyZLCCDWQF0xQWsmo2VeHnWJCpzrJ+bB46CPa8vgdTKVNBzlUqw4Tj0wK83FFcTrJr3GBORKkQyDh2Q0qYdQ==";
         };
+        _Tm38miqU = {
+            "id" = "Tm38miqU";
+            "file" = "adventureitemstats-fabric-0.9.0.jar";
+            "hash" = "sha512-nGsigkIj1T5/KBwsl+Up78+9qfSCL1WCXqicJuPnSSH8LArt0WSV3vv9RDOB3f1z/NK5yTwgVS05ZlrECAybMg==";
+        };
+        _J8ZCThLO = {
+            "id" = "J8ZCThLO";
+            "file" = "adventureitemstats-forge-0.9.0.jar";
+            "hash" = "sha512-kPn+jlgS9J1pUrFADvUINMgtLH4eiTSDwzhf9zLTcRBok3hPT+VH6vJPqhi//EbYrlDiLmyjvZg5q3sN1hIdzQ==";
+        };
+        _yUhOzbfR = {
+            "id" = "yUhOzbfR";
+            "file" = "adventureitemstats-neoforge-0.9.0.jar";
+            "hash" = "sha512-Uex7WbY+sGr7pjtxw0GSiOmhVikJWdVwmS4N+CFT19uR0qgBGbv3M2fsIwKpBS7aWXfCAnAn8lOR+8C8CYrkVg==";
+        };
     in {
         "rhQ1iNC2" = _rhQ1iNC2;
         "ZpcBQ6Ba" = _ZpcBQ6Ba;
@@ -98,9 +113,12 @@ let
         "KzwCn0Wa" = _KzwCn0Wa;
         "7n3vm3en" = _7n3vm3en;
         "6UtblTX7" = _6UtblTX7;
-        "forge-1.21.1" = _7n3vm3en;
-        "fabric-1.21.1" = _KzwCn0Wa;
-        "neoforge-1.21.1" = _6UtblTX7;
+        "Tm38miqU" = _Tm38miqU;
+        "J8ZCThLO" = _J8ZCThLO;
+        "yUhOzbfR" = _yUhOzbfR;
+        "forge-1.21.1" = _J8ZCThLO;
+        "fabric-1.21.1" = _Tm38miqU;
+        "neoforge-1.21.1" = _yUhOzbfR;
         "pkg-0.1.0" = _rhQ1iNC2;
         "pkg-v0.2.0+fabric" = _ZpcBQ6Ba;
         "pkg-v0.2.0+forge" = _PBnWzMS8;
@@ -117,7 +135,10 @@ let
         "pkg-v0.8.0+fabric" = _KzwCn0Wa;
         "pkg-v0.8.0+forge" = _7n3vm3en;
         "pkg-v0.8.0+neoforge" = _6UtblTX7;
-        "default" = _6UtblTX7;
+        "pkg-v0.9.0+fabric" = _Tm38miqU;
+        "pkg-v0.9.0+forge" = _J8ZCThLO;
+        "pkg-v0.9.0+neoforge" = _yUhOzbfR;
+        "default" = _yUhOzbfR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "adventure-items-stats";

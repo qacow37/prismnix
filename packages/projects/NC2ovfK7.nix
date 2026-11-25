@@ -56,6 +56,16 @@ let
             "file" = "verity_discs 1.0.8.jar";
             "hash" = "sha512-owgBQXVn4P7UhQPbuuryU/xX1YJv7v1MstWZ30URJcdvSvcObZ79gc0L4VubRjGdk7xuUtR//+ZgbdJydWBU6g==";
         };
+        _X931L2HG = {
+            "id" = "X931L2HG";
+            "file" = "verity_discs 1.0.9.jar";
+            "hash" = "sha512-ovUFoSo2PJ9cVDRPJqnEI+c4LrCpqD0OSNHXnWQ4O1IcIex4OYk3EAqIpdm2ETMb23pBma2kimM5yiy1fnmGPg==";
+        };
+        _WUSj2OLy = {
+            "id" = "WUSj2OLy";
+            "file" = "neo_verity_discs 1.0.9.jar";
+            "hash" = "sha512-gq5/fZTh8MZPf7hBuX37+wDEihNzFKNNFUfobTDDSoRUxIpTCKMFSuqXRxrGwvJICXStNOswWIqroKXx3mJihg==";
+        };
     in {
         "FrVCFBD1" = _FrVCFBD1;
         "rqSx6h0t" = _rqSx6h0t;
@@ -68,12 +78,14 @@ let
         "MxcdmAIG" = _MxcdmAIG;
         "zCBmCHRh" = _zCBmCHRh;
         "KC7kHKTM" = _KC7kHKTM;
-        "forge-1.20.1" = _KC7kHKTM;
-        "forge-1.20.2" = _KC7kHKTM;
-        "forge-1.20.3" = _KC7kHKTM;
-        "forge-1.20.4" = _KC7kHKTM;
-        "forge-1.20.5" = _KC7kHKTM;
-        "neoforge-1.21.1" = _zCBmCHRh;
+        "X931L2HG" = _X931L2HG;
+        "WUSj2OLy" = _WUSj2OLy;
+        "forge-1.20.1" = _X931L2HG;
+        "forge-1.20.2" = _X931L2HG;
+        "forge-1.20.3" = _X931L2HG;
+        "forge-1.20.4" = _X931L2HG;
+        "forge-1.20.5" = _X931L2HG;
+        "neoforge-1.21.1" = _WUSj2OLy;
         "pkg-1.0.0" = _FrVCFBD1;
         "pkg-1.0.1" = _rqSx6h0t;
         "pkg-1.0.2" = _JHafzFBz;
@@ -83,7 +95,8 @@ let
         "pkg-1.0.6" = _ZI0uVSXL;
         "pkg-1.0.7" = _MxcdmAIG;
         "pkg-1.0.8" = _KC7kHKTM;
-        "default" = _KC7kHKTM;
+        "pkg-1.0.9" = _WUSj2OLy;
+        "default" = _WUSj2OLy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "verity-discs";

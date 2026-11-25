@@ -141,6 +141,11 @@ let
             "file" = "ModSync-4.0.jar";
             "hash" = "sha512-9JKTTsrhdWkFUYLJlfuxhdUy3HjLVW3fuK6RogqvgKC1ACcbyTF4w0iNi8TW5/daFkcFjy0+57j2Y7pA+Z263g==";
         };
+        _uOBbFciM = {
+            "id" = "uOBbFciM";
+            "file" = "modsync-4.0+26.1-26.2.jar";
+            "hash" = "sha512-y1dNNSkaDO43NuhYhUimJq9lmEmDRft/PEWPm1/1R48I0F9sgc9TAsfIFqnxy6ABUHATSiIC2nsdzVxJewHRug==";
+        };
     in {
         "vhOLx4O8" = _vhOLx4O8;
         "IFxuRRbP" = _IFxuRRbP;
@@ -170,6 +175,7 @@ let
         "lTyB3EZs" = _lTyB3EZs;
         "QbLNluYB" = _QbLNluYB;
         "ynYvql70" = _ynYvql70;
+        "uOBbFciM" = _uOBbFciM;
         "fabric-1.21" = _ynYvql70;
         "fabric-1.21.1" = _ynYvql70;
         "fabric-1.21.2" = _ynYvql70;
@@ -182,10 +188,10 @@ let
         "fabric-1.21.9" = _ynYvql70;
         "fabric-1.21.10" = _ynYvql70;
         "fabric-1.21.11" = _lTyB3EZs;
-        "fabric-26.1" = _cFoOrE0S;
-        "fabric-26.1.1" = _cFoOrE0S;
-        "fabric-26.1.2" = _cFoOrE0S;
-        "fabric-26.2" = _cFoOrE0S;
+        "fabric-26.1" = _uOBbFciM;
+        "fabric-26.1.1" = _uOBbFciM;
+        "fabric-26.1.2" = _uOBbFciM;
+        "fabric-26.2" = _uOBbFciM;
         "fabric-26.3" = _cFoOrE0S;
         "bukkit-1.21" = _QbLNluYB;
         "bukkit-1.21.1" = _QbLNluYB;
@@ -264,7 +270,8 @@ let
         "pkg-fabric-4.0+1.21.11" = _lTyB3EZs;
         "pkg-bukkit-4.0+1.21-1.21.10" = _QbLNluYB;
         "pkg-fabric-4.0+1.21-1.21.10" = _ynYvql70;
-        "default" = _ynYvql70;
+        "pkg-fabric-4.0+26.1-26.2" = _uOBbFciM;
+        "default" = _uOBbFciM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mod-sync";

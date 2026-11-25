@@ -161,6 +161,11 @@ let
             "file" = "idas-1.13.7+1.21.1-neoforge.jar";
             "hash" = "sha512-kWtgpYQ+ODFvEvXxxqTnNzZPEq0q+2QuD0P06YE1hY+Cr4fODyYs28l9y8HgoxgipUr3Mnh0f0F/wzrjXP7RjA==";
         };
+        _AIc4TkZo = {
+            "id" = "AIc4TkZo";
+            "file" = "idas-1.14.0+1.21.1-neoforge.jar";
+            "hash" = "sha512-FAsQULCJOKLt9v3UfVkrRXzZrM4m7isvae6Ev7MWyuq2lvhcUE5BT1GH1CvtblBunpJT3CfBffBSxOZzAWPe9g==";
+        };
     in {
         "eJaqTGYd" = _eJaqTGYd;
         "S1GcFdRa" = _S1GcFdRa;
@@ -194,6 +199,7 @@ let
         "gqIS9SQG" = _gqIS9SQG;
         "zDlRv8F5" = _zDlRv8F5;
         "bpMwZSKf" = _bpMwZSKf;
+        "AIc4TkZo" = _AIc4TkZo;
         "forge-1.18" = _eJaqTGYd;
         "forge-1.18.1" = _eJaqTGYd;
         "forge-1.18.2" = _DtuVtAE2;
@@ -201,7 +207,7 @@ let
         "forge-1.16.5" = _hSlxr9nX;
         "forge-1.20.1" = _mgwwWo3b;
         "neoforge-1.20.1" = _gqIS9SQG;
-        "neoforge-1.21.1" = _bpMwZSKf;
+        "neoforge-1.21.1" = _AIc4TkZo;
         "pkg-1.0.0" = _eJaqTGYd;
         "pkg-1.1.6" = _S1GcFdRa;
         "pkg-1.3.2" = _f4YY0MzA;
@@ -234,7 +240,8 @@ let
         "pkg-1.13.5+1.21.1-neoforge" = _gqIS9SQG;
         "pkg-1.13.6+1.21.1-neoforge" = _zDlRv8F5;
         "pkg-1.13.7+1.21.1-neoforge" = _bpMwZSKf;
-        "default" = _bpMwZSKf;
+        "pkg-1.14.0+1.21.1-neoforge" = _AIc4TkZo;
+        "default" = _AIc4TkZo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "idas";

@@ -61,6 +61,21 @@ let
             "file" = "integrated_villages-1.3.3+1.21.1-neoforge.jar";
             "hash" = "sha512-UNEZqXLIgTt8bVTbgopRMPNC/47CcovzxzBX1GsdV10A837XaiDF28yEy3SXCWHr8xBlgY8W9Jtseil2BfuhYQ==";
         };
+        _ontQ5D9D = {
+            "id" = "ontQ5D9D";
+            "file" = "integrated_villages-1.4.0+1.20.1-forge.jar";
+            "hash" = "sha512-98Ql7eGVUH4suefP0TXNTk/zHlj3ksdAsMWxOLI5hef4gDCgbwb+dsuTptcVvo02XXS7pJEVSGNEt1kVUJmk3w==";
+        };
+        _9W2ZT3W6 = {
+            "id" = "9W2ZT3W6";
+            "file" = "integrated_villages-1.4.0+1.20.1-fabric.jar";
+            "hash" = "sha512-TxqmGA6g1xoRdpMCkDYUEan+Knuq0QAXsWAJ8gWZnFZQ46Er154AZ7sdNYS55ecDvRl7zavr+FDpshbL+BDlKg==";
+        };
+        _dEgwYC3Z = {
+            "id" = "dEgwYC3Z";
+            "file" = "integrated_villages-1.4.0+1.21.1-neoforge.jar";
+            "hash" = "sha512-9Y5bhrElA7Kaok4rdbok+gA0Psu6EWueKxkTexbUSWn5YCyK6Xw9xyjBs/vWEvLbNdEn/te9Ri8MQiOFyi+lCg==";
+        };
     in {
         "E3xxfVYf" = _E3xxfVYf;
         "aexo9f2c" = _aexo9f2c;
@@ -74,10 +89,13 @@ let
         "q3lsjmj7" = _q3lsjmj7;
         "hoQg6GXe" = _hoQg6GXe;
         "B5BcNY1z" = _B5BcNY1z;
-        "forge-1.20.1" = _hoQg6GXe;
-        "fabric-1.20.1" = _q3lsjmj7;
+        "ontQ5D9D" = _ontQ5D9D;
+        "9W2ZT3W6" = _9W2ZT3W6;
+        "dEgwYC3Z" = _dEgwYC3Z;
+        "forge-1.20.1" = _ontQ5D9D;
+        "fabric-1.20.1" = _9W2ZT3W6;
         "neoforge-1.20.1" = _Kf4abzJW;
-        "neoforge-1.21.1" = _B5BcNY1z;
+        "neoforge-1.21.1" = _dEgwYC3Z;
         "pkg-1.0.0+1.20.1-forge" = _E3xxfVYf;
         "pkg-1.0.0+1.20.1-fabric" = _aexo9f2c;
         "pkg-1.0.1+1.20.1-forge" = _B2prsD6p;
@@ -90,7 +108,10 @@ let
         "pkg-1.3.2+1.20.1-fabric" = _q3lsjmj7;
         "pkg-1.3.2+1.20.1-forge" = _hoQg6GXe;
         "pkg-1.3.3+1.21.1-neoforge" = _B5BcNY1z;
-        "default" = _B5BcNY1z;
+        "pkg-1.4.0+1.20.1-forge" = _ontQ5D9D;
+        "pkg-1.4.0+1.20.1-fabric" = _9W2ZT3W6;
+        "pkg-1.4.0+1.21.1-neoforge" = _dEgwYC3Z;
+        "default" = _dEgwYC3Z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "integrated-villages";

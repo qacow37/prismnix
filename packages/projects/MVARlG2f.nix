@@ -121,6 +121,11 @@ let
             "file" = "Zeta-1.1-40.jar";
             "hash" = "sha512-qB3PRPK/0PwaUvANnKR6hK0rrwZ63ts17shZ9rnOx7YcpDLlSaM0KxCQL4TnbXAiTNVEAChcixOgkmg1pixmfA==";
         };
+        _K1ud4eOu = {
+            "id" = "K1ud4eOu";
+            "file" = "Zeta-1.1-41.jar";
+            "hash" = "sha512-opU641LZSmKl0fCmjPhYYR7tJDTOZiJaqFrXcg3toiZJVakVK9caP7eP2pBjz2HP6ELCBolp0IK8cNOcarmvWw==";
+        };
     in {
         "SkPZ9vsv" = _SkPZ9vsv;
         "gjOg7ubx" = _gjOg7ubx;
@@ -146,8 +151,9 @@ let
         "PjkPuWJo" = _PjkPuWJo;
         "iyNxYFme" = _iyNxYFme;
         "9GjNW2Gf" = _9GjNW2Gf;
+        "K1ud4eOu" = _K1ud4eOu;
         "forge-1.20.1" = _mSER3jBI;
-        "neoforge-1.21.1" = _9GjNW2Gf;
+        "neoforge-1.21.1" = _K1ud4eOu;
         "pkg-1.20.1-1.0-10" = _SkPZ9vsv;
         "pkg-1.20.1-1.0-11" = _gjOg7ubx;
         "pkg-1.20.1-1.0-12" = _b7MOkIpO;
@@ -172,7 +178,8 @@ let
         "pkg-1.21.1-1.1-38" = _PjkPuWJo;
         "pkg-1.1-39" = _iyNxYFme;
         "pkg-1.1-40" = _9GjNW2Gf;
-        "default" = _9GjNW2Gf;
+        "pkg-1.1-41" = _K1ud4eOu;
+        "default" = _K1ud4eOu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zeta";

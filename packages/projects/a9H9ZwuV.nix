@@ -56,6 +56,16 @@ let
             "file" = "f5split-2.1.0+mc26.2.jar";
             "hash" = "sha512-/KxfbQROthT9swlc1nLaChJXAKmu8LL8GvGUn457/jLztV6vPIfZUGXrINnR93RPOWoRvXOw9i+1ai9NY2y26Q==";
         };
+        _Eip0zFyv = {
+            "id" = "Eip0zFyv";
+            "file" = "f5-split-3.0.0.jar";
+            "hash" = "sha512-OrGFnPDtwRqFVamZnwGgQWEsBT2WkbgD+QA3v9WnOoIuBGWzRth8GRrfdiryAlzomXiy9bzfjWWDHAYC2G0MKQ==";
+        };
+        _AOr5XJyE = {
+            "id" = "AOr5XJyE";
+            "file" = "f5-split-3.1.0.jar";
+            "hash" = "sha512-4HBy27ieQrPD2HusD3DxjBx5caXGEscf3ILX/vavBs3fPglUbYacyBbJVchDleYvNkwSOgrw/Hg8BpoZfu9KIg==";
+        };
     in {
         "AydMAp1p" = _AydMAp1p;
         "qaUPjteH" = _qaUPjteH;
@@ -68,6 +78,8 @@ let
         "wNEaM0oR" = _wNEaM0oR;
         "jxWAeIhP" = _jxWAeIhP;
         "XMmDagmO" = _XMmDagmO;
+        "Eip0zFyv" = _Eip0zFyv;
+        "AOr5XJyE" = _AOr5XJyE;
         "fabric-1.21" = _yDVS7gez;
         "fabric-1.21.1" = _yDVS7gez;
         "fabric-1.21.2" = _yDVS7gez;
@@ -80,10 +92,16 @@ let
         "fabric-1.21.9" = _XChlH7BO;
         "fabric-1.21.10" = _XChlH7BO;
         "fabric-1.21.11" = _XChlH7BO;
-        "fabric-26.1" = _jxWAeIhP;
-        "fabric-26.1.1" = _jxWAeIhP;
-        "fabric-26.1.2" = _jxWAeIhP;
-        "fabric-26.2" = _XMmDagmO;
+        "fabric-26.1" = _AOr5XJyE;
+        "fabric-26.1.1" = _AOr5XJyE;
+        "fabric-26.1.2" = _AOr5XJyE;
+        "fabric-26.2" = _AOr5XJyE;
+        "fabric-26.3" = _AOr5XJyE;
+        "quilt-26.3" = _AOr5XJyE;
+        "quilt-26.2" = _AOr5XJyE;
+        "quilt-26.1.2" = _AOr5XJyE;
+        "quilt-26.1.1" = _AOr5XJyE;
+        "quilt-26.1" = _AOr5XJyE;
         "pkg-1.0.0+mc1.21.7" = _AydMAp1p;
         "pkg-1.0.1+mc1.21.7" = _qaUPjteH;
         "pkg-1.1.0+mc1.21.7" = _cAbzfgxW;
@@ -95,7 +113,9 @@ let
         "pkg-2.0.0+mc26.1.2" = _wNEaM0oR;
         "pkg-2.1.0+mc26.1.2" = _jxWAeIhP;
         "pkg-2.1.0+mc26.2" = _XMmDagmO;
-        "default" = _XMmDagmO;
+        "pkg-3.0.0+mc26.3" = _Eip0zFyv;
+        "pkg-3.1.0+mc26.3" = _AOr5XJyE;
+        "default" = _AOr5XJyE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "f5-split";

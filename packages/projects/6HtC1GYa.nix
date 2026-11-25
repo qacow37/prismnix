@@ -316,6 +316,16 @@ let
             "file" = "MineMenu-neoforge-26.3-1.18.0.jar";
             "hash" = "sha512-FqassLUdT55Vq/QqHCeJ5we2nwFDVNXDm9FlJ1+dVO6esbDop7t414Z3+DeSMJswkPb/oPg6B3MNmysWKqwsQQ==";
         };
+        _5SN0x2cd = {
+            "id" = "5SN0x2cd";
+            "file" = "MineMenu-fabric-26.3-1.18.1.jar";
+            "hash" = "sha512-5HfhUKWIKOJC0HbrQy2mfJl9KRFx8VOI837o4cG5nwTbuNrj4TdawmJEr9wL23dZ/MBuGCJmdmzgxwTVREeCiQ==";
+        };
+        _POt3wAXp = {
+            "id" = "POt3wAXp";
+            "file" = "MineMenu-neoforge-26.3-1.18.1.jar";
+            "hash" = "sha512-y16xBNtIqNXV8b/PSb92zpLeReUSALGGq4lOqi0HfGVM8mZ6dX9abIfem7rHtP9oQcWWquVK4ElZnHhy9tA1pA==";
+        };
     in {
         "gMZDMcsi" = _gMZDMcsi;
         "HNivj4HD" = _HNivj4HD;
@@ -380,6 +390,8 @@ let
         "NpdNOlMS" = _NpdNOlMS;
         "m2TmKtbX" = _m2TmKtbX;
         "3P8sL4za" = _3P8sL4za;
+        "5SN0x2cd" = _5SN0x2cd;
+        "POt3wAXp" = _POt3wAXp;
         "forge-1.7.2" = _gMZDMcsi;
         "forge-1.7.10" = _HNivj4HD;
         "forge-1.8.8" = _3YOuzggl;
@@ -424,7 +436,7 @@ let
         "neoforge-26.1.1" = _DnUmJXSq;
         "neoforge-26.1.2" = _DnUmJXSq;
         "neoforge-26.2" = _NpdNOlMS;
-        "neoforge-26.3" = _3P8sL4za;
+        "neoforge-26.3" = _POt3wAXp;
         "fabric-1.20.2" = _wVlduVoB;
         "fabric-1.20.4" = _ICX9O8QV;
         "fabric-1.21" = _9y2FszxT;
@@ -441,7 +453,7 @@ let
         "fabric-26.1.1" = _tVg5ekGj;
         "fabric-26.1.2" = _tVg5ekGj;
         "fabric-26.2" = _USASeupZ;
-        "fabric-26.3" = _m2TmKtbX;
+        "fabric-26.3" = _5SN0x2cd;
         "pkg-1.1.7.B38" = _gMZDMcsi;
         "pkg-1.2.0.B44" = _HNivj4HD;
         "pkg-1.3.0.B45" = _3YOuzggl;
@@ -481,7 +493,8 @@ let
         "pkg-1.16.1" = _DnUmJXSq;
         "pkg-1.17.0" = _NpdNOlMS;
         "pkg-1.18.0" = _3P8sL4za;
-        "default" = _3P8sL4za;
+        "pkg-1.18.1" = _POt3wAXp;
+        "default" = _POt3wAXp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mine-menu";

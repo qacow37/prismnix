@@ -96,6 +96,11 @@ let
             "file" = "[CS] Roleplay Decor-1.2.6.2.jar";
             "hash" = "sha512-vCYb0K0ghQibt7+ZNK3pQwmzCqncSu19+YvFsqOPvQnGcj77xr9p4OJ4rIe7FQEbv3xR7m3m42UW/0CRBMjXuA==";
         };
+        _qvAf6ruJ = {
+            "id" = "qvAf6ruJ";
+            "file" = "[CS] Roleplay Decor-1.3.0.2-1.21.1.jar";
+            "hash" = "sha512-tDa6z8V9lG9Bvfg3N3c+Kz08tOvObQRXAKxJUEkn9uO/Kub84F3bBPKezsZtLBWAMy0cS5zBhzjxxDY5HnSxVw==";
+        };
     in {
         "75D8YSfo" = _75D8YSfo;
         "kSjAaWR4" = _kSjAaWR4;
@@ -116,9 +121,11 @@ let
         "4yIH6set" = _4yIH6set;
         "CtVqVnwJ" = _CtVqVnwJ;
         "PYeF3OdZ" = _PYeF3OdZ;
+        "qvAf6ruJ" = _qvAf6ruJ;
         "forge-1.19.2" = _fFKIPZag;
         "forge-1.20.1" = _PYeF3OdZ;
         "neoforge-1.20.1" = _MuuB7RxR;
+        "neoforge-1.21.1" = _qvAf6ruJ;
         "pkg-1.0.6-1.19.2" = _75D8YSfo;
         "pkg-1.0.7-1.19.2" = _kSjAaWR4;
         "pkg-1.2.0-1.19.2" = _aB57ZW8G;
@@ -138,7 +145,8 @@ let
         "pkg-1.2.6.0" = _4yIH6set;
         "pkg-1.2.6.1" = _CtVqVnwJ;
         "pkg-1.2.6.2" = _PYeF3OdZ;
-        "default" = _PYeF3OdZ;
+        "pkg-1.3.0.2" = _qvAf6ruJ;
+        "default" = _qvAf6ruJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "csroleplaydecor";

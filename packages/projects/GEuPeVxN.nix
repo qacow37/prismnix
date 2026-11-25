@@ -156,6 +156,11 @@ let
             "file" = "light-level-2025-26.4-snapshot-10-1.jar";
             "hash" = "sha512-tFssrW+gAN4IOVm46M5h1/AoKLKKhc5lpNFb8k3Q+8UAtX1UFvvc9LBp4NTtOj8pcT5o98KAIqS/zJHWUQJeRA==";
         };
+        _LRiWf78q = {
+            "id" = "LRiWf78q";
+            "file" = "light-level-2025-26.4-pre-1-1.jar";
+            "hash" = "sha512-iKNUL00VLSsg2Q0vDO9pI5NmoDse0ZyBkeeHy8cUi0C2BjudZuTT5T4THpJz5UXxAqFtsOlEy26Sib/3ja5w8A==";
+        };
     in {
         "6XiZzpYs" = _6XiZzpYs;
         "VrfTZtTC" = _VrfTZtTC;
@@ -188,6 +193,7 @@ let
         "anRutoLS" = _anRutoLS;
         "HTMa7VmJ" = _HTMa7VmJ;
         "FJ1P00aC" = _FJ1P00aC;
+        "LRiWf78q" = _LRiWf78q;
         "fabric-1.21.5" = _T2fhxZmd;
         "fabric-25w15a" = _2QxHRMeX;
         "fabric-25w16a" = _bb2eTcJk;
@@ -207,6 +213,7 @@ let
         "fabric-1.21.11" = _anRutoLS;
         "fabric-26.3" = _HTMa7VmJ;
         "fabric-26.4-snapshot-10" = _FJ1P00aC;
+        "fabric-26.4-pre-1" = _LRiWf78q;
         "pkg-1.21.5-1" = _6XiZzpYs;
         "pkg-1.21.5-2" = _VrfTZtTC;
         "pkg-1.21.5-3" = _DP2Vgk4S;
@@ -238,7 +245,8 @@ let
         "pkg-1.21.11-final" = _anRutoLS;
         "pkg-26.3-final" = _HTMa7VmJ;
         "pkg-26.4-snapshot-10-final" = _FJ1P00aC;
-        "default" = _FJ1P00aC;
+        "pkg-26.4-pre-1-final" = _LRiWf78q;
+        "default" = _LRiWf78q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "light-level-2025";

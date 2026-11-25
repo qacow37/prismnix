@@ -16,17 +16,24 @@ let
             "file" = "ThePixelmonOST.zip";
             "hash" = "sha512-wgGTSJlof1pM8UWCTjMJK1fLDR95MtFWt3lrV77YbdtPdtKRrApazcQhML/cUBIEvqYaxaWzjD5dmlXRQ8T5cw==";
         };
+        _FE894Ll3 = {
+            "id" = "FE894Ll3";
+            "file" = "ThePixelmonOST.zip";
+            "hash" = "sha512-dVyueLdUSiXS3ATVCApHuidiCZN5G6//wA4Ch5ousJr5ytYi9rp54lwtN0Mv3IdQTP1y0N4BmTzXRsuQ4bHeMA==";
+        };
     in {
         "ZOMyIynP" = _ZOMyIynP;
         "pIiQIgYf" = _pIiQIgYf;
         "PeYaLZ5O" = _PeYaLZ5O;
+        "FE894Ll3" = _FE894Ll3;
         "minecraft-1.20.2" = _ZOMyIynP;
-        "minecraft-1.21" = _PeYaLZ5O;
-        "minecraft-1.21.1" = _PeYaLZ5O;
+        "minecraft-1.21" = _FE894Ll3;
+        "minecraft-1.21.1" = _FE894Ll3;
         "pkg-1.0.3" = _ZOMyIynP;
         "pkg-1.0.4" = _pIiQIgYf;
         "pkg-1.0.5" = _PeYaLZ5O;
-        "default" = _PeYaLZ5O;
+        "pkg-2.0.1" = _FE894Ll3;
+        "default" = _FE894Ll3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-pixelmon-ost";

@@ -106,6 +106,11 @@ let
             "file" = "hunterboard-1.8.1+cobblemon.1.8.1.jar";
             "hash" = "sha512-fuOOf8SFQlF0ak1ca62qzLDxqL6RdJu4/GMG6f4CS2R5OW7EwrUqAlvWIIORUIlEfvx1/1qgmDDxmb4zKxXsMg==";
         };
+        _uqMcy1mo = {
+            "id" = "uqMcy1mo";
+            "file" = "hunterboard-1.9.0+cobblemon.1.8.1.jar";
+            "hash" = "sha512-7mOei6xju3nh6cIGX0dmW66NaFC4qbvK04lDQOBoSCmflv8ilnCBmqCgNhOkrNN4n6uC/JY33edHXq6QvWkvsw==";
+        };
     in {
         "gCocmNvs" = _gCocmNvs;
         "FbpUfadU" = _FbpUfadU;
@@ -128,7 +133,8 @@ let
         "oUoONOWm" = _oUoONOWm;
         "VTs1uy3U" = _VTs1uy3U;
         "H4khGO1T" = _H4khGO1T;
-        "fabric-1.21.1" = _H4khGO1T;
+        "uqMcy1mo" = _uqMcy1mo;
+        "fabric-1.21.1" = _uqMcy1mo;
         "pkg-1.2.7" = _gCocmNvs;
         "pkg-1.2.8" = _FbpUfadU;
         "pkg-1.2.9" = _i6Yzhikf;
@@ -150,7 +156,8 @@ let
         "pkg-1.7.0" = _oUoONOWm;
         "pkg-1.8.0" = _VTs1uy3U;
         "pkg-1.8.1" = _H4khGO1T;
-        "default" = _H4khGO1T;
+        "pkg-1.9.0" = _uqMcy1mo;
+        "default" = _uqMcy1mo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tropihunterboard";

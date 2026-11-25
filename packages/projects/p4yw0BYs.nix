@@ -41,6 +41,11 @@ let
             "file" = "cinematiczoom-1.0.1-NEO26.1.jar";
             "hash" = "sha512-RQ8W29vDLmwvvDMa6x9BowJ/MiHs5eYebtH6Rx/vUmrP9fU38j3V8W8z70qKxSBJd07VkJe+oMxS+M42FSEu3w==";
         };
+        _NwAFMLSD = {
+            "id" = "NwAFMLSD";
+            "file" = "cinematiczoom-1.3.6-f1fix.jar";
+            "hash" = "sha512-NaA1FjrcainGcv/U0CoWEWTJ+dCRYB5HKFujSJiw7a9YmGrijOR0foN0z55UxK5hVr+fvdS675FdCfYZ0BSsrw==";
+        };
     in {
         "zyZOLg7h" = _zyZOLg7h;
         "dhQ9JuAp" = _dhQ9JuAp;
@@ -50,6 +55,7 @@ let
         "sUrCAXrz" = _sUrCAXrz;
         "dn4Icy8M" = _dn4Icy8M;
         "ASc73zil" = _ASc73zil;
+        "NwAFMLSD" = _NwAFMLSD;
         "forge-1.20.1" = _zyZOLg7h;
         "fabric-1.21.1" = _sUrCAXrz;
         "fabric-1.21.2" = _sUrCAXrz;
@@ -61,7 +67,7 @@ let
         "fabric-1.21.8" = _sUrCAXrz;
         "fabric-1.21.9" = _sUrCAXrz;
         "fabric-1.21.10" = _sUrCAXrz;
-        "fabric-1.21.11" = _sUrCAXrz;
+        "fabric-1.21.11" = _NwAFMLSD;
         "neoforge-1.21.1" = _dn4Icy8M;
         "neoforge-1.21.2" = _dXauGgNI;
         "neoforge-1.21.3" = _dXauGgNI;
@@ -80,7 +86,8 @@ let
         "pkg-1.0.0" = _dn4Icy8M;
         "pkg-1.0.1" = _sUrCAXrz;
         "pkg-1.0.0-NEO26.1" = _ASc73zil;
-        "default" = _ASc73zil;
+        "pkg-1.3.6-f1fix" = _NwAFMLSD;
+        "default" = _NwAFMLSD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cinematiczoom-original";

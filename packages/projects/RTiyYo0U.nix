@@ -141,6 +141,26 @@ let
             "file" = "maid_restaurant-0.5.0-1.20.1.jar";
             "hash" = "sha512-73NDRXE0IvayXKMyiR5/HDVZ5rqfkDSd8Sr+m3wL+QCTMJ7s7KD28yLbZje0bgEnuWafIMdiFll2qZelWdzktg==";
         };
+        _GDnDtcET = {
+            "id" = "GDnDtcET";
+            "file" = "maid_restaurant-0.5.1-1.21.1.jar";
+            "hash" = "sha512-K0MMPO+H1l1CdMpqWXZzjODhjZ0MhVMZP49uGXkkEZxdBAFc7Mj/e+u3yEx/jbn6Evl04b1rQVw2Pt56RGXrjA==";
+        };
+        _9A4RZuZo = {
+            "id" = "9A4RZuZo";
+            "file" = "maid_restaurant-0.5.1-1.20.1.jar";
+            "hash" = "sha512-gM/+DnNBkjsD6vTmy5AWSssUrdK48z74/6IpYTrJ5OaMjyyoZdgc9CeBnqWnRqHRCvHrEFmoUTFZr9oyG9Fc7w==";
+        };
+        _I2LjrvpB = {
+            "id" = "I2LjrvpB";
+            "file" = "maid_restaurant-0.5.2-1.21.1.jar";
+            "hash" = "sha512-M9F5s0RaxSqP8+t0mGsWEl2kH65NvJJyaVLzH9x4hcJ69lSn2TRK6PmxmrZpMB2kCJP5CvANPDyBYhq69GxOlQ==";
+        };
+        _CoM0md4E = {
+            "id" = "CoM0md4E";
+            "file" = "maid_restaurant-0.5.2-1.20.1.jar";
+            "hash" = "sha512-GQbdUxo0B61/HJIBPDe4p8g9a+T9chqhVlJJbs09LGnL5vbo7+X3TVOUXQ6ItEWL+ScB14Z4a9ib3qNEdJT0ZQ==";
+        };
     in {
         "Onqxmq8A" = _Onqxmq8A;
         "FpgiLYUi" = _FpgiLYUi;
@@ -170,8 +190,12 @@ let
         "vEgMAYm3" = _vEgMAYm3;
         "8XPkxYD4" = _8XPkxYD4;
         "NEbCW5OI" = _NEbCW5OI;
-        "neoforge-1.21.1" = _8XPkxYD4;
-        "forge-1.20.1" = _NEbCW5OI;
+        "GDnDtcET" = _GDnDtcET;
+        "9A4RZuZo" = _9A4RZuZo;
+        "I2LjrvpB" = _I2LjrvpB;
+        "CoM0md4E" = _CoM0md4E;
+        "neoforge-1.21.1" = _I2LjrvpB;
+        "forge-1.20.1" = _CoM0md4E;
         "pkg-0.1.3" = _Onqxmq8A;
         "pkg-0.1.4" = _T7493pID;
         "pkg-0.1.5" = _qVUMH83G;
@@ -188,7 +212,9 @@ let
         "pkg-0.2.8" = _aFkANRma;
         "pkg-0.2.9" = _vEgMAYm3;
         "pkg-0.5.0" = _NEbCW5OI;
-        "default" = _NEbCW5OI;
+        "pkg-0.5.1" = _9A4RZuZo;
+        "pkg-0.5.2" = _CoM0md4E;
+        "default" = _CoM0md4E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "maid-restaurant";

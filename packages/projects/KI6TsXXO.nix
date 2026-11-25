@@ -61,6 +61,11 @@ let
             "file" = "beacon-bounding-boxes-1.2.jar";
             "hash" = "sha512-KoypxJE9giRp1fLKkDrWjRWDlzM4IZS+qdiQAIIgFr6rZkD1jGaoEdna9XLQ74VIka/PVZdXqXaEAAWLZMWVYQ==";
         };
+        _HYFklhOD = {
+            "id" = "HYFklhOD";
+            "file" = "beacon-bounding-boxes-1.3+26.1-26.3.jar";
+            "hash" = "sha512-MHqFU7jRfAVsFOnUx9QWx+IKoEPSTEZPgoO+wsb3QpB2F82bhNZ020010z5u6a0xQTnzs97zR89dt/NPOs+5kg==";
+        };
     in {
         "aeP3KY6e" = _aeP3KY6e;
         "15mIqQaW" = _15mIqQaW;
@@ -74,22 +79,39 @@ let
         "uup35Vok" = _uup35Vok;
         "bUpLKcwt" = _bUpLKcwt;
         "58HORTeC" = _58HORTeC;
+        "HYFklhOD" = _HYFklhOD;
         "fabric-1.21.4" = _CxbiK90S;
         "fabric-1.21.1" = _uUP2g0cM;
         "fabric-1.21.7" = _ba7fKV78;
         "fabric-1.21.8" = _uup35Vok;
         "fabric-1.21.10" = _bUpLKcwt;
         "fabric-1.21.11" = _58HORTeC;
+        "fabric-26.3" = _HYFklhOD;
+        "fabric-26.2" = _HYFklhOD;
+        "fabric-26.1.2" = _HYFklhOD;
+        "fabric-26.1.1" = _HYFklhOD;
+        "fabric-26.1" = _HYFklhOD;
         "quilt-1.21.7" = _ba7fKV78;
         "quilt-1.21.4" = _CxbiK90S;
         "quilt-1.21.8" = _uup35Vok;
         "quilt-1.21.10" = _bUpLKcwt;
         "quilt-1.21.11" = _58HORTeC;
+        "quilt-26.3" = _HYFklhOD;
+        "quilt-26.2" = _HYFklhOD;
+        "quilt-26.1.2" = _HYFklhOD;
+        "quilt-26.1.1" = _HYFklhOD;
+        "quilt-26.1" = _HYFklhOD;
+        "neoforge-26.3" = _HYFklhOD;
+        "neoforge-26.2" = _HYFklhOD;
+        "neoforge-26.1.2" = _HYFklhOD;
+        "neoforge-26.1.1" = _HYFklhOD;
+        "neoforge-26.1" = _HYFklhOD;
         "pkg-1.0-SNAPSHOT" = _aeP3KY6e;
         "pkg-1.0" = _zwI4p5AA;
         "pkg-1.1" = _CxbiK90S;
         "pkg-1.2" = _58HORTeC;
-        "default" = _58HORTeC;
+        "pkg-1.3+26.1-26.3" = _HYFklhOD;
+        "default" = _HYFklhOD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "beacon-bounding-box";

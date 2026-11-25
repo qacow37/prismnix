@@ -291,6 +291,16 @@ let
             "file" = "mmcr-neoforge-mc1.21.1-0.1.9+dev-7cdc8596f.jar";
             "hash" = "sha512-QkXSmD8OhprzjBsWL8b2fujo8oIKThxoYhJuj9Xg8JD0zfmkaDkWMeep4XRknjLPm8xOXgBdDEsT6p18dqcOAQ==";
         };
+        _6mEwJMgZ = {
+            "id" = "6mEwJMgZ";
+            "file" = "mmcr-neoforge-mc26.1.2-0.2.0+dev-84ed49c70.jar";
+            "hash" = "sha512-0cvymJGud+V6Ond/0ZwRZSomsZxki7Du38ZhKR8eUrmO/tk+S9BUcx6jByyhd2N2KHSGO+2NCdvO8zhmQobDCg==";
+        };
+        _iH6koeER = {
+            "id" = "iH6koeER";
+            "file" = "mmcr-neoforge-mc1.21.1-0.2.0+dev-66e78db90.jar";
+            "hash" = "sha512-gklECIPjARM90xVuRtSC4dIQtjb33ffBh4cTmx+xuN5bIrk9A59jmweEzdjxZ2iYI+rtbQ3WVImAsc1MgfoHVw==";
+        };
     in {
         "amIF6orc" = _amIF6orc;
         "OreDduA4" = _OreDduA4;
@@ -350,8 +360,10 @@ let
         "TyXFITq6" = _TyXFITq6;
         "2ZQFmZwb" = _2ZQFmZwb;
         "xOPVwacT" = _xOPVwacT;
-        "neoforge-26.1.2" = _2ZQFmZwb;
-        "neoforge-1.21.1" = _xOPVwacT;
+        "6mEwJMgZ" = _6mEwJMgZ;
+        "iH6koeER" = _iH6koeER;
+        "neoforge-26.1.2" = _6mEwJMgZ;
+        "neoforge-1.21.1" = _iH6koeER;
         "pkg-0.0.0+dev-a75aded" = _amIF6orc;
         "pkg-0.0.0+dev-029b30c4" = _OreDduA4;
         "pkg-0.0.0+dev-e252e388" = _8OyQd9LL;
@@ -410,7 +422,9 @@ let
         "pkg-26.1.2-0.1.8+dev-1876c2055" = _TyXFITq6;
         "pkg-26.1.2-0.1.9+dev-e79ff5897" = _2ZQFmZwb;
         "pkg-1.21.1-0.1.9+dev-7cdc8596f" = _xOPVwacT;
-        "default" = _xOPVwacT;
+        "pkg-26.1.2-0.2.0+dev-84ed49c70" = _6mEwJMgZ;
+        "pkg-1.21.1-0.2.0+dev-66e78db90" = _iH6koeER;
+        "default" = _iH6koeER;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modular-machinery-community-refoxed";

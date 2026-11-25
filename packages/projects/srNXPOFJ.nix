@@ -2456,6 +2456,21 @@ let
             "file" = "cp_lib-5.1.9-beta-fabric-26.3.jar";
             "hash" = "sha512-AmwprmXnK3LrVK+7nMLX3AitmC/K0l/6SRgBdeSIQn/huDWe1pnqLKrjmIfUOWRCfoKRVq3O2Z1nEps0UJ22Ng==";
         };
+        _48IVGXml = {
+            "id" = "48IVGXml";
+            "file" = "cp_lib-5.1.9-beta-forge-1.20.4.jar";
+            "hash" = "sha512-aWKAwmTWAmJzcXjhtYziTALXSbMaXC8YRw2wvx9cMgBN2cUDKyCM0STBZO4DNRXYQwYjSpAz7ZLbeubVDSd3Tw==";
+        };
+        _p0LYTXm2 = {
+            "id" = "p0LYTXm2";
+            "file" = "cp_lib-5.1.9-beta-neoforge-26.3.jar";
+            "hash" = "sha512-ao4/a83sN9zzwsXz79koaAYwqg8uN6+Qfh6senPqTmTgKza4KFou3ABPyAwDzUbkfyhwon1pAZBPRiOwU45sIQ==";
+        };
+        _HZUSdqu6 = {
+            "id" = "HZUSdqu6";
+            "file" = "cp_lib-5.1.9-beta-forge-26.3.jar";
+            "hash" = "sha512-Yss2Oc+xjUq87W5msqUPt9EuY2LecMW9frK8Tw/m/PQT/UkDqGakg6m/nFw8c1EzeM5HKjs+nxuSfBxbveepUw==";
+        };
     in {
         "U3i96tXQ" = _U3i96tXQ;
         "FHBio7se" = _FHBio7se;
@@ -2948,11 +2963,16 @@ let
         "jbNIAqkt" = _jbNIAqkt;
         "fK1NbOR0" = _fK1NbOR0;
         "DHJC62tC" = _DHJC62tC;
+        "48IVGXml" = _48IVGXml;
+        "p0LYTXm2" = _p0LYTXm2;
+        "HZUSdqu6" = _HZUSdqu6;
         "forge-1.20.1" = _BuYqDf7Z;
         "forge-1.19.4" = _Ha12aOrd;
         "forge-1.19.2" = _JO1AodyB;
         "forge-1.18.2" = _QwiGCgQc;
         "forge-1.17.1" = _xHd6PkN6;
+        "forge-1.20.4" = _48IVGXml;
+        "forge-26.3" = _HZUSdqu6;
         "neoforge-1.21.7" = _lPreC1f4;
         "neoforge-1.21.8" = _qmwzlJ3u;
         "neoforge-1.21.5" = _hFuOotW5;
@@ -2967,7 +2987,7 @@ let
         "neoforge-26.1.2" = _irtGKnNO;
         "neoforge-1.20.1" = _Y082UbmO;
         "neoforge-26.2" = _7wFnGZoE;
-        "neoforge-26.3" = _AXqQGlte;
+        "neoforge-26.3" = _p0LYTXm2;
         "fabric-1.21.6" = _w8w8nKlr;
         "fabric-1.21.7" = _w8w8nKlr;
         "fabric-1.21.8" = _w8w8nKlr;
@@ -3210,8 +3230,8 @@ let
         "pkg-5.1.6-beta" = _7wFnGZoE;
         "pkg-5.1.7-beta" = _FJmWhuih;
         "pkg-5.1.8-beta" = _NXyWiwR7;
-        "pkg-5.1.9-beta" = _DHJC62tC;
-        "default" = _DHJC62tC;
+        "pkg-5.1.9-beta" = _HZUSdqu6;
+        "default" = _HZUSdqu6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "croparium";

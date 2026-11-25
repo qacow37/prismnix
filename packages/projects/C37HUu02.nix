@@ -81,6 +81,16 @@ let
             "file" = "medievalweapons-neoforge-1.8.0+26.3.jar";
             "hash" = "sha512-8VbfM7NJec5vzxjAukrV4dxYyGh55oxGhEcL5P0hyNH0ysXyt4GH0TIjwrGcWAhjWD2M9spWhC2aK3Cf8Ne4KQ==";
         };
+        _GWOYLudf = {
+            "id" = "GWOYLudf";
+            "file" = "medievalweapons-fabric-1.8.1+26.3.jar";
+            "hash" = "sha512-NJGDmNRz6/8X3CRhp2dX2zXkzN2Xm8N+dFy4e9AfJDPQiAkkmaMFjADlD7CZmrjdSH28if10agJzpqigO8mQqw==";
+        };
+        _yYZG1T2C = {
+            "id" = "yYZG1T2C";
+            "file" = "medievalweapons-neoforge-1.8.1+26.3.jar";
+            "hash" = "sha512-yEixboQK3lbI5PMVtos2y33xsbA8IfXPm2JLOsyyh6TAswNf2p0LRY3GT25Hzsi5qxshKSWtFFRhNaUufuTJ4A==";
+        };
     in {
         "50v50qQk" = _50v50qQk;
         "w6bZUlwr" = _w6bZUlwr;
@@ -98,13 +108,15 @@ let
         "RaOJ9cFf" = _RaOJ9cFf;
         "oNOuTslW" = _oNOuTslW;
         "hXTM5WB5" = _hXTM5WB5;
+        "GWOYLudf" = _GWOYLudf;
+        "yYZG1T2C" = _yYZG1T2C;
         "fabric-1.19.2" = _w6bZUlwr;
         "fabric-1.20" = _L4yl1UZU;
         "fabric-1.20.1" = _WP327lEb;
         "fabric-1.21" = _XxcHBGML;
         "fabric-1.21.1" = _RaOJ9cFf;
-        "fabric-26.3" = _oNOuTslW;
-        "neoforge-26.3" = _hXTM5WB5;
+        "fabric-26.3" = _GWOYLudf;
+        "neoforge-26.3" = _yYZG1T2C;
         "pkg-1.4.4" = _50v50qQk;
         "pkg-1.4.5+1.19.2" = _w6bZUlwr;
         "pkg-1.4.5+1.20" = _L4yl1UZU;
@@ -121,7 +133,9 @@ let
         "pkg-1.7.1+1.21.1" = _RaOJ9cFf;
         "pkg-1.8.0+26.3-fabric" = _oNOuTslW;
         "pkg-1.8.0+26.3-neoforge" = _hXTM5WB5;
-        "default" = _hXTM5WB5;
+        "pkg-1.8.1+26.3-fabric" = _GWOYLudf;
+        "pkg-1.8.1+26.3-neoforge" = _yYZG1T2C;
+        "default" = _yYZG1T2C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "medievalweapons";

@@ -121,6 +121,11 @@ let
             "file" = "Enchantment-Reveal-1.19.2-Forge.jar";
             "hash" = "sha512-XPqDlBt0kdeFJrpXbsdUM8KCGx0fBX3yD42zqx6gScGgOeB5zr1Aw/2VUo1hCbeuK/p6121YUpn1ZoimWELrLg==";
         };
+        _cbQg0bgg = {
+            "id" = "cbQg0bgg";
+            "file" = "enchantment-reveal-1.2.0+26.1.2.jar";
+            "hash" = "sha512-24/gWbs/32LlELUKjIWeIg74ERzbtWhV3qCp7cXwyOw1AYltlfEsx6tQ0SjILyv+xcJtJQ5JtvCutYKsHMTdXw==";
+        };
     in {
         "v9PXKjOV" = _v9PXKjOV;
         "LGOTaO8R" = _LGOTaO8R;
@@ -146,6 +151,7 @@ let
         "wXUvX4b9" = _wXUvX4b9;
         "G0hqngmC" = _G0hqngmC;
         "FaCji2Au" = _FaCji2Au;
+        "cbQg0bgg" = _cbQg0bgg;
         "forge-1.20.2" = _TFbifgiy;
         "forge-1.20.1" = _IxJJJ0eu;
         "forge-1.20" = _BbrhE64B;
@@ -162,9 +168,11 @@ let
         "fabric-1.19.2" = _ESUtmYcX;
         "fabric-1.20.3" = _81krDtLt;
         "fabric-1.20.4" = _u0kbyCik;
+        "fabric-26.1.2" = _cbQg0bgg;
         "pkg-1.0.0" = _u0kbyCik;
         "pkg-1.1.0" = _FaCji2Au;
-        "default" = _FaCji2Au;
+        "pkg-1.2.0+26.1.2" = _cbQg0bgg;
+        "default" = _cbQg0bgg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantment-reveal";

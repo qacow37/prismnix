@@ -101,6 +101,11 @@ let
             "file" = "roleplayers-atlas-1.5.3+1.21.8.jar";
             "hash" = "sha512-IughNXyecyPf/RknJ+GESK812YwirC86ZZsVfFPi/VX439KrgIdMPhCP/JXrOlmxXYkkQzB3D//3V37cL57V6Q==";
         };
+        _wujPd4v5 = {
+            "id" = "wujPd4v5";
+            "file" = "roleplayers-atlas-1.5.4+26.3.jar";
+            "hash" = "sha512-ETSQP79Rqflb3iQ8Kx+iMViCQ8yBy9vSZgd6qzcr3+dAMXvaNVYkh1r6GE0znA4Wi71lRIsUkwlbGvc2jYS3cw==";
+        };
     in {
         "o4tUW2vt" = _o4tUW2vt;
         "1B6NpZ4C" = _1B6NpZ4C;
@@ -122,8 +127,10 @@ let
         "PSox0qqC" = _PSox0qqC;
         "q4f7vIBc" = _q4f7vIBc;
         "6YqC1V0Q" = _6YqC1V0Q;
+        "wujPd4v5" = _wujPd4v5;
         "fabric-1.21.8" = _6YqC1V0Q;
         "fabric-1.21.11" = _q4f7vIBc;
+        "fabric-26.3" = _wujPd4v5;
         "quilt-1.21.8" = _6YqC1V0Q;
         "quilt-1.21.11" = _q4f7vIBc;
         "pkg-1.0.0+1.22" = _o4tUW2vt;
@@ -146,7 +153,8 @@ let
         "pkg-1.5.2+1.21.8" = _PSox0qqC;
         "pkg-1.5.3+1.21.11" = _q4f7vIBc;
         "pkg-1.5.3+1.21.8" = _6YqC1V0Q;
-        "default" = _6YqC1V0Q;
+        "pkg-1.5.4+26.3" = _wujPd4v5;
+        "default" = _wujPd4v5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "roleplayers-atlas";

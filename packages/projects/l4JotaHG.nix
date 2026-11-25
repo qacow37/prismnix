@@ -166,6 +166,16 @@ let
             "file" = "extra-bows-forge-1.1.3-1.20.1.jar";
             "hash" = "sha512-F++jIp2ryAFwyBTCYi41/sKtiQDH1qIZqUjrbNqbU9RbV3fjizFGCQFn+mDDcUsn10VwEcISZPjcgftGZDsz7g==";
         };
+        _88Ii5qHK = {
+            "id" = "88Ii5qHK";
+            "file" = "extra-bows-forge-1.2.0-1.20.1.jar";
+            "hash" = "sha512-lJKuWUh+keFb0GoKlco4sPqDBeJytFUPxQgxltPtPtANd1JSQ040TT9ySMHfWlD00gzXCQMJdxKoA9nZK9npAA==";
+        };
+        _4PWclkvd = {
+            "id" = "4PWclkvd";
+            "file" = "extra-bows-fabric-1.2.0-1.20.1.jar";
+            "hash" = "sha512-M2lY13sjq7ED8Dykehl1EfXOpJZ7slV4Fc3uiX1HvzC0Vlj9rlXoqa47/ReeU10+MizgEbU7QQ2Z98RSSG7Vow==";
+        };
     in {
         "cAde4Dlz" = _cAde4Dlz;
         "2PzGEhTq" = _2PzGEhTq;
@@ -200,6 +210,8 @@ let
         "qiGMPyo9" = _qiGMPyo9;
         "Ea94bnNB" = _Ea94bnNB;
         "CTyeX720" = _CTyeX720;
+        "88Ii5qHK" = _88Ii5qHK;
+        "4PWclkvd" = _4PWclkvd;
         "datapack-1.21.9" = _sXhVW7P7;
         "datapack-1.21.10" = _sXhVW7P7;
         "datapack-1.21.11" = _Q1PnY8jf;
@@ -211,7 +223,7 @@ let
         "forge-1.21.10" = _nVMJgY2s;
         "forge-1.21" = _pENkFduo;
         "forge-1.21.1" = _pENkFduo;
-        "forge-1.20.1" = _CTyeX720;
+        "forge-1.20.1" = _88Ii5qHK;
         "neoforge-1.21.9" = _nVMJgY2s;
         "neoforge-1.21.10" = _nVMJgY2s;
         "neoforge-1.21" = _pENkFduo;
@@ -222,7 +234,7 @@ let
         "fabric-1.21.10" = _mPEqNLHn;
         "fabric-1.21" = _f0bx5xiI;
         "fabric-1.21.1" = _81w33cFB;
-        "fabric-1.20.1" = _Ea94bnNB;
+        "fabric-1.20.1" = _4PWclkvd;
         "pkg-1.0" = _cAde4Dlz;
         "pkg-1.0+mod" = _2PzGEhTq;
         "pkg-1.1" = _sXhVW7P7;
@@ -247,7 +259,9 @@ let
         "pkg-1.1.4-fabric-mod" = _81w33cFB;
         "pkg-1.1.2-forge-mod" = _Y92URaTR;
         "pkg-1.1.3-forge-mod" = _CTyeX720;
-        "default" = _CTyeX720;
+        "pkg-1.2.0-forge-mod" = _88Ii5qHK;
+        "pkg-1.2.0-fabric-mod" = _4PWclkvd;
+        "default" = _4PWclkvd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extra-bows";

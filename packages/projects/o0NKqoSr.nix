@@ -221,6 +221,16 @@ let
             "file" = "reach_display-3.1.2-1.20.1-forge.jar";
             "hash" = "sha512-fopwUTPrV+bSxW7mDZeaaomjacy+eyT5TXYpAHyEhcJ1EZY7l3ff8z0Zvle0IFpHVvNwdw3oywxo1EU+xM2FWQ==";
         };
+        _dndvdoIB = {
+            "id" = "dndvdoIB";
+            "file" = "reach_display-3.1.3-26.3.jar";
+            "hash" = "sha512-SHwsgUp74gG2nr+XMLU6G9Z7GYbDOCKdYuNl9zgKd/6v6bAbftGxMSXWhS3ZHCFT0X/fY15tr+5d/0LTdSju+Q==";
+        };
+        _SV4YwfHf = {
+            "id" = "SV4YwfHf";
+            "file" = "reach_display-3.1.3-26.3-neoforge.jar";
+            "hash" = "sha512-fsBsEkc+51xaq/SMY8kKV50UYPqc+OERceHdmm8b41sgo/4pNCrTOD+SJE9SiDWpUV6H+WdjKachmTSdjAESGw==";
+        };
     in {
         "WHrHZiKR" = _WHrHZiKR;
         "HeR2WXFE" = _HeR2WXFE;
@@ -266,6 +276,8 @@ let
         "D5U7RpkH" = _D5U7RpkH;
         "yWxNuYjt" = _yWxNuYjt;
         "PGwxg1Y9" = _PGwxg1Y9;
+        "dndvdoIB" = _dndvdoIB;
+        "SV4YwfHf" = _SV4YwfHf;
         "fabric-1.20.1" = _x72F5hpB;
         "fabric-1.20.2" = _x72F5hpB;
         "fabric-1.20.3" = _x72F5hpB;
@@ -296,6 +308,7 @@ let
         "fabric-1.21.2" = _wnlQTVxO;
         "fabric-1.21.3" = _wnlQTVxO;
         "fabric-1.21.4" = _wnlQTVxO;
+        "fabric-26.3" = _dndvdoIB;
         "quilt-26.1" = _Qvbsux1S;
         "quilt-26.1.1" = _Qvbsux1S;
         "quilt-26.1.2" = _Qvbsux1S;
@@ -325,9 +338,11 @@ let
         "quilt-1.21.9" = _J2Vx980Z;
         "quilt-1.21.10" = _J2Vx980Z;
         "quilt-1.21.11" = _J2Vx980Z;
+        "quilt-26.3" = _dndvdoIB;
         "neoforge-26.2" = _yWxNuYjt;
         "neoforge-1.21.1" = _iFy7O9Gy;
         "neoforge-1.21.11" = _vKvUWKuT;
+        "neoforge-26.3" = _SV4YwfHf;
         "forge-1.20.1" = _PGwxg1Y9;
         "pkg-1.0.0-1.20.1-4" = _WHrHZiKR;
         "pkg-1.0.0-1.19.4" = _HeR2WXFE;
@@ -373,7 +388,9 @@ let
         "pkg-3.1.2-1.21.5" = _D5U7RpkH;
         "pkg-3.1.2-26.2-neoforge" = _yWxNuYjt;
         "pkg-3.1.2-1.20.1-forge" = _PGwxg1Y9;
-        "default" = _PGwxg1Y9;
+        "pkg-3.1.3-26.3" = _dndvdoIB;
+        "pkg-3.1.3-26.3-neoforge" = _SV4YwfHf;
+        "default" = _SV4YwfHf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reach-display";

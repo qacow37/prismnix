@@ -1351,6 +1351,56 @@ let
             "file" = "polydium-1.4.22+26.3.jar";
             "hash" = "sha512-zhAr6NlwEO6l4A7FR46b4uM2TLiWvlL2NfBpVofiC0PfR7mWPKFrDjz2dbMOqomgoLJDCXWthoLv+QlrlgjPSQ==";
         };
+        _EmwxpKW9 = {
+            "id" = "EmwxpKW9";
+            "file" = "polydium-1.4.23+1.21.1.jar";
+            "hash" = "sha512-Yf+CFz6fdu1iDKLiy8QORnSNa1Y6NvOhntK1IAutXEfGGc8vHIWSl4JKYOULzWBvj/09bb9jgu5CxRykRNyznw==";
+        };
+        _CNoILfjL = {
+            "id" = "CNoILfjL";
+            "file" = "polydium-1.4.23+1.21.4.jar";
+            "hash" = "sha512-WGmxf001uv1jike6JLXe2N/4Gh+hK9Jv3ANLRRfJ+eF6ymXIs/L3Th4xJrpg/ta9MXpWkn505OVIdxFzoOynQw==";
+        };
+        _GE24PJNT = {
+            "id" = "GE24PJNT";
+            "file" = "polydium-1.4.23+1.21.5.jar";
+            "hash" = "sha512-D14X03bG+rZOs3lpnTPrsW/yLIxVn7eEPIueFAQnzftDrBbKxD0tqsh3cXXyWBlOIOqj0jdL0+GJQ5jiqczU3w==";
+        };
+        _esiQX64y = {
+            "id" = "esiQX64y";
+            "file" = "polydium-1.4.23+1.21.8.jar";
+            "hash" = "sha512-5iKoWA4VKxfmBkQDSc904RjNrIox/mEcoAx1oIdawg1b+dc6HbpYexZihNK2NsRkGMF+xq372qQkOoiAyNbhxQ==";
+        };
+        _4cPvEQRm = {
+            "id" = "4cPvEQRm";
+            "file" = "polydium-1.4.23+1.21.10.jar";
+            "hash" = "sha512-hIUTlhqF3Tjcx03X6HdSsN/ZdMJ2rDaXablSIZB+L4L6bY0J9gD7gAWYqgmJFiA3yAdcYU27TlN+UObcRl4k2g==";
+        };
+        _7pm5BLFV = {
+            "id" = "7pm5BLFV";
+            "file" = "polydium-1.4.23+1.21.11.jar";
+            "hash" = "sha512-uKUyfch1PJnFDEZu9agFYbhUo6226qS7ddLz6PUJCyJv/uW68d0HHXb5NF/ZWTqwhDyzS4ZdqKr2+NEmoQeiFw==";
+        };
+        _U946F2i1 = {
+            "id" = "U946F2i1";
+            "file" = "polydium-1.4.23+26.1.jar";
+            "hash" = "sha512-MXItu/iriZH3jfuZ70ULETnVMO4YL1hx1Nikasxh2PzlVcenAjv5iCESYxTvbOUkOJmK6xUeA7lPGd6eYNhceg==";
+        };
+        _SUxONv8U = {
+            "id" = "SUxONv8U";
+            "file" = "polydium-1.4.23+26.2.jar";
+            "hash" = "sha512-yXy/Nd8a5jH9y2d4X4sBzTdt1ssa789eHDC8QYqngwqbZ0IRtVqXdOGv1jdBwfN9n0BhBmdgP1zlcxojE2uP7g==";
+        };
+        _FocYGMGm = {
+            "id" = "FocYGMGm";
+            "file" = "polydium-1.4.23+26.3.jar";
+            "hash" = "sha512-PBIFl/JMKzJhNXatxqpjwlafLNyxBxGLpoveY7yODwKjV59YeIQBTqdVcbj/y0MkfHsojvQaYpGUndE/I6LJFw==";
+        };
+        _L699SZnJ = {
+            "id" = "L699SZnJ";
+            "file" = "Polydium-1.4.23.jar";
+            "hash" = "sha512-rvwAZO3HlIV0RtbAsCv9KXkAbzbTGSiMENj1w44aoBXm8iyZ09ln1ZxwSB2rJDdk4GSLQWJPqU2OBb5ZUllFuQ==";
+        };
     in {
         "rR4xyP3O" = _rR4xyP3O;
         "m3vpNHyW" = _m3vpNHyW;
@@ -1622,17 +1672,28 @@ let
         "uhhenw3T" = _uhhenw3T;
         "UpQLEhIW" = _UpQLEhIW;
         "WaRSQiPo" = _WaRSQiPo;
-        "fabric-1.21.1" = _6NPvR7f4;
-        "fabric-1.21.4" = _ovgOXLdG;
-        "fabric-1.21.5" = _MvmBjj6W;
-        "fabric-1.21.8" = _x8z2QbIB;
-        "fabric-1.21.10" = _PTb1orU1;
-        "fabric-1.21.11" = _G7oqIcUc;
-        "fabric-26.1" = _uhhenw3T;
-        "fabric-26.1.1" = _uhhenw3T;
-        "fabric-26.1.2" = _uhhenw3T;
-        "fabric-26.2" = _UpQLEhIW;
-        "fabric-26.3" = _WaRSQiPo;
+        "EmwxpKW9" = _EmwxpKW9;
+        "CNoILfjL" = _CNoILfjL;
+        "GE24PJNT" = _GE24PJNT;
+        "esiQX64y" = _esiQX64y;
+        "4cPvEQRm" = _4cPvEQRm;
+        "7pm5BLFV" = _7pm5BLFV;
+        "U946F2i1" = _U946F2i1;
+        "SUxONv8U" = _SUxONv8U;
+        "FocYGMGm" = _FocYGMGm;
+        "L699SZnJ" = _L699SZnJ;
+        "fabric-1.21.1" = _EmwxpKW9;
+        "fabric-1.21.4" = _CNoILfjL;
+        "fabric-1.21.5" = _GE24PJNT;
+        "fabric-1.21.8" = _esiQX64y;
+        "fabric-1.21.10" = _4cPvEQRm;
+        "fabric-1.21.11" = _7pm5BLFV;
+        "fabric-26.1" = _U946F2i1;
+        "fabric-26.1.1" = _U946F2i1;
+        "fabric-26.1.2" = _U946F2i1;
+        "fabric-26.2" = _SUxONv8U;
+        "fabric-26.3" = _FocYGMGm;
+        "ornithe-1.8.9" = _L699SZnJ;
         "pkg-v1.0.0" = _9Q4tnJx0;
         "pkg-v1.0.1" = _ilhXEB8F;
         "pkg-v1.0.2" = _D7EdpMwV;
@@ -1662,7 +1723,8 @@ let
         "pkg-v1.4.20" = _jV7u0Bse;
         "pkg-v1.4.21" = _IqFVp9dX;
         "pkg-v1.4.22" = _WaRSQiPo;
-        "default" = _WaRSQiPo;
+        "pkg-v1.4.23" = _L699SZnJ;
+        "default" = _L699SZnJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "polydium";

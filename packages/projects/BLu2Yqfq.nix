@@ -136,6 +136,11 @@ let
             "file" = "create_radar-5.1.2-1.21.1.jar";
             "hash" = "sha512-Saj8p/HliGBhcTrb488kFzwNqsGFX0jCmrX6baAKZC2nAG7jGdBZ0EXBiGBHLE29gKWD44egyOSvjVcALpuFFA==";
         };
+        _ayKJWhGv = {
+            "id" = "ayKJWhGv";
+            "file" = "create_radar-5.1.3-1.21.1.jar";
+            "hash" = "sha512-7HkB11vxbKbB8FB4QKDY5lYp5nlAtJWUAdd2to5F7zxOB8MpolB8uexw6x6k4buvhENVheKOBKzEDOCPAxOAKg==";
+        };
     in {
         "7CVx0y2X" = _7CVx0y2X;
         "N8cv2ENf" = _N8cv2ENf;
@@ -164,13 +169,14 @@ let
         "5ct6srlD" = _5ct6srlD;
         "ES5qa3pY" = _ES5qa3pY;
         "2wQXuyCI" = _2wQXuyCI;
+        "ayKJWhGv" = _ayKJWhGv;
         "forge-1.20.1" = _ruxlsWci;
         "forge-1.20.2" = _ruxlsWci;
         "forge-1.20.3" = _ruxlsWci;
         "forge-1.20.4" = _ruxlsWci;
         "forge-1.20.5" = _ruxlsWci;
         "forge-1.20.6" = _ruxlsWci;
-        "neoforge-1.21.1" = _2wQXuyCI;
+        "neoforge-1.21.1" = _ayKJWhGv;
         "pkg-0.1-45" = _7CVx0y2X;
         "pkg-0.1-53" = _N8cv2ENf;
         "pkg-0.1-56" = _2wqu0mPh;
@@ -194,7 +200,8 @@ let
         "pkg-5.1.0-1.21.1" = _5ct6srlD;
         "pkg-5.1.1-1.21.1" = _ES5qa3pY;
         "pkg-5.1.2-1.21.1" = _2wQXuyCI;
-        "default" = _2wQXuyCI;
+        "pkg-5.1.3-1.21.1" = _ayKJWhGv;
+        "default" = _ayKJWhGv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-radars";

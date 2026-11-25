@@ -156,6 +156,11 @@ let
             "file" = "AuroraQuests-2.7.0-b179.jar";
             "hash" = "sha512-KmMVXgxphFWFCcJv+jIVl6UpWdnnnuJp/sAIGFUOsDUaqQ/e9J9Tkeuw7U/NhEKtr6jIHQbRdHf2eUP/1DEMdw==";
         };
+        _YU0Axvqx = {
+            "id" = "YU0Axvqx";
+            "file" = "AuroraQuests-3.0.0-b183.jar";
+            "hash" = "sha512-IVibFtyun0Sea51llsm/TSDivI8iqRvApiB8AsQaYjyjdC2Mfzv5VsGF7lFwssJ/6xbEBTE5Jmd9vcLlJJiP8w==";
+        };
     in {
         "HSKRVOoe" = _HSKRVOoe;
         "Gt7LwnaC" = _Gt7LwnaC;
@@ -188,6 +193,7 @@ let
         "EmjbZJtY" = _EmjbZJtY;
         "H1gzWmxg" = _H1gzWmxg;
         "JewAUY4O" = _JewAUY4O;
+        "YU0Axvqx" = _YU0Axvqx;
         "folia-1.20" = _P4tdDVle;
         "folia-1.20.1" = _P4tdDVle;
         "folia-1.20.2" = _P4tdDVle;
@@ -207,8 +213,8 @@ let
         "folia-1.21.9" = _5yd0yi6g;
         "folia-1.21.10" = _5yd0yi6g;
         "folia-1.21.11" = _5yd0yi6g;
-        "folia-26.2" = _JewAUY4O;
-        "folia-26.3" = _JewAUY4O;
+        "folia-26.2" = _YU0Axvqx;
+        "folia-26.3" = _YU0Axvqx;
         "paper-1.20" = _P4tdDVle;
         "paper-1.20.1" = _P4tdDVle;
         "paper-1.20.2" = _P4tdDVle;
@@ -228,8 +234,8 @@ let
         "paper-1.21.9" = _5yd0yi6g;
         "paper-1.21.10" = _5yd0yi6g;
         "paper-1.21.11" = _5yd0yi6g;
-        "paper-26.2" = _JewAUY4O;
-        "paper-26.3" = _JewAUY4O;
+        "paper-26.2" = _YU0Axvqx;
+        "paper-26.3" = _YU0Axvqx;
         "purpur-1.20" = _P4tdDVle;
         "purpur-1.20.1" = _P4tdDVle;
         "purpur-1.20.2" = _P4tdDVle;
@@ -249,8 +255,8 @@ let
         "purpur-1.21.9" = _5yd0yi6g;
         "purpur-1.21.10" = _5yd0yi6g;
         "purpur-1.21.11" = _5yd0yi6g;
-        "purpur-26.2" = _JewAUY4O;
-        "purpur-26.3" = _JewAUY4O;
+        "purpur-26.2" = _YU0Axvqx;
+        "purpur-26.3" = _YU0Axvqx;
         "pkg-1.0.0" = _HSKRVOoe;
         "pkg-1.0.1" = _Gt7LwnaC;
         "pkg-1.1.0" = _HjpPhmVV;
@@ -282,7 +288,8 @@ let
         "pkg-2.5.0-b168" = _EmjbZJtY;
         "pkg-2.6.0-b170" = _H1gzWmxg;
         "pkg-2.7.0-b179" = _JewAUY4O;
-        "default" = _JewAUY4O;
+        "pkg-3.0.0-b183" = _YU0Axvqx;
+        "default" = _YU0Axvqx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auroraquests";

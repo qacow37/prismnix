@@ -61,6 +61,11 @@ let
             "file" = "flare-0.9.0.jar";
             "hash" = "sha512-iznma9Vj1HROuOLzsMrR/xtrMNBw37xkVvJbaugElkbovKG4MV0UtPWVFpBhAlWC1fGf4LWfSA81rfONvCminA==";
         };
+        _ZliI3EKr = {
+            "id" = "ZliI3EKr";
+            "file" = "flare-0.9.1.jar";
+            "hash" = "sha512-75QXVSFhP3bXGkXjj1ScXztQ9oLzw7TVoFNp5eV4XmvDtWHgD1+gLFR6IkUvX0NlOhkuu9TWTJIX2eYDRRcefQ==";
+        };
     in {
         "qwgB6jbI" = _qwgB6jbI;
         "o0IPsrLy" = _o0IPsrLy;
@@ -74,7 +79,8 @@ let
         "Mwr9c7U8" = _Mwr9c7U8;
         "75jbWsjD" = _75jbWsjD;
         "Iq9pkJok" = _Iq9pkJok;
-        "forge-1.12.2" = _Iq9pkJok;
+        "ZliI3EKr" = _ZliI3EKr;
+        "forge-1.12.2" = _ZliI3EKr;
         "pkg-0.1.0" = _qwgB6jbI;
         "pkg-0.1.1" = _o0IPsrLy;
         "pkg-0.2.0" = _HXPblrTO;
@@ -87,7 +93,8 @@ let
         "pkg-0.7.0" = _Mwr9c7U8;
         "pkg-0.8.0" = _75jbWsjD;
         "pkg-0.9.0" = _Iq9pkJok;
-        "default" = _Iq9pkJok;
+        "pkg-0.9.1" = _ZliI3EKr;
+        "default" = _ZliI3EKr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flare";

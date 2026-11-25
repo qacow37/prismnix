@@ -421,6 +421,11 @@ let
             "file" = "rftoolsstorage-fabric-26.3-9.0.0-fabric.jar";
             "hash" = "sha512-4w2Y6LEKAGGMhsAmPwEURdhn0BzfcwnxtjYGn6eYL15N2Oj6M+lWALPBZ+FfT2ChZR8oUl7/9FIQytSIVLFEQw==";
         };
+        _thwevc96 = {
+            "id" = "thwevc96";
+            "file" = "rftoolsstorage-1.20-5.0.6.jar";
+            "hash" = "sha512-uTK7owV7FbE6fZ9Bs9LxwVj/bXLLyyElkCVPzap2c/h025Kat0ncsvA0rRGMCjCleVTmsbD93CvzqaPI9XzfEA==";
+        };
     in {
         "rw4j67qk" = _rw4j67qk;
         "cKkDzuz4" = _cKkDzuz4;
@@ -506,6 +511,7 @@ let
         "sPNtamPU" = _sPNtamPU;
         "Fyi1y2l1" = _Fyi1y2l1;
         "xG7XC6nm" = _xG7XC6nm;
+        "thwevc96" = _thwevc96;
         "forge-1.14.4" = _9VLiHjlI;
         "forge-1.15.2" = _ntoGDp4O;
         "forge-1.16.2" = _5iEr2aZT;
@@ -519,7 +525,7 @@ let
         "forge-1.19.2" = _LRuGwUQf;
         "forge-1.19.3" = _LRuGwUQf;
         "forge-1.19.4" = _LRuGwUQf;
-        "forge-1.20.1" = _RLBdvJLN;
+        "forge-1.20.1" = _thwevc96;
         "neoforge-1.21.1" = _HLsY4iCW;
         "neoforge-26.1.2" = _cDtDvVFE;
         "neoforge-26.2" = _rJ3DqOlm;
@@ -611,7 +617,8 @@ let
         "pkg-26.2-8.0.0-fabric" = _sPNtamPU;
         "pkg-26.3-9.0.0" = _Fyi1y2l1;
         "pkg-26.3-9.0.0-fabric" = _xG7XC6nm;
-        "default" = _xG7XC6nm;
+        "pkg-1.20-5.0.6" = _thwevc96;
+        "default" = _thwevc96;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rftools-storage";

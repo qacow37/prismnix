@@ -241,6 +241,16 @@ let
             "file" = "electroblobs-wizardry-redux-0.8.10-fabric.jar";
             "hash" = "sha512-p/b+nC1mZVNX6MM7S/mJrXeLU3hsSINxKBRE96YcCzQhGCGk3c9Km3HbYf4/i15gFjlCiSMSkNRTGsvFPkBxiw==";
         };
+        _o1qwqNvl = {
+            "id" = "o1qwqNvl";
+            "file" = "electroblobs-wizardry-redux-0.8.11-fabric.jar";
+            "hash" = "sha512-JEEydVegRhoPHOzyryX5WLLRXxPUGDWlBq2FoRut27qCELKSuS48Cv4KwzD1fXn27H2d6aSBBXA9UdpsdY1Nfg==";
+        };
+        _7QPnlLZL = {
+            "id" = "7QPnlLZL";
+            "file" = "electroblobs-wizardry-redux-0.8.11-forge.jar";
+            "hash" = "sha512-0nyqBxxU/seTbU1tJZPusFv6LK8hbw2UpnVouGD4nqcmMj3phJcTPeLTlpgWpGXVn5aKvg28nJHm0J8jIwTOxA==";
+        };
     in {
         "s6408zjy" = _s6408zjy;
         "HoVs68P8" = _HoVs68P8;
@@ -290,8 +300,10 @@ let
         "hy7kW8NG" = _hy7kW8NG;
         "2woNpAVq" = _2woNpAVq;
         "TS1fZO7o" = _TS1fZO7o;
-        "fabric-1.20.1" = _TS1fZO7o;
-        "forge-1.20.1" = _2woNpAVq;
+        "o1qwqNvl" = _o1qwqNvl;
+        "7QPnlLZL" = _7QPnlLZL;
+        "fabric-1.20.1" = _o1qwqNvl;
+        "forge-1.20.1" = _7QPnlLZL;
         "pkg-1.0.0-alpha.1.6.13" = _HoVs68P8;
         "pkg-1.0.0-alpha.1.6.15" = _E4qKRkDO;
         "pkg-1.0.0-alpha.1.6.16" = _oPD8nkb4;
@@ -331,7 +343,9 @@ let
         "pkg-0.8.9-fabric" = _hy7kW8NG;
         "pkg-0.8.10-forge" = _2woNpAVq;
         "pkg-0.8.10-fabric" = _TS1fZO7o;
-        "default" = _TS1fZO7o;
+        "pkg-0.8.11-fabric" = _o1qwqNvl;
+        "pkg-0.8.11-forge" = _7QPnlLZL;
+        "default" = _7QPnlLZL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "electroblobs-wizardry-redux";

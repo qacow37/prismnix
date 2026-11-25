@@ -766,6 +766,11 @@ let
             "file" = "Better_Animations.zip";
             "hash" = "sha512-3eybFgw8AlfSl/QcgenYjOXpbAatdLAVudN71eeUxML7xIqMPzRx5Wb3IhDk+rv2Iq5xyrAmB337SdIKejv3Ug==";
         };
+        _HpoKYLDs = {
+            "id" = "HpoKYLDs";
+            "file" = "Better_Animations.zip";
+            "hash" = "sha512-cUK8dQoQCOmTClAUZvoHvVnXJ69gYf235BZ7ISP/7T1fzEvtSvutz57IEg04Gl6Yaz7zwosUILZzcSR89gHQKw==";
+        };
     in {
         "391E0lWi" = _391E0lWi;
         "XJ3WvU86" = _XJ3WvU86;
@@ -920,6 +925,7 @@ let
         "lR0Ul94E" = _lR0Ul94E;
         "iGuhRGT0" = _iGuhRGT0;
         "8Ygkvqa5" = _8Ygkvqa5;
+        "HpoKYLDs" = _HpoKYLDs;
         "minecraft-1.20.4" = _hXMHVzN1;
         "minecraft-1.20.1" = _hXMHVzN1;
         "minecraft-1.16.2" = _jEUmSVcz;
@@ -941,24 +947,24 @@ let
         "minecraft-1.20.6" = _hXMHVzN1;
         "minecraft-1.21" = _au87omo3;
         "minecraft-1.21.1" = _au87omo3;
-        "minecraft-1.21.2" = _8Ygkvqa5;
-        "minecraft-1.21.3" = _8Ygkvqa5;
-        "minecraft-1.21.4" = _8Ygkvqa5;
-        "minecraft-1.21.5" = _8Ygkvqa5;
-        "minecraft-1.21.6" = _8Ygkvqa5;
-        "minecraft-1.21.7" = _8Ygkvqa5;
-        "minecraft-1.21.8" = _8Ygkvqa5;
-        "minecraft-1.21.9" = _8Ygkvqa5;
-        "minecraft-1.21.10" = _8Ygkvqa5;
-        "minecraft-1.21.11" = _8Ygkvqa5;
-        "minecraft-24w44a" = _lR0Ul94E;
-        "minecraft-24w45a" = _lR0Ul94E;
-        "minecraft-24w46a" = _lR0Ul94E;
-        "minecraft-26.1" = _8Ygkvqa5;
-        "minecraft-26.1.1" = _8Ygkvqa5;
-        "minecraft-26.1.2" = _8Ygkvqa5;
-        "minecraft-26.2" = _8Ygkvqa5;
-        "minecraft-26.3" = _8Ygkvqa5;
+        "minecraft-1.21.2" = _HpoKYLDs;
+        "minecraft-1.21.3" = _HpoKYLDs;
+        "minecraft-1.21.4" = _HpoKYLDs;
+        "minecraft-1.21.5" = _HpoKYLDs;
+        "minecraft-1.21.6" = _HpoKYLDs;
+        "minecraft-1.21.7" = _HpoKYLDs;
+        "minecraft-1.21.8" = _HpoKYLDs;
+        "minecraft-1.21.9" = _HpoKYLDs;
+        "minecraft-1.21.10" = _HpoKYLDs;
+        "minecraft-1.21.11" = _HpoKYLDs;
+        "minecraft-24w44a" = _HpoKYLDs;
+        "minecraft-24w45a" = _HpoKYLDs;
+        "minecraft-24w46a" = _HpoKYLDs;
+        "minecraft-26.1" = _HpoKYLDs;
+        "minecraft-26.1.1" = _HpoKYLDs;
+        "minecraft-26.1.2" = _HpoKYLDs;
+        "minecraft-26.2" = _HpoKYLDs;
+        "minecraft-26.3" = _HpoKYLDs;
         "pkg-1.0" = _3LoCOF4n;
         "pkg-1.1" = _mr7SuXDL;
         "pkg-1.2" = _Dy1MMloI;
@@ -1076,7 +1082,8 @@ let
         "pkg-50.0" = _lR0Ul94E;
         "pkg-51.0" = _iGuhRGT0;
         "pkg-51.1" = _8Ygkvqa5;
-        "default" = _8Ygkvqa5;
+        "pkg-52.0" = _HpoKYLDs;
+        "default" = _HpoKYLDs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-animations";

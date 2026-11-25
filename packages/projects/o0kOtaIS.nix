@@ -916,6 +916,21 @@ let
             "file" = "afterburner-0.3.11+1.21.1-neoforge.jar";
             "hash" = "sha512-aB3kZVdb/ghqizz4QnL9z8WMZOixSN8sRLPlN8BjAwloPakae3luHSC494cEwgtXn2rDmgm9T4uBHEFE4IAQmQ==";
         };
+        _7ynKaOxP = {
+            "id" = "7ynKaOxP";
+            "file" = "afterburner-0.3.11+26.3-fabric.jar";
+            "hash" = "sha512-q21gms9p+ct9LR/fHr+gUzyEh6LPyzLBXSZoYnBlbCEIso1yuew087Vm7C10VaFY5qF26zgVxHlaRnHu/b9yig==";
+        };
+        _VWi8QdM4 = {
+            "id" = "VWi8QdM4";
+            "file" = "afterburner-0.3.11+26.3-neoforge.jar";
+            "hash" = "sha512-AoAIJHRG2IUi9M8QwdWVXDVP5aAA1Gm5wDQGbjnIqBwJWQ4YQvTgaWXxnf61X19DTzPp5AhAoD1Wwp7oGO6gRQ==";
+        };
+        _blABSOxu = {
+            "id" = "blABSOxu";
+            "file" = "afterburner-0.3.11+26.3-forge.jar";
+            "hash" = "sha512-aHMgXV5N0d5CyU1qktHy6tjWc4sh9146dhn3XIV4pPionrRzIDU6qxQCu39g7W1hrUJ0CKE/OanUa2a40y9lzA==";
+        };
     in {
         "4B2bZUcN" = _4B2bZUcN;
         "RFyaLxlU" = _RFyaLxlU;
@@ -1100,6 +1115,9 @@ let
         "nHXM7JYC" = _nHXM7JYC;
         "FVIMgo1p" = _FVIMgo1p;
         "iIcvWg0z" = _iIcvWg0z;
+        "7ynKaOxP" = _7ynKaOxP;
+        "VWi8QdM4" = _VWi8QdM4;
+        "blABSOxu" = _blABSOxu;
         "fabric-1.21.1" = _nHXM7JYC;
         "fabric-1.21.2" = _4B2bZUcN;
         "fabric-1.21.3" = _4B2bZUcN;
@@ -1111,9 +1129,9 @@ let
         "fabric-1.21.9" = _4B2bZUcN;
         "fabric-1.21.10" = _4B2bZUcN;
         "fabric-1.21.11" = _MEyXwZXG;
-        "fabric-26.3" = _i0fyzayr;
+        "fabric-26.3" = _7ynKaOxP;
         "forge-1.21.1" = _FVIMgo1p;
-        "forge-26.3" = _C4UMpJJR;
+        "forge-26.3" = _blABSOxu;
         "forge-1.21.11" = _GuS1dgJ5;
         "forge-26.2" = _3mpzIdPk;
         "forge-26.1.2" = _8cnMJSi6;
@@ -1123,7 +1141,7 @@ let
         "forge-1.21.4" = _GVBzMxmJ;
         "forge-1.21.3" = _DZWmoN1J;
         "neoforge-1.21.1" = _iIcvWg0z;
-        "neoforge-26.3" = _hX8ENCoR;
+        "neoforge-26.3" = _VWi8QdM4;
         "neoforge-1.21.11" = _Zy1KXG3H;
         "pkg-1.0.0" = _4B2bZUcN;
         "pkg-0.1.26" = _oAOoElQv;
@@ -1209,7 +1227,8 @@ let
         "pkg-0.3.10+26.3" = _hX8ENCoR;
         "pkg-0.3.10+1.21.11" = _Zy1KXG3H;
         "pkg-0.3.11+1.21.1" = _iIcvWg0z;
-        "default" = _iIcvWg0z;
+        "pkg-0.3.11+26.3" = _blABSOxu;
+        "default" = _blABSOxu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "litephysics";

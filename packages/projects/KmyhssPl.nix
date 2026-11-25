@@ -171,6 +171,16 @@ let
             "file" = "underground_village-neoforge-26.1-2.1.1.jar";
             "hash" = "sha512-4iijR8YxqxqkBn4x0wzd9acpy2JluKxuWxVUpsDljXQae0yS+DJRXynOOFOTUIrjMihA6oniLfH3EhXCp30FxA==";
         };
+        _mYYfEpi6 = {
+            "id" = "mYYfEpi6";
+            "file" = "underground_village-fabric-3.1.1+26.3.jar";
+            "hash" = "sha512-PwSGKCTV1QPzTk8l9K2Ze9VRJeFSWFixievi4H56M8NiS+9x06bJHDnKWlg6cLOiOgmaoc/13xBo5H6AyWWoVA==";
+        };
+        _G3GJz7xL = {
+            "id" = "G3GJz7xL";
+            "file" = "underground_village-neoforge-3.1.1+26.3.jar";
+            "hash" = "sha512-MS4vFyxdMwQGbMpE1Qf9ZbffbUQnHLErKYh1WbLPH5EKInoUWG4ilZFflVn4pp2EGw+loBg9SjtfZUqp64NqJQ==";
+        };
     in {
         "RYCXXDwE" = _RYCXXDwE;
         "YY8jvT4W" = _YY8jvT4W;
@@ -206,6 +216,8 @@ let
         "fbghJ8w2" = _fbghJ8w2;
         "2YZgqDhK" = _2YZgqDhK;
         "IZ5UAURT" = _IZ5UAURT;
+        "mYYfEpi6" = _mYYfEpi6;
+        "G3GJz7xL" = _G3GJz7xL;
         "forge-1.20.1" = _I07aEBPp;
         "forge-1.20.3" = _I07aEBPp;
         "forge-1.20.4" = _I07aEBPp;
@@ -241,6 +253,7 @@ let
         "neoforge-26.1.1" = _IZ5UAURT;
         "neoforge-26.1.2" = _IZ5UAURT;
         "neoforge-26.2" = _IZ5UAURT;
+        "neoforge-26.3" = _G3GJz7xL;
         "fabric-1.20.1" = _COqCDTg8;
         "fabric-1.21.1" = _waD0Ow7q;
         "fabric-1.21.5" = _waD0Ow7q;
@@ -255,6 +268,7 @@ let
         "fabric-26.1.1" = _2YZgqDhK;
         "fabric-26.1.2" = _2YZgqDhK;
         "fabric-26.2" = _2YZgqDhK;
+        "fabric-26.3" = _mYYfEpi6;
         "pkg-1.5.1" = _YY8jvT4W;
         "pkg-1.5.2" = _COqCDTg8;
         "pkg-1.5.2-neoforge-1.21.1" = _qNDLbKak;
@@ -267,7 +281,9 @@ let
         "pkg-2.0" = _XmSY2nd5;
         "pkg-2.1.0" = _fbghJ8w2;
         "pkg-2.1.1" = _IZ5UAURT;
-        "default" = _IZ5UAURT;
+        "pkg-v3.1.1+26.3-fabric" = _mYYfEpi6;
+        "pkg-v3.1.1+26.3-neoforge" = _G3GJz7xL;
+        "default" = _G3GJz7xL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "underground-village,-stoneholm";

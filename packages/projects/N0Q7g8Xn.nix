@@ -96,6 +96,11 @@ let
             "file" = "hcsurvival-0.19.2.jar";
             "hash" = "sha512-Af8Ge7S7Khn1eUKcXwbXqhVsKMLSGAWoBdZiPLrjob07sf5M8lrztorvej3yN6HR87o/zpe2OtXxabw/SxUbog==";
         };
+        _VdMiNPgo = {
+            "id" = "VdMiNPgo";
+            "file" = "hcsurvival-0.20.0-all.jar";
+            "hash" = "sha512-uF+BDNxF5T6LfgUtUcA4ZDFjuZgLoPuOKz7UGZX17WPXtdZw2RHgME218lfp0rfb0Wmu/YG/KVpCd9/NBqjjHA==";
+        };
     in {
         "NBhI9Iio" = _NBhI9Iio;
         "wKxeWXVC" = _wKxeWXVC;
@@ -116,9 +121,10 @@ let
         "6cohGsVx" = _6cohGsVx;
         "UUpWOm5Z" = _UUpWOm5Z;
         "V1dxgdIH" = _V1dxgdIH;
+        "VdMiNPgo" = _VdMiNPgo;
         "fabric-1.19.4" = _l8TthHpx;
         "fabric-1.20.1" = _c0KEO28K;
-        "forge-1.20.1" = _V1dxgdIH;
+        "forge-1.20.1" = _VdMiNPgo;
         "pkg-0.14.2" = _NBhI9Iio;
         "pkg-0.15.0" = _wKxeWXVC;
         "pkg-0.15.1" = _LUcCpt8Q;
@@ -138,7 +144,8 @@ let
         "pkg-0.19.0" = _6cohGsVx;
         "pkg-0.19.1" = _UUpWOm5Z;
         "pkg-0.19.2" = _V1dxgdIH;
-        "default" = _V1dxgdIH;
+        "pkg-0.20.0" = _VdMiNPgo;
+        "default" = _VdMiNPgo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hardcore-survival";

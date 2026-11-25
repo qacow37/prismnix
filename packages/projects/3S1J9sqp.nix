@@ -76,6 +76,16 @@ let
             "file" = "modern_window_patches-1.7.9-forge-1.20.1.jar";
             "hash" = "sha512-7WkHrD4v8ejznde6cl9y6rBAj2wlsuc39Lzix1EUDhNwjmU7GlOz4J73bpuaADqpzamzn++k3S6uWOL7zDmzGA==";
         };
+        _BkryZ0mA = {
+            "id" = "BkryZ0mA";
+            "file" = "modern_window_patches-1.8.0-forge-1.20.1.jar";
+            "hash" = "sha512-iW+1GDBV7tiaD/I2fWXgdkgiZ+Dtg73z3fDX2CXpYyl4/5RelTnFuuEHtKe0W2GPeiNbHu8JKrL6sl6a5yOYtQ==";
+        };
+        _Xb8KxDMX = {
+            "id" = "Xb8KxDMX";
+            "file" = "modern_window_patches-1.8.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-OwY1SLr1x5DL700wlGyckxtclVCBaJ6tTsgkUubMjqHz2maT7bpgVy/sTRIjmvLMtqctYG4kB0e5p4ysVfglyQ==";
+        };
     in {
         "c805ShPL" = _c805ShPL;
         "ddw6LvO7" = _ddw6LvO7;
@@ -92,10 +102,16 @@ let
         "Juc0uDv6" = _Juc0uDv6;
         "UxxFjtrL" = _UxxFjtrL;
         "8CenjYFs" = _8CenjYFs;
-        "forge-1.20.1" = _8CenjYFs;
-        "forge-1.20" = _8CenjYFs;
-        "neoforge-1.20.1" = _8CenjYFs;
-        "neoforge-1.20" = _8CenjYFs;
+        "BkryZ0mA" = _BkryZ0mA;
+        "Xb8KxDMX" = _Xb8KxDMX;
+        "forge-1.20.1" = _BkryZ0mA;
+        "forge-1.20" = _BkryZ0mA;
+        "forge-1.21.1" = _Xb8KxDMX;
+        "forge-1.21" = _Xb8KxDMX;
+        "neoforge-1.20.1" = _BkryZ0mA;
+        "neoforge-1.20" = _BkryZ0mA;
+        "neoforge-1.21.1" = _Xb8KxDMX;
+        "neoforge-1.21" = _Xb8KxDMX;
         "pkg-1.0.0" = _tZ8Fb7QH;
         "pkg-1.1.0" = _ddw6LvO7;
         "pkg-1.3.0" = _PAJ9PFii;
@@ -108,7 +124,8 @@ let
         "pkg-1.7.0" = _GZoSOIdD;
         "pkg-1.7.3" = _UxxFjtrL;
         "pkg-1.7.9" = _8CenjYFs;
-        "default" = _8CenjYFs;
+        "pkg-1.8.0" = _Xb8KxDMX;
+        "default" = _Xb8KxDMX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modern-windowsunofficial-version";

@@ -31,6 +31,11 @@ let
             "file" = "tnt-cart-optimizer-1.0.0.jar";
             "hash" = "sha512-ryP/ARReLA6//V8XSovxY/iOZqLpc6VoA/MnNrpRayhTHhBd8vIocTxtR6mCvoIwy0CtZSWW+hyNvxrTSkoYCg==";
         };
+        _633wSFeq = {
+            "id" = "633wSFeq";
+            "file" = "tnt-cart-optimizer-1.0.0.jar";
+            "hash" = "sha512-VhmnNN+FMwonxwV4kGTJ8ZLOXXtzsJnXxhgqXw/A9L/PHYI8/v6um3HJZ/g5je85fiVinqZd1ucB9fXbgBZ9mw==";
+        };
     in {
         "cPwmSLYe" = _cPwmSLYe;
         "sFhH74uD" = _sFhH74uD;
@@ -38,13 +43,15 @@ let
         "evGKfy0y" = _evGKfy0y;
         "NoDE5IEL" = _NoDE5IEL;
         "knZ1FOKp" = _knZ1FOKp;
+        "633wSFeq" = _633wSFeq;
         "fabric-1.21.4" = _cPwmSLYe;
         "fabric-1.21.11" = _NoDE5IEL;
         "fabric-1.21.1" = _ppLuqvxC;
         "fabric-26.3" = _knZ1FOKp;
-        "pkg-1.0.0" = _knZ1FOKp;
+        "fabric-26.1.2" = _633wSFeq;
+        "pkg-1.0.0" = _633wSFeq;
         "pkg-1.0.1" = _NoDE5IEL;
-        "default" = _knZ1FOKp;
+        "default" = _633wSFeq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tnt-minecart-optimizer";

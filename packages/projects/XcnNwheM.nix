@@ -51,6 +51,21 @@ let
             "file" = "jsmacros-26.2-2.2.1-fabric.jar";
             "hash" = "sha512-lzfMtQ1ekxjp72mNmWIyAa2/MA+6AqJUQ0jTrsQea9mrOjEnZPo0whBMWyV2IvgQHV8pTHYXkLe94g9ra4dU3Q==";
         };
+        _6NsgFysW = {
+            "id" = "6NsgFysW";
+            "file" = "jsmacros-26.2-2.2.2-fabric.jar";
+            "hash" = "sha512-n4l2hXNJiySVg6Lr3/gOgnZ4SbqMEZJ/BbKe+XhQMdLllu44W46x39d9qZUM8hIM8Me8RnHxaB23v+P0lTy5mg==";
+        };
+        _vRBZRb6r = {
+            "id" = "vRBZRb6r";
+            "file" = "jsmacros-26.3-2.2.2-fabric.jar";
+            "hash" = "sha512-jnoD3irfj3UvLjGDEYnQ8V0Z2JauFt9V8nG3bqbs6FqMOh09DqQFT3hvSoJRbbq7q1y/Pb53GapXr5uKBvc7cg==";
+        };
+        _3V1AufZp = {
+            "id" = "3V1AufZp";
+            "file" = "jsmacros-26.1-2.2.2-fabric.jar";
+            "hash" = "sha512-h9RbiH0iIr6zcy5CYyU1nAM/C+2uq/6yGFrGU464HHuAWXOb5ep/rsooTiRIzb203Qxwwb1ZRSnT1gm2TLBxPw==";
+        };
     in {
         "I16uWIwD" = _I16uWIwD;
         "D5ql2ujA" = _D5ql2ujA;
@@ -62,11 +77,14 @@ let
         "Jk2oAZYu" = _Jk2oAZYu;
         "6kAmYa2V" = _6kAmYa2V;
         "rY7EztRS" = _rY7EztRS;
-        "fabric-26.1.2" = _6kAmYa2V;
-        "fabric-26.2" = _rY7EztRS;
-        "fabric-26.1" = _6kAmYa2V;
-        "fabric-26.1.1" = _6kAmYa2V;
-        "fabric-26.3" = _Jk2oAZYu;
+        "6NsgFysW" = _6NsgFysW;
+        "vRBZRb6r" = _vRBZRb6r;
+        "3V1AufZp" = _3V1AufZp;
+        "fabric-26.1.2" = _3V1AufZp;
+        "fabric-26.2" = _6NsgFysW;
+        "fabric-26.1" = _3V1AufZp;
+        "fabric-26.1.1" = _3V1AufZp;
+        "fabric-26.3" = _vRBZRb6r;
         "pkg-2.0.0+26.1.2-fabric" = _I16uWIwD;
         "pkg-2.0.1+26.1.2-fabric" = _D5ql2ujA;
         "pkg-2.0.3+26.1.2-fabric" = _jLKUdK6U;
@@ -77,7 +95,10 @@ let
         "pkg-2.2.1+26.3-fabric" = _Jk2oAZYu;
         "pkg-2.2.1+26.1-fabric" = _6kAmYa2V;
         "pkg-2.2.1+26.2-fabric" = _rY7EztRS;
-        "default" = _rY7EztRS;
+        "pkg-2.2.2+26.2-fabric" = _6NsgFysW;
+        "pkg-2.2.2+26.3-fabric" = _vRBZRb6r;
+        "pkg-2.2.2+26.1-fabric" = _3V1AufZp;
+        "default" = _3V1AufZp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jsmacros-reloaded";

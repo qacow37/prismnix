@@ -351,6 +351,16 @@ let
             "file" = "sophisticatedstoragecreateintegration-1.21.1-0.1.23.246.jar";
             "hash" = "sha512-sRvPAjM/SVcUFxGlxek9LRxqlQ46i/Ax2zNXwH3pL03pSWo5yQxlAny5rsdTEsPNFctgcmm/X4A5lGnt/HfHSQ==";
         };
+        _joMt4DLO = {
+            "id" = "joMt4DLO";
+            "file" = "sophisticatedstoragecreateintegration-1.21.1-0.1.24.252.jar";
+            "hash" = "sha512-PeRdZUP1VVihmEF+wKc6cMObcIDpcJXgtYuNvUvZ0oUB24Qd4p8ps/n8/p3d4176ZOwgCVbj6OwCKhNRIDuhnw==";
+        };
+        _rhWQa2ae = {
+            "id" = "rhWQa2ae";
+            "file" = "sophisticatedstoragecreateintegration-1.20.1-0.1.27.251.jar";
+            "hash" = "sha512-ZC1D3gEn8rs0IIF711M8aPZD7n3ic2zNRq8sbHYEKT+bwuJlGF4hLS6UOa98X+JHKJZ6uYJMoW5YqGw7FsTF5A==";
+        };
     in {
         "1bxTAqWb" = _1bxTAqWb;
         "kwHGIrIM" = _kwHGIrIM;
@@ -422,8 +432,10 @@ let
         "vC5Xhg1p" = _vC5Xhg1p;
         "FQzCxDWT" = _FQzCxDWT;
         "xePmjcI1" = _xePmjcI1;
-        "neoforge-1.21.1" = _xePmjcI1;
-        "neoforge-1.20.1" = _FQzCxDWT;
+        "joMt4DLO" = _joMt4DLO;
+        "rhWQa2ae" = _rhWQa2ae;
+        "neoforge-1.21.1" = _joMt4DLO;
+        "neoforge-1.20.1" = _rhWQa2ae;
         "neoforge-1.21.5" = _JP5VZHQf;
         "neoforge-26.1" = _uA4H431O;
         "neoforge-26.1.1" = _uA4H431O;
@@ -433,7 +445,7 @@ let
         "neoforge-1.21.4" = _z5s8yrad;
         "neoforge-26.2" = _PiBH2Lqy;
         "neoforge-1.21.10" = _WdP3wDkw;
-        "forge-1.20.1" = _FQzCxDWT;
+        "forge-1.20.1" = _rhWQa2ae;
         "pkg-1.21.1-0.1.0.3" = _1bxTAqWb;
         "pkg-1.21.1-0.1.1.4" = _kwHGIrIM;
         "pkg-1.21.1-0.1.1.5" = _ZD0RTQAJ;
@@ -503,7 +515,9 @@ let
         "pkg-1.21.1-0.1.22.238" = _vC5Xhg1p;
         "pkg-1.20.1-0.1.26.245" = _FQzCxDWT;
         "pkg-1.21.1-0.1.23.246" = _xePmjcI1;
-        "default" = _xePmjcI1;
+        "pkg-1.21.1-0.1.24.252" = _joMt4DLO;
+        "pkg-1.20.1-0.1.27.251" = _rhWQa2ae;
+        "default" = _rhWQa2ae;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sophisticated-storage-create-integration";

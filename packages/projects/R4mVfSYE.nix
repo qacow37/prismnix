@@ -151,6 +151,26 @@ let
             "file" = "shizuku-blade-3.8.0fix4.jar";
             "hash" = "sha512-lAJD1ndV5RGYjCyutJk/JYYLBifrcyafnHPFy8vQrz/EtH7BUZl1vtSaMny7H1NMhL1mfdSMQFsDtwVISLihKA==";
         };
+        _yM6NOaS1 = {
+            "id" = "yM6NOaS1";
+            "file" = "shizuku-blade-1.21.1-neoforge-3.8.0.jar";
+            "hash" = "sha512-UWScPqkfZw4cNprmjbx9v6LbubFEK8ld/h8if0m17NBgJcvWGzkknG0nhlcI6gPffq2M0xMja7glDQbnlwm42A==";
+        };
+        _B1lmsXpI = {
+            "id" = "B1lmsXpI";
+            "file" = "shizuku-blade-1.20.1-fabric-3.8.0.jar";
+            "hash" = "sha512-7NtZHjqlqDSuTLiJ41nu9FLkq9Tc9RIALFdl81svb4jVfJft93/B5rsaKKNjexCbIUx2LNWHPsupXfmj6vvXng==";
+        };
+        _1jhaYz88 = {
+            "id" = "1jhaYz88";
+            "file" = "shizuku-blade-1.21.1-fabric-3.8.0.jar";
+            "hash" = "sha512-SK+CP8nFAip6EJoThfCwkBKAQwHtAaFvAiyudyiUFcoqF5n8z8I6b2CmuW55Cy8NUaE0SuFxmbnInxfY4r9Cqg==";
+        };
+        _Fc78beeI = {
+            "id" = "Fc78beeI";
+            "file" = "shizuku-blade-26.1.2-fabric-3.8.0.jar";
+            "hash" = "sha512-R2ftB9hwhiPzupvmb0vz2L6Yh4mya2XbXBblMmNVTKHkyv+iLfQA7ZQ0OLaAS4EQpuHDc/ZUeYaowYCJeG73DA==";
+        };
     in {
         "AND3Xpdw" = _AND3Xpdw;
         "o8yGU1d8" = _o8yGU1d8;
@@ -182,11 +202,15 @@ let
         "G1qtbERW" = _G1qtbERW;
         "p7SzeMqu" = _p7SzeMqu;
         "1dx2KkOX" = _1dx2KkOX;
+        "yM6NOaS1" = _yM6NOaS1;
+        "B1lmsXpI" = _B1lmsXpI;
+        "1jhaYz88" = _1jhaYz88;
+        "Fc78beeI" = _Fc78beeI;
         "forge-1.20.1" = _1dx2KkOX;
-        "neoforge-1.21.1" = _BqHpdfdU;
-        "fabric-1.20.1" = _DKelHifT;
-        "fabric-26.1.2" = _jYc3KHVH;
-        "fabric-1.21.1" = _Gl72dNmf;
+        "neoforge-1.21.1" = _yM6NOaS1;
+        "fabric-1.20.1" = _B1lmsXpI;
+        "fabric-26.1.2" = _Fc78beeI;
+        "fabric-1.21.1" = _1jhaYz88;
         "pkg-1.0.0" = _AND3Xpdw;
         "pkg-1.0.1" = _o8yGU1d8;
         "pkg-1.0.2" = _AL9q1zoZ;
@@ -205,12 +229,12 @@ let
         "pkg-3.6.0fix2" = _Ddmi5wvI;
         "pkg-3.7.0" = _Gl72dNmf;
         "pkg-3.7.0-fix1" = _BqHpdfdU;
-        "pkg-3.8.0" = _WPQkEGYj;
+        "pkg-3.8.0" = _Fc78beeI;
         "pkg-3.8.0fix" = _KZkYfD3a;
         "pkg-3.8.0fix2" = _G1qtbERW;
         "pkg-3.8.0fix3" = _p7SzeMqu;
         "pkg-3.8.0fix4" = _1dx2KkOX;
-        "default" = _1dx2KkOX;
+        "default" = _Fc78beeI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nekohashizuku-blade";

@@ -51,6 +51,11 @@ let
             "file" = "chromaanvils-1.1.0+26.2.jar";
             "hash" = "sha512-4f11CchHnVQxjQyC224veF2nOjBqPhjgnUP9UYxCWAJ8vqXOhZcmaKAurFk4hpYTXNFZ3g+PlHySKOnngpEufw==";
         };
+        _VvUZRg8B = {
+            "id" = "VvUZRg8B";
+            "file" = "chromaanvils-1.1.1+26.3.jar";
+            "hash" = "sha512-3CpE4oBvV/LYGgAowqPLisyx8a8oViFMSj1EsitKds9Uh6Pppji4xmGRJAFbgSP+e2YeMYlhDsYXf0mha8yxLQ==";
+        };
     in {
         "yq286SSn" = _yq286SSn;
         "4VurhDGa" = _4VurhDGa;
@@ -62,6 +67,7 @@ let
         "XjpAyYzf" = _XjpAyYzf;
         "zpMPtNKL" = _zpMPtNKL;
         "F5Y73kbH" = _F5Y73kbH;
+        "VvUZRg8B" = _VvUZRg8B;
         "fabric-1.21" = _yq286SSn;
         "fabric-1.21.1" = _4VurhDGa;
         "fabric-1.21.4" = _grHp0OF5;
@@ -70,6 +76,7 @@ let
         "fabric-1.21.10" = _XjpAyYzf;
         "fabric-1.21.11" = _zpMPtNKL;
         "fabric-26.2" = _F5Y73kbH;
+        "fabric-26.3" = _VvUZRg8B;
         "pkg-1.0.0+1.21" = _yq286SSn;
         "pkg-1.0.1+1.21.1" = _4VurhDGa;
         "pkg-1.0.2+1.21.4" = _szEkJj69;
@@ -80,7 +87,8 @@ let
         "pkg-1.0.7+1.21.10" = _XjpAyYzf;
         "pkg-1.0.8" = _zpMPtNKL;
         "pkg-1.1.0" = _F5Y73kbH;
-        "default" = _F5Y73kbH;
+        "pkg-1.1.1" = _VvUZRg8B;
+        "default" = _VvUZRg8B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chromaanvils";

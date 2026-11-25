@@ -126,6 +126,16 @@ let
             "file" = "apothecary-1.5.2.1-1.21.1.jar";
             "hash" = "sha512-82Fu7a1T9W2+CV6hpxQ9TbH3gT6csSFX9K2xPJGsl7Br918wGVh6YF+pWwAq8KWgUdS3KgQbn5TWoJh3xvns1g==";
         };
+        _sog03BFh = {
+            "id" = "sog03BFh";
+            "file" = "apothecary-1.5.3-1.20.1.jar";
+            "hash" = "sha512-zh+5h8qzHuQRf2O1JdpPTIF88vDdMMq9TDnbBHN4SufQpH/EGy2cl7bx6PNzmLOnPmZpaowL1rOYJ1/Vy5C9bw==";
+        };
+        _jwVH63NF = {
+            "id" = "jwVH63NF";
+            "file" = "apothecary-1.5.3-1.21.1.jar";
+            "hash" = "sha512-LbMcNmOO+JhwoVq2dnnOpGdbkf0bRNBdI7pVC97+NHk0MnX5BDdzxKQI/Of39sfIyf3bb/T4GDUX2nrs0mkTEA==";
+        };
     in {
         "entU7S3U" = _entU7S3U;
         "Xp34H3qm" = _Xp34H3qm;
@@ -152,8 +162,10 @@ let
         "3KL9x90Y" = _3KL9x90Y;
         "Ih5yQ5Yx" = _Ih5yQ5Yx;
         "E5ML1wiW" = _E5ML1wiW;
-        "forge-1.20.1" = _3KL9x90Y;
-        "neoforge-1.21.1" = _E5ML1wiW;
+        "sog03BFh" = _sog03BFh;
+        "jwVH63NF" = _jwVH63NF;
+        "forge-1.20.1" = _sog03BFh;
+        "neoforge-1.21.1" = _jwVH63NF;
         "pkg-1.0.0" = _entU7S3U;
         "pkg-1.0.1" = _Xp34H3qm;
         "pkg-1.0.5" = _F2KZtu6D;
@@ -176,7 +188,8 @@ let
         "pkg-1.5.1" = _XKBBa1hn;
         "pkg-1.5.2" = _Ih5yQ5Yx;
         "pkg-1.5.2.1" = _E5ML1wiW;
-        "default" = _E5ML1wiW;
+        "pkg-1.5.3" = _jwVH63NF;
+        "default" = _jwVH63NF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "apothecary";

@@ -371,6 +371,211 @@ let
             "file" = "EasyLAN-neoforge-1.21.5-v1.6a.jar";
             "hash" = "sha512-7w5O8McL2+b3Q/cvWBAUu9eUT3qIbrUCuG31NKdSiyeU7F/UJ4yvsRD5k2BirBeG/LRH+XQ3ZiWbNlB8Vc5asw==";
         };
+        _qb0Jn6KE = {
+            "id" = "qb0Jn6KE";
+            "file" = "EasyLAN-fabric-1.21.11-v1.6.jar";
+            "hash" = "sha512-+HJUIS0eeDozNDgFADfoTtSJJ1ebDzkuk3XKPfdWjJfcSW2rsYwm5Jv5M86OaKliBq0o7tIBnAaqhugdT6uLVw==";
+        };
+        _xAeKQ76o = {
+            "id" = "xAeKQ76o";
+            "file" = "EasyLAN-fabric-1.14.4-v1.6.jar";
+            "hash" = "sha512-t0ZBaBbDgHQjpcJneN9a/iYa54E8rQJhGhW91VhRFs+0I7UK0LXANkpCC2WJKkaTvCGbOcB/pm4tWVPeVhuPMw==";
+        };
+        _weqtyLGI = {
+            "id" = "weqtyLGI";
+            "file" = "EasyLAN-fabric-1.15.2-v1.6.jar";
+            "hash" = "sha512-M4Ue9KzYJ6YNJDezVdu87k71b4eGzgVz2p3VcYzwaFAyl6FplgoYJCuuiTb/KImPiad8TB0FHm2VUFVP5wAQXg==";
+        };
+        _Z8h3t7Ep = {
+            "id" = "Z8h3t7Ep";
+            "file" = "EasyLAN-fabric-1.16.5-v1.6.jar";
+            "hash" = "sha512-s99Zdp0PY1a5Im8xK4L3696fSUcdsqrABoQ9+Z1VVgWdEnnHueFRwQsSztGetAh9hJ7GykZRPcYLfAsGR1eNlA==";
+        };
+        _s7KkGkrr = {
+            "id" = "s7KkGkrr";
+            "file" = "EasyLAN-fabric-1.16.4-v1.6.jar";
+            "hash" = "sha512-tiEOtXMcEjEKv4Q6ayy38aFnH6DZMH1Ttq22ScdXViV+CqmSJCXS4fS7lZD6jgNeDO7KwJjuD28OVmAJwe4XHA==";
+        };
+        _ZbXFZJJL = {
+            "id" = "ZbXFZJJL";
+            "file" = "EasyLAN-fabric-1.17.1-v1.6.jar";
+            "hash" = "sha512-LOB5yU65t4518y5w2kMjTHAmDeqGq0woIRAoDd3veklj5IqE7K3lxCC0FhFLesze5mJAGBkXLExLmVsVn2sJRQ==";
+        };
+        _qXHI6fOy = {
+            "id" = "qXHI6fOy";
+            "file" = "EasyLAN-fabric-1.18.2-v1.6.jar";
+            "hash" = "sha512-XbzdPvMoDtrBtaj34HVaXX87aak5RkS5sE5cOUq2Fuj9us/tXOd4t6ajpbUQJe4Cz9tlB49cVU8StsCrvWMmXQ==";
+        };
+        _elhoUJ7Y = {
+            "id" = "elhoUJ7Y";
+            "file" = "EasyLAN-fabric-1.19.2-v1.6.jar";
+            "hash" = "sha512-Gge5Ri0XwLlhOXNEvp5BcunhhECfWz1ZEHS9ghMYR8W7VwbjTFB6HTRNT+f+n7y8EiHvsxCYBwgH0v6VZmMPfQ==";
+        };
+        _FeTtXLqb = {
+            "id" = "FeTtXLqb";
+            "file" = "EasyLAN-fabric-1.20.1-v1.6.jar";
+            "hash" = "sha512-2iE78prCRoFKWrKSJAqA7H3yItC8n349HpW85RUOtb2I+JzFNZSsmPpgYQQ5a+MOQ0XCU2B3v97wvdhHoEBeFg==";
+        };
+        _thmuSSA3 = {
+            "id" = "thmuSSA3";
+            "file" = "EasyLAN-fabric-1.19.4-v1.6.jar";
+            "hash" = "sha512-r20/5BoWSA5GOFtkc/f1FdmycA/QtDWbiy4N5ziLWrd6An4bsvs4g0gjDpSMvylRqodBxDOWD/h2LbGD8qpavg==";
+        };
+        _uZVJqAYX = {
+            "id" = "uZVJqAYX";
+            "file" = "EasyLAN-fabric-1.20.6-v1.6.jar";
+            "hash" = "sha512-BjFh0yJ88tcuMIlw0SlEMYwg0JM4bjutNXvwwBzlMV9uTqlMtu6QNNZWSTJxPUV/2+7da+FfBhOvsJp7iAFAhg==";
+        };
+        _MUVkrjl2 = {
+            "id" = "MUVkrjl2";
+            "file" = "EasyLAN-fabric-1.21.1-v1.6.jar";
+            "hash" = "sha512-VXnjMP13FDvN7srIKfmLLv74hyhrl4lPWw4+F+zmVG8b6T4JI/onM+3tPzdo165ljwu/m0Fd826maNob8pT8Kg==";
+        };
+        _RVagqK40 = {
+            "id" = "RVagqK40";
+            "file" = "EasyLAN-forge-1.10.2-v1.6.jar";
+            "hash" = "sha512-pCvs4Hfky7NMED5vaSBviZebj/phlP0sp+p4Bt03NzW5Lm7k4d0nsxE329/ozCtkvjjPztKT7fl0Mrvuon/Vyg==";
+        };
+        _FmuCtumu = {
+            "id" = "FmuCtumu";
+            "file" = "EasyLAN-fabric-1.21.5-v1.6.jar";
+            "hash" = "sha512-M/XlvxZA+FyW99P88FCzFA1+VRWP8Cv3Yy4tOwaPGaB7hm5NH4uZejP4CeHty0VKMIeVi9MpF5Co9iPSIJISag==";
+        };
+        _LOpY9qSL = {
+            "id" = "LOpY9qSL";
+            "file" = "EasyLAN-forge-1.12.2-v1.6.jar";
+            "hash" = "sha512-YWsW7Envtyc/RXepAfzkq0OHfQP3d1zqfxyJ7SY9jpW27vUDdpntRm3NggF3nr8TozY+5vavTxkjT52CVGK4wg==";
+        };
+        _bnCHpAzn = {
+            "id" = "bnCHpAzn";
+            "file" = "EasyLAN-forge-1.13.2-v1.6.jar";
+            "hash" = "sha512-p2gfDVKNyZbluEf3PJ8+6pjb2y4HL7lSALAVGLs1d+sVlTjO7o5NwvTLD/1xgTbmWqZ7tTrYQztxYuQh1q+Rbg==";
+        };
+        _2JBuJAq1 = {
+            "id" = "2JBuJAq1";
+            "file" = "EasyLAN-forge-1.11.2-v1.6.jar";
+            "hash" = "sha512-as5bn/LP7bS1AQpjHU2LibbuRDhrVSQZMpDz/+33bn496fO0j5gikecA/VQYdnFup91p0eZ/8bWj24zG8+ocNA==";
+        };
+        _SUG3aVZe = {
+            "id" = "SUG3aVZe";
+            "file" = "EasyLAN-forge-1.14.2-v1.6.jar";
+            "hash" = "sha512-eLyitqsw3/KOfE90cK76W0WbS8OhU0zNPJGWNnsL378bQfV+/yaKse/kFkoageP3gHtMX+tjUtQIh7iDUOpqLA==";
+        };
+        _ZKkNGn0D = {
+            "id" = "ZKkNGn0D";
+            "file" = "EasyLAN-forge-1.15.2-v1.6.jar";
+            "hash" = "sha512-GKjNXM99PoFQf9FHuHOFifdDXmMm0iZkXO+WRi1+P0zRAbQTRdb6r5G5JFJs/u/1iX0+iV7KqhPcaifz8kEp/g==";
+        };
+        _qFAQM2Rx = {
+            "id" = "qFAQM2Rx";
+            "file" = "EasyLAN-forge-1.14.4-v1.6.jar";
+            "hash" = "sha512-IDwGqKD7zojRtjFXBJXavfXbSM/EOzResayFzFfE3GAGwXmgExf6n+jukfzdXA+Q1cR5q8sQSSUP/XR+EnYUlQ==";
+        };
+        _CrpvfueX = {
+            "id" = "CrpvfueX";
+            "file" = "EasyLAN-forge-1.17.1-v1.6.jar";
+            "hash" = "sha512-byG7mh/WB/ib7qO/VAqgwBOM/xYLe0GwEFy9UwXkTiZi0/ddrm/ED/f5R71xtRYGCg7SMX86FbzfW/Kk2Dtftw==";
+        };
+        _SWHTVZHo = {
+            "id" = "SWHTVZHo";
+            "file" = "EasyLAN-forge-1.16.4-v1.6.jar";
+            "hash" = "sha512-KQ2ihfFuLOBD4mdGSotKoyVgPK8tPk7VbHffQgMSvIw0fiLzWnkrIKmK12DxxaYHgf1PpUPcmI20mIqbHYW86g==";
+        };
+        _sJCadDZG = {
+            "id" = "sJCadDZG";
+            "file" = "EasyLAN-forge-1.16.5-v1.6.jar";
+            "hash" = "sha512-ZADVlBoYv6ezIFtsvfYyl/094VLZw5um6kcheqXQv+45R9WXdcmPlqa4knlEGvKblOIqmVMoROhFt8lGbtA7Xw==";
+        };
+        _4VCFMRu8 = {
+            "id" = "4VCFMRu8";
+            "file" = "EasyLAN-forge-1.18.2-v1.6.jar";
+            "hash" = "sha512-Nf1vGomvF/ziYa05v57nucqVGvUGpB15/gCwi19clLOuZzuU7TOJFul1pUZmRLmX0lI2nkGEH1nurOkjGuuAhg==";
+        };
+        _yV2tP6vV = {
+            "id" = "yV2tP6vV";
+            "file" = "EasyLAN-forge-1.19.2-v1.6.jar";
+            "hash" = "sha512-eyyDWEO4CJ2+JFvzl2H9nLJhGyNTe39AaY8cV9PKyIlfFkGZnMyRjfxwdiTXTyLeeB3DmoIP8dlv81+/Wi3HEA==";
+        };
+        _R8iyrDqD = {
+            "id" = "R8iyrDqD";
+            "file" = "EasyLAN-forge-1.19.4-v1.6.jar";
+            "hash" = "sha512-zZUQer3oYb+cN/eGxYryTaOKSJSRVX2K4B+jIE2RWBq7RdoAZYjkSalFY4YWY0+pXN65/2utKTLTq3dH/83woQ==";
+        };
+        _1qQTrH2O = {
+            "id" = "1qQTrH2O";
+            "file" = "EasyLAN-forge-1.20.1-v1.6.jar";
+            "hash" = "sha512-Hk/4ekVoZeHXRaqXPSHift+fOUJEAIUsFl7EFB6mqFZ3yNt5hSc4Z8B5tDBLjKBbPWY/KgOQF8Dbwf6ZEm+MWA==";
+        };
+        _UFEHkyxz = {
+            "id" = "UFEHkyxz";
+            "file" = "EasyLAN-forge-1.21.1-v1.6.jar";
+            "hash" = "sha512-ymkeyfZjfdVW0oT/XletpGbQbisfw+2TzdLPWa0Vroi1CrmSQ1B4Znh+/cLq22y73Myf2FN7z++qK/jqld4xoQ==";
+        };
+        _PtDG7lY2 = {
+            "id" = "PtDG7lY2";
+            "file" = "EasyLAN-forge-1.20.6-v1.6.jar";
+            "hash" = "sha512-+99qJDTN1lenCOa3xH9LSsotS/RJHmgeS4gpNUqp/DVIyvwg7+anby8/zfbwy0ebCpq2/vRelUmvskTpJEPeYQ==";
+        };
+        _DwXVvw5I = {
+            "id" = "DwXVvw5I";
+            "file" = "EasyLAN-forge-1.21.11-v1.6.jar";
+            "hash" = "sha512-WcJda7BuAlWhkxWGlthF9GzzeE8fpvOoC1J1FYTsACXhQK2+BrC/Ipfa8qwnXOaa/fJj0O60i10j1+VndMOoPA==";
+        };
+        _PdIwuPKn = {
+            "id" = "PdIwuPKn";
+            "file" = "EasyLAN-forge-1.7.10-v1.6.jar";
+            "hash" = "sha512-ViOKHGEdPHCkoGfkqQR9fsNOgk7uiYEunABFdfeUiAl98Wx6jfkziJBQhzXCp36A33XQ7Tu4g4fbT2+Z2lCF9A==";
+        };
+        _DJyOWQ5L = {
+            "id" = "DJyOWQ5L";
+            "file" = "EasyLAN-forge-1.21.5-v1.6.jar";
+            "hash" = "sha512-91dAx6uhSPn6GKuqD7Y4/rxGNML6bk2GpfhcRIpq65HRkMHVorZqc98QphI5m8gygfkGYBI7rKGxtM1xUu1Wvg==";
+        };
+        _8W04T7eV = {
+            "id" = "8W04T7eV";
+            "file" = "EasyLAN-forge-1.8.9-v1.6.jar";
+            "hash" = "sha512-no2A2Mh72eNqhYPOEXt+BWUitoY4DhAQEf6BTLWKezHQaoWqz4T1TmbYmgB3qQlxXjI9LVC3blE+HZcETobIdg==";
+        };
+        _dFZyXiJm = {
+            "id" = "dFZyXiJm";
+            "file" = "EasyLAN-forge-1.8-v1.6.jar";
+            "hash" = "sha512-0nlCpzICgNXdU/QRW0ralyOqFMDp+Rx+Iij36lg8VLCQ3D3onAYdKBc2O1F+DYnKsWy2jdBQr6QTTC3ZbXZIag==";
+        };
+        _1H4dfGvI = {
+            "id" = "1H4dfGvI";
+            "file" = "EasyLAN-forge-1.7.2-v1.6.jar";
+            "hash" = "sha512-sy+YLdeBS9ComjSvve1gVMSeNxZbGAo8P9NF2eQtp4RXwMEZ/pcTabwcOeKuv9Pvs6nUlYUs/ihFIBa8BkBAVA==";
+        };
+        _EI6bJqSs = {
+            "id" = "EI6bJqSs";
+            "file" = "EasyLAN-neoforge-1.20.6-v1.6.jar";
+            "hash" = "sha512-coh6CClIBy0q4KvZxBNSl/ean8H/T5c0wvKSPPqg8NbH9dg0nRbGjnOAaAj2t7Pu+yKCWQXETC3WKsQEzv2ZEA==";
+        };
+        _pMwcMBjX = {
+            "id" = "pMwcMBjX";
+            "file" = "EasyLAN-neoforge-1.20.1-v1.6.jar";
+            "hash" = "sha512-N+IhNNnCfFNIThiiu7L31sQ4OccWakHKlAniQzOsyYLZm2nV9ivW/Lnq29uZE3m3yA0LxluYy1amgVHNw1QgtA==";
+        };
+        _LQkh00Fq = {
+            "id" = "LQkh00Fq";
+            "file" = "EasyLAN-forge-1.9.4-v1.6.jar";
+            "hash" = "sha512-StQ0ktngckUVPKvgZrojaSia/S6Sf4+j4Xq1qvuFUdVQiW4CR3yO/Dk0nro/d+G4v/zXozEr9EAd060nsGqczA==";
+        };
+        _g1c99PMy = {
+            "id" = "g1c99PMy";
+            "file" = "EasyLAN-neoforge-1.21.11-v1.6.jar";
+            "hash" = "sha512-GgpQ2a3BbvWr3lkilvRy4Cd+ufozUxPbg1ZXPvQ7pCikmP7lD8XZ4gmeuGKpozeKjHukFkMfyLfYf7FDQIJ4Ag==";
+        };
+        _cfVi1m1G = {
+            "id" = "cfVi1m1G";
+            "file" = "EasyLAN-neoforge-1.21.5-v1.6.jar";
+            "hash" = "sha512-Wvi75O/xrCyWBN4EdIw+UX7t61QydhV+FbB8h4J4BXWBt9r87jBZQnllhZQ4qLI0CvmfPbqkLxbLaGgM+cDqIg==";
+        };
+        _ZX9crfLb = {
+            "id" = "ZX9crfLb";
+            "file" = "EasyLAN-neoforge-1.21.1-v1.6.jar";
+            "hash" = "sha512-Mc76fZSs7w+CL1ltDkqIJLEWq9EmwL1RYbVfUaTs2FFNp/5Vi+hcFjTsUtMZBdMblQESu+enbJiMOhdmwE8O4w==";
+        };
     in {
         "3OxPNd1C" = _3OxPNd1C;
         "RTVB5a43" = _RTVB5a43;
@@ -446,51 +651,93 @@ let
         "PPv6en73" = _PPv6en73;
         "pBN7dZr7" = _pBN7dZr7;
         "DIV5TtMc" = _DIV5TtMc;
-        "forge-1.7.2" = _3eYKXNmI;
-        "forge-1.7.10" = _rzg7srMW;
-        "forge-1.8.9" = _BJc86T5a;
-        "forge-1.9.4" = _HV5tG0pS;
-        "forge-1.10.2" = _pZbuPPIN;
-        "forge-1.11.2" = _lr2xrIuC;
-        "forge-1.12.2" = _kbW1HNyt;
-        "forge-1.14.4" = _jKd8hmIx;
-        "forge-1.15.2" = _5y9ucWma;
-        "forge-1.16.4" = _kQeN1l9u;
-        "forge-1.17.1" = _GNYQ2uMb;
-        "forge-1.18.2" = _UUc4S6WX;
-        "forge-1.19.4" = _Nl190XQU;
-        "forge-1.20.1" = _MSkWp4pq;
-        "forge-1.16.5" = _8S1HnL7w;
-        "forge-1.19.2" = _ZuXLzikr;
-        "forge-1.14.2" = _kEPPENqC;
-        "forge-1.20.6" = _ETHxwaHD;
-        "forge-1.21.1" = _h6WL7HRB;
-        "forge-1.8" = _IQZOiNDb;
-        "forge-1.13.2" = _aO5TnfUg;
-        "forge-1.21.11" = _Gi0jVDdB;
-        "forge-1.21.5" = _b2lqVBSx;
-        "fabric-1.14.4" = _AOGQnqNc;
-        "fabric-1.15.2" = _6Yw6vAWm;
-        "fabric-1.16.4" = _4iFeCkPS;
-        "fabric-1.16.5" = _Z7Lc8Z7v;
-        "fabric-1.17.1" = _Dqg2w37H;
-        "fabric-1.18.2" = _djYXyBc2;
-        "fabric-1.19.2" = _9rkeiTtA;
-        "fabric-1.19.4" = _2mHPUBII;
-        "fabric-1.20.1" = _GSHDkvi7;
-        "fabric-1.20.6" = _WT9Fh8Pl;
-        "fabric-1.21.1" = _sazXXLsf;
-        "fabric-1.21.11" = _C1xet1aJ;
-        "fabric-1.21.5" = _qpnWIMPu;
-        "neoforge-1.20.1" = _bYOHSMRG;
-        "neoforge-1.20.6" = _iCf5unaM;
-        "neoforge-1.21.1" = _PPv6en73;
-        "neoforge-1.21.11" = _pBN7dZr7;
-        "neoforge-1.21.5" = _DIV5TtMc;
+        "qb0Jn6KE" = _qb0Jn6KE;
+        "xAeKQ76o" = _xAeKQ76o;
+        "weqtyLGI" = _weqtyLGI;
+        "Z8h3t7Ep" = _Z8h3t7Ep;
+        "s7KkGkrr" = _s7KkGkrr;
+        "ZbXFZJJL" = _ZbXFZJJL;
+        "qXHI6fOy" = _qXHI6fOy;
+        "elhoUJ7Y" = _elhoUJ7Y;
+        "FeTtXLqb" = _FeTtXLqb;
+        "thmuSSA3" = _thmuSSA3;
+        "uZVJqAYX" = _uZVJqAYX;
+        "MUVkrjl2" = _MUVkrjl2;
+        "RVagqK40" = _RVagqK40;
+        "FmuCtumu" = _FmuCtumu;
+        "LOpY9qSL" = _LOpY9qSL;
+        "bnCHpAzn" = _bnCHpAzn;
+        "2JBuJAq1" = _2JBuJAq1;
+        "SUG3aVZe" = _SUG3aVZe;
+        "ZKkNGn0D" = _ZKkNGn0D;
+        "qFAQM2Rx" = _qFAQM2Rx;
+        "CrpvfueX" = _CrpvfueX;
+        "SWHTVZHo" = _SWHTVZHo;
+        "sJCadDZG" = _sJCadDZG;
+        "4VCFMRu8" = _4VCFMRu8;
+        "yV2tP6vV" = _yV2tP6vV;
+        "R8iyrDqD" = _R8iyrDqD;
+        "1qQTrH2O" = _1qQTrH2O;
+        "UFEHkyxz" = _UFEHkyxz;
+        "PtDG7lY2" = _PtDG7lY2;
+        "DwXVvw5I" = _DwXVvw5I;
+        "PdIwuPKn" = _PdIwuPKn;
+        "DJyOWQ5L" = _DJyOWQ5L;
+        "8W04T7eV" = _8W04T7eV;
+        "dFZyXiJm" = _dFZyXiJm;
+        "1H4dfGvI" = _1H4dfGvI;
+        "EI6bJqSs" = _EI6bJqSs;
+        "pMwcMBjX" = _pMwcMBjX;
+        "LQkh00Fq" = _LQkh00Fq;
+        "g1c99PMy" = _g1c99PMy;
+        "cfVi1m1G" = _cfVi1m1G;
+        "ZX9crfLb" = _ZX9crfLb;
+        "forge-1.7.2" = _1H4dfGvI;
+        "forge-1.7.10" = _PdIwuPKn;
+        "forge-1.8.9" = _8W04T7eV;
+        "forge-1.9.4" = _LQkh00Fq;
+        "forge-1.10.2" = _RVagqK40;
+        "forge-1.11.2" = _2JBuJAq1;
+        "forge-1.12.2" = _LOpY9qSL;
+        "forge-1.14.4" = _qFAQM2Rx;
+        "forge-1.15.2" = _ZKkNGn0D;
+        "forge-1.16.4" = _SWHTVZHo;
+        "forge-1.17.1" = _CrpvfueX;
+        "forge-1.18.2" = _4VCFMRu8;
+        "forge-1.19.4" = _R8iyrDqD;
+        "forge-1.20.1" = _1qQTrH2O;
+        "forge-1.16.5" = _sJCadDZG;
+        "forge-1.19.2" = _yV2tP6vV;
+        "forge-1.14.2" = _SUG3aVZe;
+        "forge-1.20.6" = _PtDG7lY2;
+        "forge-1.21.1" = _UFEHkyxz;
+        "forge-1.8" = _dFZyXiJm;
+        "forge-1.13.2" = _bnCHpAzn;
+        "forge-1.21.11" = _DwXVvw5I;
+        "forge-1.21.5" = _DJyOWQ5L;
+        "fabric-1.14.4" = _xAeKQ76o;
+        "fabric-1.15.2" = _weqtyLGI;
+        "fabric-1.16.4" = _s7KkGkrr;
+        "fabric-1.16.5" = _Z8h3t7Ep;
+        "fabric-1.17.1" = _ZbXFZJJL;
+        "fabric-1.18.2" = _qXHI6fOy;
+        "fabric-1.19.2" = _elhoUJ7Y;
+        "fabric-1.19.4" = _thmuSSA3;
+        "fabric-1.20.1" = _FeTtXLqb;
+        "fabric-1.20.6" = _uZVJqAYX;
+        "fabric-1.21.1" = _MUVkrjl2;
+        "fabric-1.21.11" = _qb0Jn6KE;
+        "fabric-1.21.5" = _FmuCtumu;
+        "neoforge-1.20.1" = _pMwcMBjX;
+        "neoforge-1.20.6" = _EI6bJqSs;
+        "neoforge-1.21.1" = _ZX9crfLb;
+        "neoforge-1.21.11" = _g1c99PMy;
+        "neoforge-1.21.5" = _cfVi1m1G;
         "pkg-v1.2" = _EmsTXMGP;
         "pkg-v1.5" = _h2DHipWu;
         "pkg-v1.6a" = _DIV5TtMc;
-        "default" = _DIV5TtMc;
+        "pkg-v1.6" = _ZX9crfLb;
+        "default" = _ZX9crfLb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easylan";

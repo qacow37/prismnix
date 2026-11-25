@@ -136,6 +136,11 @@ let
             "file" = "mobsinfo-0.6.2.jar";
             "hash" = "sha512-jSDQ4fcnYOY2qILHgjin6L9Atk9OND5cYoQpO1WhYFd/4CKVVsH5FuBT7VGP5EooBgEIob9rS38TdB7M2UZHUg==";
         };
+        _S5zyIH6T = {
+            "id" = "S5zyIH6T";
+            "file" = "mobsinfo-0.6.3.jar";
+            "hash" = "sha512-sZpF/vSsd6trc1zImBSqnv3k+V937iyLsWceUaEckME7rVzvN3L/ckgdSciqOEQ4lv9IRMBYLzfIjCgiYBYgNw==";
+        };
     in {
         "RZ3doODH" = _RZ3doODH;
         "2kPbrpy3" = _2kPbrpy3;
@@ -164,7 +169,8 @@ let
         "3zyZQwTD" = _3zyZQwTD;
         "4PHpmog2" = _4PHpmog2;
         "lCGcQXDZ" = _lCGcQXDZ;
-        "forge-1.7.10" = _lCGcQXDZ;
+        "S5zyIH6T" = _S5zyIH6T;
+        "forge-1.7.10" = _S5zyIH6T;
         "pkg-0.0.1" = _RZ3doODH;
         "pkg-0.0.2" = _2kPbrpy3;
         "pkg-0.0.3" = _hGW6FkNs;
@@ -192,7 +198,8 @@ let
         "pkg-0.6.0" = _3zyZQwTD;
         "pkg-0.6.1" = _4PHpmog2;
         "pkg-0.6.2" = _lCGcQXDZ;
-        "default" = _lCGcQXDZ;
+        "pkg-0.6.3" = _S5zyIH6T;
+        "default" = _S5zyIH6T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mobsinfo";

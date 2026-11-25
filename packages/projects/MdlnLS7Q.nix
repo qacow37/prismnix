@@ -271,6 +271,16 @@ let
             "file" = "forbidden_arcanus-26.1.2-2.8.0-beta.3.jar";
             "hash" = "sha512-1hT+q9FsX6rPPqyJIovSsjluUBpx+gyrKy1xAA3flrhUE9UL3ucUHm2IPvxO1Wx8gMxDEi+YYPmWotLdPPia0Q==";
         };
+        _bD7VjOeO = {
+            "id" = "bD7VjOeO";
+            "file" = "forbidden_arcanus-26.1.2-2.8.0.jar";
+            "hash" = "sha512-QlI85zaFA8pOS8PCF+mr1YfiRskxEiR0KUVJS/Ior7c5ZhLycmIbRafr0Vamp4p0wB/Ff0viOJ63A9QNL+cnfA==";
+        };
+        _EheJfCuD = {
+            "id" = "EheJfCuD";
+            "file" = "forbidden_arcanus-neoforge-26.2-2.8.0.jar";
+            "hash" = "sha512-c0VCJdEweT0dip/QWhL3QfDJbZnk7HdurwvLN4NNIziNFbD4KNfTaAwn5m4W4mE6QsKvGO2ESJHG5+cTG7kjOA==";
+        };
     in {
         "4YuActwY" = _4YuActwY;
         "JsWvPsUI" = _JsWvPsUI;
@@ -326,6 +336,8 @@ let
         "UHJOBsIt" = _UHJOBsIt;
         "sJkHLj3l" = _sJkHLj3l;
         "Ct4WQf6n" = _Ct4WQf6n;
+        "bD7VjOeO" = _bD7VjOeO;
+        "EheJfCuD" = _EheJfCuD;
         "forge-1.18.2" = _KO6gqmze;
         "forge-1.19" = _JsWvPsUI;
         "forge-1.19.2" = _DtMZ6pWv;
@@ -334,7 +346,8 @@ let
         "forge-1.20.1" = _1GswR5qC;
         "neoforge-1.21" = _CSwZsZk1;
         "neoforge-1.21.1" = _fNjxgZPH;
-        "neoforge-26.1.2" = _Ct4WQf6n;
+        "neoforge-26.1.2" = _bD7VjOeO;
+        "neoforge-26.2" = _EheJfCuD;
         "pkg-1.18.2-2.1.0-beta2" = _4YuActwY;
         "pkg-1.19-2.1.0-beta1" = _JsWvPsUI;
         "pkg-1.18.2-2.1.0-beta3" = _Mm3VBNp0;
@@ -389,7 +402,8 @@ let
         "pkg-2.8.0-beta.1" = _UHJOBsIt;
         "pkg-2.8.0-beta.2" = _sJkHLj3l;
         "pkg-2.8.0-beta.3" = _Ct4WQf6n;
-        "default" = _Ct4WQf6n;
+        "pkg-2.8.0" = _EheJfCuD;
+        "default" = _EheJfCuD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forbidden-arcanus";
