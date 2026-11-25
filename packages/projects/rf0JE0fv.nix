@@ -96,6 +96,11 @@ let
             "file" = "ocean_lily_pad_village-1.0.0 Fabric 1.20.1.jar";
             "hash" = "sha512-ad5uTlmD9SsqGNBWfCZko02eqNmvz5+/akjUKvzfbJmw6zmLeckdiUm6hSN2YVwN25YpBu6QQbNKf6OgGB0Nyg==";
         };
+        _IH1qLDBD = {
+            "id" = "IH1qLDBD";
+            "file" = "ocean_lily_pad_village-1.0.0 Fabric 1.21.1.jar";
+            "hash" = "sha512-2NjMh1QrGgT26BjFZGALHJaBqIB/LNN8JB6PYSrBF+2J+fNmdb7zCtySJVgQFQt9TYzw8b1TFc+S2tNjrG+rCg==";
+        };
     in {
         "npovMDKU" = _npovMDKU;
         "LeimYgNR" = _LeimYgNR;
@@ -116,6 +121,7 @@ let
         "gT8wQXfI" = _gT8wQXfI;
         "t0P0Edv4" = _t0P0Edv4;
         "BElPtB72" = _BElPtB72;
+        "IH1qLDBD" = _IH1qLDBD;
         "forge-1.20.1" = _npovMDKU;
         "neoforge-1.21.1" = _LeimYgNR;
         "neoforge-1.21.4" = _cUqlioMo;
@@ -130,7 +136,7 @@ let
         "fabric-1.21.9" = _Q89ajULv;
         "fabric-1.21.10" = _tzwywPDl;
         "fabric-1.21.11" = _DK7BH7tK;
-        "fabric-1.21.1" = _Oq5DD9fK;
+        "fabric-1.21.1" = _IH1qLDBD;
         "fabric-26.1" = _xRlGyw8n;
         "fabric-26.1.1" = _xRlGyw8n;
         "fabric-26.1.2" = _xRlGyw8n;
@@ -138,8 +144,8 @@ let
         "fabric-26.3" = _gT8wQXfI;
         "fabric-1.20.1" = _BElPtB72;
         "pkg-1.0.1" = _DK7BH7tK;
-        "pkg-1.0.0" = _BElPtB72;
-        "default" = _BElPtB72;
+        "pkg-1.0.0" = _IH1qLDBD;
+        "default" = _IH1qLDBD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ocean-lily-pad-village";

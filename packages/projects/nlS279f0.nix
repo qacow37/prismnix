@@ -186,6 +186,26 @@ let
             "file" = "endless_gravity-fabric-1.3.3-1.21.1-fabric.jar";
             "hash" = "sha512-iG0GLdolXv8pVcHk7WfsXO7IJKBPXG0uhI70ZkEAvehBLrEPV14DPd2v25KDbjld7njiZ+YtjSUJNxqZ6hatCw==";
         };
+        _CpXLrcQm = {
+            "id" = "CpXLrcQm";
+            "file" = "endless_gravity-1.3.4.jar";
+            "hash" = "sha512-2+O8iX4aNTPgWCygRNNFW5LGBA+iEvfvek1JQAbUcTPvPNXtPrVNZPtF6ILe1gHBeEqXzNiEsEo060RfTllRAQ==";
+        };
+        _aueZzVs3 = {
+            "id" = "aueZzVs3";
+            "file" = "endless_gravity-fabric-1.3.4-1.21.1-fabric.jar";
+            "hash" = "sha512-M1kBqhJlFvkHQ5omgAl8G+n9+Iz2f+jtnRFP7wVODLbrYO3d+YSPb7BhPWlWNPL7vxeCZF4A/M5LUfXgIwLTzA==";
+        };
+        _NkXTuaku = {
+            "id" = "NkXTuaku";
+            "file" = "endless_gravity-1.3.5.jar";
+            "hash" = "sha512-jB73AZNQ+h52hvEDcl0y9DwyHwbK0nd0IdVyj5aMnJyshbga2y+f90xhpCy9t0L/gvhHbqZUFG32Y0hzRsZreg==";
+        };
+        _Dq52R4mQ = {
+            "id" = "Dq52R4mQ";
+            "file" = "endless_gravity-fabric-1.3.5-1.21.1-fabric.jar";
+            "hash" = "sha512-tjl9feyP5gCFO3mKDkBBLyWVZSMYiWdYi/f3n2SoOittdulmNaZ/jNVHKOscJfu4ZQuwZHhAfQqHFk3f8DN5nQ==";
+        };
     in {
         "GuLwfeZY" = _GuLwfeZY;
         "4SiaGEEA" = _4SiaGEEA;
@@ -224,8 +244,12 @@ let
         "V7U76c5W" = _V7U76c5W;
         "kYTg5gny" = _kYTg5gny;
         "ylvOWYVz" = _ylvOWYVz;
-        "neoforge-1.21.1" = _kYTg5gny;
-        "fabric-1.21.1" = _ylvOWYVz;
+        "CpXLrcQm" = _CpXLrcQm;
+        "aueZzVs3" = _aueZzVs3;
+        "NkXTuaku" = _NkXTuaku;
+        "Dq52R4mQ" = _Dq52R4mQ;
+        "neoforge-1.21.1" = _NkXTuaku;
+        "fabric-1.21.1" = _Dq52R4mQ;
         "pkg-1.0.0" = _GuLwfeZY;
         "pkg-1.0.1" = _4SiaGEEA;
         "pkg-1.0.2" = _1uWFLi7u;
@@ -263,7 +287,11 @@ let
         "pkg-1.3.2-1.21.1-fabric" = _V7U76c5W;
         "pkg-1.3.3-1.21.1-neoforge" = _kYTg5gny;
         "pkg-1.3.3-1.21.1-fabric" = _ylvOWYVz;
-        "default" = _ylvOWYVz;
+        "pkg-1.3.4-1.21.1-neoforge" = _CpXLrcQm;
+        "pkg-1.3.4-1.21.1-fabric" = _aueZzVs3;
+        "pkg-1.3.5-1.21.1-neoforge" = _NkXTuaku;
+        "pkg-1.3.5-1.21.1-fabric" = _Dq52R4mQ;
+        "default" = _Dq52R4mQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "endless-gravity";

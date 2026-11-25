@@ -101,6 +101,36 @@ let
             "file" = "kse-1.21.5-1.21.8-1.0.1.jar";
             "hash" = "sha512-FrxBskdE9WkLIG50eBh1NvN34Cvh90Dpdv2KnD6WDbSEsdR33790huzDQg7w3KmIyHH6Fm0hvHGvKI2EXHWGJg==";
         };
+        _TSArWqQG = {
+            "id" = "TSArWqQG";
+            "file" = "kse-1.21.1-1.21.4-1.1.1.jar";
+            "hash" = "sha512-JuRPHXRfeW2MIZ9CpQwQ6k1jsvHn3ISOf2UNGjEmWXhXJu4SxJ35dhpTLDwqFBIZL0fM7zM9CXEH5+LqWXeydA==";
+        };
+        _TspWArJn = {
+            "id" = "TspWArJn";
+            "file" = "kse-1.21.5-1.21.8-1.1.1.jar";
+            "hash" = "sha512-9cFb9DKaSBtgiEmsrpZLNuDiKg4YBeHzFLhs1VtRpoHdE3c6dZsVNONE8ebHU86InUaA6KKa3l5pYV/5k+KK3g==";
+        };
+        _EKgCxGr4 = {
+            "id" = "EKgCxGr4";
+            "file" = "kse-1.21.9-1.21.11-1.1.1.jar";
+            "hash" = "sha512-mjWF3FQ4zvVQN5WxoyhYvRSVCw128TcdGPyYtIJOavOMqj5vMSYlYZLWH00Ltr/eOJsaxVOmrcTKHRZrX1BrGQ==";
+        };
+        _4rADpdvs = {
+            "id" = "4rADpdvs";
+            "file" = "kse-26.1.x-1.1.1.jar";
+            "hash" = "sha512-WlfoelwyX823G6S3Eh6ZjEsxR4aGJf17mcUQw3TXrds0BIaqdFew7vy4dHCn1c4hg1/iR/9IASUEbtTNvSHZbQ==";
+        };
+        _AniNg9Aj = {
+            "id" = "AniNg9Aj";
+            "file" = "kse-26.2-1.1.1.jar";
+            "hash" = "sha512-ovd5DUYXYsjbpSLtGgT/OvZPjWPps4uoDVIBdn59VN37kav48PAa1zkfji2C5AumhPuznATCyuuJ4PZvBdTiKA==";
+        };
+        _r6jrhYfc = {
+            "id" = "r6jrhYfc";
+            "file" = "kse-26.3-1.1.1.jar";
+            "hash" = "sha512-CWf7Tfmq8+w18dKR/D0SVWN+kgbcU+HjyRkaGQtCChhu76EZ5YjTkhcbzhs+W2SQal9ylvsgIeDzBJTXMiwo6Q==";
+        };
     in {
         "HTMoUTaI" = _HTMoUTaI;
         "hVMFErYI" = _hVMFErYI;
@@ -122,25 +152,32 @@ let
         "ghB2Zbfi" = _ghB2Zbfi;
         "GHnMCsMj" = _GHnMCsMj;
         "thGr8Uz7" = _thGr8Uz7;
-        "fabric-1.21.1" = _h5c5URZp;
-        "fabric-1.21.2" = _h5c5URZp;
-        "fabric-1.21.3" = _h5c5URZp;
-        "fabric-1.21.4" = _h5c5URZp;
-        "fabric-1.21.5" = _thGr8Uz7;
-        "fabric-1.21.6" = _thGr8Uz7;
-        "fabric-1.21.7" = _thGr8Uz7;
-        "fabric-1.21.8" = _thGr8Uz7;
-        "fabric-1.21.9" = _AKdJV7Q0;
-        "fabric-1.21.10" = _AKdJV7Q0;
-        "fabric-1.21.11" = _AKdJV7Q0;
-        "fabric-26.1" = _dCCAw9bF;
-        "fabric-26.1.1" = _dCCAw9bF;
-        "fabric-26.1.2" = _dCCAw9bF;
-        "fabric-26.2" = _ghB2Zbfi;
-        "fabric-26.3" = _GHnMCsMj;
+        "TSArWqQG" = _TSArWqQG;
+        "TspWArJn" = _TspWArJn;
+        "EKgCxGr4" = _EKgCxGr4;
+        "4rADpdvs" = _4rADpdvs;
+        "AniNg9Aj" = _AniNg9Aj;
+        "r6jrhYfc" = _r6jrhYfc;
+        "fabric-1.21.1" = _TSArWqQG;
+        "fabric-1.21.2" = _TSArWqQG;
+        "fabric-1.21.3" = _TSArWqQG;
+        "fabric-1.21.4" = _TSArWqQG;
+        "fabric-1.21.5" = _TspWArJn;
+        "fabric-1.21.6" = _TspWArJn;
+        "fabric-1.21.7" = _TspWArJn;
+        "fabric-1.21.8" = _TspWArJn;
+        "fabric-1.21.9" = _EKgCxGr4;
+        "fabric-1.21.10" = _EKgCxGr4;
+        "fabric-1.21.11" = _EKgCxGr4;
+        "fabric-26.1" = _4rADpdvs;
+        "fabric-26.1.1" = _4rADpdvs;
+        "fabric-26.1.2" = _4rADpdvs;
+        "fabric-26.2" = _AniNg9Aj;
+        "fabric-26.3" = _r6jrhYfc;
         "pkg-1.0.0" = _2CsLpSRv;
         "pkg-1.0.1" = _thGr8Uz7;
-        "default" = _thGr8Uz7;
+        "pkg-1.1.1" = _r6jrhYfc;
+        "default" = _r6jrhYfc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kse-keyboard-sound-effects";

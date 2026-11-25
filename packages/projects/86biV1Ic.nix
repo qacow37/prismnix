@@ -96,6 +96,11 @@ let
             "file" = "AuroraLevels-2.1.0-b74.jar";
             "hash" = "sha512-FvckISXItC7lsKSTnx6+cGluE1I6Ej42ofz4eaH1tOb/FR4z67YTm0hZ9/M5JEGW3mTR3wvM08QkpZZI7F/Ctw==";
         };
+        _u84TRf6K = {
+            "id" = "u84TRf6K";
+            "file" = "AuroraLevels-3.0.0-b78.jar";
+            "hash" = "sha512-2GIGCemW+QQ9/uhwkolszCSlFzU01/RSPUxDtfl+1cqC4ii5UxtBpIBH0Xl9/v4X5czcHGtwIybzFjmiwZwf+A==";
+        };
     in {
         "27dXt2p4" = _27dXt2p4;
         "OSEyGoZp" = _OSEyGoZp;
@@ -116,6 +121,7 @@ let
         "MfiqyqwY" = _MfiqyqwY;
         "J5pBO4tU" = _J5pBO4tU;
         "7MI9qt8F" = _7MI9qt8F;
+        "u84TRf6K" = _u84TRf6K;
         "paper-1.20.4" = _J5pBO4tU;
         "paper-1.20.5" = _J5pBO4tU;
         "paper-1.20.6" = _J5pBO4tU;
@@ -135,7 +141,8 @@ let
         "paper-1.21.9" = _J5pBO4tU;
         "paper-1.21.10" = _J5pBO4tU;
         "paper-1.21.11" = _J5pBO4tU;
-        "paper-26.2" = _7MI9qt8F;
+        "paper-26.2" = _u84TRf6K;
+        "paper-26.3" = _u84TRf6K;
         "purpur-1.20.4" = _J5pBO4tU;
         "purpur-1.20.5" = _J5pBO4tU;
         "purpur-1.20.6" = _J5pBO4tU;
@@ -155,7 +162,8 @@ let
         "purpur-1.21.9" = _J5pBO4tU;
         "purpur-1.21.10" = _J5pBO4tU;
         "purpur-1.21.11" = _J5pBO4tU;
-        "purpur-26.2" = _7MI9qt8F;
+        "purpur-26.2" = _u84TRf6K;
+        "purpur-26.3" = _u84TRf6K;
         "folia-1.20" = _5FrcjBqv;
         "folia-1.20.1" = _5FrcjBqv;
         "folia-1.20.2" = _5FrcjBqv;
@@ -175,7 +183,8 @@ let
         "folia-1.21.9" = _J5pBO4tU;
         "folia-1.21.10" = _J5pBO4tU;
         "folia-1.21.11" = _J5pBO4tU;
-        "folia-26.2" = _7MI9qt8F;
+        "folia-26.2" = _u84TRf6K;
+        "folia-26.3" = _u84TRf6K;
         "pkg-1.3.2" = _27dXt2p4;
         "pkg-1.4.0" = _OSEyGoZp;
         "pkg-1.4.1" = _3W4I729V;
@@ -195,7 +204,8 @@ let
         "pkg-2.0.1" = _MfiqyqwY;
         "pkg-2.0.2" = _J5pBO4tU;
         "pkg-2.1.0-b74" = _7MI9qt8F;
-        "default" = _7MI9qt8F;
+        "pkg-3.0.0-b78" = _u84TRf6K;
+        "default" = _u84TRf6K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auroralevels";

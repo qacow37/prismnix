@@ -71,6 +71,11 @@ let
             "file" = "metalrender-v2.0.3+2.jar";
             "hash" = "sha512-62KhEXQdkglVoyTQI4XNEL+k1O0KVrze1HLMQTbGcJDs8p1TuPOUgl/eOqW53DR3PJ3I591i1lnMHLg/RrhiSA==";
         };
+        _1SE1shbZ = {
+            "id" = "1SE1shbZ";
+            "file" = "metalrender-v2.1.jar";
+            "hash" = "sha512-sGUu1UF84JegHu3hAFzf1G/BDIeIDeFZiu4u4gMPR1Umh4t9kyyLYnF/hCuSZemvqjrTkRZ0GlX/xw6REy9HwA==";
+        };
     in {
         "w0nf6rMc" = _w0nf6rMc;
         "6ryWhau2" = _6ryWhau2;
@@ -86,6 +91,7 @@ let
         "hy4IYR4J" = _hy4IYR4J;
         "hIXcWIdS" = _hIXcWIdS;
         "jlGPLmmb" = _jlGPLmmb;
+        "1SE1shbZ" = _1SE1shbZ;
         "fabric-1.21.8" = _P2aqzYS5;
         "fabric-1.21.9" = _P2aqzYS5;
         "fabric-1.21.10" = _P2aqzYS5;
@@ -93,7 +99,7 @@ let
         "fabric-26.1.1" = _W9Oo1tRC;
         "fabric-26.1.2" = _W9Oo1tRC;
         "fabric-26.2" = _FBfgrwcc;
-        "fabric-26.3" = _jlGPLmmb;
+        "fabric-26.3" = _1SE1shbZ;
         "pkg-v0.1" = _w0nf6rMc;
         "pkg-v0.1.2" = _6ryWhau2;
         "pkg-v0.1.3" = _wGVjiezx;
@@ -108,7 +114,8 @@ let
         "pkg-2.0.3" = _hy4IYR4J;
         "pkg-v2.0.3+1" = _hIXcWIdS;
         "pkg-2.0.3+2" = _jlGPLmmb;
-        "default" = _jlGPLmmb;
+        "pkg-v2.1" = _1SE1shbZ;
+        "default" = _1SE1shbZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "metalrender";

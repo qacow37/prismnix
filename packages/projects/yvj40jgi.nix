@@ -31,6 +31,11 @@ let
             "file" = "farmersexpanse-0.0.7c.jar";
             "hash" = "sha512-xxVbQjTg3t1A5psT+jEDKsO4di1jr+SvhXGAs91QbC16KoZIo2+CjPuCxCh3+5FLusd5TjUt2dqe0dNPTa6XeQ==";
         };
+        _YKkSaLPB = {
+            "id" = "YKkSaLPB";
+            "file" = "farmersexpanse-0.0.8.jar";
+            "hash" = "sha512-Q1uCE5WVrTfUtRvxpYo5zmofSB2MORod98MDxOw3YFZBw8WydZ1F2f91JJx/V3u8xpRQlHvix7XmCSf5F3D5fQ==";
+        };
     in {
         "DMVD1zWe" = _DMVD1zWe;
         "j7Y20RBH" = _j7Y20RBH;
@@ -38,7 +43,8 @@ let
         "BDUTHciv" = _BDUTHciv;
         "57zE0kRo" = _57zE0kRo;
         "4qwSmod8" = _4qwSmod8;
-        "neoforge-1.21.1" = _4qwSmod8;
+        "YKkSaLPB" = _YKkSaLPB;
+        "neoforge-1.21.1" = _YKkSaLPB;
         "neoforge-1.21.2" = _j7Y20RBH;
         "neoforge-1.21.3" = _j7Y20RBH;
         "neoforge-1.21.4" = _j7Y20RBH;
@@ -49,7 +55,8 @@ let
         "pkg-0.0.6" = _BDUTHciv;
         "pkg-0.0.7b" = _57zE0kRo;
         "pkg-0.0.7c" = _4qwSmod8;
-        "default" = _4qwSmod8;
+        "pkg-0.0.8" = _YKkSaLPB;
+        "default" = _YKkSaLPB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "farmers-expanse";

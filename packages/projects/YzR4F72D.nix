@@ -481,6 +481,11 @@ let
             "file" = "roost_ultimate-5.0.0-beta-1.18.2.jar";
             "hash" = "sha512-kKTjaWLVXrTSZTuFqb5c+ACc2w02dC8uDi2QfkagPLLuUI9AFU8NY69+e7LO+qO2iGW4EYu7NnPxG950FAsasA==";
         };
+        _yQA620Ml = {
+            "id" = "yQA620Ml";
+            "file" = "roost_ultimate-5.0.1-beta-1.18.2.jar";
+            "hash" = "sha512-hcXMmvsDGI0YVuVNtoaWvqS2R3yKDYF1PqAPM5MUxEYzVWF3/dUtjoEIUng0V3tQVotgiUKzPEbvMJ8TlyZsqQ==";
+        };
     in {
         "vFzHhBzA" = _vFzHhBzA;
         "WZ8t6g3R" = _WZ8t6g3R;
@@ -578,7 +583,8 @@ let
         "lH6rwz3p" = _lH6rwz3p;
         "3sT8n7Vx" = _3sT8n7Vx;
         "7OrpAlOU" = _7OrpAlOU;
-        "forge-1.18.2" = _7OrpAlOU;
+        "yQA620Ml" = _yQA620Ml;
+        "forge-1.18.2" = _yQA620Ml;
         "forge-1.19" = _cGfgWtKy;
         "forge-1.19.2" = _oGkmlv7F;
         "forge-1.19.4" = _CIs0rJhi;
@@ -676,7 +682,8 @@ let
         "pkg-chicken_roost-26.1-snapshot-4-1" = _bDbcOKsv;
         "pkg-4.2.3b" = _3sT8n7Vx;
         "pkg-5.0.0-beta" = _7OrpAlOU;
-        "default" = _7OrpAlOU;
+        "pkg-5.0.1-beta" = _yQA620Ml;
+        "default" = _yQA620Ml;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "roostultimate";

@@ -146,6 +146,11 @@ let
             "file" = "valhelsia_core-neoforge-26.1.2-1.1.6.jar";
             "hash" = "sha512-f/wxQm9/v/ZP923L4QA99xJVKOkRJ5Z2TSBpUdTxezSiLtBdae9SkF4i/EuPRjX195NvKgeUHOXghC6/HRioIg==";
         };
+        _fUOiOejO = {
+            "id" = "fUOiOejO";
+            "file" = "valhelsia_core-neoforge-26.2-1.1.7.jar";
+            "hash" = "sha512-/e8JSvJ4LavZq0BM+5ZkRgehSpj9qEfip/2yxxjinE4hFDJfXlbBgcly9L8FQ3SjdQ8J6sByoA98JTkJ8JrUeQ==";
+        };
     in {
         "ZqsSH535" = _ZqsSH535;
         "KTcpY3IJ" = _KTcpY3IJ;
@@ -176,6 +181,7 @@ let
         "htX76uz2" = _htX76uz2;
         "iysgI9bj" = _iysgI9bj;
         "l4EKYaUc" = _l4EKYaUc;
+        "fUOiOejO" = _fUOiOejO;
         "forge-1.18.2" = _ZqsSH535;
         "forge-1.19" = _FBMXOiGW;
         "forge-1.19.2" = _WD3qvkz8;
@@ -196,6 +202,7 @@ let
         "neoforge-1.21.10" = _KrCWiqIn;
         "neoforge-1.21.11" = _iysgI9bj;
         "neoforge-26.1.2" = _l4EKYaUc;
+        "neoforge-26.2" = _fUOiOejO;
         "pkg-0.3.1" = _KTcpY3IJ;
         "pkg-0.3.0" = _FBMXOiGW;
         "pkg-0.4.0" = _eedzHUYh;
@@ -209,7 +216,8 @@ let
         "pkg-1.1.4" = _cttRekq9;
         "pkg-1.1.5" = _iysgI9bj;
         "pkg-1.1.6" = _l4EKYaUc;
-        "default" = _l4EKYaUc;
+        "pkg-1.1.7" = _fUOiOejO;
+        "default" = _fUOiOejO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "valhelsia-core";

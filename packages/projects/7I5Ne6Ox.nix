@@ -61,6 +61,16 @@ let
             "file" = "dusks-levels-2.0.0.jar";
             "hash" = "sha512-LpmzDJzbrLLb7oNCRUn4dB7lBBHViYDbPfuPaK3cnIPc89smCSLxwIAzB1/zjZ50T+MUJJmUV9vlp94pozJBXg==";
         };
+        _9e8b4dHV = {
+            "id" = "9e8b4dHV";
+            "file" = "dusks-levels-2.1.0.jar";
+            "hash" = "sha512-aebI9Ke/KYYzXJw6t1JoB/h8NpI8So5HDxKEpNMwqcmtMKk25x5tfTSrvSelVrhQCJvmBRduEqW1jC4NpZxoGg==";
+        };
+        _XbjWsDRH = {
+            "id" = "XbjWsDRH";
+            "file" = "dusks-levels-2.1.0.jar";
+            "hash" = "sha512-aebI9Ke/KYYzXJw6t1JoB/h8NpI8So5HDxKEpNMwqcmtMKk25x5tfTSrvSelVrhQCJvmBRduEqW1jC4NpZxoGg==";
+        };
     in {
         "Zf5uh7Ly" = _Zf5uh7Ly;
         "vTmdeOUn" = _vTmdeOUn;
@@ -74,18 +84,22 @@ let
         "k3v4IhX3" = _k3v4IhX3;
         "U7c2HL7I" = _U7c2HL7I;
         "Aut8PM3n" = _Aut8PM3n;
+        "9e8b4dHV" = _9e8b4dHV;
+        "XbjWsDRH" = _XbjWsDRH;
         "fabric-1.21" = _Zf5uh7Ly;
         "fabric-1.21.1" = _U7c2HL7I;
         "fabric-1.21.10" = _k3v4IhX3;
-        "fabric-26.2" = _Aut8PM3n;
+        "fabric-26.2" = _9e8b4dHV;
         "neoforge-1.21.1" = _z4I8tagA;
+        "neoforge-26.2" = _XbjWsDRH;
         "pkg-1.0.0" = _QG7oociu;
         "pkg-1.0.1" = _U4xrIPEA;
         "pkg-1.0.2" = _7HSpTzVX;
         "pkg-1.1.0" = _k3v4IhX3;
         "pkg-1.2.1" = _U7c2HL7I;
         "pkg-2.0.0" = _Aut8PM3n;
-        "default" = _Aut8PM3n;
+        "pkg-2.1.0" = _XbjWsDRH;
+        "default" = _XbjWsDRH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dusks-levels";

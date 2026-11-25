@@ -16,17 +16,24 @@ let
             "file" = "thewatcher-1.21.11.jar";
             "hash" = "sha512-PFWZkZU0iYF/dNR1A0wS67tAKwc6eE3I3PQ6dPRidI2gJARHZS5/u+4fAmAmOHRGjmCDc1bWA6XbbtQQkFxe2w==";
         };
+        _49GTHWvF = {
+            "id" = "49GTHWvF";
+            "file" = "FabZoom-1.2.0+1.21.11.jar";
+            "hash" = "sha512-IJfxU3wgOHIO7dbrhQYafFtaBWQm88BVccNfm2kV3XgOUoEv60gkUqxlBDMpPADUg3A0MxzxIoGL9inni/KuCw==";
+        };
     in {
         "50aDyVku" = _50aDyVku;
         "5CwxHPtk" = _5CwxHPtk;
         "7y3iPG9b" = _7y3iPG9b;
+        "49GTHWvF" = _49GTHWvF;
         "fabric-1.21" = _50aDyVku;
         "fabric-1.21.1" = _5CwxHPtk;
-        "fabric-1.21.11" = _7y3iPG9b;
+        "fabric-1.21.11" = _49GTHWvF;
         "pkg-1.21" = _50aDyVku;
         "pkg-1.21.1" = _5CwxHPtk;
         "pkg-1.21.11" = _7y3iPG9b;
-        "default" = _7y3iPG9b;
+        "pkg-1.2.0+1.21.11" = _49GTHWvF;
+        "default" = _49GTHWvF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-watcher-horror";

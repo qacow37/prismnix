@@ -51,6 +51,16 @@ let
             "file" = "durability-digits-2.1.0+mc26.2.jar";
             "hash" = "sha512-tFtmg4RDl/g77MW+DOoRQc5gb6DZ6Kv5KJeqxXLYJuZRzCO7tauyOFzzFTpXHSIve6FYhb4TnDeF5TwjrTr17A==";
         };
+        _wmSlRlmS = {
+            "id" = "wmSlRlmS";
+            "file" = "durability-digits-3.0.0.jar";
+            "hash" = "sha512-oJIBwvmpUQogQHhvn+rVSIdl9Te5xKHm2U9/j4BTecwJgfg2UqCfTZe94khGAPflmcSy7F7zDAPACvIE3yoZlw==";
+        };
+        _6icbbVbk = {
+            "id" = "6icbbVbk";
+            "file" = "durability-digits-3.1.0.jar";
+            "hash" = "sha512-/MT/fuKI7dusNVYO+jsiwxcWmyOExHjxzkrEaRNh364zzWS3qpbELntIpivQ8SW2x84PWLvPE3uoa4MYgPxUig==";
+        };
     in {
         "BJse2ZEz" = _BJse2ZEz;
         "nm2zxtI4" = _nm2zxtI4;
@@ -62,6 +72,8 @@ let
         "5JgoBGp0" = _5JgoBGp0;
         "Gm7nL736" = _Gm7nL736;
         "4XKzetX5" = _4XKzetX5;
+        "wmSlRlmS" = _wmSlRlmS;
+        "6icbbVbk" = _6icbbVbk;
         "fabric-1.21" = _2yJGGZd4;
         "fabric-1.21.1" = _2yJGGZd4;
         "fabric-1.21.2" = _1dO0gpaq;
@@ -71,10 +83,16 @@ let
         "fabric-1.21.6" = _vwhq5tMz;
         "fabric-1.21.7" = _vwhq5tMz;
         "fabric-1.21.8" = _vwhq5tMz;
-        "fabric-26.1" = _Gm7nL736;
-        "fabric-26.1.1" = _Gm7nL736;
-        "fabric-26.1.2" = _Gm7nL736;
-        "fabric-26.2" = _4XKzetX5;
+        "fabric-26.1" = _6icbbVbk;
+        "fabric-26.1.1" = _6icbbVbk;
+        "fabric-26.1.2" = _6icbbVbk;
+        "fabric-26.2" = _6icbbVbk;
+        "fabric-26.3" = _6icbbVbk;
+        "quilt-26.3" = _6icbbVbk;
+        "quilt-26.2" = _6icbbVbk;
+        "quilt-26.1.2" = _6icbbVbk;
+        "quilt-26.1.1" = _6icbbVbk;
+        "quilt-26.1" = _6icbbVbk;
         "pkg-1.0.0+mc1.21.1" = _BJse2ZEz;
         "pkg-1.0.0+mc1.21.5" = _nm2zxtI4;
         "pkg-1.0.0+mc1.21.7" = _I3nJgt0X;
@@ -85,7 +103,9 @@ let
         "pkg-2.0.0+mc26.1.2" = _5JgoBGp0;
         "pkg-2.1.0+mc26.1.2" = _Gm7nL736;
         "pkg-2.1.0+mc26.2" = _4XKzetX5;
-        "default" = _4XKzetX5;
+        "pkg-3.0.0+mc26.3" = _wmSlRlmS;
+        "pkg-3.1.0+mc26.3" = _6icbbVbk;
+        "default" = _6icbbVbk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "durability-digits";

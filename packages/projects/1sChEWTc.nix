@@ -256,6 +256,16 @@ let
             "file" = "eft-mod-1.21.11.jar";
             "hash" = "sha512-bgCDURtjC3CrPXFJ5y5bbYUFjAs4J1yPzMZ1qk0dQQxfs0S8515m+h/SbZqjOMfMgtbRF0OwZWI8IrBZmrm3KQ==";
         };
+        _Gqyi9AH2 = {
+            "id" = "Gqyi9AH2";
+            "file" = "eft-mod-1.21.11.jar";
+            "hash" = "sha512-FRj8XMriNgOrPUtbdFqKf95lATdQDEpbaxfkPoisAD9QFGNnFfyPSkDk3zRaNo6oQc+6427wkfW2DSwVAlofaw==";
+        };
+        _ivIkemAj = {
+            "id" = "ivIkemAj";
+            "file" = "eft-mod-1.21.11.jar";
+            "hash" = "sha512-KQCsWDgEIcGqHepWLbtp7OKUV3pvakD0zKGwUENezmgi+h28V9zRpdiilbEt491LGGvG2jMqOflUAPHNus2GVQ==";
+        };
     in {
         "ZMRnSDDg" = _ZMRnSDDg;
         "hAINNYA8" = _hAINNYA8;
@@ -308,9 +318,11 @@ let
         "f1Sdlvp9" = _f1Sdlvp9;
         "VEvhPK0K" = _VEvhPK0K;
         "tztM52tD" = _tztM52tD;
-        "fabric-1.21.11" = _tztM52tD;
-        "pkg-1.21.11" = _tztM52tD;
-        "default" = _tztM52tD;
+        "Gqyi9AH2" = _Gqyi9AH2;
+        "ivIkemAj" = _ivIkemAj;
+        "fabric-1.21.11" = _ivIkemAj;
+        "pkg-1.21.11" = _ivIkemAj;
+        "default" = _ivIkemAj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "escape-from-tarkraft-mod";

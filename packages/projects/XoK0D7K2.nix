@@ -116,6 +116,16 @@ let
             "file" = "pokebadges-neoforge-2.1.jar";
             "hash" = "sha512-WbWetYt8EKq9aVaygxh2sZ0R4qvUS8yT3zDeetY1THjOwyuTdNpiPLa8kv5fpLjyDgnnbLWjPb2X7ARFiu4DYQ==";
         };
+        _MxPimB9j = {
+            "id" = "MxPimB9j";
+            "file" = "pokebadges-fabric-2.1.1.jar";
+            "hash" = "sha512-w6n3v/0VsnYDSapz+ovBjuoI0LnY85+VUV3bPos3Pudvt9MWyobDrfnJOS6IjcYaK2m1CIa4JHFvvz3BB0/uQg==";
+        };
+        _iTKXedQr = {
+            "id" = "iTKXedQr";
+            "file" = "pokebadges-neoforge-2.1.1.jar";
+            "hash" = "sha512-00IP3iV+6GPeo4h+7PjVVmEtOhQsNiunND4rW4J8czEIpk2G5ovTl6yq1iErIhO3bgw5YQ+MIdJuwwMJAnJpAg==";
+        };
     in {
         "ElbqgK4W" = _ElbqgK4W;
         "MBPC17OD" = _MBPC17OD;
@@ -140,8 +150,10 @@ let
         "r7ocZJ6w" = _r7ocZJ6w;
         "5kETFGke" = _5kETFGke;
         "ydYnDYPQ" = _ydYnDYPQ;
-        "neoforge-1.21.1" = _ydYnDYPQ;
-        "fabric-1.21.1" = _5kETFGke;
+        "MxPimB9j" = _MxPimB9j;
+        "iTKXedQr" = _iTKXedQr;
+        "neoforge-1.21.1" = _iTKXedQr;
+        "fabric-1.21.1" = _MxPimB9j;
         "pkg-1.0" = _MBPC17OD;
         "pkg-1.1" = _Aipnqr0H;
         "pkg-1.2" = _UvhrBVVr;
@@ -154,7 +166,8 @@ let
         "pkg-1.6.1" = _Pau7oPa0;
         "pkg-2.0.0" = _r7ocZJ6w;
         "pkg-2.1" = _ydYnDYPQ;
-        "default" = _ydYnDYPQ;
+        "pkg-2.1.1" = _iTKXedQr;
+        "default" = _iTKXedQr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pokebadges";

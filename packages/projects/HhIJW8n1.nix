@@ -591,6 +591,16 @@ let
             "file" = "estrogen-6.0.12+1.21.1-fabric.jar";
             "hash" = "sha512-sjbxfLVuIdFf2VW6E+mgMzV1tCbpgipUw/01UGuSNBheZfeDzRtUfjs+eQt3TTVEwVLpqRF4vDE4YGUba4RPiA==";
         };
+        _jgm0TdQZ = {
+            "id" = "jgm0TdQZ";
+            "file" = "estrogen-6.0.13+1.21.1-fabric.jar";
+            "hash" = "sha512-FJLkZKYv/w93K6V786i2AI+1/UKzMv5nOEN8jSVjvJFlLc9cDbvwwaUStbH3mJbGLRuPXzKWQdNHZ+GXcO5EGw==";
+        };
+        _29hQEQho = {
+            "id" = "29hQEQho";
+            "file" = "estrogen-6.0.13+1.21.1-neoforge.jar";
+            "hash" = "sha512-apGdxDBY0fAIgx3ZwDXI6QLkrR5w61kkTn/vh/2R0K5H1C76l5cI43hy52zzGRByRjK71lLV7EEmC/GJUIXmjw==";
+        };
     in {
         "1RpxbsxH" = _1RpxbsxH;
         "RYW690tk" = _RYW690tk;
@@ -710,17 +720,19 @@ let
         "SmFjU8tI" = _SmFjU8tI;
         "KOQ45V1T" = _KOQ45V1T;
         "4aH1vWxf" = _4aH1vWxf;
+        "jgm0TdQZ" = _jgm0TdQZ;
+        "29hQEQho" = _29hQEQho;
         "fabric-1.19.2" = _GJN8ZhKs;
         "fabric-1.20.1" = _ZnqWS7up;
         "fabric-1.18.2" = _4zTNCX2c;
-        "fabric-1.21.1" = _4aH1vWxf;
+        "fabric-1.21.1" = _jgm0TdQZ;
         "quilt-1.20.1" = _ZnqWS7up;
         "quilt-1.18.2" = _4zTNCX2c;
         "quilt-1.19.2" = _GJN8ZhKs;
-        "quilt-1.21.1" = _4aH1vWxf;
+        "quilt-1.21.1" = _jgm0TdQZ;
         "forge-1.20.1" = _15cYSyT3;
         "forge-1.19.2" = _egocrArd;
-        "neoforge-1.21.1" = _KOQ45V1T;
+        "neoforge-1.21.1" = _29hQEQho;
         "pkg-1.0.0" = _1RpxbsxH;
         "pkg-2.0.0" = _RYW690tk;
         "pkg-2.0.1" = _Hd3WJWEm;
@@ -837,7 +849,9 @@ let
         "pkg-6.0.11+1.21.1-fabric" = _SmFjU8tI;
         "pkg-6.0.12+1.21.1-neoforge" = _KOQ45V1T;
         "pkg-6.0.12+1.21.1-fabric" = _4aH1vWxf;
-        "default" = _4aH1vWxf;
+        "pkg-6.0.13+1.21.1-fabric" = _jgm0TdQZ;
+        "pkg-6.0.13+1.21.1-neoforge" = _29hQEQho;
+        "default" = _29hQEQho;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "estrogen";

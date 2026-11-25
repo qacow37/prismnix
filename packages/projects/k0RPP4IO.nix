@@ -471,6 +471,11 @@ let
             "file" = "ArPhEx-5.0.2-forge-1.19.2.jar";
             "hash" = "sha512-PbB9S2n8uLmSv7JuvV4+3rkQUFd1iUB4fbGi20g+UlXIimoxbVOBJoMAHlgGtPWFO/0OtWuZ7Ksqif9MM5t3mA==";
         };
+        _8PyUrn8Z = {
+            "id" = "8PyUrn8Z";
+            "file" = "ArPhEx-6.0.1-forge-1.20.1.jar";
+            "hash" = "sha512-SRlS6yZ583kAJo8mOm9+WFz2EpPmnAYBa6F8rYK5Dm7b6IUrkKi0VOKgFmiRiZjhBPuH4NUnQAI9Lo6XpwmBmw==";
+        };
     in {
         "OR1dIQs1" = _OR1dIQs1;
         "UdrOlvir" = _UdrOlvir;
@@ -566,9 +571,10 @@ let
         "jawvD7YZ" = _jawvD7YZ;
         "FOiL4gZ1" = _FOiL4gZ1;
         "sIS1HAT6" = _sIS1HAT6;
+        "8PyUrn8Z" = _8PyUrn8Z;
         "forge-1.19.2" = _sIS1HAT6;
         "forge-1.19.4" = _FOiL4gZ1;
-        "forge-1.20.1" = _2QgFGJeS;
+        "forge-1.20.1" = _8PyUrn8Z;
         "forge-1.20.4" = _4t3qGUgU;
         "forge-1.21.1" = _4t3qGUgU;
         "neoforge-1.19.2" = _4t3qGUgU;
@@ -648,7 +654,8 @@ let
         "pkg-5.0.1" = _49kItUy4;
         "pkg-5.0.1c" = _m2o7pBfS;
         "pkg-5.0.2" = _sIS1HAT6;
-        "default" = _sIS1HAT6;
+        "pkg-6.0.1" = _8PyUrn8Z;
+        "default" = _8PyUrn8Z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "arphex";

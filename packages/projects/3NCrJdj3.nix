@@ -1471,6 +1471,11 @@ let
             "file" = "RebornCore-6.2.1.jar";
             "hash" = "sha512-Z31oSDb4QifREUESZBYIv25yAxfcEkGkmu8MOCSlJboF6en4dAgmEWZSWtZsygoFJ9UNs0qLmzygJ8QypkDdwQ==";
         };
+        _4rQwiYuZ = {
+            "id" = "4rQwiYuZ";
+            "file" = "RebornCore-6.2.2.jar";
+            "hash" = "sha512-xjw7F4Ca/qhlaB+upm1CWRPh4dTeF6wx/FJGKxmvy03A0FjtBIMl/uPz84wmiRSQAoIUKNGVgfGFtfFIePqIZQ==";
+        };
     in {
         "moy1eZEk" = _moy1eZEk;
         "CpyQUIHf" = _CpyQUIHf;
@@ -1766,6 +1771,7 @@ let
         "xiERLsCF" = _xiERLsCF;
         "wkYPEPfq" = _wkYPEPfq;
         "F1hZqqT4" = _F1hZqqT4;
+        "4rQwiYuZ" = _4rQwiYuZ;
         "forge-1.7.10" = _qT4S90dp;
         "forge-1.8.8" = _rB3Due4h;
         "forge-1.8.9" = _TtKMXnC5;
@@ -1805,7 +1811,7 @@ let
         "fabric-26.1.1" = _mO9KoONc;
         "fabric-26.1.2" = _mO9KoONc;
         "fabric-26.2" = _xiERLsCF;
-        "fabric-26.3" = _F1hZqqT4;
+        "fabric-26.3" = _4rQwiYuZ;
         "pkg-1.0.0.8+universal" = _moy1eZEk;
         "pkg-1.8.8+1" = _ibAZfUN6;
         "pkg-1.1.0.15+universal" = _qT4S90dp;
@@ -2024,7 +2030,8 @@ let
         "pkg-6.1.1" = _xiERLsCF;
         "pkg-6.2.0" = _wkYPEPfq;
         "pkg-6.2.1" = _F1hZqqT4;
-        "default" = _F1hZqqT4;
+        "pkg-6.2.2" = _4rQwiYuZ;
+        "default" = _4rQwiYuZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reborncore";

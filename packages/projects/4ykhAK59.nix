@@ -41,6 +41,11 @@ let
             "file" = "LootrPlugin-1.2.5.jar";
             "hash" = "sha512-eQ+jZ2uYDnqIt/ukhSHeO9ONnV9iw2je53Bil6Z9KrcchafUBGOkXRWseahFbYxML5UJBaTewXRsOybfwVrQPA==";
         };
+        _whTi6pcA = {
+            "id" = "whTi6pcA";
+            "file" = "LootrPlugin-1.3.0.jar";
+            "hash" = "sha512-NXgYFxTs4r88IuvPVbKFgS6GnHZenLkfbWOlUIRCBRUDYI3gNQ7Zyf80oet9guyhEqM1vHzA7rjxhfdXGmMupg==";
+        };
     in {
         "pP3Zki8Z" = _pP3Zki8Z;
         "Zo0gwM4W" = _Zo0gwM4W;
@@ -50,6 +55,7 @@ let
         "mIEtZKr6" = _mIEtZKr6;
         "kBkCGMQU" = _kBkCGMQU;
         "fQRSLmEd" = _fQRSLmEd;
+        "whTi6pcA" = _whTi6pcA;
         "bukkit-1.18" = _Zo0gwM4W;
         "bukkit-1.18.1" = _Zo0gwM4W;
         "bukkit-1.18.2" = _Zo0gwM4W;
@@ -81,6 +87,7 @@ let
         "bukkit-26.1.1" = _fQRSLmEd;
         "bukkit-26.1.2" = _fQRSLmEd;
         "bukkit-26.2" = _fQRSLmEd;
+        "bukkit-26.3" = _whTi6pcA;
         "paper-1.18" = _Zo0gwM4W;
         "paper-1.18.1" = _Zo0gwM4W;
         "paper-1.18.2" = _Zo0gwM4W;
@@ -112,6 +119,7 @@ let
         "paper-26.1.1" = _fQRSLmEd;
         "paper-26.1.2" = _fQRSLmEd;
         "paper-26.2" = _fQRSLmEd;
+        "paper-26.3" = _whTi6pcA;
         "purpur-1.18" = _Zo0gwM4W;
         "purpur-1.18.1" = _Zo0gwM4W;
         "purpur-1.18.2" = _Zo0gwM4W;
@@ -143,6 +151,7 @@ let
         "purpur-26.1.1" = _fQRSLmEd;
         "purpur-26.1.2" = _fQRSLmEd;
         "purpur-26.2" = _fQRSLmEd;
+        "purpur-26.3" = _whTi6pcA;
         "spigot-1.18" = _Zo0gwM4W;
         "spigot-1.18.1" = _Zo0gwM4W;
         "spigot-1.18.2" = _Zo0gwM4W;
@@ -174,6 +183,7 @@ let
         "spigot-26.1.1" = _fQRSLmEd;
         "spigot-26.1.2" = _fQRSLmEd;
         "spigot-26.2" = _fQRSLmEd;
+        "spigot-26.3" = _whTi6pcA;
         "pkg-1.0.0" = _pP3Zki8Z;
         "pkg-1.1" = _Zo0gwM4W;
         "pkg-1.2" = _DJdQ2Vqa;
@@ -182,7 +192,8 @@ let
         "pkg-1.2.3" = _mIEtZKr6;
         "pkg-1.2.4" = _kBkCGMQU;
         "pkg-v1.2.5" = _fQRSLmEd;
-        "default" = _fQRSLmEd;
+        "pkg-1.3.0" = _whTi6pcA;
+        "default" = _whTi6pcA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lootrinstancer";

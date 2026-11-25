@@ -76,6 +76,11 @@ let
             "file" = "jukebox_looping-1.1.2+26.1+B.jar";
             "hash" = "sha512-E6dgYk/p4Teuu538vnEl1JJkrR9qvL+vFmCP+l5T4kM7K2bDN3Xsmor9noagZ9sDEizEbU3C7iwG1peVn0du+Q==";
         };
+        _KFDajdGu = {
+            "id" = "KFDajdGu";
+            "file" = "jukebox_looping-1.1.2+26.1+C.jar";
+            "hash" = "sha512-SWj6qcHd6PROLKlGZ1x+RB0z82rp8moCedTi0bxjXPQ7fPaln7kNtAsIATUEwnvG7hrDdNWBxijYp5zvE4oycw==";
+        };
     in {
         "evzEd1Sa" = _evzEd1Sa;
         "jowf7Bz6" = _jowf7Bz6;
@@ -92,6 +97,7 @@ let
         "NWpQhsvb" = _NWpQhsvb;
         "4L6fST0G" = _4L6fST0G;
         "5QM5xsbF" = _5QM5xsbF;
+        "KFDajdGu" = _KFDajdGu;
         "fabric-1.20" = _BQ1xMhy6;
         "fabric-1.20.1" = _BQ1xMhy6;
         "fabric-1.20.2" = _BQ1xMhy6;
@@ -111,10 +117,11 @@ let
         "fabric-1.21.9" = _NWpQhsvb;
         "fabric-1.21.10" = _NWpQhsvb;
         "fabric-1.21.11" = _NWpQhsvb;
-        "fabric-26.1" = _5QM5xsbF;
-        "fabric-26.1.1" = _5QM5xsbF;
-        "fabric-26.1.2" = _5QM5xsbF;
-        "fabric-26.2" = _5QM5xsbF;
+        "fabric-26.1" = _KFDajdGu;
+        "fabric-26.1.1" = _KFDajdGu;
+        "fabric-26.1.2" = _KFDajdGu;
+        "fabric-26.2" = _KFDajdGu;
+        "fabric-26.3" = _KFDajdGu;
         "quilt-1.20" = _BQ1xMhy6;
         "quilt-1.20.1" = _BQ1xMhy6;
         "quilt-1.20.2" = _BQ1xMhy6;
@@ -134,10 +141,11 @@ let
         "quilt-1.21.9" = _NWpQhsvb;
         "quilt-1.21.10" = _NWpQhsvb;
         "quilt-1.21.11" = _NWpQhsvb;
-        "quilt-26.1" = _5QM5xsbF;
-        "quilt-26.1.1" = _5QM5xsbF;
-        "quilt-26.1.2" = _5QM5xsbF;
-        "quilt-26.2" = _5QM5xsbF;
+        "quilt-26.1" = _KFDajdGu;
+        "quilt-26.1.1" = _KFDajdGu;
+        "quilt-26.1.2" = _KFDajdGu;
+        "quilt-26.2" = _KFDajdGu;
+        "quilt-26.3" = _KFDajdGu;
         "pkg-1.0.0-1.20.X" = _evzEd1Sa;
         "pkg-1.0.0-1.21.X" = _jowf7Bz6;
         "pkg-1.0.1-1.21.X" = _padQyn6U;
@@ -153,7 +161,8 @@ let
         "pkg-1.1.2+1.21+A" = _NWpQhsvb;
         "pkg-1.1.2+26.1+A" = _4L6fST0G;
         "pkg-1.1.2+26.1+B" = _5QM5xsbF;
-        "default" = _5QM5xsbF;
+        "pkg-1.1.2+26.1+C" = _KFDajdGu;
+        "default" = _KFDajdGu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jukebox_looping";

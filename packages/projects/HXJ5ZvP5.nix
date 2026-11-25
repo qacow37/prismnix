@@ -76,6 +76,11 @@ let
             "file" = "panda-anti-lag-2.5.3+26.3.jar";
             "hash" = "sha512-ysl3fIQsjQXZUr/6A9VcaLeb/tv2xfKK09aWlSivNIaCBFum7bD+gvH/4wM6LfUvhQwqiuKcrGHjSx7j9gFUTA==";
         };
+        _AFcwniJg = {
+            "id" = "AFcwniJg";
+            "file" = "panda-anti-lag-2.5.5+26.3.jar";
+            "hash" = "sha512-EcPoPi3S1bJimEGroQTd+1iw3Dowt9Y3K02yb7Ds3niOfl+IVgyXxVxaDjDW5gcMbc5ubHnFaGWQ7F4dP1dbRw==";
+        };
     in {
         "zylK7NDB" = _zylK7NDB;
         "9PjLwNRX" = _9PjLwNRX;
@@ -92,6 +97,7 @@ let
         "DfyQeNt3" = _DfyQeNt3;
         "N8ilextw" = _N8ilextw;
         "pyi1VPr6" = _pyi1VPr6;
+        "AFcwniJg" = _AFcwniJg;
         "fabric-1.21.4" = _zylK7NDB;
         "fabric-1.21.5" = _9PjLwNRX;
         "fabric-1.21.6" = _5RX8fcrm;
@@ -103,7 +109,7 @@ let
         "fabric-26.1.1" = _gegbh87t;
         "fabric-26.1.2" = _gegbh87t;
         "fabric-26.2" = _lHCtstXm;
-        "fabric-26.3" = _pyi1VPr6;
+        "fabric-26.3" = _AFcwniJg;
         "pkg-1.1.0_1.21.4" = _zylK7NDB;
         "pkg-1.1.0_1.21.5" = _9PjLwNRX;
         "pkg-1.1.0_1.21.6+1.21.7" = _Gdl8rLz9;
@@ -119,7 +125,8 @@ let
         "pkg-2.3.0+26.3" = _DfyQeNt3;
         "pkg-2.3.1+26.3" = _N8ilextw;
         "pkg-2.5.3+26.3" = _pyi1VPr6;
-        "default" = _pyi1VPr6;
+        "pkg-2.5.5+26.3" = _AFcwniJg;
+        "default" = _AFcwniJg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pandaantilag";

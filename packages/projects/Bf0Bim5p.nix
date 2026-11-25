@@ -141,6 +141,16 @@ let
             "file" = "spookytrees-1.0.0 Neoforge 26.2.jar";
             "hash" = "sha512-NuiXNkChgZgX+G10JPwMFFbIye3M6FyVrepqIOVH8ai6bW0adTbvhDtzaVklQx9hxMx5mUe9iyc+wbR9+6B0mw==";
         };
+        _NmDcg2Bm = {
+            "id" = "NmDcg2Bm";
+            "file" = "spookytrees-1.0.0 Fabric 26.3.jar";
+            "hash" = "sha512-GSkLc5+xImwZSyhWf7xSU9YKPN/m7TcAI5DJfR1thyG6F+eVf605gtUcM+xaExOf4hh5sWoMEDfr5/IQvBrxxQ==";
+        };
+        _pIWALbsW = {
+            "id" = "pIWALbsW";
+            "file" = "spookytrees-1.0.0 Neoforge 26.3.jar";
+            "hash" = "sha512-ZdownwkPglz3SatI/wKch4jF/EiH7UFZ76MgVzMEzrAro1rxe598Ps0ch+98afOXGKnPO1rtg7i412WF90AF2g==";
+        };
     in {
         "lVb6cV5P" = _lVb6cV5P;
         "6fHYIAUY" = _6fHYIAUY;
@@ -170,6 +180,8 @@ let
         "f3IgrvDk" = _f3IgrvDk;
         "zXbSlQFA" = _zXbSlQFA;
         "HqF69r4Y" = _HqF69r4Y;
+        "NmDcg2Bm" = _NmDcg2Bm;
+        "pIWALbsW" = _pIWALbsW;
         "fabric-1.20.1" = _ZQEnJ2AA;
         "fabric-1.21.8" = _NI3HVrxw;
         "fabric-1.21.9" = _VhozYvlH;
@@ -178,6 +190,7 @@ let
         "fabric-1.21.1" = _32HRSNJ8;
         "fabric-26.1.2" = _TaEsijjv;
         "fabric-26.2" = _zXbSlQFA;
+        "fabric-26.3" = _NmDcg2Bm;
         "forge-1.19.2" = _BWBUSkX0;
         "forge-1.19.4" = _kCMHhohA;
         "forge-1.20.1" = _jcsVhTPk;
@@ -191,9 +204,10 @@ let
         "neoforge-1.21.8" = _P7JDiLe2;
         "neoforge-26.1.2" = _f3IgrvDk;
         "neoforge-26.2" = _HqF69r4Y;
-        "pkg-1.0.0" = _HqF69r4Y;
+        "neoforge-26.3" = _pIWALbsW;
+        "pkg-1.0.0" = _pIWALbsW;
         "pkg-1.0.1" = _Op32JacP;
-        "default" = _HqF69r4Y;
+        "default" = _pIWALbsW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spooky-trees";

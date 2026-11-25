@@ -181,6 +181,11 @@ let
             "file" = "fpsflow-1.8.3-mc1.21.11-java21.jar";
             "hash" = "sha512-JncW5pQeIPcbS02ndPQ4Jry+iYu9k7ZP+/0PVFXS5lRR3UzyqAxpmbV0OhYuzsW0BHn4qGpUtfHP75+mezOQ5g==";
         };
+        _kULTkbkO = {
+            "id" = "kULTkbkO";
+            "file" = "fpsflow-1.8.5-mc26.3-java25.jar";
+            "hash" = "sha512-ocXzqMSX9a4DMLyjBm84UFciEDfV8OXKxuXEahHmxn7e5mAm8KAQJjiqbd879gRIcWWuI+Y4zF398MImEjpoxg==";
+        };
     in {
         "ZtqTDTD9" = _ZtqTDTD9;
         "370kfWgZ" = _370kfWgZ;
@@ -218,11 +223,13 @@ let
         "tStpTjEi" = _tStpTjEi;
         "UX14F4fN" = _UX14F4fN;
         "GgpvCLoU" = _GgpvCLoU;
+        "kULTkbkO" = _kULTkbkO;
         "fabric-1.21.11" = _GgpvCLoU;
-        "fabric-26.1" = _UX14F4fN;
-        "fabric-26.1.1" = _UX14F4fN;
-        "fabric-26.1.2" = _UX14F4fN;
-        "fabric-26.2" = _UX14F4fN;
+        "fabric-26.1" = _kULTkbkO;
+        "fabric-26.1.1" = _kULTkbkO;
+        "fabric-26.1.2" = _kULTkbkO;
+        "fabric-26.2" = _kULTkbkO;
+        "fabric-26.3" = _kULTkbkO;
         "pkg-1.0.0" = _ZtqTDTD9;
         "pkg-1.1.0" = _370kfWgZ;
         "pkg-1.2.0" = _rzQNSzdx;
@@ -254,7 +261,8 @@ let
         "pkg-1.8.1" = _VQRvg6S8;
         "pkg-1.8.2" = _tStpTjEi;
         "pkg-1.8.3" = _GgpvCLoU;
-        "default" = _GgpvCLoU;
+        "pkg-1.8.4" = _kULTkbkO;
+        "default" = _kULTkbkO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fpsflow";

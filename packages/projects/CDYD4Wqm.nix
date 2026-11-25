@@ -136,6 +136,16 @@ let
             "file" = "etreco-1.8.76-neoforge-26.3.jar";
             "hash" = "sha512-KGESLTg4k922ptV+FtEEZCOjBGUnvU62TLeQMmHApDy3iksy8nEuFmlXMQx5vBJYAbmHL+OUTDMbFszBscc9lw==";
         };
+        _FJAscpfW = {
+            "id" = "FJAscpfW";
+            "file" = "etreco-1.9.0-neoforge-26.3.jar";
+            "hash" = "sha512-JfKpozpAF/kPOR7w5m5iQzgn/PeAZWIzIHvEKTs/jfCJOWIr4AysKOrSPLV0z0+USqtc0AlSTxMiLjtuj3Ml3A==";
+        };
+        _jb9kCByB = {
+            "id" = "jb9kCByB";
+            "file" = "etreco-1.9.0-forge-1.16.5.jar";
+            "hash" = "sha512-KhmqlxQhiOK3OlE0SLm8G2CBftil8cEIVVdzYUDGwi/t1CWqbmvZxeAwLpYhHBtlAtaI1aKs6qo2DESLPSqQhg==";
+        };
     in {
         "ArTu18NC" = _ArTu18NC;
         "WNGvmPEx" = _WNGvmPEx;
@@ -164,9 +174,11 @@ let
         "I36XJbMb" = _I36XJbMb;
         "gr3enbo8" = _gr3enbo8;
         "zaqUWOKJ" = _zaqUWOKJ;
-        "forge-1.16.5" = _gr3enbo8;
+        "FJAscpfW" = _FJAscpfW;
+        "jb9kCByB" = _jb9kCByB;
+        "forge-1.16.5" = _jb9kCByB;
         "forge-1.20.1" = _ohT54ShO;
-        "neoforge-26.3" = _zaqUWOKJ;
+        "neoforge-26.3" = _FJAscpfW;
         "pkg-1.8.1R" = _ArTu18NC;
         "pkg-1.8.2R" = _WNGvmPEx;
         "pkg-1.8.3B1" = _isBdVSYV;
@@ -192,7 +204,8 @@ let
         "pkg-1.8.73" = _ythTv3fg;
         "pkg-1.8.75" = _I36XJbMb;
         "pkg-1.8.76" = _zaqUWOKJ;
-        "default" = _zaqUWOKJ;
+        "pkg-1.9.0" = _jb9kCByB;
+        "default" = _jb9kCByB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "etr-economy";

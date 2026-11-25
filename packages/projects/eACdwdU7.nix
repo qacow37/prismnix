@@ -26,23 +26,30 @@ let
             "file" = "wynnbubbles-1.0.1.jar";
             "hash" = "sha512-bNyQJz0tluhppKbDieOjEn5SRotoiRTuuhUgepAt2T2DMsZOH9dBIpv44cfZQV4TZt9Xy0FUZ+oHQW3N8ENKsA==";
         };
+        _8jHQKBih = {
+            "id" = "8jHQKBih";
+            "file" = "wynnbubbles-1.0.2.jar";
+            "hash" = "sha512-NwyfU5EAO43SZaZP+5Sghf0CNBSEX43uT9inE7QM4EJNohmE3L4aAMS9PUwrT+snj0YePJalDFrTseLiwyfWRg==";
+        };
     in {
         "FsuIJfdL" = _FsuIJfdL;
         "FGWUW2ws" = _FGWUW2ws;
         "BXL5tStn" = _BXL5tStn;
         "gdyzL7Kq" = _gdyzL7Kq;
         "4TXnd8Re" = _4TXnd8Re;
+        "8jHQKBih" = _8jHQKBih;
         "fabric-1.21" = _FsuIJfdL;
         "fabric-1.21.1" = _FGWUW2ws;
         "fabric-1.21.4" = _BXL5tStn;
         "fabric-1.21.5" = _BXL5tStn;
-        "fabric-1.21.11" = _4TXnd8Re;
+        "fabric-1.21.11" = _8jHQKBih;
         "pkg-0.3.2" = _FsuIJfdL;
         "pkg-0.3.3" = _FGWUW2ws;
         "pkg-0.4.0" = _BXL5tStn;
         "pkg-1.0.0" = _gdyzL7Kq;
         "pkg-1.0.1" = _4TXnd8Re;
-        "default" = _4TXnd8Re;
+        "pkg-1.0.2" = _8jHQKBih;
+        "default" = _8jHQKBih;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wynnbubbles";

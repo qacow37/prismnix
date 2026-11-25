@@ -371,6 +371,16 @@ let
             "file" = "Gexpress-1.9.2.jar";
             "hash" = "sha512-S4TefucDt9pjR1fvIYdpITHllVlFaPhyRZjw5DNBbYq/46eWNUBR4ADCNlPPlkacAYY+6Pz7v5z3Nx4N9fZeng==";
         };
+        _pW4QfwFR = {
+            "id" = "pW4QfwFR";
+            "file" = "Gexpress-1.9.3.jar";
+            "hash" = "sha512-iwvhSYd6g+SvW5DrNh383Bu4du01kSJABDFHvYwtQZD0FSQpI2IwwgZQx6EIfJaKIzv0m/cjkuUhYJKN10LeAQ==";
+        };
+        _3eFCMwxQ = {
+            "id" = "3eFCMwxQ";
+            "file" = "Gexpress-1.9.4.jar";
+            "hash" = "sha512-wnRcHvLq2g8nDGtHEFM2SSHrMz9MBdBRxS5qB9caBnl4dEXclq4gpGXP3wBuq9kIU5pepUiXvVcYmG4Xaf8YmQ==";
+        };
     in {
         "qzKqFqFe" = _qzKqFqFe;
         "wdVjMkaR" = _wdVjMkaR;
@@ -446,7 +456,9 @@ let
         "xnikq2Br" = _xnikq2Br;
         "9St0M1vt" = _9St0M1vt;
         "ZxF2PTtj" = _ZxF2PTtj;
-        "fabric-1.21.1" = _ZxF2PTtj;
+        "pW4QfwFR" = _pW4QfwFR;
+        "3eFCMwxQ" = _3eFCMwxQ;
+        "fabric-1.21.1" = _3eFCMwxQ;
         "pkg-1.0.0" = _qzKqFqFe;
         "pkg-1.1.0" = _wdVjMkaR;
         "pkg-1.2.0" = _QFnchUZ3;
@@ -521,7 +533,9 @@ let
         "pkg-1.9.0" = _xnikq2Br;
         "pkg-1.9.1" = _9St0M1vt;
         "pkg-1.9.2" = _ZxF2PTtj;
-        "default" = _ZxF2PTtj;
+        "pkg-1.9.3" = _pW4QfwFR;
+        "pkg-1.9.4" = _3eFCMwxQ;
+        "default" = _3eFCMwxQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gexpress";

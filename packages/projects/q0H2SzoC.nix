@@ -171,6 +171,16 @@ let
             "file" = "school-0.90.9-forge-1.20.1.jar";
             "hash" = "sha512-u08pVMo6T7AOAjDWqdGsj7BqFW6sDR4AQTxh+ScPpbAsRK88WFVpVMNCHFwUuCe8tM63Nbfd3C5xjnqcMohnFg==";
         };
+        _6JH1YqIh = {
+            "id" = "6JH1YqIh";
+            "file" = "school-2.0.0-forge-1.20.1.jar";
+            "hash" = "sha512-B156SGvAbk8w1OJ3SK4eyzWM+voLrnIVMYAvgH5GXYIjRTn6ytsZrYo8bOIZ8lOvvGWlyQbJ7jndULtQ00AA9A==";
+        };
+        _Jr2rq9yV = {
+            "id" = "Jr2rq9yV";
+            "file" = "school-2.0.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-r46+2O8v8jFaWk78XZMxUaU2cYufrdWqOiwB6wmsnMJoMvtxYKmfkGJ4lwPKF8eVMTwTgeZiYNygk1s4hgV8vQ==";
+        };
     in {
         "b4zjgg7Q" = _b4zjgg7Q;
         "Y6VKFECO" = _Y6VKFECO;
@@ -206,20 +216,22 @@ let
         "WFDtitCm" = _WFDtitCm;
         "7qLqA6S5" = _7qLqA6S5;
         "WvRRdNkE" = _WvRRdNkE;
-        "forge-1.20.1" = _WvRRdNkE;
-        "forge-1.20" = _WvRRdNkE;
+        "6JH1YqIh" = _6JH1YqIh;
+        "Jr2rq9yV" = _Jr2rq9yV;
+        "forge-1.20.1" = _6JH1YqIh;
+        "forge-1.20" = _6JH1YqIh;
         "neoforge-1.20.4" = _6XaYF7GF;
-        "neoforge-1.20.1" = _WvRRdNkE;
-        "neoforge-1.21.1" = _WFDtitCm;
+        "neoforge-1.20.1" = _6JH1YqIh;
+        "neoforge-1.21.1" = _Jr2rq9yV;
         "neoforge-1.21.2" = _OSbwUNnt;
         "neoforge-1.21.3" = _OSbwUNnt;
         "neoforge-1.21.4" = _OSbwUNnt;
         "neoforge-1.21.5" = _OSbwUNnt;
         "neoforge-1.21.6" = _OSbwUNnt;
-        "neoforge-1.20" = _WvRRdNkE;
+        "neoforge-1.20" = _6JH1YqIh;
         "neoforge-1.21.7" = _OSbwUNnt;
         "neoforge-1.21.8" = _OSbwUNnt;
-        "neoforge-1.21" = _WFDtitCm;
+        "neoforge-1.21" = _Jr2rq9yV;
         "fabric-1.19" = _8HPyqDyO;
         "fabric-1.19.1" = _8HPyqDyO;
         "fabric-1.19.2" = _8HPyqDyO;
@@ -250,7 +262,8 @@ let
         "pkg-0.90.6" = _WFDtitCm;
         "pkg-0.90.8" = _7qLqA6S5;
         "pkg-0.90.9" = _WvRRdNkE;
-        "default" = _WvRRdNkE;
+        "pkg-2.0.0" = _Jr2rq9yV;
+        "default" = _Jr2rq9yV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wcsm";

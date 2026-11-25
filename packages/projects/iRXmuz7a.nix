@@ -126,6 +126,16 @@ let
             "file" = "BetterRenderDistance-1.2.3+mc26.3.jar";
             "hash" = "sha512-sJ3eIFarzkcJTd2dsIf8C7Y1TC36bP3/Uoth7TELyIitnQq4pIk29d2bWZl8I70DKqRsyNQt5zgFjGhnaTZqng==";
         };
+        _su3brLjc = {
+            "id" = "su3brLjc";
+            "file" = "BetterRenderDistance-1.2.3+mc26.2.jar";
+            "hash" = "sha512-4jFOSCTX7f5ql7GL3XvMLHYHROghL1zDtw5/62n3Jd+mwMSCOnYBRxvY6dCSKZU3svMA46S1ClSY66S4yqR1KA==";
+        };
+        _ak6iczBk = {
+            "id" = "ak6iczBk";
+            "file" = "BetterRenderDistance-1.2.3+mc26.1.2.jar";
+            "hash" = "sha512-u3v4U50K73bz86oFEWPRHxOyFXN93D9xpKpLrKHmMAdt++OH03oYZa2pIAiC61M8AWZODWOEPTsjMZW5fhpaiA==";
+        };
     in {
         "4el4pp6T" = _4el4pp6T;
         "CJeMP0KK" = _CJeMP0KK;
@@ -152,6 +162,8 @@ let
         "iOyHZs7P" = _iOyHZs7P;
         "OTLarqSh" = _OTLarqSh;
         "p5znnL1u" = _p5znnL1u;
+        "su3brLjc" = _su3brLjc;
+        "ak6iczBk" = _ak6iczBk;
         "fabric-1.21.11" = _OTLarqSh;
         "fabric-1.21.9" = _OoyIrpp4;
         "fabric-1.21.10" = _OoyIrpp4;
@@ -163,11 +175,11 @@ let
         "fabric-1.21.2" = _kxaXT5q0;
         "fabric-1.21.3" = _kxaXT5q0;
         "fabric-1.21.1" = _iOyHZs7P;
-        "fabric-26.1" = _d1GdCXiZ;
-        "fabric-26.1.1" = _d1GdCXiZ;
-        "fabric-26.1.2" = _d1GdCXiZ;
+        "fabric-26.1" = _ak6iczBk;
+        "fabric-26.1.1" = _ak6iczBk;
+        "fabric-26.1.2" = _ak6iczBk;
         "fabric-1.21" = _RKjKl99o;
-        "fabric-26.2" = _J46KSMDr;
+        "fabric-26.2" = _su3brLjc;
         "fabric-26.3" = _p5znnL1u;
         "pkg-1.0.1" = _4el4pp6T;
         "pkg-1.1.0" = _CJeMP0KK;
@@ -176,8 +188,8 @@ let
         "pkg-1.2.1-beta.2" = _thmz5tTn;
         "pkg-1.2.1" = _J46KSMDr;
         "pkg-1.2.2" = _OTLarqSh;
-        "pkg-1.2.3" = _p5znnL1u;
-        "default" = _p5znnL1u;
+        "pkg-1.2.3" = _ak6iczBk;
+        "default" = _ak6iczBk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-render-distance";

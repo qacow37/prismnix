@@ -41,6 +41,11 @@ let
             "file" = "LitematicaFolia-0.4.3+26.1.2-all.jar";
             "hash" = "sha512-X6Q9Lf47mjJ1jpuuZaaM1m6uj/Ukn5/QoOe1X+G4gW6ZrQQNtao4NVWkxJaRCZu+9SqY0bTk9TkdJO0kSZYE8A==";
         };
+        _UEX16SAu = {
+            "id" = "UEX16SAu";
+            "file" = "LitematicaFolia-0.8.1+26.3-all.jar";
+            "hash" = "sha512-iA1pmeOc7LzA6aLWxBjm5V7r9Jhmd3clgYta81SChlj/Gq4TOvp7hsyWzm15Gt1LDvQDyXJqHViYOQm3hOEynA==";
+        };
     in {
         "jBB7u0L0" = _jBB7u0L0;
         "Zv0z5u9F" = _Zv0z5u9F;
@@ -50,12 +55,15 @@ let
         "ZYPM2Pny" = _ZYPM2Pny;
         "Mvy9wt71" = _Mvy9wt71;
         "KelP715p" = _KelP715p;
+        "UEX16SAu" = _UEX16SAu;
         "folia-26.1.2" = _KelP715p;
         "folia-26.2" = _Mvy9wt71;
         "folia-1.21.11" = _ZYPM2Pny;
+        "folia-26.3" = _UEX16SAu;
         "paper-26.1.2" = _KelP715p;
         "paper-26.2" = _Mvy9wt71;
         "paper-1.21.11" = _ZYPM2Pny;
+        "paper-26.3" = _UEX16SAu;
         "pkg-0.3.0+26.1.2" = _jBB7u0L0;
         "pkg-0.4.2+26.1.2" = _Zv0z5u9F;
         "pkg-0.5.1+26.2" = _LSusMbbf;
@@ -64,7 +72,8 @@ let
         "pkg-0.9.0+1.21.11" = _ZYPM2Pny;
         "pkg-0.8.0+26.2" = _Mvy9wt71;
         "pkg-0.4.3+26.1.2" = _KelP715p;
-        "default" = _KelP715p;
+        "pkg-0.8.1+26.3" = _UEX16SAu;
+        "default" = _UEX16SAu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "litematicafolia";

@@ -241,6 +241,21 @@ let
             "file" = "basalt_crusher-1.16.0.jar";
             "hash" = "sha512-8NHTu76o9h4iSsJT/mhpbBKpWA1eUS4gF+OhSwXyUstdyhD7+hiMx46AHVekpsPPRFFcFwCkFPW1hgi3y9qtyQ==";
         };
+        _abXL4e91 = {
+            "id" = "abXL4e91";
+            "file" = "basalt_crusher-1.15.1.jar";
+            "hash" = "sha512-H8LI6HZGTFZ4bwPrCf582VtOWD+gDD09hl9bWRvoUYQHcicNv6dqraTB/viSkLWo11oS5BipoTNAdw1lGDSYDA==";
+        };
+        _so5egjRb = {
+            "id" = "so5egjRb";
+            "file" = "basalt_crusher-1.15.2.jar";
+            "hash" = "sha512-W2E0qF7kkMJKq/p4FQPoAYZotYVsrcSYrQ8W4M1dQPN++SZnecF7CSVrgO6SDt/4VmP67h7MdfUrfzcgmjWPEw==";
+        };
+        _gaQvDlIA = {
+            "id" = "gaQvDlIA";
+            "file" = "basalt_crusher-1.16.1.jar";
+            "hash" = "sha512-xBtXwM0p2FgrPh0pIsKtT3CkXqpQi8QMawEZOt82wUZpVQ9fSfDYfFByjNVTS+seM0VMqWN8qWBAZvLtshsueA==";
+        };
     in {
         "zpJkpDcg" = _zpJkpDcg;
         "vORtYeoZ" = _vORtYeoZ;
@@ -290,6 +305,9 @@ let
         "E233PFoK" = _E233PFoK;
         "lkI8YVDT" = _lkI8YVDT;
         "l2F3lof9" = _l2F3lof9;
+        "abXL4e91" = _abXL4e91;
+        "so5egjRb" = _so5egjRb;
+        "gaQvDlIA" = _gaQvDlIA;
         "fabric-1.18" = _Q76PEGKU;
         "fabric-1.18.1" = _Q76PEGKU;
         "fabric-1.18.2" = _MTrAbPEW;
@@ -356,10 +374,10 @@ let
         "fabric-1.21.9" = _E233PFoK;
         "fabric-1.21.10" = _E233PFoK;
         "fabric-1.21.11" = _E233PFoK;
-        "fabric-26.1" = _lkI8YVDT;
-        "fabric-26.1.1" = _lkI8YVDT;
-        "fabric-26.1.2" = _lkI8YVDT;
-        "fabric-26.2" = _l2F3lof9;
+        "fabric-26.1" = _so5egjRb;
+        "fabric-26.1.1" = _so5egjRb;
+        "fabric-26.1.2" = _so5egjRb;
+        "fabric-26.2" = _gaQvDlIA;
         "quilt-1.20-pre6" = _nhAiq8dO;
         "quilt-1.20-pre7" = _nhAiq8dO;
         "quilt-1.20-rc1" = _nhAiq8dO;
@@ -405,10 +423,10 @@ let
         "quilt-1.21.9" = _E233PFoK;
         "quilt-1.21.10" = _E233PFoK;
         "quilt-1.21.11" = _E233PFoK;
-        "quilt-26.1" = _lkI8YVDT;
-        "quilt-26.1.1" = _lkI8YVDT;
-        "quilt-26.1.2" = _lkI8YVDT;
-        "quilt-26.2" = _l2F3lof9;
+        "quilt-26.1" = _so5egjRb;
+        "quilt-26.1.1" = _so5egjRb;
+        "quilt-26.1.2" = _so5egjRb;
+        "quilt-26.2" = _gaQvDlIA;
         "pkg-0.1.0" = _zpJkpDcg;
         "pkg-0.1.1" = _vORtYeoZ;
         "pkg-0.1.2" = _KxUF6tis;
@@ -457,7 +475,10 @@ let
         "pkg-1.14.1" = _E233PFoK;
         "pkg-1.15.0" = _lkI8YVDT;
         "pkg-1.16.0" = _l2F3lof9;
-        "default" = _l2F3lof9;
+        "pkg-1.15.1" = _abXL4e91;
+        "pkg-1.15.2" = _so5egjRb;
+        "pkg-1.16.1" = _gaQvDlIA;
+        "default" = _gaQvDlIA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "basalt-crusher";

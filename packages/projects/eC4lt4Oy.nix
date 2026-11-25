@@ -411,6 +411,11 @@ let
             "file" = "lwjgl3ify-3.1.0.jar";
             "hash" = "sha512-aq0FabtUzHCBc6HLcVxtHn8RwxkdDsKeU1/ghT3o+EeRgDSIc6KyjEPZDFSPIql183jobDawAzUvOk5ej+boXQ==";
         };
+        _QW9BoOQF = {
+            "id" = "QW9BoOQF";
+            "file" = "lwjgl3ify-3.1.1.jar";
+            "hash" = "sha512-n5qsLPvBGpcQ0jq7kd91Eal9WZp37VpxAuHJZWNUH3VnFn9fgFlPUT6ZwEKW4bN7DgqEHftI9ZyroxySTlrKOw==";
+        };
     in {
         "WoudWjrD" = _WoudWjrD;
         "pSzRScA4" = _pSzRScA4;
@@ -494,7 +499,8 @@ let
         "EfGnTrKJ" = _EfGnTrKJ;
         "OFfcU3Qo" = _OFfcU3Qo;
         "6zZkpySb" = _6zZkpySb;
-        "forge-1.7.10" = _6zZkpySb;
+        "QW9BoOQF" = _QW9BoOQF;
+        "forge-1.7.10" = _QW9BoOQF;
         "pkg-2.0.3" = _WoudWjrD;
         "pkg-2.0.4" = _pSzRScA4;
         "pkg-2.0.5" = _EWcB9XvA;
@@ -577,7 +583,8 @@ let
         "pkg-3.0.41" = _EfGnTrKJ;
         "pkg-3.0.42" = _OFfcU3Qo;
         "pkg-3.1.0" = _6zZkpySb;
-        "default" = _6zZkpySb;
+        "pkg-3.1.1" = _QW9BoOQF;
+        "default" = _QW9BoOQF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lwjgl3ify";

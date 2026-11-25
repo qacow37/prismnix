@@ -56,6 +56,16 @@ let
             "file" = "bury_me_deep-1.21.1-2.0.1.jar";
             "hash" = "sha512-ozfR+IawoCUzNtmo1clxiTnJ/j4nXZ0PGKaFhQYZPlu+VFP/EZYzRTPUg5uzqpnFRh7MaRhfd0mXoMeTlLSt1w==";
         };
+        _e6er90Qc = {
+            "id" = "e6er90Qc";
+            "file" = "bury_me_deep-1.21.1-2.1.0.jar";
+            "hash" = "sha512-FNx+nP3Fi63032IaWY2tmg/9YWjf3srf6PQWvFpB+1Wq4rWX0uXvjL8xuIG/EG7mu/exjQTdBD8R3yXpOH/GTg==";
+        };
+        _gyssFSUH = {
+            "id" = "gyssFSUH";
+            "file" = "bury_me_deep-1.21.1-2.1.1.jar";
+            "hash" = "sha512-NbvKcdNa6vMZMe1DYdax+ru4J7meDydPsHETVH5Few/L1I43CE8L0efONT5RxCSqjDmMFeDcKRf2pw8opejBIA==";
+        };
     in {
         "zTiTCHE2" = _zTiTCHE2;
         "3vgIXlIK" = _3vgIXlIK;
@@ -68,8 +78,10 @@ let
         "dCszVbra" = _dCszVbra;
         "5cgTONdy" = _5cgTONdy;
         "VeA51U2Q" = _VeA51U2Q;
+        "e6er90Qc" = _e6er90Qc;
+        "gyssFSUH" = _gyssFSUH;
         "forge-1.20.1" = _dCszVbra;
-        "neoforge-1.21.1" = _VeA51U2Q;
+        "neoforge-1.21.1" = _gyssFSUH;
         "pkg-1.0.0" = _zTiTCHE2;
         "pkg-1.0.1" = _3vgIXlIK;
         "pkg-1.0.2" = _BW0XnGsH;
@@ -81,7 +93,9 @@ let
         "pkg-1.0.8" = _dCszVbra;
         "pkg-2.0.0" = _5cgTONdy;
         "pkg-2.0.1" = _VeA51U2Q;
-        "default" = _VeA51U2Q;
+        "pkg-2.1.0" = _e6er90Qc;
+        "pkg-2.1.1" = _gyssFSUH;
+        "default" = _gyssFSUH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bury-me-deep";

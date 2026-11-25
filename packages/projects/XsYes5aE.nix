@@ -86,6 +86,16 @@ let
             "file" = "enhanced-operator-utilities-2.1.0+mc26.2.jar";
             "hash" = "sha512-+wWTfNVVQnLOqhDBQGGaJtWh8neNUNkodYsz0LB1wi6vHBtMwbRsX3sLjYj8ZZ8F0AjbmvJdkWZyKbahvmQm3g==";
         };
+        _oo3rnRuT = {
+            "id" = "oo3rnRuT";
+            "file" = "enhanced-operator-utilities-3.0.0.jar";
+            "hash" = "sha512-m0Ux8pPtt1FGG9um1WHxttQNj7a1lq44gCDaBChVPL/xoLlmf/3Jt36M73RMtpSRJIW7euLhWNag1z2MgNJI7g==";
+        };
+        _vYxCcFGa = {
+            "id" = "vYxCcFGa";
+            "file" = "enhanced-operator-utilities-3.1.0.jar";
+            "hash" = "sha512-KrHQmHokUENsx9InKru5lLWRuvjtbOTLPwZVqPajWPxToRc/SQbiFnMvrnRHtOxGvZPOVFzlJzVzvlC419K3DA==";
+        };
     in {
         "768Z3TJs" = _768Z3TJs;
         "2yZallAs" = _2yZallAs;
@@ -104,6 +114,8 @@ let
         "WDvUGLC6" = _WDvUGLC6;
         "skXoW82K" = _skXoW82K;
         "eCie1qWn" = _eCie1qWn;
+        "oo3rnRuT" = _oo3rnRuT;
+        "vYxCcFGa" = _vYxCcFGa;
         "fabric-1.21.5" = _KsVJhYGa;
         "fabric-1.21.6" = _KsVJhYGa;
         "fabric-1.21" = _YHqTIeDN;
@@ -116,10 +128,16 @@ let
         "fabric-1.21.9" = _KsVJhYGa;
         "fabric-1.21.10" = _KsVJhYGa;
         "fabric-1.21.11" = _KsVJhYGa;
-        "fabric-26.1" = _skXoW82K;
-        "fabric-26.1.1" = _skXoW82K;
-        "fabric-26.1.2" = _skXoW82K;
-        "fabric-26.2" = _eCie1qWn;
+        "fabric-26.1" = _vYxCcFGa;
+        "fabric-26.1.1" = _vYxCcFGa;
+        "fabric-26.1.2" = _vYxCcFGa;
+        "fabric-26.2" = _vYxCcFGa;
+        "fabric-26.3" = _vYxCcFGa;
+        "quilt-26.3" = _vYxCcFGa;
+        "quilt-26.2" = _vYxCcFGa;
+        "quilt-26.1.2" = _vYxCcFGa;
+        "quilt-26.1.1" = _vYxCcFGa;
+        "quilt-26.1" = _vYxCcFGa;
         "pkg-1.0.0+mc1.21.5" = _768Z3TJs;
         "pkg-1.0.1+mc1.21.5" = _2yZallAs;
         "pkg-1.0.1+mc1.21.6" = _7tc0hWVy;
@@ -137,7 +155,9 @@ let
         "pkg-2.0.0+mc26.1.2" = _WDvUGLC6;
         "pkg-2.1.0+mc26.1.2" = _skXoW82K;
         "pkg-2.1.0+mc26.2" = _eCie1qWn;
-        "default" = _eCie1qWn;
+        "pkg-3.0.0+mc26.3" = _oo3rnRuT;
+        "pkg-3.1.0+mc26.3" = _vYxCcFGa;
+        "default" = _vYxCcFGa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhanced-operator-utilities";

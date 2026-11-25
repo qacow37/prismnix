@@ -36,6 +36,11 @@ let
             "file" = "integrated_stronghold-1.1.4+1.21.1-neoforge.jar";
             "hash" = "sha512-5hAa888etYIyrTCp+bk26+coy+9oFlOymO2taWlS0AjpqK3gOiOpttqz0V6JA0MK68obDq+nwT2doGDhlSxuZA==";
         };
+        _DGgZTbjy = {
+            "id" = "DGgZTbjy";
+            "file" = "integrated_stronghold-1.2.0+1.21.1-neoforge.jar";
+            "hash" = "sha512-VESQXb5jDsNCcdTri8z5ASqwuJKq+ufV1sy8OkSYATWknn4zuTnvzh+P/6tOpO0JeX6JSjPI5Ru4htvn8NMZVw==";
+        };
     in {
         "GPP0bSOb" = _GPP0bSOb;
         "jzfW4S9R" = _jzfW4S9R;
@@ -44,12 +49,13 @@ let
         "Lti02S2N" = _Lti02S2N;
         "HX8UIG5u" = _HX8UIG5u;
         "GkHH2Wqj" = _GkHH2Wqj;
+        "DGgZTbjy" = _DGgZTbjy;
         "forge-1.18.2" = _GPP0bSOb;
         "forge-1.19.2" = _jzfW4S9R;
         "forge-1.20.1" = _HX8UIG5u;
         "fabric-1.20.1" = _Lti02S2N;
         "neoforge-1.20.1" = _HX8UIG5u;
-        "neoforge-1.21.1" = _GkHH2Wqj;
+        "neoforge-1.21.1" = _DGgZTbjy;
         "pkg-1.0.0+1.18.2" = _GPP0bSOb;
         "pkg-1.0.0+1.19.2" = _jzfW4S9R;
         "pkg-1.1.0+1.20.1-fabric" = _gKOdrjS9;
@@ -57,7 +63,8 @@ let
         "pkg-1.1.1+1.20.1-fabric" = _Lti02S2N;
         "pkg-1.1.1+1.20.1-forge" = _HX8UIG5u;
         "pkg-1.1.4+1.21.1-neoforge" = _GkHH2Wqj;
-        "default" = _GkHH2Wqj;
+        "pkg-1.2.0+1.21.1-neoforge" = _DGgZTbjy;
+        "default" = _DGgZTbjy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "integrated-stronghold";

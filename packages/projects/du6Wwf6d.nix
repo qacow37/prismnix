@@ -176,6 +176,11 @@ let
             "file" = "better-bats-1.0.1+1.21.11.jar";
             "hash" = "sha512-5CSL/vSsH8nPEbne3a6ZahKKU37nawDOFutzXpK5xRZKpqqzsEvKbUwezqo1WsSD8nKMMtVZCDSBU/NpmfCUWA==";
         };
+        _56dZngSK = {
+            "id" = "56dZngSK";
+            "file" = "better-bats-1.0.2+1.21.11.jar";
+            "hash" = "sha512-YJCZXq/vzr2eBJITAXzO8Sq9EU/pbKhCpGwf/IADoTIoAbukgPUAILOMF2sy0HHOVdm49PwERHi274Z887k0RQ==";
+        };
     in {
         "a00mlayB" = _a00mlayB;
         "3thmdKQU" = _3thmdKQU;
@@ -212,6 +217,7 @@ let
         "GmmiAvWa" = _GmmiAvWa;
         "V6CD4hjl" = _V6CD4hjl;
         "ikCiblVz" = _ikCiblVz;
+        "56dZngSK" = _56dZngSK;
         "fabric-26.1" = _n2wqdIPs;
         "fabric-26.1.1" = _3thmdKQU;
         "fabric-26.1.2" = _kNo4Ut5z;
@@ -226,7 +232,7 @@ let
         "fabric-26.3" = _CAtQpFZj;
         "fabric-1.20.1" = _GmmiAvWa;
         "fabric-1.21.1" = _V6CD4hjl;
-        "fabric-1.21.11" = _ikCiblVz;
+        "fabric-1.21.11" = _56dZngSK;
         "pkg-1.0.0+build.2" = _a00mlayB;
         "pkg-1.1.0+build.1" = _3thmdKQU;
         "pkg-1.1.1+build.2" = _Tat3pmYz;
@@ -262,7 +268,8 @@ let
         "pkg-1.0.1+1.20.1" = _GmmiAvWa;
         "pkg-1.0.1+1.21.1" = _V6CD4hjl;
         "pkg-1.0.1+1.21.11" = _ikCiblVz;
-        "default" = _ikCiblVz;
+        "pkg-1.0.2+1.21.11" = _56dZngSK;
+        "default" = _56dZngSK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vo-better-bats";

@@ -366,6 +366,46 @@ let
             "file" = "core_utilities-fabric-1.21.1-2.0.3.jar";
             "hash" = "sha512-5efGoxqRna/cm9dF0njAJdxIMsDi0wXs+So9L28/uqIupPlNKPHj4Qn6AEVSC3IYQJ+TWObs0jbpBFG0mybTWQ==";
         };
+        _vAXkuWdv = {
+            "id" = "vAXkuWdv";
+            "file" = "core_utilities-fabric-1.20.1-2.0.4.jar";
+            "hash" = "sha512-me+Gzgtma76vkt/N9K4VYbclolhSqTx7yKZryeHBF156xQTgmw2nLptNkUDzPhjArsd4W4JY5qx0CtjPPwPx5A==";
+        };
+        _x1bmI2C2 = {
+            "id" = "x1bmI2C2";
+            "file" = "core_utilities-fabric-1.21.1-2.0.4.jar";
+            "hash" = "sha512-/Gyi0mpq74AIGRYM7tSZ8yU5BZpLx6QNM9CPeAxurFYXH4h74z5mZTxhKh0RLPnDEvGtW0DH4ZmPZ2YrlWDSbg==";
+        };
+        _DifgzWf1 = {
+            "id" = "DifgzWf1";
+            "file" = "core_utilities-fabric-26.2-2.0.4.jar";
+            "hash" = "sha512-oxWJYbdV8759nMxKZnx1JWBWy/jnGw3fGx6M7pkXwNEor0+ir6oazAhAmNEvDngwzhObQR9J/ssM6ZjZFqVkDw==";
+        };
+        _M0RZLME7 = {
+            "id" = "M0RZLME7";
+            "file" = "core_utilities-fabric-26.3-2.0.4.jar";
+            "hash" = "sha512-bkzVV20jVMUaYYTb+9zQa2jj/97HFvCZbx2IUTppR0QstMZ4TnWo7uztnh7f3MJc5MadCSQhbgQFZG3v7Q0igA==";
+        };
+        _wTCKIoRv = {
+            "id" = "wTCKIoRv";
+            "file" = "core_utilities-forge-1.20.1-2.0.4.jar";
+            "hash" = "sha512-b48S6b3LXX6eOd+SjS2GaSOSmWc/7fz+n9AJdNL4GJGJhY4ia0ba9lziT6TGg3jKc1knyS8qfVhCo009/AwZGA==";
+        };
+        _5s0tMYPP = {
+            "id" = "5s0tMYPP";
+            "file" = "core_utilities-neoforge-1.21.1-2.0.4.jar";
+            "hash" = "sha512-N/ZaeQf1Q39vsXfbvF4mqdgNYoXMuVzjHwbE5uFItxLImWUE9sy6KzFiN/apjYxH8ecbL4Tr2qy7sASeFmJ/PQ==";
+        };
+        _au5fyXtw = {
+            "id" = "au5fyXtw";
+            "file" = "core_utilities-neoforge-26.2-2.0.4.jar";
+            "hash" = "sha512-t27T4g7Iv1DsxZcdH/zr9hVhIpOv3MYzeYUb9CQuX/q6mLOU9rFgM5rnK86LtQJkMDZmrmrJHMGKURGIumRZ7g==";
+        };
+        _gCZRM604 = {
+            "id" = "gCZRM604";
+            "file" = "core_utilities-neoforge-26.3-2.0.4.jar";
+            "hash" = "sha512-MuVyogjdMlkTwxkAobR/lSeMm1wM5Ehp0HFbjdv5F6JSQF4jOahm4ETlUYw1FV89RJsOx2yWIUsSakJ4AbDBRg==";
+        };
     in {
         "WsoesotD" = _WsoesotD;
         "JpcFW7O6" = _JpcFW7O6;
@@ -440,18 +480,28 @@ let
         "9unuormG" = _9unuormG;
         "NhkIrQ3v" = _NhkIrQ3v;
         "1o7W4qjV" = _1o7W4qjV;
-        "neoforge-1.21.1" = _k7JqOtXh;
+        "vAXkuWdv" = _vAXkuWdv;
+        "x1bmI2C2" = _x1bmI2C2;
+        "DifgzWf1" = _DifgzWf1;
+        "M0RZLME7" = _M0RZLME7;
+        "wTCKIoRv" = _wTCKIoRv;
+        "5s0tMYPP" = _5s0tMYPP;
+        "au5fyXtw" = _au5fyXtw;
+        "gCZRM604" = _gCZRM604;
+        "neoforge-1.21.1" = _5s0tMYPP;
         "neoforge-1.20.1" = _w8KFNHUA;
         "neoforge-1.21.5" = _AbtKYYuG;
         "neoforge-1.21.8" = _uXW85kWF;
-        "neoforge-26.2" = _lsUzbReU;
+        "neoforge-26.2" = _au5fyXtw;
+        "neoforge-26.3" = _gCZRM604;
         "forge-1.16.5" = _aDTEv0Wc;
         "forge-1.18.2" = _1VkVqEDn;
         "forge-1.19.2" = _D1RY5h4a;
-        "forge-1.20.1" = _NhkIrQ3v;
-        "fabric-1.20.1" = _9unuormG;
-        "fabric-1.21.1" = _1o7W4qjV;
-        "fabric-26.2" = _FEKpv25Z;
+        "forge-1.20.1" = _wTCKIoRv;
+        "fabric-1.20.1" = _vAXkuWdv;
+        "fabric-1.21.1" = _x1bmI2C2;
+        "fabric-26.2" = _DifgzWf1;
+        "fabric-26.3" = _M0RZLME7;
         "pkg-1.0.0b" = _WsoesotD;
         "pkg-1.0.0" = _p6I6HwIW;
         "pkg-1.1.0" = _dpGnvMsP;
@@ -489,7 +539,15 @@ let
         "pkg-2.0.3+1.20.1-fabric" = _9unuormG;
         "pkg-2.0.3+1.20.1-forge" = _NhkIrQ3v;
         "pkg-2.0.3+1.21.1-fabric" = _1o7W4qjV;
-        "default" = _1o7W4qjV;
+        "pkg-2.0.4+1.20.1-fabric" = _vAXkuWdv;
+        "pkg-2.0.4+1.21.1-fabric" = _x1bmI2C2;
+        "pkg-2.0.4+26.2-fabric" = _DifgzWf1;
+        "pkg-2.0.4+26.3-fabric" = _M0RZLME7;
+        "pkg-2.0.4+1.20.1-forge" = _wTCKIoRv;
+        "pkg-2.0.4+1.21.1-neoforge" = _5s0tMYPP;
+        "pkg-2.0.4+26.2-neoforge" = _au5fyXtw;
+        "pkg-2.0.4+26.3-neoforge" = _gCZRM604;
+        "default" = _gCZRM604;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "core-utilities";

@@ -126,6 +126,16 @@ let
             "file" = "asymmetricbattles-neoforge-1.4.4+1.21.1.jar";
             "hash" = "sha512-VW/OLxIGmM9yNrSKuwbMabvHb+u1M9c4kJ+j+hvYFc6zCZoXN9gZnqLvvA30xZYXEBtKL0O09gwNVEaYQqBjFg==";
         };
+        _4VjmS7Xa = {
+            "id" = "4VjmS7Xa";
+            "file" = "asymmetricbattles-fabric-1.5.0+1.21.1.jar";
+            "hash" = "sha512-Me1hlKC4/0/FotxLtSHUX+QbGti/ktiEVRU561gEj4jxDam1dSP+2I54VzcwdDpElIGj4/0OPZdUuc8zUWMdHw==";
+        };
+        _hEkcu2gd = {
+            "id" = "hEkcu2gd";
+            "file" = "asymmetricbattles-neoforge-1.5.0+1.21.1.jar";
+            "hash" = "sha512-duPYLo81+PHw4KLenON8qvG7bDUGkqJxZb1x7zHIam11qJMYPJnuQ0AM1KDg05lJ0rQnhuoWMZlOMk/vSgpW0w==";
+        };
     in {
         "aBTbXzql" = _aBTbXzql;
         "zVxAFs2z" = _zVxAFs2z;
@@ -152,8 +162,10 @@ let
         "2DdqArqO" = _2DdqArqO;
         "4tXgx64l" = _4tXgx64l;
         "sKlBadYU" = _sKlBadYU;
-        "fabric-1.21.1" = _4tXgx64l;
-        "neoforge-1.21.1" = _sKlBadYU;
+        "4VjmS7Xa" = _4VjmS7Xa;
+        "hEkcu2gd" = _hEkcu2gd;
+        "fabric-1.21.1" = _4VjmS7Xa;
+        "neoforge-1.21.1" = _hEkcu2gd;
         "pkg-1.0.0+1.21.1" = _zVxAFs2z;
         "pkg-1.1.0+1.21.1" = _wrKMeWD8;
         "pkg-1.2.0+1.21.1" = _VjMs0qhA;
@@ -167,7 +179,8 @@ let
         "pkg-1.4.2+1.21.1" = _8SKIm6Cl;
         "pkg-1.4.3+1.21.1" = _2DdqArqO;
         "pkg-1.4.4+1.21.1" = _sKlBadYU;
-        "default" = _sKlBadYU;
+        "pkg-1.5.0+1.21.1" = _hEkcu2gd;
+        "default" = _hEkcu2gd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "asymmetric-battles-api";

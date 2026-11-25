@@ -496,6 +496,26 @@ let
             "file" = "fowlplay-1.2.3+1.20.1-forge.jar";
             "hash" = "sha512-37Wx8s/HQS4OTDbl54AvsXMNlxI9D0M3lRIXoHHtcszMP89zFyqO8NzDUlTFvPYc0n6S7wNqFG3O4xSbVms0mA==";
         };
+        _aKZvDnSv = {
+            "id" = "aKZvDnSv";
+            "file" = "fowlplay-1.2.4+1.21.1-fabric.jar";
+            "hash" = "sha512-vTuAtbrRh2FxQ0b3yqHJhLiRryRrAfPQOak/6qhwjJgVEzHTdr4oFewtY+nZ+i9zSt3MrkQuwDoUfeRUUwQ1Rw==";
+        };
+        _AYohpwY8 = {
+            "id" = "AYohpwY8";
+            "file" = "fowlplay-1.2.4+1.21.1-neoforge.jar";
+            "hash" = "sha512-SClMu2dWT0xnI1lvIjxbB5jIMjsWETlkhbQ3dJTLdFul6xrF1gdUV7dOMKFsDRZnUXoj4Kc5NMo1UVLc7cQ5gg==";
+        };
+        _jz0l1dXa = {
+            "id" = "jz0l1dXa";
+            "file" = "fowlplay-1.2.4+1.20.1-fabric.jar";
+            "hash" = "sha512-p3hiGFJ8Ba67i2UuHiajh5lgaCWTdXp+jTIUQs9AphuiePOjK6WwjEulQgEyeF0WnXCXQXNODOJfPGGckspVuQ==";
+        };
+        _IPhUUVmH = {
+            "id" = "IPhUUVmH";
+            "file" = "fowlplay-1.2.4+1.20.1-forge.jar";
+            "hash" = "sha512-M/1x/O50CwXbx8Kml+8obqiD85vxwTALeH9bNFmNhdbfpe9qp8d4gfXtQSmvYLKqyZ6Ecm583fJazQFcJIDV9g==";
+        };
     in {
         "Unw1zJFy" = _Unw1zJFy;
         "QE9yhvxP" = _QE9yhvxP;
@@ -596,20 +616,24 @@ let
         "Ts6hKxB0" = _Ts6hKxB0;
         "siHXK749" = _siHXK749;
         "R0J5mu1D" = _R0J5mu1D;
-        "quilt-1.20.1" = _1MoqsOL0;
+        "aKZvDnSv" = _aKZvDnSv;
+        "AYohpwY8" = _AYohpwY8;
+        "jz0l1dXa" = _jz0l1dXa;
+        "IPhUUVmH" = _IPhUUVmH;
+        "quilt-1.20.1" = _jz0l1dXa;
         "quilt-1.21" = _n219zwp6;
-        "quilt-1.21.1" = _v2I2cVxZ;
+        "quilt-1.21.1" = _aKZvDnSv;
         "quilt-1.20" = _LLYHa5LG;
         "fabric-1.21" = _n219zwp6;
-        "fabric-1.21.1" = _Ts6hKxB0;
+        "fabric-1.21.1" = _aKZvDnSv;
         "fabric-1.20" = _LLYHa5LG;
-        "fabric-1.20.1" = _siHXK749;
+        "fabric-1.20.1" = _jz0l1dXa;
         "neoforge-1.21" = _o3xdxJLk;
-        "neoforge-1.21.1" = _kZyPjCmU;
+        "neoforge-1.21.1" = _AYohpwY8;
         "neoforge-1.20" = _oV0Psung;
         "neoforge-1.20.1" = _oV0Psung;
         "forge-1.20" = _vMohfKyD;
-        "forge-1.20.1" = _R0J5mu1D;
+        "forge-1.20.1" = _IPhUUVmH;
         "pkg-0.3.0-alpha" = _Unw1zJFy;
         "pkg-0.3.1-alpha" = _QE9yhvxP;
         "pkg-0.4.0-alpha" = _b8F9EMOW;
@@ -709,7 +733,11 @@ let
         "pkg-1.2.3+1.21.1-fabric" = _Ts6hKxB0;
         "pkg-1.2.3+1.20.1-fabric" = _siHXK749;
         "pkg-1.2.3+1.20.1-forge" = _R0J5mu1D;
-        "default" = _R0J5mu1D;
+        "pkg-1.2.4+1.21.1-fabric" = _aKZvDnSv;
+        "pkg-1.2.4+1.21.1-neoforge" = _AYohpwY8;
+        "pkg-1.2.4+1.20.1-fabric" = _jz0l1dXa;
+        "pkg-1.2.4+1.20.1-forge" = _IPhUUVmH;
+        "default" = _IPhUUVmH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fowlplay";

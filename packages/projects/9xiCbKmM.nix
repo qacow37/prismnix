@@ -41,6 +41,11 @@ let
             "file" = "create_aeronautics_throwable_rope_connector-0.5.0.jar";
             "hash" = "sha512-zfjrG12udGP8DcgjMaZH0AzD2EACK4kS9Do41pcOXcPp8hiqRWuNaJ507d/+2unEA8rK9QZLvfrV7xaP3RImyg==";
         };
+        _appTe0Pt = {
+            "id" = "appTe0Pt";
+            "file" = "create_aeronautics_throwable_rope_connector-0.5.1.jar";
+            "hash" = "sha512-I1c+S0/9NoUddmJ8+AaXUcCm6kPTS06upXIEcx8c6BcQSbr5CDmZX4O+Jew4L0H8Xaqma8Qy7nv1+gg/LtaAjQ==";
+        };
     in {
         "NnNISjDQ" = _NnNISjDQ;
         "G2rx3tql" = _G2rx3tql;
@@ -50,7 +55,8 @@ let
         "LgfYz6KC" = _LgfYz6KC;
         "EDzeTV17" = _EDzeTV17;
         "xWhHGjw5" = _xWhHGjw5;
-        "neoforge-1.21.1" = _xWhHGjw5;
+        "appTe0Pt" = _appTe0Pt;
+        "neoforge-1.21.1" = _appTe0Pt;
         "pkg-0.2.1" = _NnNISjDQ;
         "pkg-0.2.2" = _G2rx3tql;
         "pkg-0.3.0" = _eHt4XwTE;
@@ -59,7 +65,8 @@ let
         "pkg-0.4.2" = _LgfYz6KC;
         "pkg-0.4.3" = _EDzeTV17;
         "pkg-0.5.0" = _xWhHGjw5;
-        "default" = _xWhHGjw5;
+        "pkg-0.5.1" = _appTe0Pt;
+        "default" = _appTe0Pt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-aeronautics-throwable-rope-connector";

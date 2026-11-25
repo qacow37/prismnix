@@ -936,6 +936,11 @@ let
             "file" = "fsit-2.9.2+mc1.21.11.jar";
             "hash" = "sha512-c97xtqrGlXO1YINIM3e6C5NEbVvC1JBLG9gorKkP3Kc5koYrOpHXjgpOwsbo6oCIvpZ0L/jB6WMXAPYrz26chQ==";
         };
+        _dF43O4ib = {
+            "id" = "dF43O4ib";
+            "file" = "fsit-3.1.0-alpha.2+mc26.4.jar";
+            "hash" = "sha512-C0Sdzpwj60elyO/dvo1RbXvQUK3Hv/mFvHgvKwMQzfqcgPH9e3Ek0LN5jH7b6lEpP9qv2+W89EvB7Lw4Eeyb2Q==";
+        };
     in {
         "iSAbm3fn" = _iSAbm3fn;
         "XJA8Vu8c" = _XJA8Vu8c;
@@ -1124,6 +1129,7 @@ let
         "EXprJJb4" = _EXprJJb4;
         "xNvE2Rlr" = _xNvE2Rlr;
         "nvkxh8yZ" = _nvkxh8yZ;
+        "dF43O4ib" = _dF43O4ib;
         "fabric-1.19" = _S1IZ4BNV;
         "fabric-1.19.1" = _S1IZ4BNV;
         "fabric-1.19.2" = _S1IZ4BNV;
@@ -1154,6 +1160,7 @@ let
         "fabric-26.1.2" = _kzErHtqg;
         "fabric-26.2" = _iZqCa2Dh;
         "fabric-26.3" = _vAcAfhhu;
+        "fabric-26.4-pre-1" = _dF43O4ib;
         "quilt-1.19" = _S1IZ4BNV;
         "quilt-1.19.1" = _S1IZ4BNV;
         "quilt-1.19.2" = _S1IZ4BNV;
@@ -1370,7 +1377,8 @@ let
         "pkg-2.9.2+mc1.21.6" = _EXprJJb4;
         "pkg-2.9.2+mc1.21.9" = _xNvE2Rlr;
         "pkg-2.9.2+mc1.21.11" = _nvkxh8yZ;
-        "default" = _nvkxh8yZ;
+        "pkg-3.1.0-alpha.2+mc26.4-pre-1" = _dF43O4ib;
+        "default" = _dF43O4ib;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fsit";

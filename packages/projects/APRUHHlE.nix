@@ -31,6 +31,11 @@ let
             "file" = "MinestuckCompat-1.5.0+1.21.1.jar";
             "hash" = "sha512-5OB4UzzNikdYrfJjkht2bFKpev4swM3IMUYCFZrFnhajLMeW0kWoeYNNhVEty+oTSa358QBlwp3jya4mAaUMfw==";
         };
+        _VGKw1FwV = {
+            "id" = "VGKw1FwV";
+            "file" = "MinestuckCompat-1.6.0+1.21.1.jar";
+            "hash" = "sha512-42jxTa9z9exi9n89S+lHfWmNIKhXyvudAzAtxZxGSaiKZNeyoMCcDh83Yvie3+N8iTJJLvM5KAKtjDxv0JEVAA==";
+        };
     in {
         "YtUxyA5Z" = _YtUxyA5Z;
         "xZ44Yv2l" = _xZ44Yv2l;
@@ -38,14 +43,16 @@ let
         "r2FpvqyH" = _r2FpvqyH;
         "6mvgozFw" = _6mvgozFw;
         "xxz70ui4" = _xxz70ui4;
-        "neoforge-1.21.1" = _xxz70ui4;
+        "VGKw1FwV" = _VGKw1FwV;
+        "neoforge-1.21.1" = _VGKw1FwV;
         "pkg-1.3.1+1.21.1" = _YtUxyA5Z;
         "pkg-1.3.2+1.21.1" = _xZ44Yv2l;
         "pkg-1.3.3+1.21.1" = _nn8IrNOL;
         "pkg-1.4.0+1.21.1" = _r2FpvqyH;
         "pkg-1.4.1+1.21.1" = _6mvgozFw;
         "pkg-1.5.0+1.21.1" = _xxz70ui4;
-        "default" = _xxz70ui4;
+        "pkg-1.6.0+1.21.1" = _VGKw1FwV;
+        "default" = _VGKw1FwV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minestuck-compat";

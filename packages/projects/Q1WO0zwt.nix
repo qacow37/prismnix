@@ -41,6 +41,26 @@ let
             "file" = "PlasmoVoiceMessages-fabric-1.21-1.2.0.jar";
             "hash" = "sha512-iNGm9tYAXhTrAREEhghSRjfuJ6Wi4Kdx2PVAdCWZSj8hDHSQ03lsPJLchz0YVvESoZZaBGO+o4oVS4pj0o6Z9Q==";
         };
+        _fSoSxNPK = {
+            "id" = "fSoSxNPK";
+            "file" = "voicemessages-1.2.0.jar";
+            "hash" = "sha512-KUy/wKqXSBZvEJGE6UIgXJdeagSyZnnsJ6RMMsRVKvEHTNM6I9EC206XRqhU0/VNsHZ4Hos1BC47ak4WBiPiTw==";
+        };
+        _AA9HjE6V = {
+            "id" = "AA9HjE6V";
+            "file" = "voicemessages-1.2.0.jar";
+            "hash" = "sha512-eZkOe00gb1dewjGfVRpYRsFZ4I5YFGph5mRfOS5bgZWvpqWMx9us6bPeBzR3Q/HH2Ipn4Rb6jcTsG6ufWuSKYQ==";
+        };
+        _PfuRSPwc = {
+            "id" = "PfuRSPwc";
+            "file" = "VoiceMessagesPlugin-1.0.0.jar";
+            "hash" = "sha512-edUzRGIxj3JVEv4nmqVm0lYpCSGua4PU9dRm0evoivwcvRzu+dlskFwYw3DKLcGcJ2RP/FDTs2KQ5MFW1H7pYQ==";
+        };
+        _Mf6wpkKF = {
+            "id" = "Mf6wpkKF";
+            "file" = "VoiceMessagesPlugin-1.0.0.jar";
+            "hash" = "sha512-97Jzzm5PEbvqjCwhuFyfrfp0gxiOxgw+8UM47k/gWf7iNho+TKXvnKCZ3qp0noZHlPhnMkg1Pd5sP8lN1Vvvrw==";
+        };
     in {
         "YgJflWzU" = _YgJflWzU;
         "5JFYHNf3" = _5JFYHNf3;
@@ -50,6 +70,10 @@ let
         "IOHTOMqB" = _IOHTOMqB;
         "ML7T0YdT" = _ML7T0YdT;
         "z0oZNJlX" = _z0oZNJlX;
+        "fSoSxNPK" = _fSoSxNPK;
+        "AA9HjE6V" = _AA9HjE6V;
+        "PfuRSPwc" = _PfuRSPwc;
+        "Mf6wpkKF" = _Mf6wpkKF;
         "fabric-1.21.11" = _z0oZNJlX;
         "fabric-1.21" = _z0oZNJlX;
         "fabric-1.21.1" = _z0oZNJlX;
@@ -62,6 +86,8 @@ let
         "fabric-1.21.8" = _z0oZNJlX;
         "fabric-1.21.9" = _z0oZNJlX;
         "fabric-1.21.10" = _z0oZNJlX;
+        "fabric-26.2" = _fSoSxNPK;
+        "fabric-26.3" = _AA9HjE6V;
         "paper-1.21" = _ML7T0YdT;
         "paper-1.21.1" = _ML7T0YdT;
         "paper-1.21.2" = _ML7T0YdT;
@@ -74,6 +100,8 @@ let
         "paper-1.21.9" = _ML7T0YdT;
         "paper-1.21.10" = _ML7T0YdT;
         "paper-1.21.11" = _ML7T0YdT;
+        "paper-26.2" = _PfuRSPwc;
+        "paper-26.3" = _Mf6wpkKF;
         "purpur-1.21" = _ML7T0YdT;
         "purpur-1.21.1" = _ML7T0YdT;
         "purpur-1.21.2" = _ML7T0YdT;
@@ -86,10 +114,13 @@ let
         "purpur-1.21.9" = _ML7T0YdT;
         "purpur-1.21.10" = _ML7T0YdT;
         "purpur-1.21.11" = _ML7T0YdT;
+        "purpur-26.2" = _PfuRSPwc;
+        "purpur-26.3" = _Mf6wpkKF;
         "pkg-1.0.0" = _5JFYHNf3;
         "pkg-1.1.0" = _g2kFuzrR;
         "pkg-1.2.0" = _z0oZNJlX;
-        "default" = _z0oZNJlX;
+        "pkg-1.3.0" = _Mf6wpkKF;
+        "default" = _Mf6wpkKF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "plasmo-voice-messages";

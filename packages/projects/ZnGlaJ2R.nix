@@ -96,6 +96,16 @@ let
             "file" = "personalspace-1.1.0.jar";
             "hash" = "sha512-kSLNSMaGCICEiEdCUeSOmrv6RU4qFzQokMJ0ihhCDGRQt6lzPGAsPLQ0k2cciR+XAtR5ChbhpxCUZn+Uf8unLQ==";
         };
+        _4jnn1D6j = {
+            "id" = "4jnn1D6j";
+            "file" = "personalspace-1.1.1.jar";
+            "hash" = "sha512-gm2vr4zl3Cgg2IZ2qS08rSQojsVsaZXVk6mmzXyl21LUYUybKU+anSOqYZHQyZvjVKPtfDOjgEcskWs//p1eWA==";
+        };
+        _LGyx9YZj = {
+            "id" = "LGyx9YZj";
+            "file" = "personalspace-1.0.42.jar";
+            "hash" = "sha512-X7UgHOqPQIOMxszOLVoWCY4t9xHmy+JcLa+2eKWQiPcyXknBCQ4xvM9eYFpEQQ/kVwayl6vJTzmvqZ7kFx0WwQ==";
+        };
     in {
         "4dTO5cYV" = _4dTO5cYV;
         "mhYd8RtX" = _mhYd8RtX;
@@ -116,7 +126,9 @@ let
         "K00RScCO" = _K00RScCO;
         "xkyWqLCr" = _xkyWqLCr;
         "m05LSmMI" = _m05LSmMI;
-        "forge-1.7.10" = _m05LSmMI;
+        "4jnn1D6j" = _4jnn1D6j;
+        "LGyx9YZj" = _LGyx9YZj;
+        "forge-1.7.10" = _LGyx9YZj;
         "pkg-1.0.23" = _4dTO5cYV;
         "pkg-1.0.24" = _mhYd8RtX;
         "pkg-1.0.25" = _OGCbkxrn;
@@ -136,7 +148,9 @@ let
         "pkg-1.0.40" = _K00RScCO;
         "pkg-1.0.41" = _xkyWqLCr;
         "pkg-1.1.0" = _m05LSmMI;
-        "default" = _m05LSmMI;
+        "pkg-1.1.1" = _4jnn1D6j;
+        "pkg-1.0.42" = _LGyx9YZj;
+        "default" = _LGyx9YZj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "personal-space";

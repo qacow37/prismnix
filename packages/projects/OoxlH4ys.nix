@@ -41,6 +41,11 @@ let
             "file" = "Bare Metals x Create Aeronautics.zip";
             "hash" = "sha512-4gwjy5wK4Muc40yAd4pkG0wH7XH2ToGmky5ERtXa8+xnxDiXkx/8m48Jw6Oz+lPusppA6kv2LoUztqftEy0yhw==";
         };
+        _WXwMAytI = {
+            "id" = "WXwMAytI";
+            "file" = "Bare Metals x Create Aeronautics.zip";
+            "hash" = "sha512-68ZoMIH8s7vnke1eRqTSAs+PynQbdGj7KqqlxCMXL35qcEgJC+1IIwcAst2Onft6Yu5iZ3QsAX+mIgGhyOoVmw==";
+        };
     in {
         "sirztQQr" = _sirztQQr;
         "n1eHX9ZK" = _n1eHX9ZK;
@@ -50,7 +55,8 @@ let
         "H0SZjL4M" = _H0SZjL4M;
         "HuhMvjlE" = _HuhMvjlE;
         "u4vgiQ3w" = _u4vgiQ3w;
-        "minecraft-1.21.1" = _u4vgiQ3w;
+        "WXwMAytI" = _WXwMAytI;
+        "minecraft-1.21.1" = _WXwMAytI;
         "pkg-0.5" = _sirztQQr;
         "pkg-0.5.1" = _n1eHX9ZK;
         "pkg-0.5.2" = _IpHRn668;
@@ -59,7 +65,8 @@ let
         "pkg-0.5.5" = _H0SZjL4M;
         "pkg-0.5.6" = _HuhMvjlE;
         "pkg-0.5.7" = _u4vgiQ3w;
-        "default" = _u4vgiQ3w;
+        "pkg-0.5.8" = _WXwMAytI;
+        "default" = _WXwMAytI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bare-metals-x-create-aeronautics";

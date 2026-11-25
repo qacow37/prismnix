@@ -196,6 +196,41 @@ let
             "file" = "bodycam-neoforge-1.21.1-3.0.jar";
             "hash" = "sha512-ofm6mPHrqfB3iq5w3/es9O9cUdohqI9a1Zs7nM8Pu2kjStlSXmZtf0ed2t5MlZ70uUAALoyIbAvHJPkWq+4shw==";
         };
+        _kpj1nPj2 = {
+            "id" = "kpj1nPj2";
+            "file" = "bodycam-forge-1.20.1-3.0.1.jar";
+            "hash" = "sha512-FdI2KM8tQHdcLOJMgnY+I0c1uQLGYIbJEfVLofaWxgL2XIaf8/duezBo3Wcd9i00xn12CkD37M5hONJ3GiMPww==";
+        };
+        _p5iPc79i = {
+            "id" = "p5iPc79i";
+            "file" = "bodycam-fabric-1.21.1-3.0.1.jar";
+            "hash" = "sha512-q6iJQBZZ4Zx2pnDYlb5lw1eqKOW5ZYQW7ArMmR5xnIMvM4Gmca1emylyZk7CNXdikzwjxvEBiLtxLFrnWUEClw==";
+        };
+        _NDK0kPEw = {
+            "id" = "NDK0kPEw";
+            "file" = "bodycam-neoforge-1.21.1-3.0.1.jar";
+            "hash" = "sha512-0h3N4XfoLHPDKjKMU2ivllp3xHE38xV5BllwN1lZO49h+MoObiyrFMrCY/G6mvSzBVyQB9Q7m/E7wvicKFWJlQ==";
+        };
+        _BsYILLHw = {
+            "id" = "BsYILLHw";
+            "file" = "bodycam-fabric-1.21.11-3.0.1.jar";
+            "hash" = "sha512-Kujzr3qCz8H4AFKGKyinsCQHr5IKse7Jf6BAYc/mVmW9M+PUwKqVmHDTrWKo2fx8wf0r5/gDzTMTbSdrkJgP+w==";
+        };
+        _JRtbWrdm = {
+            "id" = "JRtbWrdm";
+            "file" = "bodycam-neoforge-1.21.11-3.0.1.jar";
+            "hash" = "sha512-Z314ygtTlT9QCTRhkyT/eAKcKddR252/fzYimk88eA3khaQoPpZwjM0BJpCYjC+lT/EHEBnQOmBqHlYt+x1wsw==";
+        };
+        _arjhcvgY = {
+            "id" = "arjhcvgY";
+            "file" = "bodycam-fabric-26.2-3.0.1.jar";
+            "hash" = "sha512-ujkpVaFC+RfzFykaQ/2cPLbBusCGSFiRFD16ZjUzLaMTx4h93kFppfyfPAIlib33AJGVLuavlVQrqxtnZ2yVgA==";
+        };
+        _Wb8X4qUl = {
+            "id" = "Wb8X4qUl";
+            "file" = "bodycam-neoforge-26.2-3.0.1.jar";
+            "hash" = "sha512-33U5ZoJ/Ytaw/P7TVwyOZCF0sfjTBz/+YLvmG4D5Z/EPzZpEyhLfoeUVMLy8+IlfX8bZmH1CSyOfZkplCgykQQ==";
+        };
     in {
         "Wtu074Nv" = _Wtu074Nv;
         "zDbvx54l" = _zDbvx54l;
@@ -236,9 +271,16 @@ let
         "RuBc7MyQ" = _RuBc7MyQ;
         "AwlL2bcp" = _AwlL2bcp;
         "gsydrOU5" = _gsydrOU5;
-        "forge-1.20.1" = _RuBc7MyQ;
+        "kpj1nPj2" = _kpj1nPj2;
+        "p5iPc79i" = _p5iPc79i;
+        "NDK0kPEw" = _NDK0kPEw;
+        "BsYILLHw" = _BsYILLHw;
+        "JRtbWrdm" = _JRtbWrdm;
+        "arjhcvgY" = _arjhcvgY;
+        "Wb8X4qUl" = _Wb8X4qUl;
+        "forge-1.20.1" = _kpj1nPj2;
         "fabric-1.20.1" = _DHlgeFBF;
-        "fabric-1.21.1" = _AwlL2bcp;
+        "fabric-1.21.1" = _p5iPc79i;
         "fabric-1.21.2" = _j6g3czf0;
         "fabric-1.21.3" = _iPYr6gwh;
         "fabric-1.21.4" = _wJQtJiMG;
@@ -248,8 +290,9 @@ let
         "fabric-1.21.8" = _lQ6chMhY;
         "fabric-1.21.9" = _71I1icLz;
         "fabric-1.21.10" = _S21P3KJm;
-        "fabric-1.21.11" = _2qRFxMYq;
-        "neoforge-1.21.1" = _gsydrOU5;
+        "fabric-1.21.11" = _BsYILLHw;
+        "fabric-26.2" = _arjhcvgY;
+        "neoforge-1.21.1" = _NDK0kPEw;
         "neoforge-1.21.2" = _iQJfd8ej;
         "neoforge-1.21.3" = _kCheyMgr;
         "neoforge-1.21.4" = _QD86Ww9M;
@@ -259,7 +302,8 @@ let
         "neoforge-1.21.8" = _byMvRHBu;
         "neoforge-1.21.9" = _o2YvKrTG;
         "neoforge-1.21.10" = _F4yk5mIF;
-        "neoforge-1.21.11" = _FNpeu2c1;
+        "neoforge-1.21.11" = _JRtbWrdm;
+        "neoforge-26.2" = _Wb8X4qUl;
         "pkg-1.1" = _Wtu074Nv;
         "pkg-1.2" = _5CWshxlA;
         "pkg-1.3" = _HIz1lTdr;
@@ -272,7 +316,8 @@ let
         "pkg-2.2" = _u5cmQUdu;
         "pkg-2.5" = _pG7uCk2w;
         "pkg-3.0" = _gsydrOU5;
-        "default" = _gsydrOU5;
+        "pkg-3.0.1" = _Wb8X4qUl;
+        "default" = _Wb8X4qUl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bodycam-mod";

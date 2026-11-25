@@ -381,6 +381,21 @@ let
             "file" = "Feesh-1.18.2+26.3-fabric.jar";
             "hash" = "sha512-2PzVG2FlecBqfaps0qbHDgNzfSAMlT5WPpz284PsL1h0PFPhsVkJCUaMj2JfnTnStGCsOlJQRPvh8tVNea8DWA==";
         };
+        _HGdHQ1vR = {
+            "id" = "HGdHQ1vR";
+            "file" = "Feesh-1.18.3+26.1-fabric.jar";
+            "hash" = "sha512-CklvJaVOAkAqxYjB40gtespmqVWk8LbDWmHkj3DBYvjCQXc+QD/w7P5zCnfrOqaRRZT+c80rHg/MKwCvD33lYg==";
+        };
+        _16KD1TLC = {
+            "id" = "16KD1TLC";
+            "file" = "Feesh-1.18.3+26.2-fabric.jar";
+            "hash" = "sha512-W5fhQUjbqasPaoccBzhdv/eSksJ48tdt2i3QfQ4m4gouM0HcArFmkpLLhTAn0cdWIT+aeF4xwXJ7qU/IbdwlYQ==";
+        };
+        _Jp4ijoRt = {
+            "id" = "Jp4ijoRt";
+            "file" = "Feesh-1.18.3+26.3-fabric.jar";
+            "hash" = "sha512-QvKFYpxjo4vlspQcvtG1wcZ9Io06MsSh+6i1EDMi+wTvhicyML3b0nW2CRqeIM6qB+85mpLyqxFRByqi6coHXg==";
+        };
     in {
         "QyxoHuE3" = _QyxoHuE3;
         "diPPvnBj" = _diPPvnBj;
@@ -458,13 +473,16 @@ let
         "qQW8fU9A" = _qQW8fU9A;
         "c9lfYrhF" = _c9lfYrhF;
         "hRbrbVmY" = _hRbrbVmY;
+        "HGdHQ1vR" = _HGdHQ1vR;
+        "16KD1TLC" = _16KD1TLC;
+        "Jp4ijoRt" = _Jp4ijoRt;
         "fabric-1.21.10" = _ERenz8sd;
         "fabric-1.21.11" = _NVA0897o;
-        "fabric-26.1" = _qQW8fU9A;
-        "fabric-26.1.1" = _qQW8fU9A;
-        "fabric-26.1.2" = _qQW8fU9A;
-        "fabric-26.2" = _c9lfYrhF;
-        "fabric-26.3" = _hRbrbVmY;
+        "fabric-26.1" = _HGdHQ1vR;
+        "fabric-26.1.1" = _HGdHQ1vR;
+        "fabric-26.1.2" = _HGdHQ1vR;
+        "fabric-26.2" = _16KD1TLC;
+        "fabric-26.3" = _Jp4ijoRt;
         "pkg-1.0.0-beta" = _QyxoHuE3;
         "pkg-1.1.0" = _diPPvnBj;
         "pkg-1.2.0" = _7hBaJ4N0;
@@ -493,7 +511,8 @@ let
         "pkg-1.18.0" = _CP4vlYgi;
         "pkg-1.18.1" = _x8Qgxk4d;
         "pkg-1.18.2" = _hRbrbVmY;
-        "default" = _hRbrbVmY;
+        "pkg-1.18.3" = _Jp4ijoRt;
+        "default" = _Jp4ijoRt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "feesh";

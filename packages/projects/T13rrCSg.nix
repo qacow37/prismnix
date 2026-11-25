@@ -126,6 +126,11 @@ let
             "file" = "blocky-outline-1.1.7-argon.jar";
             "hash" = "sha512-3mahf2dng6wZSdmeAOmzP6myZ9n04T6JW3MoE40xHRoOunh066XEPgwPX48VdjG7yWlQ1ERw04B1yS8iy6SB9g==";
         };
+        _VKf6todN = {
+            "id" = "VKf6todN";
+            "file" = "blocky-outline-1.1.8-hydro.jar";
+            "hash" = "sha512-7GkpX77yhvNseZ7BQXxeWzytsCaQm35OM9xaf0yGWMDFLY7APXXFev5eUu5bOZzT/MAXasas6NicLtRiQcV10g==";
+        };
     in {
         "4Pydq01j" = _4Pydq01j;
         "CYFLzhCc" = _CYFLzhCc;
@@ -152,6 +157,7 @@ let
         "mJApApSK" = _mJApApSK;
         "x8b4Fnow" = _x8b4Fnow;
         "8lG2FFj0" = _8lG2FFj0;
+        "VKf6todN" = _VKf6todN;
         "fabric-1.21.11" = _8lG2FFj0;
         "fabric-1.21.2" = _GhzBu5ds;
         "fabric-1.21.3" = _GhzBu5ds;
@@ -171,9 +177,9 @@ let
         "fabric-1.20.6" = _BVvJ3Yiq;
         "fabric-1.21" = _GhzBu5ds;
         "fabric-1.21.1" = _GhzBu5ds;
-        "fabric-26.1" = _KTa6geZO;
-        "fabric-26.1.1" = _KTa6geZO;
-        "fabric-26.1.2" = _KTa6geZO;
+        "fabric-26.1" = _VKf6todN;
+        "fabric-26.1.1" = _VKf6todN;
+        "fabric-26.1.2" = _VKf6todN;
         "fabric-1.19" = _ii1gAdCh;
         "fabric-1.19.1" = _ii1gAdCh;
         "fabric-1.19.2" = _ii1gAdCh;
@@ -203,7 +209,8 @@ let
         "pkg-1.1.6.1" = _mJApApSK;
         "pkg-1.1.7-hydro" = _x8b4Fnow;
         "pkg-1.1.7-argon" = _8lG2FFj0;
-        "default" = _8lG2FFj0;
+        "pkg-1.1.8-hydro" = _VKf6todN;
+        "default" = _VKf6todN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blocky-outline";

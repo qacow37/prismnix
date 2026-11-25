@@ -36,6 +36,11 @@ let
             "file" = "TextReplacer-1.2.0.jar";
             "hash" = "sha512-7oBBEj5UAba1EzEHnlbBXdIezUCPLB+dX9L/ri105gwoJOKhlSriwpbBNqpMpubfKEIyN2Wy7NM6i2/qvSKYDg==";
         };
+        _WIrBD3cw = {
+            "id" = "WIrBD3cw";
+            "file" = "TextReplacer-1.2.1.jar";
+            "hash" = "sha512-twr2KCGvZdi7nv7juA5uLacf/9VDKgOqiRj0cIhLWfIk6wwoh6bB4Je3AxrjE9/HVPjmJo0QaH9YkURo/deaAQ==";
+        };
     in {
         "K74KgpUw" = _K74KgpUw;
         "BYBfkKXz" = _BYBfkKXz;
@@ -44,8 +49,9 @@ let
         "Syi5V8h6" = _Syi5V8h6;
         "f5JTngsr" = _f5JTngsr;
         "tonbPx1a" = _tonbPx1a;
+        "WIrBD3cw" = _WIrBD3cw;
         "forge-1.8.9" = _1WPs8r3S;
-        "ornithe-1.8.9" = _tonbPx1a;
+        "ornithe-1.8.9" = _WIrBD3cw;
         "pkg-v1.0.0" = _K74KgpUw;
         "pkg-v1.0.1" = _BYBfkKXz;
         "pkg-v1.0.2" = _hq8bN7t5;
@@ -53,7 +59,8 @@ let
         "pkg-v1.1.0" = _Syi5V8h6;
         "pkg-v1.1.1" = _f5JTngsr;
         "pkg-v1.2.0" = _tonbPx1a;
-        "default" = _tonbPx1a;
+        "pkg-v1.2.1" = _WIrBD3cw;
+        "default" = _WIrBD3cw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "textreplacer";

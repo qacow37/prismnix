@@ -86,6 +86,11 @@ let
             "file" = "oldcannons-1.0.5.1-NEOFORGE-MC-26.1-2.jar";
             "hash" = "sha512-Uwmci1HE/6GS8fIcOq0EFydMNr2AjM+6OQTxBNUdhtB9cvtnSxs5h5xrW+lcSBmXzXNkJE8jyoJTAI2GNC/EoA==";
         };
+        _mO8WG9nq = {
+            "id" = "mO8WG9nq";
+            "file" = "oldcannons-1.0.5.2-NEOFORGE-MC-26.3.jar";
+            "hash" = "sha512-H/3YKTDeSsVAaVy90KL5jOyWrHnY7LbSGHRbO67xcNYhL4m1zxdWTgsAaVBGKfbi8evDRkgk4DNbQjJWejSNjg==";
+        };
     in {
         "igdHp8Um" = _igdHp8Um;
         "5rkYtiaa" = _5rkYtiaa;
@@ -104,6 +109,7 @@ let
         "aDZI9Oed" = _aDZI9Oed;
         "5h2xgzpp" = _5h2xgzpp;
         "epAdAeSq" = _epAdAeSq;
+        "mO8WG9nq" = _mO8WG9nq;
         "fabric-26.1" = _BIhDGdX1;
         "fabric-26.1.1" = _BIhDGdX1;
         "fabric-26.1.2" = _BIhDGdX1;
@@ -118,13 +124,15 @@ let
         "neoforge-26.1.1" = _epAdAeSq;
         "neoforge-26.1" = _epAdAeSq;
         "neoforge-26.2" = _epAdAeSq;
+        "neoforge-26.3" = _mO8WG9nq;
         "forge-1.20.1" = _m2qnEwSv;
         "pkg-1.0.3" = _UtkxqJgr;
         "pkg-1.0.4" = _Lpxyj63b;
         "pkg-1.0.3.5" = _m2qnEwSv;
         "pkg-1.0.5" = _5h2xgzpp;
         "pkg-1.0.5.1" = _epAdAeSq;
-        "default" = _epAdAeSq;
+        "pkg-1.0.5.2" = _mO8WG9nq;
+        "default" = _mO8WG9nq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oldcannons";

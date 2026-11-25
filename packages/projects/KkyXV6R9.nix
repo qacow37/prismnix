@@ -401,6 +401,16 @@ let
             "file" = "wings-26.3-Fabric-1.1.11.jar";
             "hash" = "sha512-Q7er4Ehex41Y39BKCpxfHZ3foJ0nUJL3eM2O2h/nvJ3NzKQZZAXioEQGaBWUsuu2sNMHSk8uNPHm4SmLAahhlA==";
         };
+        _LHN6SUoK = {
+            "id" = "LHN6SUoK";
+            "file" = "wings-26.3-Fabric-1.1.12.jar";
+            "hash" = "sha512-QDFSufvIXGGBCGzmAbucfPrTMRb8VxSKtP00qKa6KxbwOIWRP4TUaPiw3dsF97um/wC2ctHyeOI8ISa8f+EznQ==";
+        };
+        _MJQH5KAV = {
+            "id" = "MJQH5KAV";
+            "file" = "wings-26.3-NeoForge-1.1.12.jar";
+            "hash" = "sha512-JLS0VFV09iOfXN0tOUcTQtxxJjKrlqG0RX3CoziflyFkSl4ZWIIMKFyW3gya1W6Wl6Mi11JpbmcSKi+t4aKyVg==";
+        };
     in {
         "uMHDrZ6u" = _uMHDrZ6u;
         "Esw1S8W9" = _Esw1S8W9;
@@ -482,6 +492,8 @@ let
         "MQtQIp3n" = _MQtQIp3n;
         "OJf6XMjh" = _OJf6XMjh;
         "zWv12QEo" = _zWv12QEo;
+        "LHN6SUoK" = _LHN6SUoK;
+        "MJQH5KAV" = _MJQH5KAV;
         "neoforge-1.21.4" = _zImO74Ac;
         "neoforge-1.21.5" = _QWBwaMmJ;
         "neoforge-1.21.6" = _UD6Z9f4E;
@@ -495,7 +507,7 @@ let
         "neoforge-26.1.1" = _ygXpQDEx;
         "neoforge-26.1.2" = _ygXpQDEx;
         "neoforge-26.2" = _j8Jbb7h0;
-        "neoforge-26.3" = _OJf6XMjh;
+        "neoforge-26.3" = _MJQH5KAV;
         "forge-1.21.4" = _hFzhwTop;
         "forge-1.20" = _WzAD23kT;
         "forge-1.19.4" = _GRgtyLCb;
@@ -505,7 +517,7 @@ let
         "fabric-26.1.2" = _rM16KJ7Y;
         "fabric-26.2" = _OpFCn9Ez;
         "fabric-26.3-rc-2" = _MQtQIp3n;
-        "fabric-26.3" = _zWv12QEo;
+        "fabric-26.3" = _LHN6SUoK;
         "pkg-1.0.2" = _Esw1S8W9;
         "pkg-1.0.1" = _Pbi1xPlz;
         "pkg-1.0.3" = _hFzhwTop;
@@ -537,7 +549,8 @@ let
         "pkg-1.1.9" = _2siCiTpr;
         "pkg-1.1.10" = _R8VetV9s;
         "pkg-1.1.11" = _zWv12QEo;
-        "default" = _zWv12QEo;
+        "pkg-1.1.12" = _MJQH5KAV;
+        "default" = _MJQH5KAV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lv-wings";

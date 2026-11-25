@@ -111,6 +111,26 @@ let
             "file" = "species-3.5.jar";
             "hash" = "sha512-n/ikiNPu1pUP6OsJ46tV5/5l7jNAwhIGfka/mAVDMGWOZAatcjiAVPnOAJIbjY/etfKOCQWMgAvfRuLkenVKZA==";
         };
+        _iIszoKkt = {
+            "id" = "iIszoKkt";
+            "file" = "species-4.0_1.20.1.jar";
+            "hash" = "sha512-nemdmgZFEj/ixMH3FxpVSXGq5huKFItTgpERAykMrAFIqDqN9vx/QHwGOnGe1mXhSOtIWdcWHZrf0msrU6tDYQ==";
+        };
+        _GJ6POCSA = {
+            "id" = "GJ6POCSA";
+            "file" = "species-4.0_1.21.1.jar";
+            "hash" = "sha512-gaOAs2CMoXO6zervcBgYFAyIo8Iqtk9WihLHZV7U0X1VZK6fNtOQQ/DGHjTZaDJxgK0GztlgPkXsDPt5j0cmmg==";
+        };
+        _pNcMJgD7 = {
+            "id" = "pNcMJgD7";
+            "file" = "species-4.1_1.21.1.jar";
+            "hash" = "sha512-v5BTbjQwE3+wB+zXIsXbv1hpI2Fz0qwkIqoI0qHPKlBAXCy/yUCuWUMrSrYK/R1yJaIxRYmlzU0RpJ3YgmwxSA==";
+        };
+        _nX7PU7T1 = {
+            "id" = "nX7PU7T1";
+            "file" = "species-4.1_1.20.1.jar";
+            "hash" = "sha512-CXtOYLIJ/LukVCh6z24JZWG4kEm3cJkGVPDCaLcrBAwEkj2F8E5ka89g9poIYZCsyEiIMF8YNkD4TNhinAOx7Q==";
+        };
     in {
         "qcbzdebQ" = _qcbzdebQ;
         "nHxVZylc" = _nHxVZylc;
@@ -134,6 +154,10 @@ let
         "b1mBbs0v" = _b1mBbs0v;
         "xkMjveeZ" = _xkMjveeZ;
         "KwPDNMjG" = _KwPDNMjG;
+        "iIszoKkt" = _iIszoKkt;
+        "GJ6POCSA" = _GJ6POCSA;
+        "pNcMJgD7" = _pNcMJgD7;
+        "nX7PU7T1" = _nX7PU7T1;
         "fabric-1.19" = _9ZfJNolt;
         "fabric-1.19.1" = _9ZfJNolt;
         "fabric-1.19.2" = _9ZfJNolt;
@@ -143,8 +167,9 @@ let
         "forge-1.19.1" = _lWHLuPSH;
         "forge-1.19.2" = _lWHLuPSH;
         "forge-1.20" = _kSFqAtmP;
-        "forge-1.20.1" = _KwPDNMjG;
-        "neoforge-1.20.1" = _KwPDNMjG;
+        "forge-1.20.1" = _nX7PU7T1;
+        "neoforge-1.20.1" = _nX7PU7T1;
+        "neoforge-1.21.1" = _pNcMJgD7;
         "pkg-1.0.0" = _qcbzdebQ;
         "pkg-1.19.2-1.0.0" = _nHxVZylc;
         "pkg-1.1" = _9ZfJNolt;
@@ -160,7 +185,9 @@ let
         "pkg-3.3" = _b1mBbs0v;
         "pkg-3.4" = _xkMjveeZ;
         "pkg-3.5" = _KwPDNMjG;
-        "default" = _KwPDNMjG;
+        "pkg-4.0" = _GJ6POCSA;
+        "pkg-4.1" = _nX7PU7T1;
+        "default" = _nX7PU7T1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "species";

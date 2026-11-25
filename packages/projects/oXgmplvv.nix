@@ -436,6 +436,16 @@ let
             "file" = "DoggyTalentsNext-1.20.1-1.19.1.jar";
             "hash" = "sha512-+hhplpD6GztE+CbhqxebfjQaXSJIPWF51ApDk8881hyiYpV/SCH1C553gn1G0LWugSK3N/0+l2paKrboNsl92g==";
         };
+        _BZP3FCDc = {
+            "id" = "BZP3FCDc";
+            "file" = "DoggyTalentsNext-1.21.1-1.19.2.jar";
+            "hash" = "sha512-u8og05h0bQtGc1wEekcdW+K5YQ1PW9YEyEQNsa/Q8VLHq8XsMRdH1LjMBfecMX8Gsl5CvztgJaRH2AIymGdgxQ==";
+        };
+        _c4k8mnFD = {
+            "id" = "c4k8mnFD";
+            "file" = "DoggyTalentsNext-1.20.1-1.19.2.jar";
+            "hash" = "sha512-Thiee/oxEFoVPi0wzI6rLDnaQr+Uf4DdChD+vG3m4Xaw7cJ4x+OdAqWBaECNUdbPYnccjPa59Dx3NNkHbZHxqw==";
+        };
     in {
         "CtMY2FRi" = _CtMY2FRi;
         "bzwxw3Mm" = _bzwxw3Mm;
@@ -524,10 +534,12 @@ let
         "2UxI896v" = _2UxI896v;
         "BKs2urib" = _BKs2urib;
         "zm04EBJK" = _zm04EBJK;
-        "forge-1.20.1" = _zm04EBJK;
+        "BZP3FCDc" = _BZP3FCDc;
+        "c4k8mnFD" = _c4k8mnFD;
+        "forge-1.20.1" = _c4k8mnFD;
         "forge-1.19.2" = _eavaasr6;
         "forge-1.18.2" = _s7FUpCNJ;
-        "forge-1.20" = _zm04EBJK;
+        "forge-1.20" = _c4k8mnFD;
         "forge-1.20.2" = _gElalwuY;
         "fabric-1.20" = _kppF1yGv;
         "fabric-1.20.1" = _kppF1yGv;
@@ -537,8 +549,8 @@ let
         "fabric-1.21.5" = _fM6jsoKi;
         "fabric-1.21.10" = _xiOU9UEU;
         "neoforge-1.20.6" = _F8l5T5RX;
-        "neoforge-1.21" = _BKs2urib;
-        "neoforge-1.21.1" = _BKs2urib;
+        "neoforge-1.21" = _BZP3FCDc;
+        "neoforge-1.21.1" = _BZP3FCDc;
         "neoforge-1.20" = _bnoAnrbz;
         "neoforge-1.20.1" = _bnoAnrbz;
         "neoforge-1.21.9" = _QBPGz3no;
@@ -575,7 +587,8 @@ let
         "pkg-1.19.0-beta1" = _2UxI896v;
         "pkg-1.19.0" = _HqnbVXiN;
         "pkg-1.19.1" = _zm04EBJK;
-        "default" = _zm04EBJK;
+        "pkg-1.19.2" = _c4k8mnFD;
+        "default" = _c4k8mnFD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "doggy-talents-next";

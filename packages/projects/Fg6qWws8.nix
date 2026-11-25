@@ -221,6 +221,11 @@ let
             "file" = "spicedcider-3.0.1.jar";
             "hash" = "sha512-CWDm78T75c8Ctr2F5ndyXYM9QyBmNmDRgmMsSzW7bAD/lZVleIwjbAZqQzU6y3BvpmWfeSFGsMZBQ9r/jNPe/g==";
         };
+        _vBSoWedV = {
+            "id" = "vBSoWedV";
+            "file" = "spicedcider-4.0.0.jar";
+            "hash" = "sha512-BtowJ7Ttms9Wmufph3YTRFADH14hiXDOEdxiNCTjpphCLf+6YYzPOqDWiMgBcYVI0lkGIw6XM3YXFckVoy4HwQ==";
+        };
     in {
         "ctkV4nrf" = _ctkV4nrf;
         "6E34WZj5" = _6E34WZj5;
@@ -266,7 +271,8 @@ let
         "9P3sHtwI" = _9P3sHtwI;
         "Wx8TrgAd" = _Wx8TrgAd;
         "StuiZTK9" = _StuiZTK9;
-        "neoforge-1.21.1" = _StuiZTK9;
+        "vBSoWedV" = _vBSoWedV;
+        "neoforge-1.21.1" = _vBSoWedV;
         "pkg-1.0.0" = _ctkV4nrf;
         "pkg-1.1.0+1.21.1" = _6E34WZj5;
         "pkg-1.1.1+1.21.1" = _ZWUToOof;
@@ -307,7 +313,8 @@ let
         "pkg-2.2.1+1.21.1" = _9P3sHtwI;
         "pkg-3.0.0+1.21.1" = _Wx8TrgAd;
         "pkg-3.0.1+1.21.1" = _StuiZTK9;
-        "default" = _StuiZTK9;
+        "pkg-4.0.0+1.21.1" = _vBSoWedV;
+        "default" = _vBSoWedV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cider-core";

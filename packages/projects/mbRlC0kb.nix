@@ -131,6 +131,16 @@ let
             "file" = "Backpacks26.3-f1-Resources.zip";
             "hash" = "sha512-JPKwIaHNY35gP8LNWCVMOtyF15WKkE2YvDEYrhY7KRm2p9xFQEXw3OQ8aZNuH4CoUMGb9KEAiN7tF5jT0Aejvg==";
         };
+        _ZNMFk6ES = {
+            "id" = "ZNMFk6ES";
+            "file" = "Backpacks26.3.12-Resources.zip";
+            "hash" = "sha512-gExK4WL1Yjb3Oa7okyBPokmQVOn/KFdmmMY2UDtA+XuFeeE9QTBS60jAhQa26kbsF9Qh61vX0rJCQCsd9+CsvQ==";
+        };
+        _GdIxkOg2 = {
+            "id" = "GdIxkOg2";
+            "file" = "Backpacks26.3.12-DP.zip";
+            "hash" = "sha512-rXmQH2+UdBKO+M5tXKTFfmKqOpYv59CZ6yDoO/ewHFGSaB8u7zqVV8kFcBKM/oiec2V/TTNpybCdJ7Mf9zbcfA==";
+        };
     in {
         "9pI4YoWi" = _9pI4YoWi;
         "lQxLmHpU" = _lQxLmHpU;
@@ -158,6 +168,8 @@ let
         "EvKwdjyJ" = _EvKwdjyJ;
         "y8c5culm" = _y8c5culm;
         "OyzrycUx" = _OyzrycUx;
+        "ZNMFk6ES" = _ZNMFk6ES;
+        "GdIxkOg2" = _GdIxkOg2;
         "datapack-1.21.5" = _yTcAdldj;
         "datapack-1.21.6" = _yTcAdldj;
         "datapack-1.21.7" = _yTcAdldj;
@@ -200,7 +212,7 @@ let
         "datapack-26.2-pre-3" = _sX01WpuG;
         "datapack-26.2" = _M0G9b64C;
         "datapack-26.3-snapshot-10" = _OtQFBIs7;
-        "datapack-26.3" = _y8c5culm;
+        "datapack-26.3" = _GdIxkOg2;
         "minecraft-1.21.4" = _iCJqk3wQ;
         "minecraft-1.21.5" = _iCJqk3wQ;
         "minecraft-1.21.6" = _iCJqk3wQ;
@@ -228,7 +240,7 @@ let
         "minecraft-26.2-pre-2" = _Xyeitler;
         "minecraft-26.2" = _M8BX2dE4;
         "minecraft-26.3-snapshot-10" = _iMxguBZb;
-        "minecraft-26.3" = _OyzrycUx;
+        "minecraft-26.3" = _ZNMFk6ES;
         "paper-26.1" = _o8TwoPsW;
         "paper-26.1.1" = _o8TwoPsW;
         "paper-26.1.2" = _o8TwoPsW;
@@ -257,7 +269,9 @@ let
         "pkg-26.3-RequiredResources" = _EvKwdjyJ;
         "pkg-26.3-f1" = _y8c5culm;
         "pkg-26.3-f1-RequiredResources" = _OyzrycUx;
-        "default" = _OyzrycUx;
+        "pkg-26.3.12-RequiredResources" = _ZNMFk6ES;
+        "pkg-26.3.12" = _GdIxkOg2;
+        "default" = _GdIxkOg2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "backpacksdp";

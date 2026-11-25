@@ -101,6 +101,46 @@ let
             "file" = "groxsvillagers-2.0-Neo-26.3.jar";
             "hash" = "sha512-lAHuVec2cAladP3BAXTtAYsxwVS7zVFUg5AK/7CbMenDtKUSiVWHy8BDWHPwy0bV1+gMtRUWvEtQ1BFKcUh07g==";
         };
+        _t67Fq4ax = {
+            "id" = "t67Fq4ax";
+            "file" = "groxsvillagers-2.1-Forge-1.12.2.jar";
+            "hash" = "sha512-Ck98lDDgxLIq7rLzKTy4WMrqqoA4KeDYWNd8AjytRRa2SYX7DDsk9IOA5N39jbBEnRxnrReED6+7oUjRi+QtWQ==";
+        };
+        _Fjl8xvAp = {
+            "id" = "Fjl8xvAp";
+            "file" = "groxsvillagers-2.1-Forge-1.20.1.jar";
+            "hash" = "sha512-o2DP7SSMCPBrYgwPFcyzyH83SlmvjkCDglZhsh19ul+/1tGkTkA4N/ClLmPe0SkwQ3oa6GBgNWaoaCt40ihXYA==";
+        };
+        _GQc9MOfg = {
+            "id" = "GQc9MOfg";
+            "file" = "groxsvillagers-2.1-Neo-1.21.1.jar";
+            "hash" = "sha512-SEgHih12ndxSMjW+Cmx1UAn613Jo99Z3tSvjLIgNGtUQld7lZVdYrnIUkfxatk9PbuySMEoDGTkKRklk6MNQTg==";
+        };
+        _UbcNUwS5 = {
+            "id" = "UbcNUwS5";
+            "file" = "groxsvillagers-2.1-Neo-1.21.11.jar";
+            "hash" = "sha512-V+Us0P2SyqSI2zRkTJddufCaNcbV13wNv/nSbmBVDfAPYsMjqJs6cVtcUxItXZWxIJ1krc57oD0BxJ8KTyfn8w==";
+        };
+        _1pIUFE7e = {
+            "id" = "1pIUFE7e";
+            "file" = "groxsvillagers-2.1-Neo-26.1.jar";
+            "hash" = "sha512-LAfH2iswFt7swUS+ZrVSpZyhhB/N+I9Wy5nrPSxCe334pLYlDDN1nlpZ7WKlBQ7dQUfp2/DzgxIcrsMsiOdX3g==";
+        };
+        _AazJfmMp = {
+            "id" = "AazJfmMp";
+            "file" = "groxsvillagers-2.1-Neo-26.1.2.jar";
+            "hash" = "sha512-Lvi3HpopInrYdy8fkSkBoW8uoESQPvZoZueaPL06oQiN7uKKILx/oQ5Nrn/GC2vhRJxcWB+lUTfuKpsgyJb3mA==";
+        };
+        _1VfwNvQN = {
+            "id" = "1VfwNvQN";
+            "file" = "groxsvillagers-2.1-Neo-26.2.jar";
+            "hash" = "sha512-9tqE4nj25aOxNHtN6kZyQM0soFSM1tqzaAos4xuQ6vw1mMbGBsCncfPl1nkf3Vt4NYAmlVp09F6pXCHLlcXvKA==";
+        };
+        _4rT9BHEG = {
+            "id" = "4rT9BHEG";
+            "file" = "groxsvillagers-2.1-Neo-26.3.jar";
+            "hash" = "sha512-YNHrq+l+KkzTx/yunXrk7DAxELbgDhNSSQcxSLudUwrnqo9Fb7ola3ritma/G7tmFG96iuaYFY2YWPG8hpor3w==";
+        };
     in {
         "llO5RoR6" = _llO5RoR6;
         "u6FUMdmO" = _u6FUMdmO;
@@ -122,19 +162,28 @@ let
         "HvKiAiTU" = _HvKiAiTU;
         "VEQPKs6T" = _VEQPKs6T;
         "FgWOgTQL" = _FgWOgTQL;
-        "forge-1.20.1" = _Of62JchM;
-        "forge-1.12.2" = _L7D1861m;
-        "neoforge-1.21.1" = _xtqE9Bvp;
-        "neoforge-1.21.11" = _LpAXJzQv;
-        "neoforge-26.1" = _hj6LlPGZ;
-        "neoforge-26.1.2" = _HvKiAiTU;
-        "neoforge-26.2" = _VEQPKs6T;
-        "neoforge-26.3" = _FgWOgTQL;
+        "t67Fq4ax" = _t67Fq4ax;
+        "Fjl8xvAp" = _Fjl8xvAp;
+        "GQc9MOfg" = _GQc9MOfg;
+        "UbcNUwS5" = _UbcNUwS5;
+        "1pIUFE7e" = _1pIUFE7e;
+        "AazJfmMp" = _AazJfmMp;
+        "1VfwNvQN" = _1VfwNvQN;
+        "4rT9BHEG" = _4rT9BHEG;
+        "forge-1.20.1" = _Fjl8xvAp;
+        "forge-1.12.2" = _t67Fq4ax;
+        "neoforge-1.21.1" = _GQc9MOfg;
+        "neoforge-1.21.11" = _UbcNUwS5;
+        "neoforge-26.1" = _1pIUFE7e;
+        "neoforge-26.1.2" = _AazJfmMp;
+        "neoforge-26.2" = _1VfwNvQN;
+        "neoforge-26.3" = _4rT9BHEG;
         "pkg-1.1" = _IWru1HtR;
         "pkg-1.1.1" = _wq5VN8fU;
         "pkg-1.2" = _IbbswH1I;
         "pkg-2.0" = _FgWOgTQL;
-        "default" = _FgWOgTQL;
+        "pkg-2.1" = _4rT9BHEG;
+        "default" = _4rT9BHEG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "groxs-villagers";

@@ -211,6 +211,11 @@ let
             "file" = "stargate-1.11.0+26.3.jar";
             "hash" = "sha512-hiHX2K3CS3MkIQjHd9soYBia+4wUpFd1LvA0EC6FwKWHWZQZfQlxKiHKzOjYN+UtEOxp0ZTApi6qkRr9Sf2sgw==";
         };
+        _YudddtS0 = {
+            "id" = "YudddtS0";
+            "file" = "stargate-1.12.0+26.4-pre-1.jar";
+            "hash" = "sha512-JmHBpocz9S55uQ7zWAnuW1d+B2bie6EHLcIpboLJVaGrLAo+TKiJW0B77nX7toRwDoIqclfmWzQmzFiStWdLlg==";
+        };
     in {
         "V66FI8ps" = _V66FI8ps;
         "5fIqDjZB" = _5fIqDjZB;
@@ -254,6 +259,7 @@ let
         "ADSMyezV" = _ADSMyezV;
         "t1MT5QeH" = _t1MT5QeH;
         "edhg0LM1" = _edhg0LM1;
+        "YudddtS0" = _YudddtS0;
         "fabric-1.21.8" = _5fIqDjZB;
         "fabric-1.21.9-rc1" = _T1gWAozQ;
         "fabric-1.21.9" = _jco43iwM;
@@ -276,6 +282,7 @@ let
         "fabric-26.3-rc-2" = _Tk03atTF;
         "fabric-26.3-rc-3" = _MZ5M8jFQ;
         "fabric-26.3" = _edhg0LM1;
+        "fabric-26.4-pre-1" = _YudddtS0;
         "quilt-1.21.9-rc1" = _T1gWAozQ;
         "quilt-1.21.9" = _jco43iwM;
         "quilt-1.21.10" = _iboSKm0N;
@@ -296,6 +303,7 @@ let
         "quilt-26.3-rc-2" = _Tk03atTF;
         "quilt-26.3-rc-3" = _MZ5M8jFQ;
         "quilt-26.3" = _edhg0LM1;
+        "quilt-26.4-pre-1" = _YudddtS0;
         "pkg-1.0.0+1.21.8" = _5fIqDjZB;
         "pkg-1.2.0+1.21.9-rc1" = _T1gWAozQ;
         "pkg-1.2.1+1.21.9" = _9mBtyfrP;
@@ -337,7 +345,8 @@ let
         "pkg-1.10.0+26.3" = _ADSMyezV;
         "pkg-1.10.1+26.3" = _t1MT5QeH;
         "pkg-1.11.0+26.3" = _edhg0LM1;
-        "default" = _edhg0LM1;
+        "pkg-1.12.0+26.4-pre-1" = _YudddtS0;
+        "default" = _YudddtS0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mc-stargate";
