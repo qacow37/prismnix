@@ -921,6 +921,261 @@ let
             "file" = "PvP Essentials [Overlay]-26.3.zip";
             "hash" = "sha512-YtV4VZXtpKkQvuLwFV5vT2/N+TXJs5e8WlQxnQ7NOypGMwC8KZDCkDGzxnh/Clgah4EBiwI1+f+90OdrJtBCQA==";
         };
+        _GEzGPcJU = {
+            "id" = "GEzGPcJU";
+            "file" = "PvP Essentials [Overlay]-1.13-fire.zip";
+            "hash" = "sha512-SaMiew+8rtoI4LA3YDv6gyLlfnxfjgNo0UujcOHByVWyDz+7O8mOJVFTnvKL8cGl07voV4xhXRTXKo/X3IqXOQ==";
+        };
+        _fbVyp7P0 = {
+            "id" = "fbVyp7P0";
+            "file" = "PvP Essentials [Overlay]-26.3-fire.zip";
+            "hash" = "sha512-U2lUb9PQIbvb7WbsfP2hPPfPAsD2QvT5SWhR4c89pITIrCnNJm6aKDfRwfgQ3Ij8MxE1rJluq1Ip1q122XOPLQ==";
+        };
+        _cc3vhVqR = {
+            "id" = "cc3vhVqR";
+            "file" = "PvP Essentials [Overlay]-26.2-fire.zip";
+            "hash" = "sha512-duvvOaktMVAvmJkpnIkwOLV4GPYs2EKC4wlPmNPVlqxBryUtH0YygD1//6ax4Arqv9hylfGfjHOZZSmcx3UaIw==";
+        };
+        _qQktTSca = {
+            "id" = "qQktTSca";
+            "file" = "PvP Essentials [Overlay]-26.1.2-fire.zip";
+            "hash" = "sha512-FALio0BykMz2WYoSWx4xIFo6wgkPDdmocyYzxWwUbEslRbUm26q7+ytgHrj3WwRUGzSiJar7iIEfbZetFG+wWA==";
+        };
+        _bErZLCRS = {
+            "id" = "bErZLCRS";
+            "file" = "PvP Essentials [Overlay]-26.1.1-fire.zip";
+            "hash" = "sha512-M1CntYBwpuNGZaFzQ0/ZaNjrsxc/tOmPdU0gwjfTy1lnYBz1W43dFR1ofO0gLNtwdAhCy8ZcUIEnq+u5vHPNkQ==";
+        };
+        _zRRqTNy1 = {
+            "id" = "zRRqTNy1";
+            "file" = "PvP Essentials [Overlay]-26.1-fire.zip";
+            "hash" = "sha512-NFq9TRbFaUDmQJHiGTnK6ZE/MUx4y/C8R79XkcK54UCadIZFQnTJEn03lncZAlm5Tdd5lOSd+1au9DoK/6l3Sw==";
+        };
+        _jPQxI695 = {
+            "id" = "jPQxI695";
+            "file" = "PvP Essentials [Overlay]-1.21.11-fire.zip";
+            "hash" = "sha512-m9agEBIgI3JWAnj5Ih1mM2eW/xkf85lM10HxTJGRWDN+9SvvlhftmMc7A1djlERYPYekid/b71ZfAHmeZMOvog==";
+        };
+        _GxDiBHA2 = {
+            "id" = "GxDiBHA2";
+            "file" = "PvP Essentials [Overlay]-1.21.10-fire.zip";
+            "hash" = "sha512-UXlRgrSxUcjG8BZ6FCqHUCHOpwV4OPEEwpjaz45o/I5sWJAkkuiGuOvjHOiqFa8H7Jf5MFvZVGnjVBH99vqcHw==";
+        };
+        _uDHaMxWM = {
+            "id" = "uDHaMxWM";
+            "file" = "PvP Essentials [Overlay]-1.21.9-fire.zip";
+            "hash" = "sha512-ZFJIRZzxxz9RjUCHYC9j2xoKWuFUwCyGZkSlu/5W2wdht6sM8EpFsdOUZfTe4zthhMoV7hukysbsGaUrKv/sSw==";
+        };
+        _bZausGz1 = {
+            "id" = "bZausGz1";
+            "file" = "PvP Essentials [Overlay]-1.21.8-fire.zip";
+            "hash" = "sha512-ci/xRS7R1CJPwxaczvI5kLp0r+xaexXqLpvTRqsWnMp/LoqXrnNrkTp2S9JQPwK/rndPxxtUgtkPNIsXaWADrg==";
+        };
+        _U5qZuIVF = {
+            "id" = "U5qZuIVF";
+            "file" = "PvP Essentials [Overlay]-1.21.7-fire.zip";
+            "hash" = "sha512-f4irUUYFzMvdG73vBi6gZ6qaMKc3WYTS6YR5JZu3/iS8HCIURwQ+D6OZJKllhu5ZSPda8iR/m3A93CG1q9ZJsQ==";
+        };
+        _Y1G73oXC = {
+            "id" = "Y1G73oXC";
+            "file" = "PvP Essentials [Overlay]-1.21.6-fire.zip";
+            "hash" = "sha512-69y7DN9whftCAUPI7sst8zOTxJCuEB+RQT9h8ySLqG3LYwx41DUO2JPkmqOcCoGU41S1NCm8n3dcvKwC0xZ2dA==";
+        };
+        _lwV4kgo0 = {
+            "id" = "lwV4kgo0";
+            "file" = "PvP Essentials [Overlay]-1.21.5-fire.zip";
+            "hash" = "sha512-0AcqC7/m2QtSpEQSWgn+VOIK7QYEq/v29aB1t4q5C+ZW5yOlUhelnzmD5IGnubf9HCj+sjRCGNQ/STd3tpehXg==";
+        };
+        _Hvi8LpDx = {
+            "id" = "Hvi8LpDx";
+            "file" = "PvP Essentials [Overlay]-1.21.4-fire.zip";
+            "hash" = "sha512-SaQjPMKYfOcj6QaTn6w4UL8Ft+jhqnyPxHDvo3ZeO3y/hjsek6JzkQAXTtyoHeNGKGW5oROD08j7UMfNtKJUAg==";
+        };
+        _yXF6eS0X = {
+            "id" = "yXF6eS0X";
+            "file" = "PvP Essentials [Overlay]-1.21.3-fire.zip";
+            "hash" = "sha512-YJyXB4jYh4ITfV87khbZV03aPPf5smsTqNqGYeNUYsPJrojrs+VEOZxnhN9RXiSW7xYTZJQVuxSW40ARrp6NKA==";
+        };
+        _ddLWtN6i = {
+            "id" = "ddLWtN6i";
+            "file" = "PvP Essentials [Overlay]-1.21.2-fire.zip";
+            "hash" = "sha512-b+CGOxh1YVOzpXilpnK+b0UzFhjLT6gkjKuvJzFKKMIGBxNpz0IeIsyauqzoD6bRA8uR+mEgxoPkP5HiADU18A==";
+        };
+        _f43OLUWo = {
+            "id" = "f43OLUWo";
+            "file" = "PvP Essentials [Overlay]-1.21.1-fire.zip";
+            "hash" = "sha512-YT9DxrZi0mt7ObIR3QjLTNO2y7luKOvWqCoiO9uogOz756BB0Fp4Ho92mqpoKznm0+OeRhZD4a9kml39Msqj4Q==";
+        };
+        _pplDlSfw = {
+            "id" = "pplDlSfw";
+            "file" = "PvP Essentials [Overlay]-1.21-fire.zip";
+            "hash" = "sha512-eFtE4cJAG3BSpQRr5zoDP12nFjHygRX9D8da6B75U/fzSEAerBGyUqVNikZZFBrd7VTP5rSjh1oBGGn+swBBjg==";
+        };
+        _cKJgluoC = {
+            "id" = "cKJgluoC";
+            "file" = "PvP Essentials [Overlay]-1.20.6-fire.zip";
+            "hash" = "sha512-clUTnb3syyFMNxEo0MZvxBjva2XzoD1mfZzZ2zUGhu6OgTgjl1IU8qkwxHf+Wpk/8iarerv3JLlSf59GanIH6w==";
+        };
+        _toj39amB = {
+            "id" = "toj39amB";
+            "file" = "PvP Essentials [Overlay]-1.20.5-fire.zip";
+            "hash" = "sha512-fM9ty268KAJGxgYRGRhtwzOoTDj2CVDhY21pCQapUThmHEvAp3gwhTQW9DMx9GbUMLarIXwJcJVpQAYKZwI0Gg==";
+        };
+        _qG4Ei0es = {
+            "id" = "qG4Ei0es";
+            "file" = "PvP Essentials [Overlay]-1.20.4-fire.zip";
+            "hash" = "sha512-GPQF47svUloG8JpkalmvPzP2lh7JZJpHlHiu3QElm46zvUz8hqha5MKDoV+e8NCL6F7AJjwP/WGZ/zMA0ig87w==";
+        };
+        _54fwKQgk = {
+            "id" = "54fwKQgk";
+            "file" = "PvP Essentials [Overlay]-1.20.3-fire.zip";
+            "hash" = "sha512-6Hed/H7vbP2l687ZwHfPTOw7wGT9lVihiyKb0DJCHcCcp0bw1h1CUYvIzYJv1b3CKs1Va+sNGi438vdmXHLULg==";
+        };
+        _DkPOaKE1 = {
+            "id" = "DkPOaKE1";
+            "file" = "PvP Essentials [Overlay]-1.20.2-fire.zip";
+            "hash" = "sha512-oU+B2Tp9FdCvou8QUB85V5ZzBmRYSzJcXGbiY87fJkLxbCmOV64QLGHbrT05DdLTOBKLTO1XvSsAqfyZjXQUtQ==";
+        };
+        _60320j4D = {
+            "id" = "60320j4D";
+            "file" = "PvP Essentials [Overlay]-1.20.1-fire.zip";
+            "hash" = "sha512-9AciVeUIUrgztprFtZ6XW2xlsOxibD7x1MHGicbJpQMSMyOByGNxwnym+xg7k0Ego4LOwrB+QCMizgMQ1QY/uQ==";
+        };
+        _7q7pxVHl = {
+            "id" = "7q7pxVHl";
+            "file" = "PvP Essentials [Overlay]-1.20-fire.zip";
+            "hash" = "sha512-NfERGhMNt650C7ljhlDrtCTI4tJDmSClRgK5IGNr9WbGAUXfDxOtqSc8LzEOpzuJMQODySvnh2Y0++95A1Pfcg==";
+        };
+        _wUaNKTNU = {
+            "id" = "wUaNKTNU";
+            "file" = "PvP Essentials [Overlay]-1.19.4-fire.zip";
+            "hash" = "sha512-7OF06kVjIQ4n5wUgwnj6AA89htADjkjMlE+2SGjFY9ULhoDlhe1y7C8Nvbm+dyL18m4f4y7No6U0zi5AsTwzUg==";
+        };
+        _4chSE9hj = {
+            "id" = "4chSE9hj";
+            "file" = "PvP Essentials [Overlay]-1.19.3-fire.zip";
+            "hash" = "sha512-P63JKt1p/v6k18hLl+YFgyZ5iQ1WIWzEi1rXe/2chBq6PBb8Rj21IHKAwkpl5B1petkqo4Oc04ptk0ATJVO3rg==";
+        };
+        _ltPgPlHt = {
+            "id" = "ltPgPlHt";
+            "file" = "PvP Essentials [Overlay]-1.19.2-fire.zip";
+            "hash" = "sha512-2i1gS+T1mMn0G5jXp5erOSdgdZTGpckFVERJvts1oDGqbtQfeWZ+dnxajopldYvu1zoVJdT9VW62tpKgZiRayA==";
+        };
+        _Yg0m9N2D = {
+            "id" = "Yg0m9N2D";
+            "file" = "PvP Essentials [Overlay]-1.19.1-fire.zip";
+            "hash" = "sha512-wqdZzRYv3N+Xeizd227xMbLafbPriRb6T8Ntf8BTKvTFEkaA/5Y6HA66MXrsDoy/wp++WTqerJ8py4Iy139A3g==";
+        };
+        _SCemvPXE = {
+            "id" = "SCemvPXE";
+            "file" = "PvP Essentials [Overlay]-1.19-fire.zip";
+            "hash" = "sha512-WsNEu8g7Gkg0xv/YGWxgpurj8bmuPmu8xQE5Ui42EWYXtVgT3UQ4rpJ28UrBUpoE2BThazUg2oVYxfVgVTgypQ==";
+        };
+        _ts4eMl5h = {
+            "id" = "ts4eMl5h";
+            "file" = "PvP Essentials [Overlay]-1.18.2-fire.zip";
+            "hash" = "sha512-wgIT5F3Q2BywDp6HNlyi7M3jwXy5VRKGdQWUfPFLmuxtQ98GaK3ySxKqprfkDZlBw0kCrCwkMsgWI7a7vQ1MWw==";
+        };
+        _np6HExdG = {
+            "id" = "np6HExdG";
+            "file" = "PvP Essentials [Overlay]-1.18.1-fire.zip";
+            "hash" = "sha512-gFtjitgyc0ANUb4mA0L6kIh30gH4hJARFLCcGKksy5zEW3rVz1friIRyN5w2r+1pRAod3RgUISr6Davbx3Qayw==";
+        };
+        _jSz43rsV = {
+            "id" = "jSz43rsV";
+            "file" = "PvP Essentials [Overlay]-1.18-fire.zip";
+            "hash" = "sha512-nxrwtD0YDq0VxIsOeTuKfrQwB5YpXBM/gPCdgB426etojedCMZ93AW309IjpVE9JKAzQxetHx6iR9pP2Mc+6tw==";
+        };
+        _EeNfbo6G = {
+            "id" = "EeNfbo6G";
+            "file" = "PvP Essentials [Overlay]-1.17.1-fire.zip";
+            "hash" = "sha512-TinyGSKmVSlBGcIs7E9ExFItVFRCZ512HUxS0BLY4KNg+VF7FIJEuc79fZ9D4BQCvZT1OPjHKA+uFKlKZ8bo8A==";
+        };
+        _MNZ5iiZM = {
+            "id" = "MNZ5iiZM";
+            "file" = "PvP Essentials [Overlay]-1.17-fire.zip";
+            "hash" = "sha512-+BWiynsCYOYt5wMN7gw/oBjYB9zYq9SlrtOAzTJ4fASVU+LfeIzuPHdnYFyi0RTHUiCVPuRvfa9i4/y4kBApXQ==";
+        };
+        _nz6wcS4e = {
+            "id" = "nz6wcS4e";
+            "file" = "PvP Essentials [Overlay]-1.16.5-fire.zip";
+            "hash" = "sha512-sgJ6WN9EYQ9RQBUN7Nmb1qZRY0BPuXsTHaZ0BtnTGV10X5EWHr3/DP8DB6QWfimlcJMJLlGLEy8kwCW/8LqBQQ==";
+        };
+        _HJTlCxsp = {
+            "id" = "HJTlCxsp";
+            "file" = "PvP Essentials [Overlay]-1.16.4-fire.zip";
+            "hash" = "sha512-lf6ud8gX5v3HRMIRQ+N4koSJpLTAtjjep4sYzKRr2vLu86IDKI1fU0CEVbq/XZxNE167fiKZoH1XicDeba5Y2w==";
+        };
+        _ZbXtw5nn = {
+            "id" = "ZbXtw5nn";
+            "file" = "PvP Essentials [Overlay]-1.16.3-fire.zip";
+            "hash" = "sha512-WV+9NcIidvJccHMnILvpnOGUYkjyTdHYe1+t6tftXh8yfVslf9IQ6HDazG0vlsAVYFi587Ib+5xtohC7KoMFZw==";
+        };
+        _EdRMcMDV = {
+            "id" = "EdRMcMDV";
+            "file" = "PvP Essentials [Overlay]-1.16.2-fire.zip";
+            "hash" = "sha512-IZacZRP96pbNzp2D0SvXgUw/DPuwbznrqU6Jk2VMXvB9MNrAr1uEkM/TUmOFIMFoTPR4pRMIKwEPbZwT7uWjAw==";
+        };
+        _chyKBohY = {
+            "id" = "chyKBohY";
+            "file" = "PvP Essentials [Overlay]-1.16.1-fire.zip";
+            "hash" = "sha512-ssQr0cI1kEITAZCkkN7qSNEXw7PE09o33/+9j5Y1hw16jRA0wDZuvXyxgg2oR3Cg7plnV78y7dUVpp8pmkU32w==";
+        };
+        _KFKIOW1K = {
+            "id" = "KFKIOW1K";
+            "file" = "PvP Essentials [Overlay]-1.16-fire.zip";
+            "hash" = "sha512-Yg7hMJ78ELqhh9atEePArFyqEWTrEUeoazN/1hqAgDfj6UntGVJC9kFeZD2JzuuXhpKjRTGeGvbgIJEjGTAKRg==";
+        };
+        _cmtra20c = {
+            "id" = "cmtra20c";
+            "file" = "PvP Essentials [Overlay]-1.15.2-fire.zip";
+            "hash" = "sha512-Ir08YBRFkf0bIxqhvz5zFT9BgMbnstPpaA/4LKiFcOdAnE//5Hftr0s8wFww4Ect3KHQE0Y6Uj2u1NmsvfAT3Q==";
+        };
+        _OjbrVjA1 = {
+            "id" = "OjbrVjA1";
+            "file" = "PvP Essentials [Overlay]-1.15.1-fire.zip";
+            "hash" = "sha512-YHIFw2XvW0QnpjmMCV+gOK/djZ/ZSXqTOMsPgdmRlqtetOUmDYNlOGOM1W6y0RjuRdfctRlA7erVMpz2T7uhQA==";
+        };
+        _zg1AtoaG = {
+            "id" = "zg1AtoaG";
+            "file" = "PvP Essentials [Overlay]-1.15-fire.zip";
+            "hash" = "sha512-VjsrECALZKyOdxPvlMEhzAHr2gNxwpend/AGz6LIFeaojSbNX6aW+0UpktH98wH0O9eOUkaSas9Zt/EAAOFjtw==";
+        };
+        _dZh3sFrt = {
+            "id" = "dZh3sFrt";
+            "file" = "PvP Essentials [Overlay]-1.14.4-fire.zip";
+            "hash" = "sha512-9kW1pWJbZGNxHDIaLUKINZmjDzMHSZdCPMOYMVktICsMq1mlaztrF6PBIPCK400GBELxGfNdTMtSTF97KUUXFw==";
+        };
+        _6GxcpuyG = {
+            "id" = "6GxcpuyG";
+            "file" = "PvP Essentials [Overlay]-1.14.3-fire.zip";
+            "hash" = "sha512-2ZBB/TypCmvN9Zc9eGcgftaku7TMFloJ10h1NA+UliXIxpMqKdMhOtxNu7Uo42TutWWE5u4bTQqtLnvS4SyugQ==";
+        };
+        _NIULLSFR = {
+            "id" = "NIULLSFR";
+            "file" = "PvP Essentials [Overlay]-1.14.2-fire.zip";
+            "hash" = "sha512-7hi7luWEH6p0/tipWJ95pP47elLcQYonzUCOOieRUKTXmxeLrdAShVg92pt9HTUXrGffRlkVc2p7JobSZnMcFA==";
+        };
+        _W2kWkumJ = {
+            "id" = "W2kWkumJ";
+            "file" = "PvP Essentials [Overlay]-1.14.1-fire.zip";
+            "hash" = "sha512-ZYT9PIebuYw0Blj+kOZnjn8DIFvxjljz5pgI5Zcj+EI0+xbZQiIJgjDANTyE3FbA4Zdjbkpc1nx7GZ1N+TvC/g==";
+        };
+        _WPfjVnmD = {
+            "id" = "WPfjVnmD";
+            "file" = "PvP Essentials [Overlay]-1.14-fire.zip";
+            "hash" = "sha512-9cKzhm0HJI82o3eC7XjVqa0ivEfvDzTy1x1WkQtoQjojNllV0QlM32fhMxneiEpBgQJrEkZLb7GrvEQvAT8h2g==";
+        };
+        _8wSEVu8g = {
+            "id" = "8wSEVu8g";
+            "file" = "PvP Essentials [Overlay]-1.13.2-fire.zip";
+            "hash" = "sha512-y4a1mjM1xJ1JVYhKG+OSeW3SL6jxOibTDatuxyEIAPuknGvRFJ7S59KArPtzQrfM5++NYdbsMgyM593T3+vHeg==";
+        };
+        _NvjZZ5nf = {
+            "id" = "NvjZZ5nf";
+            "file" = "PvP Essentials [Overlay]-1.13.1-fire.zip";
+            "hash" = "sha512-xVvXGSRi1utmjG0QtBs0jsuWzYIz8plSyioP1palVziR4zxmFUciotarkivyeWXeGbM7pPGvMxmJ3F8edMJblA==";
+        };
     in {
         "1frKeetj" = _1frKeetj;
         "1tPmEvT7" = _1tPmEvT7;
@@ -1106,35 +1361,86 @@ let
         "rVcIdN69" = _rVcIdN69;
         "4a1Q8OuO" = _4a1Q8OuO;
         "cmBdNt24" = _cmBdNt24;
-        "minecraft-1.16.1" = _BOPnKNeR;
-        "minecraft-1.16.2" = _P03XgbNz;
-        "minecraft-1.16.3" = _I3BHT0Iu;
-        "minecraft-1.16.4" = _OtEH7vQT;
-        "minecraft-1.16.5" = _DoJY5Fo9;
-        "minecraft-1.17" = _7OCvaQkB;
-        "minecraft-1.17.1" = _OcOUF7ed;
-        "minecraft-1.18" = _qfVuTaEO;
-        "minecraft-1.18.1" = _lKGfSHWT;
-        "minecraft-1.18.2" = _yBL7ZkKC;
-        "minecraft-1.19" = _pnwPqnio;
-        "minecraft-1.19.1" = _xDJxfXKD;
-        "minecraft-1.19.2" = _E78No1rn;
-        "minecraft-1.19.3" = _kD8HuyKG;
-        "minecraft-1.19.4" = _Tt0QDMuG;
-        "minecraft-1.20" = _KrTlHhmR;
-        "minecraft-1.20.1" = _Tr4XsA41;
-        "minecraft-1.20.2" = _vSUls1wq;
-        "minecraft-1.20.3" = _rFDfMcd1;
-        "minecraft-1.20.4" = _qu9rnvd1;
-        "minecraft-1.20.5" = _YeqM25ii;
-        "minecraft-1.20.6" = _UxVTHXlE;
-        "minecraft-1.21" = _SX62lNjP;
-        "minecraft-1.21.1" = _4o0eDSx7;
-        "minecraft-1.21.2" = _xTZrfeQH;
-        "minecraft-1.21.3" = _ro2yako2;
-        "minecraft-1.21.4" = _FID2xRHJ;
-        "minecraft-1.16" = _nhDY7cie;
-        "minecraft-1.21.5" = _AfbyVgJJ;
+        "GEzGPcJU" = _GEzGPcJU;
+        "fbVyp7P0" = _fbVyp7P0;
+        "cc3vhVqR" = _cc3vhVqR;
+        "qQktTSca" = _qQktTSca;
+        "bErZLCRS" = _bErZLCRS;
+        "zRRqTNy1" = _zRRqTNy1;
+        "jPQxI695" = _jPQxI695;
+        "GxDiBHA2" = _GxDiBHA2;
+        "uDHaMxWM" = _uDHaMxWM;
+        "bZausGz1" = _bZausGz1;
+        "U5qZuIVF" = _U5qZuIVF;
+        "Y1G73oXC" = _Y1G73oXC;
+        "lwV4kgo0" = _lwV4kgo0;
+        "Hvi8LpDx" = _Hvi8LpDx;
+        "yXF6eS0X" = _yXF6eS0X;
+        "ddLWtN6i" = _ddLWtN6i;
+        "f43OLUWo" = _f43OLUWo;
+        "pplDlSfw" = _pplDlSfw;
+        "cKJgluoC" = _cKJgluoC;
+        "toj39amB" = _toj39amB;
+        "qG4Ei0es" = _qG4Ei0es;
+        "54fwKQgk" = _54fwKQgk;
+        "DkPOaKE1" = _DkPOaKE1;
+        "60320j4D" = _60320j4D;
+        "7q7pxVHl" = _7q7pxVHl;
+        "wUaNKTNU" = _wUaNKTNU;
+        "4chSE9hj" = _4chSE9hj;
+        "ltPgPlHt" = _ltPgPlHt;
+        "Yg0m9N2D" = _Yg0m9N2D;
+        "SCemvPXE" = _SCemvPXE;
+        "ts4eMl5h" = _ts4eMl5h;
+        "np6HExdG" = _np6HExdG;
+        "jSz43rsV" = _jSz43rsV;
+        "EeNfbo6G" = _EeNfbo6G;
+        "MNZ5iiZM" = _MNZ5iiZM;
+        "nz6wcS4e" = _nz6wcS4e;
+        "HJTlCxsp" = _HJTlCxsp;
+        "ZbXtw5nn" = _ZbXtw5nn;
+        "EdRMcMDV" = _EdRMcMDV;
+        "chyKBohY" = _chyKBohY;
+        "KFKIOW1K" = _KFKIOW1K;
+        "cmtra20c" = _cmtra20c;
+        "OjbrVjA1" = _OjbrVjA1;
+        "zg1AtoaG" = _zg1AtoaG;
+        "dZh3sFrt" = _dZh3sFrt;
+        "6GxcpuyG" = _6GxcpuyG;
+        "NIULLSFR" = _NIULLSFR;
+        "W2kWkumJ" = _W2kWkumJ;
+        "WPfjVnmD" = _WPfjVnmD;
+        "8wSEVu8g" = _8wSEVu8g;
+        "NvjZZ5nf" = _NvjZZ5nf;
+        "minecraft-1.16.1" = _chyKBohY;
+        "minecraft-1.16.2" = _EdRMcMDV;
+        "minecraft-1.16.3" = _ZbXtw5nn;
+        "minecraft-1.16.4" = _HJTlCxsp;
+        "minecraft-1.16.5" = _nz6wcS4e;
+        "minecraft-1.17" = _MNZ5iiZM;
+        "minecraft-1.17.1" = _EeNfbo6G;
+        "minecraft-1.18" = _jSz43rsV;
+        "minecraft-1.18.1" = _np6HExdG;
+        "minecraft-1.18.2" = _ts4eMl5h;
+        "minecraft-1.19" = _SCemvPXE;
+        "minecraft-1.19.1" = _Yg0m9N2D;
+        "minecraft-1.19.2" = _ltPgPlHt;
+        "minecraft-1.19.3" = _4chSE9hj;
+        "minecraft-1.19.4" = _wUaNKTNU;
+        "minecraft-1.20" = _7q7pxVHl;
+        "minecraft-1.20.1" = _60320j4D;
+        "minecraft-1.20.2" = _DkPOaKE1;
+        "minecraft-1.20.3" = _54fwKQgk;
+        "minecraft-1.20.4" = _qG4Ei0es;
+        "minecraft-1.20.5" = _toj39amB;
+        "minecraft-1.20.6" = _cKJgluoC;
+        "minecraft-1.21" = _pplDlSfw;
+        "minecraft-1.21.1" = _f43OLUWo;
+        "minecraft-1.21.2" = _ddLWtN6i;
+        "minecraft-1.21.3" = _yXF6eS0X;
+        "minecraft-1.21.4" = _Hvi8LpDx;
+        "minecraft-1.16" = _KFKIOW1K;
+        "minecraft-1.21.5" = _lwV4kgo0;
         "minecraft-24w33a" = _xhgTGqiU;
         "minecraft-24w34a" = _xhgTGqiU;
         "minecraft-24w35a" = _xhgTGqiU;
@@ -1148,23 +1454,23 @@ let
         "minecraft-24w44a" = _xhgTGqiU;
         "minecraft-24w45a" = _xhgTGqiU;
         "minecraft-24w46a" = _xhgTGqiU;
-        "minecraft-1.21.6" = _YWToh5zy;
-        "minecraft-1.21.7" = _crQUi93y;
-        "minecraft-1.21.8" = _hmFr5zJl;
-        "minecraft-1.21.9" = _CsO4Afi1;
-        "minecraft-1.21.10" = _OMqoFsK3;
-        "minecraft-1.21.11" = _EjcoMrLi;
-        "minecraft-1.13" = _Re6tRDlI;
-        "minecraft-1.13.1" = _iAASi34s;
-        "minecraft-1.13.2" = _eAQApDM2;
-        "minecraft-1.14" = _xT1hRx11;
-        "minecraft-1.14.1" = _qIVelUXV;
-        "minecraft-1.14.2" = _J22F7EFy;
-        "minecraft-1.14.3" = _4xgPBbG0;
-        "minecraft-1.14.4" = _d0InApKd;
-        "minecraft-1.15" = _1QGsDTNq;
-        "minecraft-1.15.1" = _kHZy72Id;
-        "minecraft-1.15.2" = _Dc7OadVq;
+        "minecraft-1.21.6" = _Y1G73oXC;
+        "minecraft-1.21.7" = _U5qZuIVF;
+        "minecraft-1.21.8" = _bZausGz1;
+        "minecraft-1.21.9" = _uDHaMxWM;
+        "minecraft-1.21.10" = _GxDiBHA2;
+        "minecraft-1.21.11" = _jPQxI695;
+        "minecraft-1.13" = _GEzGPcJU;
+        "minecraft-1.13.1" = _NvjZZ5nf;
+        "minecraft-1.13.2" = _8wSEVu8g;
+        "minecraft-1.14" = _WPfjVnmD;
+        "minecraft-1.14.1" = _W2kWkumJ;
+        "minecraft-1.14.2" = _NIULLSFR;
+        "minecraft-1.14.3" = _6GxcpuyG;
+        "minecraft-1.14.4" = _dZh3sFrt;
+        "minecraft-1.15" = _zg1AtoaG;
+        "minecraft-1.15.1" = _OjbrVjA1;
+        "minecraft-1.15.2" = _cmtra20c;
         "minecraft-22w42a" = _xhgTGqiU;
         "minecraft-22w43a" = _xhgTGqiU;
         "minecraft-22w44a" = _xhgTGqiU;
@@ -1219,13 +1525,13 @@ let
         "minecraft-26.1-rc-1" = _MM0s7LE1;
         "minecraft-26.1-rc-2" = _MM0s7LE1;
         "minecraft-26.1-rc-3" = _MM0s7LE1;
-        "minecraft-26.1" = _4AzdcdzY;
+        "minecraft-26.1" = _zRRqTNy1;
         "minecraft-26.1.1-rc-1" = _MM0s7LE1;
-        "minecraft-26.1.1" = _2kJYC9T7;
+        "minecraft-26.1.1" = _bErZLCRS;
         "minecraft-26w14a" = _MM0s7LE1;
         "minecraft-26.2-snapshot-1" = _MM0s7LE1;
         "minecraft-26.1.2-rc-1" = _MM0s7LE1;
-        "minecraft-26.1.2" = _rVcIdN69;
+        "minecraft-26.1.2" = _qQktTSca;
         "minecraft-26.2-snapshot-2" = _MM0s7LE1;
         "minecraft-26.2-snapshot-3" = _MM0s7LE1;
         "minecraft-1.21.5-rc2" = _MM0s7LE1;
@@ -1353,8 +1659,8 @@ let
         "minecraft-26.2-pre-6" = _MM0s7LE1;
         "minecraft-26.2-rc-1" = _MM0s7LE1;
         "minecraft-26.2-rc-2" = _MM0s7LE1;
-        "minecraft-26.2" = _4a1Q8OuO;
-        "minecraft-26.3" = _cmBdNt24;
+        "minecraft-26.2" = _cc3vhVqR;
+        "minecraft-26.3" = _fbVyp7P0;
         "pkg-1214.0.1" = _1frKeetj;
         "pkg-1214.0.2" = _1tPmEvT7;
         "pkg-1214.0.3" = _nwd9uuZk;
@@ -1475,58 +1781,58 @@ let
         "pkg-1214.11.1.0" = _ubgjAZ94;
         "pkg-1214.11.1.1" = _VdYBlaiu;
         "pkg-1214.12.0.0" = _xhgTGqiU;
-        "pkg-PvP-Essentials-Overlay-1.13" = _Re6tRDlI;
-        "pkg-PvP-Essentials-Overlay-1.13.1" = _iAASi34s;
-        "pkg-PvP-Essentials-Overlay-1.13.2" = _eAQApDM2;
-        "pkg-PvP-Essentials-Overlay-1.14" = _xT1hRx11;
-        "pkg-PvP-Essentials-Overlay-1.14.1" = _qIVelUXV;
-        "pkg-PvP-Essentials-Overlay-1.14.2" = _J22F7EFy;
-        "pkg-PvP-Essentials-Overlay-1.14.3" = _4xgPBbG0;
-        "pkg-PvP-Essentials-Overlay-1.14.4" = _d0InApKd;
-        "pkg-PvP-Essentials-Overlay-1.15" = _1QGsDTNq;
-        "pkg-PvP-Essentials-Overlay-1.15.1" = _kHZy72Id;
-        "pkg-PvP-Essentials-Overlay-1.15.2" = _Dc7OadVq;
-        "pkg-PvP-Essentials-Overlay-1.16" = _nhDY7cie;
-        "pkg-PvP-Essentials-Overlay-1.16.1" = _BOPnKNeR;
-        "pkg-PvP-Essentials-Overlay-1.16.2" = _P03XgbNz;
-        "pkg-PvP-Essentials-Overlay-1.16.3" = _I3BHT0Iu;
-        "pkg-PvP-Essentials-Overlay-1.16.4" = _OtEH7vQT;
-        "pkg-PvP-Essentials-Overlay-1.16.5" = _DoJY5Fo9;
-        "pkg-PvP-Essentials-Overlay-1.17" = _7OCvaQkB;
-        "pkg-PvP-Essentials-Overlay-1.17.1" = _OcOUF7ed;
-        "pkg-PvP-Essentials-Overlay-1.18" = _qfVuTaEO;
-        "pkg-PvP-Essentials-Overlay-1.18.1" = _lKGfSHWT;
-        "pkg-PvP-Essentials-Overlay-1.18.2" = _yBL7ZkKC;
-        "pkg-PvP-Essentials-Overlay-1.19" = _pnwPqnio;
-        "pkg-PvP-Essentials-Overlay-1.19.1" = _xDJxfXKD;
-        "pkg-PvP-Essentials-Overlay-1.19.2" = _E78No1rn;
-        "pkg-PvP-Essentials-Overlay-1.19.3" = _kD8HuyKG;
-        "pkg-PvP-Essentials-Overlay-1.19.4" = _Tt0QDMuG;
-        "pkg-PvP-Essentials-Overlay-1.20" = _KrTlHhmR;
-        "pkg-PvP-Essentials-Overlay-1.20.1" = _Tr4XsA41;
-        "pkg-PvP-Essentials-Overlay-1.20.2" = _vSUls1wq;
-        "pkg-PvP-Essentials-Overlay-1.20.3" = _rFDfMcd1;
-        "pkg-PvP-Essentials-Overlay-1.20.4" = _qu9rnvd1;
-        "pkg-PvP-Essentials-Overlay-1.20.5" = _YeqM25ii;
-        "pkg-PvP-Essentials-Overlay-1.20.6" = _UxVTHXlE;
-        "pkg-PvP-Essentials-Overlay-1.21" = _SX62lNjP;
-        "pkg-PvP-Essentials-Overlay-1.21.1" = _4o0eDSx7;
-        "pkg-PvP-Essentials-Overlay-1.21.2" = _xTZrfeQH;
-        "pkg-PvP-Essentials-Overlay-1.21.3" = _ro2yako2;
-        "pkg-PvP-Essentials-Overlay-1.21.4" = _FID2xRHJ;
-        "pkg-PvP-Essentials-Overlay-1.21.5" = _AfbyVgJJ;
-        "pkg-PvP-Essentials-Overlay-1.21.6" = _YWToh5zy;
-        "pkg-PvP-Essentials-Overlay-1.21.7" = _crQUi93y;
-        "pkg-PvP-Essentials-Overlay-1.21.8" = _hmFr5zJl;
-        "pkg-PvP-Essentials-Overlay-1.21.9" = _CsO4Afi1;
-        "pkg-PvP-Essentials-Overlay-1.21.10" = _OMqoFsK3;
-        "pkg-PvP-Essentials-Overlay-1.21.11" = _EjcoMrLi;
-        "pkg-PvP-Essentials-Overlay-26.1" = _4AzdcdzY;
-        "pkg-PvP-Essentials-Overlay-26.1.1" = _2kJYC9T7;
-        "pkg-PvP-Essentials-Overlay-26.1.2" = _rVcIdN69;
-        "pkg-PvP-Essentials-Overlay-26.2" = _4a1Q8OuO;
-        "pkg-PvP-Essentials-Overlay-26.3" = _cmBdNt24;
-        "default" = _cmBdNt24;
+        "pkg-PvP-Essentials-Overlay-1.13" = _GEzGPcJU;
+        "pkg-PvP-Essentials-Overlay-1.13.1" = _NvjZZ5nf;
+        "pkg-PvP-Essentials-Overlay-1.13.2" = _8wSEVu8g;
+        "pkg-PvP-Essentials-Overlay-1.14" = _WPfjVnmD;
+        "pkg-PvP-Essentials-Overlay-1.14.1" = _W2kWkumJ;
+        "pkg-PvP-Essentials-Overlay-1.14.2" = _NIULLSFR;
+        "pkg-PvP-Essentials-Overlay-1.14.3" = _6GxcpuyG;
+        "pkg-PvP-Essentials-Overlay-1.14.4" = _dZh3sFrt;
+        "pkg-PvP-Essentials-Overlay-1.15" = _zg1AtoaG;
+        "pkg-PvP-Essentials-Overlay-1.15.1" = _OjbrVjA1;
+        "pkg-PvP-Essentials-Overlay-1.15.2" = _cmtra20c;
+        "pkg-PvP-Essentials-Overlay-1.16" = _KFKIOW1K;
+        "pkg-PvP-Essentials-Overlay-1.16.1" = _chyKBohY;
+        "pkg-PvP-Essentials-Overlay-1.16.2" = _EdRMcMDV;
+        "pkg-PvP-Essentials-Overlay-1.16.3" = _ZbXtw5nn;
+        "pkg-PvP-Essentials-Overlay-1.16.4" = _HJTlCxsp;
+        "pkg-PvP-Essentials-Overlay-1.16.5" = _nz6wcS4e;
+        "pkg-PvP-Essentials-Overlay-1.17" = _MNZ5iiZM;
+        "pkg-PvP-Essentials-Overlay-1.17.1" = _EeNfbo6G;
+        "pkg-PvP-Essentials-Overlay-1.18" = _jSz43rsV;
+        "pkg-PvP-Essentials-Overlay-1.18.1" = _np6HExdG;
+        "pkg-PvP-Essentials-Overlay-1.18.2" = _ts4eMl5h;
+        "pkg-PvP-Essentials-Overlay-1.19" = _SCemvPXE;
+        "pkg-PvP-Essentials-Overlay-1.19.1" = _Yg0m9N2D;
+        "pkg-PvP-Essentials-Overlay-1.19.2" = _ltPgPlHt;
+        "pkg-PvP-Essentials-Overlay-1.19.3" = _4chSE9hj;
+        "pkg-PvP-Essentials-Overlay-1.19.4" = _wUaNKTNU;
+        "pkg-PvP-Essentials-Overlay-1.20" = _7q7pxVHl;
+        "pkg-PvP-Essentials-Overlay-1.20.1" = _60320j4D;
+        "pkg-PvP-Essentials-Overlay-1.20.2" = _DkPOaKE1;
+        "pkg-PvP-Essentials-Overlay-1.20.3" = _54fwKQgk;
+        "pkg-PvP-Essentials-Overlay-1.20.4" = _qG4Ei0es;
+        "pkg-PvP-Essentials-Overlay-1.20.5" = _toj39amB;
+        "pkg-PvP-Essentials-Overlay-1.20.6" = _cKJgluoC;
+        "pkg-PvP-Essentials-Overlay-1.21" = _pplDlSfw;
+        "pkg-PvP-Essentials-Overlay-1.21.1" = _f43OLUWo;
+        "pkg-PvP-Essentials-Overlay-1.21.2" = _ddLWtN6i;
+        "pkg-PvP-Essentials-Overlay-1.21.3" = _yXF6eS0X;
+        "pkg-PvP-Essentials-Overlay-1.21.4" = _Hvi8LpDx;
+        "pkg-PvP-Essentials-Overlay-1.21.5" = _lwV4kgo0;
+        "pkg-PvP-Essentials-Overlay-1.21.6" = _Y1G73oXC;
+        "pkg-PvP-Essentials-Overlay-1.21.7" = _U5qZuIVF;
+        "pkg-PvP-Essentials-Overlay-1.21.8" = _bZausGz1;
+        "pkg-PvP-Essentials-Overlay-1.21.9" = _uDHaMxWM;
+        "pkg-PvP-Essentials-Overlay-1.21.10" = _GxDiBHA2;
+        "pkg-PvP-Essentials-Overlay-1.21.11" = _jPQxI695;
+        "pkg-PvP-Essentials-Overlay-26.1" = _zRRqTNy1;
+        "pkg-PvP-Essentials-Overlay-26.1.1" = _bErZLCRS;
+        "pkg-PvP-Essentials-Overlay-26.1.2" = _qQktTSca;
+        "pkg-PvP-Essentials-Overlay-26.2" = _cc3vhVqR;
+        "pkg-PvP-Essentials-Overlay-26.3" = _fbVyp7P0;
+        "default" = _NvjZZ5nf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pvpessentialsoverlay";

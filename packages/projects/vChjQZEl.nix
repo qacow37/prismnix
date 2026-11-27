@@ -296,6 +296,21 @@ let
             "file" = "historystages-6.2.0-1.20.1.jar";
             "hash" = "sha512-toKFW/gU+sV+jXy781l4DLEkcEmr4eaCCLmDsm5C0UkhXe1YTMcUzpyf9mjLFYvyTwjzfdm2mKIAwR7basXM0Q==";
         };
+        _nzCTRoyw = {
+            "id" = "nzCTRoyw";
+            "file" = "historystages-fabric-6.2.0-1.21.1-fabric.jar";
+            "hash" = "sha512-beT8joZLYuuaWPfuZ5UuNEaoKVw8kqO/6rWYhPQGxDM9/HXBA4Nq+ttYYt2jcrRUjPI1k/VvyViC3hm7/lrTgg==";
+        };
+        _YokF81IS = {
+            "id" = "YokF81IS";
+            "file" = "historystages-neoforge-6.2.0-26.2.jar";
+            "hash" = "sha512-v/rdm1Wapcb6VlEkdMv9Y1QzY4RDbR8t0ez2mbMno9rcMag068o93WjEpJA1d/szba8eHO7fAjGoQdI+xBKAGw==";
+        };
+        _AA04TwpO = {
+            "id" = "AA04TwpO";
+            "file" = "historystages-fabric-6.2.0-26.2.jar";
+            "hash" = "sha512-RgoBclF4CGFZ+rd8VljjuMy4rsoG0YGeLhliFQsR64ZPdpwFDPtvV+eOJO0/WhFQ757KpUvMsP+tD6Ed6uqMAA==";
+        };
     in {
         "KJUY6XS1" = _KJUY6XS1;
         "TKGeCaRA" = _TKGeCaRA;
@@ -356,6 +371,9 @@ let
         "cSABtzPJ" = _cSABtzPJ;
         "ciN7k3Rq" = _ciN7k3Rq;
         "ljJHJphD" = _ljJHJphD;
+        "nzCTRoyw" = _nzCTRoyw;
+        "YokF81IS" = _YokF81IS;
+        "AA04TwpO" = _AA04TwpO;
         "forge-1.20.1" = _ljJHJphD;
         "forge-1.20" = _ljJHJphD;
         "forge-1.19" = _9kb7LdGj;
@@ -363,10 +381,10 @@ let
         "forge-1.19.2" = _9kb7LdGj;
         "neoforge-1.21" = _ciN7k3Rq;
         "neoforge-1.21.1" = _ciN7k3Rq;
-        "neoforge-26.2" = _QyU2BY1U;
-        "fabric-1.21" = _jABQyst4;
-        "fabric-1.21.1" = _jABQyst4;
-        "fabric-26.2" = _cSABtzPJ;
+        "neoforge-26.2" = _YokF81IS;
+        "fabric-1.21" = _nzCTRoyw;
+        "fabric-1.21.1" = _nzCTRoyw;
+        "fabric-26.2" = _AA04TwpO;
         "pkg-0.2-1.20.1" = _KJUY6XS1;
         "pkg-0.5.1-1.20.1" = _TKGeCaRA;
         "pkg-0.6.0-1.20.1" = _MS1WKQIs;
@@ -426,7 +444,10 @@ let
         "pkg-6.1.0-26.2-fabric" = _cSABtzPJ;
         "pkg-6.2.0-1.21.1" = _ciN7k3Rq;
         "pkg-6.2.0-1.20.1" = _ljJHJphD;
-        "default" = _ljJHJphD;
+        "pkg-6.2.0-1.21.1-fabric" = _nzCTRoyw;
+        "pkg-6.2.0-26.2-neoforge" = _YokF81IS;
+        "pkg-6.2.0-26.2-fabric" = _AA04TwpO;
+        "default" = _AA04TwpO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "history-stages";

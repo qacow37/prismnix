@@ -531,6 +531,11 @@ let
             "file" = "palladium-4.5.10+1.20.1-fabric.jar";
             "hash" = "sha512-zpR+qx21nJrlP0yfNymUFbzIFGuVeOv6iFoEGkP6gGEBHEdKkTYe5PSIRPV7NiZKFW+IhkL8uLSAZzMVL1WNgQ==";
         };
+        _ECslLgLw = {
+            "id" = "ECslLgLw";
+            "file" = "palladium-5.0.0+26.1.2.jar";
+            "hash" = "sha512-i0z88vh3mboCxHihS/5+IHf69ZjcHRDRNxUkgyhKmZmeWmqo7VGJsvPdx/kuHukxtlNB5D6FXhv5tRL5gQ/kBQ==";
+        };
     in {
         "YXaR7QC4" = _YXaR7QC4;
         "8omqvqHs" = _8omqvqHs;
@@ -638,8 +643,10 @@ let
         "pGhbfuMO" = _pGhbfuMO;
         "aqNx175c" = _aqNx175c;
         "naFdzsle" = _naFdzsle;
+        "ECslLgLw" = _ECslLgLw;
         "forge-1.20.1" = _aqNx175c;
         "neoforge-1.20.1" = _aqNx175c;
+        "neoforge-26.1.2" = _ECslLgLw;
         "fabric-1.20.1" = _naFdzsle;
         "quilt-1.20.1" = _naFdzsle;
         "pkg-4.0.0+1.20.1-forge" = _YXaR7QC4;
@@ -748,7 +755,8 @@ let
         "pkg-4.5.9+1.20.1-fabric" = _pGhbfuMO;
         "pkg-4.5.10+1.20.1-forge" = _aqNx175c;
         "pkg-4.5.10+1.20.1-fabric" = _naFdzsle;
-        "default" = _naFdzsle;
+        "pkg-5.0.0+26.1.2" = _ECslLgLw;
+        "default" = _ECslLgLw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "threetag-palladium";

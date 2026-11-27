@@ -211,6 +211,21 @@ let
             "file" = "packdisabler-1.1.3+26.1.2.jar";
             "hash" = "sha512-JOJxUFE8ehvV7mzDiZ9OqsVrHkEr5kvHqWQZLYnA9r2xnh9mYEbiQ5ZECqdDeLXf+liOfvgQxiUly8LQCQ4K2g==";
         };
+        _iGE93ZCV = {
+            "id" = "iGE93ZCV";
+            "file" = "packdisabler-1.1.4+26.1.2.jar";
+            "hash" = "sha512-hq/JKdHJVJ+V+07xBAMwI4vPuu1ZrAoXtHL1UOrBsBrU2oeTfpLkikEAgNAQmU7sna/zvNBcBb4t0KePipXM/w==";
+        };
+        _IHTp3tEe = {
+            "id" = "IHTp3tEe";
+            "file" = "packdisabler-1.1.4+26.2.jar";
+            "hash" = "sha512-ARUdK0CgoqkVd49asqauEOJKl3R05IHn1uw4FFK9R62OS6C7OzrG6XTC0oODhWkO5M3y3JcrhvDSNLWzDkovaQ==";
+        };
+        _pepKbfO1 = {
+            "id" = "pepKbfO1";
+            "file" = "packdisabler-1.1.4+26.3.jar";
+            "hash" = "sha512-vhyT5ZQCYofCG1jcEyrWRhdyZbahfGUG3tYp+upI4Fzv9zAFi8mUoSUyV6PSCHNLf7aU1FLqEIPIA41i40qAAQ==";
+        };
     in {
         "DEdsHR6U" = _DEdsHR6U;
         "WwqAsfj0" = _WwqAsfj0;
@@ -254,10 +269,13 @@ let
         "fGpjLsNm" = _fGpjLsNm;
         "1EZ0EUqD" = _1EZ0EUqD;
         "vfNogS7T" = _vfNogS7T;
+        "iGE93ZCV" = _iGE93ZCV;
+        "IHTp3tEe" = _IHTp3tEe;
+        "pepKbfO1" = _pepKbfO1;
         "fabric-1.21.11" = _r1VIG2Jv;
-        "fabric-26.1.2" = _vfNogS7T;
-        "fabric-26.2" = _1EZ0EUqD;
-        "fabric-26.3" = _fGpjLsNm;
+        "fabric-26.1.2" = _iGE93ZCV;
+        "fabric-26.2" = _IHTp3tEe;
+        "fabric-26.3" = _pepKbfO1;
         "pkg-1.0.0" = _Mr9fAM8S;
         "pkg-1.0.1" = _27RunuGF;
         "pkg-1.0.2" = _n4TO81cs;
@@ -272,7 +290,8 @@ let
         "pkg-1.1.1" = _WYhxNceU;
         "pkg-1.1.2" = _ti1QKxiA;
         "pkg-1.1.3" = _vfNogS7T;
-        "default" = _vfNogS7T;
+        "pkg-1.1.4" = _pepKbfO1;
+        "default" = _pepKbfO1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "packdisabler-for-hypixel-skyblock";

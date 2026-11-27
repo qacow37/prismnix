@@ -41,6 +41,11 @@ let
             "file" = "hauntedcore-1.0.2.jar";
             "hash" = "sha512-EI7wFHJ2xNm8eQ3VdgVvJMkKd7S8BM373iePl0Yqkbk2nW0hKVu0Wu597fM0SDAQg0Z/JeLfFIVkE6jbZeFz/w==";
         };
+        _7vhUsZz8 = {
+            "id" = "7vhUsZz8";
+            "file" = "hauntedcore-1.0.3.jar";
+            "hash" = "sha512-CL12Ybr3AWW/NUAwpx/RWcUCazqn/CLXY+Bxd57phxFjL0pe8aYexleWiDXJqzTHipLyjMJSR6/nlNzjF5HcPA==";
+        };
     in {
         "JuSzOs9H" = _JuSzOs9H;
         "NwGGPZTD" = _NwGGPZTD;
@@ -50,14 +55,17 @@ let
         "m3tMJhRh" = _m3tMJhRh;
         "8DD8fkYe" = _8DD8fkYe;
         "Wm0frVx4" = _Wm0frVx4;
+        "7vhUsZz8" = _7vhUsZz8;
         "neoforge-1.20.1" = _JuSzOs9H;
         "neoforge-1.21.1" = _Wm0frVx4;
+        "neoforge-26.3" = _7vhUsZz8;
         "forge-1.20.1" = _8DD8fkYe;
         "forge-1.19.2" = _m3tMJhRh;
         "pkg-1.0.0" = _NwGGPZTD;
         "pkg-1.0.1" = _tqMmnhKu;
         "pkg-1.0.2" = _Wm0frVx4;
-        "default" = _Wm0frVx4;
+        "pkg-1.0.3" = _7vhUsZz8;
+        "default" = _7vhUsZz8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "haunted-core";

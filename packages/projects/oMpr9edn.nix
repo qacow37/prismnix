@@ -21,27 +21,34 @@ let
             "file" = "tcg-cobblemon-1.3.0.jar";
             "hash" = "sha512-PmsDPeSNpWlJmqBPpkfv/Tcq7Y4yTkFRBydj7uBSavvWF9jy04/t9+qfJgDRAksIvyMQtpl3qRQizhFzCEdurA==";
         };
+        _zhMEoLl8 = {
+            "id" = "zhMEoLl8";
+            "file" = "tcg-cobblemon-2.0.0.jar";
+            "hash" = "sha512-rPEQrE/Zv18QCXqV+CuVGRFtkMAJeitsP2Yf50rXF/SR4a7zHuLQ5WLVWe9E7T8OUloHOBs3IY1Bw2cgnp0KUQ==";
+        };
     in {
         "gnmi9FqH" = _gnmi9FqH;
         "kqaRNEHs" = _kqaRNEHs;
         "DLZfOtiQ" = _DLZfOtiQ;
         "QrflegAG" = _QrflegAG;
-        "fabric-1.21.1" = _QrflegAG;
-        "fabric-1.21.2" = _QrflegAG;
-        "fabric-1.21.3" = _QrflegAG;
-        "fabric-1.21.4" = _QrflegAG;
-        "fabric-1.21.5" = _QrflegAG;
-        "fabric-1.21.6" = _QrflegAG;
-        "fabric-1.21.7" = _QrflegAG;
-        "fabric-1.21.8" = _QrflegAG;
-        "fabric-1.21.9" = _QrflegAG;
-        "fabric-1.21.10" = _QrflegAG;
-        "fabric-1.21.11" = _QrflegAG;
+        "zhMEoLl8" = _zhMEoLl8;
+        "fabric-1.21.1" = _zhMEoLl8;
+        "fabric-1.21.2" = _zhMEoLl8;
+        "fabric-1.21.3" = _zhMEoLl8;
+        "fabric-1.21.4" = _zhMEoLl8;
+        "fabric-1.21.5" = _zhMEoLl8;
+        "fabric-1.21.6" = _zhMEoLl8;
+        "fabric-1.21.7" = _zhMEoLl8;
+        "fabric-1.21.8" = _zhMEoLl8;
+        "fabric-1.21.9" = _zhMEoLl8;
+        "fabric-1.21.10" = _zhMEoLl8;
+        "fabric-1.21.11" = _zhMEoLl8;
         "pkg-1.0.0" = _gnmi9FqH;
         "pkg-1.1.0" = _kqaRNEHs;
         "pkg-1.2.0" = _DLZfOtiQ;
         "pkg-1.3.0" = _QrflegAG;
-        "default" = _QrflegAG;
+        "pkg-2.0.0" = _zhMEoLl8;
+        "default" = _zhMEoLl8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobble-card-quest";

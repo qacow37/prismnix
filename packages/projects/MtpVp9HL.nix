@@ -146,6 +146,11 @@ let
             "file" = "aeronauticsdiscovery-2.2.0.jar";
             "hash" = "sha512-BdqoXkusK/QCpdmpIQ7kN1cDaQoNQKfbcaex/DB0MHALKuN3eqm7dsAb1askiD8yoAfGRVtKrICoDc91/PP1Yg==";
         };
+        _WEugXquh = {
+            "id" = "WEugXquh";
+            "file" = "aeronauticsdiscovery-2.3.0.jar";
+            "hash" = "sha512-QPMfOeHC5UPryld1B02UIuNHaenBGF+SQIU0g7ynkTkK7uDx7lsow62oQToFWNK7mHO4ten1RGrBpmwnJXMv9Q==";
+        };
     in {
         "vdWbLbSh" = _vdWbLbSh;
         "79DoUkXg" = _79DoUkXg;
@@ -176,7 +181,8 @@ let
         "KXLeL70i" = _KXLeL70i;
         "MSQIosE2" = _MSQIosE2;
         "bhDula1K" = _bhDula1K;
-        "neoforge-1.21.1" = _bhDula1K;
+        "WEugXquh" = _WEugXquh;
+        "neoforge-1.21.1" = _WEugXquh;
         "pkg-1.0.0" = _vdWbLbSh;
         "pkg-1.1.0" = _79DoUkXg;
         "pkg-1.2.0" = _Lm3yct1B;
@@ -206,7 +212,8 @@ let
         "pkg-2.1.3" = _KXLeL70i;
         "pkg-2.1.4" = _MSQIosE2;
         "pkg-2.2.0" = _bhDula1K;
-        "default" = _bhDula1K;
+        "pkg-2.3.0" = _WEugXquh;
+        "default" = _WEugXquh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-aeronautics-discovery";

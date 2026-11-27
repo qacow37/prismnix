@@ -561,6 +561,26 @@ let
             "file" = "fabricated-legacy-forge-3.4.0.jar";
             "hash" = "sha512-zkpjx0U8SzaGhFNWnxnl3XD4fFjVqLwMhj9MiCYCzymtFDhQWWCsPqlCSNjr89TbX6u7bAbotm3nr+RbMxDFLA==";
         };
+        _TRhb8Yre = {
+            "id" = "TRhb8Yre";
+            "file" = "fabricated-legacy-forge-3.5.0.jar";
+            "hash" = "sha512-t6YG/i/BY+4RgrMePubBTEsNjwwU+lKDBa+bNHUYYTLrxDJPkUGEc7Kpl2ZVhcEV3L+2Ok49xaNtbumWsn7rJQ==";
+        };
+        _Qa0lHlud = {
+            "id" = "Qa0lHlud";
+            "file" = "fabricated-legacy-forge-3.5.0.jar";
+            "hash" = "sha512-ALzPyGKyIiPRVGnYdYRYf4B8UFj5xUg07VreFtRtvU104WGERWVVkoWmWar65NRz4PugFgMMJHhLBB4PrLOo1w==";
+        };
+        _KEJK9fpy = {
+            "id" = "KEJK9fpy";
+            "file" = "fabricated-legacy-forge-3.5.0.jar";
+            "hash" = "sha512-difMwV6H9iOwAL5m0Hxv/Fnz0fIrstnv4ARpByVP3pBGV5450JppBcFEBtn7R3nWgaOwWWvm7SXkeND6ka1Ibg==";
+        };
+        _9CoCFuqy = {
+            "id" = "9CoCFuqy";
+            "file" = "fabricated-legacy-forge-3.5.0.jar";
+            "hash" = "sha512-oKXfJrjQMaFwTXlE6pTUKlTcYQTrI7fWZnf8dwxOXd3RRzv+zkve44L7uiU4aHtcfveKuav5qqDvwQu3gPXO6w==";
+        };
     in {
         "Y5KBGqG4" = _Y5KBGqG4;
         "CagVnf4s" = _CagVnf4s;
@@ -674,8 +694,12 @@ let
         "7BHoYd7M" = _7BHoYd7M;
         "gCLpMOJT" = _gCLpMOJT;
         "vKrp32B2" = _vKrp32B2;
-        "legacy-fabric-1.3.2" = _7BHoYd7M;
-        "legacy-fabric-1.4" = _vKrp32B2;
+        "TRhb8Yre" = _TRhb8Yre;
+        "Qa0lHlud" = _Qa0lHlud;
+        "KEJK9fpy" = _KEJK9fpy;
+        "9CoCFuqy" = _9CoCFuqy;
+        "legacy-fabric-1.3.2" = _Qa0lHlud;
+        "legacy-fabric-1.4" = _9CoCFuqy;
         "legacy-fabric-1.4.1" = _IpE768Qp;
         "legacy-fabric-1.4.2" = _DMSC6XsA;
         "legacy-fabric-1.4.3" = _iowxqpmV;
@@ -683,8 +707,8 @@ let
         "legacy-fabric-1.4.5" = _TZ3tc9gy;
         "legacy-fabric-1.4.6" = _wRxhsNVx;
         "legacy-fabric-1.4.7" = _aiImwgZ0;
-        "ornithe-1.3.2" = _NLizHojy;
-        "ornithe-1.4" = _gCLpMOJT;
+        "ornithe-1.3.2" = _TRhb8Yre;
+        "ornithe-1.4" = _KEJK9fpy;
         "pkg-1.0.0" = _Y5KBGqG4;
         "pkg-1.1.0" = _CagVnf4s;
         "pkg-1.1.1" = _G6bK1y1y;
@@ -718,7 +742,11 @@ let
         "pkg-3.4.0+1.3.2+legacy-fabric" = _7BHoYd7M;
         "pkg-3.4.0+1.4+ornithe" = _gCLpMOJT;
         "pkg-3.4.0+1.4+legacy-fabric" = _vKrp32B2;
-        "default" = _vKrp32B2;
+        "pkg-3.5.0+1.3.2+ornithe" = _TRhb8Yre;
+        "pkg-3.5.0+1.3.2+legacy-fabric" = _Qa0lHlud;
+        "pkg-3.5.0+1.4+ornithe" = _KEJK9fpy;
+        "pkg-3.5.0+1.4+legacy-fabric" = _9CoCFuqy;
+        "default" = _9CoCFuqy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fabricated-forge";

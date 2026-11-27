@@ -21,18 +21,24 @@ let
             "file" = "Tung Tung Tung Sahur.zip";
             "hash" = "sha512-vPRWQTgzhMEV9/rbUODqbOgmhLeBJLeOfjOHHTEn3lYSPcTO267TawUnG5faqg9qcDTEaAGvEMQcnHF075omzw==";
         };
+        _DXxb8TQd = {
+            "id" = "DXxb8TQd";
+            "file" = "Tung Tung Tung Sahur.zip";
+            "hash" = "sha512-vPRWQTgzhMEV9/rbUODqbOgmhLeBJLeOfjOHHTEn3lYSPcTO267TawUnG5faqg9qcDTEaAGvEMQcnHF075omzw==";
+        };
     in {
         "JClgWnp6" = _JClgWnp6;
         "huleOFdC" = _huleOFdC;
         "jPCkGHvG" = _jPCkGHvG;
         "pwEZQIr9" = _pwEZQIr9;
+        "DXxb8TQd" = _DXxb8TQd;
         "minecraft-1.21.9" = _pwEZQIr9;
         "minecraft-1.21.10" = _pwEZQIr9;
         "minecraft-1.21.11" = _pwEZQIr9;
-        "minecraft-26.1" = _pwEZQIr9;
-        "minecraft-26.1.1" = _pwEZQIr9;
-        "minecraft-26.1.2" = _pwEZQIr9;
-        "minecraft-26.2" = _pwEZQIr9;
+        "minecraft-26.1" = _DXxb8TQd;
+        "minecraft-26.1.1" = _DXxb8TQd;
+        "minecraft-26.1.2" = _DXxb8TQd;
+        "minecraft-26.2" = _DXxb8TQd;
         "minecraft-1.20" = _pwEZQIr9;
         "minecraft-1.20.1" = _pwEZQIr9;
         "minecraft-23w31a" = _huleOFdC;
@@ -127,11 +133,13 @@ let
         "minecraft-1.19.2" = _jPCkGHvG;
         "minecraft-1.19.3" = _jPCkGHvG;
         "minecraft-1.19.4" = _jPCkGHvG;
+        "minecraft-26.3" = _DXxb8TQd;
         "pkg-1.0" = _JClgWnp6;
         "pkg-1.1" = _huleOFdC;
         "pkg-BETA-1.2" = _jPCkGHvG;
         "pkg-1.3" = _pwEZQIr9;
-        "default" = _pwEZQIr9;
+        "pkg-1.4" = _DXxb8TQd;
+        "default" = _DXxb8TQd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tung-tung-tung-sahur";

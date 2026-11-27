@@ -101,6 +101,11 @@ let
             "file" = "Danny Phantom Addonpack 1.0.11.jar";
             "hash" = "sha512-/Tf/7LuhF36RUWszgBiY+H7pGUR0Ra8eKnGfjoV0trytmhtKwQu658JArKZMwf9xIKuf0OOo9FYzaJdSKAlPOg==";
         };
+        _yRiQCKe4 = {
+            "id" = "yRiQCKe4";
+            "file" = "Danny Phantom Addonpack 1.20.jar";
+            "hash" = "sha512-4TbQ5f2RuVn9Ifkm5kf4ruAZAGfwCVuFklDKsLbOkwx5cdAoynhCU3EQMowhYXq/4ihP+fIv0KXtYUKulEiYig==";
+        };
     in {
         "zMpcLeKy" = _zMpcLeKy;
         "ToPWUX9W" = _ToPWUX9W;
@@ -122,9 +127,10 @@ let
         "IwFo6TvM" = _IwFo6TvM;
         "v3IVAlAc" = _v3IVAlAc;
         "NOaXPyYL" = _NOaXPyYL;
+        "yRiQCKe4" = _yRiQCKe4;
         "datapack-1.20.1" = _XKKkDzjo;
-        "fabric-1.20.1" = _NOaXPyYL;
-        "forge-1.20.1" = _NOaXPyYL;
+        "fabric-1.20.1" = _yRiQCKe4;
+        "forge-1.20.1" = _yRiQCKe4;
         "quilt-1.20.1" = _ExJxbjqO;
         "pkg-1.0.0" = _zMpcLeKy;
         "pkg-1.0.1" = _ToPWUX9W;
@@ -143,7 +149,8 @@ let
         "pkg-1.0.11" = _IwFo6TvM;
         "pkg-1.0.12" = _v3IVAlAc;
         "pkg-1.0.13" = _NOaXPyYL;
-        "default" = _NOaXPyYL;
+        "pkg-1.0.14" = _yRiQCKe4;
+        "default" = _yRiQCKe4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ghostlys-danny-phantom-heropack";

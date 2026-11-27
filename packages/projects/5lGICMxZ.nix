@@ -16,10 +16,16 @@ let
             "file" = "DatapackLoader.jar";
             "hash" = "sha512-atXIxHZYrk24Tm+devuruLgBCHeoj97X91GCOFjlN2W/D5ZElSi76WkaJW0lVYlHYk00WXTnblkq4DWvkdHsFg==";
         };
+        _VTwsP9QO = {
+            "id" = "VTwsP9QO";
+            "file" = "DatapackLoader-1.5.0.jar";
+            "hash" = "sha512-7GO6eu0imqRwsVe1UkEjkyJxJtbfGLcdkTCTCBvDplEHX73Y0kwKyk32Nce98r1OMhfZdzInDRNoV8bIvUdN3g==";
+        };
     in {
         "Oub3J05e" = _Oub3J05e;
         "kyx2opgE" = _kyx2opgE;
         "ILcnrfnK" = _ILcnrfnK;
+        "VTwsP9QO" = _VTwsP9QO;
         "paper-1.14" = _Oub3J05e;
         "paper-1.14.1" = _Oub3J05e;
         "paper-1.14.2" = _Oub3J05e;
@@ -52,6 +58,7 @@ let
         "paper-1.20.5" = _ILcnrfnK;
         "paper-1.20.6" = _ILcnrfnK;
         "paper-1.21" = _ILcnrfnK;
+        "paper-26.3" = _VTwsP9QO;
         "purpur-1.14" = _Oub3J05e;
         "purpur-1.14.1" = _Oub3J05e;
         "purpur-1.14.2" = _Oub3J05e;
@@ -84,6 +91,7 @@ let
         "purpur-1.20.5" = _ILcnrfnK;
         "purpur-1.20.6" = _ILcnrfnK;
         "purpur-1.21" = _ILcnrfnK;
+        "purpur-26.3" = _VTwsP9QO;
         "spigot-1.14" = _Oub3J05e;
         "spigot-1.14.1" = _Oub3J05e;
         "spigot-1.14.2" = _Oub3J05e;
@@ -116,10 +124,13 @@ let
         "spigot-1.20.5" = _ILcnrfnK;
         "spigot-1.20.6" = _ILcnrfnK;
         "spigot-1.21" = _ILcnrfnK;
+        "spigot-26.3" = _VTwsP9QO;
+        "folia-26.3" = _VTwsP9QO;
         "pkg-1.3.0" = _Oub3J05e;
         "pkg-1.4.0" = _kyx2opgE;
         "pkg-1.4.1" = _ILcnrfnK;
-        "default" = _ILcnrfnK;
+        "pkg-1.5.0" = _VTwsP9QO;
+        "default" = _VTwsP9QO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "datapackloader";

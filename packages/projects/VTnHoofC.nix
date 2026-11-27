@@ -1421,6 +1421,26 @@ let
             "file" = "liteminer-forge-4.7.0+1.20.1.jar";
             "hash" = "sha512-h8Xw7WQlRGP6OYIR/mtuoGyJp2l2/VuzZ2fuko6eiJcIRwQNhEc4I69RgKHg0E0rM8N0KRGESmeDUm/PEsjWPQ==";
         };
+        _VWkMRQJ5 = {
+            "id" = "VWkMRQJ5";
+            "file" = "liteminer-fabric-4.7.1+1.21.1.jar";
+            "hash" = "sha512-2l1Y1ObNy8qA0G2GKkFaMHVe3mQ7Y393MmBK2NIiUFX+E1aD6ZripzpGETTISHCsGOZe/O8yzyWLnfaaXh0tQw==";
+        };
+        _4KtyFJV7 = {
+            "id" = "4KtyFJV7";
+            "file" = "liteminer-forge-4.7.1+1.21.1.jar";
+            "hash" = "sha512-JbXx4VFmZkuAAq3jg6phMYT8ua4Okt2KE33LFiFKGlFMNP6Y1/JzLAn4/2C3vfxNOxAnkXCT3Gok+m52DzASXQ==";
+        };
+        _QHkFHHOI = {
+            "id" = "QHkFHHOI";
+            "file" = "liteminer-neoforge-4.7.1+1.21.1.jar";
+            "hash" = "sha512-U7LaiLDZkySV0xtJYZVRphA1oVnALnr+zWzmr5Bx4Wd2lADsvLpqWSuYhBq+PwB8uWPRWWgDOgh9tSslRPQ/vA==";
+        };
+        _b0WlXoBW = {
+            "id" = "b0WlXoBW";
+            "file" = "liteminer-neoforge-4.7.2+1.21.1.jar";
+            "hash" = "sha512-dubTS8YcW2Jte/MTPqouxAhEP6MlKYBTI+q92cgDVFA2ZpAB7FeDA5KudXQoQf/imqA+T8oVuwziE7Do9NBiKw==";
+        };
     in {
         "lS7qoUiA" = _lS7qoUiA;
         "JEkY5vQT" = _JEkY5vQT;
@@ -1706,7 +1726,11 @@ let
         "98GrAQwp" = _98GrAQwp;
         "A0pdtoTL" = _A0pdtoTL;
         "2LIIx6Oj" = _2LIIx6Oj;
-        "fabric-1.21.1" = _vwDNJu8S;
+        "VWkMRQJ5" = _VWkMRQJ5;
+        "4KtyFJV7" = _4KtyFJV7;
+        "QHkFHHOI" = _QHkFHHOI;
+        "b0WlXoBW" = _b0WlXoBW;
+        "fabric-1.21.1" = _VWkMRQJ5;
         "fabric-1.21" = _vwDNJu8S;
         "fabric-1.20.1" = _A0pdtoTL;
         "fabric-1.21.4" = _OfUBGho0;
@@ -1723,7 +1747,7 @@ let
         "fabric-26.1.2" = _YZPnTqv2;
         "fabric-26.2" = _VUG9kERo;
         "fabric-26.3" = _Ew2JEUj5;
-        "neoforge-1.21.1" = _wSPMIU4E;
+        "neoforge-1.21.1" = _b0WlXoBW;
         "neoforge-1.21" = _wSPMIU4E;
         "neoforge-1.21.4" = _WhGY93va;
         "neoforge-1.21.5" = _uE6v55Mg;
@@ -1754,6 +1778,7 @@ let
         "forge-1.21.11" = _laWtPud4;
         "forge-26.2" = _vsW414Kw;
         "forge-26.3" = _5wicpnue;
+        "forge-1.21.1" = _4KtyFJV7;
         "pkg-0.1.0-alpha.2" = _JEkY5vQT;
         "pkg-0.2.0-beta.1" = _YBtm9Fzl;
         "pkg-0.2.1-beta.1" = _jh7axgNE;
@@ -1861,7 +1886,9 @@ let
         "pkg-4.5.2+26.3" = _P7DfaurH;
         "pkg-4.6.0+1.20.1" = _98GrAQwp;
         "pkg-4.7.0+1.20.1" = _2LIIx6Oj;
-        "default" = _2LIIx6Oj;
+        "pkg-4.7.1+1.21.1" = _QHkFHHOI;
+        "pkg-4.7.2+1.21.1" = _b0WlXoBW;
+        "default" = _b0WlXoBW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "liteminer";

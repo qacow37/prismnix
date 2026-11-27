@@ -256,6 +256,16 @@ let
             "file" = "Catharsis-1.0.0-beta.22-26.3.jar";
             "hash" = "sha512-/l9K/wIG+GfdaZJzwir1magx6JrFXgQe2VfQ7K6+2/8ANrxMTNWj0NGxz24JBcGfXhAUTr9ODu93SbU57n9NVw==";
         };
+        _9tkI9gF4 = {
+            "id" = "9tkI9gF4";
+            "file" = "Catharsis-1.0.0-beta.23-26.2.jar";
+            "hash" = "sha512-yL5uhCbta4c1RxAhLIMTCMI93qJrN/BAXGQjI5GfLd7Gmc4iy4oSIeOnkWAUIzUgVKXL17aKIOGfqT1w6TRfbQ==";
+        };
+        _EMN41BXt = {
+            "id" = "EMN41BXt";
+            "file" = "Catharsis-1.0.0-beta.23-26.3.jar";
+            "hash" = "sha512-g3rwPYN7RJ2uHasUIU4qhqCZO32MKJhdcDOAMj0d0jxR9j08ZivrUL6bpuybABNj6jBgxTLZY0+T6K/0C23tIw==";
+        };
     in {
         "i2y8kzfh" = _i2y8kzfh;
         "6mV1LGPR" = _6mV1LGPR;
@@ -308,6 +318,8 @@ let
         "kPx89llE" = _kPx89llE;
         "44NGgSNL" = _44NGgSNL;
         "NiyG56Rb" = _NiyG56Rb;
+        "9tkI9gF4" = _9tkI9gF4;
+        "EMN41BXt" = _EMN41BXt;
         "fabric-1.21.6" = _gf8Q4u9V;
         "fabric-1.21.7" = _gf8Q4u9V;
         "fabric-1.21.8" = _gf8Q4u9V;
@@ -317,8 +329,8 @@ let
         "fabric-26.1" = _kPx89llE;
         "fabric-26.1.1" = _kPx89llE;
         "fabric-26.1.2" = _kPx89llE;
-        "fabric-26.2" = _44NGgSNL;
-        "fabric-26.3" = _NiyG56Rb;
+        "fabric-26.2" = _9tkI9gF4;
+        "fabric-26.3" = _EMN41BXt;
         "pkg-1.0.0-beta.1-1.21.8" = _i2y8kzfh;
         "pkg-1.0.0-beta.1-1.21.10" = _6mV1LGPR;
         "pkg-1.0.0-beta.2+1.21.8" = _UaFtwRwq;
@@ -359,7 +371,8 @@ let
         "pkg-1.0.0-beta.20" = _p20S0IgR;
         "pkg-1.0.0-beta.21" = _6cxYQnad;
         "pkg-1.0.0-beta.22" = _NiyG56Rb;
-        "default" = _NiyG56Rb;
+        "pkg-1.0.0-beta.23" = _EMN41BXt;
+        "default" = _EMN41BXt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "catharsis";

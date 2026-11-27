@@ -131,6 +131,16 @@ let
             "file" = "mountopacity-1.2.3-hotfix.1+1.8.9-fabric.jar";
             "hash" = "sha512-TaR5sPX39uDD0G3CIFE3KnqmFR6FX0T1AUYGcZYDbxl5Ct0gASUtmcKRC+usDETMRcaGczIlkr0YDce7oIzJkw==";
         };
+        _EfcIrlvT = {
+            "id" = "EfcIrlvT";
+            "file" = "mountopacity-1.2.6+26.2-fabric.jar";
+            "hash" = "sha512-+Wad2zc05NFlOsm/3F08dbBuu4LQVbQYyK7h4G1PfOncJZwbAqyB72G1NbhAZBB4sgX4l9wXiUj5earIyX+2nw==";
+        };
+        _S6P7Z8h1 = {
+            "id" = "S6P7Z8h1";
+            "file" = "mountopacity-1.2.6+26.3-fabric.jar";
+            "hash" = "sha512-aRjF7CtVLrBD3p+QYVdkcIcnXXy9whhlcfCl8hOA8O2dIPwmEwr0Y26tAyIPq1E918Odh9qrDWNvY3UwYEZV8g==";
+        };
     in {
         "4VADPsLX" = _4VADPsLX;
         "hQCMATZT" = _hQCMATZT;
@@ -158,6 +168,8 @@ let
         "tHlxfy1f" = _tHlxfy1f;
         "nhoh8MZH" = _nhoh8MZH;
         "gmHZZe0a" = _gmHZZe0a;
+        "EfcIrlvT" = _EfcIrlvT;
+        "S6P7Z8h1" = _S6P7Z8h1;
         "fabric-1.20.1" = _iKq22zu4;
         "fabric-1.20.3" = _iKq22zu4;
         "fabric-1.20.4" = _iKq22zu4;
@@ -170,11 +182,11 @@ let
         "fabric-1.21.8" = _DrdccADX;
         "fabric-1.21.10" = _B1vDXG1r;
         "fabric-1.21.11" = _EYaEihhu;
-        "fabric-26.1" = _tHlxfy1f;
-        "fabric-26.1.1" = _tHlxfy1f;
-        "fabric-26.1.2" = _tHlxfy1f;
-        "fabric-26.2" = _tHlxfy1f;
-        "fabric-26.3" = _nhoh8MZH;
+        "fabric-26.1" = _EfcIrlvT;
+        "fabric-26.1.1" = _EfcIrlvT;
+        "fabric-26.1.2" = _EfcIrlvT;
+        "fabric-26.2" = _EfcIrlvT;
+        "fabric-26.3" = _S6P7Z8h1;
         "neoforge-1.21.1" = _Al7hhcvZ;
         "neoforge-1.21.3" = _HVLs6mrx;
         "neoforge-1.21.4" = _HVLs6mrx;
@@ -195,7 +207,8 @@ let
         "pkg-1.2.4" = _2OSifGxk;
         "pkg-1.2.5" = _nhoh8MZH;
         "pkg-1.2.3-hotfix.1" = _gmHZZe0a;
-        "default" = _gmHZZe0a;
+        "pkg-1.2.6" = _S6P7Z8h1;
+        "default" = _S6P7Z8h1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mountopacity";

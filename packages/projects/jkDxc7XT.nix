@@ -76,6 +76,16 @@ let
             "file" = "pondus_inventory_fi-0.15-Beta.jar";
             "hash" = "sha512-uuGLr9FVGHpspnV3UPSIsYEd695UiL62ffNt8be/ZhG2at7k5VaiNddYMORE95Cmv3uL+wq19WJZEWNTJ+i93A==";
         };
+        _grqyyDkn = {
+            "id" = "grqyyDkn";
+            "file" = "pondus_inventory_fi-fabric-0.16-Beta.jar";
+            "hash" = "sha512-clE4POiLfF9QwqOM/ppD0ALAbC1umI5p1IXyc4DwC5bRMx6Cs+B4Ym9x0Wxa1cFYwkkZe16cznJOXbAp1eD0dQ==";
+        };
+        _Da0AG775 = {
+            "id" = "Da0AG775";
+            "file" = "pondus_inventory_fi-neoforge-0.16-Beta.jar";
+            "hash" = "sha512-+kjkmm3Pmhh5erkoBXLVXH/0kDsk1zibNlDjT+EEC6GC4fsXNaXo0UkE8A4SD5rSCZA6gvBbbhA+O5NQls8JMw==";
+        };
     in {
         "1vvS98my" = _1vvS98my;
         "XUvfWxYl" = _XUvfWxYl;
@@ -92,7 +102,9 @@ let
         "wLPIkMWr" = _wLPIkMWr;
         "oAar2Vga" = _oAar2Vga;
         "DUbbDhU1" = _DUbbDhU1;
-        "neoforge-1.21.1" = _DUbbDhU1;
+        "grqyyDkn" = _grqyyDkn;
+        "Da0AG775" = _Da0AG775;
+        "neoforge-1.21.1" = _Da0AG775;
         "neoforge-1.21" = _NGX4MzQt;
         "neoforge-1.21.2" = _DUbbDhU1;
         "neoforge-1.21.3" = _DUbbDhU1;
@@ -104,6 +116,7 @@ let
         "neoforge-1.21.9" = _DUbbDhU1;
         "neoforge-1.21.10" = _DUbbDhU1;
         "neoforge-1.21.11" = _DUbbDhU1;
+        "fabric-1.21.1" = _grqyyDkn;
         "pkg-0.1-Alpha" = _1vvS98my;
         "pkg-0.2-Alpha" = _XUvfWxYl;
         "pkg-0.3-Alpha" = _nfvDV1Xb;
@@ -119,7 +132,8 @@ let
         "pkg-0.13-Beta" = _wLPIkMWr;
         "pkg-0.14-Beta" = _oAar2Vga;
         "pkg-0.15-Beta" = _DUbbDhU1;
-        "default" = _DUbbDhU1;
+        "pkg-0.16-Beta" = _Da0AG775;
+        "default" = _Da0AG775;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pondus-inventory";

@@ -26,19 +26,26 @@ let
             "file" = "BaldasProjectionSorcery-2.0.1.4.jar";
             "hash" = "sha512-TOqmXJTZo8lcEOLgkfYLayJjqyEhT+ixEWQbChs8Eok7VjR4NuRak5q8OOFYWTpEF30pgUv3YqGXyCHF3OwnKg==";
         };
+        _wBCfTaQH = {
+            "id" = "wBCfTaQH";
+            "file" = "BaldasProjectionSorcery-2.0.1.5.jar";
+            "hash" = "sha512-TGg5r2i9o6Bxyg/RMuRb9eN9U3IS03O7s9RR7HavWDQVHunkZm0vCwM/NKkoCjg8JT7gLB9avuiQ3vQqBS6rfQ==";
+        };
     in {
         "IHhW5C80" = _IHhW5C80;
         "jWAkiE3G" = _jWAkiE3G;
         "1mS4BsyN" = _1mS4BsyN;
         "zUnKWMaJ" = _zUnKWMaJ;
         "ybESOEgP" = _ybESOEgP;
-        "forge-1.20.1" = _ybESOEgP;
+        "wBCfTaQH" = _wBCfTaQH;
+        "forge-1.20.1" = _wBCfTaQH;
         "pkg-0.01" = _IHhW5C80;
         "pkg-1.0.2" = _jWAkiE3G;
         "pkg-2.0.1.2" = _1mS4BsyN;
         "pkg-2.0.1.3" = _zUnKWMaJ;
         "pkg-2.0.1.4" = _ybESOEgP;
-        "default" = _ybESOEgP;
+        "pkg-2.0.1.5" = _wBCfTaQH;
+        "default" = _wBCfTaQH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "projection-sorcery-cursed-fate-addon";

@@ -96,6 +96,11 @@ let
             "file" = "flashback_neoforge_fixed-1.0.20.jar";
             "hash" = "sha512-V0PDlLwtFJ9QpLyRV+L0q9KBnoFjQRi1Opf1Ja6sLh4HN7jJutbGnLH1HOuqFGnfC22oyBEoXUU6BefVMBMl/Q==";
         };
+        _riCakw9a = {
+            "id" = "riCakw9a";
+            "file" = "flashback_neoforge_fixed-1.0.21.jar";
+            "hash" = "sha512-aKsPSS2Vc+DwpA38t3UzPGpbLfuIYDg/mbUO/0lSRrzKDbSul4vt06eSzUoBMDtZSl3VYMTZPWx3gE/WPW6ARA==";
+        };
     in {
         "1jyfM86i" = _1jyfM86i;
         "jkKEMN2l" = _jkKEMN2l;
@@ -116,7 +121,8 @@ let
         "6lI0Ig17" = _6lI0Ig17;
         "Fglj63ER" = _Fglj63ER;
         "T1EQzJb7" = _T1EQzJb7;
-        "neoforge-1.21.1" = _T1EQzJb7;
+        "riCakw9a" = _riCakw9a;
+        "neoforge-1.21.1" = _riCakw9a;
         "pkg-1.0.0" = _1jyfM86i;
         "pkg-1.0.1" = _jkKEMN2l;
         "pkg-1.0.2" = _QscqR2CN;
@@ -136,7 +142,8 @@ let
         "pkg-1.0.18" = _6lI0Ig17;
         "pkg-1.0.19" = _Fglj63ER;
         "pkg-1.0.20" = _T1EQzJb7;
-        "default" = _T1EQzJb7;
+        "pkg-1.0.21" = _riCakw9a;
+        "default" = _riCakw9a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flashback-neoforge-fixed";

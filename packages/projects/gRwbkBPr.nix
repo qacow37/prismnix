@@ -326,6 +326,46 @@ let
             "file" = "MTR-Renfe-Addon-forge-4.0.2V+1.20.4.jar";
             "hash" = "sha512-BSQmG6wfTE368jgX8DQAQ0BoY24+c/uvmKqp7hmQAYav0ya+WyctxUtt6gPfubB2dpoa3tgJ/89p1A2V9LO9tQ==";
         };
+        _c0WI49nn = {
+            "id" = "c0WI49nn";
+            "file" = "MTR-Renfe-Addon-fabric-4.0.2-hotfix.1V+1.19.2.jar";
+            "hash" = "sha512-kqnsEv42i/KibPUK4no/Ae6JKlyUJW5VJbp+j0OG0z7IZ9/bWbkpa+r2fMsLnO6Pg2IKCaCmlbqmkCm0Vy+XhA==";
+        };
+        _4ilS3yio = {
+            "id" = "4ilS3yio";
+            "file" = "MTR-Renfe-Addon-forge-4.0.2-hotfix.1V+1.19.2.jar";
+            "hash" = "sha512-zmdKJy78jxxtl9gAB4blfnS8CEwGdMVz8NUQ/NakxkzzV8uTJohwUlTldmxSCr+eqDHT50A37wym1qGX6hhVNQ==";
+        };
+        _jdBAlI2K = {
+            "id" = "jdBAlI2K";
+            "file" = "MTR-Renfe-Addon-fabric-4.0.2-hotfix.1V+1.19.4.jar";
+            "hash" = "sha512-37GemZb6XTSNkiZWH7/JucPZFLzSWRU/iQ5Qi7HeIcGq9+FUJmGazULASMkqm8J5Rc/2WZgqeJg3GereohMz9g==";
+        };
+        _b9PkQyje = {
+            "id" = "b9PkQyje";
+            "file" = "MTR-Renfe-Addon-forge-4.0.2-hotfix.1V+1.19.4.jar";
+            "hash" = "sha512-Wrh8fST1vdNl59BTEAv84Qd2eZF5xghN/4Gv5hPo6KVXbDzPP5lrb9WAQDePnkdkaEI4cSS9xN8sa5SXlnEZoQ==";
+        };
+        _mFgJrq8m = {
+            "id" = "mFgJrq8m";
+            "file" = "MTR-Renfe-Addon-fabric-4.0.2-hotfix.1V+1.20.1.jar";
+            "hash" = "sha512-b29JH2POzycILK6xXMpnNPameYgFX/CrcVNmW6oBm58S8YXDKY85HRj2YzZx8thHrQYu1+bC47k8nH109U5YIA==";
+        };
+        _bEtUz09Q = {
+            "id" = "bEtUz09Q";
+            "file" = "MTR-Renfe-Addon-forge-4.0.2-hotfix.1V+1.20.1.jar";
+            "hash" = "sha512-DU599jzuCqEQvgaKDL0VCF9Zi85/7NsiMNCKRZ+J+HCZrSJCT3vHyx2DtQEksFHDvqtkBMf8WHjjPLjgdal6nQ==";
+        };
+        _8VFBdnVQ = {
+            "id" = "8VFBdnVQ";
+            "file" = "MTR-Renfe-Addon-fabric-4.0.2-hotfix.1V+1.20.4.jar";
+            "hash" = "sha512-EdLHUy3orbeG1Dq1hjHxFfM3KBU45yNKa2PGt3R15Dr1Sxz2hAWfQR/3oIaq28ZvLZjFFfUSosplcNbyaLi1wA==";
+        };
+        _94V4dTLw = {
+            "id" = "94V4dTLw";
+            "file" = "MTR-Renfe-Addon-forge-4.0.2-hotfix.1V+1.20.4.jar";
+            "hash" = "sha512-K7vfl51enlpqRrSRuCANjq1wqXdkORNw2gpd2J9sjfK9PkMLoQLN/nDyrauZEjWmy8W+G+n/+dimvFXeUGg/AA==";
+        };
     in {
         "ifSoOv36" = _ifSoOv36;
         "xSnM7RYu" = _xSnM7RYu;
@@ -392,27 +432,36 @@ let
         "w8ySlclt" = _w8ySlclt;
         "44uUG7Fr" = _44uUG7Fr;
         "1ZD0yYfY" = _1ZD0yYfY;
-        "fabric-1.19.2" = _CPzTtI8p;
+        "c0WI49nn" = _c0WI49nn;
+        "4ilS3yio" = _4ilS3yio;
+        "jdBAlI2K" = _jdBAlI2K;
+        "b9PkQyje" = _b9PkQyje;
+        "mFgJrq8m" = _mFgJrq8m;
+        "bEtUz09Q" = _bEtUz09Q;
+        "8VFBdnVQ" = _8VFBdnVQ;
+        "94V4dTLw" = _94V4dTLw;
+        "fabric-1.19.2" = _c0WI49nn;
         "fabric-1.16.5" = _400zwnOR;
         "fabric-1.17.1" = _5359BXsY;
         "fabric-1.18.2" = _BwYhQAdZ;
-        "fabric-1.19.4" = _FDifiddY;
-        "fabric-1.20.1" = _d2robblo;
-        "fabric-1.20.4" = _44uUG7Fr;
-        "forge-1.19.2" = _q7UoJro7;
+        "fabric-1.19.4" = _jdBAlI2K;
+        "fabric-1.20.1" = _mFgJrq8m;
+        "fabric-1.20.4" = _8VFBdnVQ;
+        "forge-1.19.2" = _4ilS3yio;
         "forge-1.16.5" = _vjoK0Dpi;
         "forge-1.17.1" = _25ZcdSgB;
         "forge-1.18.2" = _Ea5ox4jw;
-        "forge-1.19.4" = _p7RLrnEQ;
-        "forge-1.20.1" = _w8ySlclt;
-        "forge-1.20.4" = _1ZD0yYfY;
+        "forge-1.19.4" = _b9PkQyje;
+        "forge-1.20.1" = _bEtUz09Q;
+        "forge-1.20.4" = _94V4dTLw;
         "pkg-1.19.2-0.0.1" = _ifSoOv36;
         "pkg-0.2" = _uJ75O4no;
         "pkg-Version-3" = _mgmwuiDW;
         "pkg-4" = _zqaLpdWG;
         "pkg-4.0.1" = _SXFbYmGB;
         "pkg-4.0.2" = _1ZD0yYfY;
-        "default" = _1ZD0yYfY;
+        "pkg-4.0.2-hotfix.1" = _94V4dTLw;
+        "default" = _94V4dTLw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtr-renfe-addon";

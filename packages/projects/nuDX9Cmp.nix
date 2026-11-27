@@ -536,6 +536,11 @@ let
             "file" = "End-Parasitize and Convert All-0.148o-26.1.2.jar";
             "hash" = "sha512-/YSKik/9WukLsAfHYJj3zLaLp5BkTr5jsh39aYzsVY4yNwmGb7Pmn9QKUMqc8zpvBeLURvgkYyq6h66mUgCUAQ==";
         };
+        _JD7SvS61 = {
+            "id" = "JD7SvS61";
+            "file" = "End-Parasitize and Convert All-0.148p-1.20.1.jar";
+            "hash" = "sha512-xOTEJZHg8D3GdWyFn0Aj/i5VQz/SCnhogfngb9dJa72sxuRo1kuIcjzmO/G9Dg6aXJiNrXxpoTdP93vWqvOBQw==";
+        };
     in {
         "LbUCbmhx" = _LbUCbmhx;
         "IG51hd1O" = _IG51hd1O;
@@ -644,7 +649,8 @@ let
         "YArL296J" = _YArL296J;
         "hcb4Js0O" = _hcb4Js0O;
         "WemAhj7C" = _WemAhj7C;
-        "forge-1.20.1" = _hcb4Js0O;
+        "JD7SvS61" = _JD7SvS61;
+        "forge-1.20.1" = _JD7SvS61;
         "forge-1.12.2" = _GU2CXfkn;
         "neoforge-26.1.2" = _WemAhj7C;
         "pkg-0.3.3" = _LbUCbmhx;
@@ -737,7 +743,8 @@ let
         "pkg-0.148m" = _vrXHg21j;
         "pkg-0.148n" = _YArL296J;
         "pkg-0.148o" = _WemAhj7C;
-        "default" = _WemAhj7C;
+        "pkg-0.148p" = _JD7SvS61;
+        "default" = _JD7SvS61;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epca";

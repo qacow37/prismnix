@@ -6,8 +6,14 @@ let
             "file" = "Jacob's-3D-Ladder-with-Flowers-(Pink)-1.14+.zip";
             "hash" = "sha512-zh4scnH/Hga1tmUU6trnCaUjL7tiJi8X8YXlCnjLUuJ2378VIwqIRU+O5gnwBietm5cuuNA/wc91EFYI88zTVQ==";
         };
+        _URhNuaTp = {
+            "id" = "URhNuaTp";
+            "file" = "Jacob's-3D-Ladder-with-Flowers-(Pink)-1.21.6+.zip";
+            "hash" = "sha512-5QAuaHq1hwgbbzF6wUkc+UBa+nZCkt0dHHU8bVPK6mvj9NTICfTR9nPeYfmNV80MdiMu67aZUA5Yj258rd0WuA==";
+        };
     in {
         "o19bRkP6" = _o19bRkP6;
+        "URhNuaTp" = _URhNuaTp;
         "minecraft-1.14" = _o19bRkP6;
         "minecraft-1.14.1" = _o19bRkP6;
         "minecraft-1.14.2" = _o19bRkP6;
@@ -45,18 +51,20 @@ let
         "minecraft-1.21.3" = _o19bRkP6;
         "minecraft-1.21.4" = _o19bRkP6;
         "minecraft-1.21.5" = _o19bRkP6;
-        "minecraft-1.21.6" = _o19bRkP6;
-        "minecraft-1.21.7" = _o19bRkP6;
-        "minecraft-1.21.8" = _o19bRkP6;
-        "minecraft-1.21.9" = _o19bRkP6;
-        "minecraft-1.21.10" = _o19bRkP6;
-        "minecraft-1.21.11" = _o19bRkP6;
-        "minecraft-26.1" = _o19bRkP6;
-        "minecraft-26.1.1" = _o19bRkP6;
-        "minecraft-26.1.2" = _o19bRkP6;
-        "minecraft-26.2" = _o19bRkP6;
+        "minecraft-1.21.6" = _URhNuaTp;
+        "minecraft-1.21.7" = _URhNuaTp;
+        "minecraft-1.21.8" = _URhNuaTp;
+        "minecraft-1.21.9" = _URhNuaTp;
+        "minecraft-1.21.10" = _URhNuaTp;
+        "minecraft-1.21.11" = _URhNuaTp;
+        "minecraft-26.1" = _URhNuaTp;
+        "minecraft-26.1.1" = _URhNuaTp;
+        "minecraft-26.1.2" = _URhNuaTp;
+        "minecraft-26.2" = _URhNuaTp;
+        "minecraft-26.3" = _URhNuaTp;
         "pkg-1.0" = _o19bRkP6;
-        "default" = _o19bRkP6;
+        "pkg-V2.0" = _URhNuaTp;
+        "default" = _URhNuaTp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jacobs-3d-ladder-with-flowers-pink";

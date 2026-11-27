@@ -11,9 +11,21 @@ let
             "file" = "betterpingdisplay-1.0.1.jar";
             "hash" = "sha512-PJEYEsjQa+MGWUsXltpupytEtysb4skDvP4VP9IiiWpd6dzbK+9+PsF4OUE/YbgMbwzY9+lDOEKgASuoYGCx0g==";
         };
+        _mCAmSZqL = {
+            "id" = "mCAmSZqL";
+            "file" = "betterpingdisplay-1.0.2.jar";
+            "hash" = "sha512-FUXc86eRbjhW8BJ2+gn11xGn2Z6jd5i6D2aNXoJP9pu9Ac14d6fzckoqCGvU0oe0oIRPVM4w1VM73tgSuHJRqw==";
+        };
+        _I4rUBlSj = {
+            "id" = "I4rUBlSj";
+            "file" = "betterpingdisplay-1.0.3.jar";
+            "hash" = "sha512-tXy9WSug4gFbYqUUROEPQYt96+utD8SQ6J9xpZkIIiIWkVAQ2VMN196YIOIl0+4QFX6x/5LMOxwF2QajIFbONg==";
+        };
     in {
         "MALbiBtu" = _MALbiBtu;
         "9vIRvKPS" = _9vIRvKPS;
+        "mCAmSZqL" = _mCAmSZqL;
+        "I4rUBlSj" = _I4rUBlSj;
         "fabric-1.21" = _9vIRvKPS;
         "fabric-1.21.1" = _9vIRvKPS;
         "fabric-1.21.2" = _9vIRvKPS;
@@ -29,9 +41,12 @@ let
         "fabric-26.1" = _9vIRvKPS;
         "fabric-26.1.1" = _9vIRvKPS;
         "fabric-26.1.2" = _9vIRvKPS;
+        "fabric-26.3" = _I4rUBlSj;
         "pkg-1.0.0" = _MALbiBtu;
         "pkg-1.0.1" = _9vIRvKPS;
-        "default" = _9vIRvKPS;
+        "pkg-1.0.2" = _mCAmSZqL;
+        "pkg-1.0.3" = _I4rUBlSj;
+        "default" = _I4rUBlSj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterpingdisplay";

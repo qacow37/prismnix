@@ -351,6 +351,11 @@ let
             "file" = "AttributeCore-neo-1.21.1_v2.4.1.jar";
             "hash" = "sha512-R87NsT5gn0EOGQuJoOVtn0E7Xj9JrxgXgvdfSOkjK2/qY87uuaW+PZ3+Gxa9yryk4zCa122gOzVnIDiVZRG0DQ==";
         };
+        _baWTVZJI = {
+            "id" = "baWTVZJI";
+            "file" = "AttributeCore-forge-1.20.1_v2.4.12.jar";
+            "hash" = "sha512-HAPJKKefSvA2N8zrLU27HAomqf7oWIlGkX+/0QTUV4LZZm8o6kuRBEPpLVuu8iEDC4TANau9bN1IPq3gxxRqQA==";
+        };
     in {
         "hKiUj93o" = _hKiUj93o;
         "zMOQ1Ny3" = _zMOQ1Ny3;
@@ -422,7 +427,8 @@ let
         "5Ev3LrZO" = _5Ev3LrZO;
         "367mU6PR" = _367mU6PR;
         "WexW6RnR" = _WexW6RnR;
-        "forge-1.20.1" = _367mU6PR;
+        "baWTVZJI" = _baWTVZJI;
+        "forge-1.20.1" = _baWTVZJI;
         "neoforge-1.21.1" = _WexW6RnR;
         "pkg-1.0.0" = _XaSvo30v;
         "pkg-1.0.1" = _GJmphLnf;
@@ -483,7 +489,8 @@ let
         "pkg-2.4.9" = _HizIioVH;
         "pkg-2.4.10" = _5Ev3LrZO;
         "pkg-2.4.11" = _367mU6PR;
-        "default" = _WexW6RnR;
+        "pkg-2.4.12" = _baWTVZJI;
+        "default" = _baWTVZJI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xp-attribute-core";

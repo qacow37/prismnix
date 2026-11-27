@@ -456,6 +456,36 @@ let
             "file" = "DiscordJustSync-v1.19.0+1.21.9-1.21.10.jar";
             "hash" = "sha512-+Z14Tx4PIKHB39AFLj13wv+/8L2C5bGmqlI1Rhz6d4LD0lOHuTrnpQn7EhKE5NavZ516l0lv5CEmjmYCzThKmA==";
         };
+        _H5IHYNnV = {
+            "id" = "H5IHYNnV";
+            "file" = "DiscordJustSync-v1.20.0+1.21.4-1.21.5.jar";
+            "hash" = "sha512-hnRIUT12q6IgLbKoEmSaX9jElqjE3+JbW10oOFXZD2EAmJ9r2jC++Tcs4oNIBmOyur2/2PIhnJ7ZkQDU+O9i/A==";
+        };
+        _XZMF3H2r = {
+            "id" = "XZMF3H2r";
+            "file" = "DiscordJustSync-v1.20.0+1.21.6-1.21.8.jar";
+            "hash" = "sha512-uTiuhnjBjvqthO3+G4HzJ3tVBI8iWB69YwVxNLwp9OxfopbRSBU4tPKbG3mW2vY1CxE+OGji3FkjhIBaoGvwQw==";
+        };
+        _Cy5IveXJ = {
+            "id" = "Cy5IveXJ";
+            "file" = "DiscordJustSync-v1.20.0+1.21.11-1.21.11.jar";
+            "hash" = "sha512-ww3GR8VR1ayPHQlHB5A9yhw/BPWqC8mMFgd4L5wXom1QzAabL7I8QSt4MwsTX8Ke4mM2DByXMw2WVzpGTI5oqA==";
+        };
+        _XKHP37oc = {
+            "id" = "XKHP37oc";
+            "file" = "DiscordJustSync-v1.20.0+1.21.9-1.21.10.jar";
+            "hash" = "sha512-KKmy85EP+gC7qjuZtZ4tuVeqo4L+GOW41Lf0l6ghkfiPhd0MBf/CXWo2XwLNKKkifuP1F5yz4A3t6cZPh+G6kw==";
+        };
+        _PBdmXPXA = {
+            "id" = "PBdmXPXA";
+            "file" = "DiscordJustSync-v1.20.0+26.1-26.2.jar";
+            "hash" = "sha512-0nF1iJvHIf64LDGEUl15iIyoC3cIAkvlP3M3+lfmxfv+qhq9lz7mwsyaMr1sCfRut7IoCrAfRTVwbg6QuWuIBw==";
+        };
+        _GQi26CQS = {
+            "id" = "GQi26CQS";
+            "file" = "DiscordJustSync-v1.20.0.jar";
+            "hash" = "sha512-RDlJe2+AlI/8VF0NnCVYebBbng4hiYJHrXadXgv0tRY2GRvcVRIhgfhCjc2awPTY2vMozbSAouoLroXYPpXOzQ==";
+        };
     in {
         "ptBmKwCe" = _ptBmKwCe;
         "FXLWnyTu" = _FXLWnyTu;
@@ -548,19 +578,25 @@ let
         "XZAfMyFZ" = _XZAfMyFZ;
         "VZghtmDt" = _VZghtmDt;
         "flNeORoC" = _flNeORoC;
-        "fabric-1.21.4" = _MqRPNsl6;
-        "fabric-1.21.5" = _MqRPNsl6;
-        "fabric-1.21.6" = _luFj8AdF;
-        "fabric-1.21.7" = _luFj8AdF;
-        "fabric-1.21.8" = _luFj8AdF;
-        "fabric-1.21.9" = _flNeORoC;
-        "fabric-1.21.10" = _flNeORoC;
-        "fabric-1.21.11" = _VZghtmDt;
-        "fabric-26.1" = _XZAfMyFZ;
-        "fabric-26.1.1" = _XZAfMyFZ;
-        "fabric-26.1.2" = _XZAfMyFZ;
-        "fabric-26.2" = _XZAfMyFZ;
-        "fabric-26.3" = _kfQiMgQ4;
+        "H5IHYNnV" = _H5IHYNnV;
+        "XZMF3H2r" = _XZMF3H2r;
+        "Cy5IveXJ" = _Cy5IveXJ;
+        "XKHP37oc" = _XKHP37oc;
+        "PBdmXPXA" = _PBdmXPXA;
+        "GQi26CQS" = _GQi26CQS;
+        "fabric-1.21.4" = _H5IHYNnV;
+        "fabric-1.21.5" = _H5IHYNnV;
+        "fabric-1.21.6" = _XZMF3H2r;
+        "fabric-1.21.7" = _XZMF3H2r;
+        "fabric-1.21.8" = _XZMF3H2r;
+        "fabric-1.21.9" = _XKHP37oc;
+        "fabric-1.21.10" = _XKHP37oc;
+        "fabric-1.21.11" = _Cy5IveXJ;
+        "fabric-26.1" = _PBdmXPXA;
+        "fabric-26.1.1" = _PBdmXPXA;
+        "fabric-26.1.2" = _PBdmXPXA;
+        "fabric-26.2" = _PBdmXPXA;
+        "fabric-26.3" = _GQi26CQS;
         "pkg-1.2.3" = _ptBmKwCe;
         "pkg-1.3.0" = _FXLWnyTu;
         "pkg-1.4.0" = _sKaXkEIF;
@@ -595,7 +631,8 @@ let
         "pkg-1.18.4" = _3Ek9Zvv4;
         "pkg-1.18.5" = _un53SoqO;
         "pkg-1.19.0" = _flNeORoC;
-        "default" = _flNeORoC;
+        "pkg-1.20.0" = _GQi26CQS;
+        "default" = _GQi26CQS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "discord-justsync";

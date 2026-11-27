@@ -71,6 +71,16 @@ let
             "file" = "split-self-1.0.2-UNSAFE.jar";
             "hash" = "sha512-0LxEyVcS7/MotP2P/x2jTVecJk2tLAzMdbiUXYpDVKxZC2T6dbdE6eeDrCbaygNtr7WhC+Y5k+FhzGNgfMRVqw==";
         };
+        _t7hE4Som = {
+            "id" = "t7hE4Som";
+            "file" = "split-self-forge-1.0.2-SAFE.jar";
+            "hash" = "sha512-zJAhYbmAXfVrRT4fxbA5VPccRvWSZXx+h+uMiOQuRYUccrIuPrRLP+Qonqi8C3gj0HmXJFaABLHnSZQosU6Y1w==";
+        };
+        _C9cRNHnp = {
+            "id" = "C9cRNHnp";
+            "file" = "split-self-forge-1.0.2-UNSAFE.jar";
+            "hash" = "sha512-3e59cGbRI3n2L5F4qzlYsRCM6p0uJ03EwkvzcEV6jD+do5sLQJpTP/aHaQLvyIXJKC2BeNAsnq1j8jef7maCew==";
+        };
     in {
         "iNca5b1a" = _iNca5b1a;
         "dFVafClb" = _dFVafClb;
@@ -86,7 +96,10 @@ let
         "IIohjasI" = _IIohjasI;
         "F45xRUeq" = _F45xRUeq;
         "rq0pCfTO" = _rq0pCfTO;
+        "t7hE4Som" = _t7hE4Som;
+        "C9cRNHnp" = _C9cRNHnp;
         "fabric-1.21.1" = _rq0pCfTO;
+        "forge-1.20.1" = _C9cRNHnp;
         "pkg-0.0.2-alpha" = _iNca5b1a;
         "pkg-0.1.0-alpha" = _dFVafClb;
         "pkg-0.1.01-alpha" = _fbzmnJFW;
@@ -101,7 +114,9 @@ let
         "pkg-1.0.1-UNSAFE" = _IIohjasI;
         "pkg-1.0.2-SAFE" = _F45xRUeq;
         "pkg-1.0.2-UNSAFE" = _rq0pCfTO;
-        "default" = _rq0pCfTO;
+        "pkg-1.0.2-Forge-SAFE" = _t7hE4Som;
+        "pkg-1.0.2-Forge-UNSAFE" = _C9cRNHnp;
+        "default" = _C9cRNHnp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "split-self";

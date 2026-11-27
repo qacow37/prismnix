@@ -241,6 +241,21 @@ let
             "file" = "dtbetternether-26.1.2-2.4.0h.jar";
             "hash" = "sha512-aZWd3wDSA0WjDj76Zai6e/DOOTJnsqKpkUAYEl8D5Fa8vDjRfJvCsK6yfn4wPbomp2nPwawvVrTLfAgjFBj5Wg==";
         };
+        _bxGeS55Y = {
+            "id" = "bxGeS55Y";
+            "file" = "dtbetternether-1.20.1-2.4.0h2.jar";
+            "hash" = "sha512-AfhxgO89GoNrReodQH+9pzkVCm+IMeDR3UaIp9zyzeEOYh34pLQ+4Ego2DjJTeCpCvSe8fwnbhkyiImIaKAqmw==";
+        };
+        _AtxMSJXY = {
+            "id" = "AtxMSJXY";
+            "file" = "dtbetternether-1.21.1-2.4.0h2.jar";
+            "hash" = "sha512-DkQdIh/74fkJRqqy+jMCMnjPBBK7ZrHjnIh+EcVWPa0HnyYPBFBarzqAQkUS7FHoxVsuZzYczenJyPAPYN0iTQ==";
+        };
+        _znzoLkzz = {
+            "id" = "znzoLkzz";
+            "file" = "dtbetternether-26.1.2-2.4.0h2.jar";
+            "hash" = "sha512-ai4cb8kuvMUKI7cgTPSuoqM4qFPBw+RXPHMHKAqQp/0GihFrLuWRCWZwcROdvPZYdHQCMIYKz09nOXSq3etfaA==";
+        };
     in {
         "hYVRrzkH" = _hYVRrzkH;
         "BJ0GXsrI" = _BJ0GXsrI;
@@ -290,9 +305,12 @@ let
         "VjzAzLYP" = _VjzAzLYP;
         "Ldf9GQrQ" = _Ldf9GQrQ;
         "655my2Gt" = _655my2Gt;
-        "forge-1.20.1" = _VjzAzLYP;
-        "neoforge-1.21.1" = _Ldf9GQrQ;
-        "neoforge-26.1.2" = _655my2Gt;
+        "bxGeS55Y" = _bxGeS55Y;
+        "AtxMSJXY" = _AtxMSJXY;
+        "znzoLkzz" = _znzoLkzz;
+        "forge-1.20.1" = _bxGeS55Y;
+        "neoforge-1.21.1" = _AtxMSJXY;
+        "neoforge-26.1.2" = _znzoLkzz;
         "pkg-1.20.1-1.0.0" = _hYVRrzkH;
         "pkg-1.21.1-1.0.0" = _BJ0GXsrI;
         "pkg-1.20.1-1.1.0" = _sLGJTpNc;
@@ -341,7 +359,10 @@ let
         "pkg-1.20.1-2.4.0h" = _VjzAzLYP;
         "pkg-1.21.1-2.4.0h" = _Ldf9GQrQ;
         "pkg-26.1.2-2.4.0h" = _655my2Gt;
-        "default" = _655my2Gt;
+        "pkg-1.20.1-2.4.0h2" = _bxGeS55Y;
+        "pkg-1.21.1-2.4.0h2" = _AtxMSJXY;
+        "pkg-26.1.2-2.4.0h2" = _znzoLkzz;
+        "default" = _znzoLkzz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamictrees-betternether";

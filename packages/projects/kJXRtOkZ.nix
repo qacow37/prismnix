@@ -76,6 +76,11 @@ let
             "file" = "ae2utility-1.8.1.jar";
             "hash" = "sha512-1lPZCjVor1rrVsKWDmiZawzzWQRgLcCrTHxCARxXhcDnzu+vQSD735Qqnmh7gjJXEi7OVyl88/XT/MaX+iSqxg==";
         };
+        _G90z8l7g = {
+            "id" = "G90z8l7g";
+            "file" = "ae2utility-neoforge-26.1.2-0.0.1.jar";
+            "hash" = "sha512-yuoiSP4MBwSBe7yog5Cr/tXQ81dILfH77vBhrU9eOfdUwsWJO52hWsT7/09JfgzvvYOhXrad1xiz9nzOaRGefg==";
+        };
     in {
         "vdL0Rd8R" = _vdL0Rd8R;
         "E0dgy1Ch" = _E0dgy1Ch;
@@ -92,7 +97,9 @@ let
         "cipTSARa" = _cipTSARa;
         "k2AK2ibu" = _k2AK2ibu;
         "Ck0YB8pj" = _Ck0YB8pj;
+        "G90z8l7g" = _G90z8l7g;
         "neoforge-1.21.1" = _Ck0YB8pj;
+        "neoforge-26.1.2" = _G90z8l7g;
         "forge-1.20.1" = _k2AK2ibu;
         "pkg-1.6.0" = _vdL0Rd8R;
         "pkg-1.7.0" = _E0dgy1Ch;
@@ -109,7 +116,8 @@ let
         "pkg-1.8.0" = _cipTSARa;
         "pkg-1.20.1.3" = _k2AK2ibu;
         "pkg-1.8.1" = _Ck0YB8pj;
-        "default" = _Ck0YB8pj;
+        "pkg-0.0.1" = _G90z8l7g;
+        "default" = _G90z8l7g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2utility";

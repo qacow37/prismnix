@@ -346,6 +346,11 @@ let
             "file" = "levelingrank-forge-3.2.5.jar";
             "hash" = "sha512-Ta3GC3Ez3mqZSQNyfInhN+iFYg6cXEEidEfuj5QKCSw7q13wx86g5ldwT5vsN3RD6cwp9QiKaLgzHCJDnluDHg==";
         };
+        _B5JXieLc = {
+            "id" = "B5JXieLc";
+            "file" = "LevelingRank-neo-1.21.1_v3.2.5.jar";
+            "hash" = "sha512-ZeoybRhM8rsv8Azv2AJFz52T28yFk/xzdugt9QGW0PfoyLMmc2v8Gx5YSDGvJsCaY7QdVZXyZpXDYLkV5yWBmA==";
+        };
     in {
         "S8BZ9CiK" = _S8BZ9CiK;
         "bKRPAUBk" = _bKRPAUBk;
@@ -416,8 +421,9 @@ let
         "eL50wRgX" = _eL50wRgX;
         "KJXsrUh0" = _KJXsrUh0;
         "R4RIqGwU" = _R4RIqGwU;
+        "B5JXieLc" = _B5JXieLc;
         "forge-1.20.1" = _R4RIqGwU;
-        "neoforge-1.21.1" = _KJXsrUh0;
+        "neoforge-1.21.1" = _B5JXieLc;
         "pkg-1.0.9" = _S8BZ9CiK;
         "pkg-1.1.0" = _bKRPAUBk;
         "pkg-1.1.2" = _JEnp9EJX;
@@ -472,8 +478,8 @@ let
         "pkg-3.2.2" = _W1bpy8GB;
         "pkg-3.2.3" = _eL50wRgX;
         "pkg-3.2.4" = _KJXsrUh0;
-        "pkg-3.2.5" = _R4RIqGwU;
-        "default" = _R4RIqGwU;
+        "pkg-3.2.5" = _B5JXieLc;
+        "default" = _B5JXieLc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epic-rpg-leveling-rank";

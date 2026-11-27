@@ -721,6 +721,46 @@ let
             "file" = "deepresonance-1.21-6.0.3.jar";
             "hash" = "sha512-7PUBYIo3zhJ22LV55pxheGv3JpVNJCuHQC2/twzenu+3JwMSH1asDumOK+Uh9P4Xws/+r+sFGLU0Ja2epn0Hwg==";
         };
+        _7a80aBVO = {
+            "id" = "7a80aBVO";
+            "file" = "deepresonance-1.20-5.0.8.jar";
+            "hash" = "sha512-1yEpMVKpT7HXo1zOAFA9l6KIqeerWgTv8BTAxCe26qk/gmEya0RwlmcylMoq0NRq8cQvI3YSFKJROF7DkYAw5A==";
+        };
+        _ctSXdwWy = {
+            "id" = "ctSXdwWy";
+            "file" = "deepresonance-1.21-6.0.4.jar";
+            "hash" = "sha512-jrOG8tZw/6MEUiv7tkQHeXkWH/uFF/cKPwS9f0mAGDDQmHKmeDzmuhTJchmK+Z8C0fLfMlOgdcvHFtOeuS+qvQ==";
+        };
+        _1SJYdm6k = {
+            "id" = "1SJYdm6k";
+            "file" = "deepresonance-26.1.2-7.0.0.jar";
+            "hash" = "sha512-BBVeHJXaQd/OVlYEOTz/7JZBQQuoBMSP2GvOeX8HFoz/0TZ/bLAQepG0b/21vQLZP2b/Tb7P2m7NEHpCGflo/g==";
+        };
+        _sBCgpIjr = {
+            "id" = "sBCgpIjr";
+            "file" = "deepresonance-fabric-26.1.2-7.0.0-fabric.jar";
+            "hash" = "sha512-JcVj2R4xiqSFzkcmT3OvszH8XGRbS2qALO0PLhv1aIJFMZt8av7W3ihU+1OlgIK0Tb7hxL3HOj7d3aWWgXm0Ew==";
+        };
+        _MQmLymno = {
+            "id" = "MQmLymno";
+            "file" = "deepresonance-26.2-8.0.0.jar";
+            "hash" = "sha512-lRXef2k5L7aWZ//oy2kMclJZmzgEuK7Hb2nw5YvpNIr+nUeqiuXPR9b7c5qbRzxax+0iyCcf96sfEhE9iHycoQ==";
+        };
+        _8gfYbW35 = {
+            "id" = "8gfYbW35";
+            "file" = "deepresonance-fabric-26.2-8.0.0-fabric.jar";
+            "hash" = "sha512-iQBoEIyngYwZaDeftF0g0oMF4mf+5pmAU/Wm5zpk6YNMc2j4XGEeG3fVv9BS+3eT16sfdNmTg3cS8zl87SZqzw==";
+        };
+        _vIB3FUD0 = {
+            "id" = "vIB3FUD0";
+            "file" = "deepresonance-26.3-9.0.0.jar";
+            "hash" = "sha512-d4NTO9UjkezPCinw6tlP+JD/gz7W2AD+J77VkypA0JXsL2Mzf8NKoQLK63XTrdcC02Z80PA/sG7sKa8PIDxDNw==";
+        };
+        _XMD6BYu3 = {
+            "id" = "XMD6BYu3";
+            "file" = "deepresonance-fabric-26.3-9.0.0-fabric.jar";
+            "hash" = "sha512-8TJzwzVhqRT0C0sWO7bz3uBw7HfPy/+hZecOCuDo+mRyZ31kntmMu4jV5kMso8IsOhoL4EY7Fo9xu1nbsyurLg==";
+        };
     in {
         "RZw1RzRl" = _RZw1RzRl;
         "eHjTeTET" = _eHjTeTET;
@@ -866,6 +906,14 @@ let
         "Ovv8ukvh" = _Ovv8ukvh;
         "e8VmFatV" = _e8VmFatV;
         "KhLYTazh" = _KhLYTazh;
+        "7a80aBVO" = _7a80aBVO;
+        "ctSXdwWy" = _ctSXdwWy;
+        "1SJYdm6k" = _1SJYdm6k;
+        "sBCgpIjr" = _sBCgpIjr;
+        "MQmLymno" = _MQmLymno;
+        "8gfYbW35" = _8gfYbW35;
+        "vIB3FUD0" = _vIB3FUD0;
+        "XMD6BYu3" = _XMD6BYu3;
         "forge-1.7.10" = _x31GwgEa;
         "forge-1.8.9" = _O3nIbH9C;
         "forge-1.9" = _2e61taEM;
@@ -885,8 +933,14 @@ let
         "forge-1.19.2" = _sFo0trOx;
         "forge-1.19.3" = _sFo0trOx;
         "forge-1.19.4" = _sFo0trOx;
-        "forge-1.20.1" = _e8VmFatV;
-        "neoforge-1.21.1" = _KhLYTazh;
+        "forge-1.20.1" = _7a80aBVO;
+        "neoforge-1.21.1" = _ctSXdwWy;
+        "neoforge-26.1.2" = _1SJYdm6k;
+        "neoforge-26.2" = _MQmLymno;
+        "neoforge-26.3" = _vIB3FUD0;
+        "fabric-26.1.2" = _sBCgpIjr;
+        "fabric-26.2" = _8gfYbW35;
+        "fabric-26.3" = _XMD6BYu3;
         "pkg-0.1.0" = _RZw1RzRl;
         "pkg-0.1.1" = _eHjTeTET;
         "pkg-0.2.0" = _z4SE7cb7;
@@ -1031,7 +1085,15 @@ let
         "pkg-1.21-6.0.2" = _Ovv8ukvh;
         "pkg-1.20-5.0.7" = _e8VmFatV;
         "pkg-1.21-6.0.3" = _KhLYTazh;
-        "default" = _KhLYTazh;
+        "pkg-1.20-5.0.8" = _7a80aBVO;
+        "pkg-1.21-6.0.4" = _ctSXdwWy;
+        "pkg-26.1.2-7.0.0" = _1SJYdm6k;
+        "pkg-26.1.2-7.0.0-fabric" = _sBCgpIjr;
+        "pkg-26.2-8.0.0" = _MQmLymno;
+        "pkg-26.2-8.0.0-fabric" = _8gfYbW35;
+        "pkg-26.3-9.0.0" = _vIB3FUD0;
+        "pkg-26.3-9.0.0-fabric" = _XMD6BYu3;
+        "default" = _XMD6BYu3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "deep-resonance";

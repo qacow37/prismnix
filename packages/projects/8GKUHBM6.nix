@@ -91,6 +91,11 @@ let
             "file" = "kaleidoscope_end-1.1.2-neoforge+mc1.21.1.jar";
             "hash" = "sha512-QsUKgXIGpo0VoLXeFOwXSgLFIXlmmkppLynUqm/6V7tdHd3BBybruhRw+WYDWCeJeEi/Y83Kgd/lc1ngEogHEw==";
         };
+        _4QWLHfJ9 = {
+            "id" = "4QWLHfJ9";
+            "file" = "kaleidoscope_end-1.1.3-neoforge+mc1.21.1.jar";
+            "hash" = "sha512-Aa0MT1Lf3K90hhqIWtosgU2jv3MMX4p80CYibiynoTokvUH8GqwcUeVPdnxAGAuvPVYSR8dixhcAUJo+3QYVJQ==";
+        };
     in {
         "ZHqk8HGb" = _ZHqk8HGb;
         "yTXkNKNS" = _yTXkNKNS;
@@ -110,8 +115,9 @@ let
         "YS2tfy6v" = _YS2tfy6v;
         "oKY1uXAO" = _oKY1uXAO;
         "19ZH5NDe" = _19ZH5NDe;
+        "4QWLHfJ9" = _4QWLHfJ9;
         "forge-1.20.1" = _YS2tfy6v;
-        "neoforge-1.21.1" = _19ZH5NDe;
+        "neoforge-1.21.1" = _4QWLHfJ9;
         "pkg-1.0.1-BETA-1.20.1" = _ZHqk8HGb;
         "pkg-1.0.1-BETA2-1.21.1" = _yTXkNKNS;
         "pkg-1.0.1-1.20.1" = _crnPZvzf;
@@ -130,7 +136,8 @@ let
         "pkg-1.0.14-forge+mc1.20.1" = _YS2tfy6v;
         "pkg-1.1.0-neoforge+mc1.21.1" = _oKY1uXAO;
         "pkg-1.1.2-neoforge+mc1.21.1" = _19ZH5NDe;
-        "default" = _19ZH5NDe;
+        "pkg-1.1.3-neoforge+mc1.21.1" = _4QWLHfJ9;
+        "default" = _4QWLHfJ9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kaleidoscope-end";

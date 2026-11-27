@@ -281,6 +281,16 @@ let
             "file" = "ironsigns-1.2.3+fabric+mc26.2.jar";
             "hash" = "sha512-fXmZaIsg5QGBhxCuYY8mxou1zNmIT3b+VaXspIZddtY9+PGPLx7Hw1BYoP63ZvHtJ1D2xjs+x3HkbiwZw9A5jw==";
         };
+        _M67WrOsR = {
+            "id" = "M67WrOsR";
+            "file" = "ironsigns-1.2.4+fabric+mc26.3.jar";
+            "hash" = "sha512-0FzgRk+KEO65od0mGL6v66djzeTy4tLHbxsNsTkkOl61mDgx046UTGhPnMeI43pD6cJa5p3NnZ/Lr5m4YVpciA==";
+        };
+        _sLoKpDSj = {
+            "id" = "sLoKpDSj";
+            "file" = "ironsigns-1.2.4+neo+mc26.3.jar";
+            "hash" = "sha512-Rj85j3gI+MFj8S/YMVg/02IRCdNchRkNNGyJlE607ZnvhvpRKP+57tEy3+e9c3mJzOYIDx9KYHpS+jRe2VtWQg==";
+        };
     in {
         "QFhVHsui" = _QFhVHsui;
         "5q1zck8P" = _5q1zck8P;
@@ -338,6 +348,8 @@ let
         "L7QL4Pox" = _L7QL4Pox;
         "vAN7ctPu" = _vAN7ctPu;
         "R7qHfLRs" = _R7qHfLRs;
+        "M67WrOsR" = _M67WrOsR;
+        "sLoKpDSj" = _sLoKpDSj;
         "fabric-1.20.2" = _LhdAe40m;
         "fabric-1.20.4" = _2zNTGRs1;
         "fabric-1.20.3" = _nbAZdEOi;
@@ -359,6 +371,7 @@ let
         "fabric-26.1.1" = _BkFBft2U;
         "fabric-26.1.2" = _PM8Gyctm;
         "fabric-26.2" = _R7qHfLRs;
+        "fabric-26.3" = _M67WrOsR;
         "neoforge-1.21.5" = _z0V1ctFQ;
         "neoforge-1.21.6" = _UEGPeUHH;
         "neoforge-1.21.7" = _rmrJWOOt;
@@ -370,6 +383,7 @@ let
         "neoforge-26.1.1" = _esn3Z0QR;
         "neoforge-26.1.2" = _CfpXU8Qv;
         "neoforge-26.2" = _vAN7ctPu;
+        "neoforge-26.3" = _sLoKpDSj;
         "pkg-1.0.0+mc1.20.2" = _QFhVHsui;
         "pkg-1.0.1+mc1.20.4" = _5q1zck8P;
         "pkg-1.0.0+mc1.20.3" = _QIhGCysV;
@@ -426,7 +440,9 @@ let
         "pkg-1.2.2+fabric+mc26.2" = _L7QL4Pox;
         "pkg-1.2.2+neo+mc26.2" = _vAN7ctPu;
         "pkg-1.2.3+fabric+mc26.2" = _R7qHfLRs;
-        "default" = _R7qHfLRs;
+        "pkg-1.2.4+fabric+mc26.3" = _M67WrOsR;
+        "pkg-1.2.4+neo+mc26.3" = _sLoKpDSj;
+        "default" = _sLoKpDSj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ironsigns";

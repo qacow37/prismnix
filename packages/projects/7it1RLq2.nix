@@ -581,6 +581,21 @@ let
             "file" = "gankura-7.6.4+26.3.jar";
             "hash" = "sha512-LtVN/ZOipMqeJBdQQyfY/3okuyEbnNHxz796mObee/K/bB/FxXujRU9wUTgJL7OfcafU0UweDBP1Hbs9Lbw5cQ==";
         };
+        _2IOKuGb6 = {
+            "id" = "2IOKuGb6";
+            "file" = "gankura-7.7.0+26.1.x.jar";
+            "hash" = "sha512-uKrc54grtdoieaBRtzn/kwpV+GvCMbeu0b51bcYaFSy0rIiDmPt/6R+odJv2INqSSd5phpeHrnT/uC/4H7dEIQ==";
+        };
+        _j9CPGrIK = {
+            "id" = "j9CPGrIK";
+            "file" = "gankura-7.7.0+26.2.jar";
+            "hash" = "sha512-OAbooYKiXWrr93HF1NLVDH4Hf19YLK8469ROvFffmLoz4RX3qKaycP6O59ZLv+E9te+H7bocyDdtxPUz5pNanw==";
+        };
+        _NIpFTNHN = {
+            "id" = "NIpFTNHN";
+            "file" = "gankura-7.7.0+26.3.jar";
+            "hash" = "sha512-e+w6EcfcyNMCUTaCTTDlZ7wQl4YyqsgrfF5vEY0ZZG91idSJvEwxzkrZeUfBwe6NT5/BBjF952o36+T9HMMnlw==";
+        };
     in {
         "r458dNXi" = _r458dNXi;
         "GwleJ7ub" = _GwleJ7ub;
@@ -698,12 +713,15 @@ let
         "KaN4zPuw" = _KaN4zPuw;
         "lrFSpHey" = _lrFSpHey;
         "BqMtR849" = _BqMtR849;
+        "2IOKuGb6" = _2IOKuGb6;
+        "j9CPGrIK" = _j9CPGrIK;
+        "NIpFTNHN" = _NIpFTNHN;
         "fabric-1.21.11" = _ZJLm23l4;
-        "fabric-26.1" = _KaN4zPuw;
-        "fabric-26.1.1" = _KaN4zPuw;
-        "fabric-26.1.2" = _KaN4zPuw;
-        "fabric-26.2" = _lrFSpHey;
-        "fabric-26.3" = _BqMtR849;
+        "fabric-26.1" = _2IOKuGb6;
+        "fabric-26.1.1" = _2IOKuGb6;
+        "fabric-26.1.2" = _2IOKuGb6;
+        "fabric-26.2" = _j9CPGrIK;
+        "fabric-26.3" = _NIpFTNHN;
         "pkg-1.0.0" = _r458dNXi;
         "pkg-1.0.1" = _GwleJ7ub;
         "pkg-1.0.2" = _B8NpR1h2;
@@ -820,7 +838,10 @@ let
         "pkg-7.6.4+26.1.x" = _KaN4zPuw;
         "pkg-7.6.4+26.2" = _lrFSpHey;
         "pkg-7.6.4+26.3" = _BqMtR849;
-        "default" = _BqMtR849;
+        "pkg-7.7.0+26.1.x" = _2IOKuGb6;
+        "pkg-7.7.0+26.2" = _j9CPGrIK;
+        "pkg-7.7.0+26.3" = _NIpFTNHN;
+        "default" = _NIpFTNHN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gankura";

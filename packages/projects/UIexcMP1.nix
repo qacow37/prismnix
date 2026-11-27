@@ -116,6 +116,11 @@ let
             "file" = "BorderlessFullscreen-v2.5.1-mc26.3.jar";
             "hash" = "sha512-Ktwpr8EnNpOKmmIN9vNapblCUVTjEvzw36SsDKMUDcF84udeYRVV1XFIuldUOYy1J/daxyc2NIL8Fj5xJMypbw==";
         };
+        _ayA4uIP3 = {
+            "id" = "ayA4uIP3";
+            "file" = "BorderlessFullscreen-v2.4.1_01-mc26.2.jar";
+            "hash" = "sha512-jFZaF5YAEVaYChZfr6Q13pILEjKcefjjiTj5nTYXZ1sZZLiuq7ZvLybWaxkIP6Le1RCEF+XFsws7byHePr0ryA==";
+        };
     in {
         "GXkqEVWk" = _GXkqEVWk;
         "u4kaksC7" = _u4kaksC7;
@@ -140,6 +145,7 @@ let
         "2v6rdL7g" = _2v6rdL7g;
         "MIUZvHmM" = _MIUZvHmM;
         "gYKfCwIR" = _gYKfCwIR;
+        "ayA4uIP3" = _ayA4uIP3;
         "fabric-1.21" = _mgKporGB;
         "fabric-1.21.1" = _a7RyAE2L;
         "fabric-1.21.2" = _cWNwTFQE;
@@ -156,7 +162,7 @@ let
         "fabric-26.1" = _TUQLLl9g;
         "fabric-26.1.1" = _UqTxrpda;
         "fabric-26.1.2" = _2v6rdL7g;
-        "fabric-26.2" = _SRaSZqo0;
+        "fabric-26.2" = _ayA4uIP3;
         "fabric-26.3" = _gYKfCwIR;
         "pkg-2.0.0" = _GXkqEVWk;
         "pkg-2.0.1" = _9Ed777fT;
@@ -176,7 +182,8 @@ let
         "pkg-2.4.1_01-26.1.2" = _2v6rdL7g;
         "pkg-2.5.0-26.3" = _MIUZvHmM;
         "pkg-2.5.1-26.3" = _gYKfCwIR;
-        "default" = _gYKfCwIR;
+        "pkg-2.4.1_01-26.2" = _ayA4uIP3;
+        "default" = _ayA4uIP3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "borderless-fullscreen";

@@ -86,6 +86,11 @@ let
             "file" = "bmcmod-26.1.7-1.21.1-NeoForge.jar";
             "hash" = "sha512-tfegI9eAK+4DaViO1BcLapshMN92G9DD6NDcppT8RHTvq3XlNgibp3Wg85lqB9THLVsZNn6wNcQyH5VBQ9VaQA==";
         };
+        _BHpPQpj8 = {
+            "id" = "BHpPQpj8";
+            "file" = "bmcmod-26.2-Beta1-1.21.1-NeoForge.jar";
+            "hash" = "sha512-rzX4QYkPD4dXKZV9Ufux24T/3KzsPww63L60dNpneei39+v+b/WeUH6PWXpGtVQ5oWWLHskIHRc9ejWc9jTN9g==";
+        };
     in {
         "4q1wAnLE" = _4q1wAnLE;
         "IA1ZTCs0" = _IA1ZTCs0;
@@ -104,8 +109,9 @@ let
         "qKGKXWTS" = _qKGKXWTS;
         "Fh9wmiVD" = _Fh9wmiVD;
         "sNZvtdD6" = _sNZvtdD6;
+        "BHpPQpj8" = _BHpPQpj8;
         "forge-1.20.1" = _1oWTSlBn;
-        "neoforge-1.21.1" = _sNZvtdD6;
+        "neoforge-1.21.1" = _BHpPQpj8;
         "pkg-1.0Alpha" = _4q1wAnLE;
         "pkg-1.0Beta-1" = _IA1ZTCs0;
         "pkg-1.0" = _HmbZT04M;
@@ -123,7 +129,8 @@ let
         "pkg-26.1.5" = _qKGKXWTS;
         "pkg-26.1.6" = _Fh9wmiVD;
         "pkg-26.1.7" = _sNZvtdD6;
-        "default" = _sNZvtdD6;
+        "pkg-26.2-Beta1" = _BHpPQpj8;
+        "default" = _BHpPQpj8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bmcmod";

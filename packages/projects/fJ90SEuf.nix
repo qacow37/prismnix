@@ -81,6 +81,31 @@ let
             "file" = "MultiMine-1.3.1.jar";
             "hash" = "sha512-7FFvEOiVpfDeGSlyYkSuDi+cRb+ijU1t/nwYYkQek2LiSUmRo9Fl29sphebSe+bjvugEZlWnq66cirqXiL6w8A==";
         };
+        _YV46tJkc = {
+            "id" = "YV46tJkc";
+            "file" = "MultiMine-1.3.1+1.21.11-26.3.jar";
+            "hash" = "sha512-DOe8wAQ2x4S2KjBfAdxNnvRYMxxKIT+kY+06Q/0cYaGM8U1AE1W9E31WtWVtA5Itxr+WRCuZvzltMn8H2FbdUQ==";
+        };
+        _xiaBh8OR = {
+            "id" = "xiaBh8OR";
+            "file" = "MultiMine-fabric-1.3.1+1.21.11.jar";
+            "hash" = "sha512-FhBeK5YG8VTgrx5S0XK20oJhDLxzjHcFE+g+2M7VjRRztnywmAPReWIKwdDAr+ke7Efi6/+9VubnJ1yhJ24lMQ==";
+        };
+        _grFO4o5m = {
+            "id" = "grFO4o5m";
+            "file" = "MultiMine-neoforge-1.3.1+1.21.11.jar";
+            "hash" = "sha512-b/5RYXEwkvOtTPrgzVL7KgWi9daa9g/3UaLPqw3M40IjRwwCkm210fNPFVBayqxEt5OZSULVFmoMYR+As7vsag==";
+        };
+        _DBGJhkpj = {
+            "id" = "DBGJhkpj";
+            "file" = "MultiMine-fabric-1.3.1+26.1-26.3.jar";
+            "hash" = "sha512-wr1Md+WBGtvVzkULTCESvLEPaYYhjTR8SMcITNoYZ5Oq8ABlR6ArlLTcYnz8mtlTytkD6InjrlvhZSpc3T4axg==";
+        };
+        _a4XzkL1o = {
+            "id" = "a4XzkL1o";
+            "file" = "MultiMine-neoforge-1.3.1+26.1-26.3.jar";
+            "hash" = "sha512-98yVwDwTKqMmMEdOPPpjlGaWOcuh+B1AjjsZyq5I1cy2iKRyYO+1j69z2jnvGjWbIuQvLkxRxNBCckl9vLBlFg==";
+        };
     in {
         "NYj9TotE" = _NYj9TotE;
         "CxbRFBox" = _CxbRFBox;
@@ -98,6 +123,11 @@ let
         "dJyifsIQ" = _dJyifsIQ;
         "GHqvfasB" = _GHqvfasB;
         "Fap7jyjM" = _Fap7jyjM;
+        "YV46tJkc" = _YV46tJkc;
+        "xiaBh8OR" = _xiaBh8OR;
+        "grFO4o5m" = _grFO4o5m;
+        "DBGJhkpj" = _DBGJhkpj;
+        "a4XzkL1o" = _a4XzkL1o;
         "paper-1.20.3" = _B57skeY4;
         "paper-1.20.4" = _B57skeY4;
         "paper-1.20.5" = _Y689jlDZ;
@@ -112,6 +142,10 @@ let
         "paper-1.21.8" = _Fap7jyjM;
         "paper-1.21.9" = _Fap7jyjM;
         "paper-1.21.10" = _Fap7jyjM;
+        "paper-1.21.11" = _YV46tJkc;
+        "paper-26.1.2" = _YV46tJkc;
+        "paper-26.2" = _YV46tJkc;
+        "paper-26.3" = _YV46tJkc;
         "purpur-1.20.3" = _B57skeY4;
         "purpur-1.20.4" = _B57skeY4;
         "purpur-1.20.5" = _Y689jlDZ;
@@ -126,8 +160,16 @@ let
         "purpur-1.21.8" = _Fap7jyjM;
         "purpur-1.21.9" = _Fap7jyjM;
         "purpur-1.21.10" = _Fap7jyjM;
+        "purpur-1.21.11" = _YV46tJkc;
+        "purpur-26.1.2" = _YV46tJkc;
+        "purpur-26.2" = _YV46tJkc;
+        "purpur-26.3" = _YV46tJkc;
         "folia-1.21.2" = _1lU38onA;
         "folia-1.21.3" = _1lU38onA;
+        "folia-1.21.11" = _YV46tJkc;
+        "folia-26.1.2" = _YV46tJkc;
+        "folia-26.2" = _YV46tJkc;
+        "folia-26.3" = _YV46tJkc;
         "fabric-1.21.4" = _dJyifsIQ;
         "fabric-1.20.1" = _pOjc8uAk;
         "fabric-1.20.2" = _pOjc8uAk;
@@ -138,6 +180,12 @@ let
         "fabric-1.21.2" = _dJyifsIQ;
         "fabric-1.21.3" = _dJyifsIQ;
         "fabric-1.21.5" = _dJyifsIQ;
+        "fabric-1.21.11" = _xiaBh8OR;
+        "fabric-26.3" = _DBGJhkpj;
+        "fabric-26.2" = _DBGJhkpj;
+        "fabric-26.1.2" = _DBGJhkpj;
+        "fabric-26.1.1" = _DBGJhkpj;
+        "fabric-26.1" = _DBGJhkpj;
         "forge-1.20.1" = _lfuKnPdk;
         "forge-1.20.2" = _lfuKnPdk;
         "forge-1.20.4" = _lfuKnPdk;
@@ -148,15 +196,22 @@ let
         "neoforge-1.21.3" = _GHqvfasB;
         "neoforge-1.21.4" = _GHqvfasB;
         "neoforge-1.21.5" = _GHqvfasB;
+        "neoforge-1.21.11" = _grFO4o5m;
+        "neoforge-26.3" = _a4XzkL1o;
+        "neoforge-26.2" = _a4XzkL1o;
+        "neoforge-26.1.2" = _a4XzkL1o;
+        "neoforge-26.1.1" = _a4XzkL1o;
+        "neoforge-26.1" = _a4XzkL1o;
         "pkg-1.0" = _NYj9TotE;
         "pkg-1.1" = _CxbRFBox;
         "pkg-1.2" = _B57skeY4;
         "pkg-1.3" = _Y689jlDZ;
-        "pkg-1.3.1" = _Fap7jyjM;
+        "pkg-1.3.1" = _a4XzkL1o;
         "pkg-1.0.0" = _kex8RZcE;
         "pkg-1.1.0" = _JkTTvw9m;
         "pkg-1.2.0" = _GHqvfasB;
-        "default" = _Fap7jyjM;
+        "pkg-1.3.1+1.21.11" = _grFO4o5m;
+        "default" = _a4XzkL1o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "multi-mine";

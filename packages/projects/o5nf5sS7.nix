@@ -116,6 +116,11 @@ let
             "file" = "NovaCraft V1.5.1 (1.7.10).jar";
             "hash" = "sha512-qKg13LDy5gfHFtoyPax8Hq0nTd95ehMdcD5O3SmwJPhjroCOE/QMll7cR0FG8gBmqvM5M7t10Fb+JWOaTUmgRg==";
         };
+        _RFLptby9 = {
+            "id" = "RFLptby9";
+            "file" = "NovaCraft V1.6 (1.7.10).jar";
+            "hash" = "sha512-DeQrjUDIQEnnoC1CEj1zA2SAi7IQ+4sPgXuib2q30hcnEeC7mqFo/7Wt9Yl4dqpJK+fce9wFY5GYBaB/pR9eVQ==";
+        };
     in {
         "YDrtoiEs" = _YDrtoiEs;
         "Jyf62ebg" = _Jyf62ebg;
@@ -140,7 +145,8 @@ let
         "t7Wonlzi" = _t7Wonlzi;
         "IyptJQnq" = _IyptJQnq;
         "38cplZpW" = _38cplZpW;
-        "forge-1.7.10" = _38cplZpW;
+        "RFLptby9" = _RFLptby9;
+        "forge-1.7.10" = _RFLptby9;
         "pkg-1.0" = _YDrtoiEs;
         "pkg-1.0.1" = _Jyf62ebg;
         "pkg-1.0.2" = _Mm4ZuZHX;
@@ -164,7 +170,8 @@ let
         "pkg-V1.4.5" = _t7Wonlzi;
         "pkg-1.5.0" = _IyptJQnq;
         "pkg-1.5.1" = _38cplZpW;
-        "default" = _38cplZpW;
+        "pkg-V1.6" = _RFLptby9;
+        "default" = _RFLptby9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "novacraft";

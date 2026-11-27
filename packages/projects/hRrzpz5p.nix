@@ -51,6 +51,11 @@ let
             "file" = "transfer_labels-0.1.9.jar";
             "hash" = "sha512-tNJboCCuOg+6fuygnSXKDEP7kML8u0Zgt5nVftOSTq4b88SxdLlYwlNdOcNGWGLdrbHioa88sQDLbJxZPcliXw==";
         };
+        _6q9D4kEn = {
+            "id" = "6q9D4kEn";
+            "file" = "transfer_labels-0.2.0.jar";
+            "hash" = "sha512-H/vav2LOuWN3AWSG/fJhhhCz5Zyj3lwYoFDwJfDcNbV8cA0UX66WI0wPbDFCldw2ZFgfCtiXNvu+ztlvD3+2Lg==";
+        };
     in {
         "Dn4i5Mtp" = _Dn4i5Mtp;
         "znfyvEoF" = _znfyvEoF;
@@ -62,7 +67,9 @@ let
         "P9WTg9pX" = _P9WTg9pX;
         "OyljSkwr" = _OyljSkwr;
         "kP9SwaJT" = _kP9SwaJT;
+        "6q9D4kEn" = _6q9D4kEn;
         "neoforge-1.21.1" = _kP9SwaJT;
+        "neoforge-26.1.2" = _6q9D4kEn;
         "pkg-0.1.0" = _Dn4i5Mtp;
         "pkg-0.1.1" = _znfyvEoF;
         "pkg-0.1.2" = _mOcB9NAO;
@@ -73,7 +80,8 @@ let
         "pkg-0.1.7" = _P9WTg9pX;
         "pkg-0.1.8" = _OyljSkwr;
         "pkg-0.1.9a" = _kP9SwaJT;
-        "default" = _kP9SwaJT;
+        "pkg-26.1" = _6q9D4kEn;
+        "default" = _6q9D4kEn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "transfer-labels";

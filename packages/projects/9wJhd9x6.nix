@@ -71,6 +71,31 @@ let
             "file" = "stardew_fishing-fabric-1.20.1-3.7-fix-fabric.jar";
             "hash" = "sha512-bKGnUMxybUrC4sH32/tLS3i0zzCrqK0VTMwFJWu3WXa9dnS6YC0jXrbYPhr3LzaoSYOPzBWkFzbf9czsEbnnxQ==";
         };
+        _Beg8s2Yc = {
+            "id" = "Beg8s2Yc";
+            "file" = "stardew_fishing-fabric-1.20.1-3.9-fabric.jar";
+            "hash" = "sha512-E7X76DSnDNnsFBFsRFNCGVfvF/PrRkOSLM0Y8b2TMw8FW1jaQ5LVskh1h0OxYG4udS7hnsAYv47oNbu+ZB+PiA==";
+        };
+        _a61kAyHY = {
+            "id" = "a61kAyHY";
+            "file" = "stardew_fishing-fabric-1.21.1-3.8-fabric.jar";
+            "hash" = "sha512-loPpebbPaQFbTmnd/YiFQvaddGA9q1nFr/M7SeI+9ClftphADvdWl5bZZejyqPpzWwDppHP0d+hiZLc2H/pO/g==";
+        };
+        _G8upiAmg = {
+            "id" = "G8upiAmg";
+            "file" = "stardew_fishing-fabric-1.21.11-3.8-fabric.jar";
+            "hash" = "sha512-j4z3TbZL0daT82PommkqcjAjH+7+bo0WxyNBqF0wQ1hA0KI4e6IHSWq4oPUVFu7RhuSPQAk805Mq5GPxfHnCBw==";
+        };
+        _aJRGyUqg = {
+            "id" = "aJRGyUqg";
+            "file" = "stardew_fishing-fabric-26.1.2-3.8-fabric.jar";
+            "hash" = "sha512-2SdU17HVrkW/850Q3ytKDdipiRWiLhbGU5ugIT1sbihE0muROwsDnP42ikPAbfM5IT00ZtZl9nHuhURsGN6CDg==";
+        };
+        _XsJDEYZb = {
+            "id" = "XsJDEYZb";
+            "file" = "stardew_fishing-fabric-26.2-3.8-fabric.jar";
+            "hash" = "sha512-FGUCFb8dnV2ZfKtNHUjfVo5Ru2lnEY/tQByJb92PCXipn13//cZSWU0RutBtGvyKW3YOOS4ZmTLbE4QOVeZqow==";
+        };
     in {
         "AYiWG3wn" = _AYiWG3wn;
         "XQeekL5O" = _XQeekL5O;
@@ -86,21 +111,28 @@ let
         "z2ZcrF2w" = _z2ZcrF2w;
         "nE5aPDOW" = _nE5aPDOW;
         "Se7YToHy" = _Se7YToHy;
-        "fabric-1.20.1" = _Se7YToHy;
+        "Beg8s2Yc" = _Beg8s2Yc;
+        "a61kAyHY" = _a61kAyHY;
+        "G8upiAmg" = _G8upiAmg;
+        "aJRGyUqg" = _aJRGyUqg;
+        "XsJDEYZb" = _XsJDEYZb;
+        "fabric-1.20.1" = _Beg8s2Yc;
         "fabric-1.20.2" = _HWz0cRcl;
         "fabric-1.20.3" = _HWz0cRcl;
         "fabric-1.20.4" = _zBLq2IU0;
-        "fabric-26.1.2" = _wB8oAg6G;
-        "fabric-26.2" = _DL1vkoC9;
-        "fabric-1.21.11" = _z2ZcrF2w;
-        "fabric-1.21.1" = _nE5aPDOW;
+        "fabric-26.1.2" = _aJRGyUqg;
+        "fabric-26.2" = _XsJDEYZb;
+        "fabric-1.21.11" = _G8upiAmg;
+        "fabric-1.21.1" = _a61kAyHY;
         "pkg-1.0.0" = _AYiWG3wn;
         "pkg-1.3" = _XQeekL5O;
         "pkg-1.3.1" = _HWz0cRcl;
         "pkg-1.20.4-1.3.1" = _zBLq2IU0;
         "pkg-3.7-fabric" = _7NT7VLat;
         "pkg-3.7-fix-fabric" = _Se7YToHy;
-        "default" = _Se7YToHy;
+        "pkg-3.9-fabric" = _Beg8s2Yc;
+        "pkg-3.8-fabric" = _XsJDEYZb;
+        "default" = _XsJDEYZb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stardew-fishing-fabric";

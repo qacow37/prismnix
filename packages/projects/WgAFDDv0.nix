@@ -36,6 +36,11 @@ let
             "file" = "not_enough_glyphs-1.21.1-4.6.2.jar";
             "hash" = "sha512-XpERW6MUT5C159Vdddb8F10NbDqcw2pTuJiaSPoTUy0O+mCVLt7LUtX6w/e18dGDy6E/VqKzXO9FO2i9EW0CGw==";
         };
+        _6KubeD5s = {
+            "id" = "6KubeD5s";
+            "file" = "not_enough_glyphs-1.21.1-4.6.4.jar";
+            "hash" = "sha512-pku8ELM/vHjN8jmX/vP4qCgnwdqfgRQo63LcXPNjEOO96HWrR9dLTW23q/oyP3B1ZsW4UvIHug8o4ATeocIsIg==";
+        };
     in {
         "r7CVtgDb" = _r7CVtgDb;
         "pAJCxQy8" = _pAJCxQy8;
@@ -44,9 +49,10 @@ let
         "ST9FlYE4" = _ST9FlYE4;
         "OItR2D7T" = _OItR2D7T;
         "PECvNoZU" = _PECvNoZU;
+        "6KubeD5s" = _6KubeD5s;
         "forge-1.20.1" = _r7CVtgDb;
-        "neoforge-1.21" = _PECvNoZU;
-        "neoforge-1.21.1" = _PECvNoZU;
+        "neoforge-1.21" = _6KubeD5s;
+        "neoforge-1.21.1" = _6KubeD5s;
         "pkg-1.20.1-3.2.1.1" = _r7CVtgDb;
         "pkg-4.4.0" = _pAJCxQy8;
         "pkg-4.5.0" = _imwuqarp;
@@ -54,7 +60,8 @@ let
         "pkg-4.6.0" = _ST9FlYE4;
         "pkg-4.6.1" = _OItR2D7T;
         "pkg-4.6.2" = _PECvNoZU;
-        "default" = _PECvNoZU;
+        "pkg-4.6.4" = _6KubeD5s;
+        "default" = _6KubeD5s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "not-enough-glyphs";

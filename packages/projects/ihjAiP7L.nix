@@ -106,6 +106,11 @@ let
             "file" = "SkyGrid-26.2-1.21-backport.jar";
             "hash" = "sha512-kEmwPodu8MqSPqd88oBLVppJcV2EX+Gr2+XtmDD8mHr+nm4PmbMnmul3JzaxdwMnADP6SyYjLUzBKCiCZnAfXw==";
         };
+        _ivoReJGP = {
+            "id" = "ivoReJGP";
+            "file" = "SkyGrid-26.3.jar";
+            "hash" = "sha512-Ws9h75ZLM/+n9XZHe/dpnQx8ye7g5qWrNCPmn3jFjIu4smP75QAtTLsbcvxq+H+F69/frUtXfk8jgpGL0THu2Q==";
+        };
     in {
         "EJ2PasmY" = _EJ2PasmY;
         "XT6jLyyX" = _XT6jLyyX;
@@ -128,6 +133,7 @@ let
         "OZ5cTb2X" = _OZ5cTb2X;
         "J1sHpyjL" = _J1sHpyjL;
         "EgQ28r11" = _EgQ28r11;
+        "ivoReJGP" = _ivoReJGP;
         "bukkit-1.20" = _e1PH2tlq;
         "bukkit-1.20.1" = _e1PH2tlq;
         "bukkit-1.20.2" = _e1PH2tlq;
@@ -156,6 +162,7 @@ let
         "paper-1.21.9" = _EgQ28r11;
         "paper-1.21.10" = _EgQ28r11;
         "paper-1.21.11" = _EgQ28r11;
+        "paper-26.3" = _ivoReJGP;
         "spigot-1.20" = _e1PH2tlq;
         "spigot-1.20.1" = _e1PH2tlq;
         "spigot-1.20.2" = _e1PH2tlq;
@@ -177,6 +184,7 @@ let
         "folia-1.21.9" = _EgQ28r11;
         "folia-1.21.10" = _EgQ28r11;
         "folia-1.21.11" = _EgQ28r11;
+        "folia-26.3" = _ivoReJGP;
         "purpur-26.1.2" = _OZ5cTb2X;
         "purpur-26.2" = _J1sHpyjL;
         "purpur-1.21" = _EgQ28r11;
@@ -191,13 +199,15 @@ let
         "purpur-1.21.9" = _EgQ28r11;
         "purpur-1.21.10" = _EgQ28r11;
         "purpur-1.21.11" = _EgQ28r11;
+        "purpur-26.3" = _ivoReJGP;
         "pkg-1.20.2" = _QgWmYCTA;
         "pkg-1.20.4" = _HzXmKUO2;
         "pkg-1.20.6" = _e1PH2tlq;
         "pkg-26.1.2" = _OZ5cTb2X;
         "pkg-26.2" = _J1sHpyjL;
         "pkg-26.2-1.21-backport" = _EgQ28r11;
-        "default" = _EgQ28r11;
+        "pkg-26.3" = _ivoReJGP;
+        "default" = _ivoReJGP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skygridx";

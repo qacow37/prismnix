@@ -331,6 +331,11 @@ let
             "file" = "ShieldStatus-4.2.1+26.3.jar";
             "hash" = "sha512-7AEsC1vDuZcxgGodIG0A8cLoJXV4dGJSVX0v5gxDdS4eqH971OE0hBRiMZ1EUccCo8nni+fBSNT7sk1bEpL7Vg==";
         };
+        _WGyQkdws = {
+            "id" = "WGyQkdws";
+            "file" = "ShieldStatus-4.2.2+26.3.jar";
+            "hash" = "sha512-Afb+jjc3pPLX8TyAV2NFidpIYcGPvDbbLAYJEVkwquvZHkNborq36vZvQ3vZS2ESXafWawcFN581yQ3rZFZkNA==";
+        };
     in {
         "8ph9tX0j" = _8ph9tX0j;
         "YrF4kkvK" = _YrF4kkvK;
@@ -398,6 +403,7 @@ let
         "beGWzy62" = _beGWzy62;
         "wSjfylLI" = _wSjfylLI;
         "9hfOHdp3" = _9hfOHdp3;
+        "WGyQkdws" = _WGyQkdws;
         "fabric-1.19.2" = _8ph9tX0j;
         "fabric-1.19.4" = _55ApIa9k;
         "fabric-1.20" = _tnkBQVMw;
@@ -423,7 +429,7 @@ let
         "fabric-26.1.1" = _beGWzy62;
         "fabric-26.1.2" = _beGWzy62;
         "fabric-26.2" = _wSjfylLI;
-        "fabric-26.3" = _9hfOHdp3;
+        "fabric-26.3" = _WGyQkdws;
         "pkg-1.0.0" = _bONEDEHN;
         "pkg-1.20.5" = _KEQ0yJFz;
         "pkg-2.0.0" = _XSEk0U3A;
@@ -471,7 +477,8 @@ let
         "pkg-4.2.1+26.1-26.1.2" = _beGWzy62;
         "pkg-4.2.1+26.2" = _wSjfylLI;
         "pkg-4.2.1+26.3" = _9hfOHdp3;
-        "default" = _9hfOHdp3;
+        "pkg-4.2.2+26.3" = _WGyQkdws;
+        "default" = _WGyQkdws;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shield-statuses";

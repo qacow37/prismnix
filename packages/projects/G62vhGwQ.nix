@@ -71,6 +71,11 @@ let
             "file" = "JJBA-RipplesOfThePast-1.16.5-0.2.2.3.jar";
             "hash" = "sha512-tfEFbpdCxBwl5XqJnRozoK0gPPIqq6bNNM4blvx57C+XO9F3giNJANZsuYDNMRLmoAilG8LVifeIe9c+Qipxvw==";
         };
+        _utWexrQ6 = {
+            "id" = "utWexrQ6";
+            "file" = "JJBA-RipplesOfThePast-1.16.5-0.2.2.3b.jar";
+            "hash" = "sha512-OWDtb3y/k7T9r8GTC1d4/v0PirGulEbpGWSJvxgYUZhCnxz/7VMzyH0CFx1BGN49pNPwzPxT/vWi+y1LT535/g==";
+        };
     in {
         "rxg2QUNJ" = _rxg2QUNJ;
         "YB0oI1XY" = _YB0oI1XY;
@@ -86,7 +91,8 @@ let
         "HEOUKkXd" = _HEOUKkXd;
         "kaB12r0z" = _kaB12r0z;
         "bMuR0gZP" = _bMuR0gZP;
-        "forge-1.16.5" = _bMuR0gZP;
+        "utWexrQ6" = _utWexrQ6;
+        "forge-1.16.5" = _utWexrQ6;
         "pkg-0.2.1" = _rxg2QUNJ;
         "pkg-0.2.2-pre3" = _YB0oI1XY;
         "pkg-0.2.2-pre4" = _VzKhdzjk;
@@ -97,7 +103,8 @@ let
         "pkg-0.2.2.1" = _HEOUKkXd;
         "pkg-0.2.2.2" = _kaB12r0z;
         "pkg-0.2.2.3" = _bMuR0gZP;
-        "default" = _bMuR0gZP;
+        "pkg-0.2.2.3b" = _utWexrQ6;
+        "default" = _utWexrQ6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ripples-of-the-past";

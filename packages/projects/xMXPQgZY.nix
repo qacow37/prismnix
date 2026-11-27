@@ -66,6 +66,16 @@ let
             "file" = "LootSentinel-neo-26.1.2_v1.0.0.jar";
             "hash" = "sha512-MmCdeiOGs+o6YVe51T9wqLg/ijzNEJXbDTbrYMp4O/RAsLpksyBK1XOqW8n4olpwkU1yX4yWnVuUVyZYVCYPCg==";
         };
+        _vXZYGxjk = {
+            "id" = "vXZYGxjk";
+            "file" = "LootSentinel-forge-1.20.1_v1.0.8.jar";
+            "hash" = "sha512-v15Rds1GXpDuQ07S8JIYaw2W+XYCj78ArcH7s9hUSfCjzd94PEw+nv5N2rEu1W45Xl/6IdzkngGiwHyWeVrCmw==";
+        };
+        _bFpPkZnT = {
+            "id" = "bFpPkZnT";
+            "file" = "LootSentinel-neo-1.21.1_v1.0.4.jar";
+            "hash" = "sha512-WhmlSZG+i/XyURF3bIXA0tbJ3rOt7GyTpGa/NNMCrQbZ8nXg3sAf9GKx+rJY9C4Zz9YxF1h1rlEyDdDZmj7L4w==";
+        };
     in {
         "Rvi3RK5V" = _Rvi3RK5V;
         "2RjAViuL" = _2RjAViuL;
@@ -80,8 +90,10 @@ let
         "Tf5vpLDU" = _Tf5vpLDU;
         "u430R6su" = _u430R6su;
         "JdtIoqsZ" = _JdtIoqsZ;
-        "forge-1.20.1" = _mz5OQT9F;
-        "neoforge-1.21.1" = _u430R6su;
+        "vXZYGxjk" = _vXZYGxjk;
+        "bFpPkZnT" = _bFpPkZnT;
+        "forge-1.20.1" = _vXZYGxjk;
+        "neoforge-1.21.1" = _bFpPkZnT;
         "neoforge-1.21.2" = _Zpd52GON;
         "neoforge-1.21.3" = _Zpd52GON;
         "neoforge-1.21.4" = _Zpd52GON;
@@ -97,11 +109,12 @@ let
         "pkg-1.0.1" = _Zpd52GON;
         "pkg-1.0.2" = _Tf5vpLDU;
         "pkg-1.0.3" = _u430R6su;
-        "pkg-1.0.4" = _sdMJbssi;
+        "pkg-1.0.4" = _bFpPkZnT;
         "pkg-1.0.5" = _MFvrFgpA;
         "pkg-1.0.6" = _nb6qrJEf;
         "pkg-1.0.7" = _mz5OQT9F;
-        "default" = _JdtIoqsZ;
+        "pkg-1.0.8" = _vXZYGxjk;
+        "default" = _bFpPkZnT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "loot-sentinel";

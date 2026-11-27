@@ -96,6 +96,11 @@ let
             "file" = "minformax-3.0.0.jar";
             "hash" = "sha512-eX24x+YdiLdASQxHiBJVi9wAokzRB4XeggRbIyGbUZ5okD0ORuIu0PxYX6uTQKB7vLu2DubpQ4UngHLmHWfIXg==";
         };
+        _mYSR1Oyv = {
+            "id" = "mYSR1Oyv";
+            "file" = "minformax-4.0.0.jar";
+            "hash" = "sha512-K4FHWsw8A1eChLD1y+otVnFEx26Ts5u3tE2U9U/xu84TndL4MpQKpKkfE5xkA+BFpmg5t3xmZb48nUMT4uyEKw==";
+        };
     in {
         "DzKv4Hsx" = _DzKv4Hsx;
         "LIrEHM0v" = _LIrEHM0v;
@@ -116,7 +121,8 @@ let
         "7ME7iD8Y" = _7ME7iD8Y;
         "qJOx7NY6" = _qJOx7NY6;
         "EhYx4ora" = _EhYx4ora;
-        "neoforge-1.21.1" = _EhYx4ora;
+        "mYSR1Oyv" = _mYSR1Oyv;
+        "neoforge-1.21.1" = _mYSR1Oyv;
         "pkg-0.1.0" = _DzKv4Hsx;
         "pkg-1.2.0" = _LIrEHM0v;
         "pkg-1.2.1" = _lgRminEC;
@@ -136,7 +142,8 @@ let
         "pkg-2.1.1" = _7ME7iD8Y;
         "pkg-2.1.2" = _qJOx7NY6;
         "pkg-3.0.0" = _EhYx4ora;
-        "default" = _EhYx4ora;
+        "pkg-4.0.0" = _mYSR1Oyv;
+        "default" = _mYSR1Oyv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minimum-for-maximum";

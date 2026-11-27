@@ -56,6 +56,11 @@ let
             "file" = "chpcore-forge-1.20.1-1.0.9.jar";
             "hash" = "sha512-LG8zevUK2AVbv9GPPFweE8bwFuj679nI9h+Fa2irftIdBKNi8DfBp/1r5xL4J0nEuCv6iMb85eDQwNGjuhEk2A==";
         };
+        _GOqQ37IY = {
+            "id" = "GOqQ37IY";
+            "file" = "chpcore-forge-1.20.1-1.1.0.jar";
+            "hash" = "sha512-L2sp/PQboOWU7J3Zbw61O8/MSpHXlKpvgc8PuBZgKwGd2ETvugnxHlnN14OsJ9QqGihN49qmPT1w4ld5B7OTrw==";
+        };
     in {
         "TUKuMYtr" = _TUKuMYtr;
         "fIyT0VhB" = _fIyT0VhB;
@@ -68,7 +73,8 @@ let
         "DrV8wWP2" = _DrV8wWP2;
         "Xiozkir3" = _Xiozkir3;
         "nqEvJFmX" = _nqEvJFmX;
-        "forge-1.20.1" = _nqEvJFmX;
+        "GOqQ37IY" = _GOqQ37IY;
+        "forge-1.20.1" = _GOqQ37IY;
         "forge-1.19.2" = _oM5RMQYX;
         "pkg-v1.0.0" = _TUKuMYtr;
         "pkg-v1.0.1" = _fIyT0VhB;
@@ -80,7 +86,8 @@ let
         "pkg-v1.0.7" = _DrV8wWP2;
         "pkg-v1.0.8" = _Xiozkir3;
         "pkg-v1.0.9" = _nqEvJFmX;
-        "default" = _nqEvJFmX;
+        "pkg-v1.1.0" = _GOqQ37IY;
+        "default" = _GOqQ37IY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chp-core";

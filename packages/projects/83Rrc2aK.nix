@@ -171,6 +171,11 @@ let
             "file" = "AutoElytra-Fabric-1.4.3-26.3.jar";
             "hash" = "sha512-KO5mwdyxkn/JTUnVn0hmDveCIOlQiL+AS/A4jYidx+XMxmE2hg1p5mf8U4QQuwDKq2V9Vu79Tl54fzCDnbryww==";
         };
+        _GTBETvdT = {
+            "id" = "GTBETvdT";
+            "file" = "AutoElytra-1.0.0Fo-26.3.jar";
+            "hash" = "sha512-s29zcvkwXze5HuWzTXd9pS79UwXxnGl6kTRZjEA7YtxA2s+ee6koVirRZGe9qzoCE4CneOtcBfqy+CYfCYSukA==";
+        };
     in {
         "s9TzGEqI" = _s9TzGEqI;
         "nnPNXN8s" = _nnPNXN8s;
@@ -206,6 +211,7 @@ let
         "gpzAoNGk" = _gpzAoNGk;
         "mtOhsQV9" = _mtOhsQV9;
         "rpBIXWHu" = _rpBIXWHu;
+        "GTBETvdT" = _GTBETvdT;
         "fabric-1.21" = _dZZXB5w8;
         "fabric-1.21.1" = _dZZXB5w8;
         "fabric-1.21.2" = _dZZXB5w8;
@@ -246,6 +252,7 @@ let
         "fabric-1.20.6" = _papCK9Cq;
         "fabric-26.2" = _mtOhsQV9;
         "fabric-26.3" = _rpBIXWHu;
+        "forge-26.3" = _GTBETvdT;
         "pkg-0.3.3" = _nnPNXN8s;
         "pkg-0.3.4" = _MHM2yBkC;
         "pkg-1.0.1" = _aKUCZp1a;
@@ -272,7 +279,8 @@ let
         "pkg-1.4.2-26.1" = _gpzAoNGk;
         "pkg-1.4.2-26.2" = _mtOhsQV9;
         "pkg-1.4.3-26.3" = _rpBIXWHu;
-        "default" = _rpBIXWHu;
+        "pkg-1.0.0Fo" = _GTBETvdT;
+        "default" = _GTBETvdT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auto_elytra";

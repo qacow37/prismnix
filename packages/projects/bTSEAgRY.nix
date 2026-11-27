@@ -281,6 +281,31 @@ let
             "file" = "matmos_tct-7.8-neoforge-26.3.jar";
             "hash" = "sha512-7VdTWQVx9ze7YvLLLXH9H9hws3nw4HxoVbxX4W18JgjLVZdr+3/vYk4FEWotwL5BEAvC7jyfNp5joP8ulJw+DQ==";
         };
+        _bKGIFJb0 = {
+            "id" = "bKGIFJb0";
+            "file" = "matmos_tct-7.9-forge-1.20.1.jar";
+            "hash" = "sha512-1rDjaaa92VBqHErTa6l6Q6XIxm27XNAJlcVKfsmdFtsn9et+LjUHV1xLWTnbiGJMjf+VSyXpgJwYJAPu4NRZ0Q==";
+        };
+        _w8a13HZR = {
+            "id" = "w8a13HZR";
+            "file" = "matmos_tct-7.9-neoforge-1.21.1.jar";
+            "hash" = "sha512-zaJdpbPxnGYf4Th38JwfC2t19OkJItDLEg+5IQ47l6wfdAW+gHXkWj1fOEDcTd5CLPJ9WjrJuHGOUgsHz97ptQ==";
+        };
+        _zFNOhlqj = {
+            "id" = "zFNOhlqj";
+            "file" = "matmos_tct-7.9-neoforge-1.21.4.jar";
+            "hash" = "sha512-HdX0kojKi+CDPjDFcOfkDQaiM5XFiL0k4Jfut4daro4JDTvXAfsjs7kXtdNhqfBrlIrzUUWUpoZUbnEKDWIWpQ==";
+        };
+        _AQhoq5M7 = {
+            "id" = "AQhoq5M7";
+            "file" = "matmos_tct-7.9-neoforge-1.21.8.jar";
+            "hash" = "sha512-gK2+zP+slNk6wxw+4fmAnynoi74/vC0VK0NMkT7uP8JVLg5PwiM1Jw4SY2GXyF2hCS3qy/yIJcacLI5gQXcB5w==";
+        };
+        _DPuBNyvp = {
+            "id" = "DPuBNyvp";
+            "file" = "matmos_tct-7.9-neoforge-26.3.jar";
+            "hash" = "sha512-ALbaSoxM9R5h7v+sYWXTpcacNSbzUiwicNXPbIibPvANPdWyANAXpopUzVPABkC8xvlldgnMV2hnfxL2o0iVng==";
+        };
     in {
         "KeaDQvAE" = _KeaDQvAE;
         "2bPwMtCX" = _2bPwMtCX;
@@ -338,6 +363,11 @@ let
         "KEvXBcDG" = _KEvXBcDG;
         "sf6zFYOI" = _sf6zFYOI;
         "rXfIIdL7" = _rXfIIdL7;
+        "bKGIFJb0" = _bKGIFJb0;
+        "w8a13HZR" = _w8a13HZR;
+        "zFNOhlqj" = _zFNOhlqj;
+        "AQhoq5M7" = _AQhoq5M7;
+        "DPuBNyvp" = _DPuBNyvp;
         "forge-1.16" = _KeaDQvAE;
         "forge-1.16.4" = _KYaB5Wqn;
         "forge-1.16.5" = _MgqZpmlk;
@@ -346,20 +376,20 @@ let
         "forge-1.18.2" = _uFUkb7Hd;
         "forge-1.19.2" = _s8Bt3ToY;
         "forge-1.19.4" = _3YvEq9sR;
-        "forge-1.20.1" = _eTTYRlHR;
+        "forge-1.20.1" = _bKGIFJb0;
         "forge-1.12.2" = _fXyxBRKp;
         "forge-1.14.4" = _LvQ5jcPl;
         "forge-1.15.2" = _Y0zhhX75;
         "neoforge-1.20.1" = _HzDgsiKs;
         "neoforge-1.20.4" = _vqchg59d;
         "neoforge-1.20.6" = _9xGHVtfM;
-        "neoforge-1.21.1" = _KmdNuGqV;
-        "neoforge-1.21.4" = _CiLHGnBp;
+        "neoforge-1.21.1" = _w8a13HZR;
+        "neoforge-1.21.4" = _zFNOhlqj;
         "neoforge-1.21.5" = _xm4a2iqj;
-        "neoforge-1.21.8" = _2AjOVzRF;
+        "neoforge-1.21.8" = _AQhoq5M7;
         "neoforge-26.1.2" = _KEvXBcDG;
         "neoforge-26.2" = _sf6zFYOI;
-        "neoforge-26.3" = _rXfIIdL7;
+        "neoforge-26.3" = _DPuBNyvp;
         "pkg-3.0" = _sPcmA6bK;
         "pkg-6.0" = _KYaB5Wqn;
         "pkg-3.5" = _P8UlHOVG;
@@ -370,7 +400,8 @@ let
         "pkg-7.6" = _woYNOlDi;
         "pkg-7.7" = _KEvXBcDG;
         "pkg-7.8" = _rXfIIdL7;
-        "default" = _rXfIIdL7;
+        "pkg-7.9" = _DPuBNyvp;
+        "default" = _DPuBNyvp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "matmos-ambient-sound";

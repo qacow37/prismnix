@@ -301,6 +301,51 @@ let
             "file" = "Villager-API-26.4-fabric-1.26.11.2.jar";
             "hash" = "sha512-WMk08KzxhGDzRllisfRwj38ZJ6bqV8W1CVtfseIFuRXdqeZWLdMo216eZFASdNBmqxAYLHY4wqrbfMLrvn2qkA==";
         };
+        _6MJLQYPj = {
+            "id" = "6MJLQYPj";
+            "file" = "Villager-API-1.21.1-neoforge-1.26.11.3.jar";
+            "hash" = "sha512-eh4JHPhwYsoSEL+AtdGLsIjjNpiD1YH73ZhUazx7x0DRN9pcelGVEx00UmFxoTSVe14sl9Ydy9fIzA7lfLN1JA==";
+        };
+        _wCHTd7hR = {
+            "id" = "wCHTd7hR";
+            "file" = "Villager-API-1.21.1-fabric-1.26.11.3.jar";
+            "hash" = "sha512-E9mjg9VhOJiiOt943aXrzWHvOJ6kz7Vz3riP65eXY2QILfg3CBZuSGV4WegzSNf9PQZXvogFL4SxTZnkIVW3Eg==";
+        };
+        _f2cBN13H = {
+            "id" = "f2cBN13H";
+            "file" = "Villager-API-1.21.11-neoforge-1.26.11.3.jar";
+            "hash" = "sha512-PnBuFC/OBlY4CyzHd9dxJQUU0bBE5NIZ1lEjvCfVZJtxGDHXa5EqL2KQhrv7a4ZYem6hn0GEOAjGgUbgvOJ+yQ==";
+        };
+        _WK0kTS2h = {
+            "id" = "WK0kTS2h";
+            "file" = "Villager-API-1.21.11-fabric-1.26.11.3.jar";
+            "hash" = "sha512-Xny72X05L9z7joHSQhmb8wLyaqVW897I6QUXlxumF5Mdkq7Y3INXxSkRzKe0UVaGZB0xrrIjF42oz+YLuHEA/w==";
+        };
+        _dEg8AZ4e = {
+            "id" = "dEg8AZ4e";
+            "file" = "Villager-API-26.1.x-neoforge-1.26.11.3.jar";
+            "hash" = "sha512-eCAkqn8RYx+sD6czq7b2DGq9xMramYpG7NfuHR/bNXN+xfDL4nWyEFHKm0ZcXSuF4sTa8Fgf1fY5Q68TG3TJgg==";
+        };
+        _uqYKXWYq = {
+            "id" = "uqYKXWYq";
+            "file" = "Villager-API-26.1.x-fabric-1.26.11.3.jar";
+            "hash" = "sha512-m4OVjPi84D/aM3+J+FwU2cDcyBe4dq8jz9td0w2S9pLupdQRyqF1UlxUwZkrgIJu+nj1PiOF/d9LtCka8j9U8A==";
+        };
+        _fNml9a9y = {
+            "id" = "fNml9a9y";
+            "file" = "Villager-API-26.3-neoforge-1.26.11.3.jar";
+            "hash" = "sha512-Kg21K8eYKOelg7V/1jHYJEedbAuXeszMV+S7/LRo+VeT0RoyiH+Cg7n2+5mjtMBaRJCRYwEMHpW/y6ubzyWDVQ==";
+        };
+        _Zo5rejLZ = {
+            "id" = "Zo5rejLZ";
+            "file" = "Villager-API-26.3-fabric-1.26.11.3.jar";
+            "hash" = "sha512-5/RCFkfkfed7he5iR3WmY9gskTqh5lGk2xSd/NaSLsZVVPvZ0j6TVwfzCA1gc14kHtYta0fo8Vwl2HdvDSbymw==";
+        };
+        _CjHdxNLo = {
+            "id" = "CjHdxNLo";
+            "file" = "Villager-API-26.4-fabric-1.26.11.3.jar";
+            "hash" = "sha512-n97TPbc0pmNnPivtkZlwuGcWb4eorkrca3XGHj6xaPIWanL/VWrXJzow9ibMPiWY5dplbradYaJjueYpq5mHHA==";
+        };
     in {
         "WGIxGSfU" = _WGIxGSfU;
         "aubiXWxJ" = _aubiXWxJ;
@@ -362,12 +407,21 @@ let
         "IRPwJI5s" = _IRPwJI5s;
         "OZq9qOSJ" = _OZq9qOSJ;
         "xtpJgosV" = _xtpJgosV;
-        "neoforge-1.21.1" = _sBCqf1AY;
-        "neoforge-1.21.11" = _kVGuhK8L;
+        "6MJLQYPj" = _6MJLQYPj;
+        "wCHTd7hR" = _wCHTd7hR;
+        "f2cBN13H" = _f2cBN13H;
+        "WK0kTS2h" = _WK0kTS2h;
+        "dEg8AZ4e" = _dEg8AZ4e;
+        "uqYKXWYq" = _uqYKXWYq;
+        "fNml9a9y" = _fNml9a9y;
+        "Zo5rejLZ" = _Zo5rejLZ;
+        "CjHdxNLo" = _CjHdxNLo;
+        "neoforge-1.21.1" = _6MJLQYPj;
+        "neoforge-1.21.11" = _f2cBN13H;
         "neoforge-26.1" = _gjY1YF8J;
         "neoforge-26.1.1" = _gjY1YF8J;
-        "neoforge-26.1.2" = _dpYI8vR0;
-        "neoforge-26.2" = _dpYI8vR0;
+        "neoforge-26.1.2" = _dEg8AZ4e;
+        "neoforge-26.2" = _dEg8AZ4e;
         "neoforge-26.3-snapshot-1" = _X7ZkScNj;
         "neoforge-26.3-snapshot-2" = _X7ZkScNj;
         "neoforge-26.3-snapshot-3" = _X7ZkScNj;
@@ -379,15 +433,15 @@ let
         "neoforge-26.3-snapshot-9" = _X7ZkScNj;
         "neoforge-26.3-snapshot-10" = _X7ZkScNj;
         "neoforge-26.3-pre-1" = _X7ZkScNj;
-        "neoforge-26.3" = _IRPwJI5s;
+        "neoforge-26.3" = _fNml9a9y;
         "neoforge-26.4-snapshot-1" = _PFy0GyPd;
         "neoforge-26.4-snapshot-2" = _PFy0GyPd;
-        "fabric-1.21.1" = _YobJ9vZa;
-        "fabric-1.21.11" = _rd2hkRkh;
+        "fabric-1.21.1" = _wCHTd7hR;
+        "fabric-1.21.11" = _WK0kTS2h;
         "fabric-26.1" = _ZnWgGFx3;
         "fabric-26.1.1" = _ZnWgGFx3;
-        "fabric-26.1.2" = _jTTeh09N;
-        "fabric-26.2" = _jTTeh09N;
+        "fabric-26.1.2" = _uqYKXWYq;
+        "fabric-26.2" = _uqYKXWYq;
         "fabric-26.3-snapshot-1" = _QmtHsEEy;
         "fabric-26.3-snapshot-2" = _QmtHsEEy;
         "fabric-26.3-snapshot-3" = _QmtHsEEy;
@@ -399,10 +453,10 @@ let
         "fabric-26.3-snapshot-9" = _QmtHsEEy;
         "fabric-26.3-snapshot-10" = _QmtHsEEy;
         "fabric-26.3-pre-1" = _QmtHsEEy;
-        "fabric-26.3" = _OZq9qOSJ;
+        "fabric-26.3" = _Zo5rejLZ;
         "fabric-26.4-snapshot-1" = _fk8afDIw;
         "fabric-26.4-snapshot-2" = _fk8afDIw;
-        "fabric-26.4-snapshot-4" = _xtpJgosV;
+        "fabric-26.4-snapshot-4" = _CjHdxNLo;
         "fabric-26.4-snapshot-5" = _xtpJgosV;
         "fabric-26.4-snapshot-6" = _xtpJgosV;
         "fabric-26.4-snapshot-7" = _xtpJgosV;
@@ -410,12 +464,12 @@ let
         "fabric-26.4-snapshot-9" = _xtpJgosV;
         "fabric-26.4-snapshot-10" = _xtpJgosV;
         "fabric-26.4-pre-1" = _xtpJgosV;
-        "quilt-1.21.1" = _YobJ9vZa;
-        "quilt-1.21.11" = _rd2hkRkh;
+        "quilt-1.21.1" = _wCHTd7hR;
+        "quilt-1.21.11" = _WK0kTS2h;
         "quilt-26.1" = _ZnWgGFx3;
         "quilt-26.1.1" = _ZnWgGFx3;
-        "quilt-26.1.2" = _jTTeh09N;
-        "quilt-26.2" = _jTTeh09N;
+        "quilt-26.1.2" = _uqYKXWYq;
+        "quilt-26.2" = _uqYKXWYq;
         "quilt-26.3-snapshot-1" = _QmtHsEEy;
         "quilt-26.3-snapshot-2" = _QmtHsEEy;
         "quilt-26.3-snapshot-3" = _QmtHsEEy;
@@ -427,10 +481,10 @@ let
         "quilt-26.3-snapshot-9" = _QmtHsEEy;
         "quilt-26.3-snapshot-10" = _QmtHsEEy;
         "quilt-26.3-pre-1" = _QmtHsEEy;
-        "quilt-26.3" = _OZq9qOSJ;
+        "quilt-26.3" = _Zo5rejLZ;
         "quilt-26.4-snapshot-1" = _fk8afDIw;
         "quilt-26.4-snapshot-2" = _fk8afDIw;
-        "quilt-26.4-snapshot-4" = _xtpJgosV;
+        "quilt-26.4-snapshot-4" = _CjHdxNLo;
         "quilt-26.4-snapshot-5" = _xtpJgosV;
         "quilt-26.4-snapshot-6" = _xtpJgosV;
         "quilt-26.4-snapshot-7" = _xtpJgosV;
@@ -457,7 +511,8 @@ let
         "pkg-1.26.10.0" = _3k2d6SZK;
         "pkg-1.26.11.1" = _ZnWgGFx3;
         "pkg-1.26.11.2" = _xtpJgosV;
-        "default" = _xtpJgosV;
+        "pkg-1.26.11.3" = _CjHdxNLo;
+        "default" = _CjHdxNLo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villagerapi";

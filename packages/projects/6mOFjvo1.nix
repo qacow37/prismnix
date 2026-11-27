@@ -31,6 +31,11 @@ let
             "file" = "§r§f§k.zip§r§c§lChristmas §r§f§lMusic §r§a§lPack§r§f§k.zip";
             "hash" = "sha512-nmunAu8wlsOUpnmjjkeNztMnKa/FToM7XFjSm6tgG77iYkwz87/g2C9r3yAsRKae7sDEiYql281Fi9XfON7h6Q==";
         };
+        _3fbaCkiu = {
+            "id" = "3fbaCkiu";
+            "file" = "§r§f§k.zip§r§c§lChristmas §r§f§lMusic §r§a§lPack§r§f§k.zip";
+            "hash" = "sha512-bDICbtWES0FkB1PFvW1832DzQjmAy/iQ1pq+YKrWN2/mrFCeSn8pQr354X4Cs1ORpHZTdVel5BZ+TSUNnRyZ+A==";
+        };
     in {
         "LtGGtLiW" = _LtGGtLiW;
         "P8fi7jsy" = _P8fi7jsy;
@@ -38,16 +43,19 @@ let
         "DkJNP1Q6" = _DkJNP1Q6;
         "Wvu9n9CL" = _Wvu9n9CL;
         "tw74ZevZ" = _tw74ZevZ;
+        "3fbaCkiu" = _3fbaCkiu;
         "minecraft-1.21.10" = _DkJNP1Q6;
         "minecraft-1.21.11" = _Wvu9n9CL;
         "minecraft-26.1.2" = _tw74ZevZ;
+        "minecraft-26.3" = _3fbaCkiu;
         "pkg-v1.0" = _LtGGtLiW;
         "pkg-v1.1" = _P8fi7jsy;
         "pkg-v1.2" = _qau64nCO;
         "pkg-v2.1" = _DkJNP1Q6;
         "pkg-v3.1" = _Wvu9n9CL;
         "pkg-3.1.1" = _tw74ZevZ;
-        "default" = _tw74ZevZ;
+        "pkg-3.1.2" = _3fbaCkiu;
+        "default" = _3fbaCkiu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "christmas-music-pack";

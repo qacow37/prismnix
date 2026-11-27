@@ -341,6 +341,16 @@ let
             "file" = "playeranimationlibrarymorerotation-forge-1.20.1-1.2.1.jar";
             "hash" = "sha512-1BaOzF5RdWI6XQkDzcpJg1DxZiIff8YVGADuJY/LUhvzLdITgvUWkpkvLX775wakoojJJ91TTzIa/x0o/110iA==";
         };
+        _XmA9eeK7 = {
+            "id" = "XmA9eeK7";
+            "file" = "playeranimationlibrarymorerotation-fabric-26.3-1.2.1.jar";
+            "hash" = "sha512-V9tJsl/hKKmIAVrRQV2gopMBu6aI4vMwIQ6tyqVaeBeCRj4U31ZPbPsA90Z4gzLNKXrUKsrfHDAYngnh8iQIwg==";
+        };
+        _TJWd2wo2 = {
+            "id" = "TJWd2wo2";
+            "file" = "playeranimationlibrarymorerotation-neoforge-26.3-1.2.1.jar";
+            "hash" = "sha512-uwCQ4qNbBxKE1g7//SBm3EJ1Pu5pseRmc84G1HjMvlVPsMoPujG6XNigJ25aGZqgoFb67hVnnx7eW/ODF42xsg==";
+        };
     in {
         "UEPRmOGT" = _UEPRmOGT;
         "tACI9vFG" = _tACI9vFG;
@@ -410,6 +420,8 @@ let
         "MRVTsBv8" = _MRVTsBv8;
         "xGNv8KiF" = _xGNv8KiF;
         "9GvjTHW2" = _9GvjTHW2;
+        "XmA9eeK7" = _XmA9eeK7;
+        "TJWd2wo2" = _TJWd2wo2;
         "fabric-26.1.2" = _F30oMpuu;
         "fabric-26.1" = _catoExyf;
         "fabric-26.1.1" = _bIUTkeIB;
@@ -421,6 +433,7 @@ let
         "fabric-1.21.10" = _AMdhGKyD;
         "fabric-1.21.11" = _JBDJCqGI;
         "fabric-1.20.1" = _xGNv8KiF;
+        "fabric-26.3" = _XmA9eeK7;
         "neoforge-26.1.2" = _tYayKFeN;
         "neoforge-26.1" = _LFk3OQNG;
         "neoforge-26.1.1" = _okl1UEC1;
@@ -431,6 +444,7 @@ let
         "neoforge-1.21.9" = _bCtGuTt9;
         "neoforge-1.21.10" = _JEVEtaIy;
         "neoforge-1.21.11" = _3imf4AAA;
+        "neoforge-26.3" = _TJWd2wo2;
         "forge-1.20.1" = _9GvjTHW2;
         "pkg-1.0.0" = _tACI9vFG;
         "pkg-1.0.1" = _ogSLu3Aj;
@@ -497,7 +511,9 @@ let
         "pkg-1.2.1+mc26.2-neoforge" = _MRVTsBv8;
         "pkg-1.2.1+mc1.20.1-fabric" = _xGNv8KiF;
         "pkg-1.2.1+mc1.20.1-forge" = _9GvjTHW2;
-        "default" = _9GvjTHW2;
+        "pkg-1.2.1+mc26.3-fabric" = _XmA9eeK7;
+        "pkg-1.2.1+mc26.3-neoforge" = _TJWd2wo2;
+        "default" = _TJWd2wo2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "playeranimationlibrarymorerotation";

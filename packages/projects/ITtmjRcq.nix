@@ -51,6 +51,11 @@ let
             "file" = "3D_Food v1.10.zip";
             "hash" = "sha512-p2YecI/sf8nT4fPp7K2tW8dcllSuDuiXCVseIbP8lyn5MZgGQ361wFiuQmPUu5xjvpBfLjZJgBXALpTsuEg8Ug==";
         };
+        _eFwpVHyS = {
+            "id" = "eFwpVHyS";
+            "file" = "3D_Food v1.11.zip";
+            "hash" = "sha512-M3qiKKAA45sPNWDM2YhbG91ZuJL0DKya7+sXYkX3zgH+UEfC90SisCdQlBaZ+P+qXLD4mo9EmmNdmg/miMZtag==";
+        };
     in {
         "RDqXH4RK" = _RDqXH4RK;
         "Zec52hjU" = _Zec52hjU;
@@ -62,13 +67,14 @@ let
         "CqGQmNTV" = _CqGQmNTV;
         "9i95yH5E" = _9i95yH5E;
         "3un2XLCJ" = _3un2XLCJ;
-        "minecraft-1.21.5" = _3un2XLCJ;
-        "minecraft-1.21.6" = _3un2XLCJ;
-        "minecraft-1.21.7" = _3un2XLCJ;
-        "minecraft-1.21.8" = _3un2XLCJ;
-        "minecraft-1.21.9" = _3un2XLCJ;
-        "minecraft-1.21.10" = _3un2XLCJ;
-        "minecraft-1.21.11" = _3un2XLCJ;
+        "eFwpVHyS" = _eFwpVHyS;
+        "minecraft-1.21.5" = _eFwpVHyS;
+        "minecraft-1.21.6" = _eFwpVHyS;
+        "minecraft-1.21.7" = _eFwpVHyS;
+        "minecraft-1.21.8" = _eFwpVHyS;
+        "minecraft-1.21.9" = _eFwpVHyS;
+        "minecraft-1.21.10" = _eFwpVHyS;
+        "minecraft-1.21.11" = _eFwpVHyS;
         "minecraft-1.20" = _F2hExqhF;
         "minecraft-1.20.1" = _F2hExqhF;
         "minecraft-23w31a" = _F2hExqhF;
@@ -125,12 +131,12 @@ let
         "minecraft-24w44a" = _F2hExqhF;
         "minecraft-24w45a" = _F2hExqhF;
         "minecraft-24w46a" = _F2hExqhF;
-        "minecraft-1.21.4" = _3un2XLCJ;
-        "minecraft-26.1" = _3un2XLCJ;
-        "minecraft-26.1.1" = _3un2XLCJ;
-        "minecraft-26.1.2" = _3un2XLCJ;
-        "minecraft-26.3" = _3un2XLCJ;
-        "minecraft-26.2" = _3un2XLCJ;
+        "minecraft-1.21.4" = _eFwpVHyS;
+        "minecraft-26.1" = _eFwpVHyS;
+        "minecraft-26.1.1" = _eFwpVHyS;
+        "minecraft-26.1.2" = _eFwpVHyS;
+        "minecraft-26.3" = _eFwpVHyS;
+        "minecraft-26.2" = _eFwpVHyS;
         "pkg-1.1" = _RDqXH4RK;
         "pkg-1.2" = _Zec52hjU;
         "pkg-1.3" = _EwQeSxCO;
@@ -141,7 +147,8 @@ let
         "pkg-1.8" = _CqGQmNTV;
         "pkg-1.9" = _9i95yH5E;
         "pkg-1.10" = _3un2XLCJ;
-        "default" = _3un2XLCJ;
+        "pkg-1.11" = _eFwpVHyS;
+        "default" = _eFwpVHyS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "3d-foods";

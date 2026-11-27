@@ -1426,6 +1426,16 @@ let
             "file" = "avoidlib-2.2-experimental-3.jar";
             "hash" = "sha512-JIqnODZW43qo9inyRiPdP4lrsQQmno01Hb/Z56Vp7X7+2IHa55ezwala9EzCGxz/sGT5HocjDvBE69udDDt1Sg==";
         };
+        _e19WLQ6L = {
+            "id" = "e19WLQ6L";
+            "file" = "avoidlib+1.21.11-2.2-experimental-4-all.jar";
+            "hash" = "sha512-KEvXyozhwcO7deA3OrOvxiUIf38Di8T0MZPxjWPOS+mej8NoiDnzs01BCitlnv8ad2e3Dli+mSgtexW9NM4raw==";
+        };
+        _Oajvzk72 = {
+            "id" = "Oajvzk72";
+            "file" = "avoidlib+26.4-2.2-experimental-4-all.jar";
+            "hash" = "sha512-YuqmX3Rc0nSx0m+YCY/MPOuVWOxa9SkVd6zcRJTNfkt7hRv1pt6VskVSm5HW7t5C5f/qWxc+3Qdw7NnzrhESNA==";
+        };
     in {
         "MNN5qN02" = _MNN5qN02;
         "6Erv7P5r" = _6Erv7P5r;
@@ -1712,7 +1722,9 @@ let
         "YZtsaZS3" = _YZtsaZS3;
         "TiIEcEPx" = _TiIEcEPx;
         "iJZRSKS9" = _iJZRSKS9;
-        "fabric-1.21.11" = _iJZRSKS9;
+        "e19WLQ6L" = _e19WLQ6L;
+        "Oajvzk72" = _Oajvzk72;
+        "fabric-1.21.11" = _e19WLQ6L;
         "fabric-26.1" = _nunYBhjT;
         "fabric-26.1.1" = _nunYBhjT;
         "fabric-26.1.2" = _nunYBhjT;
@@ -1739,6 +1751,7 @@ let
         "fabric-26.4-snapshot-8" = _j4lDeXmX;
         "fabric-26.4-snapshot-9" = _YZtsaZS3;
         "fabric-26.4-snapshot-10" = _TiIEcEPx;
+        "fabric-26.4-pre-1" = _Oajvzk72;
         "neoforge-26.1" = _nunYBhjT;
         "neoforge-26.1.1" = _nunYBhjT;
         "neoforge-26.1.2" = _nunYBhjT;
@@ -1800,7 +1813,8 @@ let
         "pkg-2.2-experimental-1" = _j4lDeXmX;
         "pkg-2.2-experimental-2" = _YZtsaZS3;
         "pkg-2.2-experimental-3" = _iJZRSKS9;
-        "default" = _iJZRSKS9;
+        "pkg-2.2-experimental-4" = _Oajvzk72;
+        "default" = _Oajvzk72;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "avoid";

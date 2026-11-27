@@ -1311,6 +1311,21 @@ let
             "file" = "amber-forge-11.7.0+1.20.1.jar";
             "hash" = "sha512-ZIdBZYDMVJGnKR+8ngey3tPFK4dDmJkv13tYMIL5T7WZtoyt0AOvz+2ydR/mJFFOxoILVy3wA6f98P5Hd6JW3A==";
         };
+        _pnE6JOFy = {
+            "id" = "pnE6JOFy";
+            "file" = "amber-fabric-11.7.1+1.21.1.jar";
+            "hash" = "sha512-XYCt+DMkk/zfNt9O/TpSmHqgNTH/33hN15dz/ykI4n6ycBvGN4JmsxPZSlsBi8SQVs04jix7WK7fOVH2FT/WJA==";
+        };
+        _v0oZtyjD = {
+            "id" = "v0oZtyjD";
+            "file" = "amber-forge-11.7.1+1.21.1.jar";
+            "hash" = "sha512-MA2vPt8HZCz3FaZS6BjstK/jOFugjvG9IfuaqG3FLssRpjUh9b/SflE5BPMkhVHQ4Y+3AYUMOqbZebVk03+y/g==";
+        };
+        _kaD3D1LR = {
+            "id" = "kaD3D1LR";
+            "file" = "amber-neoforge-11.7.1+1.21.1.jar";
+            "hash" = "sha512-AHephmnGaA14MFq6797jPitVzlsQqd8eVeK95D5BTqpKavb/DS5iDkvMnW3MpSQcVkIiEAUKWHKspe5/PiY5hQ==";
+        };
     in {
         "L2tfHxp5" = _L2tfHxp5;
         "7CaqGWdm" = _7CaqGWdm;
@@ -1574,8 +1589,11 @@ let
         "sgiz7RT6" = _sgiz7RT6;
         "YDRqPacn" = _YDRqPacn;
         "IBeRwiOr" = _IBeRwiOr;
+        "pnE6JOFy" = _pnE6JOFy;
+        "v0oZtyjD" = _v0oZtyjD;
+        "kaD3D1LR" = _kaD3D1LR;
         "fabric-1.21" = _AKUA4gok;
-        "fabric-1.21.1" = _S5OLOL4r;
+        "fabric-1.21.1" = _pnE6JOFy;
         "fabric-1.20.1" = _YDRqPacn;
         "fabric-1.21.4" = _xLlRAY41;
         "fabric-1.21.5" = _2EFChtrY;
@@ -1592,7 +1610,7 @@ let
         "fabric-26.2" = _UYGCx60S;
         "fabric-26.3" = _ucZoxrgT;
         "neoforge-1.21" = _OOhpXzRj;
-        "neoforge-1.21.1" = _r2iUUln6;
+        "neoforge-1.21.1" = _kaD3D1LR;
         "neoforge-1.21.4" = _5PlHTK07;
         "neoforge-1.21.5" = _YyEWrSYD;
         "neoforge-1.21.6" = _EFY0NmKq;
@@ -1618,6 +1636,7 @@ let
         "forge-26.1.2" = _T8yIY2GQ;
         "forge-26.2" = _SYQv65Pf;
         "forge-26.3" = _dlJUwCRq;
+        "forge-1.21.1" = _v0oZtyjD;
         "pkg-1.0.0-alpha.7" = _7CaqGWdm;
         "pkg-1.1.0-alpha.1" = _ckqFe3gD;
         "pkg-1.2.0-beta.5" = _ERjRqLFL;
@@ -1715,7 +1734,8 @@ let
         "pkg-11.7.0+26.2" = _4ILDhs1L;
         "pkg-11.7.0+26.3" = _sgiz7RT6;
         "pkg-11.7.0+1.20.1" = _IBeRwiOr;
-        "default" = _IBeRwiOr;
+        "pkg-11.7.1+1.21.1" = _kaD3D1LR;
+        "default" = _kaD3D1LR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "amber";

@@ -226,6 +226,21 @@ let
             "file" = "smoothgl-v8-8.0-alpha.1-mc1.21.4.jar";
             "hash" = "sha512-7g3SRnx078hsiAlsVAiYg4S0Hk2DvWdkRlXh5WA4jkSccLbr0b0nKR/P3VpOknW66pCLwVgSNynVniD6YosNYw==";
         };
+        _uq0w8KKU = {
+            "id" = "uq0w8KKU";
+            "file" = "SmoothGL-V8-MC1.21.4-D3D12-ABI29.jar";
+            "hash" = "sha512-yWrjPIVbHB2fJJ6fwvJdSjBps3fdJSaoMrUq4V+aqkotaVsDXu7rNkNvo0GgRuGpKHCXJw/2Emi8OpAW3m++AA==";
+        };
+        _VaIweJtN = {
+            "id" = "VaIweJtN";
+            "file" = "SmoothGL-Fabric-1.21.4-7.0.2.jar";
+            "hash" = "sha512-sBbBrnK52djqamFXRfN99ddUNu809xLZD0KIco3+0GS+phfMLVsjAaJq9gY1aPfZxwasiN94E9NfOPZq0Dusxg==";
+        };
+        _ysgtCrKD = {
+            "id" = "ysgtCrKD";
+            "file" = "SmoothGL-Fabric-1.21.11-7.0.2.jar";
+            "hash" = "sha512-z5NLzIOoqVZkWMykuzSI+HWWP8cW+4sp5V9ZrsRslZyvgXNi4iAHE3fBlKsUYYUsDmmNQiC3pWRhZBUG3fudQg==";
+        };
     in {
         "jv430j6i" = _jv430j6i;
         "KvV1eL4W" = _KvV1eL4W;
@@ -272,14 +287,17 @@ let
         "OX6jduMq" = _OX6jduMq;
         "4LyMjDyb" = _4LyMjDyb;
         "AuRd8gj3" = _AuRd8gj3;
-        "fabric-1.21.4" = _AuRd8gj3;
+        "uq0w8KKU" = _uq0w8KKU;
+        "VaIweJtN" = _VaIweJtN;
+        "ysgtCrKD" = _ysgtCrKD;
+        "fabric-1.21.4" = _VaIweJtN;
         "fabric-1.21.5" = _XcIecrwJ;
         "fabric-1.21.6" = _YoijsnrJ;
         "fabric-1.21.7" = _kdEZMmel;
         "fabric-1.21.8" = _rU5Bhsin;
         "fabric-1.21.9" = _I9PCDZIV;
         "fabric-1.21.10" = _OX6jduMq;
-        "fabric-1.21.11" = _4LyMjDyb;
+        "fabric-1.21.11" = _ysgtCrKD;
         "fabric-1.16" = _QI9h795a;
         "fabric-1.16.1" = _k7VvVHQZ;
         "fabric-1.16.2" = _McERv4Ma;
@@ -387,7 +405,10 @@ let
         "pkg-7.0.1+1.21.10" = _OX6jduMq;
         "pkg-7.0.1+1.21.11" = _4LyMjDyb;
         "pkg-v8" = _AuRd8gj3;
-        "default" = _AuRd8gj3;
+        "pkg-8.0-alpha.2" = _uq0w8KKU;
+        "pkg-7.0.2+mc1.21.4" = _VaIweJtN;
+        "pkg-7.0.2+mc1.21.11" = _ysgtCrKD;
+        "default" = _ysgtCrKD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smoothgl";

@@ -26,23 +26,30 @@ let
             "file" = "Blood-Smeltery-1.20.1-1.2.1a.jar";
             "hash" = "sha512-Izn2Wg51/YVPdZMhXxywiaOfkdyZza1yxFxDTs2Qac3a6qpkK6jrYFj12uAVEmOQK9iX2R0b1gPXsPK/QfIOvw==";
         };
+        _mCGVdA13 = {
+            "id" = "mCGVdA13";
+            "file" = "Blood-Smeltery-1.20.1-1.2.1b.jar";
+            "hash" = "sha512-5s5ECWCHFNVoBalCH5k+AUZTM6Y7MG+Mf97uA3DOfBTlokX6YODfFOCF+AwsCSCrX/8ON5U7eAFIePZOayREJQ==";
+        };
     in {
         "5QL4jGYz" = _5QL4jGYz;
         "J8WV4oX3" = _J8WV4oX3;
         "uxDimVYx" = _uxDimVYx;
         "MjhjpbJj" = _MjhjpbJj;
         "yAxcniqd" = _yAxcniqd;
+        "mCGVdA13" = _mCGVdA13;
         "forge-1.12.2" = _5QL4jGYz;
         "forge-1.16.5" = _J8WV4oX3;
         "forge-1.18.2" = _uxDimVYx;
-        "forge-1.20.1" = _yAxcniqd;
-        "neoforge-1.20.1" = _yAxcniqd;
+        "forge-1.20.1" = _mCGVdA13;
+        "neoforge-1.20.1" = _mCGVdA13;
         "pkg-1.1.2" = _5QL4jGYz;
         "pkg-1.1.5a" = _J8WV4oX3;
         "pkg-1.1.6" = _uxDimVYx;
         "pkg-1.20.1-1.2.1" = _MjhjpbJj;
         "pkg-1.20.1-1.2.1a" = _yAxcniqd;
-        "default" = _yAxcniqd;
+        "pkg-1.20.1-1.2.1b" = _mCGVdA13;
+        "default" = _mCGVdA13;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blood-smeltery";

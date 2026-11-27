@@ -26,19 +26,26 @@ let
             "file" = "scalingdifficulty-1.1.0+1.21.1.jar";
             "hash" = "sha512-XnpeNFcRxmTDfmfM+7LO9WYqIo54/GDRV9sxCH1X9goXUJY1NTJ/wgOL/LUUqAPzugRp5VPAzwAyxK/LlDSI1g==";
         };
+        _Prpy6fPS = {
+            "id" = "Prpy6fPS";
+            "file" = "scalingdifficulty-1.1.1+1.21.1.jar";
+            "hash" = "sha512-J3/YAhoBcbl2Ll9v+EESKfAsdGIrFmPI9j2E+xRynLea0gTTSn3UBk3ttxCEmp/yV4KQjEevDuEoapTbXhALoQ==";
+        };
     in {
         "w7K448Gh" = _w7K448Gh;
         "imOwIoxi" = _imOwIoxi;
         "XnWTNcmy" = _XnWTNcmy;
         "p8nY72Rj" = _p8nY72Rj;
         "tgftzsM0" = _tgftzsM0;
-        "neoforge-1.21.1" = _tgftzsM0;
+        "Prpy6fPS" = _Prpy6fPS;
+        "neoforge-1.21.1" = _Prpy6fPS;
         "pkg-1.0.0+1.21.1" = _w7K448Gh;
         "pkg-1.0.1+1.21.1" = _imOwIoxi;
         "pkg-1.0.2+1.21.1" = _XnWTNcmy;
         "pkg-1.0.3+1.21.1" = _p8nY72Rj;
         "pkg-1.1.0+1.21.1" = _tgftzsM0;
-        "default" = _tgftzsM0;
+        "pkg-1.1.1+1.21.1" = _Prpy6fPS;
+        "default" = _Prpy6fPS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scalingdifficulty";

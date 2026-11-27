@@ -101,6 +101,11 @@ let
             "file" = "latiaocraft2-forge-1.20.1-1.5.0.jar";
             "hash" = "sha512-tV+ChJMiWNlpZF8D/bMPB1T9qb55MCjMS6cZIj/jOM6Rw1NH0toEuLTOd8yyNE5iekZ9BwHO289CHEvHWeTm1w==";
         };
+        _pkNNwfKd = {
+            "id" = "pkNNwfKd";
+            "file" = "latiaocraft2-forge-1.20.1-1.5.1.jar";
+            "hash" = "sha512-Wmb6xlymB+ezc1qsPeuZZmkVjcY5kKLXxINB4nPvM42ieIU2t41A8Xpsw/OxjtZmPY76rdJHVIQLaEluxqg6Qg==";
+        };
     in {
         "DAbgc2z3" = _DAbgc2z3;
         "GtLkUgFj" = _GtLkUgFj;
@@ -122,7 +127,8 @@ let
         "pAjqbdaC" = _pAjqbdaC;
         "DjRYkgbu" = _DjRYkgbu;
         "WkWpCvA1" = _WkWpCvA1;
-        "forge-1.20.1" = _WkWpCvA1;
+        "pkNNwfKd" = _pkNNwfKd;
+        "forge-1.20.1" = _pkNNwfKd;
         "pkg-1.0.0" = _DAbgc2z3;
         "pkg-1.0.1" = _GtLkUgFj;
         "pkg-1.0.2" = _3gmt58SL;
@@ -143,7 +149,8 @@ let
         "pkg-1.4.1" = _pAjqbdaC;
         "pkg-1.4.2" = _DjRYkgbu;
         "pkg-1.5.0" = _WkWpCvA1;
-        "default" = _WkWpCvA1;
+        "pkg-1.5.1" = _pkNNwfKd;
+        "default" = _pkNNwfKd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "latiao-craft-2";

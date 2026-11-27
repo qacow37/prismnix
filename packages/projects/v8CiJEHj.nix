@@ -31,6 +31,16 @@ let
             "file" = "TheGreatOutdoors_1.20.1Forge_V1.5_BETA2.jar";
             "hash" = "sha512-5UnjjQMz34un8pWPf9YHpFOURMpxL7bYowRoolXLgP3naXa18zrlJzbI2zfn1B2xsiL9j1Rq1D1koksZOkFw/A==";
         };
+        _6XroMCIw = {
+            "id" = "6XroMCIw";
+            "file" = "TheGreatOutdoors_1.20.1Forge_V1.5BETA3.jar";
+            "hash" = "sha512-xYwRwuC9LvTimYCMcBjvX647kYhkkSV1J8ivd6lzD1STqpph3PyAT7l3zAg+qJ7/1lLA4YSMNe9S7+yTbPbIPA==";
+        };
+        _sPKIX9Ub = {
+            "id" = "sPKIX9Ub";
+            "file" = "TheGreatOutdoors_1.21.1Neoforge_V1.5BETA3.jar";
+            "hash" = "sha512-/ou1zHubGMBJcT/qqgZPXqHcWVPixhoSfMhJDZfROcnWdWQrds0fKp/7qlilAz+QIiONQY6x1NIn9a63e2u6kQ==";
+        };
     in {
         "bY3jfjYW" = _bY3jfjYW;
         "8n9VCeR1" = _8n9VCeR1;
@@ -38,12 +48,15 @@ let
         "ZES4mhCS" = _ZES4mhCS;
         "5x65Y9Xk" = _5x65Y9Xk;
         "TImWd0cN" = _TImWd0cN;
-        "forge-1.20.1" = _TImWd0cN;
-        "neoforge-1.21.1" = _5x65Y9Xk;
+        "6XroMCIw" = _6XroMCIw;
+        "sPKIX9Ub" = _sPKIX9Ub;
+        "forge-1.20.1" = _6XroMCIw;
+        "neoforge-1.21.1" = _sPKIX9Ub;
         "pkg-1.2.1" = _8n9VCeR1;
         "pkg-1.5" = _ZES4mhCS;
         "pkg-1.5.2" = _TImWd0cN;
-        "default" = _TImWd0cN;
+        "pkg-1.53" = _sPKIX9Ub;
+        "default" = _sPKIX9Ub;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-great-outdoors";

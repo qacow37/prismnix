@@ -121,6 +121,16 @@ let
             "file" = "dtvanillabackport-1.21.1-2.0.0.jar";
             "hash" = "sha512-muIKvMWDY2oadnt8LAauaukY3iPTyMIxLXupdik/s2gm+rCnNVhivCPYGjxIxr2cN2CZ04Z/UVdJgtfmGHmPeA==";
         };
+        _QelCs9gs = {
+            "id" = "QelCs9gs";
+            "file" = "dtvanillabackport-1.20.1-2.0.0h.jar";
+            "hash" = "sha512-gr4vdjqMAXo8jXmNFBANMqrOocUD8OHztNIWhZa+oAU1AUZuZzRxz4q9RvfsmOr7fI/axcUcVdArPDB5qgfrfQ==";
+        };
+        _HXpZyorN = {
+            "id" = "HXpZyorN";
+            "file" = "dtvanillabackport-1.21.1-2.0.0h.jar";
+            "hash" = "sha512-zmPxG0eoWHhfwCf1ukRMtjUkFSiZ1KeCSQO6A3ueUBCtXU4zPVkbl07St9dDApO/V0rKrOo4DW+SWur2bxykAQ==";
+        };
     in {
         "FA5zwTUH" = _FA5zwTUH;
         "o5GDTHYN" = _o5GDTHYN;
@@ -146,8 +156,10 @@ let
         "iZZ9yjcK" = _iZZ9yjcK;
         "4aFLAf0W" = _4aFLAf0W;
         "lOH4PMFh" = _lOH4PMFh;
-        "forge-1.20.1" = _4aFLAf0W;
-        "neoforge-1.21.1" = _lOH4PMFh;
+        "QelCs9gs" = _QelCs9gs;
+        "HXpZyorN" = _HXpZyorN;
+        "forge-1.20.1" = _QelCs9gs;
+        "neoforge-1.21.1" = _HXpZyorN;
         "pkg-1.20.1-1.0.0" = _FA5zwTUH;
         "pkg-1.21.1-1.0.0" = _o5GDTHYN;
         "pkg-1.20.1-1.1.0" = _3KNmYdWY;
@@ -172,7 +184,9 @@ let
         "pkg-1.21.1-1.9.0" = _iZZ9yjcK;
         "pkg-1.20.1-2.0.0" = _4aFLAf0W;
         "pkg-1.21.1-2.0.0" = _lOH4PMFh;
-        "default" = _lOH4PMFh;
+        "pkg-1.20.1-2.0.0h" = _QelCs9gs;
+        "pkg-1.21.1-2.0.0h" = _HXpZyorN;
+        "default" = _HXpZyorN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamictrees-vanillabackport";

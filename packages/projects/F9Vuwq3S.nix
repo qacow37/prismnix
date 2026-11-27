@@ -3656,6 +3656,31 @@ let
             "file" = "immersiveores-26.3-0.4.jar";
             "hash" = "sha512-6j71Urovj063FvOIkd7T0T4SQBbZ/aU9/gsa9Ky9dGnKdpH3iEvUlmn+/sYml1HuHqeF8ojXJ34PeWc9+VJLYQ==";
         };
+        _GyUexMpj = {
+            "id" = "GyUexMpj";
+            "file" = "ImmersiveOres-26.1-0.6.jar";
+            "hash" = "sha512-zbez8oGKOtWP0QJ+71BRDhhl+jSSCDsQ0K1hyCtkE12Gx8xyvexv7ByLn3CFMsYc+VUT8TdrCcboEG3wf6oGMA==";
+        };
+        _4ZvUFLB4 = {
+            "id" = "4ZvUFLB4";
+            "file" = "ImmersiveOres-26.1.1-0.6.jar";
+            "hash" = "sha512-/e4qK7Pi+ak/LnEJcOGRkvKDkq6a3czOMmqISngfnOFBMgmxDP5VU05hxUZR/FsUmoc2eDcqYPunobkwkGhcxg==";
+        };
+        _GDo9sARN = {
+            "id" = "GDo9sARN";
+            "file" = "ImmersiveOres-26.1.2-0.6.jar";
+            "hash" = "sha512-42GQtSEvxzthe2XsFqT7ANlZ1i8RfXjU9v/V2ptyXpwjUGuXgU2IE3q51yXrxne6qe3fXmGaJTz5hEsu82SfwQ==";
+        };
+        _4c7Q3tsU = {
+            "id" = "4c7Q3tsU";
+            "file" = "ImmersiveOres-26.2-0.4.jar";
+            "hash" = "sha512-F+PM4UX3UWOdxpX0CVGvtlEEXCjyUy0NSwAtbXfUE5hOTStsmCFDlQSG7C0nQlcNO+SyhYNRrzqFMBgUjh5qLQ==";
+        };
+        _xvv10BKe = {
+            "id" = "xvv10BKe";
+            "file" = "ImmersiveOres-26.3-0.3.jar";
+            "hash" = "sha512-WaTJ5PTUoPyFJzmTvMF4r2EVfC4YZyqQGr5XaK9zmFa4Opa0hWrEyJaVvK2gsQ+WZyFKNonXHPHLBIo+JIdHFw==";
+        };
     in {
         "7ZPaV1GV" = _7ZPaV1GV;
         "RGXounRe" = _RGXounRe;
@@ -4388,6 +4413,11 @@ let
         "DyTJ8WRQ" = _DyTJ8WRQ;
         "fjQqvk14" = _fjQqvk14;
         "DW3OgeLm" = _DW3OgeLm;
+        "GyUexMpj" = _GyUexMpj;
+        "4ZvUFLB4" = _4ZvUFLB4;
+        "GDo9sARN" = _GDo9sARN;
+        "4c7Q3tsU" = _4c7Q3tsU;
+        "xvv10BKe" = _xvv10BKe;
         "forge-1.19" = _En8TPmMM;
         "forge-1.19.1" = _lI7jIcqh;
         "forge-1.19.2" = _3EnmhQri;
@@ -4426,11 +4456,11 @@ let
         "fabric-1.21.9" = _N7W3sFLw;
         "fabric-1.21.10" = _Groqt9AI;
         "fabric-1.21.11" = _sIQHcasZ;
-        "fabric-26.1.2" = _30ZloLbZ;
-        "fabric-26.1.1" = _ICdpGf9K;
-        "fabric-26.1" = _QPfTAzJ3;
-        "fabric-26.2" = _fjZyYXGJ;
-        "fabric-26.3" = _145NSRxd;
+        "fabric-26.1.2" = _GDo9sARN;
+        "fabric-26.1.1" = _4ZvUFLB4;
+        "fabric-26.1" = _GyUexMpj;
+        "fabric-26.2" = _4c7Q3tsU;
+        "fabric-26.3" = _xvv10BKe;
         "neoforge-1.21" = _R0QUIKnA;
         "neoforge-1.21.1" = _X874W32C;
         "neoforge-1.21.3" = _TvBFtMKr;
@@ -4716,7 +4746,7 @@ let
         "pkg-26.1.1-0.5" = _ICdpGf9K;
         "pkg-26.1.2-0.5" = _30ZloLbZ;
         "pkg-26.2-0.3" = _fjZyYXGJ;
-        "pkg-26.3-0.3" = _q7FOB4D0;
+        "pkg-26.3-0.3" = _xvv10BKe;
         "pkg-1.21.11-0.4" = _9aOCslTM;
         "pkg-1.20.1-1.0.3" = _cjjun4qg;
         "pkg-1.21.3-1.2.3" = _r3t9R6De;
@@ -4729,13 +4759,13 @@ let
         "pkg-1.21.9-0.7" = _BbzyLG4A;
         "pkg-1.21.6-1.0.5" = _4gomNGnn;
         "pkg-1.21.10-0.7" = _3e1YZsb3;
-        "pkg-26.1.1-0.6" = _A5gRxrHX;
-        "pkg-26.1-0.6" = _rGuzMP7y;
+        "pkg-26.1.1-0.6" = _4ZvUFLB4;
+        "pkg-26.1-0.6" = _GyUexMpj;
         "pkg-1.21.11-0.5" = _pO0nNDpN;
-        "pkg-26.1.2-0.6" = _DyTJ8WRQ;
-        "pkg-26.2-0.4" = _fjQqvk14;
+        "pkg-26.1.2-0.6" = _GDo9sARN;
+        "pkg-26.2-0.4" = _4c7Q3tsU;
         "pkg-26.3-0.4" = _DW3OgeLm;
-        "default" = _DW3OgeLm;
+        "default" = _xvv10BKe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-ores";

@@ -81,6 +81,26 @@ let
             "file" = "ProbeJSLegacy-1.20.1-6.3.0.jar";
             "hash" = "sha512-WHcKyIKel2HXa2P18dDkOisCf709P8KVyF/AiARWZaM35TsgYcAMYY96fXLWQuFdJobC9yMLno0wEJwXDYLPeg==";
         };
+        _jQc1kpJ7 = {
+            "id" = "jQc1kpJ7";
+            "file" = "ProbeJSLegacy-1.16.5-6.3.1.jar";
+            "hash" = "sha512-QAgle7Wkv+gJGIgZz0tRJw3oXv27MeP5yVt7B5Ftf5QrDTvJtbxvWZLHS6GbPIKRf8Rlzo5NCRKG2pvXUUmuww==";
+        };
+        _NjQ2i54Y = {
+            "id" = "NjQ2i54Y";
+            "file" = "ProbeJSLegacy-1.20.1-6.3.1.jar";
+            "hash" = "sha512-hwqYs9bo8b32dPlWZ3wYcsh+dCN1ZRnEiSTPQYkmp4KD/31qkfldwYiG4PjRb5F/PP6teXOTVlIat5JhqKl29g==";
+        };
+        _HDInO3Nn = {
+            "id" = "HDInO3Nn";
+            "file" = "ProbeJSLegacy-1.16.5-6.3.2.jar";
+            "hash" = "sha512-Ti/tD+680CooY2dXFAHekQoemP4yOBdJa9F7rtD0dP/Cy4WDzIIewT6L+ZThvxJ0q4ph11umnPlnysgJ0bVfhg==";
+        };
+        _1GqSq7oy = {
+            "id" = "1GqSq7oy";
+            "file" = "ProbeJSLegacy-1.20.1-6.3.2.jar";
+            "hash" = "sha512-xB3scUGSE7vFbpB8VIpUOW4IGR0Q3Ojp2CYfgzWW/le3g5+nDoziPTdKQZtMuSohQPHPcs9zdWRTOJ8zq79hQQ==";
+        };
     in {
         "2ruVR1qO" = _2ruVR1qO;
         "1ui6qiiQ" = _1ui6qiiQ;
@@ -98,8 +118,12 @@ let
         "m0TaAVwY" = _m0TaAVwY;
         "XN4yzDqT" = _XN4yzDqT;
         "eSYpKvro" = _eSYpKvro;
-        "forge-1.16.5" = _XN4yzDqT;
-        "forge-1.20.1" = _eSYpKvro;
+        "jQc1kpJ7" = _jQc1kpJ7;
+        "NjQ2i54Y" = _NjQ2i54Y;
+        "HDInO3Nn" = _HDInO3Nn;
+        "1GqSq7oy" = _1GqSq7oy;
+        "forge-1.16.5" = _HDInO3Nn;
+        "forge-1.20.1" = _1GqSq7oy;
         "forge-1.20.2" = _63jV54XO;
         "forge-1.20.3" = _63jV54XO;
         "forge-1.20.4" = _63jV54XO;
@@ -113,7 +137,9 @@ let
         "pkg-6.1.0" = _E0m64tr7;
         "pkg-6.2.0" = _m0TaAVwY;
         "pkg-6.3.0" = _eSYpKvro;
-        "default" = _eSYpKvro;
+        "pkg-6.3.1" = _NjQ2i54Y;
+        "pkg-6.3.2" = _1GqSq7oy;
+        "default" = _1GqSq7oy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "probejs-legacy";
