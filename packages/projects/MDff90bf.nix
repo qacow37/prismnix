@@ -106,6 +106,11 @@ let
             "file" = "ametrin-26.3-1.2.2.jar";
             "hash" = "sha512-WuN7JYbAEU001DSOyb0CpAv0r9B++EUgf5A6q2YzaiJY4iBa+fkRjKZQaT1c07px6T3TGU2dZT3FkJ+nvz6LzA==";
         };
+        _NmNgA0OX = {
+            "id" = "NmNgA0OX";
+            "file" = "ametrin-1.21.1-1.2.3.jar";
+            "hash" = "sha512-xYNlf/WrISTTQfgytUHIC0zLMUxNh/JmtMGgMaJkdysvAtLFpHA7ZBt27nWSbTxXC2GT5dePct/xCrgZZ1q66Q==";
+        };
     in {
         "Ju2g4Maf" = _Ju2g4Maf;
         "zlvBtCOU" = _zlvBtCOU;
@@ -128,11 +133,12 @@ let
         "OEwb0fb9" = _OEwb0fb9;
         "XYcd8a6g" = _XYcd8a6g;
         "QSUzNvPN" = _QSUzNvPN;
+        "NmNgA0OX" = _NmNgA0OX;
         "forge-1.19.4" = _Ju2g4Maf;
         "forge-1.20.4" = _zgC1QfeM;
         "neoforge-1.20.4" = _zlvBtCOU;
         "neoforge-1.21" = _TxTpf20M;
-        "neoforge-1.21.1" = _TxTpf20M;
+        "neoforge-1.21.1" = _NmNgA0OX;
         "neoforge-1.21.3" = _Pd14i8eq;
         "neoforge-1.21.4" = _fidFn6Hy;
         "neoforge-1.21.5" = _B7SUkiXA;
@@ -164,7 +170,8 @@ let
         "pkg-1.2.0" = _FiPuoszF;
         "pkg-1.2.1" = _OEwb0fb9;
         "pkg-1.2.2" = _QSUzNvPN;
-        "default" = _QSUzNvPN;
+        "pkg-1.2.3" = _NmNgA0OX;
+        "default" = _NmNgA0OX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ametrin";

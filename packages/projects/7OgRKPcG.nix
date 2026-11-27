@@ -391,6 +391,16 @@ let
             "file" = "furnicraft-v7.5+mod.jar";
             "hash" = "sha512-Nl/0inksnMdVejg9ihRodRKkFcNhvtsNC5YMcbpuTKxRFtZNZtCgPigR5LjkOItzaH0yAEJGHVOL/7CgE0V/IQ==";
         };
+        _C68DUZ13 = {
+            "id" = "C68DUZ13";
+            "file" = "furnicraft-v7.6.zip";
+            "hash" = "sha512-b1sgzc4N0SbqJ/nl/YRwA1fZI7oW8bpaNpxw/oDYb2vQ4xwF320hM2BU+ZByiNesEYFv31lZCct5UyQSbaaQLw==";
+        };
+        _qqC3ORNw = {
+            "id" = "qqC3ORNw";
+            "file" = "furnicraft-v7.6+mod.jar";
+            "hash" = "sha512-AHz7diVOu6BbgqxNkPacpoflScTgD/j2Stqavb7gg7K3ZMDLba3ugl8h6GSIgvUPbrkHcAcj1WfokBKZfvc2dA==";
+        };
     in {
         "G2noYbFf" = _G2noYbFf;
         "dHl9dMr2" = _dHl9dMr2;
@@ -470,6 +480,8 @@ let
         "pTsJOSvm" = _pTsJOSvm;
         "VIFou4W9" = _VIFou4W9;
         "oP198ylb" = _oP198ylb;
+        "C68DUZ13" = _C68DUZ13;
+        "qqC3ORNw" = _qqC3ORNw;
         "datapack-1.19.4" = _bYlwc9mu;
         "datapack-1.20" = _sHQqL9Rm;
         "datapack-1.20.1" = _sHQqL9Rm;
@@ -494,7 +506,7 @@ let
         "datapack-26.1.1" = _uu7r0ZZ8;
         "datapack-26.1.2" = _uu7r0ZZ8;
         "datapack-26.2" = _WofCEP9C;
-        "datapack-26.3" = _VIFou4W9;
+        "datapack-26.3" = _C68DUZ13;
         "forge-1.20" = _TLdw5pxB;
         "forge-1.20.1" = _TLdw5pxB;
         "forge-1.20.2" = _TLdw5pxB;
@@ -518,7 +530,7 @@ let
         "forge-26.1.1" = _LLPHuON9;
         "forge-26.1.2" = _LLPHuON9;
         "forge-26.2" = _pTsJOSvm;
-        "forge-26.3" = _oP198ylb;
+        "forge-26.3" = _qqC3ORNw;
         "fabric-1.20" = _TLdw5pxB;
         "fabric-1.20.1" = _TLdw5pxB;
         "fabric-1.20.2" = _TLdw5pxB;
@@ -542,7 +554,7 @@ let
         "fabric-26.1.1" = _LLPHuON9;
         "fabric-26.1.2" = _LLPHuON9;
         "fabric-26.2" = _pTsJOSvm;
-        "fabric-26.3" = _oP198ylb;
+        "fabric-26.3" = _qqC3ORNw;
         "quilt-1.20" = _TLdw5pxB;
         "quilt-1.20.1" = _TLdw5pxB;
         "quilt-1.20.2" = _TLdw5pxB;
@@ -566,7 +578,7 @@ let
         "quilt-26.1.1" = _LLPHuON9;
         "quilt-26.1.2" = _LLPHuON9;
         "quilt-26.2" = _pTsJOSvm;
-        "quilt-26.3" = _oP198ylb;
+        "quilt-26.3" = _qqC3ORNw;
         "neoforge-1.21" = _nqkLY3mr;
         "neoforge-1.21.1" = _nqkLY3mr;
         "neoforge-1.21.2" = _SeN3Upjn;
@@ -583,7 +595,7 @@ let
         "neoforge-26.1.1" = _LLPHuON9;
         "neoforge-26.1.2" = _LLPHuON9;
         "neoforge-26.2" = _pTsJOSvm;
-        "neoforge-26.3" = _oP198ylb;
+        "neoforge-26.3" = _qqC3ORNw;
         "pkg-0.4" = _G2noYbFf;
         "pkg-0.5" = _dHl9dMr2;
         "pkg-1" = _MipO9nFG;
@@ -662,7 +674,9 @@ let
         "pkg-7.4+mod" = _pTsJOSvm;
         "pkg-7.5" = _VIFou4W9;
         "pkg-7.5+mod" = _oP198ylb;
-        "default" = _oP198ylb;
+        "pkg-7.6" = _C68DUZ13;
+        "pkg-7.6+mod" = _qqC3ORNw;
+        "default" = _qqC3ORNw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ketkets-furnicraft";

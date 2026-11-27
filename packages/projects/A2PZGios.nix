@@ -451,6 +451,36 @@ let
             "file" = "worldportal-neoforge-0.0.14+1.20.1.jar";
             "hash" = "sha512-8NJcmMi+7z9SvBBLIe4V0c44gAzYhrEvATgrHxoyVH/c4i8ffq/kFYU1MQFXdoWuaMPATeW2u+K4UGpP6FaJNA==";
         };
+        _1Yu1knmP = {
+            "id" = "1Yu1knmP";
+            "file" = "worldportal-fabric-0.0.14+1.21.1.jar";
+            "hash" = "sha512-1IXkOXKZdbDLXjVOQUlrA8H5yRfi46hyzIpiiHEgHpdgxXlOYTTj+Vc8eDDyeixqOvIhpUKutrw/UO3dATQs5Q==";
+        };
+        _ZPkglMHM = {
+            "id" = "ZPkglMHM";
+            "file" = "worldportal-neoforge-0.0.14+1.21.1.jar";
+            "hash" = "sha512-TAWOxdV58JTRSpgJvG6udhLpnMRmp4ECZOhf5ecU1Zph1zDlHOiGxOx1ovXnPlq3DjV1fDkB5W8Fb6xxbAKuGA==";
+        };
+        _3t5f1XjO = {
+            "id" = "3t5f1XjO";
+            "file" = "worldportal-fabric-0.0.14+26.1.jar";
+            "hash" = "sha512-uK16EkIDcOVcTvxhNF/690p72yRhiCBtUvtDn+7keKCH72ZYD6WPmtQjYo2XQJMXkrdAZ5V+ganmMRehTUX4kA==";
+        };
+        _6dU8gFCB = {
+            "id" = "6dU8gFCB";
+            "file" = "worldportal-neoforge-0.0.14+26.1.jar";
+            "hash" = "sha512-EGcosqLEJ3ocZhHrJ47MGZYPDgrPRDbnvLbgaOX7E0yk332biPohM/Rwz3aLP6118LdUBigass4N5ENrNsmIjQ==";
+        };
+        _Sp01eVM2 = {
+            "id" = "Sp01eVM2";
+            "file" = "worldportal-fabric-0.0.14+26.3.jar";
+            "hash" = "sha512-gvbvCPWpl+E94QewlJfPF+TjrB1JiCOeVsoViel3GMqJ67p424ZMNjaYJgEiM9niW2xeZ2rOTNU8268rP9zvvA==";
+        };
+        _4bR0EE7w = {
+            "id" = "4bR0EE7w";
+            "file" = "worldportal-neoforge-0.0.14+26.3.jar";
+            "hash" = "sha512-lH92ZDPI5tf25zAzg8MQKPkvGqPG8jgrDcpGS4SSqUo1/42pwyd7CMBAVjYqM1Ix60WUX8Y4pdRRYFlcVP4J7g==";
+        };
     in {
         "zAIpb2Y3" = _zAIpb2Y3;
         "ylP9ciFX" = _ylP9ciFX;
@@ -542,9 +572,15 @@ let
         "JaeG6Fdq" = _JaeG6Fdq;
         "FtAu1baS" = _FtAu1baS;
         "d5mlMqGh" = _d5mlMqGh;
+        "1Yu1knmP" = _1Yu1knmP;
+        "ZPkglMHM" = _ZPkglMHM;
+        "3t5f1XjO" = _3t5f1XjO;
+        "6dU8gFCB" = _6dU8gFCB;
+        "Sp01eVM2" = _Sp01eVM2;
+        "4bR0EE7w" = _4bR0EE7w;
         "fabric-1.20.1" = _JaeG6Fdq;
         "fabric-1.21" = _VP9a1CTk;
-        "fabric-1.21.1" = _K7EmhnKl;
+        "fabric-1.21.1" = _1Yu1knmP;
         "fabric-1.21.2" = _i2odFpaW;
         "fabric-1.21.3" = _i2odFpaW;
         "fabric-1.21.4" = _zbftLdMp;
@@ -555,15 +591,15 @@ let
         "fabric-1.21.9" = _H5Kn5OSs;
         "fabric-1.21.10" = _ze7z9yJU;
         "fabric-1.21.11" = _94KDAJnU;
-        "fabric-26.1" = _dYv0mTHI;
-        "fabric-26.1.1" = _dYv0mTHI;
-        "fabric-26.1.2" = _dYv0mTHI;
-        "fabric-26.2" = _dYv0mTHI;
-        "fabric-26.3" = _SwLr0KBg;
+        "fabric-26.1" = _3t5f1XjO;
+        "fabric-26.1.1" = _3t5f1XjO;
+        "fabric-26.1.2" = _3t5f1XjO;
+        "fabric-26.2" = _3t5f1XjO;
+        "fabric-26.3" = _Sp01eVM2;
         "forge-1.20.1" = _FtAu1baS;
         "neoforge-1.20.1" = _d5mlMqGh;
         "neoforge-1.21" = _kitApnnw;
-        "neoforge-1.21.1" = _bgV0JZ46;
+        "neoforge-1.21.1" = _ZPkglMHM;
         "neoforge-1.21.2" = _5EqRE3bd;
         "neoforge-1.21.3" = _5EqRE3bd;
         "neoforge-1.21.5" = _Bc5BFB0Y;
@@ -574,11 +610,11 @@ let
         "neoforge-1.21.4" = _ulLmqC4h;
         "neoforge-1.21.10" = _BpLfZ3Wv;
         "neoforge-1.21.11" = _59VjtUVI;
-        "neoforge-26.1" = _zcZ5uce0;
-        "neoforge-26.1.1" = _zcZ5uce0;
-        "neoforge-26.1.2" = _zcZ5uce0;
-        "neoforge-26.2" = _zcZ5uce0;
-        "neoforge-26.3" = _2GLtmQI4;
+        "neoforge-26.1" = _6dU8gFCB;
+        "neoforge-26.1.1" = _6dU8gFCB;
+        "neoforge-26.1.2" = _6dU8gFCB;
+        "neoforge-26.2" = _6dU8gFCB;
+        "neoforge-26.3" = _4bR0EE7w;
         "pkg-0.0.1" = _ylP9ciFX;
         "pkg-0.0.2" = _10qdUiea;
         "pkg-0.0.3" = _7voXPMf9;
@@ -618,7 +654,10 @@ let
         "pkg-0.0.13+26.1" = _zcZ5uce0;
         "pkg-0.0.13+26.3" = _2GLtmQI4;
         "pkg-0.0.14+1.20.1" = _d5mlMqGh;
-        "default" = _d5mlMqGh;
+        "pkg-0.0.14+1.21.1" = _ZPkglMHM;
+        "pkg-0.0.14+26.1" = _6dU8gFCB;
+        "pkg-0.0.14+26.3" = _4bR0EE7w;
+        "default" = _4bR0EE7w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "worldportal";

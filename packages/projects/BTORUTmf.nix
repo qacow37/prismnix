@@ -326,6 +326,21 @@ let
             "file" = "penchant-0.3.12+connector+mc1.21.1.jar";
             "hash" = "sha512-rab6uBo935+MFq1Ah1PnxmIhn7cGic0ljWj3u7fILgy4RJFcA6IfT1YoSvhnstWOZor9y9rygbOS7+lFzoIlGA==";
         };
+        _Euul23RR = {
+            "id" = "Euul23RR";
+            "file" = "penchant-0.6.2+mc26.3.jar";
+            "hash" = "sha512-+ViQT7cuPqQm+TavC9Y0bdU1uTUhIz8HDMFYLRR8i1kqsfpbzRyja+fW3P3bFHZ0pIWASNMOMw1+u9EAAJ5yzA==";
+        };
+        _ctYehhWl = {
+            "id" = "ctYehhWl";
+            "file" = "penchant-0.6.2+mc26.1.2.jar";
+            "hash" = "sha512-mYOYc7TscQoSgCsVyqLR7QZgRKuG3QFCX4Prn066U4mDu7bHomHaVj5+r2qiWypX2BYXOQv8sWIIShhq3mLUfQ==";
+        };
+        _MsNoVw8A = {
+            "id" = "MsNoVw8A";
+            "file" = "penchant-0.6.2+mc26.2.jar";
+            "hash" = "sha512-uyrwOL2RmpoBGwaqEgBezx/MenkPo5IQF5ricLrir46odw7Ivl0XMXNxf1EwahMi13B8dQHHhd81hfN4fRW6pg==";
+        };
     in {
         "KBDiyDPO" = _KBDiyDPO;
         "eHzGQRnH" = _eHzGQRnH;
@@ -392,22 +407,25 @@ let
         "7laNOb0E" = _7laNOb0E;
         "vG5hKBtY" = _vG5hKBtY;
         "iajqAiqz" = _iajqAiqz;
+        "Euul23RR" = _Euul23RR;
+        "ctYehhWl" = _ctYehhWl;
+        "MsNoVw8A" = _MsNoVw8A;
         "fabric-1.21.11" = _EWQrwnb8;
         "fabric-1.21" = _iajqAiqz;
         "fabric-1.21.1" = _iajqAiqz;
-        "fabric-26.1" = _7laNOb0E;
-        "fabric-26.1.1" = _7laNOb0E;
-        "fabric-26.1.2" = _7laNOb0E;
+        "fabric-26.1" = _ctYehhWl;
+        "fabric-26.1.1" = _ctYehhWl;
+        "fabric-26.1.2" = _ctYehhWl;
         "fabric-26.2-rc-2" = _GiIEm19M;
-        "fabric-26.2" = _D6rZa0UE;
+        "fabric-26.2" = _MsNoVw8A;
         "fabric-26.3-pre-3" = _ND4fXBxd;
         "fabric-26.3-rc-1" = _ND4fXBxd;
-        "fabric-26.3" = _E4tGEZIc;
+        "fabric-26.3" = _Euul23RR;
         "neoforge-1.21" = _wcsDwzvg;
         "neoforge-1.21.1" = _wcsDwzvg;
-        "neoforge-26.1" = _7laNOb0E;
-        "neoforge-26.1.1" = _7laNOb0E;
-        "neoforge-26.1.2" = _7laNOb0E;
+        "neoforge-26.1" = _ctYehhWl;
+        "neoforge-26.1.1" = _ctYehhWl;
+        "neoforge-26.1.2" = _ctYehhWl;
         "pkg-0.1.0+mc1.21.11" = _KBDiyDPO;
         "pkg-0.1.1+mc1.21.11" = _eHzGQRnH;
         "pkg-0.2.0+mc1.21.11" = _vUfuUZ1o;
@@ -473,7 +491,10 @@ let
         "pkg-0.6.1+mc26.1.2" = _7laNOb0E;
         "pkg-0.3.12+mc1.21.1" = _vG5hKBtY;
         "pkg-0.3.12+connector+mc1.21.1" = _iajqAiqz;
-        "default" = _iajqAiqz;
+        "pkg-0.6.2+mc26.3" = _Euul23RR;
+        "pkg-0.6.2+mc26.1.2" = _ctYehhWl;
+        "pkg-0.6.2+mc26.2" = _MsNoVw8A;
+        "default" = _MsNoVw8A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "penchant";

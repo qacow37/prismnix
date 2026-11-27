@@ -11,13 +11,26 @@ let
             "file" = "trarcane-neoforge-1.0.jar";
             "hash" = "sha512-pwFHX/Mad7pXHhzSoHtHMJAi+SE0osdoqCPLQML2twdg8BXyhcJnFhONgArqGkvQnP4T/j56G0hM8h3W0iKhdA==";
         };
+        _9GGAcUWs = {
+            "id" = "9GGAcUWs";
+            "file" = "trarcane-neoforge-1.3.jar";
+            "hash" = "sha512-8U6KP1TewWjhYOENeobjPRjTQHdHWo2nr0VgtuFY9ehlNPQ8mO8z04ma4LX2LHKm+RR6n4OMHD0N/o3C6IXe1Q==";
+        };
+        _NbNVDrsp = {
+            "id" = "NbNVDrsp";
+            "file" = "trarcane-fabric-1.3.jar";
+            "hash" = "sha512-LZHGPlZXAFmGuFCGg28b1eiWnRqIwi47d1zM4W4R6PO1KPb0I/LMhHuwf30zjEZgXeNx7ahz61FxRqquTs5FzA==";
+        };
     in {
         "Vh0p0z8W" = _Vh0p0z8W;
         "Y4fJ5Cim" = _Y4fJ5Cim;
-        "fabric-1.21.1" = _Vh0p0z8W;
-        "neoforge-1.21.1" = _Y4fJ5Cim;
+        "9GGAcUWs" = _9GGAcUWs;
+        "NbNVDrsp" = _NbNVDrsp;
+        "fabric-1.21.1" = _NbNVDrsp;
+        "neoforge-1.21.1" = _9GGAcUWs;
         "pkg-1.0" = _Y4fJ5Cim;
-        "default" = _Y4fJ5Cim;
+        "pkg-1.3" = _NbNVDrsp;
+        "default" = _NbNVDrsp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tensura-arcane";

@@ -76,6 +76,11 @@ let
             "file" = "redstone_enchants-1.2.1-mc26.1.2-neoforge.jar";
             "hash" = "sha512-+M0+PLCUDHZQr2K5gUSy1X187hGX+iT5Wdl0yLetvizlxU+BJh09yGpPvP4aw+zyynOVOykY+R0NUkYchPCy3w==";
         };
+        _1xeivGEG = {
+            "id" = "1xeivGEG";
+            "file" = "redstone_enchants-2.0.0-mc1.21.1-neoforge.jar";
+            "hash" = "sha512-8Bg5YIYyeX5GguLpq0Dxo556LbEy7rqN2GXuZmS9X2dbKc0EPeEH+REJQodVPuv5VmAxjXwUSam8WBZQJpmv6A==";
+        };
     in {
         "Vixia97o" = _Vixia97o;
         "V0vEWmEu" = _V0vEWmEu;
@@ -92,12 +97,13 @@ let
         "87bISBsJ" = _87bISBsJ;
         "kWoSGL44" = _kWoSGL44;
         "hIEv7lY1" = _hIEv7lY1;
+        "1xeivGEG" = _1xeivGEG;
         "datapack-1.21" = _uwv6xB21;
         "datapack-1.21.1" = _uwv6xB21;
         "fabric-1.21" = _UfSmn5B9;
         "fabric-1.21.1" = _UfSmn5B9;
         "neoforge-1.21" = _UfSmn5B9;
-        "neoforge-1.21.1" = _87bISBsJ;
+        "neoforge-1.21.1" = _1xeivGEG;
         "neoforge-26.1.2" = _hIEv7lY1;
         "quilt-1.21" = _UfSmn5B9;
         "quilt-1.21.1" = _UfSmn5B9;
@@ -115,7 +121,8 @@ let
         "pkg-1.6.0-mc1.21.1-neoforge" = _87bISBsJ;
         "pkg-1.2.0-mc26.1.2-neoforge" = _kWoSGL44;
         "pkg-1.2.1-mc26.1.2-neoforge" = _hIEv7lY1;
-        "default" = _hIEv7lY1;
+        "pkg-2.0.0-mc1.21.1-neoforge" = _1xeivGEG;
+        "default" = _1xeivGEG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "redstone-chans-enchantment-expansion";

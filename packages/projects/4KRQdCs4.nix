@@ -111,6 +111,16 @@ let
             "file" = "doomsmarkers-forge-1.20.1-1.4.2.jar";
             "hash" = "sha512-rqggT4g6ZBxM8SJSnfMbppu4mpRM3A7CsiEeV4NZaJs072rxmihg2V6TGwyyRJX7ncgc/Xzsj3Uf7c1JxmZmtg==";
         };
+        _hxKexJv9 = {
+            "id" = "hxKexJv9";
+            "file" = "doomsmarkers-forge-1.20.1-1.4.3.jar";
+            "hash" = "sha512-7dIDkJ1E30SgKp6E6zru1FnlVz2I5o+8eL+/xFtwjwtRUehe/ARbUNseEbkB8mux85ptcauwhw9C8csgmAqXNQ==";
+        };
+        _5l5x3ZAf = {
+            "id" = "5l5x3ZAf";
+            "file" = "doomsmarkers-forge-1.20.1-1.4.3-HOTFIX.jar";
+            "hash" = "sha512-UTTJ8AxT8jrZiKwHs/J3lSo2+CWvFrzJXkXnSM6xjCi3id/j/IXccfEYSA7Va87QTF8JdcQfx6y4oGMJoWfUyQ==";
+        };
     in {
         "iPGQZONN" = _iPGQZONN;
         "pV7vQP82" = _pV7vQP82;
@@ -134,8 +144,10 @@ let
         "NWJ56nJ7" = _NWJ56nJ7;
         "tB3iCePn" = _tB3iCePn;
         "XNbaikJO" = _XNbaikJO;
+        "hxKexJv9" = _hxKexJv9;
+        "5l5x3ZAf" = _5l5x3ZAf;
         "fabric-1.20.1" = _tB3iCePn;
-        "forge-1.20.1" = _XNbaikJO;
+        "forge-1.20.1" = _5l5x3ZAf;
         "pkg-1.0.0" = _pV7vQP82;
         "pkg-1.0.1" = _PN6ljkcF;
         "pkg-1.0.2" = _NNGSqt8L;
@@ -147,7 +159,9 @@ let
         "pkg-1.4.0" = _fY1G0m2I;
         "pkg-1.4.1" = _NWJ56nJ7;
         "pkg-1.4.2" = _XNbaikJO;
-        "default" = _XNbaikJO;
+        "pkg-1.4.3" = _hxKexJv9;
+        "pkg-1.4.3-HOTFIX" = _5l5x3ZAf;
+        "default" = _5l5x3ZAf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dooms-markers";

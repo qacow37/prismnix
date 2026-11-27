@@ -326,6 +326,26 @@ let
             "file" = "Emojiful-Neoforge-26.1.2-5.3.2.jar";
             "hash" = "sha512-gEjHTScrH1xy4OzPUk3HgGRu8UAFQZSi25HuGSsrWItYZxggm2xBxIiRX/clK8lTKea7gJa0Jrl61/1Lu2cu2g==";
         };
+        _YPp6fc1K = {
+            "id" = "YPp6fc1K";
+            "file" = "Emojiful-Fabric-26.1.2-5.3.3.jar";
+            "hash" = "sha512-iI+frxD7KV2fpXybeZYd7qqNE6c+5tAG/09HEbtl+lCC4KmFdvY/H3O6Ri3VOB37BV3OvycIvTBDslAEkMtuPA==";
+        };
+        _OzJrmbwM = {
+            "id" = "OzJrmbwM";
+            "file" = "Emojiful-Neoforge-26.1.2-5.3.3.jar";
+            "hash" = "sha512-eIez7K8PuLzdXXiNi3PpUfSnNXTekIJnviZH3mMuzlx+o7dQBxVWc/w0tmmdfCUZOD5WRfOjAyaVcxvcW5+Zkg==";
+        };
+        _BAHeKXd7 = {
+            "id" = "BAHeKXd7";
+            "file" = "Emojiful-Fabric-1.21-5.2.5.jar";
+            "hash" = "sha512-5w+V98kcWxEPx3hZ1CaUJ/fjgm1Z0qdd1YoOVLiyVEZpPyor/PXjOv7PyBTpJOQlAlClHLDVP/M5MEQYj5E5ew==";
+        };
+        _EnJAz76p = {
+            "id" = "EnJAz76p";
+            "file" = "Emojiful-Neoforge-1.21-5.2.5-all.jar";
+            "hash" = "sha512-0mzZBxnFbMzHqaXCG+UlD5Mn/rLHwDVdIj+hKUT7dd8478P1QfboHV7mTNYohLl7y7BVhxqO+tuQVxb7VwDEkw==";
+        };
     in {
         "4lezKQFz" = _4lezKQFz;
         "OOussWub" = _OOussWub;
@@ -392,6 +412,10 @@ let
         "rY17Eh56" = _rY17Eh56;
         "hjsR72F6" = _hjsR72F6;
         "FxtS2P4G" = _FxtS2P4G;
+        "YPp6fc1K" = _YPp6fc1K;
+        "OzJrmbwM" = _OzJrmbwM;
+        "BAHeKXd7" = _BAHeKXd7;
+        "EnJAz76p" = _EnJAz76p;
         "forge-1.12.2" = _OOussWub;
         "forge-1.16.1" = _J2ZC7ZU2;
         "forge-1.16.3" = _zUV3DSO5;
@@ -411,19 +435,19 @@ let
         "fabric-1.19.3" = _wbEFXo6q;
         "fabric-1.20.1" = _ELIJcdMH;
         "fabric-1.20.4" = _3hXhjKsA;
-        "fabric-1.21" = _SrKSk6qG;
-        "fabric-1.21.1" = _SrKSk6qG;
-        "fabric-26.1.2" = _hjsR72F6;
+        "fabric-1.21" = _BAHeKXd7;
+        "fabric-1.21.1" = _BAHeKXd7;
+        "fabric-26.1.2" = _YPp6fc1K;
         "quilt-1.19.2" = _Hi03hLp3;
         "quilt-1.19.3" = _wbEFXo6q;
         "quilt-1.20.1" = _ELIJcdMH;
         "quilt-1.20.4" = _3hXhjKsA;
-        "quilt-1.21" = _SrKSk6qG;
-        "quilt-1.21.1" = _SrKSk6qG;
+        "quilt-1.21" = _BAHeKXd7;
+        "quilt-1.21.1" = _BAHeKXd7;
         "neoforge-1.20.4" = _OJhGEArd;
-        "neoforge-1.21" = _rY17Eh56;
-        "neoforge-1.21.1" = _rY17Eh56;
-        "neoforge-26.1.2" = _FxtS2P4G;
+        "neoforge-1.21" = _EnJAz76p;
+        "neoforge-1.21.1" = _EnJAz76p;
+        "neoforge-26.1.2" = _OzJrmbwM;
         "pkg-1.0.2" = _4lezKQFz;
         "pkg-1.0.3" = _OOussWub;
         "pkg-1.16.1-2.0.1" = _J2ZC7ZU2;
@@ -462,7 +486,9 @@ let
         "pkg-1.21-5.2.3" = _CCGuuKEr;
         "pkg-1.21-5.2.4" = _rY17Eh56;
         "pkg-26.1.2-5.3.2" = _FxtS2P4G;
-        "default" = _FxtS2P4G;
+        "pkg-26.1.2-5.3.3" = _OzJrmbwM;
+        "pkg-1.21-5.2.5a" = _EnJAz76p;
+        "default" = _EnJAz76p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emojiful";

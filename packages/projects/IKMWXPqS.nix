@@ -186,6 +186,26 @@ let
             "file" = "AverageDPS-neo-26.1.2_v1.2.4.jar";
             "hash" = "sha512-4byxDdKJLh38vVs8BTNYewduKA/Xtmbt1loD0x+rUUfCr3D8fUj5a3N+/Nlg33xOKXtJlzlkKKnuErIXjzGaiA==";
         };
+        _Hrp1wNcj = {
+            "id" = "Hrp1wNcj";
+            "file" = "AverageDPS-neo-26.3_v1.0.1.jar";
+            "hash" = "sha512-nk8M7b0U1R/IbFX42Wk9kG9DpsWOyEl1iwyl0E4RdEc34ngI4mffiDTfFFO65kar3Z7Nz7ZESfk1XWfpQwjovQ==";
+        };
+        _BDIT0kVd = {
+            "id" = "BDIT0kVd";
+            "file" = "AverageDPS-neo-26.2_v1.0.2.jar";
+            "hash" = "sha512-/WyRMjk9ERdD5OoiQCc46+zsoyQtER+ZR7P5LHqM4pDuzkyJjDYet0WWfTTS1sIJGo7hnMkrg4UHam5DVOQWog==";
+        };
+        _h9XEI2WM = {
+            "id" = "h9XEI2WM";
+            "file" = "AverageDPS-forge-1.20.1_v1.2.4.jar";
+            "hash" = "sha512-BSEv7bl2rIkaCvjSkgLjeOYBNsUX8xVhSS4QLcEAkh1ZxMEez2KZVVroMODdfCOWr6PHjlnNYEmy2JphrWbM8Q==";
+        };
+        _nhz7WrJQ = {
+            "id" = "nhz7WrJQ";
+            "file" = "AverageDPS-neo-1.21.1_v1.2.4.jar";
+            "hash" = "sha512-ZTwhd0lB2WFeixrt/8tA/wKGeslJbD2E8XBr/lOiBQ1MwJURagHB11A35XvGMZaV4LElwxANiyHlYMmPxaYhGQ==";
+        };
     in {
         "O2hoaLFK" = _O2hoaLFK;
         "r4lDmUpO" = _r4lDmUpO;
@@ -224,15 +244,19 @@ let
         "HfWoo0sD" = _HfWoo0sD;
         "PEMt0bmJ" = _PEMt0bmJ;
         "CLobeNvY" = _CLobeNvY;
-        "forge-1.20.1" = _XMjYVGYs;
-        "neoforge-1.21.1" = _BfwR4BAe;
+        "Hrp1wNcj" = _Hrp1wNcj;
+        "BDIT0kVd" = _BDIT0kVd;
+        "h9XEI2WM" = _h9XEI2WM;
+        "nhz7WrJQ" = _nhz7WrJQ;
+        "forge-1.20.1" = _h9XEI2WM;
+        "neoforge-1.21.1" = _nhz7WrJQ;
         "neoforge-26.1" = _rpPiwYM2;
         "neoforge-26.1.1" = _rpPiwYM2;
         "neoforge-26.1.2" = _CLobeNvY;
-        "neoforge-26.2" = _PEMt0bmJ;
-        "neoforge-26.3" = _HfWoo0sD;
+        "neoforge-26.2" = _BDIT0kVd;
+        "neoforge-26.3" = _Hrp1wNcj;
         "pkg-1.0.0" = _HfWoo0sD;
-        "pkg-1.0.1" = _PEMt0bmJ;
+        "pkg-1.0.1" = _Hrp1wNcj;
         "pkg-1.0.3" = _9r04lbLy;
         "pkg-1.0.4" = _4yQl76Li;
         "pkg-1.0.5" = _RkFPPgMZ;
@@ -252,8 +276,9 @@ let
         "pkg-1.2.1" = _SYknfQ1t;
         "pkg-1.2.2" = _ZJnEFDd6;
         "pkg-1.2.3" = _JnxXTDoL;
-        "pkg-1.2.4" = _CLobeNvY;
-        "default" = _CLobeNvY;
+        "pkg-1.2.4" = _nhz7WrJQ;
+        "pkg-1.0.2" = _BDIT0kVd;
+        "default" = _nhz7WrJQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "average-dps";

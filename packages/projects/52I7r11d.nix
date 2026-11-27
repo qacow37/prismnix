@@ -46,6 +46,11 @@ let
             "file" = "plants-and-zombies-1.5.1.jar";
             "hash" = "sha512-GCex4PDg58/H0k9vxYC+OKtjQwm4Zrn9gitiB+1BBVkvS3ku9PlZ3mf/RMfc8DoPjXwFdbDgR4JOJZR9fLY/Ug==";
         };
+        _tAzKSQY8 = {
+            "id" = "tAzKSQY8";
+            "file" = "plants-and-zombies-1.5.2.jar";
+            "hash" = "sha512-YvwN+tHAoOmWwRs9M/dlK9zx3ndg9unVSnogwpAROlJH+0VtD41hCbOK3t/M4YkBh/O9F+sVGM1jNffVjAPeeA==";
+        };
     in {
         "fnomeq6g" = _fnomeq6g;
         "THPeafbo" = _THPeafbo;
@@ -56,9 +61,11 @@ let
         "XNKoDVLD" = _XNKoDVLD;
         "h5IQuOb1" = _h5IQuOb1;
         "HaburDFl" = _HaburDFl;
+        "tAzKSQY8" = _tAzKSQY8;
         "fabric-26.1" = _HaburDFl;
         "fabric-26.1.1" = _HaburDFl;
         "fabric-26.1.2" = _HaburDFl;
+        "fabric-26.3" = _tAzKSQY8;
         "pkg-1.0" = _fnomeq6g;
         "pkg-1.1" = _THPeafbo;
         "pkg-1.2" = _KFk7pz0u;
@@ -68,7 +75,8 @@ let
         "pkg-1.4.2" = _XNKoDVLD;
         "pkg-1.5" = _h5IQuOb1;
         "pkg-1.5.1" = _HaburDFl;
-        "default" = _HaburDFl;
+        "pkg-1.5.2" = _tAzKSQY8;
+        "default" = _tAzKSQY8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "plants-and-zombies";

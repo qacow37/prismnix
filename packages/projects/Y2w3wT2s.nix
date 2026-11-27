@@ -41,6 +41,11 @@ let
             "file" = "Orbit-1.2.0+26.2.jar";
             "hash" = "sha512-4uuHhY3fUx2hRiltDz3oSoNp2nPgfCrIAO5KwAU0l9tLHGrepf3+Bqptyfbr0VRMiF1qQaxJjwVfU302ksfmqg==";
         };
+        _zc1PgXR5 = {
+            "id" = "zc1PgXR5";
+            "file" = "Orbit-1.2.1+26.3.jar";
+            "hash" = "sha512-RE09V1uK6EaLCzL+TqqmN79C9em8q5EiIe0/akqCz7HR9honvW9Bc6V0hDVP/XkLoW/IRlXUFBBo/3YzU3wq0A==";
+        };
     in {
         "2i29PZaL" = _2i29PZaL;
         "iuTu53FN" = _iuTu53FN;
@@ -50,6 +55,7 @@ let
         "ppMLsp6o" = _ppMLsp6o;
         "yKtbsH5u" = _yKtbsH5u;
         "sIln3wzA" = _sIln3wzA;
+        "zc1PgXR5" = _zc1PgXR5;
         "fabric-1.21.4" = _2i29PZaL;
         "fabric-1.21.5" = _iuTu53FN;
         "fabric-1.21.7" = _2PcBkjCV;
@@ -61,6 +67,7 @@ let
         "fabric-26.1.1" = _yKtbsH5u;
         "fabric-26.1.2" = _yKtbsH5u;
         "fabric-26.2" = _sIln3wzA;
+        "fabric-26.3" = _zc1PgXR5;
         "quilt-1.21.7" = _2PcBkjCV;
         "quilt-1.21.6" = _2PcBkjCV;
         "quilt-1.21.8" = _2PcBkjCV;
@@ -72,7 +79,8 @@ let
         "pkg-1.2.0+1.21.11" = _ppMLsp6o;
         "pkg-1.2.0+26.1.x" = _yKtbsH5u;
         "pkg-1.2.0+26.2" = _sIln3wzA;
-        "default" = _sIln3wzA;
+        "pkg-1.2.1+26.3" = _zc1PgXR5;
+        "default" = _zc1PgXR5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "orbit-key";

@@ -616,6 +616,96 @@ let
             "file" = "simple_music_control-neoforge-1.5.6+26.3.jar";
             "hash" = "sha512-OXlNhLCFvVUt0clkC2aBgP++eTTV0ERxfDa/7hU+Lzbsn4DUTKfjL4YqefiyTyxvT6EdsWeUctgHvG68aZyozQ==";
         };
+        _YA1znO9c = {
+            "id" = "YA1znO9c";
+            "file" = "simple_music_control-neoforge-1.5.7+1.21.1.jar";
+            "hash" = "sha512-tWX23CVxeuTUiwiVifwXVlDQRe9Hpo9aqZhtE0XuAK1UH/bRVplYgkRppUwE/YYa4ebI2d070O0Vm6ufmqEGmw==";
+        };
+        _ggVG1NCu = {
+            "id" = "ggVG1NCu";
+            "file" = "simple_music_control-neoforge-1.5.7+1.21.3.jar";
+            "hash" = "sha512-ag6gpwBs9584KIyH6C10yPUNniQdUodAaXvrZLF/IkTyEI6y59scTjWl3reM5HdSQ5G8DIIAjlvgGgDIMdfDhw==";
+        };
+        _6bmI4RmI = {
+            "id" = "6bmI4RmI";
+            "file" = "simple_music_control-neoforge-1.5.7+1.21.11.jar";
+            "hash" = "sha512-alDnn8jjsD3nGXP5ifxPvV61AdbSPLYG+AJYYsHmAdTzyBwDNtcV05O/KFJj5W761IrbFQuVL/x7LDhJb8NYrg==";
+        };
+        _4ufLUpvt = {
+            "id" = "4ufLUpvt";
+            "file" = "simple_music_control-neoforge-1.5.7+1.21.4.jar";
+            "hash" = "sha512-s6Y3QqNjRIWfTFV9Zh8aiUol05RIZRnwv8nGpZ/doZT7Qf3ZChnXtfc92AH6DZvhEECEVnHDQ++LqceW1ZO5+w==";
+        };
+        _9flzf2UF = {
+            "id" = "9flzf2UF";
+            "file" = "simple_music_control-fabric-1.5.7+1.21.3.jar";
+            "hash" = "sha512-imxdCjhTAM3vMirYpruW5kiNPqykLnfoA7qeXeErixJcx/QzOYT0rrCy4xo1C9I0T10iRj5/uQ5/i6hHcDdMYQ==";
+        };
+        _owrN7ccj = {
+            "id" = "owrN7ccj";
+            "file" = "simple_music_control-fabric-1.5.7+1.21.11.jar";
+            "hash" = "sha512-FyXdaGgWTp2gNT5rJ3iNg8fgCHINg6AtxqxJWIICFEEpsIS2Me6JZtZ4ar05jo35SnhvSPxUn+ODw1fqXaoWWQ==";
+        };
+        _7tjnkT8A = {
+            "id" = "7tjnkT8A";
+            "file" = "simple_music_control-fabric-1.5.7+1.21.10.jar";
+            "hash" = "sha512-f5Lq6UiSIj/vFoj7xiuvqJ+rlkAn4cvQmj4V/tJIlWc5nRDI9ghfKbj3RAzEINdQsjyJ8K89cO7xz1CSUyH3Ew==";
+        };
+        _J7eArAfH = {
+            "id" = "J7eArAfH";
+            "file" = "simple_music_control-fabric-1.5.7+26.3.jar";
+            "hash" = "sha512-JXhlmJIwvFtgnniL+kHR5KrdPGA/YCC9BOU04IJScDobbYknZCYj716vlJ2oJuIVSAwkAVLIK2p9SDTXCVNmWw==";
+        };
+        _Kt8VVBwf = {
+            "id" = "Kt8VVBwf";
+            "file" = "simple_music_control-fabric-1.5.7+1.21.5.jar";
+            "hash" = "sha512-SQ8oO8rrze9Oq9LaXSl+w54ERJoZ87OlROXT559H+CMUPWwi1IrVfSmqsn+x9Z8+zbGhTGLJtFCHImjmitZjRw==";
+        };
+        _NKGadgdE = {
+            "id" = "NKGadgdE";
+            "file" = "simple_music_control-fabric-1.5.7+1.21.1.jar";
+            "hash" = "sha512-3RIqvqwN0MA4hMwcd17ft+q96moM61OlnW9Rmeb6j04mArt5PSQzEVKvBctF2A8upi/dowBV0qMDfS6E6TpJUQ==";
+        };
+        _4AWrke8m = {
+            "id" = "4AWrke8m";
+            "file" = "simple_music_control-fabric-1.5.7+1.21.8.jar";
+            "hash" = "sha512-ZRc6UAT8hXr0XmUs6Nbi0Iwch5qiAqLtmpeCnQgab7sv5XqEmEWa7fagDDwKAieshq0Z7x34K3MnBUzjtagd8A==";
+        };
+        _gaHyqkvo = {
+            "id" = "gaHyqkvo";
+            "file" = "simple_music_control-fabric-1.5.7+1.21.4.jar";
+            "hash" = "sha512-7IPDC1xF/UlvKAhgSWCNHIwc52l4DJqPzqF1DR41k608C24JHwcqWYKHN8GzELkVpHvwjjeUXBxVpQUqKpO4ag==";
+        };
+        _kYvSwPYE = {
+            "id" = "kYvSwPYE";
+            "file" = "simple_music_control-neoforge-1.5.7+1.21.5.jar";
+            "hash" = "sha512-x15P1iiB3E05sI/qE4GGgYAmQcRL0hTYeYeSW1jnz7ryfuPOYiFVrFSluX0qUXEq6mMrZbSccJSf5bEg2WNBBA==";
+        };
+        _9PtzrQj5 = {
+            "id" = "9PtzrQj5";
+            "file" = "simple_music_control-neoforge-1.5.7+1.21.10.jar";
+            "hash" = "sha512-q5tJOuQPNEkQ6e65dQ6yAiGc6r0E4WcD1fTZLiVAp/9VsetHowBKqDPmGny0XsgtL9EbrHgh46KIR/Pcikwr2w==";
+        };
+        _WXXiLOTf = {
+            "id" = "WXXiLOTf";
+            "file" = "simple_music_control-neoforge-1.5.7+1.21.8.jar";
+            "hash" = "sha512-90G/GuT/Qn3YvT+sV8DHMe/Q6nJH0feq0OiO7pTL+9eCwydj0beQNTmglAgMOS4A8JkYb12VvAn8YEXNu+tI+g==";
+        };
+        _Ps49OM5n = {
+            "id" = "Ps49OM5n";
+            "file" = "simple_music_control-fabric-1.5.7+26.1.2.jar";
+            "hash" = "sha512-STHvF0EiUPyrQXD2aRzm/GGJMebxQmT6yMqHl3wun3htA4vRguYNvcvxQQQx/1XxPzL7Shu/+zhgd4HT+d1hxA==";
+        };
+        _2ygEBTQ6 = {
+            "id" = "2ygEBTQ6";
+            "file" = "simple_music_control-neoforge-1.5.7+26.1.2.jar";
+            "hash" = "sha512-jj9PHa/w97pVEsGQWc7stHjHeE0TnM2G0r+G0WK+WTlL7yqezgPvyT5shtKcKHhAdfjVizPdxCb751cEk8j7qQ==";
+        };
+        _FlhKZU4P = {
+            "id" = "FlhKZU4P";
+            "file" = "simple_music_control-neoforge-1.5.7+26.3.jar";
+            "hash" = "sha512-bPQp/7HqEQ30KHprbsxeultUMugSTce67hpGYOE/NpKkE87QRtA3k+uxWtJxK4rbqajhaHq19riU9TrAbhfR5w==";
+        };
     in {
         "qu5dyd3b" = _qu5dyd3b;
         "n6V0cbf4" = _n6V0cbf4;
@@ -740,34 +830,58 @@ let
         "xAVPeNEK" = _xAVPeNEK;
         "3sI4gTvx" = _3sI4gTvx;
         "bw6UHj1J" = _bw6UHj1J;
-        "fabric-1.21" = _MSvODmMS;
-        "fabric-1.21.1" = _MSvODmMS;
-        "fabric-1.21.4" = _Q6Q3t45U;
-        "fabric-1.21.5" = _ztQx8Nfp;
-        "fabric-1.21.6" = _ij4PVcuk;
-        "fabric-1.21.7" = _ij4PVcuk;
-        "fabric-1.21.8" = _ij4PVcuk;
-        "fabric-1.21.9" = _tzRuGU8E;
-        "fabric-1.21.10" = _tzRuGU8E;
-        "fabric-1.21.11" = _RuvYbfKS;
-        "fabric-26.1" = _yZlPmBKw;
-        "fabric-26.1.1" = _yZlPmBKw;
-        "fabric-26.1.2" = _yZlPmBKw;
-        "fabric-26.2" = _xAVPeNEK;
-        "fabric-26.3" = _3sI4gTvx;
-        "neoforge-1.21" = _M5ZoKhCu;
-        "neoforge-1.21.1" = _M5ZoKhCu;
-        "neoforge-1.21.4" = _gP417CQA;
-        "neoforge-1.21.5" = _yBnUc0tn;
-        "neoforge-1.21.6" = _UfG9amQf;
-        "neoforge-1.21.7" = _UfG9amQf;
-        "neoforge-1.21.8" = _UfG9amQf;
-        "neoforge-1.21.11" = _EQOuyRMi;
-        "neoforge-26.1" = _FrZzmWF1;
-        "neoforge-26.1.1" = _FrZzmWF1;
-        "neoforge-26.1.2" = _FrZzmWF1;
-        "neoforge-26.2" = _dAjz79Zz;
-        "neoforge-26.3" = _bw6UHj1J;
+        "YA1znO9c" = _YA1znO9c;
+        "ggVG1NCu" = _ggVG1NCu;
+        "6bmI4RmI" = _6bmI4RmI;
+        "4ufLUpvt" = _4ufLUpvt;
+        "9flzf2UF" = _9flzf2UF;
+        "owrN7ccj" = _owrN7ccj;
+        "7tjnkT8A" = _7tjnkT8A;
+        "J7eArAfH" = _J7eArAfH;
+        "Kt8VVBwf" = _Kt8VVBwf;
+        "NKGadgdE" = _NKGadgdE;
+        "4AWrke8m" = _4AWrke8m;
+        "gaHyqkvo" = _gaHyqkvo;
+        "kYvSwPYE" = _kYvSwPYE;
+        "9PtzrQj5" = _9PtzrQj5;
+        "WXXiLOTf" = _WXXiLOTf;
+        "Ps49OM5n" = _Ps49OM5n;
+        "2ygEBTQ6" = _2ygEBTQ6;
+        "FlhKZU4P" = _FlhKZU4P;
+        "fabric-1.21" = _NKGadgdE;
+        "fabric-1.21.1" = _NKGadgdE;
+        "fabric-1.21.4" = _gaHyqkvo;
+        "fabric-1.21.5" = _Kt8VVBwf;
+        "fabric-1.21.6" = _4AWrke8m;
+        "fabric-1.21.7" = _4AWrke8m;
+        "fabric-1.21.8" = _4AWrke8m;
+        "fabric-1.21.9" = _7tjnkT8A;
+        "fabric-1.21.10" = _7tjnkT8A;
+        "fabric-1.21.11" = _owrN7ccj;
+        "fabric-26.1" = _Ps49OM5n;
+        "fabric-26.1.1" = _Ps49OM5n;
+        "fabric-26.1.2" = _Ps49OM5n;
+        "fabric-26.2" = _J7eArAfH;
+        "fabric-26.3" = _J7eArAfH;
+        "fabric-1.21.2" = _9flzf2UF;
+        "fabric-1.21.3" = _9flzf2UF;
+        "neoforge-1.21" = _YA1znO9c;
+        "neoforge-1.21.1" = _YA1znO9c;
+        "neoforge-1.21.4" = _4ufLUpvt;
+        "neoforge-1.21.5" = _kYvSwPYE;
+        "neoforge-1.21.6" = _WXXiLOTf;
+        "neoforge-1.21.7" = _WXXiLOTf;
+        "neoforge-1.21.8" = _WXXiLOTf;
+        "neoforge-1.21.11" = _6bmI4RmI;
+        "neoforge-26.1" = _2ygEBTQ6;
+        "neoforge-26.1.1" = _2ygEBTQ6;
+        "neoforge-26.1.2" = _2ygEBTQ6;
+        "neoforge-26.2" = _FlhKZU4P;
+        "neoforge-26.3" = _FlhKZU4P;
+        "neoforge-1.21.2" = _ggVG1NCu;
+        "neoforge-1.21.3" = _ggVG1NCu;
+        "neoforge-1.21.9" = _9PtzrQj5;
+        "neoforge-1.21.10" = _9PtzrQj5;
         "pkg-1.0.0+1.21.1" = _I7ENWmqc;
         "pkg-1.0.0+1.21.4" = _wr6X0VQ9;
         "pkg-1.1.0+1.21.1" = _4wTavlRr;
@@ -837,7 +951,16 @@ let
         "pkg-1.5.6+26.1.2" = _yZlPmBKw;
         "pkg-1.5.6+1.21.1" = _MSvODmMS;
         "pkg-1.5.6+26.3" = _bw6UHj1J;
-        "default" = _bw6UHj1J;
+        "pkg-1.5.7+1.21.1" = _NKGadgdE;
+        "pkg-1.5.7+1.21.3" = _9flzf2UF;
+        "pkg-1.5.7+1.21.11" = _owrN7ccj;
+        "pkg-1.5.7+1.21.4" = _gaHyqkvo;
+        "pkg-1.5.7+1.21.10" = _9PtzrQj5;
+        "pkg-1.5.7+26.3" = _FlhKZU4P;
+        "pkg-1.5.7+1.21.5" = _kYvSwPYE;
+        "pkg-1.5.7+1.21.8" = _WXXiLOTf;
+        "pkg-1.5.7+26.1.2" = _2ygEBTQ6;
+        "default" = _FlhKZU4P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-music-control";

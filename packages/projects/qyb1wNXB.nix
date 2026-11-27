@@ -186,6 +186,16 @@ let
             "file" = "TeleportCakes-neoforge-26.1.2-v3.0.2.jar";
             "hash" = "sha512-OrY9WsklgCe+f/6UrX4OUZI0L3WUTSQgVlsIbQ2/UNUB2jqNzaVly/2SRdDX7tFXfQfuwLzUyFQUES1rJQgIuw==";
         };
+        _nX1bDYNt = {
+            "id" = "nX1bDYNt";
+            "file" = "TeleportCakes-fabric-1.20.1-v3.0.2.jar";
+            "hash" = "sha512-/OvLHg7jd/P0mfGkYKxxHmfw37oi9eXMN/y3j9/uQBT2GWgroQCfhjcz7856B/7nXxPkpX40bKObPK541ei8Dw==";
+        };
+        _XcY0BR8i = {
+            "id" = "XcY0BR8i";
+            "file" = "TeleportCakes-forge-1.20.1-v3.0.2.jar";
+            "hash" = "sha512-UxFSZXZ7TUBd8n0YJNbNkkWqK6BP/ZWIlQAWto8VOufx+/kMNr3rlE9HJ8ZL1C2hC2tPbN6Da57w0aExzB38qg==";
+        };
     in {
         "JL7WZ3FQ" = _JL7WZ3FQ;
         "LGYbUs13" = _LGYbUs13;
@@ -224,7 +234,9 @@ let
         "762U8AHF" = _762U8AHF;
         "PSfVPtwF" = _PSfVPtwF;
         "gk4cQbCJ" = _gk4cQbCJ;
-        "fabric-1.20.1" = _xDOEeFC9;
+        "nX1bDYNt" = _nX1bDYNt;
+        "XcY0BR8i" = _XcY0BR8i;
+        "fabric-1.20.1" = _nX1bDYNt;
         "fabric-1.21.1" = _v7vEqhSl;
         "fabric-1.21.5" = _qj8DRWzJ;
         "fabric-1.21.6" = _qj8DRWzJ;
@@ -250,6 +262,7 @@ let
         "neoforge-26.1.1" = _UTVfj8j0;
         "neoforge-26.1.2" = _gk4cQbCJ;
         "neoforge-26.2" = _pQlynQci;
+        "forge-1.20.1" = _XcY0BR8i;
         "pkg-1.20.1-v1.0.0" = _JL7WZ3FQ;
         "pkg-1.21.1-v2.0.0" = _kJIIt40K;
         "pkg-1.21.5-v2.0.0" = _MovpFNH3;
@@ -270,7 +283,8 @@ let
         "pkg-26.2-v3.0.2" = _pQlynQci;
         "pkg-1.21.1-v3.0.2" = _762U8AHF;
         "pkg-26.1.2-v3.0.2" = _gk4cQbCJ;
-        "default" = _gk4cQbCJ;
+        "pkg-1.20.1-v3.0.2" = _XcY0BR8i;
+        "default" = _XcY0BR8i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "teleportcakes";

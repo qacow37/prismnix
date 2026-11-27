@@ -61,6 +61,11 @@ let
             "file" = "block_variants_bop-26.3-1.3.0.jar";
             "hash" = "sha512-X6DHnWz53t2eXUfUT5mIEj5i4nbpF1Kj259g9yYwt0O/AHnXTMWNIJMHI0OorIiaZFBS82F/SziPiNs/F+eikg==";
         };
+        _5i7xPP4X = {
+            "id" = "5i7xPP4X";
+            "file" = "block_variants_bop-1.21.1-1.0.3.jar";
+            "hash" = "sha512-X5Oghx3FK2E4vAgWE5ssnjC0kO8tszcZ82r0w7PAYOQK3BcoTrcGXNGEZ3t0+gPZatfrDF+i0/2W5ZDiDniVrA==";
+        };
     in {
         "8Q4jgntA" = _8Q4jgntA;
         "GVYBSurb" = _GVYBSurb;
@@ -74,10 +79,11 @@ let
         "T7HG7Q7b" = _T7HG7Q7b;
         "PYjH0vAk" = _PYjH0vAk;
         "RiZLpvAT" = _RiZLpvAT;
+        "5i7xPP4X" = _5i7xPP4X;
         "neoforge-1.21.5" = _V02MntAn;
         "neoforge-1.21.4" = _GVYBSurb;
         "neoforge-1.21" = _cZKdaDlC;
-        "neoforge-1.21.1" = _Gqyfw8Wb;
+        "neoforge-1.21.1" = _5i7xPP4X;
         "neoforge-1.21.8" = _w6StM5F0;
         "neoforge-1.21.10" = _m5IRqZ9s;
         "neoforge-1.21.11" = _baJ8gspj;
@@ -91,7 +97,8 @@ let
         "pkg-1.0.2" = _Gqyfw8Wb;
         "pkg-1.2.1" = _PYjH0vAk;
         "pkg-1.3.0" = _RiZLpvAT;
-        "default" = _RiZLpvAT;
+        "pkg-1.0.3" = _5i7xPP4X;
+        "default" = _5i7xPP4X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "block-variants-biomes-o-plenty";

@@ -206,6 +206,16 @@ let
             "file" = "immersive_snow_reloaded-neoforge-2.2.1+26.1.jar";
             "hash" = "sha512-FejrN5plaU2qr/PHKpOCyBDblso98k/YoFQJAFRv3NWBgiGp6PMpHH0HHnPSIvmzNe2/NBE4guoBEhuUg//37Q==";
         };
+        _XIHEMzL6 = {
+            "id" = "XIHEMzL6";
+            "file" = "immersive_snow_reloaded-fabric-2.3.0+26.1.jar";
+            "hash" = "sha512-xZaiU6Pmqpo2FjtRu9SbbkE+eWfPg2nd4CLlxqLTEzHXRbzkgJdZuUDCYPcswyNjnO7xD84A703HT0ss5cpGUw==";
+        };
+        _CZQdWLQM = {
+            "id" = "CZQdWLQM";
+            "file" = "immersive_snow_reloaded-neoforge-2.3.0+26.1.jar";
+            "hash" = "sha512-vVODdvGH6DhtmM2WTap6Nwl9HB6HkkkWIlr6sjRBwd6JeQxvMz6Ic8SP+QDXCb1h64qMMbx4CGVEG50xUGdF+Q==";
+        };
     in {
         "hDnHoWME" = _hDnHoWME;
         "38PL5pJh" = _38PL5pJh;
@@ -248,23 +258,25 @@ let
         "jgneBZkF" = _jgneBZkF;
         "HBnBf0gs" = _HBnBf0gs;
         "rf9Lbl8P" = _rf9Lbl8P;
+        "XIHEMzL6" = _XIHEMzL6;
+        "CZQdWLQM" = _CZQdWLQM;
         "fabric-1.21.1" = _xsm0Pq2P;
-        "fabric-26.1" = _HBnBf0gs;
-        "fabric-26.1.1" = _HBnBf0gs;
-        "fabric-26.1.2" = _HBnBf0gs;
+        "fabric-26.1" = _XIHEMzL6;
+        "fabric-26.1.1" = _XIHEMzL6;
+        "fabric-26.1.2" = _XIHEMzL6;
         "fabric-1.21.10" = _6Ng1cwRm;
         "fabric-1.21.11" = _6Ng1cwRm;
-        "fabric-26.2" = _HBnBf0gs;
+        "fabric-26.2" = _XIHEMzL6;
         "fabric-1.20.1" = _SALI6glK;
-        "fabric-26.3" = _HBnBf0gs;
+        "fabric-26.3" = _XIHEMzL6;
         "neoforge-1.21.1" = _jgneBZkF;
-        "neoforge-26.1" = _rf9Lbl8P;
-        "neoforge-26.1.1" = _rf9Lbl8P;
-        "neoforge-26.1.2" = _rf9Lbl8P;
+        "neoforge-26.1" = _CZQdWLQM;
+        "neoforge-26.1.1" = _CZQdWLQM;
+        "neoforge-26.1.2" = _CZQdWLQM;
         "neoforge-1.21.10" = _nv2pmW4g;
         "neoforge-1.21.11" = _czWv4LKi;
-        "neoforge-26.2" = _rf9Lbl8P;
-        "neoforge-26.3" = _rf9Lbl8P;
+        "neoforge-26.2" = _CZQdWLQM;
+        "neoforge-26.3" = _CZQdWLQM;
         "forge-1.20.1" = _L20O5GPX;
         "pkg-1.0.0+1.21.1-fabric" = _hDnHoWME;
         "pkg-1.0.0+1.21.1-neoforge" = _38PL5pJh;
@@ -306,7 +318,9 @@ let
         "pkg-1.2.6+1.21.1-neoforge" = _jgneBZkF;
         "pkg-2.2.1+26.1-fabric" = _HBnBf0gs;
         "pkg-2.2.1+26.1-neoforge" = _rf9Lbl8P;
-        "default" = _rf9Lbl8P;
+        "pkg-2.3.0+26.1-fabric" = _XIHEMzL6;
+        "pkg-2.3.0+26.1-neoforge" = _CZQdWLQM;
+        "default" = _CZQdWLQM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-snow-reloaded";

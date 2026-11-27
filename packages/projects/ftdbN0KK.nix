@@ -491,6 +491,11 @@ let
             "file" = "badpackets-neo-0.12.3.jar";
             "hash" = "sha512-Z9jHm0GJiRvORgtYGrxSFc/LklQxlpk7Z7BV4CQP0yiE3omrHCZinFQR5ORrUThWX4R5VRjSlbH/pXe1kR6DKQ==";
         };
+        _AE0HkZEa = {
+            "id" = "AE0HkZEa";
+            "file" = "badpackets-fabric-0.13.0.jar";
+            "hash" = "sha512-0rjLosDSjBgAgXwbKc1LX2ZxNwCqhK+3XH9s9XAzkDWcE3daIoGQGHIMSstIskXcnXLtOuugvU7xIeeBeNAw3g==";
+        };
     in {
         "1AcgR5SK" = _1AcgR5SK;
         "HsT4DFo1" = _HsT4DFo1;
@@ -590,6 +595,7 @@ let
         "1Gg68vyY" = _1Gg68vyY;
         "XGbJvoTc" = _XGbJvoTc;
         "oPDewtRE" = _oPDewtRE;
+        "AE0HkZEa" = _AE0HkZEa;
         "fabric-1.18.2" = _vH59yR5Z;
         "fabric-1.19" = _vH59yR5Z;
         "fabric-1.19.1" = _7Y5NcPRW;
@@ -632,6 +638,7 @@ let
         "fabric-26.1.2" = _SgNrUT3E;
         "fabric-26.2" = _1Gg68vyY;
         "fabric-26.3" = _1Gg68vyY;
+        "fabric-26.4-pre-1" = _AE0HkZEa;
         "forge-1.18.2" = _UsEYm0lW;
         "forge-1.19" = _UsEYm0lW;
         "forge-1.19.1" = _VTOW8XR6;
@@ -703,6 +710,7 @@ let
         "quilt-26.1.2" = _SgNrUT3E;
         "quilt-26.2" = _1Gg68vyY;
         "quilt-26.3" = _1Gg68vyY;
+        "quilt-26.4-pre-1" = _AE0HkZEa;
         "neoforge-1.19.4" = _dcVcnZ7u;
         "neoforge-1.20" = _dcVcnZ7u;
         "neoforge-1.20.1" = _dcVcnZ7u;
@@ -826,7 +834,8 @@ let
         "pkg-fabric-0.12.3" = _1Gg68vyY;
         "pkg-forge-0.12.3" = _XGbJvoTc;
         "pkg-neo-0.12.3" = _oPDewtRE;
-        "default" = _oPDewtRE;
+        "pkg-fabric-0.13.0" = _AE0HkZEa;
+        "default" = _AE0HkZEa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "badpackets";

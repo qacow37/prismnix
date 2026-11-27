@@ -1596,6 +1596,21 @@ let
             "file" = "Big Globe-6.4.0-MC26.2.jar";
             "hash" = "sha512-xjwHVsWgg9t4KIXskhnDNvBU0obR4pnHarUpKBvwXFlFPVtE0Fmld4wfoycFi/IKSEvEP96cOFjt/2bNu3lb+A==";
         };
+        _UPZES5vc = {
+            "id" = "UPZES5vc";
+            "file" = "Big Globe-6.5.0-MC26.1.2.jar";
+            "hash" = "sha512-XccVFyvcUGaJAHXPg2YHVt72CDX3EPYJx/ROOdAw2g/LsRpCMNJBL/nQMQxNT5JXzfV3gSCKcIlJxhU33+K7OA==";
+        };
+        _BqtaSwID = {
+            "id" = "BqtaSwID";
+            "file" = "Big Globe-6.5.0-MC26.2.jar";
+            "hash" = "sha512-OuP5flbvt8EaHIT8CYKdxNd+hVE2+CLFyqAagpDdwANge5gYBgcUl0WDmelFMx0R0cn8p447ItnnY9zUByVyCA==";
+        };
+        _18EEwx9v = {
+            "id" = "18EEwx9v";
+            "file" = "Big Globe-6.5.0-MC26.3.jar";
+            "hash" = "sha512-d5G5HZYWXTHZDLtl0hj1oedCcNW5qP495EHxxFFDW0/6DsgvktF+FYmovX+S155haailqKAVTTpKld9rSlxAqQ==";
+        };
     in {
         "lrpDRikk" = _lrpDRikk;
         "vGVBgXDQ" = _vGVBgXDQ;
@@ -1916,6 +1931,9 @@ let
         "CIJnUnPT" = _CIJnUnPT;
         "USy6hQsX" = _USy6hQsX;
         "PHrHD2D4" = _PHrHD2D4;
+        "UPZES5vc" = _UPZES5vc;
+        "BqtaSwID" = _BqtaSwID;
+        "18EEwx9v" = _18EEwx9v;
         "fabric-1.19.2" = _vz2atooR;
         "fabric-1.19.4" = _HNRTFBtq;
         "fabric-1.20" = _PHDI0Kvp;
@@ -1937,10 +1955,11 @@ let
         "fabric-1.21.9" = _5Vhnai39;
         "fabric-1.21.10" = _5Vhnai39;
         "fabric-1.21.11" = _p8duBO44;
-        "fabric-26.1" = _USy6hQsX;
-        "fabric-26.1.1" = _USy6hQsX;
-        "fabric-26.1.2" = _USy6hQsX;
-        "fabric-26.2" = _PHrHD2D4;
+        "fabric-26.1" = _UPZES5vc;
+        "fabric-26.1.1" = _UPZES5vc;
+        "fabric-26.1.2" = _UPZES5vc;
+        "fabric-26.2" = _BqtaSwID;
+        "fabric-26.3" = _18EEwx9v;
         "pkg-3.0.4" = _lrpDRikk;
         "pkg-3.1.0" = _vGVBgXDQ;
         "pkg-3.1.1" = _C3TyNVRW;
@@ -2017,7 +2036,8 @@ let
         "pkg-6.2.1" = _tt9rmTcq;
         "pkg-6.3.0" = _CIJnUnPT;
         "pkg-6.4.0" = _PHrHD2D4;
-        "default" = _PHrHD2D4;
+        "pkg-6.5.0" = _18EEwx9v;
+        "default" = _18EEwx9v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "big-globe";

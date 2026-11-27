@@ -26,20 +26,28 @@ let
             "file" = "iB - 3D Cobblenav-FabricPatch.zip";
             "hash" = "sha512-iiRN+MKX3SnqNJcWaCe9Hyv+SZO0Kk5cMHogs5zrdGXQU4IjWkiROuOwQeYWo9EJlj3+ec+Vi/EsM/yWwOdOJA==";
         };
+        _BBbAedf4 = {
+            "id" = "BBbAedf4";
+            "file" = "3D Pokenavs.zip";
+            "hash" = "sha512-fc3qmHyelK613qQKoHXKEY1Dzs3C2kuSRNx94zvjk8ZJWbvPZfPiTtoVNCXmnObyLQtp51mtl6Hp5M76Nb/66w==";
+        };
     in {
         "QzuvP12K" = _QzuvP12K;
         "I0gdX37d" = _I0gdX37d;
         "8MDtC9Ai" = _8MDtC9Ai;
         "hqV3eZBd" = _hqV3eZBd;
         "EyL5V85c" = _EyL5V85c;
+        "BBbAedf4" = _BBbAedf4;
         "minecraft-1.20" = _8MDtC9Ai;
         "minecraft-1.20.1" = _8MDtC9Ai;
-        "minecraft-1.21.1" = _EyL5V85c;
+        "minecraft-1.21.1" = _BBbAedf4;
+        "minecraft-1.21" = _BBbAedf4;
         "pkg-0.1" = _QzuvP12K;
         "pkg-0.2" = _I0gdX37d;
         "pkg-3.0" = _8MDtC9Ai;
         "pkg-4.0" = _EyL5V85c;
-        "default" = _EyL5V85c;
+        "pkg-5.0" = _BBbAedf4;
+        "default" = _BBbAedf4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-3d-pokenavs";

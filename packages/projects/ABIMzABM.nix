@@ -321,6 +321,16 @@ let
             "file" = "PlayerRevive_NEOFORGE_v2.1.3_mc26.3.jar";
             "hash" = "sha512-dFGIMpEQobwq1C47Mvo66iaPvLrtxGtQV766aQLKdREu0BXqdcAutSnF5JMX7K6DGuh1PizaNaI2gMrGlMyHmA==";
         };
+        _WkALsK2l = {
+            "id" = "WkALsK2l";
+            "file" = "PlayerRevive_NEOFORGE_v2.1.3_mc1.21.1.jar";
+            "hash" = "sha512-7z4Rfxwc3bTULVBtHVjcpuBYrsrXf1PlYmAZaRq/siSFiqL+Zor1zA+fh50xEWJRfBCIM3nl/MfUV43eCp5Nlw==";
+        };
+        _sbc0bBN0 = {
+            "id" = "sbc0bBN0";
+            "file" = "PlayerRevive_NEOFORGE_v2.1.4_mc26.3.jar";
+            "hash" = "sha512-HtLsIFriPWy80qpeoyTeVcHW09Kb6JEXVymYX9XtIZvVpYIn1b3NWVN3jXcu74cGIMhzrRMUyk+WygmJsw9SGg==";
+        };
     in {
         "e4oiSYFw" = _e4oiSYFw;
         "E34gNXMb" = _E34gNXMb;
@@ -386,6 +396,8 @@ let
         "irF42vxI" = _irF42vxI;
         "WIzp0ga0" = _WIzp0ga0;
         "jGQAgoLA" = _jGQAgoLA;
+        "WkALsK2l" = _WkALsK2l;
+        "sbc0bBN0" = _sbc0bBN0;
         "forge-1.18.2" = _xAZGMuV1;
         "forge-1.19.2" = _toPTsfcD;
         "forge-1.19.3" = _JQcZVd3x;
@@ -400,7 +412,7 @@ let
         "neoforge-1.18.2" = _xAZGMuV1;
         "neoforge-1.21" = _XNLaE0gF;
         "neoforge-1.19.2" = _toPTsfcD;
-        "neoforge-1.21.1" = _LS7UoW1b;
+        "neoforge-1.21.1" = _WkALsK2l;
         "neoforge-1.21.3" = _HzuCK5ny;
         "neoforge-1.21.4" = _s66R1wDq;
         "neoforge-1.21.5" = _J8i77Jjf;
@@ -412,7 +424,7 @@ let
         "neoforge-26.1" = _RiN4vgwv;
         "neoforge-26.1.2" = _2xdBrH21;
         "neoforge-26.2" = _irF42vxI;
-        "neoforge-26.3" = _jGQAgoLA;
+        "neoforge-26.3" = _sbc0bBN0;
         "pkg-2.0.13" = _E34gNXMb;
         "pkg-2.0.14" = _xAZGMuV1;
         "pkg-2.0.15" = _1v6iLpGT;
@@ -441,8 +453,9 @@ let
         "pkg-2.1.0" = _Wn0IlSGC;
         "pkg-2.1.1" = _er4EcBdZ;
         "pkg-2.1.2" = _WIzp0ga0;
-        "pkg-2.1.3" = _jGQAgoLA;
-        "default" = _jGQAgoLA;
+        "pkg-2.1.3" = _WkALsK2l;
+        "pkg-2.1.4" = _sbc0bBN0;
+        "default" = _sbc0bBN0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "playerrevive";

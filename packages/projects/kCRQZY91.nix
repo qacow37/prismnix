@@ -76,6 +76,16 @@ let
             "file" = "alelchemist-0.9.jar";
             "hash" = "sha512-syJTiTsDQz5OHocaMdVwY4BLAr2AgJkTwXBqfidRz4tq68deFLAyUYYZNRzRTf+BKru4lgJQYhPAXm4HuuZTYQ==";
         };
+        _L791aVfF = {
+            "id" = "L791aVfF";
+            "file" = "AlelChemist v0.10.zip";
+            "hash" = "sha512-OYKY556w6Fga/nKyE2f5s1sMp9vnyFhCrMbRad7KIHCmc++DNm9hgJ4pxu1WiRLGUe4bldDzsaXnxppd6To96w==";
+        };
+        _OoDDs8rr = {
+            "id" = "OoDDs8rr";
+            "file" = "alelchemist-0.10.jar";
+            "hash" = "sha512-mYJGZ8M6ilT5xYR3pqi9MXbK8hytmlKUlIVMiLCrd90USO6McjYiR5RG/10erTvN4vrqcW794V0hWLe04idPJA==";
+        };
     in {
         "OLGE0Lg7" = _OLGE0Lg7;
         "yN0rPoow" = _yN0rPoow;
@@ -92,6 +102,8 @@ let
         "2tHlTlZ0" = _2tHlTlZ0;
         "4o866hSE" = _4o866hSE;
         "tkmyJGlm" = _tkmyJGlm;
+        "L791aVfF" = _L791aVfF;
+        "OoDDs8rr" = _OoDDs8rr;
         "datapack-1.21.6" = _aTKNEGdo;
         "datapack-1.21.7" = _aTKNEGdo;
         "datapack-1.21.8" = _aTKNEGdo;
@@ -102,7 +114,7 @@ let
         "datapack-26.1.1" = _eTBBWGR8;
         "datapack-26.1.2" = _eTBBWGR8;
         "datapack-26.2" = _puMnSorS;
-        "datapack-26.3" = _4o866hSE;
+        "datapack-26.3" = _L791aVfF;
         "fabric-1.21.6" = _Jc6LaN3F;
         "fabric-1.21.7" = _Jc6LaN3F;
         "fabric-1.21.8" = _Jc6LaN3F;
@@ -110,7 +122,7 @@ let
         "fabric-1.21.11" = _w5Ukhv27;
         "fabric-1.21.9" = _w5Ukhv27;
         "fabric-26.2" = _7h8CDKvM;
-        "fabric-26.3" = _tkmyJGlm;
+        "fabric-26.3" = _OoDDs8rr;
         "forge-1.21.6" = _Jc6LaN3F;
         "forge-1.21.7" = _Jc6LaN3F;
         "forge-1.21.8" = _Jc6LaN3F;
@@ -118,7 +130,7 @@ let
         "forge-1.21.11" = _w5Ukhv27;
         "forge-1.21.9" = _w5Ukhv27;
         "forge-26.2" = _7h8CDKvM;
-        "forge-26.3" = _tkmyJGlm;
+        "forge-26.3" = _OoDDs8rr;
         "neoforge-1.21.6" = _Jc6LaN3F;
         "neoforge-1.21.7" = _Jc6LaN3F;
         "neoforge-1.21.8" = _Jc6LaN3F;
@@ -126,7 +138,7 @@ let
         "neoforge-1.21.11" = _w5Ukhv27;
         "neoforge-1.21.9" = _w5Ukhv27;
         "neoforge-26.2" = _7h8CDKvM;
-        "neoforge-26.3" = _tkmyJGlm;
+        "neoforge-26.3" = _OoDDs8rr;
         "quilt-1.21.6" = _Jc6LaN3F;
         "quilt-1.21.7" = _Jc6LaN3F;
         "quilt-1.21.8" = _Jc6LaN3F;
@@ -134,7 +146,7 @@ let
         "quilt-1.21.11" = _w5Ukhv27;
         "quilt-1.21.9" = _w5Ukhv27;
         "quilt-26.2" = _7h8CDKvM;
-        "quilt-26.3" = _tkmyJGlm;
+        "quilt-26.3" = _OoDDs8rr;
         "pkg-0.1" = _OLGE0Lg7;
         "pkg-0.2" = _yN0rPoow;
         "pkg-0.3" = _XyEKIgsr;
@@ -150,7 +162,9 @@ let
         "pkg-0.8_mod" = _2tHlTlZ0;
         "pkg-0.9" = _4o866hSE;
         "pkg-0.9_mod" = _tkmyJGlm;
-        "default" = _tkmyJGlm;
+        "pkg-0.10" = _L791aVfF;
+        "pkg-0.10_mod" = _OoDDs8rr;
+        "default" = _OoDDs8rr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alelchemist";

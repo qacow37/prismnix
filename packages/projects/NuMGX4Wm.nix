@@ -41,6 +41,11 @@ let
             "file" = "RomanDailyLife-fabric-1.20.1-1.1.5.jar";
             "hash" = "sha512-laFz1hvJWLd/cs/g8IbK0l5HvBZHHPxbX5jgrdnl50Mr0mJhFsp6dBa/65Zzm2XuEijS4r4O5KBkpghqlqgsww==";
         };
+        _SCpk4Gf2 = {
+            "id" = "SCpk4Gf2";
+            "file" = "RomanDailyLife-fabric-1.20.1-1.1.6.jar";
+            "hash" = "sha512-IWZd3J/stJLhfh5EpInTOpIODxj72+IV6OMaeO1SEjD9qcfjxG3xzTLHySf79OHVVltU68O3DO84S5d5q+tgpA==";
+        };
     in {
         "QtN66Rjg" = _QtN66Rjg;
         "9lEm88xB" = _9lEm88xB;
@@ -50,13 +55,14 @@ let
         "pq58F0Fc" = _pq58F0Fc;
         "AwYpGqyV" = _AwYpGqyV;
         "Hf3TwD1s" = _Hf3TwD1s;
+        "SCpk4Gf2" = _SCpk4Gf2;
         "forge-1.16.5" = _QtN66Rjg;
-        "fabric-1.20.1" = _Hf3TwD1s;
-        "fabric-1.20.2" = _AwYpGqyV;
-        "fabric-1.20.3" = _AwYpGqyV;
-        "fabric-1.20.4" = _AwYpGqyV;
-        "fabric-1.20.5" = _AwYpGqyV;
-        "fabric-1.20.6" = _AwYpGqyV;
+        "fabric-1.20.1" = _SCpk4Gf2;
+        "fabric-1.20.2" = _SCpk4Gf2;
+        "fabric-1.20.3" = _SCpk4Gf2;
+        "fabric-1.20.4" = _SCpk4Gf2;
+        "fabric-1.20.5" = _SCpk4Gf2;
+        "fabric-1.20.6" = _SCpk4Gf2;
         "pkg-1.0.0" = _9lEm88xB;
         "pkg-1.1.0" = _SghGJavR;
         "pkg-1.1.1" = _SOh4Sr0w;
@@ -64,7 +70,8 @@ let
         "pkg-1.1.3" = _pq58F0Fc;
         "pkg-1.1.4" = _AwYpGqyV;
         "pkg-1.1.5" = _Hf3TwD1s;
-        "default" = _Hf3TwD1s;
+        "pkg-1.1.6" = _SCpk4Gf2;
+        "default" = _SCpk4Gf2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "roman-daily-life-mod";

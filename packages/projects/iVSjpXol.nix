@@ -26,12 +26,18 @@ let
             "file" = "sodium-fullbright-1.2.0.jar";
             "hash" = "sha512-XBmVo8kFyugmxbmqGMifsZUjgZaHdc34nmvIPjRWSkZlI2fpIhcUGuzNk3zmlUHfUIjsc3Cm4wmBTc8gaJjpAg==";
         };
+        _q08IytGV = {
+            "id" = "q08IytGV";
+            "file" = "sodium-fullbright-1.3.0.jar";
+            "hash" = "sha512-tPVqgA3lR+NxlukiczB/6xHI7ueBI4+eWJedVKU+mEPUzJnqd4Ydffb1itGy5JtGscL5YyIg2crQbs5zM7LyXw==";
+        };
     in {
         "mDJ7odfh" = _mDJ7odfh;
         "dcps5doP" = _dcps5doP;
         "mMVj8SDc" = _mMVj8SDc;
         "ghCK230t" = _ghCK230t;
         "fyu4LhCv" = _fyu4LhCv;
+        "q08IytGV" = _q08IytGV;
         "fabric-1.21.1" = _ghCK230t;
         "fabric-1.21.2" = _mMVj8SDc;
         "fabric-1.21.3" = _mMVj8SDc;
@@ -47,11 +53,13 @@ let
         "fabric-26.1.1" = _fyu4LhCv;
         "fabric-26.1.2" = _fyu4LhCv;
         "fabric-26.2" = _fyu4LhCv;
+        "fabric-26.3" = _q08IytGV;
         "pkg-1.0.0" = _dcps5doP;
         "pkg-1.0.1" = _mMVj8SDc;
         "pkg-1.1.0" = _ghCK230t;
         "pkg-1.2.0" = _fyu4LhCv;
-        "default" = _fyu4LhCv;
+        "pkg-1.3.0" = _q08IytGV;
+        "default" = _q08IytGV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sodium-fullbright";

@@ -201,6 +201,11 @@ let
             "file" = "afc-2.1.3-1.21.1.jar";
             "hash" = "sha512-Y3xbDxzWIe3a4QcPcpyawDH7n+MR+BsoW/WCqB33nIqoL0HGClBuvUNHl4l9kQUURyA08m8DLEKcDhlab7JTkg==";
         };
+        _9owFdGMw = {
+            "id" = "9owFdGMw";
+            "file" = "afc-1.0.24-1.20.1.jar";
+            "hash" = "sha512-c6Y1bLUFB20Pb6LlTDe86so/55TQeo1EDZCU6jUajVw/B30Lz4PkL3jIjgWpVSuyehMVnSPAJs+BumyP95mMiQ==";
+        };
     in {
         "kfKHKesu" = _kfKHKesu;
         "hcnbNR2c" = _hcnbNR2c;
@@ -242,8 +247,9 @@ let
         "L9bAARlV" = _L9bAARlV;
         "pxyePina" = _pxyePina;
         "AnZ78Sun" = _AnZ78Sun;
+        "9owFdGMw" = _9owFdGMw;
         "forge-1.18.2" = _kfKHKesu;
-        "forge-1.20.1" = _pxyePina;
+        "forge-1.20.1" = _9owFdGMw;
         "forge-1.20.2" = _Tnswfgx5;
         "forge-1.20.3" = _Tnswfgx5;
         "forge-1.20.4" = _Tnswfgx5;
@@ -296,7 +302,8 @@ let
         "pkg-2.1.2-1.21" = _L9bAARlV;
         "pkg-1.0.23-1.20.1" = _pxyePina;
         "pkg-2.1.3-1.21" = _AnZ78Sun;
-        "default" = _AnZ78Sun;
+        "pkg-1.0.24-1.20.1" = _9owFdGMw;
+        "default" = _9owFdGMw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "arborfirmacraft-(afc)";

@@ -61,6 +61,11 @@ let
             "file" = "starrygui_3.0_v26.2.zip";
             "hash" = "sha512-8zi8kn6wPa/vc0Y7lqE7D9LyafiKHg8kfaRfMk8qbIqDTdAKMDRNhGV8dCWUUeDfEV/yU7R3ttfjCSrpzAmqQw==";
         };
+        _5FzmmInw = {
+            "id" = "5FzmmInw";
+            "file" = "starrygui_3.0_v1.21.1.zip";
+            "hash" = "sha512-tJKIsk+rqE35ObWiWQOH434iHnuAwVNAfwscd4zNF5cFYaKeDR6sFVN9fZsfWtj7/amuMI/CRVoxj7vENhiTOQ==";
+        };
     in {
         "TFrBVKJc" = _TFrBVKJc;
         "eBf0qZzs" = _eBf0qZzs;
@@ -74,11 +79,12 @@ let
         "Y4vlgqab" = _Y4vlgqab;
         "4lyVBpfE" = _4lyVBpfE;
         "FRf6gNfp" = _FRf6gNfp;
+        "5FzmmInw" = _5FzmmInw;
         "minecraft-1.20" = _4lyVBpfE;
         "minecraft-1.20.1" = _4lyVBpfE;
         "minecraft-1.20.2" = _eBf0qZzs;
-        "minecraft-1.21" = _lzMMx7z1;
-        "minecraft-1.21.1" = _lzMMx7z1;
+        "minecraft-1.21" = _5FzmmInw;
+        "minecraft-1.21.1" = _5FzmmInw;
         "minecraft-1.21.2" = _1t9Pglw7;
         "minecraft-1.21.3" = _1t9Pglw7;
         "minecraft-1.21.4" = _x85Ilyya;
@@ -105,7 +111,8 @@ let
         "pkg-10" = _Y4vlgqab;
         "pkg-10.1" = _4lyVBpfE;
         "pkg-11" = _FRf6gNfp;
-        "default" = _FRf6gNfp;
+        "pkg-12" = _5FzmmInw;
+        "default" = _5FzmmInw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "starry-gui-and-hotbar";

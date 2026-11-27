@@ -31,6 +31,16 @@ let
             "file" = "locksmith-fabric-1.21.1-1.1.0.jar";
             "hash" = "sha512-53kEYBvEQRackctEy2nVp9FZAVeqZZNnPXXN3h6pYnON9FRHjQyVxQWtyKrOhRDJZ8gImbTBEH8MeYOJCIwtlQ==";
         };
+        _IZCPRnWN = {
+            "id" = "IZCPRnWN";
+            "file" = "locksmith-fabric-1.21.1-1.1.1.jar";
+            "hash" = "sha512-asA9kK+kAyx3v7lye6bFaMZTTZyUWIRq0iWajksv5YlOtyNShkzniFdGcqHsKF2PAH+uxB9vYr3x5zNtgUDbMQ==";
+        };
+        _ghw5rsO3 = {
+            "id" = "ghw5rsO3";
+            "file" = "locksmith-neoforge-1.21.1-1.1.1.jar";
+            "hash" = "sha512-AqjSgkLfEVtBBLBVkN7qzpc/jzD5SlxCaYFksAvxoX8aMjfn3SkZx9P6hd+PlFwqKDSzNm2PfIzPYUBCTwSOzw==";
+        };
     in {
         "N7iroHSH" = _N7iroHSH;
         "loB5GJPr" = _loB5GJPr;
@@ -38,14 +48,17 @@ let
         "bjDihfxu" = _bjDihfxu;
         "BWuZSBYY" = _BWuZSBYY;
         "7OcDX8oQ" = _7OcDX8oQ;
-        "neoforge-1.21.1" = _BWuZSBYY;
-        "fabric-1.21.1" = _7OcDX8oQ;
+        "IZCPRnWN" = _IZCPRnWN;
+        "ghw5rsO3" = _ghw5rsO3;
+        "neoforge-1.21.1" = _ghw5rsO3;
+        "fabric-1.21.1" = _IZCPRnWN;
         "pkg-1.0.0" = _N7iroHSH;
         "pkg-1.0.1" = _loB5GJPr;
         "pkg-1.0.2" = _gau1JL78;
         "pkg-1.0.3" = _bjDihfxu;
         "pkg-1.1.0" = _7OcDX8oQ;
-        "default" = _7OcDX8oQ;
+        "pkg-1.1.1" = _ghw5rsO3;
+        "default" = _ghw5rsO3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "luckys-locksmith";

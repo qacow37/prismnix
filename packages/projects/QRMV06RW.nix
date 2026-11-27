@@ -16,15 +16,22 @@ let
             "file" = "argentum-1.0.2.jar";
             "hash" = "sha512-3WtRS1d3rPUDl2eSwG/1b5dK1Ke5VUWtAR+4x9avgoMypQXqVydkjqak6sW3GKUpezmOSMg2E2R8THK4J8AADQ==";
         };
+        _A9Knvoc8 = {
+            "id" = "A9Knvoc8";
+            "file" = "argentum-1.1.0.jar";
+            "hash" = "sha512-SEn03N3zzu9f8VPlitph7J02iwUEAU1l+z4mgZQR9MbmrmVtW/1zGvfDQkIdAr9EGp7eojoxW0bbqaPCNfXOOw==";
+        };
     in {
         "eD0a2cPD" = _eD0a2cPD;
         "X6fQxSsK" = _X6fQxSsK;
         "RxzOYPTx" = _RxzOYPTx;
-        "ornithe-1.8.9" = _RxzOYPTx;
+        "A9Knvoc8" = _A9Knvoc8;
+        "ornithe-1.8.9" = _A9Knvoc8;
         "pkg-1.0.0" = _eD0a2cPD;
         "pkg-1.0.1" = _X6fQxSsK;
         "pkg-1.0.2" = _RxzOYPTx;
-        "default" = _RxzOYPTx;
+        "pkg-1.1.0" = _A9Knvoc8;
+        "default" = _A9Knvoc8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "argentum";

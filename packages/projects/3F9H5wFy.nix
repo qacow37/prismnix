@@ -266,6 +266,16 @@ let
             "file" = "signalindustries-0.31.0.jar";
             "hash" = "sha512-eb8Go9izAbiPSZnumlsivCVcPs7qPUMSwgMbuF45PQXI3629XmnWGSzerwqoHZtzHwbI41eNaVm4BvUKihASHQ==";
         };
+        _VwAefx33 = {
+            "id" = "VwAefx33";
+            "file" = "signalindustries-0.31.1.jar";
+            "hash" = "sha512-doRvu9tPSpAtgSbHP00xiXXKQJOUf649z2u4IA+B7Ue7KhIA69Kvmcn9x+YrQRHlKrHYWZBjCYoIe6QYtjDhvA==";
+        };
+        _VjOKreab = {
+            "id" = "VjOKreab";
+            "file" = "signalindustries-0.31.2.jar";
+            "hash" = "sha512-zb6ozL2Rsu53/zxG1SA9jcN5s3ldb0zNGwF4yZKg0/gHg+LA/H3BA8e65Jhf8mUAA3jKx2Wd12kLJW63b5yxvw==";
+        };
     in {
         "QN7DEPtE" = _QN7DEPtE;
         "j3busrHX" = _j3busrHX;
@@ -320,7 +330,9 @@ let
         "ckhxd2wq" = _ckhxd2wq;
         "giTYfhvG" = _giTYfhvG;
         "YCZzbEOw" = _YCZzbEOw;
-        "bta-babric-b1.7.3" = _YCZzbEOw;
+        "VwAefx33" = _VwAefx33;
+        "VjOKreab" = _VjOKreab;
+        "bta-babric-b1.7.3" = _VjOKreab;
         "pkg-0.3.2" = _QN7DEPtE;
         "pkg-0.4.0" = _j3busrHX;
         "pkg-0.5.0" = _5Au8fcC2;
@@ -374,7 +386,9 @@ let
         "pkg-0.30.0" = _ckhxd2wq;
         "pkg-0.30.1" = _giTYfhvG;
         "pkg-0.31.0" = _YCZzbEOw;
-        "default" = _YCZzbEOw;
+        "pkg-0.31.1" = _VwAefx33;
+        "pkg-0.31.2" = _VjOKreab;
+        "default" = _VjOKreab;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "signal-industries";

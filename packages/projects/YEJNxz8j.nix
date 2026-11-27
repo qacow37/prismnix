@@ -26,19 +26,27 @@ let
             "file" = "horroractionbar-2.0.1.jar";
             "hash" = "sha512-1jZb/D2Y6djeyDhCK5T4xQol1N/iaBOOIazV95WiPcm0OJT3KdHRxcETSi1DOvMqb1wVngkpDMLlWSMBQ6l58A==";
         };
+        _8eyE5pCY = {
+            "id" = "8eyE5pCY";
+            "file" = "horroractionbar-2.0.2.jar";
+            "hash" = "sha512-wZMi0WsamaOm2uQJ0jwAGQnIKvXZaPRr3P4ySUEzciDYxusH9uJLck3wo/D4iFKVkt1GtYI+6uqjbaOs91RG8A==";
+        };
     in {
         "xBto2wjS" = _xBto2wjS;
         "CxCk1IRN" = _CxCk1IRN;
         "xwsQ12Zy" = _xwsQ12Zy;
         "TnDpPkGd" = _TnDpPkGd;
         "mJjvlVVt" = _mJjvlVVt;
+        "8eyE5pCY" = _8eyE5pCY;
         "neoforge-1.21.1" = _mJjvlVVt;
+        "neoforge-26.3" = _8eyE5pCY;
         "forge-1.19.2" = _xwsQ12Zy;
         "forge-1.20.1" = _TnDpPkGd;
         "pkg-1.0.0" = _xBto2wjS;
         "pkg-2.0.0" = _CxCk1IRN;
         "pkg-2.0.1" = _mJjvlVVt;
-        "default" = _mJjvlVVt;
+        "pkg-2.0.2" = _8eyE5pCY;
+        "default" = _8eyE5pCY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "haunted-note";

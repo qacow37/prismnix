@@ -726,6 +726,76 @@ let
             "file" = "Box Client 26.3 v3.0.7.jar";
             "hash" = "sha512-qSJmU6xIHWxnFKEpGpLLUGFt+MOVIs25/Lz2I2dDUmIwcaWq3/AkT9M31PYUviRetLVgeZxhACAXNFBfd89HJw==";
         };
+        _duL8pwQW = {
+            "id" = "duL8pwQW";
+            "file" = "Box Client 1.19.2 v3.0.8.jar";
+            "hash" = "sha512-Csipe+LkZzaSgTnsc4sRfdaiKP9s1tjOPmBVvvTypA5zIEAVyO7b33+jiU+04sIgAssjb9WrQLD0uAu1MJak4g==";
+        };
+        _x8n0wJdg = {
+            "id" = "x8n0wJdg";
+            "file" = "Box Client 1.19.4 v3.0.8.jar";
+            "hash" = "sha512-RtIASqGU2Nkol7kj7Q6ZTzgM9NkKcnufXh2NzRgQ7EEgtQz/vnvQs+80mGnlpIUsL3JAMjaf/B8pwe/WRGavzw==";
+        };
+        _5XTSewKe = {
+            "id" = "5XTSewKe";
+            "file" = "Box Client 1.20.1 v3.0.8.jar";
+            "hash" = "sha512-reGBlRuZXWuh840oKGOHjQlIFbwRgqucbCrUU8NqmJYks1PbFC5Rqc5Yop3005Bo3TQvwP7YihkQoqjFmW3SKg==";
+        };
+        _5F43UX5W = {
+            "id" = "5F43UX5W";
+            "file" = "Box Client 1.20.4 v3.0.8.jar";
+            "hash" = "sha512-gSwOgIC1MAOhGBT1x6naAbU6Akw/dFk05eLygRXWGqJPZ/aGwnf+c3/wL5Lg3V5YEQUpIQCOMidPpP5WgNiR/A==";
+        };
+        _8J8pLW6I = {
+            "id" = "8J8pLW6I";
+            "file" = "Box Client 1.20.6 v3.0.8.jar";
+            "hash" = "sha512-MxG82aDBS6kpN4FKGmeWss1X+enykLSvtOJa+03dE4S/qfhBrxWI1W23XFFJ/ANX2LNBqGhsogdrjJ5z2a13JQ==";
+        };
+        _PxHEw6db = {
+            "id" = "PxHEw6db";
+            "file" = "Box Client 1.21.1 v3.0.8.jar";
+            "hash" = "sha512-xDjvQFL8bgG6BZ4TtqxfcsangAkVierQDGggUA4fSXYXlfAurS021NhFaqBaNscQBl8u4fRjW4sUNnxmhTNyEA==";
+        };
+        _Xn3YkPLd = {
+            "id" = "Xn3YkPLd";
+            "file" = "Box Client 1.21.4 v3.0.8.jar";
+            "hash" = "sha512-+5WHWSlSNDrtY5Z6MU33BfB4MOtibDrYOpR+VBTFnxc8INwapHJwbjZ/AXG4HYnl+t/jxw4JQhmFNVBAhJBDmA==";
+        };
+        _m6bEIkNB = {
+            "id" = "m6bEIkNB";
+            "file" = "Box Client 1.21.5 v3.0.8.jar";
+            "hash" = "sha512-SIgBvUge17hH/BnaDRdkJOjSou92BEl+aRsbAUyWjgQdumkKnI9PiTaCpeuHLgj8OxRVLivKeY4ti3/vtU+WXw==";
+        };
+        _AWG6gRs0 = {
+            "id" = "AWG6gRs0";
+            "file" = "Box Client 1.21.8 v3.0.8.jar";
+            "hash" = "sha512-SvtGKAwqzG2vNcZ9WcpYX8Vsut9D3F9QkBr5YqFCHPUB1uO/V+s43AIN+RgoSwcHuFyqCl5LGfwpZ950rJpF9w==";
+        };
+        _zRMENUxC = {
+            "id" = "zRMENUxC";
+            "file" = "Box Client 1.21.10 v3.0.8.jar";
+            "hash" = "sha512-OpPc6E3BGSb+dYA31L8r6U7HUkVJzPdVSVpETIZEUiTjQAxFGrRyWPCHjQH8iyvScu8K6165XV90Vzp1p/j8bg==";
+        };
+        _2nF7yGnV = {
+            "id" = "2nF7yGnV";
+            "file" = "Box Client 1.21.11 v3.0.8.jar";
+            "hash" = "sha512-Y1Bkj7fk6SLRiIF4cdN1b9erHuD/4/oUAOI7RrREK1jrFbyD0SeJTTvFtnqyCK/sE3lFBuGmEHLFN1H52SsQ+w==";
+        };
+        _Q2EwggXo = {
+            "id" = "Q2EwggXo";
+            "file" = "Box Client 26.1.2 v3.0.8.jar";
+            "hash" = "sha512-3AGYWcGyxX173kl3KSWvu9w7hv1apCX5XVBAJb4/2zo0VKKKVFz2kpDZQJpcBxNWCvMStZhEFc+UVj9yl7oauw==";
+        };
+        _91pSQSWK = {
+            "id" = "91pSQSWK";
+            "file" = "Box Client 26.2 v3.0.8.jar";
+            "hash" = "sha512-4cAFIGW93CCQu+MZLzNSdaYTVKlCyKaOwPp7bHia9Z0OZgRlTHx6xGnfd6BG68CEJdSp0xrPfo56yRKfivrInA==";
+        };
+        _j7GTyFrY = {
+            "id" = "j7GTyFrY";
+            "file" = "Box Client 26.3 v3.0.8.jar";
+            "hash" = "sha512-6FTVMDVpl0ZLgSMOIoFaEsFWQ/90gqZ9fgf3bCQUNjpzrp0bWUv1ycj37txk7Axi3NgDVfG5KjBfOwQxOzJC3Q==";
+        };
     in {
         "yvmQpEeI" = _yvmQpEeI;
         "6eTekayv" = _6eTekayv;
@@ -872,32 +942,46 @@ let
         "8NnEbYGF" = _8NnEbYGF;
         "3sK55fcJ" = _3sK55fcJ;
         "7t8z2GND" = _7t8z2GND;
-        "fabric-1.20.1" = _bxizfKKf;
-        "fabric-1.20.2" = _zZ7nXSOA;
-        "fabric-1.20.3" = _zZ7nXSOA;
-        "fabric-1.20.4" = _zZ7nXSOA;
-        "fabric-1.20.5" = _znse1FLC;
-        "fabric-1.20.6" = _znse1FLC;
-        "fabric-1.19.2" = _ilzvgITG;
-        "fabric-1.21.9" = _r6xqNCj7;
-        "fabric-1.21.10" = _r6xqNCj7;
-        "fabric-1.21.11" = _q0zoH4nC;
-        "fabric-1.21" = _b1bG0muW;
-        "fabric-1.21.1" = _b1bG0muW;
-        "fabric-1.21.2" = _M3k3GHV0;
-        "fabric-1.21.3" = _M3k3GHV0;
-        "fabric-1.21.4" = _M3k3GHV0;
-        "fabric-1.21.5" = _T81mb4OL;
-        "fabric-1.19.3" = _nWRdWZDv;
-        "fabric-1.19.4" = _nWRdWZDv;
-        "fabric-1.21.6" = _MV2dWSWE;
-        "fabric-1.21.7" = _MV2dWSWE;
-        "fabric-1.21.8" = _MV2dWSWE;
-        "fabric-26.1" = _8NnEbYGF;
-        "fabric-26.1.1" = _8NnEbYGF;
-        "fabric-26.1.2" = _8NnEbYGF;
-        "fabric-26.2" = _3sK55fcJ;
-        "fabric-26.3" = _7t8z2GND;
+        "duL8pwQW" = _duL8pwQW;
+        "x8n0wJdg" = _x8n0wJdg;
+        "5XTSewKe" = _5XTSewKe;
+        "5F43UX5W" = _5F43UX5W;
+        "8J8pLW6I" = _8J8pLW6I;
+        "PxHEw6db" = _PxHEw6db;
+        "Xn3YkPLd" = _Xn3YkPLd;
+        "m6bEIkNB" = _m6bEIkNB;
+        "AWG6gRs0" = _AWG6gRs0;
+        "zRMENUxC" = _zRMENUxC;
+        "2nF7yGnV" = _2nF7yGnV;
+        "Q2EwggXo" = _Q2EwggXo;
+        "91pSQSWK" = _91pSQSWK;
+        "j7GTyFrY" = _j7GTyFrY;
+        "fabric-1.20.1" = _5XTSewKe;
+        "fabric-1.20.2" = _5F43UX5W;
+        "fabric-1.20.3" = _5F43UX5W;
+        "fabric-1.20.4" = _5F43UX5W;
+        "fabric-1.20.5" = _8J8pLW6I;
+        "fabric-1.20.6" = _8J8pLW6I;
+        "fabric-1.19.2" = _duL8pwQW;
+        "fabric-1.21.9" = _zRMENUxC;
+        "fabric-1.21.10" = _zRMENUxC;
+        "fabric-1.21.11" = _2nF7yGnV;
+        "fabric-1.21" = _PxHEw6db;
+        "fabric-1.21.1" = _PxHEw6db;
+        "fabric-1.21.2" = _Xn3YkPLd;
+        "fabric-1.21.3" = _Xn3YkPLd;
+        "fabric-1.21.4" = _Xn3YkPLd;
+        "fabric-1.21.5" = _m6bEIkNB;
+        "fabric-1.19.3" = _x8n0wJdg;
+        "fabric-1.19.4" = _x8n0wJdg;
+        "fabric-1.21.6" = _AWG6gRs0;
+        "fabric-1.21.7" = _AWG6gRs0;
+        "fabric-1.21.8" = _AWG6gRs0;
+        "fabric-26.1" = _Q2EwggXo;
+        "fabric-26.1.1" = _Q2EwggXo;
+        "fabric-26.1.2" = _Q2EwggXo;
+        "fabric-26.2" = _91pSQSWK;
+        "fabric-26.3" = _j7GTyFrY;
         "pkg-1.17.0" = _6npT8G6Y;
         "pkg-1.23.0" = _5RfwXQR8;
         "pkg-v2" = _TgXgFPno;
@@ -909,7 +993,8 @@ let
         "pkg-3.0.5" = _EQYYcUBC;
         "pkg-3.0.6" = _uSbbu9hY;
         "pkg-3.0.7" = _7t8z2GND;
-        "default" = _7t8z2GND;
+        "pkg-3.0.8" = _j7GTyFrY;
+        "default" = _j7GTyFrY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boxclient";

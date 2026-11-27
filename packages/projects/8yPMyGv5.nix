@@ -101,6 +101,16 @@ let
             "file" = "vortylib-neoforge-1.3.0.jar";
             "hash" = "sha512-ZL/o0VT/nx2lthcIFQt3Or00ZnhaRPFqHrnUty0iaUW2BbhFwXqng1w+p+ygTrL366InPmWjAwCu49OA480cUQ==";
         };
+        _azkgCru0 = {
+            "id" = "azkgCru0";
+            "file" = "vortylib-neoforge-1.3.1.jar";
+            "hash" = "sha512-NZL3EIofIFOfmLdMZrUtT7mJobyMFfqqlQCKWuzUUbzfukoQC0HIurmS+WdlrXid0rFLAXHcNxX/Z5FilewjxQ==";
+        };
+        _Nizy6ILz = {
+            "id" = "Nizy6ILz";
+            "file" = "vortylib-fabric-1.3.1.jar";
+            "hash" = "sha512-bkgn4sMqQuVD8eUdinaFD73RaZRVG3WyoZvLLOvU3i6V3KL+G39mNsfM2e0Gi0W/Z6Dw/Kdmt220IuEiWXJWXQ==";
+        };
     in {
         "xoEPpZ0X" = _xoEPpZ0X;
         "tp1QsEM6" = _tp1QsEM6;
@@ -122,9 +132,11 @@ let
         "biFKaUKN" = _biFKaUKN;
         "SH5OAvBk" = _SH5OAvBk;
         "ru2cX4rq" = _ru2cX4rq;
-        "neoforge-1.21.1" = _ru2cX4rq;
+        "azkgCru0" = _azkgCru0;
+        "Nizy6ILz" = _Nizy6ILz;
+        "neoforge-1.21.1" = _azkgCru0;
         "forge-1.20.1" = _biFKaUKN;
-        "fabric-1.21.1" = _SH5OAvBk;
+        "fabric-1.21.1" = _Nizy6ILz;
         "pkg-1.0" = _xoEPpZ0X;
         "pkg-1.1" = _tp1QsEM6;
         "pkg-1.2" = _i53amENN;
@@ -140,7 +152,8 @@ let
         "pkg-1.2.6.1" = _WbTt1Ufx;
         "pkg-1.2.6.2" = _biFKaUKN;
         "pkg-1.3.0" = _ru2cX4rq;
-        "default" = _ru2cX4rq;
+        "pkg-1.3.1" = _Nizy6ILz;
+        "default" = _Nizy6ILz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vortylib";

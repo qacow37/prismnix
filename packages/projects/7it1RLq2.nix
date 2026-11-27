@@ -566,6 +566,36 @@ let
             "file" = "gankura-7.6.3+26.3.jar";
             "hash" = "sha512-9s1R/CVgrxE9uiWGEcARZw0j22wn9YySl4Sq96LiwMUkpP8tOFm7hiCEuZ7+a69EwdG8vMTIMzdKLZhYrUv15g==";
         };
+        _KaN4zPuw = {
+            "id" = "KaN4zPuw";
+            "file" = "gankura-7.6.4+26.1.x.jar";
+            "hash" = "sha512-C+IiuNCn3PtiHWJmmV5Eikq8obJJwAtHttXcMSnbsGmLmtOZOG6icEiWy8jIOo0633/JPctioPj8XvqjILWBYA==";
+        };
+        _lrFSpHey = {
+            "id" = "lrFSpHey";
+            "file" = "gankura-7.6.4+26.2.jar";
+            "hash" = "sha512-NFY2Ep9W0j6JQZ+suTabOPIJr8O5BNIlAI0yY20YfFxFQXAtAqu3du5F6gxdwDnk9i0KNU60se6Y3NLqF/E9cQ==";
+        };
+        _BqMtR849 = {
+            "id" = "BqMtR849";
+            "file" = "gankura-7.6.4+26.3.jar";
+            "hash" = "sha512-LtVN/ZOipMqeJBdQQyfY/3okuyEbnNHxz796mObee/K/bB/FxXujRU9wUTgJL7OfcafU0UweDBP1Hbs9Lbw5cQ==";
+        };
+        _2IOKuGb6 = {
+            "id" = "2IOKuGb6";
+            "file" = "gankura-7.7.0+26.1.x.jar";
+            "hash" = "sha512-uKrc54grtdoieaBRtzn/kwpV+GvCMbeu0b51bcYaFSy0rIiDmPt/6R+odJv2INqSSd5phpeHrnT/uC/4H7dEIQ==";
+        };
+        _j9CPGrIK = {
+            "id" = "j9CPGrIK";
+            "file" = "gankura-7.7.0+26.2.jar";
+            "hash" = "sha512-OAbooYKiXWrr93HF1NLVDH4Hf19YLK8469ROvFffmLoz4RX3qKaycP6O59ZLv+E9te+H7bocyDdtxPUz5pNanw==";
+        };
+        _NIpFTNHN = {
+            "id" = "NIpFTNHN";
+            "file" = "gankura-7.7.0+26.3.jar";
+            "hash" = "sha512-e+w6EcfcyNMCUTaCTTDlZ7wQl4YyqsgrfF5vEY0ZZG91idSJvEwxzkrZeUfBwe6NT5/BBjF952o36+T9HMMnlw==";
+        };
     in {
         "r458dNXi" = _r458dNXi;
         "GwleJ7ub" = _GwleJ7ub;
@@ -680,12 +710,18 @@ let
         "Z7gEkeve" = _Z7gEkeve;
         "lrnsT9WU" = _lrnsT9WU;
         "7TR56AXI" = _7TR56AXI;
+        "KaN4zPuw" = _KaN4zPuw;
+        "lrFSpHey" = _lrFSpHey;
+        "BqMtR849" = _BqMtR849;
+        "2IOKuGb6" = _2IOKuGb6;
+        "j9CPGrIK" = _j9CPGrIK;
+        "NIpFTNHN" = _NIpFTNHN;
         "fabric-1.21.11" = _ZJLm23l4;
-        "fabric-26.1" = _Z7gEkeve;
-        "fabric-26.1.1" = _Z7gEkeve;
-        "fabric-26.1.2" = _Z7gEkeve;
-        "fabric-26.2" = _lrnsT9WU;
-        "fabric-26.3" = _7TR56AXI;
+        "fabric-26.1" = _2IOKuGb6;
+        "fabric-26.1.1" = _2IOKuGb6;
+        "fabric-26.1.2" = _2IOKuGb6;
+        "fabric-26.2" = _j9CPGrIK;
+        "fabric-26.3" = _NIpFTNHN;
         "pkg-1.0.0" = _r458dNXi;
         "pkg-1.0.1" = _GwleJ7ub;
         "pkg-1.0.2" = _B8NpR1h2;
@@ -799,7 +835,13 @@ let
         "pkg-7.6.3+26.1.x" = _Z7gEkeve;
         "pkg-7.6.3+26.2" = _lrnsT9WU;
         "pkg-7.6.3+26.3" = _7TR56AXI;
-        "default" = _7TR56AXI;
+        "pkg-7.6.4+26.1.x" = _KaN4zPuw;
+        "pkg-7.6.4+26.2" = _lrFSpHey;
+        "pkg-7.6.4+26.3" = _BqMtR849;
+        "pkg-7.7.0+26.1.x" = _2IOKuGb6;
+        "pkg-7.7.0+26.2" = _j9CPGrIK;
+        "pkg-7.7.0+26.3" = _NIpFTNHN;
+        "default" = _NIpFTNHN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gankura";

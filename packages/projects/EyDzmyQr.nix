@@ -356,6 +356,11 @@ let
             "file" = "worldgenDevtools-1.4.1+26.3.jar";
             "hash" = "sha512-DVosUcGBJqhU7W/92VsIArJ0mKFGpZdBbf7Qf7XvZilwD9ennJgVV4kEWR89+Uiraz99dNJunoauP2kSjNerPQ==";
         };
+        _kbsFNGBe = {
+            "id" = "kbsFNGBe";
+            "file" = "worldgenDevtools-1.4.2+26.4-pre-1.jar";
+            "hash" = "sha512-xR6Ub9zqKaZhXYtoOEx4kIQemO4OlwPera1RSd64XTQg95+4GMxYsEVVZ0wALRUDXv1LDouu1CQn+glgnEFnNA==";
+        };
     in {
         "h7T19gAx" = _h7T19gAx;
         "4rikEHY9" = _4rikEHY9;
@@ -428,6 +433,7 @@ let
         "DRG4Az9L" = _DRG4Az9L;
         "ysV9ctFJ" = _ysV9ctFJ;
         "Ovlis4GJ" = _Ovlis4GJ;
+        "kbsFNGBe" = _kbsFNGBe;
         "fabric-1.20.5-pre4" = _h7T19gAx;
         "fabric-1.20.5-rc1" = _h7T19gAx;
         "fabric-1.20.5-rc2" = _h7T19gAx;
@@ -507,6 +513,7 @@ let
         "fabric-26.3" = _Ovlis4GJ;
         "fabric-26.4-snapshot-1" = _lq2zhuz0;
         "fabric-26.4-snapshot-2" = _DRG4Az9L;
+        "fabric-26.4-pre-1" = _kbsFNGBe;
         "pkg-1.0.0-beta.1+1.20.5-pre4" = _h7T19gAx;
         "pkg-1.0.0-bata.2+1.20.5" = _4rikEHY9;
         "pkg-1.0.0-bata.2+1.20.6" = _ykdv7YCA;
@@ -578,7 +585,8 @@ let
         "pkg-1.4.2-26.4-snapshot-2" = _DRG4Az9L;
         "pkg-1.4.2+26.1" = _ysV9ctFJ;
         "pkg-1.4.2+26.3" = _Ovlis4GJ;
-        "default" = _Ovlis4GJ;
+        "pkg-1.4.2+26.4-pre-1" = _kbsFNGBe;
+        "default" = _kbsFNGBe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "worldgen-devtools";

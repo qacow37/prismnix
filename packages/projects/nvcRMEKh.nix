@@ -191,6 +191,11 @@ let
             "file" = "Better_Expressions.zip";
             "hash" = "sha512-W2uvUD3G564fe/ErIZ/D6Q2AFzegagTLieVQ08OlGkc4AUdbOK3HFhNP5TADRHmyBrkReqlDam01DUQHSykAuQ==";
         };
+        _mp07MW98 = {
+            "id" = "mp07MW98";
+            "file" = "Better_Expressions.zip";
+            "hash" = "sha512-LSGLeFqYdSZ9BbgF1IyCex3IdgNdlqqqYlnUH9dDYXUgHxjivw4nsMgojGpqK7IF2/Zq4e3OJo4cYYRAFWUVbA==";
+        };
     in {
         "EOKHjszB" = _EOKHjszB;
         "4PsfOHBv" = _4PsfOHBv;
@@ -230,6 +235,7 @@ let
         "XY8nWFwh" = _XY8nWFwh;
         "BrACk60D" = _BrACk60D;
         "butm7qbW" = _butm7qbW;
+        "mp07MW98" = _mp07MW98;
         "minecraft-1.18.2" = _4PsfOHBv;
         "minecraft-1.19.2" = _Lswhbgzd;
         "minecraft-1.19.3" = _Lswhbgzd;
@@ -243,24 +249,24 @@ let
         "minecraft-1.20.6" = _Lswhbgzd;
         "minecraft-1.21" = _Lswhbgzd;
         "minecraft-1.21.1" = _Lswhbgzd;
-        "minecraft-1.21.2" = _butm7qbW;
-        "minecraft-1.21.3" = _butm7qbW;
-        "minecraft-1.21.4" = _butm7qbW;
-        "minecraft-1.21.5" = _butm7qbW;
-        "minecraft-1.21.6" = _butm7qbW;
-        "minecraft-1.21.7" = _butm7qbW;
-        "minecraft-1.21.8" = _butm7qbW;
-        "minecraft-1.21.9" = _butm7qbW;
-        "minecraft-1.21.10" = _butm7qbW;
-        "minecraft-24w44a" = _XY8nWFwh;
-        "minecraft-24w45a" = _XY8nWFwh;
-        "minecraft-24w46a" = _XY8nWFwh;
-        "minecraft-1.21.11" = _butm7qbW;
-        "minecraft-26.1" = _butm7qbW;
-        "minecraft-26.1.1" = _butm7qbW;
-        "minecraft-26.1.2" = _butm7qbW;
-        "minecraft-26.2" = _butm7qbW;
-        "minecraft-26.3" = _butm7qbW;
+        "minecraft-1.21.2" = _mp07MW98;
+        "minecraft-1.21.3" = _mp07MW98;
+        "minecraft-1.21.4" = _mp07MW98;
+        "minecraft-1.21.5" = _mp07MW98;
+        "minecraft-1.21.6" = _mp07MW98;
+        "minecraft-1.21.7" = _mp07MW98;
+        "minecraft-1.21.8" = _mp07MW98;
+        "minecraft-1.21.9" = _mp07MW98;
+        "minecraft-1.21.10" = _mp07MW98;
+        "minecraft-24w44a" = _mp07MW98;
+        "minecraft-24w45a" = _mp07MW98;
+        "minecraft-24w46a" = _mp07MW98;
+        "minecraft-1.21.11" = _mp07MW98;
+        "minecraft-26.1" = _mp07MW98;
+        "minecraft-26.1.1" = _mp07MW98;
+        "minecraft-26.1.2" = _mp07MW98;
+        "minecraft-26.2" = _mp07MW98;
+        "minecraft-26.3" = _mp07MW98;
         "pkg-13.0" = _EOKHjszB;
         "pkg-14.0" = _4PsfOHBv;
         "pkg-14.1" = _Lswhbgzd;
@@ -299,7 +305,8 @@ let
         "pkg-33.0" = _XY8nWFwh;
         "pkg-34.0" = _BrACk60D;
         "pkg-34.1" = _butm7qbW;
-        "default" = _butm7qbW;
+        "pkg-35.0" = _mp07MW98;
+        "default" = _mp07MW98;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-expressions";

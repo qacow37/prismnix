@@ -541,6 +541,21 @@ let
             "file" = "zoomify-2.17.0+mc26.2-universal.jar";
             "hash" = "sha512-A2ekTAz+C4HiEAV81EZCdaNNHaxGU7WPrLCEw21XcFUfufR0r2nOBcb4EJvoNzBMz2yd+oPXUt5QN7uZ/cVOsw==";
         };
+        _x1VV74PR = {
+            "id" = "x1VV74PR";
+            "file" = "zoomify-2.17.1+mc26.3-universal.jar";
+            "hash" = "sha512-8fZrkFxlG7VLUcIsOcxJBzvFmzJueJlNxzk5Yye7nFC9x9TuBwR0ZTOZOO5UsDnpiNSZOiQLV3P4RnGPdZPHRg==";
+        };
+        _g6Nnkhy9 = {
+            "id" = "g6Nnkhy9";
+            "file" = "zoomify-2.17.1+mc26.1.2-universal.jar";
+            "hash" = "sha512-DLXNkFju2HV84LQalWZFdgqfI6eyjQI5aEEYWAx91ArkqbnOYewBBh6GuKt9X+kW8i1FY1+X881u7ZFfcgcFgQ==";
+        };
+        _INgItMa5 = {
+            "id" = "INgItMa5";
+            "file" = "zoomify-2.17.1+mc26.2-universal.jar";
+            "hash" = "sha512-J6VH5cWvO/4gkMPnoIIXGC0jxqFWx+/lTUymYuPdIn6Fe86ZIGosud8qXbYqNfnKQvhODlTgPDtwxAD2QYx2JQ==";
+        };
     in {
         "iVw60IvO" = _iVw60IvO;
         "cgp0M9ZD" = _cgp0M9ZD;
@@ -650,6 +665,9 @@ let
         "RUBpNu00" = _RUBpNu00;
         "gwKcDOSy" = _gwKcDOSy;
         "D64cvU6G" = _D64cvU6G;
+        "x1VV74PR" = _x1VV74PR;
+        "g6Nnkhy9" = _g6Nnkhy9;
+        "INgItMa5" = _INgItMa5;
         "fabric-1.18" = _cgp0M9ZD;
         "fabric-1.18.1" = _cgp0M9ZD;
         "fabric-1.18.2" = _sC6H3PnU;
@@ -677,11 +695,11 @@ let
         "fabric-1.21.9" = _Vdx09fu6;
         "fabric-1.21.10" = _Vdx09fu6;
         "fabric-1.21.11" = _gI5KZI8V;
-        "fabric-26.1" = _gwKcDOSy;
-        "fabric-26.1.1" = _gwKcDOSy;
-        "fabric-26.1.2" = _gwKcDOSy;
-        "fabric-26.2" = _D64cvU6G;
-        "fabric-26.3" = _RUBpNu00;
+        "fabric-26.1" = _g6Nnkhy9;
+        "fabric-26.1.1" = _g6Nnkhy9;
+        "fabric-26.1.2" = _g6Nnkhy9;
+        "fabric-26.2" = _INgItMa5;
+        "fabric-26.3" = _x1VV74PR;
         "fabric-26.4-snapshot-1" = _ge4rmTmU;
         "quilt-1.18.2" = _sC6H3PnU;
         "quilt-1.19" = _f017okM4;
@@ -692,11 +710,11 @@ let
         "quilt-1.20" = _gZr7EykF;
         "quilt-1.20.1" = _gZr7EykF;
         "quilt-1.20.5" = _LIBdkZvZ;
-        "neoforge-26.3" = _RUBpNu00;
-        "neoforge-26.1" = _gwKcDOSy;
-        "neoforge-26.1.1" = _gwKcDOSy;
-        "neoforge-26.1.2" = _gwKcDOSy;
-        "neoforge-26.2" = _D64cvU6G;
+        "neoforge-26.3" = _x1VV74PR;
+        "neoforge-26.1" = _g6Nnkhy9;
+        "neoforge-26.1.1" = _g6Nnkhy9;
+        "neoforge-26.1.2" = _g6Nnkhy9;
+        "neoforge-26.2" = _INgItMa5;
         "pkg-1.0.0" = _iVw60IvO;
         "pkg-1.1.0" = _cgp0M9ZD;
         "pkg-1.2.0" = _gUBtDUBp;
@@ -804,7 +822,10 @@ let
         "pkg-2.17.0+mc26.3" = _RUBpNu00;
         "pkg-2.17.0+mc26.1.2" = _gwKcDOSy;
         "pkg-2.17.0+mc26.2" = _D64cvU6G;
-        "default" = _D64cvU6G;
+        "pkg-2.17.1+mc26.3" = _x1VV74PR;
+        "pkg-2.17.1+mc26.1.2" = _g6Nnkhy9;
+        "pkg-2.17.1+mc26.2" = _INgItMa5;
+        "default" = _INgItMa5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zoomify";

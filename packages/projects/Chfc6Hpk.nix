@@ -86,6 +86,31 @@ let
             "file" = "modern-keystrokes v3.0.0 1.21.10.jar";
             "hash" = "sha512-35wKSO7XuyjWZEVU3ZssUNUUvJhT5vtebaafFTxWKhhuc+h0nHU5I/w6qNYICgNZwICklkQ1X7ftqRmcPR/PxQ==";
         };
+        _5YahnwuZ = {
+            "id" = "5YahnwuZ";
+            "file" = "modern-keystrokes v3.0.0 1.21.9.jar";
+            "hash" = "sha512-ZxryJod4ik6yORajB3/wHRJ8HgAbmNujaoQn62JDLySrW27AjCBHa1+roI9rYJp9/iR9mDsVf9+al8ykC5wCMA==";
+        };
+        _KHxYTkak = {
+            "id" = "KHxYTkak";
+            "file" = "modern-keystrokes v3.0.0 1.21.8.jar";
+            "hash" = "sha512-uspZ6qeGTyClM520NcKtgnGe+4lX2XS9sGkKDWoAF2Har+hs3CoCeRDb363jSQ7QaMvRzZM6yM08J9MrvKaUCQ==";
+        };
+        _noSAoWxV = {
+            "id" = "noSAoWxV";
+            "file" = "modern-keystrokes v3.0.0 1.21.7.jar";
+            "hash" = "sha512-lyGi5x97qfPBYMHCbiZe2SnpeB6t88uShETrXuxGl3Cs0LP1AqtC4udp2EnHfWMDR4XOIhscAAVugEB/K7fUNg==";
+        };
+        _KaP1vEox = {
+            "id" = "KaP1vEox";
+            "file" = "modern-keystrokes v3.0.0 1.21.6.jar";
+            "hash" = "sha512-WS+ry9vYmo+0UVSDM9OvMMowp5xOflbqyhedXobaovSTT3BPAUj0ACJQdCPz8CoShP3C5VKormGSN/TsuvikOg==";
+        };
+        _QR5LvvwP = {
+            "id" = "QR5LvvwP";
+            "file" = "modern-keystrokes v3.0.0 1.20.1.jar";
+            "hash" = "sha512-0CPzJsAbJ5wV94wDqIPn9xaAgGIpnt4O97cNQIOOWPltxyEpTmb2EPKDZvuDczy8sfUwqJhc809am4Y4bxH8/g==";
+        };
     in {
         "g5eOGEiJ" = _g5eOGEiJ;
         "Kw0uIyaa" = _Kw0uIyaa;
@@ -104,20 +129,25 @@ let
         "jgCxX5L6" = _jgCxX5L6;
         "taHXxkXF" = _taHXxkXF;
         "7QWsGB96" = _7QWsGB96;
+        "5YahnwuZ" = _5YahnwuZ;
+        "KHxYTkak" = _KHxYTkak;
+        "noSAoWxV" = _noSAoWxV;
+        "KaP1vEox" = _KaP1vEox;
+        "QR5LvvwP" = _QR5LvvwP;
         "fabric-1.21.11" = _jgCxX5L6;
         "fabric-1.21.10" = _7QWsGB96;
-        "fabric-1.21.9" = _CWhMNQGl;
-        "fabric-1.21.8" = _51HfpuM6;
-        "fabric-1.21.7" = _s7Ic4WAn;
-        "fabric-1.21.6" = _Rp804deJ;
-        "fabric-1.20.1" = _5xjbumxy;
+        "fabric-1.21.9" = _5YahnwuZ;
+        "fabric-1.21.8" = _KHxYTkak;
+        "fabric-1.21.7" = _noSAoWxV;
+        "fabric-1.21.6" = _KaP1vEox;
+        "fabric-1.20.1" = _QR5LvvwP;
         "fabric-26.1.2" = _taHXxkXF;
         "fabric-26.3" = _jg1K3Kbi;
         "pkg-v1.0.0" = _ZCrirFnz;
         "pkg-v2.0.0" = _b2DydQUd;
         "pkg-v2.0.1" = _s7Ic4WAn;
-        "pkg-v3.0.0" = _7QWsGB96;
-        "default" = _7QWsGB96;
+        "pkg-v3.0.0" = _QR5LvvwP;
+        "default" = _QR5LvvwP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modern-keystrokes";

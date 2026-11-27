@@ -36,6 +36,11 @@ let
             "file" = "phantomjoin-1.0.2.jar";
             "hash" = "sha512-WTo5iE4GGIOCsH7R5S/mW0nBAQSlUkJIOfV3Sp9CGrD8ixfYAoNASqZ0CGWaKsoELGHU7y+5LmQ405ihGBPHaQ==";
         };
+        _x0Iw39Ak = {
+            "id" = "x0Iw39Ak";
+            "file" = "phantomjoin-1.0.3.jar";
+            "hash" = "sha512-FCBG/f//d+XSFeYLbi3oaK3ixdx4/ev48BKTcg8vMfhZmwrTyjVO7Wckeb4ZA77/+lPVX8ApS2mLpkberl/eWQ==";
+        };
     in {
         "DG9kFPIN" = _DG9kFPIN;
         "VdM1ob3o" = _VdM1ob3o;
@@ -44,13 +49,16 @@ let
         "xgZ3w3ad" = _xgZ3w3ad;
         "EfFvucw9" = _EfFvucw9;
         "d024orTa" = _d024orTa;
+        "x0Iw39Ak" = _x0Iw39Ak;
         "neoforge-1.21.1" = _d024orTa;
+        "neoforge-26.3" = _x0Iw39Ak;
         "forge-1.19.2" = _xgZ3w3ad;
         "forge-1.20.1" = _EfFvucw9;
         "pkg-1.0.0" = _DG9kFPIN;
         "pkg-1.0.1" = _7LOO7a5Z;
         "pkg-1.0.2" = _d024orTa;
-        "default" = _d024orTa;
+        "pkg-1.0.3" = _x0Iw39Ak;
+        "default" = _x0Iw39Ak;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "uninvited";

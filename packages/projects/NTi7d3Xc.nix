@@ -1741,6 +1741,21 @@ let
             "file" = "Oh-The-Biomes-Weve-Gone-NeoForge-4.4.2.jar";
             "hash" = "sha512-V360yMW+7r0c1VTqpzhdzgmAZame6wbfLV+uj/YOupd8HTbjrdR1Fjwa1Bl7DWRKKfDIdP5UUfbatev23Vf2ng==";
         };
+        _in28sun8 = {
+            "id" = "in28sun8";
+            "file" = "Oh-The-Biomes-Weve-Gone-Fabric-2.6.4.jar";
+            "hash" = "sha512-WOOLewjAeRYMFWXKHDulzATq/jkgvf4PRvMUnBGLlvSht+hVBjPSwb69qsdXCgidHGNztvYgLn9nshYhWxM7oA==";
+        };
+        _Ib0krJI2 = {
+            "id" = "Ib0krJI2";
+            "file" = "Oh-The-Biomes-Weve-Gone-Forge-2.6.4.jar";
+            "hash" = "sha512-0mnTuK9bvIl9Rj744cqrYnkjrM1Mt/UDKoFh19U3nAkV8mq+Y89cBH9/RaenuN1NExnii5aRJZiHaoMgfHKnTQ==";
+        };
+        _NRxM0osj = {
+            "id" = "NRxM0osj";
+            "file" = "Oh-The-Biomes-Weve-Gone-NeoForge-2.6.4.jar";
+            "hash" = "sha512-XNjmexWA/SopxDA0NLGo/zsqx04n8Y68bts2KxxmC2nPCBJpuCBGx0HEKDH/3+78+yPqVYDfyEX722Ceg/k11A==";
+        };
     in {
         "GOMHoIEb" = _GOMHoIEb;
         "dor3hOko" = _dor3hOko;
@@ -2090,26 +2105,29 @@ let
         "LZ6VJTpi" = _LZ6VJTpi;
         "sOuwECIi" = _sOuwECIi;
         "a8TjBm63" = _a8TjBm63;
+        "in28sun8" = _in28sun8;
+        "Ib0krJI2" = _Ib0krJI2;
+        "NRxM0osj" = _NRxM0osj;
         "fabric-1.20.1" = _mBINzdSD;
-        "fabric-1.21.1" = _DnAj2wUl;
+        "fabric-1.21.1" = _in28sun8;
         "fabric-1.21.4" = _NCZAogvP;
         "fabric-1.21.8" = _A0DMLFFg;
         "fabric-1.21.10" = _wpFIFApW;
         "fabric-1.21.11" = _LZ6VJTpi;
         "quilt-1.20.1" = _mBINzdSD;
-        "quilt-1.21.1" = _DnAj2wUl;
+        "quilt-1.21.1" = _in28sun8;
         "quilt-1.21.4" = _NCZAogvP;
         "quilt-1.21.8" = _A0DMLFFg;
         "quilt-1.21.10" = _wpFIFApW;
         "quilt-1.21.11" = _LZ6VJTpi;
         "forge-1.20.1" = _rZKvDbdo;
-        "forge-1.21.1" = _gBNa9578;
+        "forge-1.21.1" = _Ib0krJI2;
         "forge-1.21.4" = _sgY3p3PH;
         "forge-1.21.8" = _hJOgEaAf;
         "forge-1.21.10" = _jZTihPGp;
         "forge-1.21.11" = _sOuwECIi;
         "neoforge-1.20.1" = _qj6FvHC7;
-        "neoforge-1.21.1" = _gAxM0bHs;
+        "neoforge-1.21.1" = _NRxM0osj;
         "neoforge-1.21.4" = _zHGiZEVy;
         "neoforge-1.21.8" = _HdcvE7ki;
         "neoforge-1.21.10" = _xEbxZQh1;
@@ -2462,7 +2480,10 @@ let
         "pkg-4.4.2-Fabric" = _LZ6VJTpi;
         "pkg-4.4.2-Forge" = _sOuwECIi;
         "pkg-4.4.2-NeoForge" = _a8TjBm63;
-        "default" = _a8TjBm63;
+        "pkg-2.6.4-Fabric" = _in28sun8;
+        "pkg-2.6.4-Forge" = _Ib0krJI2;
+        "pkg-2.6.4-NeoForge" = _NRxM0osj;
+        "default" = _NRxM0osj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oh-the-biomes-weve-gone";

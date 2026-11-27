@@ -171,6 +171,16 @@ let
             "file" = "gun-core-V1.1-data+resource.jar";
             "hash" = "sha512-2PMUYdEp8l54i9ne7m/7+RP0DCAySuJCJtRcXZVAb8iFX/ZQ6AmRq41XnQMbVCBX3CUpEzxsk5P2wFksPFGaZg==";
         };
+        _6ySPSrzT = {
+            "id" = "6ySPSrzT";
+            "file" = "Gun Core - Data V1.1.1.zip";
+            "hash" = "sha512-jpd8kkz87hzlDIZ+oR+K09BEmpm3Laemudc33jk1dTYryg/SOpU4Ca6ZrPXSzKywAz5Q7vWOGLnN5EdEfbcDJA==";
+        };
+        _xpOFmENi = {
+            "id" = "xpOFmENi";
+            "file" = "gun-core-V1.1.1-data+resource.jar";
+            "hash" = "sha512-AzURhSGNuvr8Irl6cCB+j9AutXCAtg8+357nwdTuVdfDj0hxBi6kmpNSi7ki7dXtQIC/ibdt97e4ZbfBoCpdzg==";
+        };
     in {
         "GhDPg6Xf" = _GhDPg6Xf;
         "tjGATFtl" = _tjGATFtl;
@@ -206,6 +216,8 @@ let
         "4BPLwFY9" = _4BPLwFY9;
         "shKJI4sM" = _shKJI4sM;
         "N2pWfecu" = _N2pWfecu;
+        "6ySPSrzT" = _6ySPSrzT;
+        "xpOFmENi" = _xpOFmENi;
         "datapack-1.21.4" = _GhDPg6Xf;
         "datapack-1.21.5" = _6KwEjop9;
         "datapack-1.21.6" = _GTzzhi1a;
@@ -218,6 +230,7 @@ let
         "datapack-26.1.1" = _nkpW7FYV;
         "datapack-26.1.2" = _nkpW7FYV;
         "datapack-26.2" = _shKJI4sM;
+        "datapack-26.3" = _6ySPSrzT;
         "fabric-1.21.4" = _tjGATFtl;
         "fabric-1.21.5" = _bG5qjSkS;
         "fabric-1.21.6" = _8mw4ZfhK;
@@ -230,6 +243,7 @@ let
         "fabric-26.1.1" = _ADxVBoIQ;
         "fabric-26.1.2" = _ADxVBoIQ;
         "fabric-26.2" = _N2pWfecu;
+        "fabric-26.3" = _xpOFmENi;
         "forge-1.21.4" = _tjGATFtl;
         "forge-1.21.5" = _bG5qjSkS;
         "forge-1.21.6" = _8mw4ZfhK;
@@ -242,6 +256,7 @@ let
         "forge-26.1.1" = _ADxVBoIQ;
         "forge-26.1.2" = _ADxVBoIQ;
         "forge-26.2" = _N2pWfecu;
+        "forge-26.3" = _xpOFmENi;
         "neoforge-1.21.4" = _tjGATFtl;
         "neoforge-1.21.5" = _bG5qjSkS;
         "neoforge-1.21.6" = _8mw4ZfhK;
@@ -254,6 +269,7 @@ let
         "neoforge-26.1.1" = _ADxVBoIQ;
         "neoforge-26.1.2" = _ADxVBoIQ;
         "neoforge-26.2" = _N2pWfecu;
+        "neoforge-26.3" = _xpOFmENi;
         "quilt-1.21.4" = _tjGATFtl;
         "quilt-1.21.5" = _bG5qjSkS;
         "quilt-1.21.6" = _8mw4ZfhK;
@@ -266,6 +282,7 @@ let
         "quilt-26.1.1" = _ADxVBoIQ;
         "quilt-26.1.2" = _ADxVBoIQ;
         "quilt-26.2" = _N2pWfecu;
+        "quilt-26.3" = _xpOFmENi;
         "pkg-V1.0-data+resource" = _GhDPg6Xf;
         "pkg-V1.0-mod" = _tjGATFtl;
         "pkg-V1.0.1-data+resource" = _SgdVUyZ1;
@@ -300,7 +317,9 @@ let
         "pkg-V1.0.15-mod" = _4BPLwFY9;
         "pkg-V1.1-data+resource" = _shKJI4sM;
         "pkg-V1.1-mod" = _N2pWfecu;
-        "default" = _N2pWfecu;
+        "pkg-V1.1.1-data+resource" = _6ySPSrzT;
+        "pkg-V1.1.1-mod" = _xpOFmENi;
+        "default" = _xpOFmENi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gun-core";

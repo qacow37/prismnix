@@ -41,6 +41,16 @@ let
             "file" = "solmaid-1.0.1.jar";
             "hash" = "sha512-JDPyXoe7fHa8Djdy375/GxW76xm3KETfXJYpmjNl5HzWwYoeDeMDy0gi18AeIg+H/dKzoQLu2mGcNAJpPbB65g==";
         };
+        _6DOqpKW2 = {
+            "id" = "6DOqpKW2";
+            "file" = "solmaid-1.1.0-1.20.1.jar";
+            "hash" = "sha512-8zuoBFAytCD1lODkEvGZKSoVM5Q9H6P03bAkSaK9qHe+c3ET3PQwXL2hzNP9ZOnarTMMKV65SnNSURCEoQVX0Q==";
+        };
+        _vsl7ajgr = {
+            "id" = "vsl7ajgr";
+            "file" = "solmaid-1.1.0-1.21.1.jar";
+            "hash" = "sha512-Q4kKU/f22sDU9ARCnoN4BqX4LMThSfqD1Lxs1yTotLnFEHuXOfXN2SyY14dMp6Pz9f2N7orBizyzE63nq+OCqQ==";
+        };
     in {
         "lmeKHRfk" = _lmeKHRfk;
         "uDOPy3JE" = _uDOPy3JE;
@@ -50,15 +60,18 @@ let
         "FLbw9WlY" = _FLbw9WlY;
         "FsS0WvZY" = _FsS0WvZY;
         "y8YF9LbX" = _y8YF9LbX;
-        "neoforge-1.21.1" = _y8YF9LbX;
-        "forge-1.20.1" = _FsS0WvZY;
+        "6DOqpKW2" = _6DOqpKW2;
+        "vsl7ajgr" = _vsl7ajgr;
+        "neoforge-1.21.1" = _vsl7ajgr;
+        "forge-1.20.1" = _6DOqpKW2;
         "pkg-0.3.0-1.21.1" = _lmeKHRfk;
         "pkg-0.4.0-1.21.1" = _uDOPy3JE;
         "pkg-0.5.0-1.21.1" = _mLhcVbmr;
         "pkg-0.5.0-1.21.1-bugfix" = _BXcLB3lh;
         "pkg-1.0.0" = _FLbw9WlY;
         "pkg-1.0.1" = _y8YF9LbX;
-        "default" = _y8YF9LbX;
+        "pkg-1.1.0" = _vsl7ajgr;
+        "default" = _vsl7ajgr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spice-of-life-maid";

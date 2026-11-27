@@ -336,6 +336,16 @@ let
             "file" = "deeperdarker-fabric-1.21-2.0.0-beta.1.jar";
             "hash" = "sha512-Mg8nJflgawJ+HPzcX4I8e2g7cMPQ5qL3zRaoqAS1DgX0USpxkGs1rRJyujU+umzOTcovAfMgM9krD4xk56Z+Kg==";
         };
+        _hUPFpm8e = {
+            "id" = "hUPFpm8e";
+            "file" = "deeperdarker-fabric-1.20-2.0.0-beta.2.jar";
+            "hash" = "sha512-kNsmBcSigNwVfyvY2HPaCLwJfCcOmBfqsG29D3JkbQWXqDnoKwhY0czOcOEU5Enn7jhgDlx4NZUOd8g4ZvPNRw==";
+        };
+        _vRy0u402 = {
+            "id" = "vRy0u402";
+            "file" = "deeperdarker-fabric-1.21-2.0.0-beta.2.jar";
+            "hash" = "sha512-IcH8MHhDuEqq9F+rc0KFB/3jea4q43xTe0IDMGwwYptUAEnnYam3g6J9nfiR0ShLUfunLgfrmdksj0P7SP65Uw==";
+        };
     in {
         "zmp1LB6f" = _zmp1LB6f;
         "gWRODK5Q" = _gWRODK5Q;
@@ -404,16 +414,18 @@ let
         "JRleU5be" = _JRleU5be;
         "MyyeQfjf" = _MyyeQfjf;
         "aWlz3zKE" = _aWlz3zKE;
+        "hUPFpm8e" = _hUPFpm8e;
+        "vRy0u402" = _vRy0u402;
         "fabric-1.19.2" = _yjzDdEJ8;
         "fabric-1.19.1" = _q4LMiB6a;
         "fabric-1.20" = _GeXcCDSS;
-        "fabric-1.20.1" = _MyyeQfjf;
+        "fabric-1.20.1" = _hUPFpm8e;
         "fabric-1.20.2" = _YFALMm6i;
         "fabric-1.20.3" = _ymLEGdJs;
         "fabric-1.20.4" = _1MWYg4UJ;
         "fabric-1.21" = _3MnQb3Tb;
-        "fabric-1.21.1" = _aWlz3zKE;
-        "fabric-1.21.2" = _aWlz3zKE;
+        "fabric-1.21.1" = _vRy0u402;
+        "fabric-1.21.2" = _vRy0u402;
         "quilt-1.19.2" = _8YNGmA5A;
         "quilt-1.19.1" = _q4LMiB6a;
         "quilt-1.20" = _BCzjX2ii;
@@ -494,7 +506,9 @@ let
         "pkg-2.0.0s-alpha.1+1.20.1" = _JRleU5be;
         "pkg-2.0.0s-beta.1+1.20.1" = _MyyeQfjf;
         "pkg-2.0.0s-beta.1+1.21.1" = _aWlz3zKE;
-        "default" = _aWlz3zKE;
+        "pkg-2.0.0s-beta.2+1.20.1" = _hUPFpm8e;
+        "pkg-2.0.0s-beta.2+1.21.1" = _vRy0u402;
+        "default" = _vRy0u402;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "deeperdarker";

@@ -801,6 +801,21 @@ let
             "file" = "snowyspirit-26.1.2-3.3.0-fabric.jar";
             "hash" = "sha512-AMzRVcf1W1FrlUyFYnSvJVSR0Iim4XkGV4QqIjhttlq2NNnVv0EZ09SHQ3XU9lupE+elkSYpv/CAxo1aUct7kQ==";
         };
+        _q0AhTNm5 = {
+            "id" = "q0AhTNm5";
+            "file" = "snowyspirit-1.21.1-3.2.2-neoforge.jar";
+            "hash" = "sha512-FGOkewkhRCLqf/K3werSKTCy4jwyvjXbop0u21c3rZek+r3p4BsbVoxwMOLGW6nJP7ElQelKJEodaHFmPvebug==";
+        };
+        _pYbM6ucS = {
+            "id" = "pYbM6ucS";
+            "file" = "snowyspirit-1.21.1-3.2.2-fabric.jar";
+            "hash" = "sha512-MEC7VgIGA4crlSmQ2FS4uFVEEvHwbG0iOApMXq0CWU+jb7NqLVPhfi7zwHJvIvkrXMwLEjUx24yl6ltLhh0sSA==";
+        };
+        _xqgQVA2T = {
+            "id" = "xqgQVA2T";
+            "file" = "snowyspirit-26.1.2-3.3.1-fabric.jar";
+            "hash" = "sha512-rETHWW4FUCnCwcSOgE+u9Fk3d7RikYtAHXszYrJhiioJl/svYfAr6pjvi/m3UtWSL1z+6yVfqiMTGrKbnq6pHA==";
+        };
     in {
         "DvuLtHIF" = _DvuLtHIF;
         "Ylwzu9Gx" = _Ylwzu9Gx;
@@ -962,6 +977,9 @@ let
         "hBw8KIIu" = _hBw8KIIu;
         "bDqyHuYN" = _bDqyHuYN;
         "PHYDOXaP" = _PHYDOXaP;
+        "q0AhTNm5" = _q0AhTNm5;
+        "pYbM6ucS" = _pYbM6ucS;
+        "xqgQVA2T" = _xqgQVA2T;
         "forge-1.18" = _SntgLYbR;
         "forge-1.18.1" = _SntgLYbR;
         "forge-1.18.2" = _xVGHuOSz;
@@ -979,11 +997,11 @@ let
         "fabric-1.20.1" = _i5YYwgT7;
         "fabric-1.20.4" = _7ceNjqvF;
         "fabric-1.21" = _VOsIx7Sx;
-        "fabric-1.21.1" = _hBw8KIIu;
-        "fabric-26.1.2" = _PHYDOXaP;
+        "fabric-1.21.1" = _pYbM6ucS;
+        "fabric-26.1.2" = _xqgQVA2T;
         "neoforge-1.20.4" = _oFLSOtKt;
         "neoforge-1.21" = _Dfz6xp7W;
-        "neoforge-1.21.1" = _lNnJnr9q;
+        "neoforge-1.21.1" = _q0AhTNm5;
         "neoforge-26.1.2" = _bDqyHuYN;
         "pkg-0" = _DvuLtHIF;
         "pkg-1" = _Ylwzu9Gx;
@@ -1107,7 +1125,9 @@ let
         "pkg-1.20-3.0.12" = _qVcfvRob;
         "pkg-1.21.1-3.2.0" = _hBw8KIIu;
         "pkg-26.1.2-3.3.0" = _PHYDOXaP;
-        "default" = _PHYDOXaP;
+        "pkg-1.21.1-3.2.2" = _pYbM6ucS;
+        "pkg-26.1.2-3.3.1" = _xqgQVA2T;
+        "default" = _xqgQVA2T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "snowy-spirit";

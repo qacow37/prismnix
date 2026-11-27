@@ -216,6 +216,16 @@ let
             "file" = "apprentice_codex-1.0.1+mc1.21.1.jar";
             "hash" = "sha512-lyyrPIochScvkm3IFR/mrUQUd/ZiTbLGtkekze/FN633UhbxAhb+gfKBfql7Lmz0mAs4ycuNArd3jHOTXJ71Jw==";
         };
+        _DwR93grH = {
+            "id" = "DwR93grH";
+            "file" = "apprentice_codex-1.0.1.1+mc1.20.1.jar";
+            "hash" = "sha512-awZ0adULCeGrJ7bbBWUeQihAdvDpLvE7FHaQAGwQuvXrbnsMf4DCTnzDvUmlwZmJ0XtINGGsjY/F2iGuBOUreQ==";
+        };
+        _GokXDs85 = {
+            "id" = "GokXDs85";
+            "file" = "apprentice_codex-1.0.1.1+mc1.21.1.jar";
+            "hash" = "sha512-rf9RHGXEph6M1qSST7/hKvlKKzmEOUfryJ4px9qd7o5+pO3GG1sl/U9MDIUVAM9V9OdVjZ66ZP6lgAAASbRz5A==";
+        };
     in {
         "ohKqj07v" = _ohKqj07v;
         "Q2oINC9L" = _Q2oINC9L;
@@ -260,8 +270,10 @@ let
         "GAIEdzhv" = _GAIEdzhv;
         "X1D9Suqc" = _X1D9Suqc;
         "4Wz2Dikf" = _4Wz2Dikf;
-        "forge-1.20.1" = _X1D9Suqc;
-        "neoforge-1.21.1" = _4Wz2Dikf;
+        "DwR93grH" = _DwR93grH;
+        "GokXDs85" = _GokXDs85;
+        "forge-1.20.1" = _DwR93grH;
+        "neoforge-1.21.1" = _GokXDs85;
         "pkg-0.7.1.1" = _ohKqj07v;
         "pkg-0.7.1" = _Q2oINC9L;
         "pkg-0.7.1.2" = _gamXQ4y7;
@@ -287,7 +299,8 @@ let
         "pkg-0.9.8.2" = _dcsapB6x;
         "pkg-1.0.0" = _GAIEdzhv;
         "pkg-1.0.1" = _4Wz2Dikf;
-        "default" = _4Wz2Dikf;
+        "pkg-1.0.1.1" = _GokXDs85;
+        "default" = _GokXDs85;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "apprentices-codex";

@@ -376,6 +376,46 @@ let
             "file" = "notenoughwands-1.21-7.0.3.jar";
             "hash" = "sha512-VvTD+UAdR1JG1OqXs6mwX/vr+UBLE1J58RXu2PnvHhpha0KsWs2liWgQVQrTUA2tZ+sXGrUzlTX6btptJtEy8A==";
         };
+        _DKloR4UF = {
+            "id" = "DKloR4UF";
+            "file" = "notenoughwands-1.20-6.0.3.jar";
+            "hash" = "sha512-1IbLpoAK0WlyPzBmSCjNjUV+5QW1EdlMN6hbT1R47exP+0FUZ6NZqQ3z2b4+XVJLPNRt92CDZciEEt3dcDCK5Q==";
+        };
+        _9QrPJ9eG = {
+            "id" = "9QrPJ9eG";
+            "file" = "notenoughwands-1.21-7.0.4.jar";
+            "hash" = "sha512-rhTX32LvCTwU7PpXc0Ud/Y6AqQBc6vo/tUcwp1x+NH/CE33lT0phiJlLNEVkvJsfe8uJo12Tk0APTpe7Is5uCw==";
+        };
+        _15Goe4rp = {
+            "id" = "15Goe4rp";
+            "file" = "notenoughwands-26.1.2-8.0.0.jar";
+            "hash" = "sha512-5JHtYLsFAKonfX4oF27BvLgBTChhgekfa4NlbWQtABJdnzq4gSFeeg7me8ql4FAITgHW/cU35t5urzNMIBvJsQ==";
+        };
+        _nlsaNjKt = {
+            "id" = "nlsaNjKt";
+            "file" = "notenoughwands-fabric-26.1.2-8.0.0-fabric.jar";
+            "hash" = "sha512-jQRhEzPNM5Ys5dWzH+2QvTF0c03xOgdqL+elbMQQiwK/e7+WLhhEHCL3o4tVwRgkBhB9HLsT8vt7pewLYkdIdg==";
+        };
+        _LuYC0Btm = {
+            "id" = "LuYC0Btm";
+            "file" = "notenoughwands-26.2-9.0.0.jar";
+            "hash" = "sha512-XgplgV/At4Q/3qGOA+yubeWTLJHTxWCGc5KI/Sc807Ndm24GFyIIhN8fWVpNP+KvLR9s1ECXHTTHHnjPTHL+zQ==";
+        };
+        _oQJ5hXS0 = {
+            "id" = "oQJ5hXS0";
+            "file" = "notenoughwands-fabric-26.2-9.0.0-fabric.jar";
+            "hash" = "sha512-SOOzISOkq3J6yM9TkKEif/akuqloFD6eef/7N4YHqoW+IkO1Nj6gDdhXEeLGGlkZ2nLFzDT4JKRGybAj62Tjbw==";
+        };
+        _yC6bOBhp = {
+            "id" = "yC6bOBhp";
+            "file" = "notenoughwands-26.3-10.0.0.jar";
+            "hash" = "sha512-1Nnok9mslIp8MVAVcrVK0bHSxcxXDXpOY0/c9CrPOoHj6t0WltwuLLP9+O0r/tOMmslFUPUG6sgj11Sfs7azLg==";
+        };
+        _BRNldfM3 = {
+            "id" = "BRNldfM3";
+            "file" = "notenoughwands-fabric-26.3-10.0.0-fabric.jar";
+            "hash" = "sha512-ZNa5wYb5jTAKPuBGvqTGvm2SqkSXW8f+gwm4WJFuQj88kvyPSynhlEvUx7QwvavKr3l5FALNCVH65ESXWJ8QnQ==";
+        };
     in {
         "9WgMo33L" = _9WgMo33L;
         "NqoNpyxJ" = _NqoNpyxJ;
@@ -452,6 +492,14 @@ let
         "TfwQaKau" = _TfwQaKau;
         "jH4hHVVr" = _jH4hHVVr;
         "H6fYHWO0" = _H6fYHWO0;
+        "DKloR4UF" = _DKloR4UF;
+        "9QrPJ9eG" = _9QrPJ9eG;
+        "15Goe4rp" = _15Goe4rp;
+        "nlsaNjKt" = _nlsaNjKt;
+        "LuYC0Btm" = _LuYC0Btm;
+        "oQJ5hXS0" = _oQJ5hXS0;
+        "yC6bOBhp" = _yC6bOBhp;
+        "BRNldfM3" = _BRNldfM3;
         "forge-1.7.10" = _6SchPOR7;
         "forge-1.8.8" = _lz0ZF6hX;
         "forge-1.8.9" = _rINC5I6n;
@@ -473,12 +521,18 @@ let
         "forge-1.19.2" = _OET0iIJz;
         "forge-1.19.3" = _OET0iIJz;
         "forge-1.19.4" = _OET0iIJz;
-        "forge-1.20.1" = _2X1skJtu;
+        "forge-1.20.1" = _DKloR4UF;
         "fabric-18w50a" = _tWilffmc;
         "fabric-19w02a" = _TfadgI4A;
         "fabric-19w08a" = _gDyXoBdB;
         "fabric-1.14.1" = _p84YazhS;
-        "neoforge-1.21.1" = _H6fYHWO0;
+        "fabric-26.1.2" = _nlsaNjKt;
+        "fabric-26.2" = _oQJ5hXS0;
+        "fabric-26.3" = _BRNldfM3;
+        "neoforge-1.21.1" = _9QrPJ9eG;
+        "neoforge-26.1.2" = _15Goe4rp;
+        "neoforge-26.2" = _LuYC0Btm;
+        "neoforge-26.3" = _yC6bOBhp;
         "pkg-0.0.1" = _9WgMo33L;
         "pkg-0.0.2" = _NqoNpyxJ;
         "pkg-1.0.0" = _H8xLNeUy;
@@ -553,7 +607,15 @@ let
         "pkg-1.21-7.0.1" = _TfwQaKau;
         "pkg-1.21-7.0.2" = _jH4hHVVr;
         "pkg-1.21-7.0.3" = _H6fYHWO0;
-        "default" = _H6fYHWO0;
+        "pkg-1.20-6.0.3" = _DKloR4UF;
+        "pkg-1.21-7.0.4" = _9QrPJ9eG;
+        "pkg-26.1.2-8.0.0" = _15Goe4rp;
+        "pkg-26.1.2-8.0.0-fabric" = _nlsaNjKt;
+        "pkg-26.2-9.0.0" = _LuYC0Btm;
+        "pkg-26.2-9.0.0-fabric" = _oQJ5hXS0;
+        "pkg-26.3-10.0.0" = _yC6bOBhp;
+        "pkg-26.3-10.0.0-fabric" = _BRNldfM3;
+        "default" = _BRNldfM3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "not-enough-wands";

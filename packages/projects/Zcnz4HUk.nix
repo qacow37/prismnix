@@ -116,6 +116,11 @@ let
             "file" = "deepspace-1.6.0-RELEASE.jar";
             "hash" = "sha512-VGHu3el7ruvfZVB2V2CRa9FJo3Ve7BTFad2sCx2dX0/hjZ/WJlFM2WB1G7Rvpv88RDJjiNNRo2m7BxvGCvNqDw==";
         };
+        _ffqIXK97 = {
+            "id" = "ffqIXK97";
+            "file" = "deepspace-1.6.1-RELEASE.jar";
+            "hash" = "sha512-xLFU0i5Qh+Sx3vgoUHPG16LrQaSkhAwkDrx8eoVStfZDHyVZbuAySCw6aLfTzWdmnemAfQYlnXvwGzsMm6spDQ==";
+        };
     in {
         "VW6uWBUA" = _VW6uWBUA;
         "gOArYR72" = _gOArYR72;
@@ -140,8 +145,9 @@ let
         "xmHMv6df" = _xmHMv6df;
         "OU0cZt5i" = _OU0cZt5i;
         "CM8bxKm2" = _CM8bxKm2;
+        "ffqIXK97" = _ffqIXK97;
         "neoforge-1.21" = _eIaIJSMA;
-        "neoforge-1.21.1" = _CM8bxKm2;
+        "neoforge-1.21.1" = _ffqIXK97;
         "neoforge-1.21.2" = _eIaIJSMA;
         "neoforge-1.21.3" = _eIaIJSMA;
         "neoforge-1.21.4" = _eIaIJSMA;
@@ -172,7 +178,8 @@ let
         "pkg-1.4.4-RELEASE" = _xmHMv6df;
         "pkg-1.4.5-RELEASE" = _OU0cZt5i;
         "pkg-1.6.0-RELEASE" = _CM8bxKm2;
-        "default" = _CM8bxKm2;
+        "pkg-1.6.1-RELEASE" = _ffqIXK97;
+        "default" = _ffqIXK97;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "deep-space";

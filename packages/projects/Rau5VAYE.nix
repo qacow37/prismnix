@@ -41,6 +41,11 @@ let
             "file" = "wynnlodgrabber-1.3.1.jar";
             "hash" = "sha512-ZOVVZBAFBpy/+FHREQHvz4dDcrDQmjxI7bTpp3a2Gg/szsH5rKJ5HDqY3AWgEjVZeKqaSttb2aJrOoL129x33Q==";
         };
+        _9taYM86F = {
+            "id" = "9taYM86F";
+            "file" = "wynnlodgrabber-1.3.2.jar";
+            "hash" = "sha512-jwsmWQTk3IXz+Sy5PqzYmZMBpQwom7E+SMSpQXwk7lsNeCmPV/cGMLvybEt4IZSEesuLL93CGrGU4tOF8GD4Hg==";
+        };
     in {
         "TLdkzuIA" = _TLdkzuIA;
         "X1xm02kA" = _X1xm02kA;
@@ -50,9 +55,10 @@ let
         "OPGW6sV9" = _OPGW6sV9;
         "7B7V1kWl" = _7B7V1kWl;
         "iBORM5Js" = _iBORM5Js;
+        "9taYM86F" = _9taYM86F;
         "fabric-1.21.1" = _Fu1rLCSi;
         "fabric-1.21.4" = _YHe6YmRk;
-        "fabric-1.21.11" = _iBORM5Js;
+        "fabric-1.21.11" = _9taYM86F;
         "pkg-1.0.0" = _TLdkzuIA;
         "pkg-1.0.2" = _X1xm02kA;
         "pkg-1.0.3" = _Fu1rLCSi;
@@ -61,7 +67,8 @@ let
         "pkg-1.2.1" = _OPGW6sV9;
         "pkg-1.3.0" = _7B7V1kWl;
         "pkg-1.3.1" = _iBORM5Js;
-        "default" = _iBORM5Js;
+        "pkg-1.3.2" = _9taYM86F;
+        "default" = _9taYM86F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wynnlodgrabber";

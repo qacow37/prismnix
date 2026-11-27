@@ -251,6 +251,36 @@ let
             "file" = "FishModDungeons-1.7.18-26.2.jar";
             "hash" = "sha512-8+Kt0euDGasdNUIbj7sB9+9Tr+3VCVNqqfXuVktmK8wroEFmzOHALc5/vS3h6yLDBIn2QWqqSpiPmzAWGuo6LQ==";
         };
+        _5LVUBZsL = {
+            "id" = "5LVUBZsL";
+            "file" = "FishModDungeons-1.8.44-26.1.2.jar";
+            "hash" = "sha512-vBU5HXm/67YSiVTFOAx36+CM8CglKGGqkQ/qoKtpAhx6DjADVc60gdTCkCA3vmjc9+gNci3pi67VYvguLP8rXw==";
+        };
+        _9pJe4jBP = {
+            "id" = "9pJe4jBP";
+            "file" = "FishModDungeons-1.8.43-26.2.jar";
+            "hash" = "sha512-2GCqXh57zrxZvALmUe7yJWIcykwcpCzV0jiOUzIGr1Rb3G+YY5AW+h6GBpF60UqntfiAvFrGgOeywOg/kUpp0g==";
+        };
+        _jJTzeuUc = {
+            "id" = "jJTzeuUc";
+            "file" = "FishModDungeons-1.8.46-26.3.jar";
+            "hash" = "sha512-FZMkGV9ohWTS4J63gLAETpFfumuBvGtqBdMeWprKbh4xfra6Q+UpTun+eq/5Anjbs376kuFIc/XzsNxoUR2nTg==";
+        };
+        _77XNHy9r = {
+            "id" = "77XNHy9r";
+            "file" = "FishModDungeons-1.8.115-26.1.2.jar";
+            "hash" = "sha512-k4hsmaf2cm7nJsFP0nsKIhEU0O2MDHVGd8U1GIFWx0L8pNc25DnTEVRG4d1olgZ9Mbn+0hi0YDSrF3g+rBV3zg==";
+        };
+        _grX55nBd = {
+            "id" = "grX55nBd";
+            "file" = "FishModDungeons-1.8.115-26.2.jar";
+            "hash" = "sha512-6cxbFpaDJzPxdkrr63PFabqUDaN5BGyhePymVqVsWq4pShZIVBNLWm/h6N3ba/wk0p43FBYAjtYsYTChnREuag==";
+        };
+        _HxaJhP09 = {
+            "id" = "HxaJhP09";
+            "file" = "FishModDungeons-1.8.115-26.3.jar";
+            "hash" = "sha512-DZg04jkYxvUvO1anhkgGLTC7AWPj5ksssKwOcPaMp0+VSJnrFB0I+LbE1Wq8Wfveu6cYLKyqT2D5fLjdTlaiYw==";
+        };
     in {
         "WBvrQK1t" = _WBvrQK1t;
         "3C4YVQPN" = _3C4YVQPN;
@@ -302,9 +332,16 @@ let
         "V6rDGf6b" = _V6rDGf6b;
         "92EAkYzi" = _92EAkYzi;
         "GdAGJbUZ" = _GdAGJbUZ;
+        "5LVUBZsL" = _5LVUBZsL;
+        "9pJe4jBP" = _9pJe4jBP;
+        "jJTzeuUc" = _jJTzeuUc;
+        "77XNHy9r" = _77XNHy9r;
+        "grX55nBd" = _grX55nBd;
+        "HxaJhP09" = _HxaJhP09;
         "fabric-1.21.11" = _qpq8CtQM;
-        "fabric-26.2" = _GdAGJbUZ;
-        "fabric-26.1.2" = _92EAkYzi;
+        "fabric-26.2" = _grX55nBd;
+        "fabric-26.1.2" = _77XNHy9r;
+        "fabric-26.3" = _HxaJhP09;
         "pkg-1.0.0" = _WBvrQK1t;
         "pkg-1.1" = _HOCJuwrH;
         "pkg-1" = _nRs500oE;
@@ -354,7 +391,9 @@ let
         "pkg-1.7.0-26.1.2" = _V6rDGf6b;
         "pkg-1.7.1-26.1.2" = _92EAkYzi;
         "pkg-1.7.1-26.2" = _GdAGJbUZ;
-        "default" = _GdAGJbUZ;
+        "pkg-1.8.0" = _jJTzeuUc;
+        "pkg-1.8.1" = _HxaJhP09;
+        "default" = _HxaJhP09;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fishmod";

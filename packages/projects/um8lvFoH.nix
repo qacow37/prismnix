@@ -31,6 +31,11 @@ let
             "file" = "§bukia tools.zip";
             "hash" = "sha512-lX5aWfZJgeyWMeZZ3lIeRfhvyrv7rno0DkUOVBYjyg1D5du80YRZ7vn1zuQUA6VzjfEgw21q2mOmT0jUJ/qpUA==";
         };
+        _1xFAtqbQ = {
+            "id" = "1xFAtqbQ";
+            "file" = "§bukia tools.zip";
+            "hash" = "sha512-MNDXK+d8TPR6819MtOXdrFzPehJf97MulGhW58B742JQprTvfKqGd/a3q0tZ8g6FzsavjlbhoZmZoheYvvg6BA==";
+        };
     in {
         "sJLlaUmk" = _sJLlaUmk;
         "a9VvrKIW" = _a9VvrKIW;
@@ -38,6 +43,7 @@ let
         "B39ZDnGt" = _B39ZDnGt;
         "V1auLjXz" = _V1auLjXz;
         "HEn726Yv" = _HEn726Yv;
+        "1xFAtqbQ" = _1xFAtqbQ;
         "minecraft-1.21.11" = _a9VvrKIW;
         "minecraft-26.1" = _CkAZMC5v;
         "minecraft-26.1.1" = _CkAZMC5v;
@@ -46,12 +52,14 @@ let
         "minecraft-26.3-snapshot-8" = _V1auLjXz;
         "minecraft-26.3-snapshot-9" = _V1auLjXz;
         "minecraft-26.3" = _HEn726Yv;
+        "minecraft-26.4-pre-1" = _1xFAtqbQ;
         "pkg-1.0" = _sJLlaUmk;
         "pkg-1.0.1" = _a9VvrKIW;
         "pkg-1.1" = _CkAZMC5v;
         "pkg-1.2" = _B39ZDnGt;
         "pkg-1.3" = _HEn726Yv;
-        "default" = _HEn726Yv;
+        "pkg-1.4" = _1xFAtqbQ;
+        "default" = _1xFAtqbQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ukias-tools";

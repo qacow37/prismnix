@@ -26,12 +26,18 @@ let
             "file" = "snaptapmc-2.0.jar";
             "hash" = "sha512-DdUc6343oEll2rdZVZfn90AxzT1HDo94rsQ5yH2xHvh0SxzsLwBqUPJpH6NejJ5TvX0KSK2WBabfzYQR0vyAAw==";
         };
+        _XpI0jLnC = {
+            "id" = "XpI0jLnC";
+            "file" = "snaptapmc-2.1.jar";
+            "hash" = "sha512-yO/PGYRuLhP7zJWPl/9oRCjikhhgB5iSWXBc8q+8q2BUM4pK/WoAU/1vPEVnZlnIZL82+I41yMrGoW1pH2Feug==";
+        };
     in {
         "ERJTZS0f" = _ERJTZS0f;
         "Mgp4kmFN" = _Mgp4kmFN;
         "oNbODgc2" = _oNbODgc2;
         "Np3pSy8t" = _Np3pSy8t;
         "SIy3wSmp" = _SIy3wSmp;
+        "XpI0jLnC" = _XpI0jLnC;
         "fabric-1.21.1" = _Np3pSy8t;
         "fabric-1.15" = _Np3pSy8t;
         "fabric-1.15.1" = _Np3pSy8t;
@@ -74,13 +80,15 @@ let
         "fabric-26.1.1" = _SIy3wSmp;
         "fabric-26.1.2" = _SIy3wSmp;
         "fabric-26.2" = _SIy3wSmp;
+        "fabric-26.3" = _XpI0jLnC;
         "quilt-1.21.1" = _Mgp4kmFN;
         "pkg-1.1" = _ERJTZS0f;
         "pkg-1.2" = _Mgp4kmFN;
         "pkg-1.6" = _oNbODgc2;
         "pkg-1.7" = _Np3pSy8t;
         "pkg-2.0" = _SIy3wSmp;
-        "default" = _SIy3wSmp;
+        "pkg-2.1" = _XpI0jLnC;
+        "default" = _XpI0jLnC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "snap-tap";

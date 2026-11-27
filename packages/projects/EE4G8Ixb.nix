@@ -1,0 +1,135 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _wQSYDNvY = {
+            "id" = "wQSYDNvY";
+            "file" = "Nat-MOTD-1.1.jar";
+            "hash" = "sha512-bg+N3o1aBT9eU9DW8g+n+KtaACJ4e1BNY0aZY24I4SHv6olAh+9E0SeNJJ8H+tnqlTdhk5tPEpjbd2ym4duzGg==";
+        };
+        _ANQpexWQ = {
+            "id" = "ANQpexWQ";
+            "file" = "NAT-MOTD-1.1-velocity.jar";
+            "hash" = "sha512-46qyDHSY8PxIj3t984WZzIFzmdu3/sqH4oP024fERqXxEemUsHEGmwdN2DGAicC4DMDQV0zXMIM+NOiA8kOVgg==";
+        };
+        _rEdLHuG7 = {
+            "id" = "rEdLHuG7";
+            "file" = "NAT-MOTD-1.3-velocity.jar";
+            "hash" = "sha512-0H1isXV295sSD7USroQeqcThphXH5hvVYVGnwkYujKS4xJbyzP4cIecFnblygEpa3IPtVyr3VetQqwnHb61OkQ==";
+        };
+        _6mTQuxV3 = {
+            "id" = "6mTQuxV3";
+            "file" = "NAT-MOTD-1.3-spigot.jar";
+            "hash" = "sha512-l2UgVRCDYSHTv/DGC58J/i+37sIrG75IBU43H0332MLUoulJmn03SffqcvmiTn7dFbV4LEzsu73apfCU/1cNDQ==";
+        };
+    in {
+        "wQSYDNvY" = _wQSYDNvY;
+        "ANQpexWQ" = _ANQpexWQ;
+        "rEdLHuG7" = _rEdLHuG7;
+        "6mTQuxV3" = _6mTQuxV3;
+        "bukkit-1.21" = _6mTQuxV3;
+        "bukkit-1.21.1" = _6mTQuxV3;
+        "bukkit-1.21.2" = _6mTQuxV3;
+        "bukkit-1.21.3" = _6mTQuxV3;
+        "bukkit-1.21.4" = _6mTQuxV3;
+        "bukkit-1.21.5" = _6mTQuxV3;
+        "bukkit-1.21.6" = _6mTQuxV3;
+        "bukkit-1.21.7" = _6mTQuxV3;
+        "bukkit-1.21.8" = _6mTQuxV3;
+        "bukkit-1.21.10" = _6mTQuxV3;
+        "bukkit-1.21.11" = _6mTQuxV3;
+        "bukkit-1.21.9" = _6mTQuxV3;
+        "bukkit-26.1" = _6mTQuxV3;
+        "bukkit-26.1.1" = _6mTQuxV3;
+        "bukkit-26.1.2" = _6mTQuxV3;
+        "bukkit-26.2" = _6mTQuxV3;
+        "bukkit-26.3" = _6mTQuxV3;
+        "paper-1.21" = _6mTQuxV3;
+        "paper-1.21.1" = _6mTQuxV3;
+        "paper-1.21.2" = _6mTQuxV3;
+        "paper-1.21.3" = _6mTQuxV3;
+        "paper-1.21.4" = _6mTQuxV3;
+        "paper-1.21.5" = _6mTQuxV3;
+        "paper-1.21.6" = _6mTQuxV3;
+        "paper-1.21.7" = _6mTQuxV3;
+        "paper-1.21.8" = _6mTQuxV3;
+        "paper-1.21.10" = _6mTQuxV3;
+        "paper-1.21.11" = _6mTQuxV3;
+        "paper-1.21.9" = _6mTQuxV3;
+        "paper-26.1" = _6mTQuxV3;
+        "paper-26.1.1" = _6mTQuxV3;
+        "paper-26.1.2" = _6mTQuxV3;
+        "paper-26.2" = _6mTQuxV3;
+        "paper-26.3" = _6mTQuxV3;
+        "spigot-1.21" = _6mTQuxV3;
+        "spigot-1.21.1" = _6mTQuxV3;
+        "spigot-1.21.2" = _6mTQuxV3;
+        "spigot-1.21.3" = _6mTQuxV3;
+        "spigot-1.21.4" = _6mTQuxV3;
+        "spigot-1.21.5" = _6mTQuxV3;
+        "spigot-1.21.6" = _6mTQuxV3;
+        "spigot-1.21.7" = _6mTQuxV3;
+        "spigot-1.21.8" = _6mTQuxV3;
+        "spigot-1.21.10" = _6mTQuxV3;
+        "spigot-1.21.11" = _6mTQuxV3;
+        "spigot-1.21.9" = _6mTQuxV3;
+        "spigot-26.1" = _6mTQuxV3;
+        "spigot-26.1.1" = _6mTQuxV3;
+        "spigot-26.1.2" = _6mTQuxV3;
+        "spigot-26.2" = _6mTQuxV3;
+        "spigot-26.3" = _6mTQuxV3;
+        "velocity-1.21" = _rEdLHuG7;
+        "velocity-1.21.1" = _rEdLHuG7;
+        "velocity-1.21.10" = _rEdLHuG7;
+        "velocity-1.21.2" = _rEdLHuG7;
+        "velocity-1.21.3" = _rEdLHuG7;
+        "velocity-1.21.4" = _rEdLHuG7;
+        "velocity-1.21.5" = _rEdLHuG7;
+        "velocity-1.21.6" = _rEdLHuG7;
+        "velocity-1.21.7" = _rEdLHuG7;
+        "velocity-1.21.8" = _rEdLHuG7;
+        "velocity-1.21.9" = _rEdLHuG7;
+        "velocity-1.21.11" = _rEdLHuG7;
+        "velocity-26.1" = _rEdLHuG7;
+        "velocity-26.1.1" = _rEdLHuG7;
+        "velocity-26.1.2" = _rEdLHuG7;
+        "velocity-26.2" = _rEdLHuG7;
+        "velocity-26.3" = _rEdLHuG7;
+        "purpur-1.21" = _6mTQuxV3;
+        "purpur-1.21.1" = _6mTQuxV3;
+        "purpur-1.21.10" = _6mTQuxV3;
+        "purpur-1.21.11" = _6mTQuxV3;
+        "purpur-1.21.2" = _6mTQuxV3;
+        "purpur-1.21.3" = _6mTQuxV3;
+        "purpur-1.21.4" = _6mTQuxV3;
+        "purpur-1.21.5" = _6mTQuxV3;
+        "purpur-1.21.6" = _6mTQuxV3;
+        "purpur-1.21.7" = _6mTQuxV3;
+        "purpur-1.21.8" = _6mTQuxV3;
+        "purpur-1.21.9" = _6mTQuxV3;
+        "purpur-26.1" = _6mTQuxV3;
+        "purpur-26.1.1" = _6mTQuxV3;
+        "purpur-26.1.2" = _6mTQuxV3;
+        "purpur-26.2" = _6mTQuxV3;
+        "purpur-26.3" = _6mTQuxV3;
+        "pkg-1.1" = _wQSYDNvY;
+        "pkg-1.1.0" = _ANQpexWQ;
+        "pkg-1.3" = _6mTQuxV3;
+        "default" = _6mTQuxV3;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "nat-motd";
+        id = "EE4G8Ixb";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/Nat0uille/NAT-MOTD/blob/master/LICENSE";
+            };
+        };
+    };
+in callPackage fn {}

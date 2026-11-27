@@ -31,6 +31,11 @@ let
             "file" = "thicket-1.2.4-1.20.1.jar";
             "hash" = "sha512-t8Cda1Z+1NG/REuJfuXk7ORzwZ5rTgDGdGvEPgdYwyv+ZpY78xcFMmcD7EHpvL522Sc4R5TwoZT5ZxciVYZtsw==";
         };
+        _rXvKqDNX = {
+            "id" = "rXvKqDNX";
+            "file" = "thicket-1.3.0-1.20.1.jar";
+            "hash" = "sha512-BHZDJPBIeQYcC9BAgn2GTLO1ilxZ6barTwB2K8Ht9oVSy7MZVEvK6dYcmUD7G4bfBryetssvSZfkTL5ZFMqYew==";
+        };
     in {
         "KJToL33h" = _KJToL33h;
         "MhKSmTHo" = _MhKSmTHo;
@@ -38,14 +43,16 @@ let
         "FjffAzA6" = _FjffAzA6;
         "vtvMf4XW" = _vtvMf4XW;
         "S0SI2xqA" = _S0SI2xqA;
-        "forge-1.20.1" = _S0SI2xqA;
+        "rXvKqDNX" = _rXvKqDNX;
+        "forge-1.20.1" = _rXvKqDNX;
         "pkg-1.1-1.20.1" = _KJToL33h;
         "pkg-2.0-1.20.1" = _MhKSmTHo;
         "pkg-2.1-1.20.1" = _slkAq8wi;
         "pkg-2.2-1.20.1" = _FjffAzA6;
         "pkg-1.2.3-1.20.1" = _vtvMf4XW;
         "pkg-1.2.4-1.20.1" = _S0SI2xqA;
-        "default" = _S0SI2xqA;
+        "pkg-1.3.0-1.20.1" = _rXvKqDNX;
+        "default" = _rXvKqDNX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thicket";

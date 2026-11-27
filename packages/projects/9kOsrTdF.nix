@@ -66,6 +66,11 @@ let
             "file" = "Vintage 26w32a.zip";
             "hash" = "sha512-4+uD2rF2pHHGLaLVd5Nz4FJO1M1gC8enaXvKEZ8hf58tVd2ZZuBeiSORxjAsr01UZ2PnkX634J7jBUT7rWNXUA==";
         };
+        _7pCExNwV = {
+            "id" = "7pCExNwV";
+            "file" = "Vintage 26w48a.zip";
+            "hash" = "sha512-ZTiZbZ9OWUafq8h0jzxtkJ+zG1mqQ4qVzHQ+PAae1jc4R/UTHRnxtzFemJqeIAIVuqDVofW1BcoK0jM8soumeA==";
+        };
     in {
         "v0mDT9y3" = _v0mDT9y3;
         "6xkSshpb" = _6xkSshpb;
@@ -80,6 +85,7 @@ let
         "kZ1h603m" = _kZ1h603m;
         "ZIIG8AJZ" = _ZIIG8AJZ;
         "i5HKnPLD" = _i5HKnPLD;
+        "7pCExNwV" = _7pCExNwV;
         "minecraft-1.21.5" = _7MTmrJ8h;
         "minecraft-1.21.6" = _7MTmrJ8h;
         "minecraft-1.21.7" = _7MTmrJ8h;
@@ -144,10 +150,10 @@ let
         "minecraft-24w46a" = _mzEwXWOz;
         "minecraft-1.21.4" = _7MTmrJ8h;
         "minecraft-1.21.11" = _7MTmrJ8h;
-        "minecraft-26.1" = _i5HKnPLD;
-        "minecraft-26.1.1" = _i5HKnPLD;
-        "minecraft-26.1.2" = _i5HKnPLD;
-        "minecraft-26.2" = _i5HKnPLD;
+        "minecraft-26.1" = _7pCExNwV;
+        "minecraft-26.1.1" = _7pCExNwV;
+        "minecraft-26.1.2" = _7pCExNwV;
+        "minecraft-26.2" = _7pCExNwV;
         "minecraft-26.2-snapshot-2" = _i5HKnPLD;
         "minecraft-26.2-snapshot-3" = _i5HKnPLD;
         "minecraft-26.2-snapshot-4" = _i5HKnPLD;
@@ -170,6 +176,8 @@ let
         "minecraft-26.3-snapshot-5" = _i5HKnPLD;
         "minecraft-26.3-snapshot-6" = _i5HKnPLD;
         "minecraft-26.3-snapshot-7" = _i5HKnPLD;
+        "minecraft-26.3" = _7pCExNwV;
+        "minecraft-26.4-pre-1" = _7pCExNwV;
         "pkg-1.0" = _v0mDT9y3;
         "pkg-2.0" = _6xkSshpb;
         "pkg-2.1" = _EguIW7pM;
@@ -183,7 +191,8 @@ let
         "pkg-26w30a" = _kZ1h603m;
         "pkg-26w30b" = _ZIIG8AJZ;
         "pkg-26w32a" = _i5HKnPLD;
-        "default" = _i5HKnPLD;
+        "pkg-26w48a" = _7pCExNwV;
+        "default" = _7pCExNwV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vintage";

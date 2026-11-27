@@ -51,6 +51,11 @@ let
             "file" = "society-1.24.jar";
             "hash" = "sha512-AhD69hMJgMwEE0nDwRXQfH9qNKNS3H7kuktNGmHZpm/t7y10nBL45oaMpmqQD6uxM52BVxqFRG5gXhQgMmF2Yw==";
         };
+        _xjoO5la4 = {
+            "id" = "xjoO5la4";
+            "file" = "society-1.25.jar";
+            "hash" = "sha512-bi6veXoIl7E6pxeW5ad50LU/B0zFfahU92InmiX8Sa8NKWmswkhbG1npQLCzk9K1GjdI7bri0GM0aRQg46hTOw==";
+        };
     in {
         "E18qPV8r" = _E18qPV8r;
         "oBQjw8PM" = _oBQjw8PM;
@@ -62,7 +67,8 @@ let
         "U0rmaRrS" = _U0rmaRrS;
         "mIsUaM1t" = _mIsUaM1t;
         "j6YckAl0" = _j6YckAl0;
-        "forge-1.20.1" = _j6YckAl0;
+        "xjoO5la4" = _xjoO5la4;
+        "forge-1.20.1" = _xjoO5la4;
         "pkg-1.12" = _E18qPV8r;
         "pkg-1.13" = _oBQjw8PM;
         "pkg-1.16" = _cCZf2OMD;
@@ -73,7 +79,8 @@ let
         "pkg-1.22" = _U0rmaRrS;
         "pkg-1.23" = _mIsUaM1t;
         "pkg-1.24" = _j6YckAl0;
-        "default" = _j6YckAl0;
+        "pkg-1.25" = _xjoO5la4;
+        "default" = _xjoO5la4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "society-tweaks";

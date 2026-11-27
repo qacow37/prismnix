@@ -531,6 +531,36 @@ let
             "file" = "notchcurrency-0.13.4+1.21.11-modrinth.jar";
             "hash" = "sha512-Ze02rE6qMWIltQk43ey6+gwEyknzow0zEDDt2KOhhN/O7jUPXZaFnJH/lBntz112WRTtmri/gQFXzSIE7jgOzQ==";
         };
+        _a0GyWeuL = {
+            "id" = "a0GyWeuL";
+            "file" = "notchcurrency-0.14.0+26.2-modrinth.jar";
+            "hash" = "sha512-+9kBcvPfUNY/hbe5ixSLooEKgRhbJU21aGPl1fxYGOfb63c2t9rVE/9sAWboX/92OycpcBMWl8ib+x5I6VvDkw==";
+        };
+        _wJBFcIBP = {
+            "id" = "wJBFcIBP";
+            "file" = "notchcurrency-0.14.0+1.21.1-modrinth.jar";
+            "hash" = "sha512-2C3BiAvceK7eTLvoQVSfXWExi0wyQFHRBUy1rt2R7xltfYOpFzt8K2E2XJmDdV095NYigKMytaAc1Rce3Nzn2A==";
+        };
+        _LIf8XCKK = {
+            "id" = "LIf8XCKK";
+            "file" = "notchcurrency-0.14.0+26.1.2-modrinth.jar";
+            "hash" = "sha512-jjwd4AFpxykPio86BiY5gYtbt07trtGd+jZHbjF2S9VMddaBNj2YlVxCbhk4c37EmkyHbBeLNnC7IiqyAdNsXQ==";
+        };
+        _nmRpTw6l = {
+            "id" = "nmRpTw6l";
+            "file" = "notchcurrency-0.14.0+26.3-modrinth.jar";
+            "hash" = "sha512-pzX67+xlSbYcGOcGKpvXqB2WGDnb1VnatODtmNGcObi38g4sEarnvERm/sMCHvr+IGgN6yJT1yNpW4/0/ZIXKQ==";
+        };
+        _pm94xqyy = {
+            "id" = "pm94xqyy";
+            "file" = "notchcurrency-0.14.0+1.21.11-modrinth.jar";
+            "hash" = "sha512-gNDvr0zFARCxsHfq7I1EkwYMh0igy6ZJw50nlimXlsGHeJutiSYF0Jzr6TKSoNfKo2c0B0hJQflrm03gwFPFAw==";
+        };
+        _c9wNDSj3 = {
+            "id" = "c9wNDSj3";
+            "file" = "notchcurrency-0.14.0+1.20.1-modrinth.jar";
+            "hash" = "sha512-W/TEuUT4erWbjpUgO0MllQ+Y7QKaBco9n4mJH+5Xa5bos1MJmN930c7147eZDQw7QLlRGzVf3S7qrgtBnfMN1A==";
+        };
     in {
         "14NTpB3h" = _14NTpB3h;
         "obO5DodW" = _obO5DodW;
@@ -638,12 +668,18 @@ let
         "LF8PMAKx" = _LF8PMAKx;
         "3nQXOfRe" = _3nQXOfRe;
         "AvCaBauK" = _AvCaBauK;
-        "fabric-1.20.1" = _3nQXOfRe;
-        "fabric-1.21.1" = _LF8PMAKx;
-        "fabric-26.1.2" = _iuEpRhen;
-        "fabric-26.2" = _yaB866wF;
-        "fabric-1.21.11" = _AvCaBauK;
-        "fabric-26.3" = _3ecspAX5;
+        "a0GyWeuL" = _a0GyWeuL;
+        "wJBFcIBP" = _wJBFcIBP;
+        "LIf8XCKK" = _LIf8XCKK;
+        "nmRpTw6l" = _nmRpTw6l;
+        "pm94xqyy" = _pm94xqyy;
+        "c9wNDSj3" = _c9wNDSj3;
+        "fabric-1.20.1" = _c9wNDSj3;
+        "fabric-1.21.1" = _wJBFcIBP;
+        "fabric-26.1.2" = _LIf8XCKK;
+        "fabric-26.2" = _a0GyWeuL;
+        "fabric-1.21.11" = _pm94xqyy;
+        "fabric-26.3" = _nmRpTw6l;
         "pkg-0.1.0" = _14NTpB3h;
         "pkg-0.1.1" = _obO5DodW;
         "pkg-0.1.3" = _V1wN5j9o;
@@ -750,7 +786,13 @@ let
         "pkg-0.13.4+1.21.1" = _LF8PMAKx;
         "pkg-0.13.4+1.20.1" = _3nQXOfRe;
         "pkg-0.13.4+1.21.11" = _AvCaBauK;
-        "default" = _AvCaBauK;
+        "pkg-0.14.0+26.2" = _a0GyWeuL;
+        "pkg-0.14.0+1.21.1" = _wJBFcIBP;
+        "pkg-0.14.0+26.1.2" = _LIf8XCKK;
+        "pkg-0.14.0+26.3" = _nmRpTw6l;
+        "pkg-0.14.0+1.21.11" = _pm94xqyy;
+        "pkg-0.14.0+1.20.1" = _c9wNDSj3;
+        "default" = _c9wNDSj3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "notches-currency";

@@ -36,6 +36,11 @@ let
             "file" = "phantomsteps-1.0.2.jar";
             "hash" = "sha512-xd63+n08qFBoY+Tdd8PavThj2HHOyK3y9aU0QujGa+H9RyQfQMpQJa7E/p8a8MO+GiOAuRwvTkNl4uZTXBBtpg==";
         };
+        _DtHiEMXx = {
+            "id" = "DtHiEMXx";
+            "file" = "phantomsteps-1.0.3.jar";
+            "hash" = "sha512-bKLFjAc6LmikFFGMSqwNXpU9EnEzv7CfYfCCSnwV5mkdFAeGutxnX0laabLwhoGkmkEI/cMcNzXc0R/dtwbnfA==";
+        };
     in {
         "lFofIYA7" = _lFofIYA7;
         "HWX68BNo" = _HWX68BNo;
@@ -44,13 +49,16 @@ let
         "XqhOPHYi" = _XqhOPHYi;
         "PNs0nLIY" = _PNs0nLIY;
         "Uqm2oaD9" = _Uqm2oaD9;
+        "DtHiEMXx" = _DtHiEMXx;
         "neoforge-1.21.1" = _Uqm2oaD9;
+        "neoforge-26.3" = _DtHiEMXx;
         "forge-1.19.2" = _XqhOPHYi;
         "forge-1.20.1" = _PNs0nLIY;
         "pkg-1.0.0" = _lFofIYA7;
         "pkg-1.0.1" = _gEUgwniC;
         "pkg-1.0.2" = _Uqm2oaD9;
-        "default" = _Uqm2oaD9;
+        "pkg-1.0.3" = _DtHiEMXx;
+        "default" = _DtHiEMXx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "someones-there";

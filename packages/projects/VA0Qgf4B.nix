@@ -61,6 +61,11 @@ let
             "file" = "marieslib-0.1.2-beta.1.jar";
             "hash" = "sha512-edezCscosjajxPqLVhowKfGmuN0d6U91YHNtDQfHNYfBI2mmH/tLdUi22nnA3ttIy1y2To7ahnuw22TEVBMemA==";
         };
+        _jBA9Xm0C = {
+            "id" = "jBA9Xm0C";
+            "file" = "marieslib-0.1.2-beta.2.jar";
+            "hash" = "sha512-HlHrdIKw+OKwPMz3EcIeGbQr9irCHbfmis72jjPjUCV9IJnRCvQUUL0J/aN+Jv2mTDBwx6pF7dEYVCjYo/k+0Q==";
+        };
     in {
         "NYnewqdi" = _NYnewqdi;
         "LZs2VQG8" = _LZs2VQG8;
@@ -74,7 +79,8 @@ let
         "NUqICfES" = _NUqICfES;
         "SMd2vkx3" = _SMd2vkx3;
         "BMo8TNgA" = _BMo8TNgA;
-        "neoforge-1.21.1" = _BMo8TNgA;
+        "jBA9Xm0C" = _jBA9Xm0C;
+        "neoforge-1.21.1" = _jBA9Xm0C;
         "pkg-0.1.0-beta.1" = _NYnewqdi;
         "pkg-0.1.0-beta.2" = _LZs2VQG8;
         "pkg-0.1.0-beta.3" = _MQawp1LF;
@@ -87,7 +93,8 @@ let
         "pkg-0.1.1-beta.5" = _NUqICfES;
         "pkg-0.1.2-beta" = _SMd2vkx3;
         "pkg-0.1.2-beta.1" = _BMo8TNgA;
-        "default" = _BMo8TNgA;
+        "pkg-0.1.2-beta.2" = _jBA9Xm0C;
+        "default" = _jBA9Xm0C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "marieslib";

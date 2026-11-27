@@ -41,6 +41,11 @@ let
             "file" = "craftbound_oneblock-1.1.1.jar";
             "hash" = "sha512-6sYS7Jty3lEEX7PwMMN6R7Ey378UGZ2LNdv0JFXWBJhiXMhCyemKRColPuJbYs2L4sBTg/bj7cwNkBiz178JFw==";
         };
+        _9tz6WSU1 = {
+            "id" = "9tz6WSU1";
+            "file" = "craftbound_oneblock-1.1.2.jar";
+            "hash" = "sha512-owL+ieeW7r0d4cQFwr3dGYgkDE0IRnXwt8lJzBPwPSPfZeuKHZgyHpqp1lo+jsmG89WrSxbF2Ni0qO9oM+hErg==";
+        };
     in {
         "3N8W0QMc" = _3N8W0QMc;
         "hq7rr4mF" = _hq7rr4mF;
@@ -50,7 +55,9 @@ let
         "ELitcBc3" = _ELitcBc3;
         "ZtEg8jyv" = _ZtEg8jyv;
         "87Zf13uT" = _87Zf13uT;
+        "9tz6WSU1" = _9tz6WSU1;
         "neoforge-1.21.1" = _87Zf13uT;
+        "neoforge-26.3" = _9tz6WSU1;
         "forge-1.19.2" = _ELitcBc3;
         "forge-1.20.1" = _ZtEg8jyv;
         "pkg-0.1.0-beta.1" = _3N8W0QMc;
@@ -59,7 +66,8 @@ let
         "pkg-1.0.0" = _NNfHDXaW;
         "pkg-1.1.0" = _SxDCil6G;
         "pkg-1.1.1" = _87Zf13uT;
-        "default" = _87Zf13uT;
+        "pkg-1.1.2" = _9tz6WSU1;
+        "default" = _9tz6WSU1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craftbound-oneblock";

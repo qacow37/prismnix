@@ -91,6 +91,66 @@ let
             "file" = "BiomeShaderSwitch-neoforge-2.2.jar";
             "hash" = "sha512-dfMXHGfB3WbucMfyeVEP7viOjLdT8KEQT/dnymlN3EVOuQmWJdJjveCo7m+wDnJsqMSJ6dx5vxSbQQVSo/iFVQ==";
         };
+        _lU8cpHGK = {
+            "id" = "lU8cpHGK";
+            "file" = "BiomeShaderSwitch-2.3.jar";
+            "hash" = "sha512-8UUqerXfqUyv7VUsjtOiA6WNI6g4RL8BXQuFGZkSZJRgiLZoBTEt1jI1yXGSpYPWTDm7gaW2I3YSK8B5MXib9g==";
+        };
+        _lkMKCuIg = {
+            "id" = "lkMKCuIg";
+            "file" = "BiomeShaderSwitch-2.3.jar";
+            "hash" = "sha512-OCNd2LsX/jySqImiVeEpTXc5KkqVqU2JbN0+XA14A6FrM8JBBqI9+vdGh5mHIaztRwOHM5GPqiHSCuG+7a8krQ==";
+        };
+        _VdeWnbT8 = {
+            "id" = "VdeWnbT8";
+            "file" = "BiomeShaderSwitch-2.3.jar";
+            "hash" = "sha512-7aSXC96jerSxLQsDCoS2Pi1yCFxx3k17CoARzgsPzM0vFm5qftWhq6G5dPpNrmY+wf3vnt269bhF25exirV81g==";
+        };
+        _QF1gUVDT = {
+            "id" = "QF1gUVDT";
+            "file" = "BiomeShaderSwitch-2.3.jar";
+            "hash" = "sha512-iVHB0CED0s8zDe9LTLmS4zAq7QZM1mrn8H5PF+GyUJM8ADbAvWmRz7G+pBIXD2v1IUugD+3kK4snzdduIgwrfw==";
+        };
+        _LZG1ugMu = {
+            "id" = "LZG1ugMu";
+            "file" = "BiomeShaderSwitch-2.3.jar";
+            "hash" = "sha512-4ZM54iHRNj4BbolD/w0h6oySslGrP82qsFVebVkqx2FQ/xH0qjUkKttFKMPYXjZ48BCAbBvaG1RTg2q3rACr+A==";
+        };
+        _GAQivv49 = {
+            "id" = "GAQivv49";
+            "file" = "BiomeShaderSwitch-2.3.jar";
+            "hash" = "sha512-LQY9h/DsX6Jt0jWVWuCeL59J0HSDzFq9iu2SL8aFcIVRcXyg+3APy2KkhxWU1vOBVAfwgAm/I/FitJG9WId1hA==";
+        };
+        _SIdxYWkA = {
+            "id" = "SIdxYWkA";
+            "file" = "BiomeShaderSwitch-2.3.jar";
+            "hash" = "sha512-gKbXXwBts6F/TSOgId8rymDp1co/pv3Fy/IRXUIO/RFoCTNZ85JZVEAeSebUPUNDCV6LceKM689AMurn3blApA==";
+        };
+        _IkDa1yah = {
+            "id" = "IkDa1yah";
+            "file" = "BiomeShaderSwitch-2.3.jar";
+            "hash" = "sha512-ZTWxP6F9jvzFV2t9bh2maz0bsN6+Ix6DvJN3f+EgYTU3nK3P3Zh0LKRLmNMgwYMRjAYsU0DoGB+uByWMMWJyBg==";
+        };
+        _oOINJURH = {
+            "id" = "oOINJURH";
+            "file" = "BiomeShaderSwitch-2.3.jar";
+            "hash" = "sha512-aKqpRpI8EIrQdOIDSIu71qbWMU7L85cD0P5zfzjz+P7YvFdqx9LmbwGiGoJaZaU4KwHBfWov2yAKQ+LG3gMkSg==";
+        };
+        _JzisAZue = {
+            "id" = "JzisAZue";
+            "file" = "BiomeShaderSwitch-2.3.jar";
+            "hash" = "sha512-Vfc2ESr0U8Oksm7bs+ltbz+0JFs+PmnAs3SCPnuQa7d6H3WW7k/n0VUF9Igxr5/kvEJ3Txib34OwJ6jp5MyRCg==";
+        };
+        _GzHM3Yhl = {
+            "id" = "GzHM3Yhl";
+            "file" = "BiomeShaderSwitch-2.3.jar";
+            "hash" = "sha512-p67JCZioQCwN4d0w5jRFySUVBT1XqYPjQSDBYu4J/ZjTBSRpK6aqjHsJlWJp+artSpQ5sosv2HneqLlLl5DDGg==";
+        };
+        _9vTGS4O0 = {
+            "id" = "9vTGS4O0";
+            "file" = "BiomeShaderSwitch-2.3.jar";
+            "hash" = "sha512-xQwW48OJl7GHkhLUuFK+JeURpgynHwGxk2rYIcVsXpbaFAXM2b4tlgCukL6cjZvoblOA8/zwT9nM5T8tKc2UoA==";
+        };
     in {
         "NOZRdKZg" = _NOZRdKZg;
         "q8gfqesk" = _q8gfqesk;
@@ -110,24 +170,37 @@ let
         "2HeyXHWN" = _2HeyXHWN;
         "kAHSwnVf" = _kAHSwnVf;
         "iI5HFNvD" = _iI5HFNvD;
+        "lU8cpHGK" = _lU8cpHGK;
+        "lkMKCuIg" = _lkMKCuIg;
+        "VdeWnbT8" = _VdeWnbT8;
+        "QF1gUVDT" = _QF1gUVDT;
+        "LZG1ugMu" = _LZG1ugMu;
+        "GAQivv49" = _GAQivv49;
+        "SIdxYWkA" = _SIdxYWkA;
+        "IkDa1yah" = _IkDa1yah;
+        "oOINJURH" = _oOINJURH;
+        "JzisAZue" = _JzisAZue;
+        "GzHM3Yhl" = _GzHM3Yhl;
+        "9vTGS4O0" = _9vTGS4O0;
         "fabric-1.16.5" = _NOZRdKZg;
-        "fabric-1.20.1" = _NtFYVcPC;
-        "fabric-1.21.1" = _LVvu2NRM;
-        "fabric-1.21.11" = _SSAyLFPy;
-        "fabric-26.3" = _SEq627iw;
-        "fabric-26.2" = _dfLARUc1;
-        "fabric-1.21.4" = _2HeyXHWN;
-        "forge-1.20.1" = _h8I3u7Qc;
-        "neoforge-1.21.1" = _T2gyBfjt;
-        "neoforge-1.21.11" = _7p5Cm5Ok;
-        "neoforge-26.2" = _fVrszUb6;
-        "neoforge-1.21.4" = _kAHSwnVf;
-        "neoforge-26.3" = _iI5HFNvD;
+        "fabric-1.20.1" = _lkMKCuIg;
+        "fabric-1.21.1" = _QF1gUVDT;
+        "fabric-1.21.11" = _IkDa1yah;
+        "fabric-26.3" = _9vTGS4O0;
+        "fabric-26.2" = _JzisAZue;
+        "fabric-1.21.4" = _GAQivv49;
+        "forge-1.20.1" = _lU8cpHGK;
+        "neoforge-1.21.1" = _VdeWnbT8;
+        "neoforge-1.21.11" = _SIdxYWkA;
+        "neoforge-26.2" = _oOINJURH;
+        "neoforge-1.21.4" = _LZG1ugMu;
+        "neoforge-26.3" = _GzHM3Yhl;
         "pkg-1.0" = _q8gfqesk;
         "pkg-2.0" = _KvCUshZq;
         "pkg-2.1" = _ofABemzn;
         "pkg-2.2" = _iI5HFNvD;
-        "default" = _iI5HFNvD;
+        "pkg-2.3" = _9vTGS4O0;
+        "default" = _9vTGS4O0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "biome-shader-switch";

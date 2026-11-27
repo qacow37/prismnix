@@ -76,6 +76,21 @@ let
             "file" = "Sapixcraft 16x r1.9 26.3.zip";
             "hash" = "sha512-+G6sweH17uVr5OFW+aKEa/rIwqfylrqJ/F6KXpXUakZPUkYsrJ9B8wih2O6qhnYYiVSTlXiBF/p8xFnTKieo9Q==";
         };
+        _hov1RmeW = {
+            "id" = "hov1RmeW";
+            "file" = "Sapixcraft 16x r1.9 26.2.zip";
+            "hash" = "sha512-WYdT4b+GKfgvuUDNEZuNNhTYddMVa77A4wjmR6dkug428qGiqgOalfVfaVCd+1mxE7XWY2hAabmedFRKHSH9kw==";
+        };
+        _HXQAUAYd = {
+            "id" = "HXQAUAYd";
+            "file" = "Sapixcraft 16x r1.6 26.1.zip";
+            "hash" = "sha512-qrU+anM3xsg5CLRY2cuTQsaOSzoFnMsV7R2d2Qk7Uh0WuRi/FMJJuXLPUXpGsVBd+N0sQ3ZyRrg3pB+fbvYI6A==";
+        };
+        _a6jk3eQK = {
+            "id" = "a6jk3eQK";
+            "file" = "Sapixcraft 16x r1.9a 1.20.zip";
+            "hash" = "sha512-5tYVpDkoX4dXiakimEniM/aJFgusWqH6lFXLaO7tpTW7EOnF4WJL/Le+zhoIcO6e8j0Ed7r0Kh4G8XaN7pOu3Q==";
+        };
     in {
         "J3SGNjkQ" = _J3SGNjkQ;
         "MNJ7EoXo" = _MNJ7EoXo;
@@ -92,9 +107,12 @@ let
         "DOsypyoD" = _DOsypyoD;
         "h7rDfQHy" = _h7rDfQHy;
         "hXXw1sIs" = _hXXw1sIs;
-        "minecraft-26.1" = _h7rDfQHy;
-        "minecraft-26.1.1" = _h7rDfQHy;
-        "minecraft-26.1.2" = _h7rDfQHy;
+        "hov1RmeW" = _hov1RmeW;
+        "HXQAUAYd" = _HXQAUAYd;
+        "a6jk3eQK" = _a6jk3eQK;
+        "minecraft-26.1" = _HXQAUAYd;
+        "minecraft-26.1.1" = _HXQAUAYd;
+        "minecraft-26.1.2" = _HXQAUAYd;
         "minecraft-1.21.11" = _gBhLw0lQ;
         "minecraft-1.21" = _gBhLw0lQ;
         "minecraft-1.21.1" = _gBhLw0lQ;
@@ -107,7 +125,7 @@ let
         "minecraft-1.21.8" = _gBhLw0lQ;
         "minecraft-1.21.9" = _gBhLw0lQ;
         "minecraft-1.21.10" = _gBhLw0lQ;
-        "minecraft-26.2" = _DOsypyoD;
+        "minecraft-26.2" = _hov1RmeW;
         "minecraft-26.3-rc-1" = _9BgfnjpD;
         "minecraft-26.3-rc-2" = _9BgfnjpD;
         "minecraft-26.3-rc-3" = _9BgfnjpD;
@@ -115,19 +133,27 @@ let
         "minecraft-1.18" = _n6Kj4j0B;
         "minecraft-1.18.1" = _n6Kj4j0B;
         "minecraft-1.18.2" = _n6Kj4j0B;
+        "minecraft-1.20.6" = _a6jk3eQK;
+        "minecraft-1.20.5" = _a6jk3eQK;
+        "minecraft-1.20.4" = _a6jk3eQK;
+        "minecraft-1.20.3" = _a6jk3eQK;
+        "minecraft-1.20.2" = _a6jk3eQK;
+        "minecraft-1.20.1" = _a6jk3eQK;
+        "minecraft-1.20" = _a6jk3eQK;
         "pkg-r1.3" = _J3SGNjkQ;
         "pkg-r1.2" = _MNJ7EoXo;
         "pkg-r1" = _QrF15s8k;
         "pkg-r1.4" = _rQjj7tRY;
         "pkg-r1.5" = _h7rDfQHy;
-        "pkg-r1.6" = _ossDt2gQ;
+        "pkg-r1.6" = _HXQAUAYd;
         "pkg-r1.7" = _AK8RyOxr;
         "pkg-r1.8" = _DOsypyoD;
         "pkg-r1.4a" = _6y7ItlGr;
         "pkg-1.2b" = _gBhLw0lQ;
         "pkg-1.18" = _n6Kj4j0B;
-        "pkg-r1.9" = _hXXw1sIs;
-        "default" = _hXXw1sIs;
+        "pkg-r1.9" = _hov1RmeW;
+        "pkg-r1.9a" = _a6jk3eQK;
+        "default" = _a6jk3eQK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sapixcraft-16x";

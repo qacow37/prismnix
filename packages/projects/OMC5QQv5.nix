@@ -501,6 +501,36 @@ let
             "file" = "Nether-Descent-NeoForge-1.0.14-mc1.21.4.jar";
             "hash" = "sha512-xAws1LgHPKfV09dG8DF3Si1VBuR5J4tgjzP7gkAJB2p+TSgbrh9LHN/oCg0DX9ytufVjob3OLpkcdIkmm/vW5Q==";
         };
+        _1FItD0VX = {
+            "id" = "1FItD0VX";
+            "file" = "Nether-Descent-Fabric-1.0.15-mc26.2.jar";
+            "hash" = "sha512-4KTNHNBpDw8s75ER1ib72/+Cns4CXID+ejOmhccqDyrzvdKqgf6wBPJFko2aE6AIpam1MANDauFFRQDe6bLBDw==";
+        };
+        _tSlGiLyF = {
+            "id" = "tSlGiLyF";
+            "file" = "Nether-Descent-Forge-1.0.15-mc26.2.jar";
+            "hash" = "sha512-9DqBBt2Q4zOkktABkeiwpSvXuCwYBg2DDhVHRMTKQT+GPO+K6fE3BusZBbnT7TXlQkCA+RU3iMvoVPTYtVv8Cg==";
+        };
+        _y3wMqzcc = {
+            "id" = "y3wMqzcc";
+            "file" = "Nether-Descent-NeoForge-1.0.15-mc26.2.jar";
+            "hash" = "sha512-1y5CyzuhmWgD9LBFjQQ+6LdIZ1W8rdb2GCjoqMpsAL4JefSLJ5WhM2jjcGSVyVzsz2BSmwPI32cxCGjRF0mkaA==";
+        };
+        _bbdlonv9 = {
+            "id" = "bbdlonv9";
+            "file" = "Nether-Descent-Fabric-1.0.15-mc26.1.2.jar";
+            "hash" = "sha512-ujqLPXEqNt/RcAL+G4wI7pURO9QGoyfpvvPnOC4QFf1cFGv13cGoDeg76ZfwPlCEPBIrqU+bYYbLDTcwx6t5zQ==";
+        };
+        _fqCWjbTo = {
+            "id" = "fqCWjbTo";
+            "file" = "Nether-Descent-Forge-1.0.15-mc26.1.2.jar";
+            "hash" = "sha512-KVXPyE35TEdhoTwSvNXuEzBQGia97aYpIYZ7Eb7hKCM+YbA9eqoBCrOX4JTYrI+KBI3CbiKsW5hydP1D1ozOQw==";
+        };
+        _CdCywGTQ = {
+            "id" = "CdCywGTQ";
+            "file" = "Nether-Descent-NeoForge-1.0.15-mc26.1.2.jar";
+            "hash" = "sha512-oSs6jwB4trEyt392dnreDYN0H0O1ieN0VYVStgB/WuOxVsJVeHPLaByrnvUlLBBfe7JuJ2ukpB5WMI381rDV8w==";
+        };
     in {
         "Tf5o8U5i" = _Tf5o8U5i;
         "Q89sbHlo" = _Q89sbHlo;
@@ -602,29 +632,35 @@ let
         "v8b8tgLE" = _v8b8tgLE;
         "dUKWRAU9" = _dUKWRAU9;
         "6536F3ZT" = _6536F3ZT;
+        "1FItD0VX" = _1FItD0VX;
+        "tSlGiLyF" = _tSlGiLyF;
+        "y3wMqzcc" = _y3wMqzcc;
+        "bbdlonv9" = _bbdlonv9;
+        "fqCWjbTo" = _fqCWjbTo;
+        "CdCywGTQ" = _CdCywGTQ;
         "fabric-1.21.1" = _NEgSJ239;
         "fabric-1.20.1" = _TFrKuEIM;
         "fabric-1.21.4" = _v8b8tgLE;
         "fabric-1.21.11" = _ppcBDgfo;
-        "fabric-26.1.2" = _pbP1Ulro;
-        "fabric-26.2" = _OKShjczi;
+        "fabric-26.1.2" = _bbdlonv9;
+        "fabric-26.2" = _1FItD0VX;
         "quilt-1.21.1" = _NEgSJ239;
         "quilt-1.20.1" = _TFrKuEIM;
         "quilt-1.21.4" = _v8b8tgLE;
         "quilt-1.21.11" = _ppcBDgfo;
-        "quilt-26.1.2" = _pbP1Ulro;
-        "quilt-26.2" = _OKShjczi;
+        "quilt-26.1.2" = _bbdlonv9;
+        "quilt-26.2" = _1FItD0VX;
         "forge-1.21.1" = _4CwblRrh;
         "forge-1.20.1" = _d599P5lS;
         "forge-1.21.4" = _dUKWRAU9;
         "forge-1.21.11" = _y8McgiAs;
-        "forge-26.1.2" = _LzLnw2oF;
-        "forge-26.2" = _TyohYJRW;
+        "forge-26.1.2" = _fqCWjbTo;
+        "forge-26.2" = _tSlGiLyF;
         "neoforge-1.21.1" = _Ox1oUivb;
         "neoforge-1.21.4" = _6536F3ZT;
         "neoforge-1.21.11" = _jNbMLd8g;
-        "neoforge-26.1.2" = _ipf2ctZU;
-        "neoforge-26.2" = _x3Omc3Yr;
+        "neoforge-26.1.2" = _CdCywGTQ;
+        "neoforge-26.2" = _y3wMqzcc;
         "pkg-1.0.0-Fabric-mc1.21.1" = _Tf5o8U5i;
         "pkg-1.0.0-Forge-mc1.21.1" = _Q89sbHlo;
         "pkg-1.0.0-NeoForge-mc1.21.1" = _euPIDtMT;
@@ -725,7 +761,13 @@ let
         "pkg-1.0.14-Fabric-mc1.21.4" = _v8b8tgLE;
         "pkg-1.0.14-Forge-mc1.21.4" = _dUKWRAU9;
         "pkg-1.0.14-NeoForge-mc1.21.4" = _6536F3ZT;
-        "default" = _6536F3ZT;
+        "pkg-1.0.15-Fabric-mc26.2" = _1FItD0VX;
+        "pkg-1.0.15-Forge-mc26.2" = _tSlGiLyF;
+        "pkg-1.0.15-NeoForge-mc26.2" = _y3wMqzcc;
+        "pkg-1.0.15-Fabric-mc26.1.2" = _bbdlonv9;
+        "pkg-1.0.15-Forge-mc26.1.2" = _fqCWjbTo;
+        "pkg-1.0.15-NeoForge-mc26.1.2" = _CdCywGTQ;
+        "default" = _CdCywGTQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nether-descent";

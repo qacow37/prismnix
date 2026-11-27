@@ -31,6 +31,16 @@ let
             "file" = "maidbeacon-1.0.1-bugfix.jar";
             "hash" = "sha512-vxwwnvqv3TNDHAyRVoHTRXQMohFivoCpAS//7fT34ZZVO3kw1evZGTnYfL9+bQXN+e8VnlAVPtf7BvgqKwN3sA==";
         };
+        _DeFm34pn = {
+            "id" = "DeFm34pn";
+            "file" = "maidbeacon-1.1.0-1.21.1.jar";
+            "hash" = "sha512-NFu0RyY+b8SkIuugeR4Qu3e/4aEkmPc57aRplj96z9vdwbjSj+/aJig2n+KWvUWJdPpEVdx5l7qrQ+xi3Wrj1g==";
+        };
+        _ga2fFZmc = {
+            "id" = "ga2fFZmc";
+            "file" = "maidbeacon-1.1.0-1.20.1.jar";
+            "hash" = "sha512-alykaWbir8RZOPp/t7YP4mtSBr0vg3MXi+Abrs1hO8IwjtYNGm4iKrQ+tRlqZeA3uyiSfi1+o3zYrnWlNfNLHw==";
+        };
     in {
         "gbzN9YCb" = _gbzN9YCb;
         "6wK7bzXX" = _6wK7bzXX;
@@ -38,12 +48,15 @@ let
         "wULTKXY0" = _wULTKXY0;
         "2T4GYNBd" = _2T4GYNBd;
         "EMJrFbxa" = _EMJrFbxa;
-        "forge-1.20.1" = _EMJrFbxa;
-        "neoforge-1.21.1" = _2T4GYNBd;
+        "DeFm34pn" = _DeFm34pn;
+        "ga2fFZmc" = _ga2fFZmc;
+        "forge-1.20.1" = _ga2fFZmc;
+        "neoforge-1.21.1" = _DeFm34pn;
         "pkg-1.0.0" = _6wK7bzXX;
         "pkg-1.0.1" = _wULTKXY0;
         "pkg-1.0.1-bugfix" = _EMJrFbxa;
-        "default" = _EMJrFbxa;
+        "pkg-1.1.0" = _ga2fFZmc;
+        "default" = _ga2fFZmc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "touhou-little-maid-beacon";

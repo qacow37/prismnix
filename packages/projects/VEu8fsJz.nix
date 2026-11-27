@@ -121,6 +121,36 @@ let
             "file" = "simple-autoclicker26-x-26.3-1.0.9.jar";
             "hash" = "sha512-fnGwJa2/01x5tiYh1F0DasLSVigM6QoqSWC/riWvYTOVf4qtTRL5g/MRAXNFzTMjR49zXPKHo+Qq6YNTGKd+zA==";
         };
+        _tw5oAU8L = {
+            "id" = "tw5oAU8L";
+            "file" = "Simple_AutoClicker1-21-1.21(4)-1.0.9.jar";
+            "hash" = "sha512-ON3AQg3B5Rd0ZsYimpHciXDm6BM7rCZl2ULrRJ1jdUHTcO//38stmwx1cWjv6hPNvNEHavi7rl5gnUw1sq24cQ==";
+        };
+        _eV0WL98T = {
+            "id" = "eV0WL98T";
+            "file" = "simpleautoclicker-1.21.5(8)-1.0.9.jar";
+            "hash" = "sha512-/IoFwRYhi8WV9XtZh8+nL8fTHlEei+gBpN4VSmb0Jh44ewHRfjYl3howtBpHRdzpU6b7q+4KLgx4Uwlm4x6+Hw==";
+        };
+        _gLrX5HZa = {
+            "id" = "gLrX5HZa";
+            "file" = "Simple-AutoClicker1.21.9-1.21.9(11)-1.0.9.jar";
+            "hash" = "sha512-8lJ0BR40U0QCDiIUhuh9tMfbJV0CAOxCDP4OjZE7gHitfNRHbHEkPTwOVrurXzPAeYL6ETHzRFQorL7mtFGr1w==";
+        };
+        _GF6mI6g2 = {
+            "id" = "GF6mI6g2";
+            "file" = "simple-autoclicker26-x-26.1-1.0.9.jar";
+            "hash" = "sha512-eLM1lFawtzM8tMfYeZJaLRyrINdRt1E8dFFraOjyvGM6FqrQv7VI2y1ZmBi3KyjlPQrzcWxpDRmFacHErK++NA==";
+        };
+        _xKlZA1Ns = {
+            "id" = "xKlZA1Ns";
+            "file" = "simple-autoclicker26-x-26.2-1.0.9.jar";
+            "hash" = "sha512-Ftho7nn3QI77cPliVoNkTqyqvJUO/5maeJakoESyzbfNPSusNTN2vaFWlydEbwYgQqm2OIQT26g5giMnmni6vA==";
+        };
+        _q72B3KHv = {
+            "id" = "q72B3KHv";
+            "file" = "simple-autoclicker26-x-26.3-1.0.9.jar";
+            "hash" = "sha512-FlMlisZWFnjnWlAkLiTsOj6Ax6jWnJDLbj5K1xqKT29GX6efxgGlG11n2boQOAACUyMr3lZe3gx9nIEnrEBEoQ==";
+        };
     in {
         "MnUNGBxs" = _MnUNGBxs;
         "oMvSaGbm" = _oMvSaGbm;
@@ -146,23 +176,29 @@ let
         "FCeu64Xh" = _FCeu64Xh;
         "OkFTf0Yw" = _OkFTf0Yw;
         "ggkUhXBw" = _ggkUhXBw;
-        "fabric-1.21.7" = _yKMDyWWC;
-        "fabric-1.21.6" = _yKMDyWWC;
-        "fabric-1.21.8" = _yKMDyWWC;
-        "fabric-1.21.4" = _yGg1gtoz;
-        "fabric-1.21.5" = _yKMDyWWC;
-        "fabric-1.21" = _yGg1gtoz;
-        "fabric-1.21.1" = _yGg1gtoz;
-        "fabric-1.21.2" = _yGg1gtoz;
-        "fabric-1.21.3" = _yGg1gtoz;
-        "fabric-1.21.9" = _p5ME97Az;
-        "fabric-1.21.10" = _p5ME97Az;
-        "fabric-1.21.11" = _p5ME97Az;
-        "fabric-26.1.2" = _FCeu64Xh;
-        "fabric-26.2" = _OkFTf0Yw;
-        "fabric-26.1" = _FCeu64Xh;
-        "fabric-26.1.1" = _FCeu64Xh;
-        "fabric-26.3" = _ggkUhXBw;
+        "tw5oAU8L" = _tw5oAU8L;
+        "eV0WL98T" = _eV0WL98T;
+        "gLrX5HZa" = _gLrX5HZa;
+        "GF6mI6g2" = _GF6mI6g2;
+        "xKlZA1Ns" = _xKlZA1Ns;
+        "q72B3KHv" = _q72B3KHv;
+        "fabric-1.21.7" = _eV0WL98T;
+        "fabric-1.21.6" = _eV0WL98T;
+        "fabric-1.21.8" = _eV0WL98T;
+        "fabric-1.21.4" = _tw5oAU8L;
+        "fabric-1.21.5" = _eV0WL98T;
+        "fabric-1.21" = _tw5oAU8L;
+        "fabric-1.21.1" = _tw5oAU8L;
+        "fabric-1.21.2" = _tw5oAU8L;
+        "fabric-1.21.3" = _tw5oAU8L;
+        "fabric-1.21.9" = _gLrX5HZa;
+        "fabric-1.21.10" = _gLrX5HZa;
+        "fabric-1.21.11" = _gLrX5HZa;
+        "fabric-26.1.2" = _GF6mI6g2;
+        "fabric-26.2" = _xKlZA1Ns;
+        "fabric-26.1" = _GF6mI6g2;
+        "fabric-26.1.1" = _GF6mI6g2;
+        "fabric-26.3" = _q72B3KHv;
         "pkg-1.21.7-1.0.0" = _MnUNGBxs;
         "pkg-1.21.6(8)-1.0.1" = _oMvSaGbm;
         "pkg-1.21.4(8)-1.0.3" = _J8DElpxn;
@@ -181,13 +217,13 @@ let
         "pkg-1.21.9(11)-1.0.8" = _xw2Ftw7G;
         "pkg-26.1.2-1.0.8" = _YySwsVjp;
         "pkg-26.2-1.0.8" = _5vMbljTk;
-        "pkg-1.21(4)-1.0.9" = _yGg1gtoz;
-        "pkg-1.21.5(8)-1.0.9" = _yKMDyWWC;
-        "pkg-1.21.9(11)-1.0.9" = _p5ME97Az;
-        "pkg-26.1-1.0.9" = _FCeu64Xh;
-        "pkg-26.2-1.0.9" = _OkFTf0Yw;
-        "pkg-26.3-1.0.9" = _ggkUhXBw;
-        "default" = _ggkUhXBw;
+        "pkg-1.21(4)-1.0.9" = _tw5oAU8L;
+        "pkg-1.21.5(8)-1.0.9" = _eV0WL98T;
+        "pkg-1.21.9(11)-1.0.9" = _gLrX5HZa;
+        "pkg-26.1-1.0.9" = _GF6mI6g2;
+        "pkg-26.2-1.0.9" = _xKlZA1Ns;
+        "pkg-26.3-1.0.9" = _q72B3KHv;
+        "default" = _q72B3KHv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple_autoclicker";

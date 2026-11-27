@@ -121,6 +121,16 @@ let
             "file" = "snitchmod-1.5.0-mc1.21.11-neoforge.jar";
             "hash" = "sha512-7sc0nkn2AOgnBV5I+fvg1hLRasOBzHjXzsKSZ7rhBgvUWjM1p6L/PFXsTh80DaW3eyDH04lZA7BlmRlA1d0LkA==";
         };
+        _miIvYDPb = {
+            "id" = "miIvYDPb";
+            "file" = "snitchmod-1.5.0-mc26.1.2-fabric.jar";
+            "hash" = "sha512-uWpF+5ZIe5Pnr1tk+7MsjAK5+LT9rHeO386i9Sf66XipaoKZFWnJDEixgikKliNTHUNeHRdHWu36rwdqGdmAdg==";
+        };
+        _DVmHP6Nu = {
+            "id" = "DVmHP6Nu";
+            "file" = "snitchmod-1.5.0-mc26.1.2-neoforge.jar";
+            "hash" = "sha512-Onb0h7TOJj70GfxYqzMCY6o71TBVC9OMynNSYH72InYU015FzAXof09u4B5Q3TmbtfsBfOnFyUWbAhFBzxsR/g==";
+        };
     in {
         "qLIYaZiU" = _qLIYaZiU;
         "qqpJ6NYc" = _qqpJ6NYc;
@@ -146,6 +156,8 @@ let
         "AuSDAc4u" = _AuSDAc4u;
         "9rvcQYZv" = _9rvcQYZv;
         "EPfb4rM0" = _EPfb4rM0;
+        "miIvYDPb" = _miIvYDPb;
+        "DVmHP6Nu" = _DVmHP6Nu;
         "fabric-1.18" = _qLIYaZiU;
         "fabric-1.18.1" = _qLIYaZiU;
         "fabric-1.18.2" = _qLIYaZiU;
@@ -160,6 +172,7 @@ let
         "fabric-1.21.4" = _Ds2J3E97;
         "fabric-1.21.8" = _pZKesEq9;
         "fabric-1.21.11" = _AuSDAc4u;
+        "fabric-26.1.2" = _miIvYDPb;
         "forge-1.18.2" = _qqpJ6NYc;
         "forge-1.20.4" = _YJibMDQL;
         "forge-1.21" = _KCXgXQBN;
@@ -172,6 +185,7 @@ let
         "neoforge-1.21.9" = _GE79glz1;
         "neoforge-1.21.10" = _GE79glz1;
         "neoforge-1.21.11" = _EPfb4rM0;
+        "neoforge-26.1.2" = _DVmHP6Nu;
         "pkg-1.4.1-1.18.2" = _qqpJ6NYc;
         "pkg-1.4.2-beta2-mc1.20.4" = _ZLZMUPpE;
         "pkg-1.4.3-mc1.20.4" = _YJibMDQL;
@@ -183,7 +197,8 @@ let
         "pkg-1.4.7-mc1.21.8" = _AZJwtjvB;
         "pkg-1.5.0-mc1.21.8" = _GE79glz1;
         "pkg-1.5.0-mc1.21.11" = _EPfb4rM0;
-        "default" = _EPfb4rM0;
+        "pkg-1.5.0-mc26.1.2" = _DVmHP6Nu;
+        "default" = _DVmHP6Nu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "snitch-mod";

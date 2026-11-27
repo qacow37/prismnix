@@ -51,6 +51,16 @@ let
             "file" = "InvisibleItemFramesLite-3.2.2.jar";
             "hash" = "sha512-b9G9OPUnGdePa+t3h817ECVWqmA3YZ09mlzokV4Cno9U3/BTFJC0i+11WgU7mwufAZB3PR+Xwg2RtfscKT/2sQ==";
         };
+        _KOYPJl62 = {
+            "id" = "KOYPJl62";
+            "file" = "InvisibleItemFramesLite-3.2.3-alpha.1.jar";
+            "hash" = "sha512-cy4YlsgZxlXS/2wDY2Y2wCW48SSXtl6x/YvOhMCxCXWHmxdBKIr0faxA0abGwiBHsHazZd7SWPJogFU7OXe7Cg==";
+        };
+        _eoMYs8bw = {
+            "id" = "eoMYs8bw";
+            "file" = "InvisibleItemFramesLite-3.2.3.jar";
+            "hash" = "sha512-5u36bothOutUbEe4UaOtLm67iSAWigrOsTR/T6Uwu9TyCdSCwQqUTo95YzXNh0FaG9uVqPDotqxxHd1qi2gkrw==";
+        };
     in {
         "3yrPhU3s" = _3yrPhU3s;
         "yT8xwOFP" = _yT8xwOFP;
@@ -62,6 +72,8 @@ let
         "4cUy7Atd" = _4cUy7Atd;
         "qeas7jvx" = _qeas7jvx;
         "HoIUadP9" = _HoIUadP9;
+        "KOYPJl62" = _KOYPJl62;
+        "eoMYs8bw" = _eoMYs8bw;
         "paper-1.21" = _FDv0ofrM;
         "paper-1.21.1" = _FDv0ofrM;
         "paper-1.21.2" = _FDv0ofrM;
@@ -74,9 +86,10 @@ let
         "paper-1.21.9" = _4cUy7Atd;
         "paper-1.21.10" = _4cUy7Atd;
         "paper-1.21.11" = _4cUy7Atd;
-        "paper-26.1.2" = _HoIUadP9;
+        "paper-26.1.2" = _KOYPJl62;
         "paper-26.1" = _HoIUadP9;
         "paper-26.1.1" = _HoIUadP9;
+        "paper-26.3" = _eoMYs8bw;
         "spigot-1.21" = _Q3v7w2my;
         "spigot-1.21.1" = _Q3v7w2my;
         "spigot-1.21.2" = _Q3v7w2my;
@@ -86,7 +99,8 @@ let
         "spigot-1.21.6" = _Q3v7w2my;
         "folia-26.1" = _HoIUadP9;
         "folia-26.1.1" = _HoIUadP9;
-        "folia-26.1.2" = _HoIUadP9;
+        "folia-26.1.2" = _KOYPJl62;
+        "folia-26.3" = _eoMYs8bw;
         "pkg-2.0.0-beta.4" = _3yrPhU3s;
         "pkg-2.0.0-beta.5" = _yT8xwOFP;
         "pkg-2.0.0-beta.6" = _YlCUssDu;
@@ -97,7 +111,9 @@ let
         "pkg-3.1.1" = _4cUy7Atd;
         "pkg-3.2.1" = _qeas7jvx;
         "pkg-3.2.2" = _HoIUadP9;
-        "default" = _HoIUadP9;
+        "pkg-3.2.3-alpha.1" = _KOYPJl62;
+        "pkg-3.2.3" = _eoMYs8bw;
+        "default" = _eoMYs8bw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "invisibleitemframes";

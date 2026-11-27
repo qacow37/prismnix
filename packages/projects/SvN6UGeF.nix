@@ -366,6 +366,26 @@ let
             "file" = "immersive_furniture-forge-0.4.1+1.20.1.jar";
             "hash" = "sha512-RS0a/pvWGITCZeAAftzZamfq8fezeBNC4IcZnIS7QIbWiash55CfJxY6hReN11MUkQ8cndCmXzhT7tkGbXcpnA==";
         };
+        _7BgKPEjj = {
+            "id" = "7BgKPEjj";
+            "file" = "immersive_furniture-fabric-0.5.0+1.20.1.jar";
+            "hash" = "sha512-9F7dQzpuUCsDDhrwJzG9rC763gdjStHW1+b2wmWURmcH4K3F6VdFxanakMcsh6zOW37IqFbKorLvV+S2JaxdCg==";
+        };
+        _RwAwoD7t = {
+            "id" = "RwAwoD7t";
+            "file" = "immersive_furniture-forge-0.5.0+1.20.1.jar";
+            "hash" = "sha512-eBpRH0aiuaCx5qS5ifv+iCgURAJrWtA7Jxz1n5kcsEP9uszkWu/gb8gwwuv1Nyi/9o0AZUCIUbX0QRCgDV0vHg==";
+        };
+        _cXB7RtFu = {
+            "id" = "cXB7RtFu";
+            "file" = "immersive_furniture-fabric-0.5.0+1.21.1.jar";
+            "hash" = "sha512-khFLVcO/4D14NXCbjqcNa8fUJiJ9d0h9TBTy90AYmtf56H7rVkVd5zkusdfGRok2yKNDcqenEuUK6EBvATvtcA==";
+        };
+        _iPF8j9Wj = {
+            "id" = "iPF8j9Wj";
+            "file" = "immersive_furniture-neoforge-0.5.0+1.21.1.jar";
+            "hash" = "sha512-bvi2ZIdAV9fYR2B8Mu+z310nCGeVEUOfH1MNkvH+3giOtmSsL8rbUtSmdUn+OzPgIsanySR6nI0pGuTlXqbPYw==";
+        };
     in {
         "DW47JEJS" = _DW47JEJS;
         "E1KpbHha" = _E1KpbHha;
@@ -440,10 +460,14 @@ let
         "oa8FVOtg" = _oa8FVOtg;
         "lyFuGwuO" = _lyFuGwuO;
         "WeSSTHGa" = _WeSSTHGa;
-        "fabric-1.20.1" = _lyFuGwuO;
-        "fabric-1.21.1" = _oOTNLtJU;
-        "forge-1.20.1" = _WeSSTHGa;
-        "neoforge-1.21.1" = _oa8FVOtg;
+        "7BgKPEjj" = _7BgKPEjj;
+        "RwAwoD7t" = _RwAwoD7t;
+        "cXB7RtFu" = _cXB7RtFu;
+        "iPF8j9Wj" = _iPF8j9Wj;
+        "fabric-1.20.1" = _7BgKPEjj;
+        "fabric-1.21.1" = _cXB7RtFu;
+        "forge-1.20.1" = _RwAwoD7t;
+        "neoforge-1.21.1" = _iPF8j9Wj;
         "pkg-0.0.1+1.20.1" = _E1KpbHha;
         "pkg-0.0.2+1.20.1" = _RUazcUTl;
         "pkg-0.0.3+1.20.1" = _xC8uxk6M;
@@ -480,7 +504,9 @@ let
         "pkg-0.4.0+1.20.1" = _D9L4rKKj;
         "pkg-0.4.1+1.21.1" = _oa8FVOtg;
         "pkg-0.4.1+1.20.1" = _WeSSTHGa;
-        "default" = _WeSSTHGa;
+        "pkg-0.5.0+1.20.1" = _RwAwoD7t;
+        "pkg-0.5.0+1.21.1" = _iPF8j9Wj;
+        "default" = _iPF8j9Wj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-furniture";

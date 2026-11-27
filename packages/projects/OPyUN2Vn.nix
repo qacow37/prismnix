@@ -51,6 +51,11 @@ let
             "file" = "thinair-1.0.9.jar";
             "hash" = "sha512-2Yf+2gwZWPXkP6p2mHbaFBZH96N7plGbSjkZ39l5erm+m4KmCm3NBQzdjomUNA4H+A4QPR2GO5Wf6syGMjpXtQ==";
         };
+        _H336szfE = {
+            "id" = "H336szfE";
+            "file" = "thinair-1.10.jar";
+            "hash" = "sha512-ifnCjbKQEqZIyp6gyfuzUGLGUx1nP4w44N3RBcwUZKeng7y6N63T3ZWnKXxHd9iY9D04Th4er6HpxJMr3MqOmw==";
+        };
     in {
         "Y4PcH1YU" = _Y4PcH1YU;
         "ZkxJC5Gs" = _ZkxJC5Gs;
@@ -62,7 +67,8 @@ let
         "qiS0FGHU" = _qiS0FGHU;
         "wBbiaX4O" = _wBbiaX4O;
         "Y1B5dxfb" = _Y1B5dxfb;
-        "neoforge-1.21.1" = _Y1B5dxfb;
+        "H336szfE" = _H336szfE;
+        "neoforge-1.21.1" = _H336szfE;
         "pkg-1.0.0" = _Y4PcH1YU;
         "pkg-1.0.1" = _ZkxJC5Gs;
         "pkg-1.0.2" = _XY0ZNAsI;
@@ -73,7 +79,8 @@ let
         "pkg-1.0.7" = _qiS0FGHU;
         "pkg-1.0.8" = _wBbiaX4O;
         "pkg-1.0.9" = _Y1B5dxfb;
-        "default" = _Y1B5dxfb;
+        "pkg-1.10" = _H336szfE;
+        "default" = _H336szfE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thinair-relived";

@@ -56,6 +56,26 @@ let
             "file" = "Applied-Replicatics-26.1-1.0.1.jar";
             "hash" = "sha512-Si90S3K5fuQ241Neb1B2aQWd5JFfd7nuOEyS6jBo/qV6AnC+oCPZsWif/T4wWvkRvBRqynNu5Y6hToxkmqWlPg==";
         };
+        _aBTpgUSQ = {
+            "id" = "aBTpgUSQ";
+            "file" = "Applied-Replicatics-20.1-1.0.0.jar";
+            "hash" = "sha512-LnQaayy4xEWczSR3FFud3JT4DeZ81dZZpr6rOmEWGE/n07eubd8qYCWrBYpoRsPnakK3vkRAVk75UM6Jw5MGog==";
+        };
+        _hwx8N63L = {
+            "id" = "hwx8N63L";
+            "file" = "Applied-Replicatics-21.1-1.2.3.jar";
+            "hash" = "sha512-dTUE9Vj0RBMF0fPV8U4R/ya2KrRiodx5MuMN96Xk+yGjNYHCDeBAGo5DzS/WzThQj4fSw/msdS9m1Q9e1Ok+dA==";
+        };
+        _h5m3DujW = {
+            "id" = "h5m3DujW";
+            "file" = "Applied-Replicatics-26.1-1.0.2.jar";
+            "hash" = "sha512-Newh5nNjTKrP10NrOayQQRJtQ0r0POvnHr23FnUu5sX2YcmMloHJxUdX6d6+o6QsSrzTYjG3oIj9EHGSZmVbGA==";
+        };
+        _IA89S7D0 = {
+            "id" = "IA89S7D0";
+            "file" = "Applied-Replicatics-20.1-1.0.1.jar";
+            "hash" = "sha512-Ae+Hku1LnGbKnHiwW694cNzo7envasAmyCFyPYWHwQ3rJ38f5CxIXrKUJn/BP9S8SmZdzx9iM/K8pcfHho9Wtg==";
+        };
     in {
         "f9Ii0ORA" = _f9Ii0ORA;
         "AYMeNOuT" = _AYMeNOuT;
@@ -68,8 +88,13 @@ let
         "r8H8Trkt" = _r8H8Trkt;
         "viswoEhd" = _viswoEhd;
         "VOSyJzv5" = _VOSyJzv5;
-        "neoforge-1.21.1" = _r8H8Trkt;
-        "neoforge-26.1.2" = _VOSyJzv5;
+        "aBTpgUSQ" = _aBTpgUSQ;
+        "hwx8N63L" = _hwx8N63L;
+        "h5m3DujW" = _h5m3DujW;
+        "IA89S7D0" = _IA89S7D0;
+        "neoforge-1.21.1" = _hwx8N63L;
+        "neoforge-26.1.2" = _h5m3DujW;
+        "forge-1.20.1" = _IA89S7D0;
         "pkg-21.1-1.0.1" = _f9Ii0ORA;
         "pkg-21.1-1.0.2" = _AYMeNOuT;
         "pkg-21.1-1.0.3" = _VNVGliOt;
@@ -81,7 +106,11 @@ let
         "pkg-21.1-1.2.2" = _r8H8Trkt;
         "pkg-26.1-1.0.0" = _viswoEhd;
         "pkg-26.1-1.0.1" = _VOSyJzv5;
-        "default" = _VOSyJzv5;
+        "pkg-20.1-1.0.0" = _aBTpgUSQ;
+        "pkg-21.1-1.2.3" = _hwx8N63L;
+        "pkg-26.1-1.0.2" = _h5m3DujW;
+        "pkg-20.1-1.0.1" = _IA89S7D0;
+        "default" = _IA89S7D0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "applied-replicatics";

@@ -301,6 +301,11 @@ let
             "file" = "bonesupdate-forge-26.2-1.3.2.jar";
             "hash" = "sha512-P2Mz0ty15Q3hvM3Um7Hr9HcBfC0kGqFkSWNpOuMXNA0YfPDTXQia+o/VgtZP6tBQn5PUqNc27sUWLEbKd4C+VQ==";
         };
+        _keSTzPM5 = {
+            "id" = "keSTzPM5";
+            "file" = "bonesupdate-neoforge-26.3-1.3.3.jar";
+            "hash" = "sha512-L1WOf/dymK10s0CdKGHmp8kafiIYFUQY0w2dBsXmoI/EY3kGL3chPbQgTanP8ZCCAAcBDF4M1pcelVJHo+G3Fw==";
+        };
     in {
         "GBFL1Xiu" = _GBFL1Xiu;
         "bbkLlDaG" = _bbkLlDaG;
@@ -362,6 +367,7 @@ let
         "K9m9dPTW" = _K9m9dPTW;
         "PHb6wvce" = _PHb6wvce;
         "hrRX4VuS" = _hrRX4VuS;
+        "keSTzPM5" = _keSTzPM5;
         "forge-1.19.4" = _6jIYIEEN;
         "forge-1.20.1" = _JwugI59w;
         "forge-1.20.3" = _BsXqdgUE;
@@ -398,6 +404,7 @@ let
         "neoforge-26.1.1" = _OVPcalx2;
         "neoforge-26.1.2" = _OPLR1s7F;
         "neoforge-26.2" = _PHb6wvce;
+        "neoforge-26.3" = _keSTzPM5;
         "pkg-1.0.0-F1.19.4" = _GBFL1Xiu;
         "pkg-1.1.0-F1.19.4" = _bbkLlDaG;
         "pkg-1.2.0-F1.19.4" = _6jIYIEEN;
@@ -458,7 +465,8 @@ let
         "pkg-1.3.1-F26.1.2" = _K9m9dPTW;
         "pkg-1.3.2-NF26.2" = _PHb6wvce;
         "pkg-1.3.2-F26.2" = _hrRX4VuS;
-        "default" = _hrRX4VuS;
+        "pkg-1.3.3-NF26.3" = _keSTzPM5;
+        "default" = _keSTzPM5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bones-update";

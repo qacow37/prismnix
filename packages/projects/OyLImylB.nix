@@ -41,6 +41,11 @@ let
             "file" = "horrorchatmessages-2.0.2.jar";
             "hash" = "sha512-63tYd6nQ3pvkH5wvd4j1MXhD45+7lMmK9yFt99Yt1vnoFQz381uQ91j+tEdiDlD5tDAEB3o4gAhwAspOQAcKSA==";
         };
+        _FfNtLZhg = {
+            "id" = "FfNtLZhg";
+            "file" = "horrorchatmessages-2.0.3.jar";
+            "hash" = "sha512-EA3EKdeUveZzn49Ax+pQHpMtk/FWPHV7pwdnaxINsl4O7mVPYmf2sazkc7nnBHHrebYcfmKufF0YbOPONLvKPg==";
+        };
     in {
         "3MMXV91L" = _3MMXV91L;
         "m0un63bV" = _m0un63bV;
@@ -50,14 +55,17 @@ let
         "462KIl6Q" = _462KIl6Q;
         "3albs5ok" = _3albs5ok;
         "m8Z53cId" = _m8Z53cId;
+        "FfNtLZhg" = _FfNtLZhg;
         "neoforge-1.21.1" = _m8Z53cId;
+        "neoforge-26.3" = _FfNtLZhg;
         "forge-1.19.2" = _462KIl6Q;
         "forge-1.20.1" = _3albs5ok;
         "pkg-1.0.0" = _3MMXV91L;
         "pkg-2.0.0" = _m0un63bV;
         "pkg-2.0.1" = _VmoWWwCv;
         "pkg-2.0.2" = _m8Z53cId;
-        "default" = _m8Z53cId;
+        "pkg-2.0.3" = _FfNtLZhg;
+        "default" = _FfNtLZhg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "haunted-chat";

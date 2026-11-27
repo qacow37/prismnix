@@ -21,11 +21,17 @@ let
             "file" = "HerdsPanic-1.1.jar";
             "hash" = "sha512-pb+S4c2BMYcb2n1ztAj1GX9ajAJ8oGyWfHvbWKsKcxAP6PbYSL3ishBnm8y5de/5Y6PbUnJBlSu1lWEKcWmlrw==";
         };
+        _zyMaarUB = {
+            "id" = "zyMaarUB";
+            "file" = "HerdsPanic-1.2.jar";
+            "hash" = "sha512-FvKpIVv9LTgWYhKsg2qyiqakxq/KVl5aQwKvX5TJ1gCfL0d/OiYMrf1ML+6C5MRKy6t8VhAOr1wNtlzLwR32VA==";
+        };
     in {
         "VCZOrBSS" = _VCZOrBSS;
         "3u8w94to" = _3u8w94to;
         "Ec2xLCQS" = _Ec2xLCQS;
         "FqaugKHu" = _FqaugKHu;
+        "zyMaarUB" = _zyMaarUB;
         "paper-1.20.3" = _3u8w94to;
         "paper-1.20.4" = _3u8w94to;
         "paper-1.20" = _3u8w94to;
@@ -40,9 +46,13 @@ let
         "paper-1.21.4" = _Ec2xLCQS;
         "paper-1.21.5" = _Ec2xLCQS;
         "paper-1.21.6" = _Ec2xLCQS;
-        "paper-1.21.8" = _FqaugKHu;
-        "paper-1.21.9" = _FqaugKHu;
-        "paper-1.21.10" = _FqaugKHu;
+        "paper-1.21.8" = _zyMaarUB;
+        "paper-1.21.9" = _zyMaarUB;
+        "paper-1.21.10" = _zyMaarUB;
+        "paper-26.3" = _zyMaarUB;
+        "paper-1.21.11" = _zyMaarUB;
+        "paper-26.2" = _zyMaarUB;
+        "paper-26.1.2" = _zyMaarUB;
         "purpur-1.20.3" = _3u8w94to;
         "purpur-1.20.4" = _3u8w94to;
         "purpur-1.20" = _3u8w94to;
@@ -57,14 +67,19 @@ let
         "purpur-1.21.4" = _Ec2xLCQS;
         "purpur-1.21.5" = _Ec2xLCQS;
         "purpur-1.21.6" = _Ec2xLCQS;
-        "purpur-1.21.8" = _FqaugKHu;
-        "purpur-1.21.9" = _FqaugKHu;
-        "purpur-1.21.10" = _FqaugKHu;
+        "purpur-1.21.8" = _zyMaarUB;
+        "purpur-1.21.9" = _zyMaarUB;
+        "purpur-1.21.10" = _zyMaarUB;
+        "purpur-26.3" = _zyMaarUB;
+        "purpur-1.21.11" = _zyMaarUB;
+        "purpur-26.2" = _zyMaarUB;
+        "purpur-26.1.2" = _zyMaarUB;
         "spigot-1.20.3" = _VCZOrBSS;
         "spigot-1.20.4" = _VCZOrBSS;
         "pkg-1.0-SNAPSHOT" = _VCZOrBSS;
         "pkg-1.1" = _FqaugKHu;
-        "default" = _FqaugKHu;
+        "pkg-1.2" = _zyMaarUB;
+        "default" = _zyMaarUB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "heards-panic";

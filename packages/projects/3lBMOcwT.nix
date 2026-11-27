@@ -91,6 +91,16 @@ let
             "file" = "BarnyardBuddies_1.21.1Neoforge_V0.6.4.jar";
             "hash" = "sha512-WzN/ONaw1IoHf2xfnucUVPchEXrrMoPNXSYOuvEZi5kWIi3uUC8/Qxx2PWOkR1sYd6aPQ1ZHMkGWdNoT2uFC1Q==";
         };
+        _H920O6Si = {
+            "id" = "H920O6Si";
+            "file" = "BarnyardBuddies_1.21.1Neoforge_V0.7.jar";
+            "hash" = "sha512-gYPdV5LHSpPVOqUEKu5lI0r7KWYj9hgo17j6nURvsP2XZDGmWbU9dz6UMP3+rUnEDPNqlaxNdwIzJtxlkxdPPw==";
+        };
+        _xBxmdnMa = {
+            "id" = "xBxmdnMa";
+            "file" = "Barnyardbuddies_1.20.1Forge_V0.7.jar";
+            "hash" = "sha512-vUlxzOidCUOV/O+dnAJ3VxhKSzRF9s6oEH96awddhxXN11ZVO6HFgdkUS83reOjIDpkc++sXjNl8iKsKu/C4xg==";
+        };
     in {
         "CGxejfpR" = _CGxejfpR;
         "RzkFWHdw" = _RzkFWHdw;
@@ -110,8 +120,10 @@ let
         "2RvR9Qf4" = _2RvR9Qf4;
         "xTGD3hEZ" = _xTGD3hEZ;
         "bZM7o2nn" = _bZM7o2nn;
-        "forge-1.20.1" = _xTGD3hEZ;
-        "neoforge-1.21.1" = _bZM7o2nn;
+        "H920O6Si" = _H920O6Si;
+        "xBxmdnMa" = _xBxmdnMa;
+        "forge-1.20.1" = _xBxmdnMa;
+        "neoforge-1.21.1" = _H920O6Si;
         "pkg-0.3.3" = _RzkFWHdw;
         "pkg-0.4" = _vyxrvJTc;
         "pkg-0.4.1" = _2MkXq0vg;
@@ -122,7 +134,8 @@ let
         "pkg-0.6.2" = _2RvR9Qf4;
         "pkg-0.6.4" = _xTGD3hEZ;
         "pkg-0.6..4" = _bZM7o2nn;
-        "default" = _bZM7o2nn;
+        "pkg-0.7" = _xBxmdnMa;
+        "default" = _xBxmdnMa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "barnyard-buddies";

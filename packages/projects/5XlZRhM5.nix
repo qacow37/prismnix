@@ -81,6 +81,16 @@ let
             "file" = "nocroptrample-fabric-1.6+backport.1.20-1.20.4.jar";
             "hash" = "sha512-aoe/jMt4SznYsIbNyUK7WtuQ6+CmmL2n3NNMEng0OiuiEjRAnqlive8FArMzq55pqPWNBkfNcd0r7UIesJ00nA==";
         };
+        _dDS1PBWz = {
+            "id" = "dDS1PBWz";
+            "file" = "nocroptrample-neoforge-1.7-26.3.jar";
+            "hash" = "sha512-64MsAOpedPXHLJ7+Q/SRyltDa/ts/D0rolSLz+KUWaOSFiGN6S8S98kAaTVZl5STdcwY9UQEdRGbtoC2+Hljcw==";
+        };
+        _vRjzOenH = {
+            "id" = "vRjzOenH";
+            "file" = "nocroptrample-fabric-1.7-26.3.jar";
+            "hash" = "sha512-XqSHEznulMqW5ojsZwYufzbrNbZrfeX7SZV2CZ4f6JV5VvkhZt+wl3iQmOv0p8h93TWlb3TyMhY7q282Pq3Z/A==";
+        };
     in {
         "3gv1xSww" = _3gv1xSww;
         "vfKjnE8M" = _vfKjnE8M;
@@ -98,6 +108,8 @@ let
         "Lkah5cZa" = _Lkah5cZa;
         "C0MYl1qo" = _C0MYl1qo;
         "XVWKTY2J" = _XVWKTY2J;
+        "dDS1PBWz" = _dDS1PBWz;
+        "vRjzOenH" = _vRjzOenH;
         "fabric-1.21" = _IsS2jUNG;
         "fabric-1.21.1" = _IsS2jUNG;
         "fabric-1.21.2" = _IsS2jUNG;
@@ -125,14 +137,14 @@ let
         "fabric-26.1.1" = _x3RifniL;
         "fabric-26.1.2" = _x3RifniL;
         "fabric-26.2" = _7fbcAbEQ;
-        "fabric-26.3" = _K1qbbmjl;
+        "fabric-26.3" = _vRjzOenH;
         "fabric-1.20.6" = _IsS2jUNG;
         "fabric-1.20" = _XVWKTY2J;
         "fabric-1.20.1" = _XVWKTY2J;
         "fabric-1.20.2" = _XVWKTY2J;
         "fabric-1.20.3" = _XVWKTY2J;
         "fabric-1.20.4" = _XVWKTY2J;
-        "neoforge-26.3" = _Oa9BCFOO;
+        "neoforge-26.3" = _dDS1PBWz;
         "neoforge-1.20.6" = _iYNtrno5;
         "neoforge-1.21" = _iYNtrno5;
         "neoforge-1.21.1" = _iYNtrno5;
@@ -159,7 +171,8 @@ let
         "pkg-1.6+backport.1.20.6-1.21.10" = _iYNtrno5;
         "pkg-1.6+backport.1.21.11" = _zeddH1DK;
         "pkg-1.6+backport.1.20-1.20.4" = _XVWKTY2J;
-        "default" = _XVWKTY2J;
+        "pkg-1.7-26.3" = _vRjzOenH;
+        "default" = _vRjzOenH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nocroptrample";

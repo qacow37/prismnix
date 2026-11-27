@@ -36,6 +36,11 @@ let
             "file" = "fw-1.5.1-forge-1.20.1.jar";
             "hash" = "sha512-ct4OebtfejBFc7qT73jueUWnf9U6G03O9NwWTDfCLiW6ptc/dJ26nZf06PzNvLnbO6P9VGnKmnGMRAoUDd0bJA==";
         };
+        _9DExIWcb = {
+            "id" = "9DExIWcb";
+            "file" = "fw-1.5.2-neoforge-1.21.1.jar";
+            "hash" = "sha512-NjGqCu5RAyWv8pnMPDHreaT+a7n/NtQE582cmFCTJX553d4ifxE7sbHqTirtPmlRIQksKVuD/3qcIM1uOVIiMg==";
+        };
     in {
         "zV1IOx2P" = _zV1IOx2P;
         "WMIDkM9F" = _WMIDkM9F;
@@ -44,7 +49,9 @@ let
         "sBSM8T0N" = _sBSM8T0N;
         "fjt3UmyH" = _fjt3UmyH;
         "RqweDuiw" = _RqweDuiw;
+        "9DExIWcb" = _9DExIWcb;
         "forge-1.20.1" = _RqweDuiw;
+        "neoforge-1.21.1" = _9DExIWcb;
         "pkg-1.0.0" = _zV1IOx2P;
         "pkg-1.1" = _WMIDkM9F;
         "pkg-1.2" = _OFNYANCQ;
@@ -52,7 +59,8 @@ let
         "pkg-1.4" = _sBSM8T0N;
         "pkg-1.5" = _fjt3UmyH;
         "pkg-1.5.1" = _RqweDuiw;
-        "default" = _RqweDuiw;
+        "pkg-1.5.2" = _9DExIWcb;
+        "default" = _9DExIWcb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "funniweapons";

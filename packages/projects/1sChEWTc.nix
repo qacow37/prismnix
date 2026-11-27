@@ -256,6 +256,36 @@ let
             "file" = "eft-mod-1.21.11.jar";
             "hash" = "sha512-bgCDURtjC3CrPXFJ5y5bbYUFjAs4J1yPzMZ1qk0dQQxfs0S8515m+h/SbZqjOMfMgtbRF0OwZWI8IrBZmrm3KQ==";
         };
+        _Gqyi9AH2 = {
+            "id" = "Gqyi9AH2";
+            "file" = "eft-mod-1.21.11.jar";
+            "hash" = "sha512-FRj8XMriNgOrPUtbdFqKf95lATdQDEpbaxfkPoisAD9QFGNnFfyPSkDk3zRaNo6oQc+6427wkfW2DSwVAlofaw==";
+        };
+        _ivIkemAj = {
+            "id" = "ivIkemAj";
+            "file" = "eft-mod-1.21.11.jar";
+            "hash" = "sha512-KQCsWDgEIcGqHepWLbtp7OKUV3pvakD0zKGwUENezmgi+h28V9zRpdiilbEt491LGGvG2jMqOflUAPHNus2GVQ==";
+        };
+        _1HfT7Mon = {
+            "id" = "1HfT7Mon";
+            "file" = "eft-mod-1.21.11.jar";
+            "hash" = "sha512-YUsu6c9aVKM9J6oWnQdqijNE2BsCR54hXiPvi9ZiTaAwiRTbvSA5GOicgkU79u5q7QbBYVfq9mePGTe3lPsfgA==";
+        };
+        _gsDnyQ1v = {
+            "id" = "gsDnyQ1v";
+            "file" = "eft-mod-1.21.11.jar";
+            "hash" = "sha512-TH5vHchALaHgpgNMkUP3o8jLyNiCxUYJgdhnbfVYSOODo94D8KF/Fl2jgRvsEMLShvn+rTQGwcxdurX8P14Aew==";
+        };
+        _taboEHjt = {
+            "id" = "taboEHjt";
+            "file" = "eft-mod-1.21.11.jar";
+            "hash" = "sha512-LYKqQWd7vQ+nYeQ5MQsA1f1c3EKjY+uANyjRlz4eKzvlNwb94fKazzYFurOEggWR3yuM3rIBz/yI4vc3SemjFA==";
+        };
+        _cYyPhW2T = {
+            "id" = "cYyPhW2T";
+            "file" = "eft-mod-1.21.11.jar";
+            "hash" = "sha512-LryiUVcoNQZHO693SxCzzYzlALr6kaAfl46yjDHSpiIMweKyFWZWXpiSCZLm5dMXb/W4+gaFpxpTkSjrxSAelg==";
+        };
     in {
         "ZMRnSDDg" = _ZMRnSDDg;
         "hAINNYA8" = _hAINNYA8;
@@ -308,9 +338,15 @@ let
         "f1Sdlvp9" = _f1Sdlvp9;
         "VEvhPK0K" = _VEvhPK0K;
         "tztM52tD" = _tztM52tD;
-        "fabric-1.21.11" = _tztM52tD;
-        "pkg-1.21.11" = _tztM52tD;
-        "default" = _tztM52tD;
+        "Gqyi9AH2" = _Gqyi9AH2;
+        "ivIkemAj" = _ivIkemAj;
+        "1HfT7Mon" = _1HfT7Mon;
+        "gsDnyQ1v" = _gsDnyQ1v;
+        "taboEHjt" = _taboEHjt;
+        "cYyPhW2T" = _cYyPhW2T;
+        "fabric-1.21.11" = _cYyPhW2T;
+        "pkg-1.21.11" = _cYyPhW2T;
+        "default" = _cYyPhW2T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "escape-from-tarkraft-mod";

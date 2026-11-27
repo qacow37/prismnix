@@ -1066,6 +1066,11 @@ let
             "file" = "mafglib-0.6.2+mc26.3.jar";
             "hash" = "sha512-fZ7IupKJaBGTBeARQvm2RX/F+/4MQ91fZ2PiJVY1fqOb2O83yy0HXLr06GBQdohowWsrKQPdY6OOMgcJJ+hedQ==";
         };
+        _xv8SjX8k = {
+            "id" = "xv8SjX8k";
+            "file" = "mafglib-0.5.7+mc26.1.2.jar";
+            "hash" = "sha512-j+DG7+6eJtl+vkP/FQ0ANOS4UeBuhOKWf4fHD6/vehOb5wTrPhn1Aq8Vbq9ea6r+hK/rxxezdxnT1RwnJ4eD4g==";
+        };
     in {
         "65cfqVdz" = _65cfqVdz;
         "laYvE8yg" = _laYvE8yg;
@@ -1280,6 +1285,7 @@ let
         "5928g7Nx" = _5928g7Nx;
         "SiCB8wL1" = _SiCB8wL1;
         "oAlMQLw0" = _oAlMQLw0;
+        "xv8SjX8k" = _xv8SjX8k;
         "forge-1.16.4" = _iY4yzveu;
         "forge-1.16.5" = _iY4yzveu;
         "forge-1.17" = _RDHKzcnu;
@@ -1311,9 +1317,9 @@ let
         "neoforge-1.21.9" = _PVqnsLDh;
         "neoforge-1.21.10" = _PVqnsLDh;
         "neoforge-1.21.11" = _SiCB8wL1;
-        "neoforge-26.1" = _kGWEcTQS;
-        "neoforge-26.1.1" = _kGWEcTQS;
-        "neoforge-26.1.2" = _kGWEcTQS;
+        "neoforge-26.1" = _xv8SjX8k;
+        "neoforge-26.1.1" = _xv8SjX8k;
+        "neoforge-26.1.2" = _xv8SjX8k;
         "neoforge-26.2" = _e5Lii6lp;
         "neoforge-26.3" = _oAlMQLw0;
         "pkg-0.1.4-mc1.16.4" = _65cfqVdz;
@@ -1528,7 +1534,8 @@ let
         "pkg-0.6.1+mc26.3" = _5928g7Nx;
         "pkg-0.4.8+mc1.21.11" = _SiCB8wL1;
         "pkg-0.6.2+mc26.3" = _oAlMQLw0;
-        "default" = _oAlMQLw0;
+        "pkg-0.5.7+mc26.1.2" = _xv8SjX8k;
+        "default" = _xv8SjX8k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mafglib";

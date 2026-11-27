@@ -18681,6 +18681,11 @@ let
             "file" = "voicechat-fabric-2.6.27+26.4-snapshot-10.jar";
             "hash" = "sha512-5OGTE8Xag9TTNUFMFGyIo4DlrH8GG+/disQAVXv45EvP8YH7xnoFTdBoIJiEeuZeaudzTjCs80+f3NGqn9h9xg==";
         };
+        _pRdMkSZO = {
+            "id" = "pRdMkSZO";
+            "file" = "voicechat-fabric-2.6.27+26.4-pre-1.jar";
+            "hash" = "sha512-frWlwHDgEhZDJLD84yHRdnZXQD2vsrkn66cfvUTOZhJ3dmAp7LcbuUe+WGFQq0nAf2l449p9hZPLzK0IYTb8uw==";
+        };
     in {
         "a68GgwWQ" = _a68GgwWQ;
         "qInLVpvP" = _qInLVpvP;
@@ -22418,6 +22423,7 @@ let
         "2EkRaQ5b" = _2EkRaQ5b;
         "GQFkFHnx" = _GQFkFHnx;
         "GBWqT2zU" = _GBWqT2zU;
+        "pRdMkSZO" = _pRdMkSZO;
         "forge-1.17.1" = _oZJhu2w0;
         "forge-1.18.1" = _tHZnuSqg;
         "forge-1.16.5" = _8reiMbbt;
@@ -22714,6 +22720,7 @@ let
         "fabric-26.4-snapshot-7" = _2EkRaQ5b;
         "fabric-26.4-snapshot-8" = _GQFkFHnx;
         "fabric-26.4-snapshot-10" = _GBWqT2zU;
+        "fabric-26.4-pre-1" = _pRdMkSZO;
         "quilt-1.18.2" = _ceWnJLpQ;
         "quilt-1.19" = _sc2BBBoZ;
         "quilt-1.19.1" = _fUb9N4ZI;
@@ -26839,7 +26846,8 @@ let
         "pkg-fabric-2.6.27+26.4-snapshot-7" = _2EkRaQ5b;
         "pkg-fabric-2.6.27+26.4-snapshot-8" = _GQFkFHnx;
         "pkg-fabric-2.6.27+26.4-snapshot-10" = _GBWqT2zU;
-        "default" = _GBWqT2zU;
+        "pkg-fabric-2.6.27+26.4-pre-1" = _pRdMkSZO;
+        "default" = _pRdMkSZO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-voice-chat";

@@ -561,6 +561,16 @@ let
             "file" = "saturation_plus-1.4.0-1.21.6.jar";
             "hash" = "sha512-eHDpfoGSXbwmAwnOZUP6c4+a4KMBx8Wkac/jSaa6GdLLMsrMOOpTUQ+bUkXuVzHADVkYrwrxca1JNRpWKT64Yw==";
         };
+        _F6iAzQmz = {
+            "id" = "F6iAzQmz";
+            "file" = "saturation_plus-1.4.0-1.21.11.jar";
+            "hash" = "sha512-ZDquFnkS1ulv/ZzUc2tTwV5Rqiqf+pls6h0cxbz7HreY24OjpcF0wn+BnBpd2F2ZLn0cmCvQZuPfgyo1wLiWZw==";
+        };
+        _6yrSvwRi = {
+            "id" = "6yrSvwRi";
+            "file" = "saturation_plus-1.4.0-26.1.jar";
+            "hash" = "sha512-HBtdRyDCJj1BLVAf5qYAslDRRiJbwZfXNRy01M4q9rmd97/PGAsg8aGZCWe6+sXVE3nMyVwQcUXYarK9XWfO2Q==";
+        };
     in {
         "Wm188JVi" = _Wm188JVi;
         "TOvM87xE" = _TOvM87xE;
@@ -674,6 +684,8 @@ let
         "iKthKUB2" = _iKthKUB2;
         "ewjbdwNt" = _ewjbdwNt;
         "d4davqAj" = _d4davqAj;
+        "F6iAzQmz" = _F6iAzQmz;
+        "6yrSvwRi" = _6yrSvwRi;
         "fabric-1.14.4" = _ysmoDA0m;
         "fabric-1.15" = _5tAw4bo4;
         "fabric-1.15.1" = _5tAw4bo4;
@@ -712,10 +724,12 @@ let
         "fabric-1.21.8" = _d4davqAj;
         "fabric-1.21.9" = _d4davqAj;
         "fabric-1.21.10" = _d4davqAj;
-        "fabric-1.21.11" = _x7KT4Zl7;
-        "fabric-26.1" = _inTzhpDz;
-        "fabric-26.1.1" = _inTzhpDz;
-        "fabric-26.1.2" = _inTzhpDz;
+        "fabric-1.21.11" = _F6iAzQmz;
+        "fabric-26.1" = _6yrSvwRi;
+        "fabric-26.1.1" = _6yrSvwRi;
+        "fabric-26.1.2" = _6yrSvwRi;
+        "fabric-26.3" = _6yrSvwRi;
+        "fabric-26.2" = _6yrSvwRi;
         "forge-1.21" = _8WTjZDLk;
         "forge-1.21.1" = _8WTjZDLk;
         "forge-1.21.2" = _UArde862;
@@ -869,7 +883,9 @@ let
         "pkg-1.4.0-1.21" = _iKthKUB2;
         "pkg-1.4.0-1.21.2" = _ewjbdwNt;
         "pkg-1.4.0-1.21.6" = _d4davqAj;
-        "default" = _d4davqAj;
+        "pkg-1.4.0-1.21.11" = _F6iAzQmz;
+        "pkg-1.4.0-26.1" = _6yrSvwRi;
+        "default" = _6yrSvwRi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saturation-plus";

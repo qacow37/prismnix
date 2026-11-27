@@ -441,6 +441,11 @@ let
             "file" = "Quark-4.1-488.jar";
             "hash" = "sha512-BvaK4Y+qBkl78kle+MNLbzTMzTBJOXNuAJrsAkh5spmCNLxP7der2RJREufAr+tf1928xUtgNL1MlbR57YiA9A==";
         };
+        _PVhkl2hW = {
+            "id" = "PVhkl2hW";
+            "file" = "Quark-4.1-489.jar";
+            "hash" = "sha512-fKBD65I4XNVv/D2jNEgCbmMm/nwww73Fo27OcOyFhXK7QHgAVda4tsMlm+umaXPePQBHxhVqrEajNN6m7d8wVQ==";
+        };
     in {
         "hUHoJ8IU" = _hUHoJ8IU;
         "DWIopZ9p" = _DWIopZ9p;
@@ -530,6 +535,7 @@ let
         "k4NCrqRq" = _k4NCrqRq;
         "18h0L19k" = _18h0L19k;
         "pMjjsBGF" = _pMjjsBGF;
+        "PVhkl2hW" = _PVhkl2hW;
         "forge-1.9.4" = _hUHoJ8IU;
         "forge-1.10.2" = _DWIopZ9p;
         "forge-1.11.2" = _z07wlDPM;
@@ -541,7 +547,7 @@ let
         "forge-1.19.2" = _8po5DGR8;
         "forge-1.20.1" = _DijQLauD;
         "neoforge-1.21" = _hWrgyOs5;
-        "neoforge-1.21.1" = _pMjjsBGF;
+        "neoforge-1.21.1" = _PVhkl2hW;
         "pkg-beta-29" = _hUHoJ8IU;
         "pkg-r1.1-70" = _DWIopZ9p;
         "pkg-r1.2-93b" = _z07wlDPM;
@@ -630,7 +636,8 @@ let
         "pkg-4.1-486" = _k4NCrqRq;
         "pkg-4.1-487" = _18h0L19k;
         "pkg-4.1-488" = _pMjjsBGF;
-        "default" = _pMjjsBGF;
+        "pkg-4.1-489" = _PVhkl2hW;
+        "default" = _PVhkl2hW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quark";

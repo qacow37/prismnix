@@ -21,17 +21,25 @@ let
             "file" = "fakeachievementtoast-1.0.1.jar";
             "hash" = "sha512-djZZ0xzGaK6+6GhMG9axzJboM/yEYy4MNHAZw1Fyg8YMKEO7Hq06/UCzlS7ffcxCmvKrvApF4VmqUxjEj+6kbQ==";
         };
+        _WN1XI597 = {
+            "id" = "WN1XI597";
+            "file" = "fakeachievementtoast-1.0.2.jar";
+            "hash" = "sha512-TZfl0SBFZbKkrNKK7X1BoTIQ9HV2gjOs5RjQUHnHRTh0iPXictNDRaqb5PUfB0P9JAIXKtoQZHFv2BHwD1e9jQ==";
+        };
     in {
         "EgDv0B1F" = _EgDv0B1F;
         "pNFbuiVN" = _pNFbuiVN;
         "cNV6HNmd" = _cNV6HNmd;
         "2Vhutyu5" = _2Vhutyu5;
+        "WN1XI597" = _WN1XI597;
         "neoforge-1.21.1" = _2Vhutyu5;
+        "neoforge-26.3" = _WN1XI597;
         "forge-1.19.2" = _pNFbuiVN;
         "forge-1.20.1" = _cNV6HNmd;
         "pkg-1.0.0" = _EgDv0B1F;
         "pkg-1.0.1" = _2Vhutyu5;
-        "default" = _2Vhutyu5;
+        "pkg-1.0.2" = _WN1XI597;
+        "default" = _WN1XI597;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "congratulations";

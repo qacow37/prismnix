@@ -1541,6 +1541,11 @@ let
             "file" = "mcjtylib-1.20-8.0.11.jar";
             "hash" = "sha512-HxbpyWX60zUQ9SKQCVm+2GW0fnuFThBF9RI1fMHD/VXnkNTqVbxBUffu+/X+CT4r5acdHCtedGOCeEj/gDzmfw==";
         };
+        _SsRjAEiL = {
+            "id" = "SsRjAEiL";
+            "file" = "mcjtylib-1.20-8.0.12.jar";
+            "hash" = "sha512-jEarp+85LxkiIZNk38QQlBawnZGjJlAisTxRPPJoeOv+sSAX6DB70tIbIvl0u8EKsGmy1u7lEL1IUKL/9bNwOw==";
+        };
     in {
         "FL0pJfDF" = _FL0pJfDF;
         "KIprrl1c" = _KIprrl1c;
@@ -1850,6 +1855,7 @@ let
         "3Zqq4ael" = _3Zqq4ael;
         "hA9PZcsN" = _hA9PZcsN;
         "qNhzLEG4" = _qNhzLEG4;
+        "SsRjAEiL" = _SsRjAEiL;
         "forge-1.7.10" = _EIS07pmm;
         "forge-1.8.8" = _EKFMTX5J;
         "forge-1.8.9" = _wk2tNvFw;
@@ -1877,7 +1883,7 @@ let
         "forge-1.19.2" = _47PU761N;
         "forge-1.19.3" = _oTJh7JHz;
         "forge-1.19.4" = _nSoxMtIk;
-        "forge-1.20.1" = _qNhzLEG4;
+        "forge-1.20.1" = _SsRjAEiL;
         "neoforge-1.21.1" = _6g7v21eb;
         "neoforge-26.2" = _5dN0TRCN;
         "neoforge-26.3" = _3Zqq4ael;
@@ -2194,7 +2200,8 @@ let
         "pkg-26.3-11.0.6" = _3Zqq4ael;
         "pkg-26.3-11.0.6-fabric" = _hA9PZcsN;
         "pkg-1.20-8.0.11" = _qNhzLEG4;
-        "default" = _qNhzLEG4;
+        "pkg-1.20-8.0.12" = _SsRjAEiL;
+        "default" = _SsRjAEiL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcjtylib";

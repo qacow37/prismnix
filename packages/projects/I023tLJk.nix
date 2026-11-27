@@ -76,6 +76,11 @@ let
             "file" = "Pastoral Beta 1.6.0.zip";
             "hash" = "sha512-mlkCrjdJyQdYfyEiiwkCeJLNztDxE6+VFa/mO3HyDMoOLqmJpsPK9GATdXtjkojM21hM6Us3vlJaaXlMOonA1w==";
         };
+        _w8PQ1AoQ = {
+            "id" = "w8PQ1AoQ";
+            "file" = "Pastoral Beta 1.6.3.zip";
+            "hash" = "sha512-gld5UcxXRAJ3/3HjmaWY4xLjTClM+ZHO4270pnLRC4+B4fPtIw5Eqprn3YRj4MqJqiAFbXz/drz8xls5Kjpa9A==";
+        };
     in {
         "ZYvX4mS8" = _ZYvX4mS8;
         "GDubzRPj" = _GDubzRPj;
@@ -92,16 +97,17 @@ let
         "SKv8KFSl" = _SKv8KFSl;
         "1augT9Md" = _1augT9Md;
         "m8wyJb2S" = _m8wyJb2S;
-        "minecraft-26.1.2" = _m8wyJb2S;
+        "w8PQ1AoQ" = _w8PQ1AoQ;
+        "minecraft-26.1.2" = _w8PQ1AoQ;
         "minecraft-1.21.9" = _fAD4007N;
         "minecraft-1.21.10" = _fAD4007N;
-        "minecraft-1.21.11" = _m8wyJb2S;
-        "minecraft-26.1" = _m8wyJb2S;
-        "minecraft-26.1.1" = _m8wyJb2S;
-        "minecraft-26.2" = _m8wyJb2S;
-        "minecraft-1.20.1" = _m8wyJb2S;
-        "minecraft-1.21.1" = _m8wyJb2S;
-        "minecraft-26.3" = _m8wyJb2S;
+        "minecraft-1.21.11" = _w8PQ1AoQ;
+        "minecraft-26.1" = _w8PQ1AoQ;
+        "minecraft-26.1.1" = _w8PQ1AoQ;
+        "minecraft-26.2" = _w8PQ1AoQ;
+        "minecraft-1.20.1" = _w8PQ1AoQ;
+        "minecraft-1.21.1" = _w8PQ1AoQ;
+        "minecraft-26.3" = _w8PQ1AoQ;
         "pkg-Beta1.0" = _ZYvX4mS8;
         "pkg-Beta1.1" = _GDubzRPj;
         "pkg-Beta1.2" = _VlcoOFWK;
@@ -116,7 +122,8 @@ let
         "pkg-Beta1.5.66" = _SKv8KFSl;
         "pkg-Beta1.5.8" = _1augT9Md;
         "pkg-Beta1.6.0" = _m8wyJb2S;
-        "default" = _m8wyJb2S;
+        "pkg-Beta1.6.3" = _w8PQ1AoQ;
+        "default" = _w8PQ1AoQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pastoral";

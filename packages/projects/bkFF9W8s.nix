@@ -241,6 +241,11 @@ let
             "file" = "CF32PA-2026r22.zip";
             "hash" = "sha512-qAgZC66+Hq7OFug0MtPlRbkpTmxrK2S/U1e1WLLqiWm0uxlDYUfyNUSX/Orz7dNFpdUeIsMNMwZPDZ8AbYIVYQ==";
         };
+        _LrOV1t0l = {
+            "id" = "LrOV1t0l";
+            "file" = "CF32PA-2026r23.zip";
+            "hash" = "sha512-B8M237dl3j/DMEUrUY2TaVbV4yFiUTduyePMZY4P4eYLOsM1N0zGhSRvESrn1BifF26wvhXj+chlEtxQxn/fog==";
+        };
     in {
         "m3OXlK7v" = _m3OXlK7v;
         "eOHTGwRB" = _eOHTGwRB;
@@ -290,6 +295,7 @@ let
         "RXhC3xZk" = _RXhC3xZk;
         "S5AOXuR7" = _S5AOXuR7;
         "htk2VfIu" = _htk2VfIu;
+        "LrOV1t0l" = _LrOV1t0l;
         "minecraft-1.20.2" = _m3OXlK7v;
         "minecraft-1.21" = _eOHTGwRB;
         "minecraft-1.21.4" = _GjeLhXIW;
@@ -368,11 +374,17 @@ let
         "minecraft-26.3-pre-2" = _RXhC3xZk;
         "minecraft-26.3-pre-3" = _RXhC3xZk;
         "minecraft-26.3" = _S5AOXuR7;
-        "minecraft-26.4-snapshot-1" = _htk2VfIu;
-        "minecraft-26.4-snapshot-2" = _htk2VfIu;
-        "minecraft-26.4-snapshot-3" = _htk2VfIu;
-        "minecraft-26.4-snapshot-4" = _htk2VfIu;
-        "minecraft-26.4-snapshot-5" = _htk2VfIu;
+        "minecraft-26.4-snapshot-1" = _LrOV1t0l;
+        "minecraft-26.4-snapshot-2" = _LrOV1t0l;
+        "minecraft-26.4-snapshot-3" = _LrOV1t0l;
+        "minecraft-26.4-snapshot-4" = _LrOV1t0l;
+        "minecraft-26.4-snapshot-5" = _LrOV1t0l;
+        "minecraft-26.4-snapshot-6" = _LrOV1t0l;
+        "minecraft-26.4-snapshot-7" = _LrOV1t0l;
+        "minecraft-26.4-snapshot-8" = _LrOV1t0l;
+        "minecraft-26.4-snapshot-9" = _LrOV1t0l;
+        "minecraft-26.4-snapshot-10" = _LrOV1t0l;
+        "minecraft-26.4-pre-1" = _LrOV1t0l;
         "pkg-1.20.2" = _m3OXlK7v;
         "pkg-Pre1.21" = _eOHTGwRB;
         "pkg-2025r1" = _A3myTBg5;
@@ -421,7 +433,8 @@ let
         "pkg-2026r20" = _RXhC3xZk;
         "pkg-2026r21" = _S5AOXuR7;
         "pkg-2026r22" = _htk2VfIu;
-        "default" = _htk2VfIu;
+        "pkg-2026r23" = _LrOV1t0l;
+        "default" = _LrOV1t0l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "classic-faithful-32x";

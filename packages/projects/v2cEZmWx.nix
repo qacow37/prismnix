@@ -66,6 +66,31 @@ let
             "file" = "mystical_missing_items-1.2.2.jar";
             "hash" = "sha512-Xyc2vXcXsWKc2bj0zDKI4fnFEiYfPYpnSWvFqXgCO1HtOAXFZW0QumqbZpr7Rmb7DoAQkGlOz79pQxIY8JrYzA==";
         };
+        _7nwffRB9 = {
+            "id" = "7nwffRB9";
+            "file" = "mystical_missing_items-1.2.2.jar";
+            "hash" = "sha512-+3Xg22gNF082lvvFbxdFN8khpZXLEKrMyI8AFvF69fII6G7kQ2yh7c7hWEDC9wezlgW9FVoJMxxBBMx9ldL52w==";
+        };
+        _17GUtzjG = {
+            "id" = "17GUtzjG";
+            "file" = "mystical_missing_items-1.2.2.jar";
+            "hash" = "sha512-+3Xg22gNF082lvvFbxdFN8khpZXLEKrMyI8AFvF69fII6G7kQ2yh7c7hWEDC9wezlgW9FVoJMxxBBMx9ldL52w==";
+        };
+        _3MTY6rC8 = {
+            "id" = "3MTY6rC8";
+            "file" = "mystical_missing_items-1.2.3.jar";
+            "hash" = "sha512-wKuQ40y3zTo2+HhFAHvEdEfUqarHC0FsPpnqIxYlQfE6KmgQt+V9kGLXdwNhLymxgcWhsGc9wfd3YvI19yZEjQ==";
+        };
+        _cTOU7SJ6 = {
+            "id" = "cTOU7SJ6";
+            "file" = "mystical_missing_items-1.2.2.jar";
+            "hash" = "sha512-sIHbTbT6sGYmNt5ckwA1MhjDQjDsEOSNBe7SMcVshMkZIbxMRuwy7EVkezsZJylgHR/epAvCKk+Smkm7WxYCgw==";
+        };
+        _aQiJXQHn = {
+            "id" = "aQiJXQHn";
+            "file" = "mystical_missing_items-1.2.2.jar";
+            "hash" = "sha512-sIHbTbT6sGYmNt5ckwA1MhjDQjDsEOSNBe7SMcVshMkZIbxMRuwy7EVkezsZJylgHR/epAvCKk+Smkm7WxYCgw==";
+        };
     in {
         "UcLMG6TI" = _UcLMG6TI;
         "SCg6jwne" = _SCg6jwne;
@@ -80,18 +105,24 @@ let
         "8IsjsCkF" = _8IsjsCkF;
         "kDzKZJ9q" = _kDzKZJ9q;
         "KdzorszV" = _KdzorszV;
-        "neoforge-1.21.1" = _lt4KNRAO;
-        "neoforge-26.1.2" = _KdzorszV;
+        "7nwffRB9" = _7nwffRB9;
+        "17GUtzjG" = _17GUtzjG;
+        "3MTY6rC8" = _3MTY6rC8;
+        "cTOU7SJ6" = _cTOU7SJ6;
+        "aQiJXQHn" = _aQiJXQHn;
+        "neoforge-1.21.1" = _3MTY6rC8;
+        "neoforge-26.1.2" = _aQiJXQHn;
         "forge-1.20.1" = _pJoXTevw;
         "pkg-1.21.1-1.0-SNAPSHOT" = _UcLMG6TI;
         "pkg-1.21.1-1.1" = _SCg6jwne;
         "pkg-1.21.1-1.2" = _Qcyc2WjZ;
         "pkg-1.21.1-1.2.1" = _dmqeHKRm;
         "pkg-1.20.1-1.2.1" = _oe3pMafA;
-        "pkg-1.21.1-1.2.2" = _lt4KNRAO;
+        "pkg-1.21.1-1.2.2" = _17GUtzjG;
         "pkg-1.20.1-1.2.2" = _pJoXTevw;
-        "pkg-26.1.2-1.2.2" = _KdzorszV;
-        "default" = _KdzorszV;
+        "pkg-26.1.2-1.2.2" = _aQiJXQHn;
+        "pkg-1.21.1-1.2.3" = _3MTY6rC8;
+        "default" = _aQiJXQHn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mysticalmissingitems";

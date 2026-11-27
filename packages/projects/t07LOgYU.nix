@@ -341,6 +341,16 @@ let
             "file" = "Chest-Preview-NeoForge-1.20.1-1.0.0.jar";
             "hash" = "sha512-sFbKww6uV2G5UoFSA7BpF+8t0k2RynrnKK17D+SwLSNBfDkpmtfnMwZiaipCf1GaJR0oTMDC9WUB3KOy9VI5IA==";
         };
+        _YWJGeRpV = {
+            "id" = "YWJGeRpV";
+            "file" = "Chest-Preview-Forge-26.2-1.0.0.jar";
+            "hash" = "sha512-h2ltMlQWyY6x06/BZwbF4BLwdQftvmtmKuN+NAaf0AotDRwuJI5JIHXWj4QILK7B7SHG3Thkqurv2CJG3PNZ4g==";
+        };
+        _HyyY3ggB = {
+            "id" = "HyyY3ggB";
+            "file" = "Chest-Preview-Forge-26.3-1.0.0.jar";
+            "hash" = "sha512-IZ4Ps5AFIaPVqKpKL/8sy4shDIDci//qcXFVGdJVY5wVxB6fG5eRztxbyTHWE3w2kjinbnynHphNDtZM7k+tzA==";
+        };
     in {
         "vj8bTOmm" = _vj8bTOmm;
         "XsBEQ86I" = _XsBEQ86I;
@@ -410,6 +420,8 @@ let
         "ui6jrA7B" = _ui6jrA7B;
         "fgRwOnmS" = _fgRwOnmS;
         "N3d2FSVY" = _N3d2FSVY;
+        "YWJGeRpV" = _YWJGeRpV;
+        "HyyY3ggB" = _HyyY3ggB;
         "fabric-1.21.1" = _vj8bTOmm;
         "fabric-1.21.2" = _XsBEQ86I;
         "fabric-1.21.4" = _gUkF5mgt;
@@ -447,7 +459,7 @@ let
         "forge-26.1.1" = _A6wJVmJE;
         "forge-26.1.2" = _4B51xuKd;
         "forge-26.1" = _XjPTrpLY;
-        "forge-26.2" = _xphKV2dP;
+        "forge-26.2" = _YWJGeRpV;
         "forge-1.21" = _HNQ9KkaC;
         "forge-1.20.6" = _6d1GC68b;
         "forge-1.20.4" = _B3uyPHRx;
@@ -455,6 +467,7 @@ let
         "forge-1.20.2" = _yovngDhh;
         "forge-1.20.1" = _Nld5dZXZ;
         "forge-1.20" = _8LJi4L89;
+        "forge-26.3" = _HyyY3ggB;
         "neoforge-1.21.1" = _isfHBHIO;
         "neoforge-1.21.2" = _8oVyF53K;
         "neoforge-1.21.3" = _o5mWSbgI;
@@ -478,8 +491,8 @@ let
         "neoforge-1.20.3" = _ui6jrA7B;
         "neoforge-1.20.2" = _fgRwOnmS;
         "neoforge-1.20.1" = _N3d2FSVY;
-        "pkg-1.0.0" = _N3d2FSVY;
-        "default" = _N3d2FSVY;
+        "pkg-1.0.0" = _HyyY3ggB;
+        "default" = _HyyY3ggB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chest-preview-plus";

@@ -1106,6 +1106,46 @@ let
             "file" = "pets-mod-0.7.9-b1.7.3-babric.jar";
             "hash" = "sha512-b3Qw4LhwSzMT1mR/TURqDwKLqLbgDPhNTr7sYPPBPxSoOl6SvqxU3OtJBn9fTc4r6rOzPx152sXcBBsP2YoWOg==";
         };
+        _3fnzpx53 = {
+            "id" = "3fnzpx53";
+            "file" = "pets-mod-0.7.9-b1.7.3-bta.jar";
+            "hash" = "sha512-SB/aJAN4on5O53kgjRu26QZWMGagfVdLTG+viWsg18GsB9BtVRKotBysyMwDEJETuHsvRGNvkAJodbugLcGjaw==";
+        };
+        _FGGQtg7a = {
+            "id" = "FGGQtg7a";
+            "file" = "pets-mod-0.7.9-b1.6.6-ornithe.jar";
+            "hash" = "sha512-8EJNKLFwZmCPF+Nq4DwBhZU8jK7hbJZxvu+KIzZybqQUOFc3P3OXql2nSAA0dupbWFb3gEynHESESu+NzR7LRA==";
+        };
+        _iVjY9BmK = {
+            "id" = "iVjY9BmK";
+            "file" = "pets-mod-0.7.9-b1.5-ornithe.jar";
+            "hash" = "sha512-IHZYSkH1WKH1EfUDUxsrNktAnvCel+9OUccd5wzvA0Qfiaiq2O2v53LY1+f6ceXdm6TQ4hjgiuZKs1xPt7wB/Q==";
+        };
+        _RSHy8L4Z = {
+            "id" = "RSHy8L4Z";
+            "file" = "pets-mod-0.7.9-b1.4-ornithe.jar";
+            "hash" = "sha512-vb8jNwtExNz0rJIbm/000yaNKNa62ELMBAcnP16GYMnqX4gliTnBquFWEEyiR0YSNN+Uuws6IguW7tjEP+sEQA==";
+        };
+        _yaFsFus2 = {
+            "id" = "yaFsFus2";
+            "file" = "pets-mod-0.7.9-b1.2-ornithe.jar";
+            "hash" = "sha512-Kc/UxoK8wWRF84ucBQXv1k2VlXcK2AIFwLL/fZ6PchAOAD5dquDIpd/QXFcokN+JWju6boX2OO0LWzJfAUDm7Q==";
+        };
+        _KwKN9ZFe = {
+            "id" = "KwKN9ZFe";
+            "file" = "pets-mod-0.7.9-b1.3-ornithe.jar";
+            "hash" = "sha512-9cjTUqFD3u0sXsnCGjf5NquBZbLc4/XydpqcTfnqsgmEp6luQSd6fwqlzCIapKuU9KWyqLHe/MoPRrerqVC4YA==";
+        };
+        _lvdYiVph = {
+            "id" = "lvdYiVph";
+            "file" = "pets-mod-0.7.9-b1.1-ornithe.jar";
+            "hash" = "sha512-FDQv6l3anPDFgynfAaNhzKdGVt/GUXqioaBW9naPG1kFBBqO9FcrzFdRAMfWctO5PDM8rgGAZPdIehT5jRYufQ==";
+        };
+        _tnNIGwUF = {
+            "id" = "tnNIGwUF";
+            "file" = "pets-mod-0.7.9-b1.0-ornithe.jar";
+            "hash" = "sha512-3JaCv/jqtrHTJaKKvdWhp+o5tEDOpsAUZYCqdV1Vhz4VP8lC0B3JxxckUDqfV70tVh0yDr5FdJVGK9nZ/Y7sIQ==";
+        };
     in {
         "QXwNiseV" = _QXwNiseV;
         "fNYBq9w9" = _fNYBq9w9;
@@ -1328,6 +1368,14 @@ let
         "WQDBAYnH" = _WQDBAYnH;
         "cmvY6OUW" = _cmvY6OUW;
         "v0KvreKu" = _v0KvreKu;
+        "3fnzpx53" = _3fnzpx53;
+        "FGGQtg7a" = _FGGQtg7a;
+        "iVjY9BmK" = _iVjY9BmK;
+        "RSHy8L4Z" = _RSHy8L4Z;
+        "yaFsFus2" = _yaFsFus2;
+        "KwKN9ZFe" = _KwKN9ZFe;
+        "lvdYiVph" = _lvdYiVph;
+        "tnNIGwUF" = _tnNIGwUF;
         "fabric-1.21.11" = _CPwFdYy0;
         "fabric-26.1" = _O9ZcoNMs;
         "fabric-26.1.1" = _O9ZcoNMs;
@@ -1573,6 +1621,27 @@ let
         "ornithe-b1.7.3" = _cmvY6OUW;
         "ornithe-b1.7.2" = _cmvY6OUW;
         "ornithe-b1.7" = _cmvY6OUW;
+        "ornithe-b1.6" = _FGGQtg7a;
+        "ornithe-b1.6.6" = _FGGQtg7a;
+        "ornithe-b1.6.5" = _FGGQtg7a;
+        "ornithe-b1.6.4" = _FGGQtg7a;
+        "ornithe-b1.6.3" = _FGGQtg7a;
+        "ornithe-b1.6.2" = _FGGQtg7a;
+        "ornithe-b1.6.1" = _FGGQtg7a;
+        "ornithe-b1.5" = _iVjY9BmK;
+        "ornithe-b1.5_01" = _iVjY9BmK;
+        "ornithe-b1.4" = _RSHy8L4Z;
+        "ornithe-b1.4_01" = _RSHy8L4Z;
+        "ornithe-b1.2" = _yaFsFus2;
+        "ornithe-b1.2_02" = _yaFsFus2;
+        "ornithe-b1.2_01" = _yaFsFus2;
+        "ornithe-b1.3b" = _KwKN9ZFe;
+        "ornithe-b1.3_01" = _KwKN9ZFe;
+        "ornithe-b1.1_01" = _lvdYiVph;
+        "ornithe-b1.1_02" = _lvdYiVph;
+        "ornithe-b1.0" = _tnNIGwUF;
+        "ornithe-b1.0_01" = _tnNIGwUF;
+        "ornithe-b1.0.2" = _tnNIGwUF;
         "java-agent-26.1" = _b3HHKYmt;
         "java-agent-26.1.1" = _b3HHKYmt;
         "java-agent-26.1.2" = _b3HHKYmt;
@@ -1625,6 +1694,7 @@ let
         "nilloader-26.1.2" = _b3HHKYmt;
         "modloader-1.5.2" = _bJ4atTup;
         "babric-b1.7.3" = _v0KvreKu;
+        "bta-babric-b1.7.3" = _3fnzpx53;
         "pkg-0.5.0-1.21.11-beta" = _QXwNiseV;
         "pkg-0.5.1-1.21.11-beta" = _fNYBq9w9;
         "pkg-0.5.2-1.21.11-beta" = _B0uAUPWv;
@@ -1840,7 +1910,15 @@ let
         "pkg-0.7.9-b1.8-Ornithe" = _WQDBAYnH;
         "pkg-0.7.9-b1.7.3-Ornithe" = _cmvY6OUW;
         "pkg-0.7.9-b1.7.3-Babric" = _v0KvreKu;
-        "default" = _v0KvreKu;
+        "pkg-0.7.9-b1.7.3-BTA" = _3fnzpx53;
+        "pkg-0.7.9-b1.6.6-Ornithe" = _FGGQtg7a;
+        "pkg-0.7.9-b1.5-Ornithe" = _iVjY9BmK;
+        "pkg-0.7.9-b1.4-Ornithe" = _RSHy8L4Z;
+        "pkg-0.7.9-b1.2-Ornithe" = _yaFsFus2;
+        "pkg-0.7.9-b1.3-Ornithe" = _KwKN9ZFe;
+        "pkg-0.7.9-b1.1-Ornithe" = _lvdYiVph;
+        "pkg-0.7.9-b1.0-Ornithe" = _tnNIGwUF;
+        "default" = _tnNIGwUF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pets-mod";

@@ -141,6 +141,16 @@ let
             "file" = "kaleidoscopecookery-1.6.0-neoforge+mc1.21.1.jar";
             "hash" = "sha512-tWL3M5X3DTn7JticpipbXOvn1msR6JMCF/Da8D/c6mF2KXKPVeTIztaQQGIExERiqKVo5cFfBfWUAnSQTOC3fw==";
         };
+        _Jtm73Mqn = {
+            "id" = "Jtm73Mqn";
+            "file" = "kaleidoscopecookery-1.7.0-forge+mc1.20.1.jar";
+            "hash" = "sha512-05fkE6ct2Qlp7Y/m9vlDhiPk38bV9QynF66nB2lkma2fzmEhv1W1/pNVWiM9bWfpq5X2G3U0JkqdNXKxxAFt6g==";
+        };
+        _COtTVhOl = {
+            "id" = "COtTVhOl";
+            "file" = "kaleidoscopecookery-1.7.0-neoforge+mc1.21.1.jar";
+            "hash" = "sha512-Qm3MoFxWTBI1yvkDgiItdr7f6CvHiKx0SxYCWAjYGSiZ+bM9sUJbXgg8c4UUKO3X7QKjIS9ofH8wnwos5W6izw==";
+        };
     in {
         "tUgpvImJ" = _tUgpvImJ;
         "51nAWmeu" = _51nAWmeu;
@@ -170,8 +180,10 @@ let
         "7vH6mhde" = _7vH6mhde;
         "Ghp0qCKY" = _Ghp0qCKY;
         "g8w0b2ly" = _g8w0b2ly;
-        "forge-1.20.1" = _Ghp0qCKY;
-        "neoforge-1.21.1" = _g8w0b2ly;
+        "Jtm73Mqn" = _Jtm73Mqn;
+        "COtTVhOl" = _COtTVhOl;
+        "forge-1.20.1" = _Jtm73Mqn;
+        "neoforge-1.21.1" = _COtTVhOl;
         "neoforge-1.21" = _NX96Z4HT;
         "fabric-1.20.1" = _wb9plJ5F;
         "fabric-1.21.1" = _acNSsFFk;
@@ -203,7 +215,9 @@ let
         "pkg-1.5.1-neoforge+mc1.21.1" = _7vH6mhde;
         "pkg-1.6.0-forge+mc1.20.1" = _Ghp0qCKY;
         "pkg-1.6.0-neoforge+mc1.21.1" = _g8w0b2ly;
-        "default" = _g8w0b2ly;
+        "pkg-1.7.0-forge+mc1.20.1" = _Jtm73Mqn;
+        "pkg-1.7.0-neoforge+mc1.21.1" = _COtTVhOl;
+        "default" = _COtTVhOl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kaleidoscope-cookery";

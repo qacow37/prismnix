@@ -21,11 +21,17 @@ let
             "file" = "Waving26.2x.zip";
             "hash" = "sha512-AtTc9R6s0rbIkA48vKWM6x8PpMZLDUvedz//r8fa4n2Lcvez2NTNJ0RJs+D9fo7YD4tg22aCIk2gh+MV92BU6g==";
         };
+        _gRdSLBbY = {
+            "id" = "gRdSLBbY";
+            "file" = "Waving26.3x.zip";
+            "hash" = "sha512-AtTc9R6s0rbIkA48vKWM6x8PpMZLDUvedz//r8fa4n2Lcvez2NTNJ0RJs+D9fo7YD4tg22aCIk2gh+MV92BU6g==";
+        };
     in {
         "8UzYlTfg" = _8UzYlTfg;
         "dsQjfIXj" = _dsQjfIXj;
         "vYGvKOZE" = _vYGvKOZE;
         "TjV4YNQB" = _TjV4YNQB;
+        "gRdSLBbY" = _gRdSLBbY;
         "minecraft-1.21" = _8UzYlTfg;
         "minecraft-1.21.1" = _8UzYlTfg;
         "minecraft-1.21.2" = _8UzYlTfg;
@@ -49,11 +55,13 @@ let
         "minecraft-26.1.1" = _vYGvKOZE;
         "minecraft-26.1.2" = _vYGvKOZE;
         "minecraft-26.2" = _TjV4YNQB;
+        "minecraft-26.3" = _gRdSLBbY;
         "pkg-1.21x" = _8UzYlTfg;
         "pkg-1.20x" = _dsQjfIXj;
         "pkg-26.1x" = _vYGvKOZE;
         "pkg-26.2x" = _TjV4YNQB;
-        "default" = _TjV4YNQB;
+        "pkg-26.3x" = _gRdSLBbY;
+        "default" = _gRdSLBbY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "waving";

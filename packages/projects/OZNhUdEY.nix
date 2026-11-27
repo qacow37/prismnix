@@ -431,6 +431,16 @@ let
             "file" = "wood plus-5.0.0.jar";
             "hash" = "sha512-je+800w5KblvmCnC0NhoDnJHkRMcBDXsqFHU3Y2wjArvAt0TfXUTbQJWANjHD7mEmCmluhwMpDxF/eOYZ0s+Pg==";
         };
+        _JRVPcdtb = {
+            "id" = "JRVPcdtb";
+            "file" = "wood plus-4.1.0.jar";
+            "hash" = "sha512-M/ae7alCJNCEowppUu9LjfXiqYqqbqQvHCzXy/VUbjttTIT/Ey718w3Wf1uG9Pk0CSs6XbU+JGtKe2ZHhO0LHQ==";
+        };
+        _PlPnuDWP = {
+            "id" = "PlPnuDWP";
+            "file" = "wood plus-5.0.0.jar";
+            "hash" = "sha512-woOoZ6o6UeeRjU1qcHFIYNT8QSApQ0PcXQt6XtmmBIfHRDl9ss8aKlOt7LRLpUM17M1DHc80z/3k68HBH6eZYw==";
+        };
     in {
         "l9BIVuqt" = _l9BIVuqt;
         "RsTNzbwf" = _RsTNzbwf;
@@ -518,6 +528,8 @@ let
         "KTxmYIHk" = _KTxmYIHk;
         "nF0sLS34" = _nF0sLS34;
         "ZA4eNlEP" = _ZA4eNlEP;
+        "JRVPcdtb" = _JRVPcdtb;
+        "PlPnuDWP" = _PlPnuDWP;
         "fabric-1.21.1" = _boAuOCFP;
         "fabric-1.21.4" = _f2xOpFue;
         "fabric-25w02a" = _f2xOpFue;
@@ -582,7 +594,7 @@ let
         "fabric-26.2-pre-4" = _kPdsOFd6;
         "fabric-26.2-rc-1" = _s2ixf6B0;
         "fabric-26.2-rc-2" = _s2ixf6B0;
-        "fabric-26.2" = _Mjrrn5VT;
+        "fabric-26.2" = _JRVPcdtb;
         "fabric-26.3-snapshot-1" = _Mjrrn5VT;
         "fabric-26.3-snapshot-2" = _SYDYwt97;
         "fabric-26.3-snapshot-8" = _2qMVapun;
@@ -597,8 +609,15 @@ let
         "fabric-26.4-snapshot-1" = _6h08hrao;
         "fabric-26.4-snapshot-3" = _bO8UB9Qe;
         "fabric-26.4-snapshot-7" = _KTxmYIHk;
-        "fabric-26.4-snapshot-8" = _nF0sLS34;
+        "fabric-26.4-snapshot-8" = _PlPnuDWP;
         "fabric-26.4-snapshot-10" = _ZA4eNlEP;
+        "fabric-26.4-pre-1" = _PlPnuDWP;
+        "forge-26.2" = _JRVPcdtb;
+        "forge-26.4-pre-1" = _PlPnuDWP;
+        "forge-26.4-snapshot-8" = _PlPnuDWP;
+        "neoforge-26.2" = _JRVPcdtb;
+        "neoforge-26.4-pre-1" = _PlPnuDWP;
+        "neoforge-26.4-snapshot-8" = _PlPnuDWP;
         "pkg-1.0.0" = _O0DxUlnH;
         "pkg-2.0.1" = _RsTNzbwf;
         "pkg-1.0.2" = _tCjboiAv;
@@ -639,7 +658,9 @@ let
         "pkg-5.0.0-26.4-snapshot7" = _KTxmYIHk;
         "pkg-5.0.0-26.4-snapshot8" = _nF0sLS34;
         "pkg-5.0.0-26.4-snapshot10" = _ZA4eNlEP;
-        "default" = _ZA4eNlEP;
+        "pkg-4.1.0-26.2" = _JRVPcdtb;
+        "pkg-5.0.0-26.4-pre1" = _PlPnuDWP;
+        "default" = _PlPnuDWP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wood-plus";

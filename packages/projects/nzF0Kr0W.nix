@@ -271,6 +271,16 @@ let
             "file" = "customvillagertrades-fabric-26.26.3.jar";
             "hash" = "sha512-pPmLNRFy/4DH+wiSx/y58ksLiW5S/krJWWyyrkf4DfE0zn4cgHLAnvQtqtEPcutOBt0T68HxBYLpDiwR43E1Qw==";
         };
+        _ssRQYfys = {
+            "id" = "ssRQYfys";
+            "file" = "customvillagertrades-neoforge-26.26.3.jar";
+            "hash" = "sha512-xhsdO0VTuHFNRgwrUTtBJBTxe56C3nwbWK8OLGS4vkZ9YJpF2SfpP+uZmBf+o6jyX+L1/m1rPxzU2Pg3fF8Kqw==";
+        };
+        _PI1o4m73 = {
+            "id" = "PI1o4m73";
+            "file" = "customvillagertrades-fabric-26.26.3.jar";
+            "hash" = "sha512-rliKfPT/3LkFQ9l7mxTa9VZGzUs6ekxleLO+uxz9Om1/Zh9YhbadT0psQ1DZfMwWzxylLJLcWi0Fzh3MdSWdBQ==";
+        };
     in {
         "BHhpDMbZ" = _BHhpDMbZ;
         "j9hxn5Xg" = _j9hxn5Xg;
@@ -326,6 +336,8 @@ let
         "MlmeBqN9" = _MlmeBqN9;
         "Kkf1IBvb" = _Kkf1IBvb;
         "CUatwFXQ" = _CUatwFXQ;
+        "ssRQYfys" = _ssRQYfys;
+        "PI1o4m73" = _PI1o4m73;
         "forge-1.19.2" = _sX8wCEqE;
         "forge-1.16.5" = _qPcUfJYz;
         "forge-1.18.2" = _pPb2djzc;
@@ -352,6 +364,7 @@ let
         "fabric-1.21.9" = _j0Ajsx7k;
         "fabric-1.21.11" = _MlmeBqN9;
         "fabric-26.1.2" = _CUatwFXQ;
+        "fabric-26.3" = _PI1o4m73;
         "neoforge-1.21.1" = _6uDU8j3w;
         "neoforge-1.21.4" = _I7kde7rr;
         "neoforge-1.21.3" = _I7kde7rr;
@@ -364,6 +377,7 @@ let
         "neoforge-1.21.9" = _KGnYGUR9;
         "neoforge-1.21.11" = _IiyqSyR5;
         "neoforge-26.1.2" = _Kkf1IBvb;
+        "neoforge-26.3" = _ssRQYfys;
         "pkg-19.20.0" = _j9hxn5Xg;
         "pkg-16.21.0" = _1A4jlTIM;
         "pkg-18.21.0" = _kZPdbfyX;
@@ -386,8 +400,8 @@ let
         "pkg-19.25.0" = _sX8wCEqE;
         "pkg-20.25.0" = _6LOI3YBq;
         "pkg-21.26.3" = _MlmeBqN9;
-        "pkg-26.26.3" = _CUatwFXQ;
-        "default" = _CUatwFXQ;
+        "pkg-26.26.3" = _PI1o4m73;
+        "default" = _PI1o4m73;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-villager-trades";

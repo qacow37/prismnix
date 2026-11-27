@@ -86,6 +86,11 @@ let
             "file" = "day-counter-3.0.0.jar";
             "hash" = "sha512-swmG41+LfTtlS3etKgxNhf/kdLpOfZ1d1yhFZWTyRkkO2eNetJoYrLy++z9UFmCLQEtnUIJhEPIIv2LwE6fe5w==";
         };
+        _Q9W5aDXQ = {
+            "id" = "Q9W5aDXQ";
+            "file" = "day-counter-3.1.0.jar";
+            "hash" = "sha512-fiurfS2Gv3j80iaVWU1gj/NoGYZTGRxrMC+bDnoj01JYdv116qdF/8MytpKI0KVSXLtSFlA27GDQglxBnHcxnQ==";
+        };
     in {
         "HTiME8Gb" = _HTiME8Gb;
         "eIyqrT83" = _eIyqrT83;
@@ -104,6 +109,7 @@ let
         "Aencggug" = _Aencggug;
         "jI4GrN1g" = _jI4GrN1g;
         "omDUptIO" = _omDUptIO;
+        "Q9W5aDXQ" = _Q9W5aDXQ;
         "fabric-1.21" = _NorIDGr6;
         "fabric-1.21.1" = _NorIDGr6;
         "fabric-1.21.2" = _NorIDGr6;
@@ -116,20 +122,20 @@ let
         "fabric-1.21.9" = _aJ8Ql7T6;
         "fabric-1.21.10" = _aJ8Ql7T6;
         "fabric-1.21.11" = _aJ8Ql7T6;
-        "fabric-26.1" = _omDUptIO;
-        "fabric-26.1.1" = _omDUptIO;
-        "fabric-26.1.2" = _omDUptIO;
-        "fabric-26.2" = _omDUptIO;
-        "fabric-26.3" = _omDUptIO;
+        "fabric-26.1" = _Q9W5aDXQ;
+        "fabric-26.1.1" = _Q9W5aDXQ;
+        "fabric-26.1.2" = _Q9W5aDXQ;
+        "fabric-26.2" = _Q9W5aDXQ;
+        "fabric-26.3" = _Q9W5aDXQ;
         "neoforge-26.1" = _Aencggug;
         "neoforge-26.1.1" = _Aencggug;
         "neoforge-26.1.2" = _Aencggug;
         "neoforge-26.2" = _jI4GrN1g;
-        "quilt-26.3" = _omDUptIO;
-        "quilt-26.2" = _omDUptIO;
-        "quilt-26.1.2" = _omDUptIO;
-        "quilt-26.1.1" = _omDUptIO;
-        "quilt-26.1" = _omDUptIO;
+        "quilt-26.3" = _Q9W5aDXQ;
+        "quilt-26.2" = _Q9W5aDXQ;
+        "quilt-26.1.2" = _Q9W5aDXQ;
+        "quilt-26.1.1" = _Q9W5aDXQ;
+        "quilt-26.1" = _Q9W5aDXQ;
         "pkg-1.0.0+mc1.21.7" = _HTiME8Gb;
         "pkg-1.1.0+mc1.21.7" = _eIyqrT83;
         "pkg-1.1.1+mc1.21.7" = _JHqWfacW;
@@ -145,7 +151,8 @@ let
         "pkg-2.2.0+mc26.1.2" = _Aencggug;
         "pkg-2.2.0+mc26.2" = _jI4GrN1g;
         "pkg-3.0.0+mc26.3" = _omDUptIO;
-        "default" = _omDUptIO;
+        "pkg-3.1.0+mc26.3" = _Q9W5aDXQ;
+        "default" = _Q9W5aDXQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mc-day-counter";

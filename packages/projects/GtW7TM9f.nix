@@ -226,6 +226,16 @@ let
             "file" = "gloom_raiders-1.4.4-forge-1.20.1.jar";
             "hash" = "sha512-5jDjYgofloXyu1+FacpBxdJgWWO/T7ypu77T7IDooAg8skAj1rNLHmhsDp3DS4yNtAxLIQfA4fDRvLUX1EtAmg==";
         };
+        _ggU884R9 = {
+            "id" = "ggU884R9";
+            "file" = "gloom_raiders-1.4.5-forge-1.20.1.jar";
+            "hash" = "sha512-U3n8cMG5se/o4dYfW5qk/xChZfAjrArMtH3fCkdvmhXuESWkLYMX/xAHGoQAtW9zFZGB+hBAuTGAgJLuC2foiQ==";
+        };
+        _ijybpBrl = {
+            "id" = "ijybpBrl";
+            "file" = "gloom_raiders-1.0.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-h0EKylbol9FP8FaS2fXaB9Em8T65LWrcvoILtuHEKTWiPLcl6fVQufWVRaw7gSOApkLJ8S7YrvgjDfY8L1IBoQ==";
+        };
     in {
         "73kKjyRi" = _73kKjyRi;
         "HImLLpXj" = _HImLLpXj;
@@ -272,8 +282,11 @@ let
         "DnfdhCzZ" = _DnfdhCzZ;
         "y1kyocJj" = _y1kyocJj;
         "FAzFoNUe" = _FAzFoNUe;
-        "forge-1.20.1" = _FAzFoNUe;
-        "pkg-1.0.0" = _73kKjyRi;
+        "ggU884R9" = _ggU884R9;
+        "ijybpBrl" = _ijybpBrl;
+        "forge-1.20.1" = _ggU884R9;
+        "neoforge-1.21.1" = _ijybpBrl;
+        "pkg-1.0.0" = _ijybpBrl;
         "pkg-1.0.1" = _HImLLpXj;
         "pkg-1.0.2" = _UezVuiUp;
         "pkg-1.0.3" = _Ozna6Wwm;
@@ -318,7 +331,8 @@ let
         "pkg-1.4.2" = _DnfdhCzZ;
         "pkg-1.4.3" = _y1kyocJj;
         "pkg-1.4.4" = _FAzFoNUe;
-        "default" = _FAzFoNUe;
+        "pkg-1.4.5" = _ggU884R9;
+        "default" = _ijybpBrl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gloom-raiders";

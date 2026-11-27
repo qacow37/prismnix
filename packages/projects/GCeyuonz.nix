@@ -311,6 +311,36 @@ let
             "file" = "agritech-3.0.0.2+fabric-mc26.3.jar";
             "hash" = "sha512-5NjxRKXuVNANh0HRsXmgUsbWmKrKmXFyj+I8HFP2dgEqRbBQl0Q7fOdI0nR7Ti2zlllAOA/Dw5mrGN822HN2Cg==";
         };
+        _zUaEc2N9 = {
+            "id" = "zUaEc2N9";
+            "file" = "agritechtwo-1.1.0.6+mc-1.21.1.jar";
+            "hash" = "sha512-yV+uwA6hWBj6EJLxXWlgPwzuX8A2DJEaWbC3b6DTbbUUOk6onu2s6T0yJWSOkx5i5Qcbe7a59IcV1mva42Hqow==";
+        };
+        _bqDjct6H = {
+            "id" = "bqDjct6H";
+            "file" = "agritechtwo-4.0.0.3+neoforge-mc-26.3.jar";
+            "hash" = "sha512-MnJNY6zr7sLAhCxzb7xOyZlko/FnE1J/yVBhhS9O1cQ5zlY8XipJHuqhGfUamcOS5NxPj3+EGOye5FJJIKoaZA==";
+        };
+        _mIvtlHXP = {
+            "id" = "mIvtlHXP";
+            "file" = "agritechtwo-3.0.0.6+neoforge-mc-26.2.jar";
+            "hash" = "sha512-Ulfy4uSlJYh9Vz8k2Nj3x33KBmwLnC8zAB3ZXz5F4/+JQ9Zkfb3ZxBr0Z8sMRcHw/Z6l30N68GYWHR97MKJB4Q==";
+        };
+        _3wEpSrY1 = {
+            "id" = "3wEpSrY1";
+            "file" = "agritechtwo-2.2.2.6+neoforge-mc-26.1.2.jar";
+            "hash" = "sha512-VvbPC4MF724GPylT7r5AAG31lQHgUHfdICyL5udFwcbs+0xZ7PYm0wM4hEoqemAXRggE8bw5LETnDtVtlh41eg==";
+        };
+        _X7iRr7H0 = {
+            "id" = "X7iRr7H0";
+            "file" = "agritechtwo-1.1.0.7+mc-1.21.1.jar";
+            "hash" = "sha512-ECjFJ7SqN/q8s1BdFmRrjXBH7N2BYMzkYC5VeHO5gSdtLUDhJAVHuSYcUWEmVu7j306z7/nDO4dZ3Q4R1u04Ug==";
+        };
+        _wQkv5xt1 = {
+            "id" = "wQkv5xt1";
+            "file" = "agritechtwo-1.1.0.7+forge-mc1.20.1.jar";
+            "hash" = "sha512-enqpEYG405bHrOF8dgj6D9nF/SG4k5F5dO+DT/5GBd+rGuJmv36OrYpc7IBx3XtkkIKHm/nPxsVBk8n7EigqAQ==";
+        };
     in {
         "yrNRIcE9" = _yrNRIcE9;
         "FkKarfPD" = _FkKarfPD;
@@ -374,13 +404,20 @@ let
         "MgEEBHXJ" = _MgEEBHXJ;
         "3ynSma1D" = _3ynSma1D;
         "h2y8LZud" = _h2y8LZud;
-        "neoforge-1.21.1" = _DE3C5pel;
-        "neoforge-26.1.2" = _AtQTH0eJ;
-        "neoforge-26.2" = _iACvXkg9;
-        "neoforge-26.3" = _XAP7qiZS;
+        "zUaEc2N9" = _zUaEc2N9;
+        "bqDjct6H" = _bqDjct6H;
+        "mIvtlHXP" = _mIvtlHXP;
+        "3wEpSrY1" = _3wEpSrY1;
+        "X7iRr7H0" = _X7iRr7H0;
+        "wQkv5xt1" = _wQkv5xt1;
+        "neoforge-1.21.1" = _X7iRr7H0;
+        "neoforge-26.1.2" = _3wEpSrY1;
+        "neoforge-26.2" = _mIvtlHXP;
+        "neoforge-26.3" = _bqDjct6H;
         "fabric-26.1.2" = _MgEEBHXJ;
         "fabric-26.2" = _3ynSma1D;
         "fabric-26.3" = _h2y8LZud;
+        "forge-1.20.1" = _wQkv5xt1;
         "pkg-1.0.8-mc-1.21.1" = _yrNRIcE9;
         "pkg-1.0.8-mc-26.1.2" = _FkKarfPD;
         "pkg-1.0.11-mc-26.1.2" = _7JjazDbh;
@@ -443,7 +480,13 @@ let
         "pkg-1.1.0.5+fabric-mc26.1.2" = _MgEEBHXJ;
         "pkg-2.0.0.5+fabric-mc26.2" = _3ynSma1D;
         "pkg-3.0.0.2+fabric-mc26.3" = _h2y8LZud;
-        "default" = _h2y8LZud;
+        "pkg-1.1.0.6+mc-1.21.1" = _zUaEc2N9;
+        "pkg-4.0.0.3+neoforge-mc-26.3" = _bqDjct6H;
+        "pkg-3.0.0.6+neoforge-mc-26.2" = _mIvtlHXP;
+        "pkg-2.2.2.6+neoforge-mc-26.1.2" = _3wEpSrY1;
+        "pkg-1.1.0.7+mc-1.21.1" = _X7iRr7H0;
+        "pkg-1.1.0.7+forge-mc1.20.1" = _wQkv5xt1;
+        "default" = _wQkv5xt1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "agritech";

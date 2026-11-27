@@ -236,6 +236,26 @@ let
             "file" = "signeditlite-1.0.14+neo+mc26.2.jar";
             "hash" = "sha512-AI5LBQ5sPTciZgDAyKpiageVX/8jpF+w1kjs6eKupDeLcO9tHmd8+CU6/ERjUlDGf6wxivQ7InZUIkWGkP/8xg==";
         };
+        _iwME4ohr = {
+            "id" = "iwME4ohr";
+            "file" = "signeditlite-1.0.15+fabric+mc26.2.jar";
+            "hash" = "sha512-WobxdxCpYPK1BxXuUjjKlB8THiQa6WEWutUV79fKYFreReCgUYLPSheL64NOwjRlvrzN1EXR+lPMx1pQl8RfdA==";
+        };
+        _tY6sFiYe = {
+            "id" = "tY6sFiYe";
+            "file" = "signeditlite-1.0.15+neo+mc26.2.jar";
+            "hash" = "sha512-ebbpLHgG13yRojtlYlDYzlblKv8jOYEs0NpyxBFSkmR2ihNXuELtsC7YCUzvFBw+jVrrRVX1jF6b8auMvQvOww==";
+        };
+        _t3aXzJKj = {
+            "id" = "t3aXzJKj";
+            "file" = "signeditlite-1.0.15+fabric+mc26.3.jar";
+            "hash" = "sha512-gTrJ2yfWFEofdb3ybEZgqbKhHSBCRbjU7/nUVc2sRhx9jDPbX1qskcNey+1chv2b46DOnhy02rbjo8oi1sMjFg==";
+        };
+        _rkdHfL9D = {
+            "id" = "rkdHfL9D";
+            "file" = "signeditlite-1.0.15+neo+mc26.3.jar";
+            "hash" = "sha512-ixKWNR9XWhgQFx9aGK0lKGIz2ma0JmmAIJBBJ7I7qXhnta/gaxzmdGy5EEeRChO1YOKHi2i2aLBFBmUC0o5N0g==";
+        };
     in {
         "3GkHQT92" = _3GkHQT92;
         "TKPhA4jO" = _TKPhA4jO;
@@ -284,6 +304,10 @@ let
         "lLs6B3ds" = _lLs6B3ds;
         "MfOQ0JpI" = _MfOQ0JpI;
         "v9zyikw1" = _v9zyikw1;
+        "iwME4ohr" = _iwME4ohr;
+        "tY6sFiYe" = _tY6sFiYe;
+        "t3aXzJKj" = _t3aXzJKj;
+        "rkdHfL9D" = _rkdHfL9D;
         "fabric-1.20.2" = _x94Q6Dig;
         "fabric-1.20.3" = _tF2KmMGR;
         "fabric-1.20.4" = _pYc3N5oj;
@@ -304,7 +328,8 @@ let
         "fabric-26.1" = _qgXHQJcE;
         "fabric-26.1.1" = _aCe9QZlr;
         "fabric-26.1.2" = _AHctM3JY;
-        "fabric-26.2" = _MfOQ0JpI;
+        "fabric-26.2" = _iwME4ohr;
+        "fabric-26.3" = _t3aXzJKj;
         "neoforge-1.21.5" = _NRLwdL2C;
         "neoforge-1.21.6" = _TlYXaxbP;
         "neoforge-1.21.7" = _pqHHM4te;
@@ -315,7 +340,8 @@ let
         "neoforge-26.1" = _DwKQiN5n;
         "neoforge-26.1.1" = _qU1JdJfs;
         "neoforge-26.1.2" = _x2k6wxOx;
-        "neoforge-26.2" = _v9zyikw1;
+        "neoforge-26.2" = _tY6sFiYe;
+        "neoforge-26.3" = _rkdHfL9D;
         "pkg-1.0.0+mc1.20.2" = _3GkHQT92;
         "pkg-1.0.0+mc1.20.3" = _TKPhA4jO;
         "pkg-1.0.0+mc1.20.4" = _dS4LhdWy;
@@ -363,7 +389,11 @@ let
         "pkg-1.0.13+fabric+mc26.2" = _lLs6B3ds;
         "pkg-1.0.14+fabric+mc26.2" = _MfOQ0JpI;
         "pkg-1.0.14+neo+mc26.2" = _v9zyikw1;
-        "default" = _v9zyikw1;
+        "pkg-1.0.15+fabric+mc26.2" = _iwME4ohr;
+        "pkg-1.0.15+neo+mc26.2" = _tY6sFiYe;
+        "pkg-1.0.15+fabric+mc26.3" = _t3aXzJKj;
+        "pkg-1.0.15+neo+mc26.3" = _rkdHfL9D;
+        "default" = _rkdHfL9D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "signeditlite";

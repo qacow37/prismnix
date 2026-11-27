@@ -141,6 +141,46 @@ let
             "file" = "uniques-datapack-3.1.jar";
             "hash" = "sha512-JJWfmq3OPxOeavYb+QHAa2TKNnxpy7gpFW9CMxRII/fWBOO+qxJYAWVtqL0sRsu4YK03kqGg5jFc0gIIaWYUCg==";
         };
+        _vnvpJNLy = {
+            "id" = "vnvpJNLy";
+            "file" = "Uniques DP 26.1.zip";
+            "hash" = "sha512-okuE3b8Cs4P8qf5m6+bN68sQwajiycsSYp2OD1jRhuVQ0znVBTRS3kALLHI0PwUSsXalgOWrkLligfts641VYA==";
+        };
+        _LoAIOOdF = {
+            "id" = "LoAIOOdF";
+            "file" = "uniques-3.2.jar";
+            "hash" = "sha512-GQ/wsg57eTKa9IZRryjx92OuiEH+HHGxxMkLxKVmT7ekAxPnza0swwG2a7WdSnNzeGj5AZacC4/WImCYPb2v5w==";
+        };
+        _EEBfvmBq = {
+            "id" = "EEBfvmBq";
+            "file" = "Uniques DP 26.1.2.zip";
+            "hash" = "sha512-uYlDLQAjAsL0Z+AG8fFqfSadn2JWyrJI+MWqX9RosDsbmk+acQdHjZ3XAg+RlXqRHkL7mzAVXTO7MfaFNmULUw==";
+        };
+        _w4NsYMnn = {
+            "id" = "w4NsYMnn";
+            "file" = "uniques-3.2.jar";
+            "hash" = "sha512-mrQ8/mSvGWv0NEgujFbhLSwJunRqIT9tOsBtRVrEdp43MNYh4AGbJiU6UPxm1DnhnWwCWic9fs8grBOglTxV4g==";
+        };
+        _QRpxztLF = {
+            "id" = "QRpxztLF";
+            "file" = "Uniques DP 26.2.zip";
+            "hash" = "sha512-fletG65w1sOU5v1eqEP6e1kMJkfX7yYnKdm9S6MFmSEKWNso/gpI0sFZf+K91WPU+XCkpZBAgmFfax3kEiGeAg==";
+        };
+        _iAwok7L7 = {
+            "id" = "iAwok7L7";
+            "file" = "uniques-3.2.jar";
+            "hash" = "sha512-affbMh6JWdL6xpDEVmQYMc1uZBhcLXidQzeohnEx9PSBG6+Y758Vfu9EblqoilYDP1QCYUHUFgY0f1+yozdeHg==";
+        };
+        _MCHsABlq = {
+            "id" = "MCHsABlq";
+            "file" = "Uniques DP 26.3.zip";
+            "hash" = "sha512-twgLZW2f6Yc92NKiurN0TFqn171pWfTgcsul3Sz3lpClHdOO27sRFBpzzWIRur9XJQuHty0IleAgKQgH8QX1Vg==";
+        };
+        _4uk9XLsa = {
+            "id" = "4uk9XLsa";
+            "file" = "uniques-3.2.jar";
+            "hash" = "sha512-W+NWI5GbyzzDFyh4pvO4FZFhJZnc4UtnI49MRvDGukrkyWqwkWVVQPiOFosFbyLzbJ0dFcoVQFafcJiMKrxocw==";
+        };
     in {
         "oYwgllsb" = _oYwgllsb;
         "3K2afjkr" = _3K2afjkr;
@@ -170,26 +210,34 @@ let
         "baSbrkNA" = _baSbrkNA;
         "6YXPpSYq" = _6YXPpSYq;
         "uHJVv8RW" = _uHJVv8RW;
-        "datapack-26.2" = _v2mqmIaY;
-        "datapack-26.1" = _zEnqE4p2;
-        "datapack-26.1.2" = _TlcaF3ok;
-        "datapack-26.3" = _6YXPpSYq;
-        "fabric-26.2" = _fc5WeTU1;
-        "fabric-26.1" = _baSbrkNA;
-        "fabric-26.1.2" = _z3mgvpoJ;
-        "fabric-26.3" = _uHJVv8RW;
-        "forge-26.2" = _fc5WeTU1;
-        "forge-26.1" = _baSbrkNA;
-        "forge-26.1.2" = _z3mgvpoJ;
-        "forge-26.3" = _uHJVv8RW;
-        "neoforge-26.2" = _fc5WeTU1;
-        "neoforge-26.1" = _baSbrkNA;
-        "neoforge-26.1.2" = _z3mgvpoJ;
-        "neoforge-26.3" = _uHJVv8RW;
-        "quilt-26.2" = _fc5WeTU1;
-        "quilt-26.1" = _baSbrkNA;
-        "quilt-26.1.2" = _z3mgvpoJ;
-        "quilt-26.3" = _uHJVv8RW;
+        "vnvpJNLy" = _vnvpJNLy;
+        "LoAIOOdF" = _LoAIOOdF;
+        "EEBfvmBq" = _EEBfvmBq;
+        "w4NsYMnn" = _w4NsYMnn;
+        "QRpxztLF" = _QRpxztLF;
+        "iAwok7L7" = _iAwok7L7;
+        "MCHsABlq" = _MCHsABlq;
+        "4uk9XLsa" = _4uk9XLsa;
+        "datapack-26.2" = _QRpxztLF;
+        "datapack-26.1" = _vnvpJNLy;
+        "datapack-26.1.2" = _EEBfvmBq;
+        "datapack-26.3" = _MCHsABlq;
+        "fabric-26.2" = _iAwok7L7;
+        "fabric-26.1" = _LoAIOOdF;
+        "fabric-26.1.2" = _w4NsYMnn;
+        "fabric-26.3" = _4uk9XLsa;
+        "forge-26.2" = _iAwok7L7;
+        "forge-26.1" = _LoAIOOdF;
+        "forge-26.1.2" = _w4NsYMnn;
+        "forge-26.3" = _4uk9XLsa;
+        "neoforge-26.2" = _iAwok7L7;
+        "neoforge-26.1" = _LoAIOOdF;
+        "neoforge-26.1.2" = _w4NsYMnn;
+        "neoforge-26.3" = _4uk9XLsa;
+        "quilt-26.2" = _iAwok7L7;
+        "quilt-26.1" = _LoAIOOdF;
+        "quilt-26.1.2" = _w4NsYMnn;
+        "quilt-26.3" = _4uk9XLsa;
         "pkg-1.0" = _84k8dD6Z;
         "pkg-1.0+mod" = _hWPR8KPh;
         "pkg-1.1" = _78j5kt9W;
@@ -200,7 +248,9 @@ let
         "pkg-3.0+mod" = _baSbrkNA;
         "pkg-3.1" = _6YXPpSYq;
         "pkg-3.1+mod" = _uHJVv8RW;
-        "default" = _uHJVv8RW;
+        "pkg-3.2" = _MCHsABlq;
+        "pkg-3.2+mod" = _4uk9XLsa;
+        "default" = _4uk9XLsa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "uniques-datapack";

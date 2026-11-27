@@ -231,6 +231,16 @@ let
             "file" = "cobblebrain-neoforge-1.7.jar";
             "hash" = "sha512-T8/kbrJJQeNbt8uBwSkJaVtqEhVU75v67t6w0Cd7AivFRCRwoTVpDXngR0ZgSrgFLX4Md/fF59pbIujEV3tUgw==";
         };
+        _sFI90cF0 = {
+            "id" = "sFI90cF0";
+            "file" = "cobblebrain-fabric-1.7.1.jar";
+            "hash" = "sha512-NbJPe+ZelQ7i9Es+vkd+3VHi6om2p1+loaqZJZjtliOtxmWYL0kLr3q8RLiOIYAU+MgDLmWO5sLnQiBXCwDhaA==";
+        };
+        _hG8ua1hm = {
+            "id" = "hG8ua1hm";
+            "file" = "cobblebrain-neoforge-1.7.1.jar";
+            "hash" = "sha512-0eAYKMoN2Wtz0f4djFtX8hpxkkX54ojWBkrBk4y0L8od4eKuoDse29Sg/eRG5XbYfuBVeQKuuEdjyCU9pIZbyg==";
+        };
     in {
         "T8zj4XeF" = _T8zj4XeF;
         "LBvtkltP" = _LBvtkltP;
@@ -278,8 +288,10 @@ let
         "ZXiYgKm5" = _ZXiYgKm5;
         "1gXnU3uc" = _1gXnU3uc;
         "U8Y6H9dB" = _U8Y6H9dB;
-        "fabric-1.21.1" = _1gXnU3uc;
-        "neoforge-1.21.1" = _U8Y6H9dB;
+        "sFI90cF0" = _sFI90cF0;
+        "hG8ua1hm" = _hG8ua1hm;
+        "fabric-1.21.1" = _sFI90cF0;
+        "neoforge-1.21.1" = _hG8ua1hm;
         "pkg-0.6.0" = _T8zj4XeF;
         "pkg-0.7.0" = _LBvtkltP;
         "pkg-0.8.0" = _POEijBJQ;
@@ -326,7 +338,9 @@ let
         "pkg-Fabric-1.6.1" = _ZXiYgKm5;
         "pkg-Fabric-1.7" = _1gXnU3uc;
         "pkg-Neoforge-1.7" = _U8Y6H9dB;
-        "default" = _U8Y6H9dB;
+        "pkg-Fabric-1.7.1" = _sFI90cF0;
+        "pkg-Neoforge-1.7.1" = _hG8ua1hm;
+        "default" = _hG8ua1hm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblebrain-ai-dialogue-system-for-cobblemon";

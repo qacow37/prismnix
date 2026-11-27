@@ -81,6 +81,11 @@ let
             "file" = "dsrebirth-1.20.1-1.4.3.jar";
             "hash" = "sha512-Myfe447A0ZAEYqPI/FzKT2QMHaPnt1+dJMRmzL0BdAhIYkGVK7eADF75XoeZ8eq9eqH/pCW9IGsvkLio8mwKAA==";
         };
+        _H6roi9rc = {
+            "id" = "H6roi9rc";
+            "file" = "dsrebirth-1.20.1-1.4.4.jar";
+            "hash" = "sha512-p2au3xt7UFwCt3JYGz91bFUpKmVoqtAo4LfXN3bLMhF07qZZlMwBnScorHyBG8dOCBztUAKopJIgr/nFmyJchQ==";
+        };
     in {
         "qm0E8DOl" = _qm0E8DOl;
         "Dr0XPVR2" = _Dr0XPVR2;
@@ -98,9 +103,10 @@ let
         "V57sW6Fy" = _V57sW6Fy;
         "O362n2Eq" = _O362n2Eq;
         "vOLCR9jU" = _vOLCR9jU;
+        "H6roi9rc" = _H6roi9rc;
         "neoforge-26.1.2" = _O362n2Eq;
         "neoforge-1.21.1" = _V57sW6Fy;
-        "forge-1.20.1" = _vOLCR9jU;
+        "forge-1.20.1" = _H6roi9rc;
         "pkg-0.5.0" = _qm0E8DOl;
         "pkg-1.0.0" = _Dr0XPVR2;
         "pkg-1.3.1" = _hUTnOKxI;
@@ -109,7 +115,8 @@ let
         "pkg-1.4.1" = _WfO0cipT;
         "pkg-1.4.2" = _O362n2Eq;
         "pkg-1.4.3" = _vOLCR9jU;
-        "default" = _vOLCR9jU;
+        "pkg-1.4.4" = _H6roi9rc;
+        "default" = _H6roi9rc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamic-surroundings-rebirth-by-uawiegrfv";

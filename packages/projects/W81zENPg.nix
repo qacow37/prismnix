@@ -246,6 +246,26 @@ let
             "file" = "oredetector-1.4.2+fabric+mc26.2.jar";
             "hash" = "sha512-LPys1f9fBTu3uLqNJdqtupgwn+Gzk8Ba3IN0GVKUu9o04WXXFZHJ1GOkubaRRxBnWBCgWn5IKo9epLj7h+a3ng==";
         };
+        _Cc7unuLB = {
+            "id" = "Cc7unuLB";
+            "file" = "oredetector-1.4.3+fabric+mc26.2.jar";
+            "hash" = "sha512-ar62OFHPJTzAIUIY+XG08uCREL4f6LfHQ9MHVPtO4ROI/AWxghisoj9C10Fe42KyYxx5FSJwoQkmnUe8BpTiUQ==";
+        };
+        _ruLDqqtd = {
+            "id" = "ruLDqqtd";
+            "file" = "oredetector-1.4.4+fabric+mc26.3.jar";
+            "hash" = "sha512-ZgRAaKnmT6f76x63cN2ZFuj1ot3RjJsvIxAIX3U+N9zOfO+Lp2bP6dirEFPKRLX2U3JqrXYu4iMw/UHAMm5jhw==";
+        };
+        _hY34bI0Q = {
+            "id" = "hY34bI0Q";
+            "file" = "oredetector-1.4.4+neo+mc26.3.jar";
+            "hash" = "sha512-FRN8r7sjb5RzJd6Zkv0D8qAAqhwpyrUJ5IQQWi1fqan1wbFQ4TPPVOCXR7S8/fgzLDGallUhkeO58JI5imPgYQ==";
+        };
+        _2NQQdTaT = {
+            "id" = "2NQQdTaT";
+            "file" = "oredetector-1.4.3+neo+mc26.2.jar";
+            "hash" = "sha512-UmNpwKpVJNfDhHlFEtbld0U+FWYdLO9RNUCuD6q7EfjqNWulXDEDVgDY/gBHTjVm0nIIpssDsOM1fIoeCs3ygA==";
+        };
     in {
         "lmry6cVW" = _lmry6cVW;
         "EiMTR5Jg" = _EiMTR5Jg;
@@ -296,6 +316,10 @@ let
         "96W3CJ1Q" = _96W3CJ1Q;
         "7nBpY8iB" = _7nBpY8iB;
         "2lLUmbu0" = _2lLUmbu0;
+        "Cc7unuLB" = _Cc7unuLB;
+        "ruLDqqtd" = _ruLDqqtd;
+        "hY34bI0Q" = _hY34bI0Q;
+        "2NQQdTaT" = _2NQQdTaT;
         "fabric-1.20.4" = _F5ptEUWa;
         "fabric-1.20.3" = _JvVXGNf5;
         "fabric-1.20.2" = _Vsneyxp3;
@@ -314,7 +338,8 @@ let
         "fabric-1.21.11" = _TeKpBZaA;
         "fabric-26.1.1" = _T8V3WL3P;
         "fabric-26.1.2" = _qWTi4y6D;
-        "fabric-26.2" = _2lLUmbu0;
+        "fabric-26.2" = _Cc7unuLB;
+        "fabric-26.3" = _ruLDqqtd;
         "neoforge-1.21.5" = _2temLXP2;
         "neoforge-1.21.6" = _Nl2C5T4U;
         "neoforge-1.21.7" = _OWKJllW5;
@@ -325,7 +350,8 @@ let
         "neoforge-26.1" = _w4JtpPBI;
         "neoforge-26.1.1" = _w4JtpPBI;
         "neoforge-26.1.2" = _w4JtpPBI;
-        "neoforge-26.2" = _7nBpY8iB;
+        "neoforge-26.2" = _2NQQdTaT;
+        "neoforge-26.3" = _hY34bI0Q;
         "pkg-1.0.0+mc1.20.4" = _lmry6cVW;
         "pkg-1.0.0+mc1.20.3" = _EiMTR5Jg;
         "pkg-1.0.0+mc1.20.2" = _aimUT86X;
@@ -374,7 +400,11 @@ let
         "pkg-1.4.1+fabric+mc26.2" = _96W3CJ1Q;
         "pkg-1.4.1+neo+mc26.2" = _7nBpY8iB;
         "pkg-1.4.2+fabric+mc26.2" = _2lLUmbu0;
-        "default" = _2lLUmbu0;
+        "pkg-1.4.3+fabric+mc26.2" = _Cc7unuLB;
+        "pkg-1.4.3+fabric+mc26.3" = _ruLDqqtd;
+        "pkg-1.4.4+neo+mc26.3" = _hY34bI0Q;
+        "pkg-1.4.3+neo+mc26.2" = _2NQQdTaT;
+        "default" = _2NQQdTaT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oredetector";

@@ -311,6 +311,61 @@ let
             "file" = "B26.3_PixelsReforgedV00.001.zip";
             "hash" = "sha512-PtGAG7LmaCDIfBJ3U2Uzw1jct7bcFD2WGP4zKXnx307xFZs2dd951jxHP6CP0QkfgUf3c1oGRpO28i8N5aysHw==";
         };
+        _XJVmJFey = {
+            "id" = "XJVmJFey";
+            "file" = "R1.21.4_PixelsReforgedV01.001.zip";
+            "hash" = "sha512-sqJd5iZRjJHP97xyElFaccsnXWODKGpwEydfKOJXz/h/nlumDaXCIyWVRk9wG5pv7283vREVLVEakUdxxVfl3Q==";
+        };
+        _sxV2NXDr = {
+            "id" = "sxV2NXDr";
+            "file" = "R1.21.5_PixelsReforgedV01.000.zip";
+            "hash" = "sha512-F01gqd2wo+TdPDjKnV3VVPcLOUijTzC5IZbxd9YfhgDlwUio2kio09s6EPNtxjvG2QAIz03R0Wxiep1YgydvLA==";
+        };
+        _cPE5MnRq = {
+            "id" = "cPE5MnRq";
+            "file" = "B1.21.6_PixelsReforgedV00.005.zip";
+            "hash" = "sha512-ajuy6Gi+yugaDuli7zaEfxZV1sZtY9N7GSUVTj5p0M9gGHCN9RZG+6kEq0APrP2hJpwte+diUFIOzTLqbkLBoQ==";
+        };
+        _VN85oqYo = {
+            "id" = "VN85oqYo";
+            "file" = "B1.21.7_PixelsReforgedV00.005.zip";
+            "hash" = "sha512-AiQMs21h2UB47k81ZQM72mZjOUrTdxATNAPjJ/gbY1j/etZNGPcnmknJp99kKljOooTAxn5GpsdyALQXGwEGJw==";
+        };
+        _wBzLO6Er = {
+            "id" = "wBzLO6Er";
+            "file" = "B1.21.8_PixelsReforgedV00.005.zip";
+            "hash" = "sha512-2GXd45U08vgk0IHe/fE9gmzC4snNS4inIBhMosOBviS45i6XQRBBfhZDgyFj7ULBOGiIMzS5YK6NElZ9AY3iEg==";
+        };
+        _LA1rgUwl = {
+            "id" = "LA1rgUwl";
+            "file" = "B1.21.9_PixelsReforgedV00.005.zip";
+            "hash" = "sha512-39JCv6lyyv7cajBwO5l8/fVckerSQUIcvFZsegnB7evlJj6euFw2N8d7yde+AHUJe50Uyvod9AGIv5LqM8HuZg==";
+        };
+        _GgNDj1Q8 = {
+            "id" = "GgNDj1Q8";
+            "file" = "B1.21.10_PixelsReforgedV00.005.zip";
+            "hash" = "sha512-n6GNV9GcUsJx3gKCHrb1Z/dUzAEsNrllC0/DMEg8dXgZV5thKY/awE14zFlm2kyYHq0aEJ6ATE/DWD+RQQD35A==";
+        };
+        _SkaMEgM6 = {
+            "id" = "SkaMEgM6";
+            "file" = "B1.21.11_PixelsReforgedV00.005.zip";
+            "hash" = "sha512-C5+N4ip6fPLN2SC2y6DQ4qr1R64buHD3JHkxVcSrChzpUkJm2yHnk2soPXw4U8kdkLCUdaixjIL3KyNjizKpTg==";
+        };
+        _NAtOFJFl = {
+            "id" = "NAtOFJFl";
+            "file" = "B26.1_PixelsReforgedV00.003.zip";
+            "hash" = "sha512-sPmePimIRATe1Z+r/Jn1fwsHFe66JyW+W8S+F+h+O/X5bmWLnlCijXZ1ZpGCooiakmhz9pogg77RCCniWzqDQQ==";
+        };
+        _n8trHRZP = {
+            "id" = "n8trHRZP";
+            "file" = "B26.2_PixelsReforgedV00.003.zip";
+            "hash" = "sha512-Ky+DCF7gV6s5iEx0ta3IOsw1J+8AXCYSqtjQm3qYhoJaWTSfWObTRPKaoaKLp4Ljxj5x1TEk/wEQoLuob9gDyg==";
+        };
+        _sEPIcjF0 = {
+            "id" = "sEPIcjF0";
+            "file" = "B26.3_PixelsReforgedV00.002.zip";
+            "hash" = "sha512-zR8eaFcYH8OY/0oYYUJqcuXVVcz+1MQQvXNhUpCY5POQm9jFf0bkwsKe8vhXr5oFomg5vGhIGV0r47wJdVmyrg==";
+        };
     in {
         "stlSo9ct" = _stlSo9ct;
         "RUhAGh6j" = _RUhAGh6j;
@@ -374,23 +429,34 @@ let
         "jHnLAZad" = _jHnLAZad;
         "c6vV4wHE" = _c6vV4wHE;
         "gwYsh4RP" = _gwYsh4RP;
+        "XJVmJFey" = _XJVmJFey;
+        "sxV2NXDr" = _sxV2NXDr;
+        "cPE5MnRq" = _cPE5MnRq;
+        "VN85oqYo" = _VN85oqYo;
+        "wBzLO6Er" = _wBzLO6Er;
+        "LA1rgUwl" = _LA1rgUwl;
+        "GgNDj1Q8" = _GgNDj1Q8;
+        "SkaMEgM6" = _SkaMEgM6;
+        "NAtOFJFl" = _NAtOFJFl;
+        "n8trHRZP" = _n8trHRZP;
+        "sEPIcjF0" = _sEPIcjF0;
         "minecraft-1.21.1" = _l2YGL6IE;
         "minecraft-1.21" = _fRc3ZsWs;
         "minecraft-1.21.2" = _Jg3oglE3;
         "minecraft-1.21.3" = _NQTLTJNq;
-        "minecraft-1.21.4" = _Uzxffgl2;
-        "minecraft-1.21.5" = _VrYEQMYK;
-        "minecraft-1.21.6" = _3NJGMowG;
-        "minecraft-1.21.7" = _zzMqR6DA;
-        "minecraft-1.21.8" = _5IsgrqsU;
-        "minecraft-1.21.9" = _hdFNZ1sq;
-        "minecraft-1.21.10" = _OGorPrtY;
-        "minecraft-1.21.11" = _ShE2FNzv;
-        "minecraft-26.1" = _jHnLAZad;
-        "minecraft-26.1.1" = _jHnLAZad;
-        "minecraft-26.1.2" = _jHnLAZad;
-        "minecraft-26.2" = _c6vV4wHE;
-        "minecraft-26.3" = _gwYsh4RP;
+        "minecraft-1.21.4" = _XJVmJFey;
+        "minecraft-1.21.5" = _sxV2NXDr;
+        "minecraft-1.21.6" = _cPE5MnRq;
+        "minecraft-1.21.7" = _VN85oqYo;
+        "minecraft-1.21.8" = _wBzLO6Er;
+        "minecraft-1.21.9" = _LA1rgUwl;
+        "minecraft-1.21.10" = _GgNDj1Q8;
+        "minecraft-1.21.11" = _SkaMEgM6;
+        "minecraft-26.1" = _NAtOFJFl;
+        "minecraft-26.1.1" = _NAtOFJFl;
+        "minecraft-26.1.2" = _NAtOFJFl;
+        "minecraft-26.2" = _n8trHRZP;
+        "minecraft-26.3" = _sEPIcjF0;
         "pkg-1.21.1_v0_00171" = _stlSo9ct;
         "pkg-1.21.1_v0_00173" = _RUhAGh6j;
         "pkg-1.21.1_v0_00175" = _4eq99MAY;
@@ -453,7 +519,18 @@ let
         "pkg-26.1_v00_002_hotfix" = _jHnLAZad;
         "pkg-26.2_v00_002_hotfix" = _c6vV4wHE;
         "pkg-26.3_v00_001" = _gwYsh4RP;
-        "default" = _gwYsh4RP;
+        "pkg-1.21.4_v01_001" = _XJVmJFey;
+        "pkg-1.21.5_v01_000" = _sxV2NXDr;
+        "pkg-1.21.6_v00_005" = _cPE5MnRq;
+        "pkg-1.21.7_v00_005" = _VN85oqYo;
+        "pkg-1.21.8_v00_005" = _wBzLO6Er;
+        "pkg-1.21.9_v00_005" = _LA1rgUwl;
+        "pkg-1.21.10_v00_005" = _GgNDj1Q8;
+        "pkg-1.21.11_v00_005" = _SkaMEgM6;
+        "pkg-26.1_v00_003" = _NAtOFJFl;
+        "pkg-26.2_v00_003" = _n8trHRZP;
+        "pkg-26.3_v00_002" = _sEPIcjF0;
+        "default" = _sEPIcjF0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shadows-pixels-reforged";

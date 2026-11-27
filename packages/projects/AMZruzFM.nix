@@ -681,6 +681,11 @@ let
             "file" = "SillyEatables_v5.0.0+mod_mc26.3.jar";
             "hash" = "sha512-wb4X3VIUOTy/jB5VrBaQmQbn0V4xAh848eyYQsJ/aaXV7GTIthAHFgXYb5VsMoVEcGMWpKOYZ/Vobt0gljlmkw==";
         };
+        _va4seGSJ = {
+            "id" = "va4seGSJ";
+            "file" = "SillyEatables_v5.1.0-pre.1_mc26.3-26.4pre1.zip";
+            "hash" = "sha512-JDh9rSpwMSgsZQrK/0mYy9zYzMt2xDuG39aLLf/bTLTnwB+KeG+FA13WzWrxsXEIBbIItsSn+sqj8zifVg9HmA==";
+        };
     in {
         "rHohm5Zt" = _rHohm5Zt;
         "aC37Awjc" = _aC37Awjc;
@@ -818,6 +823,7 @@ let
         "YwsbXsN1" = _YwsbXsN1;
         "z6rgjE3Z" = _z6rgjE3Z;
         "VAqWXLot" = _VAqWXLot;
+        "va4seGSJ" = _va4seGSJ;
         "datapack-24w13a" = _aC37Awjc;
         "datapack-24w14a" = _aC37Awjc;
         "datapack-1.20.5-pre1" = _wB9zYdFT;
@@ -986,7 +992,18 @@ let
         "datapack-26.3-rc-1" = _YwsbXsN1;
         "datapack-26.3-rc-2" = _YwsbXsN1;
         "datapack-26.3-rc-3" = _YwsbXsN1;
-        "datapack-26.3" = _z6rgjE3Z;
+        "datapack-26.3" = _va4seGSJ;
+        "datapack-26.4-snapshot-1" = _va4seGSJ;
+        "datapack-26.4-snapshot-2" = _va4seGSJ;
+        "datapack-26.4-snapshot-3" = _va4seGSJ;
+        "datapack-26.4-snapshot-4" = _va4seGSJ;
+        "datapack-26.4-snapshot-5" = _va4seGSJ;
+        "datapack-26.4-snapshot-6" = _va4seGSJ;
+        "datapack-26.4-snapshot-7" = _va4seGSJ;
+        "datapack-26.4-snapshot-8" = _va4seGSJ;
+        "datapack-26.4-snapshot-9" = _va4seGSJ;
+        "datapack-26.4-snapshot-10" = _va4seGSJ;
+        "datapack-26.4-pre-1" = _va4seGSJ;
         "fabric-1.20.5" = _dUNUGIMw;
         "fabric-1.20.6-rc1" = _tjF7Nvw5;
         "fabric-1.20.6" = _dUNUGIMw;
@@ -1187,7 +1204,8 @@ let
         "pkg-v5.0.0-rc.1" = _YwsbXsN1;
         "pkg-v5.0.0" = _z6rgjE3Z;
         "pkg-v5.0.0+mod" = _VAqWXLot;
-        "default" = _VAqWXLot;
+        "pkg-v5.1.0-pre.1" = _va4seGSJ;
+        "default" = _va4seGSJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "silly-eatables";

@@ -76,6 +76,11 @@ let
             "file" = "healthplus_fabric-1.5.0+26.2.jar";
             "hash" = "sha512-BbAs2REkPWXthPPYENLgums9rNhGC1IuOWHLbhCRoEIOTbVeIaS5U1fJDEkxtAlGgJyrJ3oqXEjVtdYTnG/Taw==";
         };
+        _v0sQHHCD = {
+            "id" = "v0sQHHCD";
+            "file" = "healthplus_fabric-1.6.0+26.3.jar";
+            "hash" = "sha512-NRiUQ0fppxLb4wVrTd9/lfkScpyW+QHWghl+CT/aA710Ap3YobE5grwXKpRRuV8SpB3QJYonBM3A9kFP+WI1LA==";
+        };
     in {
         "EEEgmN2r" = _EEEgmN2r;
         "pmsof5Cm" = _pmsof5Cm;
@@ -92,6 +97,7 @@ let
         "AXawcwJk" = _AXawcwJk;
         "GttPCJx2" = _GttPCJx2;
         "6i8Ff1WR" = _6i8Ff1WR;
+        "v0sQHHCD" = _v0sQHHCD;
         "forge-1.20.1" = _pmsof5Cm;
         "forge-1.21.9" = _kAKSDD49;
         "forge-1.21.10" = _F1tUeYQp;
@@ -101,6 +107,7 @@ let
         "fabric-1.21.10" = _hyaO70k8;
         "fabric-26.1.2" = _AXawcwJk;
         "fabric-26.2" = _6i8Ff1WR;
+        "fabric-26.3" = _v0sQHHCD;
         "neoforge-1.21.9" = _Q06jMO5J;
         "pkg-1.0.0" = _EEEgmN2r;
         "pkg-1.1.0" = _7IbMZatV;
@@ -116,7 +123,8 @@ let
         "pkg-1.3.2-fabric+26.1.2" = _AXawcwJk;
         "pkg-1.4.1-fabric+26.2" = _GttPCJx2;
         "pkg-1.5.0-fabric+26.2" = _6i8Ff1WR;
-        "default" = _6i8Ff1WR;
+        "pkg-1.6.0-fabric+26.3" = _v0sQHHCD;
+        "default" = _v0sQHHCD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "healthplus";

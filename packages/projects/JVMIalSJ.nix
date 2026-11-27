@@ -426,6 +426,16 @@ let
             "file" = "dasik-library-1.13.0.jar";
             "hash" = "sha512-MrvvhiE6A4RqNvFinSMvNx2oxsWt5PqxcCs0+CanGlHuZLdeQWHsDjAp1lFIgug5tD3/xdzvUSyBlo29UobyKA==";
         };
+        _a9pujj1P = {
+            "id" = "a9pujj1P";
+            "file" = "dasik-library-1.13.1+26.1.2-fabric.jar";
+            "hash" = "sha512-cFbhw1l000RUnQMfWonyvKGCelZJxcHq6Xp+qqfKSuhWlC5cSTMCfDSZ5ZerVuP7gXBnKyWzbZiY00DXM4qIiA==";
+        };
+        _QjP4Xqtc = {
+            "id" = "QjP4Xqtc";
+            "file" = "dasik-library-1.13.1+26.1.2-neoforge.jar";
+            "hash" = "sha512-l5Y5UOBE1ZbJ92+W3V1ACdPyO9bj73VL0x2gdhmDrLBSGXIgxe0SEb4GRhqpJQrZrwbN7EuiDEBUSJSTJOokog==";
+        };
     in {
         "E8fuH6Ts" = _E8fuH6Ts;
         "1Heke9Wm" = _1Heke9Wm;
@@ -512,6 +522,8 @@ let
         "7JvLYliO" = _7JvLYliO;
         "2uvpO829" = _2uvpO829;
         "liDYLOQj" = _liDYLOQj;
+        "a9pujj1P" = _a9pujj1P;
+        "QjP4Xqtc" = _QjP4Xqtc;
         "fabric-26.1-snapshot-1" = _B7EoCGaX;
         "fabric-26.1-snapshot-2" = _B7EoCGaX;
         "fabric-26.1-snapshot-3" = _B7EoCGaX;
@@ -530,7 +542,7 @@ let
         "fabric-26.1-rc-2" = _B7EoCGaX;
         "fabric-26.1-rc-3" = _B7EoCGaX;
         "fabric-26.1" = _B7EoCGaX;
-        "fabric-26.1.2" = _liDYLOQj;
+        "fabric-26.1.2" = _a9pujj1P;
         "fabric-26.1.1" = _B7EoCGaX;
         "fabric-26.1.1-rc-1" = _B7EoCGaX;
         "fabric-26.2-snapshot-1" = _B7EoCGaX;
@@ -550,7 +562,7 @@ let
         "fabric-26.2-pre-6" = _B7EoCGaX;
         "fabric-26.2-rc-1" = _B7EoCGaX;
         "fabric-26.2-rc-2" = _B7EoCGaX;
-        "fabric-26.2" = _liDYLOQj;
+        "fabric-26.2" = _a9pujj1P;
         "fabric-1.21.11" = _7JvLYliO;
         "fabric-26.3-snapshot-1" = _2t6bKfI4;
         "fabric-26.3-snapshot-2" = _2t6bKfI4;
@@ -564,13 +576,16 @@ let
         "fabric-26.3-snapshot-8" = _2t6bKfI4;
         "fabric-26.3-pre-1" = _2t6bKfI4;
         "fabric-26.3-pre-2" = _2t6bKfI4;
-        "fabric-26.3" = _liDYLOQj;
+        "fabric-26.3" = _a9pujj1P;
         "fabric-1.20.1" = _5ar663s1;
         "fabric-1.21.1" = _8sGVj3mO;
         "forge-1.20.1" = _nKO97YkW;
         "neoforge-1.20.1" = _nKO97YkW;
         "neoforge-1.21.1" = _cyXaCCWx;
         "neoforge-1.21.11" = _2uvpO829;
+        "neoforge-26.3" = _QjP4Xqtc;
+        "neoforge-26.2" = _QjP4Xqtc;
+        "neoforge-26.1.2" = _QjP4Xqtc;
         "pkg-1.2.3" = _E8fuH6Ts;
         "pkg-1.6.9" = _1Heke9Wm;
         "pkg-1.6.9+build.9" = _IwLMBj5r;
@@ -636,7 +651,8 @@ let
         "pkg-1.4.1+1.21.1" = _cyXaCCWx;
         "pkg-1.4.1+1.21.11" = _2uvpO829;
         "pkg-1.13.0" = _liDYLOQj;
-        "default" = _liDYLOQj;
+        "pkg-1.13.1+26.1.2" = _QjP4Xqtc;
+        "default" = _QjP4Xqtc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dasik-library";

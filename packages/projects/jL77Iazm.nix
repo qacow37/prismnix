@@ -66,6 +66,11 @@ let
             "file" = "balanced-crates-2.0.3-neo1.21.1.jar";
             "hash" = "sha512-uvM6xa2WH+AdtcS+h0nj8SiEKKGuB71TO8asSsAYQ+VQAT8zgmIIk/5n2o6xfzEpZNK4RSEY480z31aYi9DvvA==";
         };
+        _ocgUkhqo = {
+            "id" = "ocgUkhqo";
+            "file" = "balanced-crates-2.1-neo1.21.1.jar";
+            "hash" = "sha512-dGEpGjPbq/HlxrQX1fSJOPLnh+yGUWxMDcnz41EolKpTNnIn4x7pYOhjrNwwzHJ02p22DgPX4zcliWu/ahuOFA==";
+        };
     in {
         "REgoSahl" = _REgoSahl;
         "bPht1a57" = _bPht1a57;
@@ -80,10 +85,11 @@ let
         "JXq9Z5Yc" = _JXq9Z5Yc;
         "jGqVFnHV" = _jGqVFnHV;
         "hCVg3dqA" = _hCVg3dqA;
+        "ocgUkhqo" = _ocgUkhqo;
         "forge-1.19.2" = _REgoSahl;
         "forge-1.19.4" = _bPht1a57;
         "forge-1.20.1" = _omf6W6Wh;
-        "neoforge-1.21.1" = _hCVg3dqA;
+        "neoforge-1.21.1" = _ocgUkhqo;
         "neoforge-1.21.4" = _jfiSLIhc;
         "pkg-1.7.7" = _gnZjEIfx;
         "pkg-1.8.01.21.1" = _MMiF5r7w;
@@ -96,7 +102,8 @@ let
         "pkg-2.0.1" = _JXq9Z5Yc;
         "pkg-2.0.2" = _jGqVFnHV;
         "pkg-2.0.3" = _hCVg3dqA;
-        "default" = _hCVg3dqA;
+        "pkg-2.1" = _ocgUkhqo;
+        "default" = _ocgUkhqo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "balanced-crates";

@@ -146,6 +146,11 @@ let
             "file" = "block_variants-26.1.2-7.0.1.jar";
             "hash" = "sha512-Bh0Yi22IOPbjoOKvzJMxE6BUutx4jWvgrNyN7hAQtKp7Uvgyn/r1nPHPCKZHx2YWZb7ZNwc2OKBRXb5pc/Z1AQ==";
         };
+        _FoEC4xbN = {
+            "id" = "FoEC4xbN";
+            "file" = "block_variants-1.21.1-6.1.2.jar";
+            "hash" = "sha512-w43BtzG9r3wZkNgqyqgfdHZtpUecfU3pI3+FBgvVthRmA7Tqe4inP+DOidIuEa6vl5ISlfbRS10RDxnIjrxU+w==";
+        };
     in {
         "Qos2RvGt" = _Qos2RvGt;
         "9qcXfxvU" = _9qcXfxvU;
@@ -176,10 +181,11 @@ let
         "q3aAJZ20" = _q3aAJZ20;
         "xxK34kc3" = _xxK34kc3;
         "6lCvOaYL" = _6lCvOaYL;
+        "FoEC4xbN" = _FoEC4xbN;
         "neoforge-1.20.4" = _Qos2RvGt;
         "neoforge-1.20.6" = _nywZ4aa7;
         "neoforge-1.21" = _VAq8p7U5;
-        "neoforge-1.21.1" = _VAq8p7U5;
+        "neoforge-1.21.1" = _FoEC4xbN;
         "neoforge-1.21.3" = _jiOVEAMB;
         "neoforge-1.21.4" = _JauB2RtM;
         "neoforge-1.21.5" = _nVGQJ5HV;
@@ -220,7 +226,8 @@ let
         "pkg-7.1.0" = _q3aAJZ20;
         "pkg-7.1.1" = _xxK34kc3;
         "pkg-7.0.1" = _6lCvOaYL;
-        "default" = _6lCvOaYL;
+        "pkg-6.1.2" = _FoEC4xbN;
+        "default" = _FoEC4xbN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "block-variants";

@@ -191,6 +191,21 @@ let
             "file" = "MCT-ImmersiveTechnology-1.12.2-1.11.216-release.jar";
             "hash" = "sha512-PqRiKvEnFkLPgIbawPl8wd1WMQ7qMBKDsmh71RM8vwjMai4N1eWV0ugR3V8eMADFw8WAaLBCXZERJaHJD/efUQ==";
         };
+        _Q6ukWBF0 = {
+            "id" = "Q6ukWBF0";
+            "file" = "MCT-ImmersiveTechnology-1.20.1-2.1.0-b7456-release.jar";
+            "hash" = "sha512-Nz8gTS+9Uhj4IFi7dt1HQWEbj22CJS4f0eyGJXihkd96hgFQ3X26RsulHCoP9AKFVg4nnZnLwIwffRlpspC+Bw==";
+        };
+        _IzNKviNz = {
+            "id" = "IzNKviNz";
+            "file" = "MCT-ImmersiveTechnology-1.21.1-3.0.0-b1517-alpha.jar";
+            "hash" = "sha512-Swk6G9Y15dFIFLkG3IGUAElPiFemo5ogwmOJcImw001/ddCY+OeIdMhPE0gmOLfn4RTX9FxdJaO3FfrsPdTFOQ==";
+        };
+        _TpM6fee8 = {
+            "id" = "TpM6fee8";
+            "file" = "MCT-ImmersiveTechnology-1.12.2-1.11.218-release.jar";
+            "hash" = "sha512-sCXihdC8SOjAA5fsrzLdP6XdXhCddJZW18zcnXcr/kcmlnGTsqGttCfwfNJGSdPQq6PJXm0l8jNVTfSXOyKtuA==";
+        };
     in {
         "tXe5H98I" = _tXe5H98I;
         "kgarTyrA" = _kgarTyrA;
@@ -230,8 +245,12 @@ let
         "9jSbsdEx" = _9jSbsdEx;
         "2CVtjdpS" = _2CVtjdpS;
         "SpTllUg0" = _SpTllUg0;
-        "forge-1.12.2" = _SpTllUg0;
-        "forge-1.20.1" = _2CVtjdpS;
+        "Q6ukWBF0" = _Q6ukWBF0;
+        "IzNKviNz" = _IzNKviNz;
+        "TpM6fee8" = _TpM6fee8;
+        "forge-1.12.2" = _TpM6fee8;
+        "forge-1.20.1" = _Q6ukWBF0;
+        "neoforge-1.21.1" = _IzNKviNz;
         "pkg-1.8.94-release" = _tXe5H98I;
         "pkg-1.9.102-release" = _kgarTyrA;
         "pkg-2.0.1-b3911-beta" = _gOHmYHjA;
@@ -270,7 +289,10 @@ let
         "pkg-2.1.0-b7444-release" = _9jSbsdEx;
         "pkg-2.1.0-b7445-release" = _2CVtjdpS;
         "pkg-1.11.216-release" = _SpTllUg0;
-        "default" = _SpTllUg0;
+        "pkg-2.1.0-b7456-release" = _Q6ukWBF0;
+        "pkg-3.0.0-b1517-alpha" = _IzNKviNz;
+        "pkg-1.11.218-release" = _TpM6fee8;
+        "default" = _TpM6fee8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mct-immersive-technology";

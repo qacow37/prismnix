@@ -31,6 +31,16 @@ let
             "file" = "ks-blood-moon-26.3.jar";
             "hash" = "sha512-6VvTfwQewkbhk3vI4+ORZO4UEN5wVt4T54JnZJ/1ImZXZXWvb8Kj1SH5NHYHpjGXdb8Lw0HFCGgoF9ieoEUPxw==";
         };
+        _1LJDMFqa = {
+            "id" = "1LJDMFqa";
+            "file" = "ks_blood_moon_26.3-1.zip";
+            "hash" = "sha512-xXEV+qv83kG9AKh4eLXMEaKy2sz/R2TuEyKOIp9WV5BERX+lLg26DWPQSDA+CzFoEewlymaZ4cbArKYZebb6RA==";
+        };
+        _VvNL47hc = {
+            "id" = "VvNL47hc";
+            "file" = "ks-blood-moon-26.3-1.jar";
+            "hash" = "sha512-5QZBQJjhYC7kh5lcwdPr78qEeNxQtMyGLW+nLfdrbVdzPOeh7YuW0IkEIcGpiKR47cVZ4R/KiYSfBzUT1SBE+Q==";
+        };
     in {
         "9kHJYsIc" = _9kHJYsIc;
         "AI3yTtcd" = _AI3yTtcd;
@@ -38,38 +48,42 @@ let
         "P9mgPrWq" = _P9mgPrWq;
         "TZiQo08C" = _TZiQo08C;
         "8ObaDRIU" = _8ObaDRIU;
+        "1LJDMFqa" = _1LJDMFqa;
+        "VvNL47hc" = _VvNL47hc;
         "datapack-26.1" = _9kHJYsIc;
         "datapack-26.1.1" = _9kHJYsIc;
         "datapack-26.1.2" = _9kHJYsIc;
         "datapack-26.2" = _nK3SohsH;
-        "datapack-26.3" = _TZiQo08C;
+        "datapack-26.3" = _1LJDMFqa;
         "fabric-26.1" = _AI3yTtcd;
         "fabric-26.1.1" = _AI3yTtcd;
         "fabric-26.1.2" = _AI3yTtcd;
         "fabric-26.2" = _P9mgPrWq;
-        "fabric-26.3" = _8ObaDRIU;
+        "fabric-26.3" = _VvNL47hc;
         "forge-26.1" = _AI3yTtcd;
         "forge-26.1.1" = _AI3yTtcd;
         "forge-26.1.2" = _AI3yTtcd;
         "forge-26.2" = _P9mgPrWq;
-        "forge-26.3" = _8ObaDRIU;
+        "forge-26.3" = _VvNL47hc;
         "neoforge-26.1" = _AI3yTtcd;
         "neoforge-26.1.1" = _AI3yTtcd;
         "neoforge-26.1.2" = _AI3yTtcd;
         "neoforge-26.2" = _P9mgPrWq;
-        "neoforge-26.3" = _8ObaDRIU;
+        "neoforge-26.3" = _VvNL47hc;
         "quilt-26.1" = _AI3yTtcd;
         "quilt-26.1.1" = _AI3yTtcd;
         "quilt-26.1.2" = _AI3yTtcd;
         "quilt-26.2" = _P9mgPrWq;
-        "quilt-26.3" = _8ObaDRIU;
+        "quilt-26.3" = _VvNL47hc;
         "pkg-26.1.x" = _9kHJYsIc;
         "pkg-26.1.x+mod" = _AI3yTtcd;
         "pkg-26.2" = _nK3SohsH;
         "pkg-26.2+mod" = _P9mgPrWq;
         "pkg-26.3" = _TZiQo08C;
         "pkg-26.3+mod" = _8ObaDRIU;
-        "default" = _8ObaDRIU;
+        "pkg-26.3-1" = _1LJDMFqa;
+        "pkg-26.3-1+mod" = _VvNL47hc;
+        "default" = _VvNL47hc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ks-blood-moon";
