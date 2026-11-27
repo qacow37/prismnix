@@ -46,6 +46,11 @@ let
             "file" = "wynn-weapon-bigger-1.1.2.jar";
             "hash" = "sha512-LDjMbLgW0VdsrwMlMPj6P8+c9BkssJhikfkiVFzC/6FdIAzdj9pReAEFa7ZCR9tr4LR58icM6ISaSchueW2pxg==";
         };
+        _XBwKnNEp = {
+            "id" = "XBwKnNEp";
+            "file" = "wynn-weapon-bigger-1.1.3.jar";
+            "hash" = "sha512-/tHmuzNpm7AIXEeAdsMPKVFm+eR+xEaLM2NzfkJvYpIQg+get5hZUOoFpru+6Pcwd6vS9KIvTLu/zgoAIaoq7Q==";
+        };
     in {
         "zmXV2I4U" = _zmXV2I4U;
         "4BXrPXMf" = _4BXrPXMf;
@@ -56,10 +61,11 @@ let
         "kYISTpvW" = _kYISTpvW;
         "PySqRZJT" = _PySqRZJT;
         "nCmbBrzh" = _nCmbBrzh;
+        "XBwKnNEp" = _XBwKnNEp;
         "fabric-1.21" = _LiXUk0SE;
         "fabric-1.21.1" = _LiXUk0SE;
         "fabric-1.21.4" = _V139D3Tq;
-        "fabric-1.21.11" = _nCmbBrzh;
+        "fabric-1.21.11" = _XBwKnNEp;
         "pkg-0.5.1" = _zmXV2I4U;
         "pkg-0.5.2" = _4BXrPXMf;
         "pkg-0.5.3" = _c8pl67lL;
@@ -69,7 +75,8 @@ let
         "pkg-1.1.0" = _kYISTpvW;
         "pkg-1.1.1" = _PySqRZJT;
         "pkg-1.1.2" = _nCmbBrzh;
-        "default" = _nCmbBrzh;
+        "pkg-1.1.3" = _XBwKnNEp;
+        "default" = _XBwKnNEp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wynnweaponbigger";

@@ -206,6 +206,26 @@ let
             "file" = "lne_wizards-fabric-1.3.1+1.21.1.jar";
             "hash" = "sha512-sd4QDNIkMreprscXQdOnHXh5lWVxQBwtkaqKXKjQndbBbLrGudj03OkPFXyf7GEjmDgHRQEQV1r+kWISLG8aew==";
         };
+        _gfWwPb0S = {
+            "id" = "gfWwPb0S";
+            "file" = "lne_wizards-neoforge-1.3.2+1.21.1.jar";
+            "hash" = "sha512-Pcp/kouR7kgtWtKTWby745ucjBY3m/GrEnZD8oFItuH1+nYYNU9WhKF/BqnrgeffLivQKFS2TSrnnyUDDq7w3g==";
+        };
+        _D1Jq8pFq = {
+            "id" = "D1Jq8pFq";
+            "file" = "lne_wizards-fabric-1.3.2+1.21.1.jar";
+            "hash" = "sha512-nSICpKEiEwXm1sueG49hOAxAzoXgsHmybE62l67D/ucJlNbVcmS1GKP6nF3VydyJR/0WKNI+ONDglDHRGXr3/g==";
+        };
+        _CGYUAAJK = {
+            "id" = "CGYUAAJK";
+            "file" = "lne_wizards-neoforge-1.3.2+1.21.1.jar";
+            "hash" = "sha512-i55slLbxdN6IKBmfjOKaLsOmbEOzeRNQdMUM6a+u79Y1vSs41zYsa0/SjCP90PG687yPlXAmL5qVaTbUhYyYLA==";
+        };
+        _48G7oF8p = {
+            "id" = "48G7oF8p";
+            "file" = "lne_wizards-fabric-1.3.2+1.21.1.jar";
+            "hash" = "sha512-YurJ39/PQML9jHdW44ARvY1aU9zeD/5Y68fb5sskuRLKXJ6K/g8AagU7sAWOsJV3Lvi6GZOimC7oApByr9thXA==";
+        };
     in {
         "nLazT3cv" = _nLazT3cv;
         "8jt0K3fS" = _8jt0K3fS;
@@ -248,10 +268,14 @@ let
         "M1mfpf64" = _M1mfpf64;
         "mhd7PeON" = _mhd7PeON;
         "gQbkDpWs" = _gQbkDpWs;
+        "gfWwPb0S" = _gfWwPb0S;
+        "D1Jq8pFq" = _D1Jq8pFq;
+        "CGYUAAJK" = _CGYUAAJK;
+        "48G7oF8p" = _48G7oF8p;
         "fabric-1.20.1" = _U73iERr4;
         "fabric-1.21" = _RSD4eG7B;
-        "fabric-1.21.1" = _gQbkDpWs;
-        "neoforge-1.21.1" = _mhd7PeON;
+        "fabric-1.21.1" = _48G7oF8p;
+        "neoforge-1.21.1" = _CGYUAAJK;
         "neoforge-1.20.1" = _Nyf30Pqn;
         "forge-1.20.1" = _Nyf30Pqn;
         "pkg-0.1.0-1.20.1" = _nLazT3cv;
@@ -295,7 +319,9 @@ let
         "pkg-1.3.0+1.21.1-neoforge" = _M1mfpf64;
         "pkg-1.3.1+1.21.1-neoforge" = _mhd7PeON;
         "pkg-1.3.1+1.21.1-fabric" = _gQbkDpWs;
-        "default" = _gQbkDpWs;
+        "pkg-1.3.2+1.21.1-neoforge" = _CGYUAAJK;
+        "pkg-1.3.2+1.21.1-fabric" = _48G7oF8p;
+        "default" = _48G7oF8p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lne-wizards";

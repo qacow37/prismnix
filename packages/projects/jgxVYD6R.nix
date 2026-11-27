@@ -21,17 +21,24 @@ let
             "file" = "aura-5.jar";
             "hash" = "sha512-+alVZVf78I8c97hh36gtQOnEnACvSbZLyOHaZ9kPW4qfv2gNzfMJNesD1S+VoiIA2i1gMzhlmRBe67WUC7JLTA==";
         };
+        _1EEdyfLp = {
+            "id" = "1EEdyfLp";
+            "file" = "aura-1.21.1-neo-6.jar";
+            "hash" = "sha512-vpxgh5JKRFryNsjGrAeM6Cdl0Wak1vfBsBHMHodYhEYxyJqtUauTqB1ckStscsGHYjm/alN2x0vKZiyGwuS93Q==";
+        };
     in {
         "PB2FZlqv" = _PB2FZlqv;
         "DcZGDM30" = _DcZGDM30;
         "ZIfZ7Ruf" = _ZIfZ7Ruf;
         "FB4m96T4" = _FB4m96T4;
-        "neoforge-1.21.1" = _FB4m96T4;
+        "1EEdyfLp" = _1EEdyfLp;
+        "neoforge-1.21.1" = _1EEdyfLp;
         "pkg-1" = _PB2FZlqv;
         "pkg-4" = _DcZGDM30;
         "pkg-4.1" = _ZIfZ7Ruf;
         "pkg-5" = _FB4m96T4;
-        "default" = _FB4m96T4;
+        "pkg-1.21.1-neo-6" = _1EEdyfLp;
+        "default" = _1EEdyfLp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aura-skills-abilities";

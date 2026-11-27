@@ -966,6 +966,11 @@ let
             "file" = "matlib-1.0.1+26.3-fabric.jar";
             "hash" = "sha512-8L0DGHE4T3zMBEL/M3m8EsoqesfBatYmWP1Fygm/6TK4NyvZL1notAhd/9FRvLDEmiVrxRiUMn1SiAOMWrYcEw==";
         };
+        _Z50MRzXX = {
+            "id" = "Z50MRzXX";
+            "file" = "matlib-1.0.1+26.4-pre-1-fabric.jar";
+            "hash" = "sha512-ixS5jBfFu34t1VVao3ViCe2COtvPJ16YDGzn9/0qwXnSlpv6MZ12K0Q0R2G9w3ncghe7+0c2KI6IbT87aZZLqg==";
+        };
     in {
         "NvylXRzd" = _NvylXRzd;
         "agBGV8CV" = _agBGV8CV;
@@ -1160,6 +1165,7 @@ let
         "6svaZq8x" = _6svaZq8x;
         "e0reVMd9" = _e0reVMd9;
         "X9Cckxx9" = _X9Cckxx9;
+        "Z50MRzXX" = _Z50MRzXX;
         "forge-1.20" = _soATMoch;
         "forge-1.20.1" = _soATMoch;
         "forge-1.20.5" = _ko31yxeP;
@@ -1230,6 +1236,7 @@ let
         "fabric-26.4-snapshot-6" = _SmciyHKa;
         "fabric-26.4-snapshot-7" = _GOyj7lq7;
         "fabric-26.4-snapshot-8" = _Kh675rvH;
+        "fabric-26.4-pre-1" = _Z50MRzXX;
         "quilt-1.20" = _HFXkwHkN;
         "quilt-1.20.1" = _HFXkwHkN;
         "quilt-1.20.2" = _L3dkNlRO;
@@ -1257,6 +1264,7 @@ let
         "quilt-26.4-snapshot-6" = _SmciyHKa;
         "quilt-26.4-snapshot-7" = _GOyj7lq7;
         "quilt-26.4-snapshot-8" = _Kh675rvH;
+        "quilt-26.4-pre-1" = _Z50MRzXX;
         "pkg-forge-0.7.0+1.20" = _NvylXRzd;
         "pkg-forge-0.7.0+1.20.5" = _agBGV8CV;
         "pkg-forge-0.7.0+1.21" = _OmxUSjtR;
@@ -1450,7 +1458,8 @@ let
         "pkg-fabric-1.0.1+26.1" = _6svaZq8x;
         "pkg-fabric-1.0.1+26.2" = _e0reVMd9;
         "pkg-fabric-1.0.1+26.3" = _X9Cckxx9;
-        "default" = _X9Cckxx9;
+        "pkg-fabric-1.0.1+26.4-pre-1" = _Z50MRzXX;
+        "default" = _Z50MRzXX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "matlib";

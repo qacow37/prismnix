@@ -236,6 +236,26 @@ let
             "file" = "dirtcheap-1.1.8+neo+mc26.2.jar";
             "hash" = "sha512-x/lchmW63deGRuA3h62ASJI4zaYsY5b5cMVZ4vw+/fRj7xJf1yBHCFDKmMkfJ96mSvHw5c98vXojP+3stfUKdA==";
         };
+        _Pxy5m7Eg = {
+            "id" = "Pxy5m7Eg";
+            "file" = "dirtcheap-1.1.9+fabric+mc26.2.jar";
+            "hash" = "sha512-Px/iY4AUq08DqIT1dCfqxQiNc+yF6j26nh29MMDyK7v3XuR3LW6cmtMThE9Txr/XlEWArUPNhqN9upy5tnBrwA==";
+        };
+        _VYWOUqYK = {
+            "id" = "VYWOUqYK";
+            "file" = "dirtcheap-1.1.9+fabric+mc26.3.jar";
+            "hash" = "sha512-2VyU9NSyI1x7BT/imcLJ5ONW+h5nTzwskWMo54zZeWx6OxaMcCBDTDoi8XocOJX/vsqoXu5L8V4M6CzZJRysug==";
+        };
+        _HsiVDZc9 = {
+            "id" = "HsiVDZc9";
+            "file" = "dirtcheap-1.1.9+neo+mc26.2.jar";
+            "hash" = "sha512-ThTld+KJQHWkLtuWp/OnO0VacNaZHuFXZF3vp0B8Bgpl7i1GN/myDsG/HoQmhVpt71LPEePrXPGtmnCMaU6uSw==";
+        };
+        _COLZdfAF = {
+            "id" = "COLZdfAF";
+            "file" = "dirtcheap-1.1.9+neo+mc26.3.jar";
+            "hash" = "sha512-HZxamKnsdop235TwycrSxVH6mehF2IfaDmoZQVUEVTMB3tVzRUu++NJ8DOw5k/4kW4/dp+Ds3V2BT8UbVDecXw==";
+        };
     in {
         "VDUBon7T" = _VDUBon7T;
         "9UHp30uw" = _9UHp30uw;
@@ -284,6 +304,10 @@ let
         "paRA9VWx" = _paRA9VWx;
         "fSAfHTQN" = _fSAfHTQN;
         "RfbdOUSJ" = _RfbdOUSJ;
+        "Pxy5m7Eg" = _Pxy5m7Eg;
+        "VYWOUqYK" = _VYWOUqYK;
+        "HsiVDZc9" = _HsiVDZc9;
+        "COLZdfAF" = _COLZdfAF;
         "fabric-1.18.1" = _VDUBon7T;
         "fabric-1.18.2" = _9UHp30uw;
         "fabric-1.19.4" = _jNQEzpjW;
@@ -307,7 +331,8 @@ let
         "fabric-26.1" = _W3POAtWw;
         "fabric-26.1.1" = _y1GRGXib;
         "fabric-26.1.2" = _7NShAFOF;
-        "fabric-26.2" = _U3hoQW4N;
+        "fabric-26.2" = _Pxy5m7Eg;
+        "fabric-26.3" = _VYWOUqYK;
         "forge-1.20.4" = _UgB0aloN;
         "neoforge-1.21.4" = _Sz2v56G5;
         "neoforge-1.21.5" = _f02VSqHk;
@@ -320,7 +345,8 @@ let
         "neoforge-26.1" = _vcVbQvS1;
         "neoforge-26.1.1" = _paRA9VWx;
         "neoforge-26.1.2" = _fSAfHTQN;
-        "neoforge-26.2" = _RfbdOUSJ;
+        "neoforge-26.2" = _HsiVDZc9;
+        "neoforge-26.3" = _COLZdfAF;
         "pkg-1.0.1-1.18.1" = _VDUBon7T;
         "pkg-1.0.1-1.18.2" = _9UHp30uw;
         "pkg-1.0.1-1.19.4" = _jNQEzpjW;
@@ -368,7 +394,11 @@ let
         "pkg-1.1.8+neo+mc26.1.1" = _paRA9VWx;
         "pkg-1.1.8+neo+mc26.1.2" = _fSAfHTQN;
         "pkg-1.1.8+neo+mc26.2" = _RfbdOUSJ;
-        "default" = _RfbdOUSJ;
+        "pkg-1.1.9+fabric+mc26.2" = _Pxy5m7Eg;
+        "pkg-1.1.9+fabric+mc26.3" = _VYWOUqYK;
+        "pkg-1.1.9+neo+mc26.2" = _HsiVDZc9;
+        "pkg-1.1.9+neo+mc26.3" = _COLZdfAF;
+        "default" = _COLZdfAF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dirtcheap";

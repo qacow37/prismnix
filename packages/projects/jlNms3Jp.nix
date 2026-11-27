@@ -131,6 +131,16 @@ let
             "file" = "ConfigManager-neoforge-1.21.8-1.21.11-1.1.5.jar";
             "hash" = "sha512-E9n2wDqnaulMW4j+scJRr4TTMdoklDzAIXNw31+gj5VyKscyW8Qg8J8S1UNQnMggMk8vRZSgleXzZs807PHfkg==";
         };
+        _Y8TbsBtJ = {
+            "id" = "Y8TbsBtJ";
+            "file" = "ConfigManager-fabric-26.3-1.1.6.jar";
+            "hash" = "sha512-NQbEh0/f90adcIZPKih4LCKG68kzBTG7tE9lRZwteJWxYujd0Xrcm4KIUmLykuF0YUSsBBlQh1C/1YrHGjOZ6A==";
+        };
+        _LMvVf2dE = {
+            "id" = "LMvVf2dE";
+            "file" = "ConfigManager-neoforge-26.3-1.1.6.jar";
+            "hash" = "sha512-iDhjfDMpcHJFAIIkhl0ClmAgO2B/po/oorAWdNAjbvbHC6VLqD+Sx5obJU/xJFlQqTxCyEGJdmFKbeRWa9Ei6A==";
+        };
     in {
         "7J9aKAvG" = _7J9aKAvG;
         "GfDlBe8O" = _GfDlBe8O;
@@ -158,6 +168,8 @@ let
         "HuUNh0tw" = _HuUNh0tw;
         "VsQ95AAo" = _VsQ95AAo;
         "EdA7vHUr" = _EdA7vHUr;
+        "Y8TbsBtJ" = _Y8TbsBtJ;
+        "LMvVf2dE" = _LMvVf2dE;
         "fabric-1.20.4" = _cfpIbREF;
         "fabric-1.20.5" = _mzUw5rk9;
         "fabric-1.20.6" = _mzUw5rk9;
@@ -179,9 +191,9 @@ let
         "fabric-1.21.11" = _VsQ95AAo;
         "fabric-26.1" = _W4C08wBC;
         "fabric-26.1.1" = _W4C08wBC;
-        "fabric-26.1.2" = _okecULrz;
-        "fabric-26.2" = _okecULrz;
-        "fabric-26.3" = _okecULrz;
+        "fabric-26.1.2" = _Y8TbsBtJ;
+        "fabric-26.2" = _Y8TbsBtJ;
+        "fabric-26.3" = _Y8TbsBtJ;
         "neoforge-1.21.2" = _PoltHx1P;
         "neoforge-1.21.3" = _PoltHx1P;
         "neoforge-1.21.4" = _PoltHx1P;
@@ -196,9 +208,9 @@ let
         "neoforge-1.21.11" = _EdA7vHUr;
         "neoforge-26.1" = _xvw1oVz5;
         "neoforge-26.1.1" = _xvw1oVz5;
-        "neoforge-26.1.2" = _Rj4uVCjt;
-        "neoforge-26.2" = _Rj4uVCjt;
-        "neoforge-26.3" = _Rj4uVCjt;
+        "neoforge-26.1.2" = _LMvVf2dE;
+        "neoforge-26.2" = _LMvVf2dE;
+        "neoforge-26.3" = _LMvVf2dE;
         "quilt-1.20" = _DluLtFXb;
         "quilt-1.20.1" = _cfpIbREF;
         "quilt-1.20.2" = _cfpIbREF;
@@ -220,9 +232,9 @@ let
         "quilt-1.21.11" = _1gNhkJ1O;
         "quilt-26.1" = _W4C08wBC;
         "quilt-26.1.1" = _W4C08wBC;
-        "quilt-26.1.2" = _okecULrz;
-        "quilt-26.2" = _okecULrz;
-        "quilt-26.3" = _okecULrz;
+        "quilt-26.1.2" = _Y8TbsBtJ;
+        "quilt-26.2" = _Y8TbsBtJ;
+        "quilt-26.3" = _Y8TbsBtJ;
         "pkg-0.1.0" = _GfDlBe8O;
         "pkg-0.2.0" = _fwgQCCGO;
         "pkg-1.0.0" = _mzUw5rk9;
@@ -233,7 +245,8 @@ let
         "pkg-1.1.3" = _xvw1oVz5;
         "pkg-1.1.4" = _HuUNh0tw;
         "pkg-1.1.5" = _EdA7vHUr;
-        "default" = _EdA7vHUr;
+        "pkg-1.1.6" = _LMvVf2dE;
+        "default" = _LMvVf2dE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "configmanager";

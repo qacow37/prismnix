@@ -11,13 +11,20 @@ let
             "file" = "arcon-1.0.0.jar";
             "hash" = "sha512-gQdZNqW2jTdWO+Sz4YbYFI9JnyE36zD8o7zj0oZCrptwgqr6SNziqwKMUXwWRkP5iYzyJ+h7H3jsY7cUQJzfPw==";
         };
+        _E76fDgHn = {
+            "id" = "E76fDgHn";
+            "file" = "arcon-1.05-prerelease-2.19.jar";
+            "hash" = "sha512-uNnuzLJSjUkOFK+maHF2I5QkLBvr1QNEVu5uFm1xMnpzdRkRue/Exl5zerAnLShQdQ20Vb8hE3saDaQI7opz7g==";
+        };
     in {
         "zi5oxnLh" = _zi5oxnLh;
         "qLUonIb7" = _qLUonIb7;
-        "neoforge-1.21.1" = _qLUonIb7;
+        "E76fDgHn" = _E76fDgHn;
+        "neoforge-1.21.1" = _E76fDgHn;
         "pkg-0.0.1" = _zi5oxnLh;
         "pkg-1.0.0" = _qLUonIb7;
-        "default" = _qLUonIb7;
+        "pkg-1.05-prerelease-2.19" = _E76fDgHn;
+        "default" = _E76fDgHn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-armored-constructs";

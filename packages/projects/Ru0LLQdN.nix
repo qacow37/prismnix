@@ -371,6 +371,81 @@ let
             "file" = "AdvancedWorldgenInfo-neoforge-26.3-1.3.2.jar";
             "hash" = "sha512-SfP8J9kiqcEBut/F0SSQ9pyD6Sjd0yZmIsRJzay/9g0XpvbLyJzpDF8E0C/4qiTilliu/NhSqkW5xkaILZ2axA==";
         };
+        _bywSgTVJ = {
+            "id" = "bywSgTVJ";
+            "file" = "AdvancedWorldgenInfo-forge-1.19.2-1.3.3.jar";
+            "hash" = "sha512-SZG38EzgdQaw26Ci+njG0wiyE5wiSbQ+uQEFKxOd6n6l6To+iawSUXCaK6wYKnURabg6ERjpomM0whBuw89Pdw==";
+        };
+        _Vlyjk8hC = {
+            "id" = "Vlyjk8hC";
+            "file" = "AdvancedWorldgenInfo-fabric-1.19.2-1.3.3.jar";
+            "hash" = "sha512-K3oFnC3voIcXlCCoxMdOnVegkdT8hbo2CglEGx95aKBuo/dVEjbaXBszRpMvnmlTkxPXo89VYdjr4u1idVnwZg==";
+        };
+        _sux9ZjcQ = {
+            "id" = "sux9ZjcQ";
+            "file" = "AdvancedWorldgenInfo-forge-1.20.1-1.3.3.jar";
+            "hash" = "sha512-qDHq9vSjyJwQIFRJquM9upfJbV1FDhm8FNKq1aSyIk4Su8BWtBCauhyBwC9/MC6CLuQ331RLG03C24ynx4+jQA==";
+        };
+        _Gam9WJVJ = {
+            "id" = "Gam9WJVJ";
+            "file" = "AdvancedWorldgenInfo-fabric-1.20.1-1.3.3.jar";
+            "hash" = "sha512-kmwoY3SOvzecKvt3UzSRVo5OMsmsyyVkqUH7Y+kEEn9gtWfhGuxhqUShsHOhMjbHiwi4i/GaWEE1d0PjEKj6zQ==";
+        };
+        _AHN3HfX0 = {
+            "id" = "AHN3HfX0";
+            "file" = "AdvancedWorldgenInfo-forge-1.21.1-1.3.3.jar";
+            "hash" = "sha512-9aHAtQhtGzS8iuosUQM/JeSPas+p9qjKs5Q57LVSiaWqvUq2sCUwPmwAEAZ8mfw0OgTPtxejTQdxfRa34wGTaw==";
+        };
+        _oTP8URmq = {
+            "id" = "oTP8URmq";
+            "file" = "AdvancedWorldgenInfo-fabric-1.21.1-1.3.3.jar";
+            "hash" = "sha512-521zugMSIzRc0T84FWPZD5ifo5AAU2DLBNjPeCbz+wdNLInOKCRtPIYxh8OuPW0NamilZgvbC1r1nU8YHQzVJg==";
+        };
+        _GLybIhKz = {
+            "id" = "GLybIhKz";
+            "file" = "AdvancedWorldgenInfo-neoforge-1.21.1-1.3.3.jar";
+            "hash" = "sha512-Ucb92mKB9MFeEBNXw8Ig+ge3F6TrfTyjrC2lxIHV7XL0p7zH0hG3smrajsMrUI74ws2I3uosuUfbDe8TZad2fg==";
+        };
+        _fZYS4HTC = {
+            "id" = "fZYS4HTC";
+            "file" = "AdvancedWorldgenInfo-fabric-1.21.11-1.3.3.jar";
+            "hash" = "sha512-Jk9skYnuIqAFmWQbNbwShWlsBPd487axQDgHru4GX/l4KVXkGNrMdVyJ1eOHmYlBWqiRH3Y+pHryHJYTl1UmYQ==";
+        };
+        _FnQRUSbO = {
+            "id" = "FnQRUSbO";
+            "file" = "AdvancedWorldgenInfo-neoforge-1.21.11-1.3.3.jar";
+            "hash" = "sha512-lalwYeaTepNPfAUeSsVM/4ZQCOR3fwOmJDDPi7SZgNETDn2VK0G+xnojVpCetphSTzc3KJ79mnbzPN7KR4Iz8g==";
+        };
+        _fVDzN6NP = {
+            "id" = "fVDzN6NP";
+            "file" = "AdvancedWorldgenInfo-fabric-26.1.2-1.3.3.jar";
+            "hash" = "sha512-mURXVQjfP38SbIoxRONaCI82OWwj7jUtvJD5Aqcb0dY6cfTk4qgElfmqawOGUKQSYbvP+t3YWno4Veo4Pehs2Q==";
+        };
+        _zrA4J3bk = {
+            "id" = "zrA4J3bk";
+            "file" = "AdvancedWorldgenInfo-neoforge-26.1.2-1.3.3.jar";
+            "hash" = "sha512-4NLQ2QX88RlJ7wxfmzn6YQ+/M8OaPWcculyAKZGiMPamTFaZSAknZxOFE3ury1+urSB9ZoygpkgWxcHgU5j5lg==";
+        };
+        _HUUktjqo = {
+            "id" = "HUUktjqo";
+            "file" = "AdvancedWorldgenInfo-fabric-26.2-1.3.3.jar";
+            "hash" = "sha512-cVC2tfjiWYAFEQN7tbAA0dhW5ENaphV+VMr5LUBOTlPebwycLWPcOEEKsdKMLQq1kgjbFseDuCHBxHokA6T5wQ==";
+        };
+        _MLWkLO1f = {
+            "id" = "MLWkLO1f";
+            "file" = "AdvancedWorldgenInfo-neoforge-26.2-1.3.3.jar";
+            "hash" = "sha512-DdoKTJlf/gXY9Mqij19Z6gxAzkFAvk4ngYU8uWllpiZOpNvWMDirBhkc4zT9W2JbK0l8KVzWcJ3FQKXmVr7Mpw==";
+        };
+        _Bf2nL6BD = {
+            "id" = "Bf2nL6BD";
+            "file" = "AdvancedWorldgenInfo-fabric-26.3-1.3.3.jar";
+            "hash" = "sha512-WVENUGCWRCQCe2a6szTgEtSiAsqRmar/h9O1qjCmbl+M2ng+EjHcPedQ8wCV/8fgLSIGI8MGqvXLoWlvutSxFQ==";
+        };
+        _8yIvlQWo = {
+            "id" = "8yIvlQWo";
+            "file" = "AdvancedWorldgenInfo-neoforge-26.3-1.3.3.jar";
+            "hash" = "sha512-W0DN5Smm+6zcPWu5qBVkRo3b1l3ovUXYvV+sj63znAwV5Va8bI8Wp6qoX5dBYwRtZ8VEhAiZGnX9FXQ/ciKkyA==";
+        };
     in {
         "EfDhMMVn" = _EfDhMMVn;
         "SbslHyNT" = _SbslHyNT;
@@ -446,20 +521,37 @@ let
         "clS3kxV7" = _clS3kxV7;
         "h7EZUJ5z" = _h7EZUJ5z;
         "pGndNLAZ" = _pGndNLAZ;
-        "forge-1.20.1" = _hwwKEA9I;
-        "forge-1.21.1" = _54Mq6fp0;
-        "neoforge-1.20.1" = _hwwKEA9I;
-        "neoforge-1.21.1" = _yA4n1qpG;
-        "neoforge-1.21.11" = _LN96UD4G;
-        "neoforge-26.1.2" = _DXvP0Gf8;
-        "neoforge-26.2" = _clS3kxV7;
-        "neoforge-26.3" = _pGndNLAZ;
-        "fabric-1.20.1" = _lOJbPi2l;
-        "fabric-1.21.1" = _m7YVhFy3;
-        "fabric-1.21.11" = _kboOnVo7;
-        "fabric-26.1.2" = _NJ4y8Pv4;
-        "fabric-26.2" = _CuVd2v1z;
-        "fabric-26.3" = _h7EZUJ5z;
+        "bywSgTVJ" = _bywSgTVJ;
+        "Vlyjk8hC" = _Vlyjk8hC;
+        "sux9ZjcQ" = _sux9ZjcQ;
+        "Gam9WJVJ" = _Gam9WJVJ;
+        "AHN3HfX0" = _AHN3HfX0;
+        "oTP8URmq" = _oTP8URmq;
+        "GLybIhKz" = _GLybIhKz;
+        "fZYS4HTC" = _fZYS4HTC;
+        "FnQRUSbO" = _FnQRUSbO;
+        "fVDzN6NP" = _fVDzN6NP;
+        "zrA4J3bk" = _zrA4J3bk;
+        "HUUktjqo" = _HUUktjqo;
+        "MLWkLO1f" = _MLWkLO1f;
+        "Bf2nL6BD" = _Bf2nL6BD;
+        "8yIvlQWo" = _8yIvlQWo;
+        "forge-1.20.1" = _sux9ZjcQ;
+        "forge-1.21.1" = _AHN3HfX0;
+        "forge-1.19.2" = _bywSgTVJ;
+        "neoforge-1.20.1" = _sux9ZjcQ;
+        "neoforge-1.21.1" = _GLybIhKz;
+        "neoforge-1.21.11" = _FnQRUSbO;
+        "neoforge-26.1.2" = _zrA4J3bk;
+        "neoforge-26.2" = _MLWkLO1f;
+        "neoforge-26.3" = _8yIvlQWo;
+        "fabric-1.20.1" = _Gam9WJVJ;
+        "fabric-1.21.1" = _oTP8URmq;
+        "fabric-1.21.11" = _fZYS4HTC;
+        "fabric-26.1.2" = _fVDzN6NP;
+        "fabric-26.2" = _HUUktjqo;
+        "fabric-26.3" = _Bf2nL6BD;
+        "fabric-1.19.2" = _Vlyjk8hC;
         "pkg-1.20.1-1.0.0" = _SbslHyNT;
         "pkg-1.21.1-1.0.0" = _Ghh3BGrZ;
         "pkg-1.21.11-1.0.0" = _CVag9tAc;
@@ -494,7 +586,14 @@ let
         "pkg-26.1.2-1.3.2" = _DXvP0Gf8;
         "pkg-26.2-1.3.2" = _clS3kxV7;
         "pkg-26.3-1.3.2" = _pGndNLAZ;
-        "default" = _pGndNLAZ;
+        "pkg-1.19.2-1.3.3" = _Vlyjk8hC;
+        "pkg-1.20.1-1.3.3" = _Gam9WJVJ;
+        "pkg-1.21.1-1.3.3" = _GLybIhKz;
+        "pkg-1.21.11-1.3.3" = _FnQRUSbO;
+        "pkg-26.1.2-1.3.3" = _zrA4J3bk;
+        "pkg-26.2-1.3.3" = _MLWkLO1f;
+        "pkg-26.3-1.3.3" = _8yIvlQWo;
+        "default" = _8yIvlQWo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "advanced-worldgen-info";

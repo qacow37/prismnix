@@ -41,6 +41,16 @@ let
             "file" = "goetyownedfix-1.2.1.jar";
             "hash" = "sha512-huwHRhdDe/cPi1EGjMcVvxj9pg6cAhU6WYGCqRSMCAOiP+UsqewAz4VQf8ULpk5Ait3SrsoW6UNXQkAp8fD2YA==";
         };
+        _Ll2sl31e = {
+            "id" = "Ll2sl31e";
+            "file" = "goetyownedfix-3.0.0.jar";
+            "hash" = "sha512-oIzKiKd2GPk0brK5OHuMIEizlrGqbwERaM0mvUMFCMg3gUKoLQfmZkiDQ3DbtgnBU5wc0ryxTI2PREYnHyvwbw==";
+        };
+        _Y4hio9cu = {
+            "id" = "Y4hio9cu";
+            "file" = "goetyownedfix-2.1.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-0YvvM+rtsTyjUAbgI9r/hGE46ackP7mdgzTDggYSgXa6Qj2jcy+W2DidrvhacsuMAZ6nXbOqZRjnqNP8BoWD+w==";
+        };
     in {
         "vn2KgEDy" = _vn2KgEDy;
         "WXv5ifNh" = _WXv5ifNh;
@@ -50,13 +60,16 @@ let
         "fGFhpeZz" = _fGFhpeZz;
         "bdrwCrCT" = _bdrwCrCT;
         "2joPxrZi" = _2joPxrZi;
+        "Ll2sl31e" = _Ll2sl31e;
+        "Y4hio9cu" = _Y4hio9cu;
         "forge-1.20.1" = _2joPxrZi;
         "forge-1.20.2" = _2joPxrZi;
         "forge-1.20.3" = _2joPxrZi;
         "forge-1.20.4" = _2joPxrZi;
         "forge-1.20.5" = _2joPxrZi;
         "forge-1.20.6" = _2joPxrZi;
-        "neoforge-1.21.1" = _fGFhpeZz;
+        "neoforge-1.21.1" = _Y4hio9cu;
+        "fabric-1.20.1" = _Ll2sl31e;
         "pkg-1.0.0" = _vn2KgEDy;
         "pkg-1.1.0" = _WXv5ifNh;
         "pkg-1.1.1" = _nBW4dB9Q;
@@ -65,7 +78,9 @@ let
         "pkg-2.0.1" = _fGFhpeZz;
         "pkg-1.2.0" = _bdrwCrCT;
         "pkg-1.2.1" = _2joPxrZi;
-        "default" = _2joPxrZi;
+        "pkg-3.0.0" = _Ll2sl31e;
+        "pkg-2.1.0" = _Y4hio9cu;
+        "default" = _Y4hio9cu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "goety-owned-crash-fix";

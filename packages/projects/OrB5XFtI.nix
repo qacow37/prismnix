@@ -821,6 +821,11 @@ let
             "file" = "CustomMachinery-neoforge-1.21.1-0.10.77.jar";
             "hash" = "sha512-Ifoz5/XgSIqLGqRygxGHfJS9GhKUVoQ8kzVlT/3vptwJV7YyT67iVJTBqsx2w66+fxGHfP0aiyuHiUndLtIvkQ==";
         };
+        _Aib9euX8 = {
+            "id" = "Aib9euX8";
+            "file" = "CustomMachinery-neoforge-1.21.1-0.10.78.jar";
+            "hash" = "sha512-apMdcHeimy8gT4icTXo7TRBvw4D78FyRxhI4PWsbCfcVG3IT/qQ5GSxiPRxwv2sMsnBiRHmjSPDYD18lSM7ngw==";
+        };
     in {
         "5Z9zNa5p" = _5Z9zNa5p;
         "UX3IQtLz" = _UX3IQtLz;
@@ -986,12 +991,13 @@ let
         "IE2bbwgN" = _IE2bbwgN;
         "yAfcEbug" = _yAfcEbug;
         "r7U49Pjk" = _r7U49Pjk;
+        "Aib9euX8" = _Aib9euX8;
         "forge-1.18.2" = _rMreUzEa;
         "forge-1.19.2" = _xyUH9p0p;
         "fabric-1.18.2" = _KFZamGKx;
         "fabric-1.19.2" = _Cnrk4fz0;
         "neoforge-1.21" = _CK9aNyfU;
-        "neoforge-1.21.1" = _r7U49Pjk;
+        "neoforge-1.21.1" = _Aib9euX8;
         "pkg-0.6.4" = _5Z9zNa5p;
         "pkg-1.18.2-0.6.5" = _UX3IQtLz;
         "pkg-1.18.2-0.6.6" = _2O1tLbqk;
@@ -1117,7 +1123,8 @@ let
         "pkg-1.21.1-0.10.75" = _IE2bbwgN;
         "pkg-1.21.1-0.10.76" = _yAfcEbug;
         "pkg-1.21.1-0.10.77" = _r7U49Pjk;
-        "default" = _r7U49Pjk;
+        "pkg-1.21.1-0.10.78" = _Aib9euX8;
+        "default" = _Aib9euX8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-machinery";

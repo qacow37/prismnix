@@ -21,17 +21,25 @@ let
             "file" = "peripheralfigure-1.0.1.jar";
             "hash" = "sha512-T/xIsCnJGmwpFZl/qw27dejvkZXxAFqaCyVCpUEx3U8pOSXyQt0P6100XnbIY55LY4xJ10ViiRswFZfZsz2Idg==";
         };
+        _kNgMI4Ja = {
+            "id" = "kNgMI4Ja";
+            "file" = "peripheralfigure-1.0.2[1].jar";
+            "hash" = "sha512-PtvXaH3K1S/bt/nKreODhrbZdga9YKn6tcpKLD2aAySYhv83S0CEniEoaKxlIEOMV1QDwJAW4Ng5HkXkkD3vbA==";
+        };
     in {
         "xV3KWGUy" = _xV3KWGUy;
         "eCneZyit" = _eCneZyit;
         "sxSHD4HW" = _sxSHD4HW;
         "iMmMGycv" = _iMmMGycv;
+        "kNgMI4Ja" = _kNgMI4Ja;
         "neoforge-1.21.1" = _iMmMGycv;
+        "neoforge-26.3" = _kNgMI4Ja;
         "forge-1.19.2" = _eCneZyit;
         "forge-1.20.1" = _sxSHD4HW;
         "pkg-1.0.0" = _xV3KWGUy;
         "pkg-1.0.1" = _iMmMGycv;
-        "default" = _iMmMGycv;
+        "pkg-1.0.2" = _kNgMI4Ja;
+        "default" = _kNgMI4Ja;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hes-watching";

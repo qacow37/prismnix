@@ -146,6 +146,16 @@ let
             "file" = "rpessentials-6.1.0.jar";
             "hash" = "sha512-3PWJk91WTfxuAkYRQOApvyJsKgbdQ+BKbQCCF+g+E7O0gI4ijNo7GTZ5dEsUwrGU5ptTAObDegKqWtkgF1C+zQ==";
         };
+        _AEiiOyvO = {
+            "id" = "AEiiOyvO";
+            "file" = "rpessentials-6.2.0.jar";
+            "hash" = "sha512-2iX1mfQbfc1G6pPkCCASLYN32CEDg5eI4gdNDNXpVlDoGUVlwdbDIqKYjMw9u/Vc3oGSSJLA9qYinL7B/CdRAw==";
+        };
+        _h5gtkJ7O = {
+            "id" = "h5gtkJ7O";
+            "file" = "rpessentials-6.2.0+forge-1.20.1.jar";
+            "hash" = "sha512-9YpbzL1ChZNiyJWrmRpdHtSumgpE34NXqujOGt8e2z+z7kGGmI/MMLrlKT+gngHdmmVwfdzn1GqfCO6vEx03aQ==";
+        };
     in {
         "AhCP5pMC" = _AhCP5pMC;
         "dmobsawh" = _dmobsawh;
@@ -176,7 +186,11 @@ let
         "d6D4pioM" = _d6D4pioM;
         "IM2YRi1l" = _IM2YRi1l;
         "w7yPmIg1" = _w7yPmIg1;
-        "neoforge-1.21.1" = _w7yPmIg1;
+        "AEiiOyvO" = _AEiiOyvO;
+        "h5gtkJ7O" = _h5gtkJ7O;
+        "neoforge-1.21.1" = _AEiiOyvO;
+        "neoforge-1.20.1" = _h5gtkJ7O;
+        "forge-1.20.1" = _h5gtkJ7O;
         "pkg-1.1.1" = _AhCP5pMC;
         "pkg-1.1.2" = _dmobsawh;
         "pkg-1.1.3" = _lRPhayzB;
@@ -206,7 +220,9 @@ let
         "pkg-5.0.1" = _d6D4pioM;
         "pkg-6.0.0" = _IM2YRi1l;
         "pkg-6.1.0" = _w7yPmIg1;
-        "default" = _w7yPmIg1;
+        "pkg-6.2.0" = _AEiiOyvO;
+        "pkg-6.2.0+forge-1.20.1" = _h5gtkJ7O;
+        "default" = _h5gtkJ7O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rp-essentials";

@@ -76,6 +76,21 @@ let
             "file" = "MinecraftWarriors3-1.1.5.jar";
             "hash" = "sha512-TcFyvrT3qPp9uKbJmlJ3P8E7AirnUJ3JjyIaGkqP+pi0ygyFivuqCoiEAYhYM3z8fwDiZQAqxtSOsHOUs+p6qQ==";
         };
+        _qSHaA1os = {
+            "id" = "qSHaA1os";
+            "file" = "MinecraftWarriors3-1.1.5-mc-26.1.jar";
+            "hash" = "sha512-eA3OlnxtZydaEdEUHcufP2oiS+5XB2PKYKr+mXZ0ppYDbSjBKp6b2pRPvPUTaxre8oxtv6ZoUDTfbC97dlFfMw==";
+        };
+        _BfmDlEmC = {
+            "id" = "BfmDlEmC";
+            "file" = "MinecraftWarriors3-1.1.5-mc-26.2.jar";
+            "hash" = "sha512-xa+rIZ1i+sFAwbiQQxCv8+BwbPAaBO8/fWRAenhmILwXTPfmSxSBELAUSgKJu+WMtOrn3/4KpXV+snDL0bYhcQ==";
+        };
+        _OyvQMWLr = {
+            "id" = "OyvQMWLr";
+            "file" = "MinecraftWarriors3-1.1.5-mc-26.3.jar";
+            "hash" = "sha512-ttWIj8q8BOGsClggHCRrbqVDFoBiMoEvM6Lbhjl9ZxtjDPcHEV2D6/TzGUD82MlZuMf2YlKvD/Ub4z1wlrtT1w==";
+        };
     in {
         "3uFPASAj" = _3uFPASAj;
         "yviRARkj" = _yviRARkj;
@@ -92,20 +107,23 @@ let
         "fS2B2vk9" = _fS2B2vk9;
         "z68uL9Xf" = _z68uL9Xf;
         "8ab56e77" = _8ab56e77;
+        "qSHaA1os" = _qSHaA1os;
+        "BfmDlEmC" = _BfmDlEmC;
+        "OyvQMWLr" = _OyvQMWLr;
         "paper-1.21.11" = _8ab56e77;
-        "paper-26.1" = _z68uL9Xf;
-        "paper-26.1.1" = _z68uL9Xf;
-        "paper-26.1.2" = _z68uL9Xf;
+        "paper-26.1" = _qSHaA1os;
+        "paper-26.1.1" = _qSHaA1os;
+        "paper-26.1.2" = _qSHaA1os;
         "paper-1.21.10" = _eZIV8x5J;
-        "paper-26.2" = _z68uL9Xf;
-        "paper-26.3" = _fS2B2vk9;
+        "paper-26.2" = _BfmDlEmC;
+        "paper-26.3" = _OyvQMWLr;
         "spigot-1.21.11" = _8ab56e77;
-        "spigot-26.1" = _z68uL9Xf;
-        "spigot-26.1.1" = _z68uL9Xf;
-        "spigot-26.1.2" = _z68uL9Xf;
+        "spigot-26.1" = _qSHaA1os;
+        "spigot-26.1.1" = _qSHaA1os;
+        "spigot-26.1.2" = _qSHaA1os;
         "spigot-1.21.10" = _eZIV8x5J;
-        "spigot-26.2" = _z68uL9Xf;
-        "spigot-26.3" = _fS2B2vk9;
+        "spigot-26.2" = _BfmDlEmC;
+        "spigot-26.3" = _OyvQMWLr;
         "pkg-1.0.0" = _3uFPASAj;
         "pkg-1.0.1" = _yviRARkj;
         "pkg-1.0.2" = _AOObOmkq;
@@ -119,8 +137,9 @@ let
         "pkg-1.1.1" = _SUQTBrLF;
         "pkg-1.1.2" = _fS2B2vk9;
         "pkg-1.1.3" = _z68uL9Xf;
-        "pkg-1.1.5" = _8ab56e77;
-        "default" = _8ab56e77;
+        "pkg-1.1.5" = _BfmDlEmC;
+        "pkg-1.2.0" = _OyvQMWLr;
+        "default" = _OyvQMWLr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mc-warriors-3-plugin";

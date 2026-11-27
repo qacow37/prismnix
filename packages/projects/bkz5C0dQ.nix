@@ -451,6 +451,26 @@ let
             "file" = "hexalia-1.3.8.2-1.21.1+neoforge.jar";
             "hash" = "sha512-b4QlbGJb7OsqGbJuYlNgCAu94jShWCzozAz4yx1yxFYGKkLL7w+8LVA9qA4pidK15oitUhutx3Y9XhDe8Vnc/A==";
         };
+        _ZtxcOhAm = {
+            "id" = "ZtxcOhAm";
+            "file" = "hexalia-1.3.8.3-1.21.1+neoforge.jar";
+            "hash" = "sha512-GzSvvuSPn7Dou8oEe3b+LElREnwQrQmpRoBo6Kvi/N2NVobUua1dhX+ufHp9n9wNPLXqjqznd4wtApFWOJvxVg==";
+        };
+        _xkI9whHl = {
+            "id" = "xkI9whHl";
+            "file" = "hexalia-1.3.8.3-1.21.1+fabric.jar";
+            "hash" = "sha512-8Aw3cxVP40leVtHo2XJEuI5ocyptbizXF06cFwPncjsw8Q66Od1sHSYWbybycH1k+tIpP5H33AuJe2edaGQ+mA==";
+        };
+        _vUfHY903 = {
+            "id" = "vUfHY903";
+            "file" = "hexalia-1.3.8.3-1.20.1+forge.jar";
+            "hash" = "sha512-o0zLdKqO7NzEIEp0mrgsExMvoIDDPZYM6NMw1r9OEYp8jHe3IweDBeWCyniktjNGi3vacwpN1gKemR3C1WDyxw==";
+        };
+        _ZjqYpR8W = {
+            "id" = "ZjqYpR8W";
+            "file" = "hexalia-1.3.8.3-1.20.1+fabric.jar";
+            "hash" = "sha512-LpxNS1p7EiEJsCf1dYmwxc1ckqH8C13tgla0jgRAbQlv2m+CGNTNm4Oe1v7mHJ7KSm/wQnbZP5ddncyLdypZAw==";
+        };
     in {
         "5tJ6bR9K" = _5tJ6bR9K;
         "YuCi53IU" = _YuCi53IU;
@@ -542,10 +562,14 @@ let
         "W6UySSJ7" = _W6UySSJ7;
         "pFStkNW4" = _pFStkNW4;
         "yzAefsls" = _yzAefsls;
-        "fabric-1.20.1" = _4R0X15iG;
-        "fabric-1.21.1" = _pFStkNW4;
-        "forge-1.20.1" = _W6UySSJ7;
-        "neoforge-1.21.1" = _yzAefsls;
+        "ZtxcOhAm" = _ZtxcOhAm;
+        "xkI9whHl" = _xkI9whHl;
+        "vUfHY903" = _vUfHY903;
+        "ZjqYpR8W" = _ZjqYpR8W;
+        "fabric-1.20.1" = _ZjqYpR8W;
+        "fabric-1.21.1" = _xkI9whHl;
+        "forge-1.20.1" = _vUfHY903;
+        "neoforge-1.21.1" = _ZtxcOhAm;
         "pkg-1.0.1-1.20.1+fabric" = _5tJ6bR9K;
         "pkg-1.0.1-1.20.1+forge" = _YuCi53IU;
         "pkg-1.2.0-1.20.1+forge" = _ZTPsCkKi;
@@ -615,7 +639,9 @@ let
         "pkg-1.3.8.1-1.20.1+hotfix" = _c1sErLmw;
         "pkg-1.3.8.2-1.20.1" = _W6UySSJ7;
         "pkg-1.3.8.2-1.21.1" = _yzAefsls;
-        "default" = _yzAefsls;
+        "pkg-1.3.8.3+1.21.1" = _xkI9whHl;
+        "pkg-1.3.8.3+1.20.1" = _ZjqYpR8W;
+        "default" = _ZjqYpR8W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hexalia";

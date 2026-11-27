@@ -56,6 +56,11 @@ let
             "file" = "blasted_barrens-1.21.1-2.0.1.jar";
             "hash" = "sha512-JaCnwdSZnrxYvrYwsy+Z1x89hGfMb+k1AMdGj2hX4dx/hO/0zpCDwvMn8WXQJDTrL9hv7vb3WiNUWdCe4qUAZQ==";
         };
+        _WKrYubEY = {
+            "id" = "WKrYubEY";
+            "file" = "blasted_barrens-1.21.1-2.0.2.jar";
+            "hash" = "sha512-BgfEL3Bqlp0Mpo6h9wG02Tdqje6bCiWUkp8eYyI30Q70B4w2WaI9t1ITNRJgoagJXekSMYgcmQjuhKhIQRSCag==";
+        };
     in {
         "QPlT5t4Z" = _QPlT5t4Z;
         "45B58NGE" = _45B58NGE;
@@ -68,9 +73,10 @@ let
         "WN0s9rMJ" = _WN0s9rMJ;
         "Ay4sqTsi" = _Ay4sqTsi;
         "3gw4Lg75" = _3gw4Lg75;
+        "WKrYubEY" = _WKrYubEY;
         "forge-1.20.1" = _WN0s9rMJ;
         "neoforge-1.20.1" = _WN0s9rMJ;
-        "neoforge-1.21.1" = _3gw4Lg75;
+        "neoforge-1.21.1" = _WKrYubEY;
         "pkg-1.0.0" = _QPlT5t4Z;
         "pkg-1.0.1" = _45B58NGE;
         "pkg-1.0.2" = _JIFeRoj9;
@@ -82,7 +88,8 @@ let
         "pkg-1.0.8" = _WN0s9rMJ;
         "pkg-2.0.0" = _Ay4sqTsi;
         "pkg-2.0.1" = _3gw4Lg75;
-        "default" = _3gw4Lg75;
+        "pkg-2.0.2" = _WKrYubEY;
+        "default" = _WKrYubEY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blasted-barrens";

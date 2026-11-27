@@ -151,6 +151,21 @@ let
             "file" = "cinematic-cutscenes-2.2.15-neoforge-1.21.1.jar";
             "hash" = "sha512-t6JhepgB9hf9Zu1u7C/WLLVWGf7ylCQfQn6YdqAWXJ4OjtKbOJ1kP6zRRX0anw1Y0RidRXRztBcYj8BH/5lZBw==";
         };
+        _76aZGWEu = {
+            "id" = "76aZGWEu";
+            "file" = "cinematic-cutscenes-2.1.3-forge-1.20.1.jar";
+            "hash" = "sha512-ynQOkF5OALKK6yLS07wTZ8HdheXXK8LI2Kd65qJ5sQPmuSvVux8nChxxtewIgtjLyg3dB7U9vrG/f5n+8WfV2A==";
+        };
+        _KGYLKZCG = {
+            "id" = "KGYLKZCG";
+            "file" = "cinematic-cutscenes-2.2.3-fabric-1.21.1.jar";
+            "hash" = "sha512-hlAsU4keXTUCaushoBnjHqFLDi5d6Es5/qt1G8NCW5U4F3UdKcNiysfRQeY+NyAh8ikhHc9g9AJiRBcfcexHXQ==";
+        };
+        _pkA17aPs = {
+            "id" = "pkA17aPs";
+            "file" = "cinematic-cutscenes-2.2.16-neoforge-1.21.1.jar";
+            "hash" = "sha512-EynRsPeAdtTbQSxQ3LRkYl3uN3EwlL8GLV8yvuwDlKfqKZq1UGycOOi2X6/LueVSDmiEfdJyAMMWOlcqyesclA==";
+        };
     in {
         "vBsNrHuf" = _vBsNrHuf;
         "qxnsPHR7" = _qxnsPHR7;
@@ -182,10 +197,13 @@ let
         "r0v2Xa7O" = _r0v2Xa7O;
         "e7lGJR39" = _e7lGJR39;
         "oyf5RebR" = _oyf5RebR;
-        "forge-1.20.1" = _IGCD7YzP;
-        "neoforge-1.21.1" = _oyf5RebR;
+        "76aZGWEu" = _76aZGWEu;
+        "KGYLKZCG" = _KGYLKZCG;
+        "pkA17aPs" = _pkA17aPs;
+        "forge-1.20.1" = _76aZGWEu;
+        "neoforge-1.21.1" = _pkA17aPs;
         "neoforge-1.20.1" = _rnzlqyfU;
-        "fabric-1.21.1" = _e7lGJR39;
+        "fabric-1.21.1" = _KGYLKZCG;
         "pkg-1.3.5" = _vBsNrHuf;
         "pkg-1.3.6" = _qxnsPHR7;
         "pkg-1.4.0" = _Uc2svh3U;
@@ -205,7 +223,7 @@ let
         "pkg-2.1.2+fabric-1.21.1" = _iNoJ32Cu;
         "pkg-2.1.3+fabric-1.21.1" = _49eOHhdJ;
         "pkg-2.1.2+neoforge-1.21.1" = _sLxWCG9h;
-        "pkg-2.1.3" = _k7fASZyQ;
+        "pkg-2.1.3" = _76aZGWEu;
         "pkg-2.1.4" = _QhSXZ9hp;
         "pkg-2.1.3+neoforge-1.21.1" = _AusgtRso;
         "pkg-2.1.4+fabric-1.21.1" = _yPdIyISu;
@@ -216,7 +234,9 @@ let
         "pkg-2.2.1+neoforge-1.21.1" = _r0v2Xa7O;
         "pkg-2.2.2+fabric-1.21.1" = _e7lGJR39;
         "pkg-2.2.15+neoforge-1.21.1" = _oyf5RebR;
-        "default" = _oyf5RebR;
+        "pkg-2.2.3+fabric-1.21.1" = _KGYLKZCG;
+        "pkg-2.2.16+neoforge-1.21.1" = _pkA17aPs;
+        "default" = _pkA17aPs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cinematic-cutscenes";

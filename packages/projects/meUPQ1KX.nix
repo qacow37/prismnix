@@ -121,6 +121,21 @@ let
             "file" = "CobbleSpawnAlertReforged-2.9.0.jar";
             "hash" = "sha512-7Zx/5mb/vZlbgU0IBXF5qBj2IrGQxCQiD+E8ArLjUukl8j+gpT2Vxt6u/16dac2L8lJBELNtFDk/cn4dKHcGmQ==";
         };
+        _FocQF1DJ = {
+            "id" = "FocQF1DJ";
+            "file" = "CobbleSpawnAlertReforged-2.9.1.jar";
+            "hash" = "sha512-Ar2ZAHKjtDI/XLHsFFqnHplyVuiHoA0UCvfaDIOioty/AH8p7fZks5LElTWuK5FxknyGlGg3jvguXi9jdQAxxw==";
+        };
+        _uFR2fwzJ = {
+            "id" = "uFR2fwzJ";
+            "file" = "CobbleSpawnAlertReforged-fabric-1.21.1-3.0.0.jar";
+            "hash" = "sha512-aXf0Zh18zBTqeg8+oJZZmmMmmIzEAkLZm5qnXNrDTM75CuNtfmxX/qDmg1NTbaJy53kgn5zyBqvZ7CiMz5piNw==";
+        };
+        _BAhmfsPE = {
+            "id" = "BAhmfsPE";
+            "file" = "CobbleSpawnAlertReforged-neoforge-1.21.1-3.0.0.jar";
+            "hash" = "sha512-6X4On13I06W0LTcUUGZ8TUhdSFdkIUv/7U3K+FwG917jG+XXHmIXAXOM5bL2hqE4toXgWUTfG1+QEd7ob8rR+w==";
+        };
     in {
         "15IFVunD" = _15IFVunD;
         "dVgCxIUI" = _dVgCxIUI;
@@ -146,8 +161,11 @@ let
         "J84LTtsr" = _J84LTtsr;
         "WvwNl8pZ" = _WvwNl8pZ;
         "XD0insvd" = _XD0insvd;
-        "fabric-1.21.1" = _XD0insvd;
-        "neoforge-1.21.1" = _VI1caWDC;
+        "FocQF1DJ" = _FocQF1DJ;
+        "uFR2fwzJ" = _uFR2fwzJ;
+        "BAhmfsPE" = _BAhmfsPE;
+        "fabric-1.21.1" = _uFR2fwzJ;
+        "neoforge-1.21.1" = _BAhmfsPE;
         "pkg-1.0.0" = _15IFVunD;
         "pkg-1.4.0" = _ueAG21Nk;
         "pkg-1.4.1" = _NbhoB2P8;
@@ -168,7 +186,9 @@ let
         "pkg-2.8.0" = _J84LTtsr;
         "pkg-2.8.1" = _WvwNl8pZ;
         "pkg-2.9.0" = _XD0insvd;
-        "default" = _XD0insvd;
+        "pkg-2.9.1" = _FocQF1DJ;
+        "pkg-3.0.0" = _BAhmfsPE;
+        "default" = _BAhmfsPE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblespawnalert-reforged";

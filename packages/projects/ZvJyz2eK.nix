@@ -51,6 +51,11 @@ let
             "file" = "matowos_invisible_armor-1.7.1+1.20-1.20.1-forge.jar";
             "hash" = "sha512-LYwGsnjHpZhPLGzJGlFoZKfU5u9r9Kil5vGbDty0XVXE2lNIiOTUBrrKhl+NQv/pYLzbC7sWEkuMvnq1pQ2zPg==";
         };
+        _uLIkwnoe = {
+            "id" = "uLIkwnoe";
+            "file" = "matowos_invisible_armor-1.7.2+1.21.0-1.21.1.jar";
+            "hash" = "sha512-EHBfNRqNKziy3Ni+LOEo2trqK1PJKaf063+kONExeORNYpYE2hsJ9H0PLhM46OK0FrlNQl45NhNaWLWlbElh+A==";
+        };
     in {
         "X9NYVrDm" = _X9NYVrDm;
         "uMpyuSNY" = _uMpyuSNY;
@@ -62,25 +67,27 @@ let
         "d9yYQLfl" = _d9yYQLfl;
         "lT6EVo9x" = _lT6EVo9x;
         "QcgWQoaI" = _QcgWQoaI;
+        "uLIkwnoe" = _uLIkwnoe;
         "fabric-1.20" = _lT6EVo9x;
         "fabric-1.20.1" = _lT6EVo9x;
-        "fabric-1.21" = _d9yYQLfl;
-        "fabric-1.21.1" = _d9yYQLfl;
+        "fabric-1.21" = _uLIkwnoe;
+        "fabric-1.21.1" = _uLIkwnoe;
         "forge-1.20" = _QcgWQoaI;
         "forge-1.20.1" = _QcgWQoaI;
         "neoforge-1.20" = _QcgWQoaI;
         "neoforge-1.20.1" = _QcgWQoaI;
         "quilt-1.20" = _lT6EVo9x;
         "quilt-1.20.1" = _lT6EVo9x;
-        "quilt-1.21" = _d9yYQLfl;
-        "quilt-1.21.1" = _d9yYQLfl;
+        "quilt-1.21" = _uLIkwnoe;
+        "quilt-1.21.1" = _uLIkwnoe;
         "pkg-1.4" = _X9NYVrDm;
         "pkg-1.45" = _rhtHNbnu;
         "pkg-1.5" = _1GNq1jXr;
         "pkg-1.6.1" = _TbfDwm6H;
         "pkg-1.6.1+1.21.1" = _d9yYQLfl;
         "pkg-1.7.1+1.20-1.20.1" = _QcgWQoaI;
-        "default" = _QcgWQoaI;
+        "pkg-1.7.2+1.21.0-1.21.1" = _uLIkwnoe;
+        "default" = _uLIkwnoe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "matowos-invisible-armor";

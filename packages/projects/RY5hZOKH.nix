@@ -171,6 +171,26 @@ let
             "file" = "assortedstorage-neoforge-26.3-13.0.1.jar";
             "hash" = "sha512-ZasITMgK1uleIskgRFPGri29B9ihOe9OCo9W29KEJsan7kAPK6//sPexpUJoAE2cPSpAXZGXOIuUy/WtG1GWVA==";
         };
+        _4ipd1M33 = {
+            "id" = "4ipd1M33";
+            "file" = "assortedstorage-neoforge-26.3-13.0.2.jar";
+            "hash" = "sha512-7kG+S/d2MizItRmrKzLTyGHi8W9Lp4qsvJS64fxVJpxrdBhgvhCtnuDaAdC1Lw/lj2yWi8uEE6ZFj3i9GqBJoA==";
+        };
+        _dKkVTHTW = {
+            "id" = "dKkVTHTW";
+            "file" = "assortedstorage-fabric-26.3-13.0.2.jar";
+            "hash" = "sha512-nZfr1Ml9uOXRiDcc4evgb/x4KLnyrZdTL6eHvPasLFWihMWieBIQWiWp9jWna+o+xzzpBzXqPR6xh64ouYVZqA==";
+        };
+        _I7uZzx5a = {
+            "id" = "I7uZzx5a";
+            "file" = "assortedstorage-neoforge-1.21.1-21.1.0.0.jar";
+            "hash" = "sha512-AhzDbcfmglwJlxz0/TJejdUPg47OSCyruohpjegGMyDRSmiQzKG/tdVPwUgMV0AL+lskbiNAZBQRXSRb6ezHUg==";
+        };
+        _NMI3Orrx = {
+            "id" = "NMI3Orrx";
+            "file" = "assortedstorage-fabric-1.21.1-21.1.0.0.jar";
+            "hash" = "sha512-rAr55h52ppBDSGuoP2xAfkN6O0w1X8pAzyYT+kePfOzvjPsuPNXJ/PTzJun7bfAtaobywz2OnDBoVZYEt3/g1Q==";
+        };
     in {
         "ly9G4YFU" = _ly9G4YFU;
         "cThNCtCx" = _cThNCtCx;
@@ -206,6 +226,10 @@ let
         "bKDO9s4O" = _bKDO9s4O;
         "ZyA3hd5H" = _ZyA3hd5H;
         "gbkxdIxO" = _gbkxdIxO;
+        "4ipd1M33" = _4ipd1M33;
+        "dKkVTHTW" = _dKkVTHTW;
+        "I7uZzx5a" = _I7uZzx5a;
+        "NMI3Orrx" = _NMI3Orrx;
         "forge-1.18.2" = _ly9G4YFU;
         "forge-1.19.2" = _cThNCtCx;
         "forge-1.19.3" = _Qu1wMPvp;
@@ -215,9 +239,11 @@ let
         "fabric-1.19.4" = _X2vyzKfZ;
         "fabric-1.20.1" = _RLthojLl;
         "fabric-26.2" = _6cKoaraX;
-        "fabric-26.3" = _ZyA3hd5H;
+        "fabric-26.3" = _dKkVTHTW;
+        "fabric-1.21.1" = _NMI3Orrx;
         "neoforge-26.2" = _dDJbVxOb;
-        "neoforge-26.3" = _gbkxdIxO;
+        "neoforge-26.3" = _4ipd1M33;
+        "neoforge-1.21.1" = _I7uZzx5a;
         "pkg-1.18.2-5.0.1" = _ly9G4YFU;
         "pkg-assortedstorage-1.19.2-6.2.0" = _cThNCtCx;
         "pkg-1.19.3-7.1.0" = _TtEER6TK;
@@ -244,7 +270,11 @@ let
         "pkg-13.0.0+fabric" = _bKDO9s4O;
         "pkg-13.0.1+fabric" = _ZyA3hd5H;
         "pkg-13.0.1+neoforge" = _gbkxdIxO;
-        "default" = _gbkxdIxO;
+        "pkg-13.0.2+neoforge" = _4ipd1M33;
+        "pkg-13.0.2+fabric" = _dKkVTHTW;
+        "pkg-21.1.0.0+neoforge" = _I7uZzx5a;
+        "pkg-21.1.0.0+fabric" = _NMI3Orrx;
+        "default" = _NMI3Orrx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "assorted-storage";

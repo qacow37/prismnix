@@ -451,6 +451,16 @@ let
             "file" = "globalpacks-fabric-26.3-26.3.3.jar";
             "hash" = "sha512-m8HqOwXG+ZzY31srDT4oMaZhdesqgZWZnKVQohwAIV+RksnX89SLcR/eRdW/o78htu4mUYvugEQHaK9bvfJzEA==";
         };
+        _HHR9g342 = {
+            "id" = "HHR9g342";
+            "file" = "globalpacks-fabric-26.3-26.3.4.jar";
+            "hash" = "sha512-zMfD34PSr9hQZjC33m7JXA3vu84WpHGvOyQaEYgl4avEUMcMbxrCoilQwh1DCrcn+bELL0l3dsdGSCF1hhVGnw==";
+        };
+        _GoEfjLp2 = {
+            "id" = "GoEfjLp2";
+            "file" = "globalpacks-neoforge-26.3-26.3.4.jar";
+            "hash" = "sha512-0sHe8grtc8lOvMdlGcQXASkbmAVmowQh3rnqGwfcmYwi4jKFhrUN7sH40YMB5boZF6qBN+9roxh70e6Agnmy0Q==";
+        };
     in {
         "cMpUD7s0" = _cMpUD7s0;
         "2excvX5H" = _2excvX5H;
@@ -542,6 +552,8 @@ let
         "YlmosWaf" = _YlmosWaf;
         "Tm7Fehn9" = _Tm7Fehn9;
         "IoZrWiHZ" = _IoZrWiHZ;
+        "HHR9g342" = _HHR9g342;
+        "GoEfjLp2" = _GoEfjLp2;
         "forge-1.18" = _ktGh7bz0;
         "forge-1.18.1" = _ktGh7bz0;
         "forge-1.18.2" = _ktGh7bz0;
@@ -594,7 +606,7 @@ let
         "fabric-26.1.1" = _bdqlFvg9;
         "fabric-26.1.2" = _bdqlFvg9;
         "fabric-26.2" = _DqrPrUMp;
-        "fabric-26.3" = _IoZrWiHZ;
+        "fabric-26.3" = _HHR9g342;
         "neoforge-1.20.2" = _xlLbiJgo;
         "neoforge-1.20.3" = _xlLbiJgo;
         "neoforge-1.20.4" = _xlLbiJgo;
@@ -608,7 +620,7 @@ let
         "neoforge-26.1.1" = _GRxiaqN3;
         "neoforge-26.1.2" = _GRxiaqN3;
         "neoforge-26.2" = _WeB9yfXc;
-        "neoforge-26.3" = _Tm7Fehn9;
+        "neoforge-26.3" = _GoEfjLp2;
         "pkg-1.12.2+forge" = _cMpUD7s0;
         "pkg-1.12.2.1_quilt" = _2excvX5H;
         "pkg-1.12.2.1_fabric" = _YbcIVI4A;
@@ -684,7 +696,8 @@ let
         "pkg-26.2.1" = _WeB9yfXc;
         "pkg-26.3.1" = _YlmosWaf;
         "pkg-26.3.3" = _IoZrWiHZ;
-        "default" = _IoZrWiHZ;
+        "pkg-26.3.4" = _GoEfjLp2;
+        "default" = _GoEfjLp2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "globalpacks";

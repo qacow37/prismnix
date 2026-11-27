@@ -141,6 +141,46 @@ let
             "file" = "BK-Rynek-3.0.2-1.21.10.jar";
             "hash" = "sha512-bPtjYJa2crZdxeV8cpEDR91e2rSUVUHUfXUsiIsGR9nZXFvj4JBHjW3dfxnsoDSggqDzZHGvtXN/DT0v1CO+yQ==";
         };
+        _cRdeX82P = {
+            "id" = "cRdeX82P";
+            "file" = "BK-Rynek-3.0.3-1.21.1.jar";
+            "hash" = "sha512-Iw6KmmzoZ6iPostQptkPzK9CUFmzuvrOng2ktyKfYsFIV/jLfoW3/Wd1oagJ0/n7BwONCXeylBi1wFMNbblNiw==";
+        };
+        _WSSmq7uN = {
+            "id" = "WSSmq7uN";
+            "file" = "BK-Rynek-3.0.3-1.21.3.jar";
+            "hash" = "sha512-R6jK9rCdUjLx9VV2Xnvv5aoYwUX0MDSLA9w0oZ1C/YEZxu0xK5k/w9R8XUZxvi7PKaxEmiG03Ffqytm4nptplQ==";
+        };
+        _ZWL5FRkP = {
+            "id" = "ZWL5FRkP";
+            "file" = "BK-Rynek-3.0.3-1.21.4.jar";
+            "hash" = "sha512-bSN99NZf/a06Zo+eOQ2XNDHfNvmYyNk2TO/E25Bm/LXjLa446rhTqFJjzc0k4irDGWG5ptENr1qwMdEsgNB+hQ==";
+        };
+        _B9myIMnS = {
+            "id" = "B9myIMnS";
+            "file" = "BK-Rynek-3.0.3-1.21.5.jar";
+            "hash" = "sha512-0g6E0wvR0wvctaGxAMer9gfrVrEKSNyxto9dzi+Sxe2/GztSFVDT0LWU1NlrV9QJ5g8WZgvUKtlgovHNmZ1u9Q==";
+        };
+        _ZKULJZIx = {
+            "id" = "ZKULJZIx";
+            "file" = "BK-Rynek-3.0.3-1.21.6.jar";
+            "hash" = "sha512-5tge7JSqFjNkbBvBC/Wc6cPDxuOkq2SHHJOnFqy2NqYPEzJHCCs0ubXsCn9NBZ4jhCc8osn4DUl8dJ/7Ce2cfw==";
+        };
+        _rjj8v3lg = {
+            "id" = "rjj8v3lg";
+            "file" = "BK-Rynek-3.0.3-1.21.8.jar";
+            "hash" = "sha512-yb2IIFMVUurFMy6qk0YA/xgVlJH+Wx9xuZlFlKng6gx9TDyvSj7/xAAnPaaNYol1Rc1MVL2I3Lhj5R0Tw2/vLw==";
+        };
+        _lD9TbhH5 = {
+            "id" = "lD9TbhH5";
+            "file" = "BK-Rynek-3.0.3-1.21.10.jar";
+            "hash" = "sha512-01AZ2LO3fC16JOV07lcLryINJ89hGkP4JUGenEdr1MK3Tvcs9PprsLr5d9QMwJW+d0lrtPbtoktpOc90hd9jNA==";
+        };
+        _RnXkAbZL = {
+            "id" = "RnXkAbZL";
+            "file" = "BK-Rynek-3.0.3-1.21.11.jar";
+            "hash" = "sha512-WGRZbHB4ui9SuG891HyMRCcynyOkTRSqGwXX9V9C2Ra2lreOAX5ULAegrzOXYSJemRMTOUZLl6eqWUemQQbNGg==";
+        };
     in {
         "BmRTxVZX" = _BmRTxVZX;
         "zQ07jc0v" = _zQ07jc0v;
@@ -170,18 +210,28 @@ let
         "k0crqFIz" = _k0crqFIz;
         "HKU6BeHS" = _HKU6BeHS;
         "I4M3wQ52" = _I4M3wQ52;
-        "fabric-1.21.1" = _14Urmf4f;
-        "fabric-1.21.3" = _ftNRtV9l;
-        "fabric-1.21.4" = _vjwNCqHu;
-        "fabric-1.21.5" = _m2YdcWA2;
-        "fabric-1.21.6" = _k0crqFIz;
-        "fabric-1.21.8" = _HKU6BeHS;
-        "fabric-1.21.10" = _I4M3wQ52;
+        "cRdeX82P" = _cRdeX82P;
+        "WSSmq7uN" = _WSSmq7uN;
+        "ZWL5FRkP" = _ZWL5FRkP;
+        "B9myIMnS" = _B9myIMnS;
+        "ZKULJZIx" = _ZKULJZIx;
+        "rjj8v3lg" = _rjj8v3lg;
+        "lD9TbhH5" = _lD9TbhH5;
+        "RnXkAbZL" = _RnXkAbZL;
+        "fabric-1.21.1" = _cRdeX82P;
+        "fabric-1.21.3" = _WSSmq7uN;
+        "fabric-1.21.4" = _ZWL5FRkP;
+        "fabric-1.21.5" = _B9myIMnS;
+        "fabric-1.21.6" = _ZKULJZIx;
+        "fabric-1.21.8" = _rjj8v3lg;
+        "fabric-1.21.10" = _lD9TbhH5;
+        "fabric-1.21.11" = _RnXkAbZL;
         "pkg-2.6" = _CQNT3gFw;
         "pkg-3.0" = _9bVqhFDa;
         "pkg-3.0.1" = _JiutgSxA;
         "pkg-3.0.2" = _I4M3wQ52;
-        "default" = _I4M3wQ52;
+        "pkg-3.0.3" = _RnXkAbZL;
+        "default" = _RnXkAbZL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bk-rynek";

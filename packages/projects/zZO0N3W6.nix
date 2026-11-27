@@ -151,6 +151,26 @@ let
             "file" = "kilagraph-neoforge-26.3-26.3.1.0.1.jar";
             "hash" = "sha512-VDYGdh/4Jgm6u53AyqTW5nxTJplqKvMO04+gxXLiXt2uQXFFOFD3EDGVkO2TTf7YDi7ywWozjstZudb0QRg3nw==";
         };
+        _5DAfwf6p = {
+            "id" = "5DAfwf6p";
+            "file" = "kilagraph-neoforge-1.21.1-21.1.0.17.jar";
+            "hash" = "sha512-O1FXeo70kT1REGI8FY7Je5wcQY/ZBjyvulM6u9tLiCs00MNFXc/N74mtIMX6ey61As+2YO295Pl8hxYrvXDpFQ==";
+        };
+        _T7I6qe4I = {
+            "id" = "T7I6qe4I";
+            "file" = "kilagraph-neoforge-26.1-26.1.0.17.jar";
+            "hash" = "sha512-3YQGO1ChanX3zqrhGoJo2QdXNdJxekra5MxuiMuzLKNY/7s2uTTF2WFHqSMlDvnMU3UU1ZZYkGZXb0I/+cgJxg==";
+        };
+        _cmo5ZNpa = {
+            "id" = "cmo5ZNpa";
+            "file" = "kilagraph-neoforge-26.2-26.2.0.17.jar";
+            "hash" = "sha512-bs5X9bhhw9oIuQD4x7jFCuJ3wddzztEHPMUiyGBOG9POx/LCt22Cbr21zfb7cblT0/8VuY+OzntDILoL57riTQ==";
+        };
+        _fC8Nsa6Z = {
+            "id" = "fC8Nsa6Z";
+            "file" = "kilagraph-neoforge-26.3-26.3.1.1.jar";
+            "hash" = "sha512-S+3YvxJQtw1//kAOFzyXqS0sI4L6FITeqzxEV0iCUVjloHnFXvqWnm7sP2mmxo9poIFg741zTJYHL5kfcASGqA==";
+        };
     in {
         "TqCArvs6" = _TqCArvs6;
         "Qz2QKlnk" = _Qz2QKlnk;
@@ -182,12 +202,16 @@ let
         "OcrugalA" = _OcrugalA;
         "61wUtycW" = _61wUtycW;
         "Mvv0yKkw" = _Mvv0yKkw;
+        "5DAfwf6p" = _5DAfwf6p;
+        "T7I6qe4I" = _T7I6qe4I;
+        "cmo5ZNpa" = _cmo5ZNpa;
+        "fC8Nsa6Z" = _fC8Nsa6Z;
         "neoforge-26.1" = _TqCArvs6;
-        "neoforge-26.1.1" = _9VASTARQ;
-        "neoforge-26.1.2" = _9VASTARQ;
-        "neoforge-1.21.1" = _KwiKbOzM;
-        "neoforge-26.2" = _OcrugalA;
-        "neoforge-26.3" = _Mvv0yKkw;
+        "neoforge-26.1.1" = _T7I6qe4I;
+        "neoforge-26.1.2" = _T7I6qe4I;
+        "neoforge-1.21.1" = _5DAfwf6p;
+        "neoforge-26.2" = _cmo5ZNpa;
+        "neoforge-26.3" = _fC8Nsa6Z;
         "pkg-26.1.0.2" = _TqCArvs6;
         "pkg-mc26.1.x-26.1.0.3-neoforge" = _Qz2QKlnk;
         "pkg-mc26.1.x-26.1.0.4-neoforge" = _AgNBESNB;
@@ -217,7 +241,11 @@ let
         "pkg-mc26.2-26.2.0.16.a-neoforge" = _OcrugalA;
         "pkg-mc26.3-26.3.1.0-neoforge" = _61wUtycW;
         "pkg-mc26.3-26.3.1.0.1-neoforge" = _Mvv0yKkw;
-        "default" = _Mvv0yKkw;
+        "pkg-mc1.21.1-21.1.0.17-neoforge" = _5DAfwf6p;
+        "pkg-mc26.1.x-26.1.0.17-neoforge" = _T7I6qe4I;
+        "pkg-mc26.2-26.2.0.17-neoforge" = _cmo5ZNpa;
+        "pkg-mc26.3-26.3.1.1-neoforge" = _fC8Nsa6Z;
+        "default" = _fC8Nsa6Z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kilagraph";

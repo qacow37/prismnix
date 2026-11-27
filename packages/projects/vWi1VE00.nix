@@ -61,6 +61,11 @@ let
             "file" = "MPC-1.20.1-1.3.2.jar";
             "hash" = "sha512-TtoXBtUZfKxrfxM19ywCf6ijcd2zfaLKlf/EOO/2E2UPX/+7Ok1NqEkNJ6vrkQBIxtPRtsBM/tn0XNctNwf5LQ==";
         };
+        _T5salf33 = {
+            "id" = "T5salf33";
+            "file" = "MPC-1.20.1-1.4.0.jar";
+            "hash" = "sha512-+h09zMmL26Q2hTSanbb8h475lCjRQJZaKjdA0kQwwfaYG5Iy5cnfpRouoB6uvgnlny9FtyqzN/z/RwF2c2cttg==";
+        };
     in {
         "4wx6yPwK" = _4wx6yPwK;
         "4l1PBvsf" = _4l1PBvsf;
@@ -74,7 +79,8 @@ let
         "2D0ZgXPa" = _2D0ZgXPa;
         "RAUqbmP8" = _RAUqbmP8;
         "ILWGU5O0" = _ILWGU5O0;
-        "forge-1.20.1" = _ILWGU5O0;
+        "T5salf33" = _T5salf33;
+        "forge-1.20.1" = _T5salf33;
         "pkg-1.0.0" = _4wx6yPwK;
         "pkg-1.0.1" = _4l1PBvsf;
         "pkg-1.1.0" = _FWwuHNEZ;
@@ -87,7 +93,8 @@ let
         "pkg-1.3.0" = _2D0ZgXPa;
         "pkg-1.3.1" = _RAUqbmP8;
         "pkg-1.3.2" = _ILWGU5O0;
-        "default" = _ILWGU5O0;
+        "pkg-1.4.0" = _T5salf33;
+        "default" = _T5salf33;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mystical-power-crystals";

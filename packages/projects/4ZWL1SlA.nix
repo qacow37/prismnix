@@ -31,6 +31,11 @@ let
             "file" = "astolfoforge-1.4.0-neoforge-26.1.2.jar";
             "hash" = "sha512-j3jQwCaSUAsarQDwApuTgaBfDxyhlNqzShA2MeccCfEimtqiBZK39qvNptgwj9wt94/MduXnUDeoucuuzIJB3w==";
         };
+        _htThfphh = {
+            "id" = "htThfphh";
+            "file" = "astolfo_fabric-1.4.0-fabric-26.1.2.jar";
+            "hash" = "sha512-gj0TN+HbwuXp3Z3yplI+z2TP4WgqeBnyznvPTUOhYpbxXD/68Y41OXfQt8zhMmHdzSwEk4mA5ej4TYhWSlZSUw==";
+        };
     in {
         "Mxyygp0y" = _Mxyygp0y;
         "naY98ngG" = _naY98ngG;
@@ -38,6 +43,7 @@ let
         "vwl8hCdF" = _vwl8hCdF;
         "670R8wmq" = _670R8wmq;
         "GB3lqkl1" = _GB3lqkl1;
+        "htThfphh" = _htThfphh;
         "forge-1.20.1" = _naY98ngG;
         "neoforge-1.21.4" = _TILdJZaI;
         "neoforge-1.21.5" = _TILdJZaI;
@@ -47,11 +53,12 @@ let
         "neoforge-1.21.10" = _670R8wmq;
         "neoforge-1.21.11" = _670R8wmq;
         "neoforge-26.1.2" = _GB3lqkl1;
+        "fabric-26.1.2" = _htThfphh;
         "pkg-1.2.0" = _Mxyygp0y;
         "pkg-1.3.0" = _naY98ngG;
         "pkg-1.3.1" = _670R8wmq;
-        "pkg-1.4.0" = _GB3lqkl1;
-        "default" = _GB3lqkl1;
+        "pkg-1.4.0" = _htThfphh;
+        "default" = _htThfphh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "astolfo-mod";

@@ -81,6 +81,111 @@ let
             "file" = "santa_dweller-1.21.11-1.10.0-neo.jar";
             "hash" = "sha512-t67Wca8ykPqYJdjY9P+zxMIOmxLbywvqF812EB+0jkg7mS5ok1c8ZM1KRTmDWAmafuRI+r9nhSOcMiyafCWgPA==";
         };
+        _uzdoirv9 = {
+            "id" = "uzdoirv9";
+            "file" = "santa_dweller-1.21.1-1.7.1-neo.jar";
+            "hash" = "sha512-0MEP2rQgxMlcNk/MFb/ub8WKFt818M88cpV9vGZEZQXdH2MUEfkeJ0cba3nDUa7fWyqjx6jWX6yf/fyDT2u4tQ==";
+        };
+        _ib3OjQpw = {
+            "id" = "ib3OjQpw";
+            "file" = "santa_dweller-1.21.5-1.8.1-neo.jar";
+            "hash" = "sha512-fIbMK39+6rnZl0l1jEffZZccihRemEIuFQeztlM+tOlBHJ5HxHyer6z6vjAEwqw8HfxxE90JBEF+iez+P+K8fA==";
+        };
+        _Il5EpFdl = {
+            "id" = "Il5EpFdl";
+            "file" = "santa_dweller-1.21.8-1.9.1-neo.jar";
+            "hash" = "sha512-9QKAx3lnJ0XilM3J+FjN2V99HZwMNtA3QEqSTovmiHIZVwDt/zDBzejRBIfx3hCbWuum0c/kYIPOYxjAlXK9JA==";
+        };
+        _9aZfANGC = {
+            "id" = "9aZfANGC";
+            "file" = "santa_dweller-1.21.11-1.10.1-neo.jar";
+            "hash" = "sha512-AeT4WFVz+gJNFfvQBMzZqYbuBowEqLweUjzyb5/dhQfrWg7gBuydwIYefKSAz4lNIb1N7HwojGdqtuHL/wpCFw==";
+        };
+        _aRCDRAPF = {
+            "id" = "aRCDRAPF";
+            "file" = "santa_dweller-1.19.2-1.6.6.1.jar";
+            "hash" = "sha512-hHHVMkzfuly8So2nh7gFHxD2TeaHj6oJ2tYcWSjXP+Q/pjWG1Ea6G2nJwpisD6I0yEZZ8ZjRMzgNzGqtAw/xxw==";
+        };
+        _KWd9CA13 = {
+            "id" = "KWd9CA13";
+            "file" = "santa_dweller-1.20.1-1.6.8.jar";
+            "hash" = "sha512-81nMf+ozTcBwtiE6wtTd9oZAE911St692DKFcJ+hEM1M04T07JbYvWENYIquEkOe6htlxVmnK/7SbXdLUef/eA==";
+        };
+        _ijGxFRlI = {
+            "id" = "ijGxFRlI";
+            "file" = "santa_dweller-1.21.1-1.7.1.jar";
+            "hash" = "sha512-zoebfiKM252IPIqG01OJi5XAmeKaPv9wZoUAif3131EE7BdxEt8geFA9EgR/BcjnZE0WI+hPeiA09rBu2v4Ndg==";
+        };
+        _s8IbaWCU = {
+            "id" = "s8IbaWCU";
+            "file" = "santa_dweller-1.21.5-1.8.1.jar";
+            "hash" = "sha512-JNctHjW4g15zqIiQVLJgNv1fh9I6inLZxI1pdxA2red4drzrTK0o0I2HlA8iZm8IRW0yT3SBBEAC0sPCdFkrAw==";
+        };
+        _sVBzSDM0 = {
+            "id" = "sVBzSDM0";
+            "file" = "santa_dweller-1.21.8-1.9.1.jar";
+            "hash" = "sha512-yhAYjBvr13BpYsWQhKZrqsCYw0vNwBqF/NipaFVikZ+8gaEZ9QSCElW9XEGfIRUWwSMt1stawo0VQhuPGLtrWQ==";
+        };
+        _70vaquaQ = {
+            "id" = "70vaquaQ";
+            "file" = "santa_dweller-1.21.11-1.10.1.jar";
+            "hash" = "sha512-yMHuOuT8dVpmsX9M9oy3axqywgw/2Xhn+cLnDdU6NikZjGmZPrBtctBiVKdggWB2eAIyGP7rjqDLpeJ+z8vZhA==";
+        };
+        _VU630H6V = {
+            "id" = "VU630H6V";
+            "file" = "santa_dweller-1.20.1-1.6.8-fabric.jar";
+            "hash" = "sha512-kM5Hld8YHVgWgd7L20DVnXMcd4s4+AyMLbVtjgr8l1dyZ1Gca9Sw5yX74or0wGMeYIwzHoZKHM6U+q2itXTDDw==";
+        };
+        _cY96TgbB = {
+            "id" = "cY96TgbB";
+            "file" = "santa_dweller-1.21.1-1.7.1-fabric.jar";
+            "hash" = "sha512-Zc6To66sOpaG5J/gnrI7w0t3V+v/pKz9kAH+HR0/pfI1NzdiV+UCzfPV4/Xrxuim88GFUg0jUHLtJKVCRDEiGw==";
+        };
+        _P86wrhst = {
+            "id" = "P86wrhst";
+            "file" = "santa_dweller-1.21.5-1.8.1-fabric.jar";
+            "hash" = "sha512-BegZMJ7r1qDqwzAvyhSwus7lTBVOvuioUcXgXDuJUIeSNlHYlW17kqwqSCSdZury3h/qguni9d0ut6Oen9Oj3A==";
+        };
+        _NZl87q5h = {
+            "id" = "NZl87q5h";
+            "file" = "santa_dweller-1.21.8-1.9.1-fabric.jar";
+            "hash" = "sha512-sTZGHWqFaoN2wAa7Fs0Jnrye83aobrZTc73rcAYiCQrBWZ7Hg7YtX+ef9hfpZTRyP54bCxlX8siqEqKYJbEBsA==";
+        };
+        _oBRZwaol = {
+            "id" = "oBRZwaol";
+            "file" = "santa_dweller-1.21.11-1.10.1-fabric.jar";
+            "hash" = "sha512-mWy/T0aEuQDcPjBUIPUDdFOzcxlslRy3DRuSuzLKG/0y3nYOe7uBAQxdAEBOI8IKRYH9r4uSZn+cT9ibrxvP3Q==";
+        };
+        _GwD7yqru = {
+            "id" = "GwD7yqru";
+            "file" = "santa_dweller-26.2-1.11.0-fabric.jar";
+            "hash" = "sha512-tymdMbljYXrewQ595IrafAlv3wS4oE1Oq8DNKU91Jgik+GXdL8TvTsqbKI1ElRc7W4OtIeXuoMiufeYEkCQXcQ==";
+        };
+        _BnwFgAL0 = {
+            "id" = "BnwFgAL0";
+            "file" = "santa_dweller-26.2-1.11.0.jar";
+            "hash" = "sha512-800e+J0BwByMxzu8nqBnl18p/xxu64xiwHNOmlCOSxUOLFbBDAo/f+AR+EH30QzczxFHKTHodSLglDXyIxaFvA==";
+        };
+        _vavvMQME = {
+            "id" = "vavvMQME";
+            "file" = "santa_dweller-26.2-1.11.0-neo.jar";
+            "hash" = "sha512-dfomkAHFLKdSEwzwEnmHRIdwcs+f/wt8Ymz+LeGuSSogKpC0qF+DjzaKCqUJ8NbeVyNrTPVYoJkyDrWpShAwaA==";
+        };
+        _lWXqveYx = {
+            "id" = "lWXqveYx";
+            "file" = "santa_dweller-26.3-1.12.0-fabric.jar";
+            "hash" = "sha512-i8goS4edpuA1psZ8LMCQo0xjlmpv5KeStZpenSBGC5+e0xXXv4qd6bbXi109oxIYH3FkiE5h2Qj/BFrHFfLojw==";
+        };
+        _UdV6XqGC = {
+            "id" = "UdV6XqGC";
+            "file" = "santa_dweller-26.3-1.12.0.jar";
+            "hash" = "sha512-wcbhw2eenJRMEaza3OwrucwZ8I30fvUq4Nu/AZSZPlEGpUUCw7Lcf+FpM04AFhPaLVWJ3HIMN6Us9A+tUmB9pg==";
+        };
+        _aQT6UqPs = {
+            "id" = "aQT6UqPs";
+            "file" = "santa_dweller-26.3-1.12.0-neo.jar";
+            "hash" = "sha512-bvQ8m/ZGya5jiahPkDq4bmIvbEe1Xx+hXLTDO07/uVaoIfIpupBH4SHDOeriYx05czL3Ap5xURnyS0QEV6PF1w==";
+        };
     in {
         "c3GMrdXw" = _c3GMrdXw;
         "ciosDf7S" = _ciosDf7S;
@@ -98,21 +203,50 @@ let
         "Wh9rmsce" = _Wh9rmsce;
         "kadJMROP" = _kadJMROP;
         "a4sMjKpT" = _a4sMjKpT;
-        "forge-1.19.2" = _ciosDf7S;
-        "forge-1.20.1" = _Q4n974Hf;
-        "forge-1.21.1" = _s90v5RFd;
-        "forge-1.21.5" = _zusdLA6F;
-        "forge-1.21.8" = _s38bAZc3;
-        "forge-1.21.11" = _kadJMROP;
-        "neoforge-1.21.1" = _FXlUtzaw;
-        "neoforge-1.21.5" = _peiTAdUv;
-        "neoforge-1.21.8" = _1ouhOhb2;
-        "neoforge-1.21.11" = _a4sMjKpT;
-        "fabric-1.21.1" = _uXDGjTLI;
-        "fabric-1.20.1" = _Bg2DEZtD;
-        "fabric-1.21.5" = _wwQoV1v8;
-        "fabric-1.21.8" = _j6zjLA50;
-        "fabric-1.21.11" = _Wh9rmsce;
+        "uzdoirv9" = _uzdoirv9;
+        "ib3OjQpw" = _ib3OjQpw;
+        "Il5EpFdl" = _Il5EpFdl;
+        "9aZfANGC" = _9aZfANGC;
+        "aRCDRAPF" = _aRCDRAPF;
+        "KWd9CA13" = _KWd9CA13;
+        "ijGxFRlI" = _ijGxFRlI;
+        "s8IbaWCU" = _s8IbaWCU;
+        "sVBzSDM0" = _sVBzSDM0;
+        "70vaquaQ" = _70vaquaQ;
+        "VU630H6V" = _VU630H6V;
+        "cY96TgbB" = _cY96TgbB;
+        "P86wrhst" = _P86wrhst;
+        "NZl87q5h" = _NZl87q5h;
+        "oBRZwaol" = _oBRZwaol;
+        "GwD7yqru" = _GwD7yqru;
+        "BnwFgAL0" = _BnwFgAL0;
+        "vavvMQME" = _vavvMQME;
+        "lWXqveYx" = _lWXqveYx;
+        "UdV6XqGC" = _UdV6XqGC;
+        "aQT6UqPs" = _aQT6UqPs;
+        "forge-1.19.2" = _aRCDRAPF;
+        "forge-1.20.1" = _KWd9CA13;
+        "forge-1.21.1" = _ijGxFRlI;
+        "forge-1.21.5" = _s8IbaWCU;
+        "forge-1.21.8" = _sVBzSDM0;
+        "forge-1.21.11" = _70vaquaQ;
+        "forge-1.19.4" = _aRCDRAPF;
+        "forge-1.19.3" = _aRCDRAPF;
+        "forge-26.2" = _BnwFgAL0;
+        "forge-26.3" = _UdV6XqGC;
+        "neoforge-1.21.1" = _uzdoirv9;
+        "neoforge-1.21.5" = _ib3OjQpw;
+        "neoforge-1.21.8" = _Il5EpFdl;
+        "neoforge-1.21.11" = _9aZfANGC;
+        "neoforge-26.2" = _vavvMQME;
+        "neoforge-26.3" = _aQT6UqPs;
+        "fabric-1.21.1" = _cY96TgbB;
+        "fabric-1.20.1" = _VU630H6V;
+        "fabric-1.21.5" = _P86wrhst;
+        "fabric-1.21.8" = _NZl87q5h;
+        "fabric-1.21.11" = _oBRZwaol;
+        "fabric-26.2" = _GwD7yqru;
+        "fabric-26.3" = _lWXqveYx;
         "pkg-1.6.5" = _c3GMrdXw;
         "pkg-1.6.6" = _ciosDf7S;
         "pkg-1.6.7" = _Bg2DEZtD;
@@ -120,7 +254,15 @@ let
         "pkg-1.8.0" = _peiTAdUv;
         "pkg-1.9.0" = _1ouhOhb2;
         "pkg-1.10.0" = _a4sMjKpT;
-        "default" = _a4sMjKpT;
+        "pkg-1.7.1" = _cY96TgbB;
+        "pkg-1.8.1" = _P86wrhst;
+        "pkg-1.9.1" = _NZl87q5h;
+        "pkg-1.10.1" = _oBRZwaol;
+        "pkg-1.6.6.1" = _aRCDRAPF;
+        "pkg-1.6.8" = _VU630H6V;
+        "pkg-1.11.0" = _vavvMQME;
+        "pkg-1.12.0" = _aQT6UqPs;
+        "default" = _aQT6UqPs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "christmas-dweller";

@@ -46,6 +46,21 @@ let
             "file" = "Stashlight-1.0.1.jar";
             "hash" = "sha512-A1mIaYIwIDtEcfmJdHXzI5zzpunZL2i2Df7Jd6wyvBUBjNZPhHLOXROm0zThqzb5NGonzamA7eKgbA0e4gyj3w==";
         };
+        _41jbBRtN = {
+            "id" = "41jbBRtN";
+            "file" = "Stashlight-1.0.2.jar";
+            "hash" = "sha512-D2icNhZe4wkfbXHLTjB1TvR/kRg/JAmAnVNEDhJll+TDWSJXi98i6BgXX7BQg1E3gHuxH+syB7jiXjhLK/fNbQ==";
+        };
+        _EtSeTbHq = {
+            "id" = "EtSeTbHq";
+            "file" = "Stashlight-1.0.2.jar";
+            "hash" = "sha512-FsIMoVbIQRaORMJYj/Tz/Y/84z5TdHEeEo/LqITrlHaye1z6xt/kxMm2W8TBvk9Mvq9L5y4/XSLH4/7eNjIu0g==";
+        };
+        _CMSuU5wG = {
+            "id" = "CMSuU5wG";
+            "file" = "Stashlight-1.0.2.jar";
+            "hash" = "sha512-axWNhAr6eHYFj5JGT1nNB9/B8SEwc+qC3cZvDL/Cz/SSRdqjWRuZ6krAX24vVuafGlLlWEuaiE0W6L0+ic1xEg==";
+        };
     in {
         "DjaCjrUy" = _DjaCjrUy;
         "N15CsoGk" = _N15CsoGk;
@@ -56,25 +71,29 @@ let
         "vtDh656r" = _vtDh656r;
         "7lsc7fjQ" = _7lsc7fjQ;
         "VXvW0GvU" = _VXvW0GvU;
+        "41jbBRtN" = _41jbBRtN;
+        "EtSeTbHq" = _EtSeTbHq;
+        "CMSuU5wG" = _CMSuU5wG;
         "fabric-1.21.10" = _vtDh656r;
-        "fabric-1.21.11" = _zhdAcyog;
-        "fabric-26.1" = _7lsc7fjQ;
-        "fabric-26.1.1" = _7lsc7fjQ;
-        "fabric-26.1.2" = _7lsc7fjQ;
-        "fabric-26.2" = _VXvW0GvU;
+        "fabric-1.21.11" = _CMSuU5wG;
+        "fabric-26.1" = _EtSeTbHq;
+        "fabric-26.1.1" = _EtSeTbHq;
+        "fabric-26.1.2" = _EtSeTbHq;
+        "fabric-26.2" = _41jbBRtN;
         "quilt-1.21.10" = _vtDh656r;
-        "quilt-1.21.11" = _zhdAcyog;
-        "quilt-26.1" = _7lsc7fjQ;
-        "quilt-26.1.1" = _7lsc7fjQ;
-        "quilt-26.1.2" = _7lsc7fjQ;
-        "quilt-26.2" = _VXvW0GvU;
+        "quilt-1.21.11" = _CMSuU5wG;
+        "quilt-26.1" = _EtSeTbHq;
+        "quilt-26.1.1" = _EtSeTbHq;
+        "quilt-26.1.2" = _EtSeTbHq;
+        "quilt-26.2" = _41jbBRtN;
         "pkg-0.1.0-beta" = _N15CsoGk;
         "pkg-0.2.0-beta" = _wPBDZCsM;
         "pkg-0.3.0-beta" = _lLLMdAFZ;
         "pkg-0.4.0-beta" = _vtDh656r;
         "pkg-1.0.0" = _7lsc7fjQ;
         "pkg-1.0.1" = _VXvW0GvU;
-        "default" = _VXvW0GvU;
+        "pkg-1.0.2" = _CMSuU5wG;
+        "default" = _CMSuU5wG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stashlight";

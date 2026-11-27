@@ -301,6 +301,26 @@ let
             "file" = "spacecatasb-fabric-26.17.1.jar";
             "hash" = "sha512-bkBvTwhry+uc98ZsShM/FemETAJaERoE/gDfq9imKXOWXKVi6bEA7V6pEo5WuQCZEMtfrddJoLBcevkNY35K3Q==";
         };
+        _TTOgHLya = {
+            "id" = "TTOgHLya";
+            "file" = "spacecatasb-neoforge-26.17.1.jar";
+            "hash" = "sha512-1vI+aFqmdnNt08T0iAeOru0scbQ/TFnm4eCMarGbTQyxGHdcrvamT9+YOsB/U4civZh6JUQ6PWvKZapL1FnDVg==";
+        };
+        _xBZbi65D = {
+            "id" = "xBZbi65D";
+            "file" = "spacecatasb-fabric-26.17.1.jar";
+            "hash" = "sha512-3eWFYrQC4x821EzXH8raLb5Tvf0lv2s0Cbhk4PZRITOJUkqGoawGlYCFfNGrxFT7FsW+aCOpeTz4ySKBr1ePig==";
+        };
+        _NNxeKVT9 = {
+            "id" = "NNxeKVT9";
+            "file" = "spacecatasb-neoforge-26.17.1.jar";
+            "hash" = "sha512-7uS7W9H8AijTyXnTOfaAtIpenKcf2wJaoj1atjG2Atx0eUQHi0gMYIguoMHbH/jkAQeqKyj/XncRR47z4JFWKA==";
+        };
+        _cpqSlTlr = {
+            "id" = "cpqSlTlr";
+            "file" = "spacecatasb-fabric-26.17.1.jar";
+            "hash" = "sha512-XnMHkyJA3/Y1+kEMRxl3lnUx+CnpjkOJwpJFbFLU0jtswEOU2ZE9CNa15dNN1gpn1bomTZX35JBeMbRa2+kpwg==";
+        };
     in {
         "xSuiDssK" = _xSuiDssK;
         "EHBP3f1b" = _EHBP3f1b;
@@ -362,6 +382,10 @@ let
         "Hyyavxiw" = _Hyyavxiw;
         "H5rkbTzO" = _H5rkbTzO;
         "Qha6JpSR" = _Qha6JpSR;
+        "TTOgHLya" = _TTOgHLya;
+        "xBZbi65D" = _xBZbi65D;
+        "NNxeKVT9" = _NNxeKVT9;
+        "cpqSlTlr" = _cpqSlTlr;
         "forge-1.16.5" = _9ynPeljU;
         "forge-1.18.2" = _YnxpbDqX;
         "forge-1.19.2" = _daegDxcu;
@@ -388,6 +412,8 @@ let
         "fabric-1.21.9" = _bv6MeEb8;
         "fabric-1.21.11" = _Hyyavxiw;
         "fabric-26.1.2" = _Qha6JpSR;
+        "fabric-26.2" = _xBZbi65D;
+        "fabric-26.3" = _cpqSlTlr;
         "neoforge-1.21.1" = _IvERd8ak;
         "neoforge-1.21.2" = _hPS7L1fH;
         "neoforge-1.20.2" = _y1PxYtts;
@@ -401,6 +427,8 @@ let
         "neoforge-1.21.10" = _4Rl8rmKS;
         "neoforge-1.21.11" = _GDoQa8QY;
         "neoforge-26.1.2" = _H5rkbTzO;
+        "neoforge-26.2" = _TTOgHLya;
+        "neoforge-26.3" = _NNxeKVT9;
         "pkg-16.10.1" = _4nIL4rlV;
         "pkg-18.10.1" = _ZhW3z5og;
         "pkg-19.10.1" = _ENs42Kzw;
@@ -425,8 +453,8 @@ let
         "pkg-21.16.1" = _C7jcMOw7;
         "pkg-20.17.1" = _ppddnZJL;
         "pkg-21.17.1" = _Hyyavxiw;
-        "pkg-26.17.1" = _Qha6JpSR;
-        "default" = _Qha6JpSR;
+        "pkg-26.17.1" = _cpqSlTlr;
+        "default" = _cpqSlTlr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armor-set-bonuses";

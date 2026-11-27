@@ -286,6 +286,51 @@ let
             "file" = "PlayerControlpp-v1.9-mc26.3.jar";
             "hash" = "sha512-HsYyOrYZx6DRocoEV2fElopeKKwlG+d7hI93cNjCUWPAsXfDo7iRyj2REzTlq50fk8eEws2T80MhWF3b5oEgrg==";
         };
+        _9Iq93bY4 = {
+            "id" = "9Iq93bY4";
+            "file" = "PlayerControlpp-v2.0-mc1.21.1.jar";
+            "hash" = "sha512-jOipBNA29NYlo2McVeOO+yJhtQG6p1pXMOSaShskJTgk7uU1VrOcTuVrZd7Bbgz4QvmoX/QLaWQ7EZmS1eXZPA==";
+        };
+        _Vh6VwR8o = {
+            "id" = "Vh6VwR8o";
+            "file" = "PlayerControlpp-v2.0-mc1.21.4.jar";
+            "hash" = "sha512-a/8dG8MgZFLGKklaKSJFHCdZ272+EBOKmgwbft08RGEEEiBIrmR4kJ2z6G2PEddVa1DQZHRDwk0G2QJhacmkhQ==";
+        };
+        _c7JISRes = {
+            "id" = "c7JISRes";
+            "file" = "PlayerControlpp-v2.0-mc1.21.6.jar";
+            "hash" = "sha512-6OqBvkzMSqfVsvK/UaPEGO7mtKuaDylLPMvjTjZgMm8lpDeiBmqxZqa985Kvpw+Ofj/RgjbE1nrxVzBsvG+ssg==";
+        };
+        _uDc10sNz = {
+            "id" = "uDc10sNz";
+            "file" = "PlayerControlpp-v2.0-mc1.21.8.jar";
+            "hash" = "sha512-qz+LpsxX7+OIF9+yom938folNHH0SS4FL/2lqmfTMAuSDAjybWjFYe2wKmXFtXaEhgg+uKzwTr104KJylbBN9w==";
+        };
+        _r66Se1UC = {
+            "id" = "r66Se1UC";
+            "file" = "PlayerControlpp-v2.0-mc1.21.10.jar";
+            "hash" = "sha512-q1v+jN/2xWYqawaN4xJbPBhajy+f3EbN5Hrk28hqq3syYKbmxb1Kd+odZRgtit8wGlOHvGF9gsZBH0KJuFH7nA==";
+        };
+        _ZmSN36Es = {
+            "id" = "ZmSN36Es";
+            "file" = "PlayerControlpp-v2.0-mc1.21.11.jar";
+            "hash" = "sha512-hHvM9BSWqKKNV7Y16h9WJ5fL86Lxkq2kzA24O1RT0WlpIRK5cJry43A0l9BrwZbb0NGpTjqJNHAdYVswEShHxA==";
+        };
+        _w24h9eQz = {
+            "id" = "w24h9eQz";
+            "file" = "PlayerControlpp-v2.0-mc26.1.2.jar";
+            "hash" = "sha512-PCf9m7aupzKC6jYYqqVcU2shWa8Eb8vVOrIs8vqbKI5VlkqlZN9elpo8b0wNcYnsLinRwlRe6s8x7uPJpx1YFQ==";
+        };
+        _Ib4SipE6 = {
+            "id" = "Ib4SipE6";
+            "file" = "PlayerControlpp-v2.0-mc26.2.jar";
+            "hash" = "sha512-Ov/0oD7lC1cfzSIaO5ZsKb2E2H4eQlbKNwmJjqWJb4FtfP1IfpzYWjQSKQLezhrV1gRbcVbYCS+6AvLEccvu4Q==";
+        };
+        _28eHEU2d = {
+            "id" = "28eHEU2d";
+            "file" = "PlayerControlpp-v2.0-mc26.3.jar";
+            "hash" = "sha512-pULtt4dYLo/yLhxEoTTTU9AD1ZuE/lQ1kzVYPJlgHf9hqE4yMzbtT3sXwvBq61gecZjKwEqOp58UZhBjKkCJ1Q==";
+        };
     in {
         "DZlcORhY" = _DZlcORhY;
         "WLmlnERJ" = _WLmlnERJ;
@@ -344,19 +389,28 @@ let
         "kIusy3f3" = _kIusy3f3;
         "4BRYhxpi" = _4BRYhxpi;
         "IlkIVLNk" = _IlkIVLNk;
-        "fabric-1.21.11" = _mJM8T3ss;
-        "fabric-26.1" = _kIusy3f3;
-        "fabric-26.1.1" = _kIusy3f3;
-        "fabric-26.1.2" = _kIusy3f3;
-        "fabric-1.21.8" = _bETcbZTx;
-        "fabric-1.21.4" = _9dtut6p9;
-        "fabric-1.21.1" = _FuX7fr7W;
-        "fabric-1.21" = _FuX7fr7W;
-        "fabric-26.2" = _4BRYhxpi;
-        "fabric-1.21.6" = _vcMxpgMC;
-        "fabric-1.21.7" = _vcMxpgMC;
-        "fabric-1.21.10" = _HqpFIrm8;
-        "fabric-26.3" = _IlkIVLNk;
+        "9Iq93bY4" = _9Iq93bY4;
+        "Vh6VwR8o" = _Vh6VwR8o;
+        "c7JISRes" = _c7JISRes;
+        "uDc10sNz" = _uDc10sNz;
+        "r66Se1UC" = _r66Se1UC;
+        "ZmSN36Es" = _ZmSN36Es;
+        "w24h9eQz" = _w24h9eQz;
+        "Ib4SipE6" = _Ib4SipE6;
+        "28eHEU2d" = _28eHEU2d;
+        "fabric-1.21.11" = _ZmSN36Es;
+        "fabric-26.1" = _w24h9eQz;
+        "fabric-26.1.1" = _w24h9eQz;
+        "fabric-26.1.2" = _w24h9eQz;
+        "fabric-1.21.8" = _uDc10sNz;
+        "fabric-1.21.4" = _Vh6VwR8o;
+        "fabric-1.21.1" = _9Iq93bY4;
+        "fabric-1.21" = _9Iq93bY4;
+        "fabric-26.2" = _Ib4SipE6;
+        "fabric-1.21.6" = _c7JISRes;
+        "fabric-1.21.7" = _c7JISRes;
+        "fabric-1.21.10" = _r66Se1UC;
+        "fabric-26.3" = _28eHEU2d;
         "pkg-1.3" = _DEIfYKEI;
         "pkg-1.4" = _nAOkxewl;
         "pkg-1.5" = _2WOe8lFg;
@@ -366,7 +420,8 @@ let
         "pkg-1.8" = _OBQFsoTz;
         "pkg-1.8.1" = _6kW0VJkC;
         "pkg-1.9" = _IlkIVLNk;
-        "default" = _IlkIVLNk;
+        "pkg-2.0" = _28eHEU2d;
+        "default" = _28eHEU2d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "playercontrol-plus-plus";

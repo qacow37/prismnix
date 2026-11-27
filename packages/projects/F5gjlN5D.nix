@@ -51,6 +51,11 @@ let
             "file" = "tacz_sewv-0.1.7.jar";
             "hash" = "sha512-V7Ug3tpHOLQbtXqnSyXDn74MYdoqau95HgcD0Eqtb4yVSTb9X4nU0waELmzcR76g6pPCY3llyuGhQvsFR/rLvA==";
         };
+        _YnzvVYZD = {
+            "id" = "YnzvVYZD";
+            "file" = "tacz_sewv-0.1.8.jar";
+            "hash" = "sha512-Wg6Z2Z42nTfTi3aI8JoXhwwPw0FSjkiIrBZvG7ns6sBYPMVLKcnfHdUZ4UaILxvHkH+MXjSdCjav6Cx23ctF1g==";
+        };
     in {
         "l0cZumDE" = _l0cZumDE;
         "SvgRAyVy" = _SvgRAyVy;
@@ -62,12 +67,13 @@ let
         "XfNXBeI7" = _XfNXBeI7;
         "JN2ci4V7" = _JN2ci4V7;
         "nUbgqM3I" = _nUbgqM3I;
-        "forge-1.20.1" = _nUbgqM3I;
-        "forge-1.20.2" = _nUbgqM3I;
-        "forge-1.20.3" = _nUbgqM3I;
-        "forge-1.20.4" = _nUbgqM3I;
-        "forge-1.20.5" = _nUbgqM3I;
-        "forge-1.20.6" = _nUbgqM3I;
+        "YnzvVYZD" = _YnzvVYZD;
+        "forge-1.20.1" = _YnzvVYZD;
+        "forge-1.20.2" = _YnzvVYZD;
+        "forge-1.20.3" = _YnzvVYZD;
+        "forge-1.20.4" = _YnzvVYZD;
+        "forge-1.20.5" = _YnzvVYZD;
+        "forge-1.20.6" = _YnzvVYZD;
         "pkg-0.0.3" = _l0cZumDE;
         "pkg-0.1.0" = _SvgRAyVy;
         "pkg-0.1.1" = _8Y3BPJal;
@@ -78,7 +84,8 @@ let
         "pkg-0.1.6" = _XfNXBeI7;
         "pkg-0.1.6a" = _JN2ci4V7;
         "pkg-0.1.7" = _nUbgqM3I;
-        "default" = _nUbgqM3I;
+        "pkg-0.1.8" = _YnzvVYZD;
+        "default" = _YnzvVYZD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-combined-arms";

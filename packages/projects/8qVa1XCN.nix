@@ -186,6 +186,11 @@ let
             "file" = "light-overlay-2.13.1+26.3.jar";
             "hash" = "sha512-MA3U+nskVgPrRz6IrWngF9VuHVMiz5GadcQUvma4iT1kbN6T820Y55n6kzJHMEmtfSUel2dhIrmU+FoRJI1BYA==";
         };
+        _wekn1ZKR = {
+            "id" = "wekn1ZKR";
+            "file" = "light-overlay-2.14.0+26.3.jar";
+            "hash" = "sha512-A5SGRmRMbwhYmTtKrM2XEQBIh3vReJLUJIegvY3gTXdI/7vtTkd+AMlqqhVrRAvW7sJgYMsxRdPGzGhG1NZHUQ==";
+        };
     in {
         "D56GKsHd" = _D56GKsHd;
         "OsX6wHWd" = _OsX6wHWd;
@@ -224,6 +229,7 @@ let
         "miOvpon4" = _miOvpon4;
         "AmDFFQBg" = _AmDFFQBg;
         "MBWYrOAD" = _MBWYrOAD;
+        "wekn1ZKR" = _wekn1ZKR;
         "fabric-1.21.9" = _i5M1dSjM;
         "fabric-1.21.6" = _AXJyclVl;
         "fabric-1.21.7" = _AXJyclVl;
@@ -235,7 +241,7 @@ let
         "fabric-26.1.1" = _Nh5BO6yG;
         "fabric-26.1.2" = _Nh5BO6yG;
         "fabric-26.2" = _AT01Q5uN;
-        "fabric-26.3" = _MBWYrOAD;
+        "fabric-26.3" = _wekn1ZKR;
         "pkg-1.0.0-1.21.9" = _D56GKsHd;
         "pkg-1.0.0-1.21.6-1.21.8" = _OsX6wHWd;
         "pkg-1.1.0-1.21.9" = _hu1ozhzZ;
@@ -273,7 +279,8 @@ let
         "pkg-2.12.0+26.3" = _miOvpon4;
         "pkg-2.13.0+26.3" = _AmDFFQBg;
         "pkg-2.13.1+26.3" = _MBWYrOAD;
-        "default" = _MBWYrOAD;
+        "pkg-2.14.0+26.3" = _wekn1ZKR;
+        "default" = _wekn1ZKR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lightoverlay";

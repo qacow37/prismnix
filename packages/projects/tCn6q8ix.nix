@@ -46,6 +46,11 @@ let
             "file" = "playercorpse-2.0.3.jar";
             "hash" = "sha512-aIetgWSSTVzMDmhQtbL4tQM8pEjqwzUnxoNiZGJLtjM+fh7vMSKv6du7oaqwNCMU0ddQ3WAUFUIX2Ly4fWb8TQ==";
         };
+        _DNZEyc41 = {
+            "id" = "DNZEyc41";
+            "file" = "playercorpse-2.0.4[1].jar";
+            "hash" = "sha512-oaPpUtiDPT0wvpf6WrE5iZij/g7AFNj0KtjhCREMF4+tZtDO+28x4K4MKzSxIIkzF5BD7prjG+aFUBdNLZzQPg==";
+        };
     in {
         "CtnaQ4ZF" = _CtnaQ4ZF;
         "M4ZgC5PP" = _M4ZgC5PP;
@@ -56,7 +61,9 @@ let
         "ocnjPczv" = _ocnjPczv;
         "m2hCe8Rr" = _m2hCe8Rr;
         "DMfyZShi" = _DMfyZShi;
+        "DNZEyc41" = _DNZEyc41;
         "neoforge-1.21.1" = _DMfyZShi;
+        "neoforge-26.3" = _DNZEyc41;
         "forge-1.19.2" = _ocnjPczv;
         "forge-1.20.1" = _m2hCe8Rr;
         "pkg-1.0.0" = _CtnaQ4ZF;
@@ -64,7 +71,8 @@ let
         "pkg-2.0.1" = _3pY0ZU5y;
         "pkg-2.0.2" = _NkDJXR9P;
         "pkg-2.0.3" = _DMfyZShi;
-        "default" = _DMfyZShi;
+        "pkg-2.0.4" = _DNZEyc41;
+        "default" = _DNZEyc41;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "corpse-refined";

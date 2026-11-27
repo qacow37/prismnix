@@ -41,6 +41,11 @@ let
             "file" = "8x8.zip";
             "hash" = "sha512-s6FfjruOLCzjIx/BxX9oWlx5L0C/G9DtUWV6Ai3q8NSrJVNayTXgq/+mDyyggFUMmFGuiWBW3QU77Sbb5Tjc4g==";
         };
+        _8BZzcSgP = {
+            "id" = "8BZzcSgP";
+            "file" = "8x8.zip";
+            "hash" = "sha512-c5qVquneiyMx2EryfXu24gj5BmHzEjYrpM4GUfK1MnCO9c3lSNZ4nYNmUSThQ4f5+ygeSfhvS8+P5fqFiSEJMA==";
+        };
     in {
         "WTK7CY7k" = _WTK7CY7k;
         "qFdsCtpU" = _qFdsCtpU;
@@ -50,18 +55,19 @@ let
         "Jei4kTDm" = _Jei4kTDm;
         "FDTvlWKd" = _FDTvlWKd;
         "cFMoNjBn" = _cFMoNjBn;
-        "minecraft-1.21" = _FDTvlWKd;
-        "minecraft-1.21.1" = _FDTvlWKd;
-        "minecraft-1.21.2" = _FDTvlWKd;
-        "minecraft-1.21.3" = _FDTvlWKd;
-        "minecraft-1.21.4" = _FDTvlWKd;
-        "minecraft-1.21.5" = _FDTvlWKd;
-        "minecraft-1.21.6" = _FDTvlWKd;
-        "minecraft-1.21.7" = _FDTvlWKd;
-        "minecraft-1.21.8" = _FDTvlWKd;
-        "minecraft-1.21.9" = _FDTvlWKd;
-        "minecraft-1.21.10" = _FDTvlWKd;
-        "minecraft-1.21.11" = _cFMoNjBn;
+        "8BZzcSgP" = _8BZzcSgP;
+        "minecraft-1.21" = _8BZzcSgP;
+        "minecraft-1.21.1" = _8BZzcSgP;
+        "minecraft-1.21.2" = _8BZzcSgP;
+        "minecraft-1.21.3" = _8BZzcSgP;
+        "minecraft-1.21.4" = _8BZzcSgP;
+        "minecraft-1.21.5" = _8BZzcSgP;
+        "minecraft-1.21.6" = _8BZzcSgP;
+        "minecraft-1.21.7" = _8BZzcSgP;
+        "minecraft-1.21.8" = _8BZzcSgP;
+        "minecraft-1.21.9" = _8BZzcSgP;
+        "minecraft-1.21.10" = _8BZzcSgP;
+        "minecraft-1.21.11" = _8BZzcSgP;
         "minecraft-1.20" = _naTBOISn;
         "minecraft-1.20.1" = _naTBOISn;
         "minecraft-1.20.2" = _naTBOISn;
@@ -85,11 +91,11 @@ let
         "minecraft-1.16.3" = _naTBOISn;
         "minecraft-1.16.4" = _naTBOISn;
         "minecraft-1.16.5" = _naTBOISn;
-        "minecraft-26.1" = _cFMoNjBn;
-        "minecraft-26.1.1" = _cFMoNjBn;
-        "minecraft-26.1.2" = _cFMoNjBn;
-        "minecraft-26.2" = _cFMoNjBn;
-        "minecraft-26.3" = _cFMoNjBn;
+        "minecraft-26.1" = _8BZzcSgP;
+        "minecraft-26.1.1" = _8BZzcSgP;
+        "minecraft-26.1.2" = _8BZzcSgP;
+        "minecraft-26.2" = _8BZzcSgP;
+        "minecraft-26.3" = _8BZzcSgP;
         "pkg-1.0-beta" = _WTK7CY7k;
         "pkg-1.1-beta" = _qFdsCtpU;
         "pkg-1.0-release" = _NrfTIdN3;
@@ -98,7 +104,8 @@ let
         "pkg-26.2" = _Jei4kTDm;
         "pkg-26.2.1" = _FDTvlWKd;
         "pkg-26.3.0" = _cFMoNjBn;
-        "default" = _cFMoNjBn;
+        "pkg-26.4" = _8BZzcSgP;
+        "default" = _8BZzcSgP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "8x8-textures";

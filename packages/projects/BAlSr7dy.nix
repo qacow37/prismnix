@@ -381,6 +381,26 @@ let
             "file" = "kafvalentine-forge-5.4.0+1.20.1.jar";
             "hash" = "sha512-gH3qUCPsxzG5LOqPW/Jk8EzZpsrZ8mCZlha1H/uSzEZAt+/mVc16zixSE2hxpBvkAA60O6sPN3vJCL7a7tDzcw==";
         };
+        _1pzjNWKr = {
+            "id" = "1pzjNWKr";
+            "file" = "kafvalentine-fabric-5.5.0+1.21.1.jar";
+            "hash" = "sha512-MaNxnJWoSvqsFW/3ixXclEOLoeyTj5cB4mZU0VjRIy6HuN0oO+j1kKR7JBgl8KJvVXqUFn0y3uq0jn0oqQE5JQ==";
+        };
+        _lopJRIS2 = {
+            "id" = "lopJRIS2";
+            "file" = "kafvalentine-forge-5.5.0+1.21.1.jar";
+            "hash" = "sha512-DHOVQ/Tdeu6cPYq/2qNwago55g+O/AYz0g5cjOOBdsGjDAl193bfVykcMWW4XTzGuLVGYGeijN5OybVuGZt0wg==";
+        };
+        _blar1EaT = {
+            "id" = "blar1EaT";
+            "file" = "kafvalentine-neoforge-5.5.0+1.21.1.jar";
+            "hash" = "sha512-ee+pQQtVhnGSQ71DFKa8j0x0bA1dPuEZxnBdfTwQZacVog6EClgI6YKIbVYDQBRLXbrKUaoNgFj/h8Yc3j5M+A==";
+        };
+        _hvwB0ksK = {
+            "id" = "hvwB0ksK";
+            "file" = "kafvalentine-neoforge-5.5.1+1.21.1.jar";
+            "hash" = "sha512-5EKaf1PNaDQzCegucEdxexxcUXDlrJK/oEsTziHD4RqtVm+bWBrpEzxukbL8/eU/JqvhpF6fqzGN53mjjDJK8A==";
+        };
     in {
         "EoM0CndK" = _EoM0CndK;
         "agVvEHOo" = _agVvEHOo;
@@ -458,9 +478,13 @@ let
         "L0gw4F8P" = _L0gw4F8P;
         "YRG8MW4y" = _YRG8MW4y;
         "IxlmXmnt" = _IxlmXmnt;
+        "1pzjNWKr" = _1pzjNWKr;
+        "lopJRIS2" = _lopJRIS2;
+        "blar1EaT" = _blar1EaT;
+        "hvwB0ksK" = _hvwB0ksK;
         "fabric-1.20.1" = _YRG8MW4y;
         "fabric-1.21" = _GZnohreI;
-        "fabric-1.21.1" = _GZnohreI;
+        "fabric-1.21.1" = _1pzjNWKr;
         "fabric-1.21.4" = _UVlqJdDv;
         "fabric-1.21.5" = _BR5d3QjN;
         "fabric-1.21.7" = _Tak0vYUI;
@@ -472,7 +496,7 @@ let
         "fabric-1.21.11" = _L0gw4F8P;
         "fabric-26.3" = _KT4YbqsT;
         "neoforge-1.21" = _HVFElFzj;
-        "neoforge-1.21.1" = _HVFElFzj;
+        "neoforge-1.21.1" = _hvwB0ksK;
         "neoforge-1.21.4" = _jzmpjJws;
         "neoforge-1.21.5" = _ZegSsm1N;
         "neoforge-1.21.7" = _RDcD57X8;
@@ -490,6 +514,7 @@ let
         "forge-1.21.11" = _b8OG5CN4;
         "forge-26.3" = _JqpZxF66;
         "forge-1.20.1" = _IxlmXmnt;
+        "forge-1.21.1" = _lopJRIS2;
         "pkg-1.2.1-1.20.1" = _EoM0CndK;
         "pkg-1.2.2+1.20.1" = _agVvEHOo;
         "pkg-1.3.0+1.20.1" = _TjzmBJbG;
@@ -521,7 +546,9 @@ let
         "pkg-5.3.1+26.3" = _qinJuMIB;
         "pkg-5.3.2+1.21.11" = _L0gw4F8P;
         "pkg-5.4.0+1.20.1" = _IxlmXmnt;
-        "default" = _IxlmXmnt;
+        "pkg-5.5.0+1.21.1" = _blar1EaT;
+        "pkg-5.5.1+1.21.1" = _hvwB0ksK;
+        "default" = _hvwB0ksK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kafs-valentine-special";

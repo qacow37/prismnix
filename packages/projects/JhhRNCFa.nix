@@ -26,19 +26,26 @@ let
             "file" = "ait-extras-1.1.0-1.20.1-release.jar";
             "hash" = "sha512-BsK1S4WG/st8INfJUMPKTVJpGXIIbNxXRsB/o0FUpl7ZAvpSQfCDixVUFno81AYdnQ4pVYOiW1oTGJYn8A53BQ==";
         };
+        _87eeUgQ2 = {
+            "id" = "87eeUgQ2";
+            "file" = "ait-extras-1.1.1-1.20.1-release.jar";
+            "hash" = "sha512-hUVwlKRvi0ZWQQMt/yFKklzc8rsRopQOABJiYzK6lVc/QdE7l/6uU38wlG5k0EcLJ8PB7iq0Cz5VIRUeu5+k0Q==";
+        };
     in {
         "33vs3pcT" = _33vs3pcT;
         "x7kHZxZO" = _x7kHZxZO;
         "QhCtvtcV" = _QhCtvtcV;
         "yDYIXNum" = _yDYIXNum;
         "VgKq4cGm" = _VgKq4cGm;
-        "fabric-1.20.1" = _VgKq4cGm;
+        "87eeUgQ2" = _87eeUgQ2;
+        "fabric-1.20.1" = _87eeUgQ2;
         "pkg-1.0.0-1.20.1" = _33vs3pcT;
         "pkg-1.0.1-1.20.1" = _x7kHZxZO;
         "pkg-1.0.2-1.20.1" = _QhCtvtcV;
         "pkg-1.0.3-1.20.1-release" = _yDYIXNum;
         "pkg-1.1.0-1.20.1-release" = _VgKq4cGm;
-        "default" = _VgKq4cGm;
+        "pkg-1.1.1-1.20.1-release" = _87eeUgQ2;
+        "default" = _87eeUgQ2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ait-extras";

@@ -76,6 +76,21 @@ let
             "file" = "CRE-v0.0.5-Fabric.jar";
             "hash" = "sha512-9aqHU7lFOSo1usZyXm9BUdbc9THeN5RQmvuWRA6UrE8UYdf0PKnWjeGUGkFNeco1kSe24/n8RC4mJ7W/vek93Q==";
         };
+        _ZSuIMbDk = {
+            "id" = "ZSuIMbDk";
+            "file" = "CRE-v0.0.5-NeoForge-V2.jar";
+            "hash" = "sha512-7x/82fdKa6CjtRSQKS9/ZVHIcNGbEEQLcMIPkiXBTvMocurzZ7kuph7JrLm+AqE+WJMwMZbfVgChPJz5luvI9Q==";
+        };
+        _Ibc5VAVy = {
+            "id" = "Ibc5VAVy";
+            "file" = "CRE-v0.0.5-Fabric-V2.jar";
+            "hash" = "sha512-BDThAxcwz3jSgdLBbI1F6ijLsYA8CsW3HMY5dyZjKljh1fuaCDJfbP0iuFaQ7qsk/Rlasf2j4vXwfbeEErBl+A==";
+        };
+        _RGozeF8T = {
+            "id" = "RGozeF8T";
+            "file" = "CRE-Datapack-v0.0.5-V2.zip";
+            "hash" = "sha512-2+KmAXhE4fR8U0s6vhyJ6tA+cAv/hVDu+TQO95/xP2nGK9lNJJiPFH88eU/295dO9Th1o3HkPd2fH702LeDQ2A==";
+        };
     in {
         "GuSz7fGe" = _GuSz7fGe;
         "mgnFG5fn" = _mgnFG5fn;
@@ -92,16 +107,19 @@ let
         "r4FtKcgL" = _r4FtKcgL;
         "TSgaxOJ9" = _TSgaxOJ9;
         "SawuHgpJ" = _SawuHgpJ;
-        "fabric-1.21.1" = _SawuHgpJ;
-        "neoforge-1.21.1" = _TSgaxOJ9;
-        "datapack-1.21" = _r4FtKcgL;
-        "datapack-1.21.1" = _r4FtKcgL;
+        "ZSuIMbDk" = _ZSuIMbDk;
+        "Ibc5VAVy" = _Ibc5VAVy;
+        "RGozeF8T" = _RGozeF8T;
+        "fabric-1.21.1" = _Ibc5VAVy;
+        "neoforge-1.21.1" = _ZSuIMbDk;
+        "datapack-1.21" = _RGozeF8T;
+        "datapack-1.21.1" = _RGozeF8T;
         "pkg-0.0.1" = _dbDnOB7A;
         "pkg-0.0.2" = _GnjhHy7y;
         "pkg-0.0.3" = _MjxGgCzG;
         "pkg-0.0.4" = _DMuwwW7G;
-        "pkg-0.0.5" = _SawuHgpJ;
-        "default" = _SawuHgpJ;
+        "pkg-0.0.5" = _RGozeF8T;
+        "default" = _RGozeF8T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cre";

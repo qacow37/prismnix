@@ -111,6 +111,21 @@ let
             "file" = "Paraglider-neoforge-26.2.1.jar";
             "hash" = "sha512-CIMB0LCTHSE1kQTMX21UK9vtX8yXiXZuqME/0ps6gf8LExmPT1b8yOon4Os87xdx9LbKOdBV1STGLP+dVdQRtw==";
         };
+        _1JGdKj7O = {
+            "id" = "1JGdKj7O";
+            "file" = "Paraglider-neoforge-26.1.4.jar";
+            "hash" = "sha512-vgnDsj/VDz5aU8ccqoJJNnutnXBONRY1q2RM11uEafMO1YhhEtNZUdT3N+GxpguEnV6Z9tNTeOWHDYvQfyyucg==";
+        };
+        _Eg499pci = {
+            "id" = "Eg499pci";
+            "file" = "Paraglider-neoforge-26.2.3.jar";
+            "hash" = "sha512-anTrGJfG9rGDsgExWSao2Fb0QaMVsYFjW3LgePWmQp3mnZH+I2XRhFwA5A4BdXA5fNmVhnWENixVyP8DXsdzkA==";
+        };
+        _m1Rp0m1I = {
+            "id" = "m1Rp0m1I";
+            "file" = "Paraglider-neoforge-26.3.1.jar";
+            "hash" = "sha512-7neKU3IGbLyMbLm8j77F46wilnznR5lKWs3o70Ipj+WVUl1HK0wRMTVWUzQO5CK81vo2m/ABPWnShA0pw+KnNA==";
+        };
     in {
         "nudKlXXT" = _nudKlXXT;
         "iC6viT2p" = _iC6viT2p;
@@ -134,6 +149,9 @@ let
         "7IUWYFKi" = _7IUWYFKi;
         "eWpsLK31" = _eWpsLK31;
         "FTwrXq5l" = _FTwrXq5l;
+        "1JGdKj7O" = _1JGdKj7O;
+        "Eg499pci" = _Eg499pci;
+        "m1Rp0m1I" = _m1Rp0m1I;
         "forge-1.20.1" = _nudKlXXT;
         "fabric-1.20.1" = _6qmc3Nyl;
         "neoforge-1.21.5" = _7uC0Y3iY;
@@ -141,8 +159,9 @@ let
         "neoforge-1.21.11" = _L6hTL3QG;
         "neoforge-26.1" = _je3Gfre4;
         "neoforge-26.1.1" = _8hcLD174;
-        "neoforge-26.1.2" = _eWpsLK31;
-        "neoforge-26.2" = _FTwrXq5l;
+        "neoforge-26.1.2" = _1JGdKj7O;
+        "neoforge-26.2" = _Eg499pci;
+        "neoforge-26.3" = _m1Rp0m1I;
         "pkg-20.1.3" = _iC6viT2p;
         "pkg-21.5.1" = _z0jo94uJ;
         "pkg-21.1.2" = _wTGofLai;
@@ -164,7 +183,10 @@ let
         "pkg-26.1.1" = _7IUWYFKi;
         "pkg-26.1.2" = _eWpsLK31;
         "pkg-26.2.1" = _FTwrXq5l;
-        "default" = _FTwrXq5l;
+        "pkg-26.1.4" = _1JGdKj7O;
+        "pkg-26.2.3" = _Eg499pci;
+        "pkg-26.3.1" = _m1Rp0m1I;
+        "default" = _m1Rp0m1I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "paragliders";

@@ -66,6 +66,11 @@ let
             "file" = "zero-3.0.jar";
             "hash" = "sha512-E1GI/mpTMWLT9y/3sm/RhlTawLTbeW98UYzNa/TSPIy7X0FnTHjBHlQdQhVCt8V+cgrZp6kwSIYTFCfGaa64ZQ==";
         };
+        _HncNLvHf = {
+            "id" = "HncNLvHf";
+            "file" = "zero-3.1.jar";
+            "hash" = "sha512-sylTrLrmtaDD707D8sjEbAYbEYzqZck8atJTMHqdHXyCasJIv7evRF7vcSkChx4khIfXZUr2xSutA4zu/3YMWQ==";
+        };
     in {
         "ls0uIFq0" = _ls0uIFq0;
         "xfjGmxQx" = _xfjGmxQx;
@@ -80,7 +85,8 @@ let
         "NeQKhef0" = _NeQKhef0;
         "oYlNNdxW" = _oYlNNdxW;
         "1FEddnel" = _1FEddnel;
-        "fabric-1.21.11" = _1FEddnel;
+        "HncNLvHf" = _HncNLvHf;
+        "fabric-1.21.11" = _HncNLvHf;
         "pkg-1.0" = _ls0uIFq0;
         "pkg-1.1" = _xfjGmxQx;
         "pkg-2.0" = _f7eu2jIS;
@@ -89,7 +95,8 @@ let
         "pkg-2.2.1" = _NeQKhef0;
         "pkg-2.3" = _oYlNNdxW;
         "pkg-3.0" = _1FEddnel;
-        "default" = _1FEddnel;
+        "pkg-3.1" = _HncNLvHf;
+        "default" = _HncNLvHf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zerovisuals";

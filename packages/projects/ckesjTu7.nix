@@ -81,6 +81,26 @@ let
             "file" = "ThaisDelight-neoforge-1.21.1+2.0.2.jar";
             "hash" = "sha512-/b+8dedEM7PsSyBgKQ9CNs9DbmjEN1NgnHvD4z2L2Ts0V2zVrJanN0ZcD/2vhwnFE4wowL63PSDDrDtCh9sUgg==";
         };
+        _4cWlX8re = {
+            "id" = "4cWlX8re";
+            "file" = "ThaisDelight-fabric-1.20.1+2.0.4.jar";
+            "hash" = "sha512-W9n3QV1r/symITcL0X2DIx1ssHJrn+4MekXGixoBcWIHpcJ/Zk8N0XSi8Ov9UX2UNjKU/465AToSDWNx9XTNnA==";
+        };
+        _woDWmMAR = {
+            "id" = "woDWmMAR";
+            "file" = "ThaisDelight-forge-1.20.1+2.0.4.jar";
+            "hash" = "sha512-2cK/yX8+fiq9kQkTMWPSSpDxs9757usDvvxOSGG4NRou1zQTf/U5Vm0EESFIamAuJFg626BkXy9KkNf7FeQ+9g==";
+        };
+        _PJHvomWO = {
+            "id" = "PJHvomWO";
+            "file" = "ThaisDelight-fabric-1.21.1+2.0.3.jar";
+            "hash" = "sha512-biaB9cibfJKur4SvdjF4CrDykKI3QCpXeDfzgHRpKoo4s3TvMuiWPiaoRZKH5++ugQihesPhjVKOUoEyzFky+Q==";
+        };
+        _tp0Aa9bm = {
+            "id" = "tp0Aa9bm";
+            "file" = "ThaisDelight-neoforge-1.21.1+2.0.3.jar";
+            "hash" = "sha512-2H93GV5BzlFNnWJQX8qRguKW0tikfVCY1OI1mjJh7XjJXrbAd73FwW+n1PdYt2mOV+Vc8LU6qZR88GZutqsYrA==";
+        };
     in {
         "E7vJGiHF" = _E7vJGiHF;
         "8p44CL48" = _8p44CL48;
@@ -98,10 +118,14 @@ let
         "SfdfCyKy" = _SfdfCyKy;
         "xBSDIiNB" = _xBSDIiNB;
         "2pzrrEMJ" = _2pzrrEMJ;
-        "forge-1.20.1" = _SfdfCyKy;
-        "fabric-1.20.1" = _bltOw5lA;
-        "fabric-1.21.1" = _xBSDIiNB;
-        "neoforge-1.21.1" = _2pzrrEMJ;
+        "4cWlX8re" = _4cWlX8re;
+        "woDWmMAR" = _woDWmMAR;
+        "PJHvomWO" = _PJHvomWO;
+        "tp0Aa9bm" = _tp0Aa9bm;
+        "forge-1.20.1" = _woDWmMAR;
+        "fabric-1.20.1" = _4cWlX8re;
+        "fabric-1.21.1" = _PJHvomWO;
+        "neoforge-1.21.1" = _tp0Aa9bm;
         "pkg-1.0.0" = _8p44CL48;
         "pkg-forge-1.20.1+2.0.0" = _ut0Or6iA;
         "pkg-fabric-1.20.1+2.0.0" = _EXU27KUy;
@@ -117,7 +141,11 @@ let
         "pkg-forge-1.20.1+2.0.3" = _SfdfCyKy;
         "pkg-fabric-1.21.1+2.0.2" = _xBSDIiNB;
         "pkg-neoforge-1.21.1+2.0.2" = _2pzrrEMJ;
-        "default" = _2pzrrEMJ;
+        "pkg-fabric-1.20.1+2.0.4" = _4cWlX8re;
+        "pkg-forge-1.20.1+2.0.4" = _woDWmMAR;
+        "pkg-fabric-1.21.1+2.0.3" = _PJHvomWO;
+        "pkg-neoforge-1.21.1+2.0.3" = _tp0Aa9bm;
+        "default" = _tp0Aa9bm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "muffins-thais-delight";

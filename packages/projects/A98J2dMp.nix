@@ -41,6 +41,11 @@ let
             "file" = "cordsHUD-3.8.0.jar";
             "hash" = "sha512-oyLdIFfJv8onYFGVNkVTzDFzYUHg9fnhZkaTxhBzxFZqHmi8WTQ5BoSQLQ1t6m7M2XPc202shH+cEyM46nmh5g==";
         };
+        _zvSYVeM7 = {
+            "id" = "zvSYVeM7";
+            "file" = "cordHUD 3.9.0.jar";
+            "hash" = "sha512-q3zJJySWoA1OMYx2sWaMlum1im0ZXwLKW/M7XxrcwwBnyAk7bqNZUgphc8LDuHJ3CVeVIEkUdZiGkdNgU9Z6vw==";
+        };
     in {
         "fsBvxLNx" = _fsBvxLNx;
         "DnFJz5Lh" = _DnFJz5Lh;
@@ -50,7 +55,8 @@ let
         "h4Sdi70c" = _h4Sdi70c;
         "OudWQ1JC" = _OudWQ1JC;
         "xOpYuAi5" = _xOpYuAi5;
-        "fabric-1.21.11" = _xOpYuAi5;
+        "zvSYVeM7" = _zvSYVeM7;
+        "fabric-1.21.11" = _zvSYVeM7;
         "pkg-1.0.0" = _fsBvxLNx;
         "pkg-1.5.0" = _DnFJz5Lh;
         "pkg-2.0.0" = _sv1JoONp;
@@ -59,7 +65,8 @@ let
         "pkg-3.6.0" = _h4Sdi70c;
         "pkg-3.7.0" = _OudWQ1JC;
         "pkg-3.8.0" = _xOpYuAi5;
-        "default" = _xOpYuAi5;
+        "pkg-3.9.0" = _zvSYVeM7;
+        "default" = _zvSYVeM7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cordshud";

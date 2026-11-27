@@ -31,6 +31,16 @@ let
             "file" = "FlashBackClipper-1.0.1+26.2.jar";
             "hash" = "sha512-SYB3iDh8X+Lu/a//5q4jE1zcWhM0TNoLe0Q4vF6dfcM/T53uTw21qbJlLpyLcBC05wBoEm/s/1d29gRj7fkZKg==";
         };
+        _WHqr1HfA = {
+            "id" = "WHqr1HfA";
+            "file" = "FlashBackClipper-1.0.1+1.21.1.jar";
+            "hash" = "sha512-p6e+blOr1jGWQqTaWPQAOLqHQ+uZuynNeogn0uwbrBK+sYZTlelKqaS9wVg8PVlVOkc7vo5CplX4ouPE/UOK5A==";
+        };
+        _t1TUeo9S = {
+            "id" = "t1TUeo9S";
+            "file" = "FlashBackClipper-1.0.1+26.3.jar";
+            "hash" = "sha512-mzMZJ0VoaroR9mRNE8nx6i0s9Lu1cbEzk5fvUY5NZQvJw2vp9nkGWr5EUwZW5i1zqOZBgyUCQLbZpas/8c2rfA==";
+        };
     in {
         "XEYvMJI9" = _XEYvMJI9;
         "gPfIEsjc" = _gPfIEsjc;
@@ -38,16 +48,22 @@ let
         "Zkk5DuOR" = _Zkk5DuOR;
         "1hiKH2ir" = _1hiKH2ir;
         "scCVRu0G" = _scCVRu0G;
+        "WHqr1HfA" = _WHqr1HfA;
+        "t1TUeo9S" = _t1TUeo9S;
         "fabric-1.21.11" = _Zkk5DuOR;
         "fabric-26.1.2" = _1hiKH2ir;
         "fabric-26.2" = _scCVRu0G;
+        "fabric-1.21.1" = _WHqr1HfA;
+        "fabric-26.3" = _t1TUeo9S;
         "pkg-1.0.0+1.21.11" = _XEYvMJI9;
         "pkg-1.0.0+26.1.2" = _gPfIEsjc;
         "pkg-1.0.0+26.2" = _VLJ2idgC;
         "pkg-1.0.1+1.21.11" = _Zkk5DuOR;
         "pkg-1.0.1+26.1.2" = _1hiKH2ir;
         "pkg-1.0.1+26.2" = _scCVRu0G;
-        "default" = _scCVRu0G;
+        "pkg-1.0.1+1.21.1" = _WHqr1HfA;
+        "pkg-1.0.1+26.3" = _t1TUeo9S;
+        "default" = _t1TUeo9S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flashbackclipper";
