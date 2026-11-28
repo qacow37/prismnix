@@ -48,6 +48,10 @@
                                                 {
                                                     "type": "file",
                                                     "name": "modmenu"
+                                                },
+                                                {
+                                                    "type": "file",
+                                                    "name": "no-chat-reports"
                                                 }
                                             ]
                                         },
